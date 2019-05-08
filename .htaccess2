@@ -1,0 +1,196 @@
+Options -Indexes 
+ErrorDocument 404 /404.php
+
+<IfModule mod_php5.c>
+  php_flag session.use_trans_sid off
+  #php_value display_errors 1
+  #php_value mbstring.internal_encoding UTF-8
+</IfModule>
+
+<IfModule mod_rewrite.c>
+  Options +FollowSymLinks
+  RewriteEngine On
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-l
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteCond %{REQUEST_FILENAME} !/bitrix/urlrewrite.php$
+  RewriteRule ^(.*)$ /bitrix/urlrewrite.php [L]
+  RewriteRule .* - [E=REMOTE_USER:%{HTTP:Authorization}]
+</IfModule>
+
+<IfModule mod_dir.c>
+  DirectoryIndex index.php index.html
+</IfModule>
+
+<IfModule mod_expires.c>
+  ExpiresActive on
+  ExpiresByType image/jpeg "access plus 3 day"
+  ExpiresByType image/gif "access plus 3 day"
+  ExpiresByType image/png "access plus 3 day"
+  ExpiresByType text/css "access plus 3 day"
+  ExpiresByType application/javascript "access plus 3 day"  
+</IfModule>
+
+
+
+
+	Redirect 301 /yandeks-zapustil-krupnoe-obnovlenie-dlya-poiska-andromeda.html https://msk.lapkinlab.ru/novosti/yandeks-zapustil-krupnoe-obnovlenie-dlya-poiska-andromeda.html
+
+	Redirect 301 /sozdanie_saytov_razrabotka_saytov.html https://msk.lapkinlab.ru/novosti/sozdanie_saytov_razrabotka_saytov.html
+
+	Redirect 301 /podderzhka-cayta.html https://msk.lapkinlab.ru/novosti/podderzhka-sayta-chto-eto-takoe-i-zachem.html
+
+	Redirect 301 /kontekstnaya-reklama.html https://msk.lapkinlab.ru/novosti/po-sekretu-vsemu-svetu-kontekstnaya-reklama-i-vse-chto-s-ney-svyazano.html
+
+	Redirect 301 /seo-prodvizhenie.html https://msk.lapkinlab.ru/novosti/chto-vybrat-seo-prodvizhenie-ili-kontekstnuyu-reklamu.html
+
+	Redirect 301 /zachem-nuzhno-seo-prodvizhenie.html https://msk.lapkinlab.ru/novosti/zachem-nuzhno-seo-prodvizhenie.html
+
+	Redirect 301 /reklama-v-instagram.html https://msk.lapkinlab.ru/novosti/reklama-v-instagram-instagram.html
+
+	Redirect 301 /reklama-v-facebook.html https://msk.lapkinlab.ru/novosti/reklama-v-feysbuk-facebook.html
+
+	Redirect 301 /minusinsk-yandex.html https://msk.lapkinlab.ru/novosti/minusinsk-ostav-nadezhdu-vsyak-syuda-vkhodyashchiy.html
+
+	Redirect 301 /7-effektivnih-taktik-linkbildinga.html https://msk.lapkinlab.ru/novosti/7-effektivnykh-taktik-linkbildinga.html
+
+	Redirect 301 /proveryaem-pozicii-v-google-pravilno.html https://msk.lapkinlab.ru/novosti/proveryaem-pozitsii-v-google-pravilno.html
+
+	Redirect 301 /akamai-conv-study.html https://msk.lapkinlab.ru/novosti/zamedlenie-sayta-na-1-sekundu-snizhaet-mobilnuyu-konversiyu-na-20-5.html
+
+	Redirect 301 /https-10-samih-chastih-oshibok-vnedreniya.html https://msk.lapkinlab.ru/novosti/10-samykh-chastykh-oshibok-pri-vnedrenii-https.html
+
+	Redirect 301 /tag-title-hacks.html https://msk.lapkinlab.ru/novosti/tegi-title-7-priyemov-dlya-povysheniya-pozitsiy-i-trafika.html
+
+	Redirect 301 /social-media-seo.html https://msk.lapkinlab.ru/novosti/rol-sotsialnykh-media-v-seo.html
+
+	Redirect 301 /chat-bots-full-guide.html https://msk.lapkinlab.ru/novosti/chat-boty-podrobnoe-rukovodstvo-dlya-nachinayushchikh.html
+
+	Redirect 301 /kak-izbavitsya-ot-baden-badena.html https://msk.lapkinlab.ru/novosti/yandeks-izbavitsya-ot-baden-badena-mozhno-lish-polnostyu-izbavivshis-ot-seo-tekstov.html
+
+	Redirect 301 /seo-audit-svoimi-rukami.html https://msk.lapkinlab.ru/novosti/seo-audit-svoimi-rukami.html
+
+	Redirect 301 /negtive-seo-defend.html https://msk.lapkinlab.ru/novosti/7-sovetov-po-zashchite-sayta-ot-negativnogo-seo.html
+
+	Redirect 301 /cro-mistakes-tips.html https://msk.lapkinlab.ru/novosti/6-chastykh-oshibok-pri-optimizatsii-konversii-i-kak-ikh-izbezhat.html
+
+	Redirect 301 /12-sposobov-ponyat-pochemu-prosel-trafik.html https://msk.lapkinlab.ru/novosti/12-sposobov-bystro-ponyat-pochemu-prosel-trafik-na-sayte-infografika.html
+
+	Redirect 301 /kak-ispolzovat-messendzhery-v-marketinge.html https://msk.lapkinlab.ru/novosti/kak-ispolzovat-messendzhery-v-marketinge.html
+
+	Redirect 301 /77-primerov-utp.html
+	https://msk.lapkinlab.ru/novosti/7-orientirov-i-77-primerov-sozdaniya-utp.html
+
+	Redirect 301 /populyarnie-servisy-povysheniya-prodazh.html https://msk.lapkinlab.ru/novosti/kakie-servisy-povysheniya-prodazh-populyarny-u-polzovateley-runeta-issledovanie-bonus-innovatsionnyy.html
+
+	Redirect 301 /ob-a-b-testakh-v-kontekstnoy-reklame.html https://msk.lapkinlab.ru/novosti/vazhno-znat-pri-a-b-testakh-v-kontekstnoy-reklame.html
+
+	Redirect 301 /opredelenie-chastotnosti-zaprosov-v-yandekse-i-google.html https://msk.lapkinlab.ru/novosti/opredelenie-chastotnosti-zaprosov-v-yandekse-i-google.html
+
+	Redirect 301 /kak-privlech-trafik-na-sajt-lajfhak.html https://msk.lapkinlab.ru/novosti/kak-privlech-trafik-na-sayt-layfkhak.html
+
+	Redirect 301 /seo-2017.html https://msk.lapkinlab.ru/novosti/seo-2017-vyigrat-nelzya-proigrat.html
+
+	Redirect 301 /reznya-digital-piloy.html https://msk.lapkinlab.ru/novosti/reznya-digital-piloy.html
+
+	Redirect 301 /mif-v-seo-mojno-zaskuchat.html https://msk.lapkinlab.ru/novosti/mif-v-seo-mozhno-zaskuchat.html
+
+	Redirect 301 /pochemu-vashemu-biznesu-nujen-videomarketing.html https://msk.lapkinlab.ru/novosti/pochemu-vashemu-biznesu-nuzhen-videomarketing.html
+
+	Redirect 301 /kak-opredelit-horoshee-ili-plohoe-obyavlenie-v-kontekstnoi-reklame.html https://msk.lapkinlab.ru/novosti/kak-opredelit-khoroshee-ili-plokhoe-obyavlenie-v-kontekstnoy-reklame.html
+
+	Redirect 301 /karta-empatii.html https://msk.lapkinlab.ru/novosti/karta-empatii-kratchayshiy-put-k-ponimaniyu-klienta.html
+
+	Redirect 301 /reklama-na-youtube.html https://msk.lapkinlab.ru/novosti/reklama-na-youtube-instruktazh.html
+
+	Redirect 301 /mif-idealnoe-seo.html https://msk.lapkinlab.ru/novosti/mif-seo-mozhet-byt-idealnym.html
+
+	Redirect 301 /mif-seo-ne-druzhit-s-kontekstnoi-reklamoi.html https://msk.lapkinlab.ru/novosti/mif-seo-ne-druzhit-s-kontekstnoy-reklamoy.html
+
+	Redirect 301 /algoritm-ranzhirovaniya-korolev.html https://msk.lapkinlab.ru/novosti/yandeks-anonsiroval-novyy-algoritm-ranzhirovaniya-korolev.html
+
+	Redirect 301 /put-pokupatelya-etapyi-prinyatiya-resheniya.html
+	https://msk.lapkinlab.ru/novosti/put-pokupatelya-etapy-prinyatiya-resheniya.html
+
+
+	Redirect 301 /prodvizhenie-v-internete.html https://msk.lapkinlab.ru/novosti/komanda-po-prodvizheniyu-produkta-uslugi-v-internete-lapkinlab-ru.html
+
+	Redirect 301 /oneday-yandex.html https://msk.lapkinlab.ru/novosti/issledovanie-yandeksa-odin-den-v-poiske.html
+
+	Redirect 301 /khosting-dom-dlya-vashego-sayta.html https://msk.lapkinlab.ru/novosti/khosting-deshevyy-khostel-ili-nadezhnyy-dom-dlya-vashego-sayta.html
+
+	Redirect 301 /kak-provesti-ekspress-analiz-konkurentov.html https://msk.lapkinlab.ru/novosti/kak-provesti-ekspress-analiz-konkurentov.html
+
+	Redirect 301 /chto-umeyut-boty-v-telegram.html https://msk.lapkinlab.ru/novosti/chto-umeyut-boty-v-telegram.html
+
+	Redirect 301 /yuzabiliti-testirovanie-svoimi-rukami.html https://msk.lapkinlab.ru/novosti/yuzabiliti-testirovanie-svoimi-rukami.html
+
+	Redirect 301 /10-sovetov-po-kontent-marketingu.html https://msk.lapkinlab.ru/novosti/10-sovetov-po-kontent-marketingu-dlya-malogo-biznesa.html
+
+	Redirect 301 /5-problem-kontekstnoi-reklami-sposob-resheniya.html https://msk.lapkinlab.ru/novosti/5-problem-kontekstnoy-reklamy-i-sposoby-ikh-resheniya.html
+
+	Redirect 301 /yandeks-issledoval-perehodi-po-reklamnym.html https://msk.lapkinlab.ru/novosti/yandeks-55-vsekh-perekhodov-po-reklamnym-obyavleniyam-osushchestvlyayut-polzovateli-45.html
+
+	Redirect 301 /kak-vi-slivaete-dengi-na-kontekstnuu-reklamu.html https://msk.lapkinlab.ru/novosti/serdityy-marketolog-kak-vy-slivaete-dengi-na-kontekst-ili-15-printsipov-kotorye-nuzhno-usvoit-zakazch.html
+
+	Redirect 301 /est-sposob-nachat-svoe-delo-i-privlech-mnogo-klientov.html https://msk.lapkinlab.ru/novosti/est-li-sposob-nachat-svoye-delo-i-privlech-klientov-srazu-potrativ-minimalnoe-kolichestvo-sredstv-i-.html
+
+	Redirect 301 /kak-poluchit-bistrie-rezultati-v-seo.html https://msk.lapkinlab.ru/novosti/kak-poluchit-bystrye-rezultaty-v-seo.html
+
+	Redirect 301 /kak-vesti-kampaniyu-v-google-adwords-i-ne-slit-byudzhet-chek-list-zadach.html https://msk.lapkinlab.ru/novosti/kak-vesti-kampaniyu-v-google-adwords-i-ne-slit-byudzhet-chek-list-zadach.html
+
+	Redirect 301 /seo-na-etape-razrabotki-saita.html https://msk.lapkinlab.ru/novosti/seo-na-etape-razrabotki-sayta-kak-sdelat-normalno-srazu-i-ne-peredelyvat-potom.html
+
+	Redirect 301 /yandeks-zapustil-novuyu-nastroyku-segmentov-po-geolokatsii-poligon.html https://msk.lapkinlab.ru/novosti/yandeks-zapustil-novuyu-nastroyku-segmentov-po-geolokatsii-poligon.html
+
+	Redirect 301 /seo-conference-2017-kak-prodvigat-kommercheskiy-sayt-v-infotematike.html https://msk.lapkinlab.ru/novosti/seo-conference-2017-kak-prodvigat-kommercheskiy-sayt-v-infotematike.html
+
+	Redirect 301 /yandex-zapustil-v-otkritoi-bete-avtotargeting.html https://msk.lapkinlab.ru/novosti/yandeks-zapustil-v-otkrytoy-bete-avtotargeting.html
+
+	Redirect 301 /konstruktor-v-direkte-nauchilsya-generirovat-idei-graficheskih-obyavlenij-po-url.html https://msk.lapkinlab.ru/novosti/konstruktor-v-direkte-nauchilsya-generirovat-idei-graficheskikh-obyavleniy-po-url.html
+
+	Redirect 301 /kontekst-vedenie-i-optimizatsiya.html https://msk.lapkinlab.ru/novosti/kontekst-vedenie-i-optimizatsiya-bez-vody.html
+
+	Redirect 301 /prostye-i-effektivnye-sposoby-vyyavleniya-veroyatnosti-vykhoda-zaprosa-v-top.html https://msk.lapkinlab.ru/novosti/prostye-i-effektivnye-sposoby-vyyavleniya-veroyatnosti-vykhoda-zaprosa-v-top.html
+
+	Redirect 301 /konstruktor-v-direkte-nauchilsya-generirovat-idei-graficheskih-obyavlenij-po-url.html https://msk.lapkinlab.ru/novosti/konstruktor-v-direkte-nauchilsya-generirovat-idei-graficheskikh-obyavleniy-po-url.html
+
+	Redirect 301 /videodopolneniya-v-yandeksdirekt.html https://msk.lapkinlab.ru/novosti/videodopolneniya-v-yandeks-direkte.html
+
+	Redirect 301 /kpi-dlya-seo-agentstva-kakie-varianty.html https://msk.lapkinlab.ru/novosti/kpi-dlya-seo-agentstva-kakie-varianty.html
+
+	Redirect 301 /serdityy-marketolog-kak-navesti-poryadok-v-seo-ili-chto-obshchego-u-seo-s-uborkoy-v-dome.html https://msk.lapkinlab.ru/novosti/serdityy-marketolog-kak-navesti-poryadok-v-seo-ili-chto-obshchego-u-seo-s-uborkoy-v-dome.html
+
+	Redirect 301 /novinki-kontekstnoj-reklamy-yandeks-direkt-v-2017-godu.html https://msk.lapkinlab.ru/novosti/novinki-kontekstnoy-reklamy-yandeks-direkt-v-2017-godu.html
+
+	Redirect 301 /yandeks-menyaet-tsenoobrazovanie-v-poiskovoy-reklame.html https://msk.lapkinlab.ru/novosti/yandeks-menyaet-podkhod-k-torgam-v-poiskovoy-reklame.html
+
+	Redirect 301 /novii-yandex-direct.html https://msk.lapkinlab.ru/novosti/bolshaya-konferentsiya-direkta-novyy-format-torgov-ili-pochemu-yandeks-v-ocherednoy-raz-vse-menyaet.html
+
+	Redirect 301 /zapis-pryamoj-translyacii-konferencii-yandeks-direkta.html https://msk.lapkinlab.ru/novosti/zapis-pryamoy-translyatsii-konferentsii-yandeks-direkta.html
+
+	Redirect 301 /poisk-silnyh-i-slabyh-storon-sajtov-konkurentov.html https://msk.lapkinlab.ru/novosti/poisk-silnykh-i-slabykh-storon-saytov-konkurentov.html
+
+	Redirect 301 /yandeks-zapustil-otladchik-dlya-turbo-stranits.html https://msk.lapkinlab.ru/novosti/yandeks-zapustil-otladchik-dlya-turbo-stranits.html
+
+	Redirect 301 /25-poleznykh-instrumentov-dlya-kontekstnika.html https://msk.lapkinlab.ru/novosti/25-poleznykh-instrumentov-dlya-kontekstnika.html
+
+	Redirect 301 /novie-vozmozhnosti-yandex-direct.html https://msk.lapkinlab.ru/novosti/novye-vozmozhnosti-yandeks-direkt-kak-rabotayut-i-chem-polezny.html
+
+	Redirect 301 /yandeks-perestal-indeksirovat-sayty-sozdannye-na-wix.html https://msk.lapkinlab.ru/novosti/yandeks-perestal-indeksirovat-sayty-sozdannye-na-wix.html
+
+	Redirect 301 /kak-prodvigatsya-po-vsey-rossii.html https://msk.lapkinlab.ru/novosti/kak-prodvigatsya-po-vsey-rossii.html
+
+	Redirect 301 /yandeks-rasskazal-kakie-teksty-baden-baden-schitaet-plokhimi-i-khoroshimi.html https://msk.lapkinlab.ru/novosti/yandeks-rasskazal-kakie-teksty-baden-baden-schitaet-plokhimi-i-khoroshimi.html
+
+	Redirect 301 /google-vykatil-novyy-algoritm.html https://msk.lapkinlab.ru/novosti/google-vykatil-novyy-algoritm.html
+
+	Redirect 301 /7-prichin-pochemu-seo-podryadchik-ne-nazyvaet-tochnyy-srok-vyvoda-fraz-v-top-i-privlechennyy-obem-tr.html https://msk.lapkinlab.ru/novosti/7-prichin-pochemu-seo-podryadchik-ne-nazyvaet-tochnyy-srok-vyvoda-fraz-v-top-i-privlechennyy-obem-tr.html
+
+	Redirect 301 /chek-list-po-poiskovomu-auditu-kommercheskikh-saytov.html https://msk.lapkinlab.ru/novosti/chek-list-dlya-poiskovogo-audita-kommercheskikh-saytov.html
+
+	Redirect 301 /v-poiskakh-poteryannogo-trafika-istoriya-prodvizheniya-kataloga-tovarov.html https://msk.lapkinlab.ru/novosti/v-poiskakh-poteryannogo-trafika-istoriya-prodvizheniya-kataloga-tovarov.html
+
+	Redirect 301 /yandeks-obnovil-algoritm-podbora-rekomendovannykh-zaprosov.html https://msk.lapkinlab.ru/novosti/yandeks-obnovil-algoritm-podbora-rekomendovannykh-zaprosov.html
+
+	Redirect 301 /mobilnaya-versiya-sayta-chek-list-dlya-audita.html https://msk.lapkinlab.ru/novosti/mobilnaya-versiya-sayta-chek-list-dlya-audita.html

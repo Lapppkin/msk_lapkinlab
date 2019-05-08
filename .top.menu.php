@@ -1,0 +1,60 @@
+<?
+$aMenuLinks = Array(
+	Array(
+		"SEO", 
+		"/seo/", 
+		Array(), 
+		Array("active"=>"current-menu-item"), 
+		"" 
+	),
+	Array(
+		"SMM", 
+		"/smm/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ÊÎÍÒÅÊÑÒÍÀß ÐÅÊËÀÌÀ", 
+		"/kontekstnaya-reklama/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ÐÀÇÐÀÁÎÒÊÀ ÑÀÉÒÎÂ", 
+		"/kalkulyator-stoimosti-sajtov/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"TELEGRAM", 
+		"/telegram/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"amoCRM", 
+		"/amocrm/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ÁËÎÃ", 
+		"/novosti/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"ÊÎÍÒÀÊÒÛ", 
+		"/contacts/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
+);
+?>

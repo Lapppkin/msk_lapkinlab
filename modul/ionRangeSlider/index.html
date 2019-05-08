@@ -1,0 +1,26 @@
+<link rel="stylesheet" href="https://lapkinlab.ru/modul/ionRangeSlider/css/ion.rangeSlider.css" />
+<link rel="stylesheet" href="https://lapkinlab.ru/modul/ionRangeSlider/css/ion.rangeSlider.skinFlat.css" />
+<div style="position: relative; padding: 200px;">
+    <div>
+        <input type="text" id="range" value="" name="range" />
+    </div>
+</div>
+<script src="https://lapkinlab.ru/modul/ionRangeSlider/js/jquery-1.12.3.min.js"></script>
+<script src="https://lapkinlab.ru/modul/ionRangeSlider/js/ion.rangeSlider.js"></script>
+<script>
+  $(function(){
+alert("1");
+    $("#range").ionRangeSlider({
+    grid: true,
+    from: 5,
+    values: [
+        "zero", "one",
+        "two", "three",
+        "four", "five",
+        "six", "seven",
+        "eight", "nine",
+        "ten"
+    ]
+});
+});
+</script>

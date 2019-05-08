@@ -1,0 +1,10 @@
+<?
+$PERM["testmenu"]["*"]="D";
+$PERM["webstat1"]["2"]="R";
+$PERM["webstat1"]["5"]="D";
+$PERM["webstat1"]["3"]="D";
+$PERM["webstat1"]["4"]="D";
+$PERM["voronka.php"]["*"]="D";
+$PERM["voronka.php"]["5"]="X";
+$PERM["/"]["*"]="R";
+?>
