@@ -24,6 +24,10 @@ if (isset($_POST)) {
         if (empty($messages)) {
             $messages = 'Не указано';
         }
+        if (empty($url)) {
+            $url = 'Не указано';
+        }
+
 
         $client  = @$_SERVER['HTTP_CLIENT_IP'];
         $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
@@ -157,6 +161,9 @@ if (isset($_POST)) {
             if (empty($messages)) {
                 $messages = 'Не указано';
             }
+            if (empty($url)) {
+                $url = 'Не указано';
+            }
 
             $client  = @$_SERVER['HTTP_CLIENT_IP'];
             $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
@@ -214,6 +221,19 @@ if (isset($_POST)) {
         $site     = trim($_POST["your-site"]);
         $messages = trim($_POST["your-message"]);
         $url      = trim($_POST["url"]);
+
+        if (empty($name)) {
+            $name = 'Не указано';
+        }
+        if (empty($email)) {
+            $email = 'Не указано';
+        }
+        if (empty($messages)) {
+            $messages = 'Не указано';
+        }
+        if (empty($url)) {
+            $url = 'Не указано';
+        }
 
         $client  = @$_SERVER['HTTP_CLIENT_IP'];
         $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
