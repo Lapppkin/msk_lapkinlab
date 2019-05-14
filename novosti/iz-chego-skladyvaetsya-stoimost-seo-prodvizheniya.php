@@ -205,7 +205,7 @@ $APPLICATION->SetTitle("Как формируется стоимость SEO продвижения?");
                             <input type="text" name="your-site" required placeholder="Ссылка на сайт">
                         </div>
                         <div>
-                            <input type="submit" value="Получить аудит">
+                            <input type="submit" value="Получить аудит" onclick="ym(45994323, 'reachGoal', 'push_audit'); return true;">
                         </div>
                     </div>
                 </form>
