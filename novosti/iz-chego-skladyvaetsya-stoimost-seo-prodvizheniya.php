@@ -189,7 +189,7 @@ $APPLICATION->SetTitle("Как формируется стоимость SEO продвижения?");
                 </br>
 
                 <p class="black">В итоге: из SEO-бюджета расходуется примерно 5&nbsp;000 рублей.</p>
-                <form id="audit" action="/mail_post.php">
+                <form id="audit" method="post" action="/mail_post.php">
                     <div class="form">
                         <div>
                             <span class="form-title black">Проведем бесплатный аудит и сэкономим ваши деньги</span></br>

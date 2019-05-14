@@ -2,7 +2,7 @@
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_before.php");
 
 if (isset($_POST)) {
-//    if (isset($_POST['name']) and $_POST['name'] == "") {
+    if (isset($_POST['name']) and $_POST['name'] == "") {
         $sitename = "msk.lapkinlab.ru";
         $to       = 'akapinos@lapkinlab.ru' . ', ';
         $to       .= 'lapppkin@yahoo.com' . ', ';
@@ -15,18 +15,7 @@ if (isset($_POST)) {
         $site     = trim($_POST["your-site"]);
         $messages = trim($_POST["your-message"]);
         $url      = trim($_POST["url"]);
-        if (empty($name)) {
-            $name = 'Не указано';
-        }
-        if (empty($email)) {
-            $email = 'Не указано';
-        }
-        if (empty($messages)) {
-            $messages = 'Не указано';
-        }
-        if (empty($url)) {
-            $url = 'Не указано';
-        }
+
 
 
         $client  = @$_SERVER['HTTP_CLIENT_IP'];
@@ -152,18 +141,7 @@ if (isset($_POST)) {
             $site     = trim($_POST["your-site"]);
             $messages = trim($_POST["your-message"]);
             $url      = trim($_POST["url"]);
-            if (empty($name)) {
-                $name = 'Не указано';
-            }
-            if (empty($email)) {
-                $email = 'Не указано';
-            }
-            if (empty($messages)) {
-                $messages = 'Не указано';
-            }
-            if (empty($url)) {
-                $url = 'Не указано';
-            }
+
 
             $client  = @$_SERVER['HTTP_CLIENT_IP'];
             $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
@@ -212,6 +190,53 @@ if (isset($_POST)) {
         header("Location: https://msk.lapkinlab.ru/#spasibo");
 
         //header("Location: https://msk.lapkinlab.ru/testuuu.php?name=".$name."&phone=".$phone."&site=".$site."&email=".$email."&messages=".$messages);
+
+    } else {
+
+        $name     = trim($_POST["your-name"]);
+        $phone    = trim($_POST["your-phone"]);
+        $email    = trim($_POST["your-email"]);
+        $site     = trim($_POST["your-site"]);
+        $messages = trim($_POST["your-message"]);
+        $url      = trim($_POST["url"]);
+
+        $client  = @$_SERVER['HTTP_CLIENT_IP'];
+        $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
+        $remote  = @$_SERVER['REMOTE_ADDR'];
+        if (filter_var($client, FILTER_VALIDATE_IP)) {
+            $ip = $client;
+        } elseif (filter_var($forward, FILTER_VALIDATE_IP)) {
+            $ip = $forward;
+        } else {
+            $ip = $remote;
+        }
+
+        CModule::IncludeModule("iblock");
+        $el       = new CIBlockElement;
+        $PROP     = array();
+        $PROP[4]  = $name;
+        $PROP[5]  = $phone;
+        $PROP[6]  = $email;
+        $PROP[7]  = $site;
+        $PROP[8]  = $messages;
+        $PROP[9]  = $ip;
+        $PROP[10] = $url;
+
+        $date_today = date("d.m.y");
+        $today[1]   = date("H:i:s");
+
+        $arLoadProductArray = Array(
+            "IBLOCK_SECTION_ID" => false,
+            "IBLOCK_ID"         => 2,
+            "PROPERTY_VALUES"   => $PROP,
+            "NAME"              => "СПАМ! Заявка от " . $today[1] . " - " . $date_today . " (" . $name . ") ???",
+            "ACTIVE"            => "Y",
+        );
+
+        $el->Add($arLoadProductArray);
+
+        header("Location: https://msk.lapkinlab.ru/#error");
+    }
 } else {
     header("Location: https://msk.lapkinlab.ru/#error");
 }
