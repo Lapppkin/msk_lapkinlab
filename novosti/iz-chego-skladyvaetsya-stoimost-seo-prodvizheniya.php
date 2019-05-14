@@ -196,6 +196,8 @@ $APPLICATION->SetTitle("Как формируется стоимость SEO продвижения?");
                             <span>Покажем ошибки сайта и укажем точки роста</span>
                         </div>
                         <div>
+                            <input type="hidden" name="name" placeholder="">
+
                             <input type="text" name="your-name" required placeholder="Ваше имя">
 
                             <input type="text" name="your-phone" required placeholder="Телефон">
