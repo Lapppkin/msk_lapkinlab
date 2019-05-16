@@ -4,7 +4,9 @@ $APPLICATION->SetPageProperty("keywords", "продвижение телеграм каналов москва")
 $APPLICATION->SetPageProperty("title", "Раскрутка Телеграм канала: заказать продвижение в Telegram");
 $APPLICATION->SetPageProperty("description", "Агентство LapkinLab предлагает заказать продвижение Telegram-канала в Москве и других городах &#9997;Создание и раскрутка канала или магазина в Телеграм");
 $APPLICATION->SetTitle("Раскрутка Телеграм канала: заказать продвижение в Telegram");
-?><main>
+?>
+    <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/css/main.css"/>
+    <main>
 <div class="breadcrumbs">
 	<div class="container_v2">
 		<div class="breadcrumbs__items">
