@@ -21,7 +21,7 @@
     <li class="<? if ($arItem["SELECTED"]): ?>active<?endif?>"><a href="<?= $arItem["LINK"] ?>" class="<? if ($arItem["SELECTED"]): ?>active<? else: ?><? endif ?>"><?= $arItem["TEXT"] ?></a>
         <ul class="navffff2">
             <? else: ?>
-            <li<? if ($arItem["SELECTED"]): ?> class="active"<? endif ?>><a href="<?= $arItem["LINK"] ?>"><?= $arItem["TEXT"] ?></a>
+            <li class="<? if ($arItem["SELECTED"]): ?>active<?endif?>"><a href="<?= $arItem["LINK"] ?>"><?= $arItem["TEXT"] ?></a>
                 <ul class="navffff2">
                     <? endif ?>
 
@@ -30,20 +30,20 @@
                         <? if ($arItem["PERMISSION"] > "D"): ?>
 
                             <? if ($arItem["DEPTH_LEVEL"] == 1): ?>
-                                <li><a href="<?= $arItem["LINK"] ?>"
+                                <li class="<? if ($arItem["SELECTED"]): ?>active<?endif?>"><a href="<?= $arItem["LINK"] ?>"
                                        class="<? if ($arItem["SELECTED"]): ?>active<? else: ?><? endif ?>"><?= $arItem["TEXT"] ?></a></li>
                             <? else: ?>
-                                <li<? if ($arItem["SELECTED"]): ?> class="active"<? endif ?>><a href="<?= $arItem["LINK"] ?>"><?= $arItem["TEXT"] ?></a></li>
+                                <li class="<? if ($arItem["SELECTED"]): ?>active<?endif?>"><a href="<?= $arItem["LINK"] ?>"><?= $arItem["TEXT"] ?></a></li>
                             <? endif ?>
 
                         <? else: ?>
 
                             <? if ($arItem["DEPTH_LEVEL"] == 1): ?>
-                                <li><a href=""
+                                <li class="<? if ($arItem["SELECTED"]): ?>active<?endif?>"><a href=""
                                        class="<? if ($arItem["SELECTED"]): ?>active<? else: ?><? endif ?>"
                                        title="<?= GetMessage("MENU_ITEM_ACCESS_DENIED") ?>"><?= $arItem["TEXT"] ?></a></li>
                             <? else: ?>
-                                <li><a href="" title="<?= GetMessage("MENU_ITEM_ACCESS_DENIED") ?>"><?= $arItem["TEXT"] ?></a></li>
+                                <li class="<? if ($arItem["SELECTED"]): ?>active<?endif?>"><a href="" title="<?= GetMessage("MENU_ITEM_ACCESS_DENIED") ?>"><?= $arItem["TEXT"] ?></a></li>
                             <? endif ?>
 
                         <? endif ?>
