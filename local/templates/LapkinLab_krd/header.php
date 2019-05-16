@@ -55,7 +55,6 @@ IncludeTemplateLangFile(__FILE__); ?>
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel='stylesheet' id='chartist-css' href='<?= SITE_TEMPLATE_PATH ?>/libs/chart/chartist.min.css' type='text/css' media='all'/>
     <link rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/ion.rangeSlider.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/ion.rangeSlider.skinFlat.css">
 
     <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/libs/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/css/style.css"/>
