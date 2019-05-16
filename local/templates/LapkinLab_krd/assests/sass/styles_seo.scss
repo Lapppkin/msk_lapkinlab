@@ -1,0 +1,127 @@
+$screen-xs-max: 767px;
+$screen-sm-min: 768px;
+$screen-sm-max: 991px;
+$screen-md-min: 992px;
+$screen-md-max: 1199px;
+$screen-lg-min: 1200px;
+
+.two_seo{
+  padding-top: 60px;
+  padding-bottom: 60px;
+  .str{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+    .number{
+      font-size: 24px;
+      color: #fa3a5e;
+      border-radius: 5px;
+      border: 1px solid #fa3a5e;
+      width: 40px;
+      height: 40px;
+      text-align: center;
+      background-color: #ffffff;
+      font-family: "Proxima Nova Rg";
+      font-weight: bold;
+      display: table;
+    }
+    .text{
+      padding-left: 20px;
+      font-size: 18px;
+      color: #000000;
+      font-family: "Proxima Nova Lt";
+      letter-spacing: 0.2px;
+    }
+  }
+}
+.sra{
+  background: #fff;
+  .block_twof{
+    border: 1px solid #fa3a5e;
+  }
+}
+.sro{
+  .block_twof{
+    a{
+      color: #000;
+      text-decoration: none;
+      border-bottom: 1px solid #fa3a5e;
+      &:hover{
+        border-bottom: 2px solid #fa3a5e;
+      }
+    }
+    img{
+      height: 140px;
+    }
+    .tit{
+      min-height: 65px;
+    }
+  }
+}
+.sri{
+  background: #fff;
+  .block_twof2{
+    .tit{
+      border-radius: 5px;
+      border: 1px solid #fa3a5e;
+      background-color: #ffffff;
+      padding: 20px;
+      text-align: center;
+      color: #000000;
+      font-family: "Proxima Nova Lt";
+      font-size: 22px;
+      font-weight: 700;
+      letter-spacing: 0.22px;
+    }
+    p{
+      color: #000000;
+      font-family: "Proxima Nova Rg";
+      padding: 20px 10px;
+      font-size: 16px;
+      font-weight: 400;
+      letter-spacing: 0.16px;
+    }
+    ul{
+      list-style: none;
+      li::before{
+        content: '';
+        display: inline-block;
+        width: 25px;
+        height: 20px;
+        background: url('../assests/kisspng-check-mark2.png');
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position-y: bottom;
+        background-position-x: left;
+      }
+      li{
+        color: #000;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.2px;
+        padding-bottom: 10px;
+      }
+    }
+  }
+}
+.ses{
+  padding-bottom: 60px;
+  padding-top: 50px;
+  div.h3{
+    color: #000000;
+    font-family: "Proxima Nova Lt";
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.24px;
+  }
+  p{
+    color: #000000;
+    font-family: "Proxima Nova Rg";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.16px;
+  }
+}

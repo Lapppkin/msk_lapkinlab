@@ -1,0 +1,1554 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="author" content="akapinos">
+		<link rel="stylesheet" href="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/fontello.css">
+		<link rel="stylesheet" href="fonts/fonts.css">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/css/style.css" />
+
+		<link rel="shortcut icon" href="favicon.ico">
+		<meta name="robots" content="noindex, nofollow" />
+		<script src="//code.jquery.com/jquery-1.9.1.js"></script>
+
+		<link rel="stylesheet" type="text/css" media="screen" href="modul/ionRangeSlider/css/ion.rangeSlider.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="modul/ionRangeSlider/css/ion.rangeSlider.skinFlat.css">
+		<link rel="stylesheet" type="text/css" media="screen" href="modul/ionRangeSlider/css/css.css">
+
+		<script type="text/javascript">
+		$(document).ready(function(){
+				$('.butt').click(function(){
+					$('.butt').removeClass('active');
+					$(this).addClass('active');
+
+					$('#ban1').removeClass('active_ban'); $('#ban1').addClass('noactive_ban');
+					$('#ban2').removeClass('active_ban'); $('#ban2').addClass('noactive_ban');
+					$('#ban3').removeClass('active_ban'); $('#ban3').addClass('noactive_ban');
+					$('#ban4').removeClass('active_ban'); $('#ban4').addClass('noactive_ban');
+
+					var id = $(this).attr("id");
+					$('#'+id+'').removeClass('noactive_ban');
+					$('#'+id+'').addClass('active_ban');
+				});
+
+				$('.bbcd').click(function(){
+					$('.bbcd').removeClass('activeb');
+					$(this).addClass('activeb');
+
+					$('#ibbc1').removeClass('activebi'); $('#ibbc1').addClass('activebin');
+					$('#ibbc2').removeClass('activebi'); $('#ibbc2').addClass('activebin');
+					$('#ibbc3').removeClass('activebi'); $('#ibbc3').addClass('activebin');
+					$('#ibbc4').removeClass('activebi'); $('#ibbc4').addClass('activebin');
+
+					var id = $(this).attr("id");
+					var num = $(this).attr("data-id");
+					$('#i'+id+num+'').removeClass('activebin');
+					$('#i'+id+num+'').addClass('activebi');
+				});
+
+				$('.tabs').click(function(){
+					$('.tabs').removeClass('active_t');
+					$(this).addClass('active_t');
+
+					$('#ff1').removeClass('active_ta'); $('#ff1').addClass('active_tan');
+					$('#ff2').removeClass('active_ta'); $('#ff2').addClass('active_tan');
+					$('#ff3').removeClass('active_ta'); $('#ff3').addClass('active_tan');
+					$('#ff4').removeClass('active_ta'); $('#ff4').addClass('active_tan');
+
+					var id = $(this).attr("id");
+					var num = $(this).attr("data-id");
+					$('#ff'+num+'').removeClass('active_tan');
+					$('#ff'+num+'').addClass('active_ta');
+				});
+
+				$('.Ptabs').click(function(){
+					$('.Ptabs').removeClass('Pactive_t');
+					$(this).addClass('Pactive_t');
+
+					$('#Pff1').removeClass('Pactive_ta'); $('#Pff1').addClass('Pactive_tan');
+					$('#Pff2').removeClass('Pactive_ta'); $('#Pff2').addClass('Pactive_tan');
+					$('#Pff3').removeClass('Pactive_ta'); $('#Pff3').addClass('Pactive_tan');
+					$('#Pff4').removeClass('Pactive_ta'); $('#Pff4').addClass('Pactive_tan');
+
+					var id = $(this).attr("id");
+					var num = $(this).attr("data-id");
+					$('#Pff'+num+'').removeClass('Pactive_tan');
+					$('#Pff'+num+'').addClass('Pactive_ta');
+				});
+
+				$('.Ktabs').click(function(){
+					$('.Ktabs').removeClass('Kactive_t');
+					$(this).addClass('Kactive_t');
+
+					$('#Kff1').removeClass('Kactive_ta'); $('#Kff1').addClass('Kactive_tan');
+					$('#Kff2').removeClass('Kactive_ta'); $('#Kff2').addClass('Kactive_tan');
+					$('#Kff3').removeClass('Kactive_ta'); $('#Kff3').addClass('Kactive_tan');
+
+					var id = $(this).attr("id");
+					var num = $(this).attr("data-id");
+					$('#Kff'+num+'').removeClass('Kactive_tan');
+					$('#Kff'+num+'').addClass('Kactive_ta');
+				});
+
+				$('.navar').click(function(){
+					var num = $(this).attr("data-id");
+					$('.Ktabs').removeClass('Kactive_t');
+					$('#Kta'+num+'').addClass('Kactive_t');
+
+					$('#Kff1').removeClass('Kactive_ta'); $('#Kff1').addClass('Kactive_tan');
+					$('#Kff2').removeClass('Kactive_ta'); $('#Kff2').addClass('Kactive_tan');
+					$('#Kff3').removeClass('Kactive_ta'); $('#Kff3').addClass('Kactive_tan');
+
+					$('#Kff'+num+'').removeClass('Kactive_tan');
+					$('#Kff'+num+'').addClass('Kactive_ta');
+				});
+
+				$('.map').click(function(){
+					if($(this).hasClass('hid')){$(this).removeClass('hid');}else{$(this).toggleClass('hid');};
+				});
+		});
+		</script>
+	</head>
+	<body>
+
+		<header class="header">
+			<div class="container">
+				<div class="row">
+					<div class="col-sm-12 col-md-6">
+								<div class="row">
+									<div class="col-sm-12 col-md-6 textlogo">
+										<i><img src="assests/pin.png"></i> Ваш город: Москва
+									</div>
+									<div class="col-sm-12 col-md-6 textphone">
+										<i><img src="assests/call.png"></i> <a href="tel:88003010019">8 (800) 301-00-19</a>
+									</div>
+								</div>
+					</div>
+					<div class="col-sm-12 col-md-6">
+								<div class="row">
+									<div class="col-sm-12 col-md-4 no_m no_p">
+										<a href="#" class="but but-one">Заказать звонок</a>
+									</div>
+									<div class="col-sm-12 col-md-4 no_m no_p">
+										<a href="#" class="but but-two">Заказать аудит</a>
+									</div>
+									<div class="col-sm-12 col-md-4 no_m no_p">
+										<a href="#" class="but but-three">Заказать бриф</a>
+									</div>
+								</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main role="main">
+
+		<section class="menu_logo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-3 logo">
+						<img src="assests/logo-new2.png" >
+						<span>Профессиональное поисковое продвижение, создание сайтов и реклама</span>
+					</div>
+					<div class="col-md-9">
+						<ul class="nav">
+							<li class="active"><a href="#">Продвижение</a></li>
+							<li><a href="#">Контекстная реклама</a></li>
+							<li><a href="#">Разработка сайтов</a></li>
+							<li><a href="#">Телеграм</a></li>
+							<li><a href="#">Блог</a></li>
+							<li><a href="#">Контакты</a></li>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="banner active_ban" id="ban1">
+			<div class="container">
+				<div class="row">
+						<div class="col-md-8 left_banner">
+							<div class="text">
+								Тысячи покупателей уже ищут то, что вы предлагаете. <br>
+								А с SEO найдут именно вас!
+							</div>
+							<ul class="main_ul">
+								<li>Оптимизируем сайт для поисковых машин</li>
+								<li>Делаем его удобным для клиентов</li>
+								<li>Приводим целевых пользователей из поисковых систем</li>
+								<li>Продажи растут уже в первые месяцы после начала работ</li>
+								<li>Оставляем ваших конкурентов позади </li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<form class="form_banner">
+								<div class="form_titile">
+									Выявим проблемы<br>
+									с оптимизацией сайта
+								</div>
+								<input type="text" placeholder="Сайт" value="">
+								<input type="text" placeholder="Телефон" value="">
+								<input type="text" placeholder="Почта" value="">
+								<button type="button" name="button" value="Проверить сайт">Проверить сайт</button>
+								<span>Нажимая на кнопку Проверить сайт, я даю согласие на обработку персональных данных</span>
+							</form>
+						</div>
+				</div>
+			</div>
+		</section>
+		<section class="banner noactive_ban" id="ban2">
+			<div class="container">
+				<div class="row">
+						<div class="col-md-8 left_banner">
+							<div class="text">
+								Подходим комплексно к оптимизации вашего сайта:<br>
+							</div>
+							<ul class="main_ul">
+								<li>Выявим вашу аудиторию</li>
+								<li>Соберем целевые запросы покупателей</li>
+								<li>Проведем конкурентный анализ</li>
+								<li>Выполним аудит сайта, выявим и устраним слабые места</li>
+								<li>Оптимизируем структуру и выполним все технические работы по проекту</li>
+								<li>Доведем до результата — поднимем трафик, вырастим позиции!</li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<form class="form_banner">
+								<div class="form_titile">
+									Выявим проблемы<br>
+									с оптимизацией сайта
+								</div>
+								<input type="text" placeholder="Сайт" value="">
+								<input type="text" placeholder="Телефон" value="">
+								<input type="text" placeholder="Почта" value="">
+								<button type="button" name="button" value="Проверить сайт">Проверить сайт</button>
+								<span>Нажимая на кнопку Проверить сайт, я даю согласие на обработку персональных данных</span>
+							</form>
+						</div>
+				</div>
+			</div>
+		</section>
+		<section class="banner noactive_ban" id="ban3">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 left_banner">
+						<div class="text">
+							Клиентский сервис<br>
+						</div>
+						<ul class="main_ul">
+							<li>«Дедлайн» - для нас не просто слово</li>
+							<li>Постоянная связь с клиентом на всех этапах продвижения</li>
+							<li>Наш менеджер всегда готов ответить на любые вопросы по вашему сайту</li>
+							<li>Регулярная отчетность - мы знаем как важно видеть наглядный результат!</li>
+						</ul>
+					</div>
+						<div class="col-md-4">
+							<form class="form_banner">
+								<div class="form_titile">
+									Выявим проблемы<br>
+									с оптимизацией сайта
+								</div>
+								<input type="text" placeholder="Сайт" value="">
+								<input type="text" placeholder="Телефон" value="">
+								<input type="text" placeholder="Почта" value="">
+								<button type="button" name="button" value="Проверить сайт">Проверить сайт</button>
+								<span>Нажимая на кнопку Проверить сайт, я даю согласие на обработку персональных данных</span>
+							</form>
+						</div>
+				</div>
+			</div>
+		</section>
+		<section class="banner noactive_ban" id="ban4">
+			<div class="container">
+				<div class="row">
+						<div class="col-md-8 left_banner">
+							<div class="text">
+								Результаты и гарантии<br>
+								Мы гарантируем:
+							</div>
+							<ul class="main_ul">
+								<li>Рост позиций сайта после 1 месяца</li>
+								<li>Увеличение посещаемости ресурса после 2 месяца</li>
+								<li>Уже через 4 месяца вы заметите рост продаж </li>
+								<li>Стабильный рост видимости и позиций сайта</li>
+								<li>Прозрачная отчетность </li>
+								<li>Конфиденциальность клиентской информации</li>
+								<li>«Белые» методы продвижения </li>
+							</ul>
+						</div>
+						<div class="col-md-4">
+							<form class="form_banner">
+								<div class="form_titile">
+									Выявим проблемы<br>
+									с оптимизацией сайта
+								</div>
+								<input type="text" placeholder="Сайт" value="">
+								<input type="text" placeholder="Телефон" value="">
+								<input type="text" placeholder="Почта" value="">
+								<button type="button" name="button" value="Проверить сайт">Проверить сайт</button>
+								<span>Нажимая на кнопку Проверить сайт, я даю согласие на обработку персональных данных</span>
+							</form>
+						</div>
+				</div>
+			</div>
+		</section>
+		<div class="container button_banner">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="row1">
+						<div class="col-xs-6 col-sm-6 col-md-3">
+							<div class="butt_p">
+								<div class="butt active" id="ban1">
+									<i class="icon icon-fire"></i>
+									Увеличение<br> продаж
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3">
+							<div class="butt_p">
+								<div class="butt" id="ban2">
+									<i class="icon icon-star"></i>
+									Комплексный<br> подход
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3">
+							<div class="butt_p">
+								<div class="butt" id="ban3">
+									<i class="icon icon-star"></i>
+									Клиентский<br> сервис
+								</div>
+							</div>
+						</div>
+						<div class="col-xs-6 col-sm-6 col-md-3">
+							<div class="butt_p">
+								<div class="butt" id="ban4">
+									<i class="icon icon-star"></i>
+									Результаты<br> и гарантии
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section class="one">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title">Сделаем так, что бы ваш бизнес находили</h1>
+					</div>
+
+					<div class="col-sm-12 col-md-12 textblomid" style=" padding-top:40px;">
+
+											<div class="col-sm-6 col-md-4">
+												<div class="blt">
+													<div class="leftrrr">
+														<p class="color">Усилим и закрепим<br> позиции в выдаче</p>
+														<p class="grey">Бесплатно продвинем<br> низкочастотные фразы</p>
+													</div>
+													<div class="icob1"></div>
+												</div>
+
+												<div class="blt" style="padding-right: 40px; padding-top:20px;">
+													<div class="leftrrr">
+														<p class="color">Проведем seo<br> аудит сайта</p>
+														<p class="grey">Выявление пробелов<br>в оптимизации</p>
+													</div>
+													<div class="icob2"></div>
+												</div>
+
+												<div class="blt" style="padding-top:20px;">
+													<div class="leftrrr">
+														<p class="color">Сементическое ядро<br> (составление)</p>
+														<p class="grey">Проведение работ по<br> подбору ключевых фраз</p>
+													</div>
+													<div class="icob3"></div>
+												</div>
+											</div>
+
+											<div class="hidden-sm hidden-xs col-md-4 midlblo flex_center" style=" padding-top:60px;">
+												<img src="assests/centr.png"/>
+											</div>
+
+											<div class="col-sm-6 col-md-4">
+												<div class="brt">
+													<div class="icob4"></div>
+													<div class="rightrrr">
+														<p class="color">Увеличим посещаемость<br> и продажи</p>
+														<p class="grey">Приведем целевых<br> посетителей уже на 3-ий месяц</p>
+													</div>
+												</div>
+
+												<div class="brt" style="padding-left: 40px; padding-top:20px;">
+													<div class="icob5"></div>
+													<div class="rightrrr">
+														<p class="color">Анализ<br> конкурентов</p>
+														<p class="grey">Изучение тематики,<br>и методов их продвижения</p>
+													</div>
+												</div>
+
+												<div class="brt" style="padding-top:20px;">
+													<div class="icob6"></div>
+													<div class="rightrrr">
+														<p class="color">Настроим систему<br> аналитки</p>
+														<p class="grey">Настроим сервисы <br>статистики Яндекс и Google</p>
+													</div>
+												</div>
+											</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="two">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title">Для кого подходит SEO</h1>
+					</div>
+
+					<div class="col-md-12">
+						<div class="row">
+						<div class="col-sm-12 col-md-4 block_twof">
+							<img src="assests/shopping-cart.png" />
+							<p class="tit"> Интернет-магазинам</p>
+							<p class="bottit"> Приводим целевой трафик, делаем из посетителя покупателя</p>
+						</div>
+						<div class="col-sm-12 col-md-4 block_twof">
+							<img src="assests/diagram.png" />
+							<p class="tit"> Бизнес сайтам</p>
+							<p class="bottit"> Увеличиваем узнаваемость бренда, привлекаем новых клиентов</p>
+						</div>
+						<div class="col-sm-12 col-md-4 block_twof">
+							<img src="assests/customer-support.png" />
+							<p class="tit"> Для сферы услуг</p>
+							<p class="bottit"> Превращаем сайт в инструмент конверсии, наращиваем поток заявок</p>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="thre">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title">Рост трафика и продаж с 3-ого месяца</h1>
+					</div>
+					<div class="col-md-12 rosttt">
+						<p>Увеличение продаж — это результат работ по комплексному SEO-продвижению Вашего сайта в поисковых системах.</p>
+					</div>
+
+					<div class="col-sm-12 col-md-3 lef">
+						<p>Условные обозначения:</p>
+						<div class="fffdf">
+							<p class="fffdf1">Посетители</p>
+							<p class="fffdf2">Заявки</p>
+						</div>
+					</div>
+
+					<div class="col-md-12 stolb" >
+						<div class="row" style="display: flex; align-self: end; align-self: flex-end; align-items: end; align-items: flex-end;">
+						<div class="col-sm-12 col-md-3">
+							<img src="assests/st1.png"/>
+							<hr>
+							<p class="tit"> 1 этап</p>
+							<p class="bottit"> Аудит сайта и подготовка его к продвижению</p>
+							<div id="st1">1 - 2 месяца</div>
+						</div>
+						<div class="col-sm-12 col-md-3">
+							<img src="assests/st2.png" />
+							<hr>
+							<p class="tit"> 2 этап</p>
+							<p class="bottit"> Рост позиций сайта. Трафика и продаж здесь нет. Терпение!</p>
+							<div id="st1">2 - 3 месяца</div>
+						</div>
+						<div class="col-sm-12 col-md-3">
+							<img src="assests/st3.png" />
+							<hr>
+							<p class="tit"> 3 этап</p>
+							<p class="bottit"> Выход в ТОП 10. Рост трафика, первые обращения клиентов, заявки и продажи с сайта</p>
+							<div id="st1">4 - 6 месяца</div>
+						</div>
+						<div class="col-sm-12 col-md-3">
+							<img src="assests/st4.png" />
+							<hr>
+							<p class="tit"> 4 этап</p>
+							<p class="bottit"> Выход сайта в ТОП 10 по всему списку запросов. Рост продаж, узнаваемость бренда и завоевание рынка</p>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="four">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title_wh">Выберите свою стратегию продвижения</h1>
+					</div>
+					<div class="col-md-12">
+						<div class="container_v2">
+						<div id="cccallk">
+							<div style="text-align: center;">
+								<div style="position: relative; padding: 10px;">
+									<div style="float: left; width: 25%; padding: 20px;">
+					 <label id="range7_l"><b>ТИП САЙТА</b></label>
+									</div>
+									<div style="float: left; width: 75%;">
+					 <input id="range7" name="range" type="text" value="">
+									</div>
+								</div>
+								<div style="width: 100%; height: 10px; clear: both;">
+								</div>
+								 <!-- -->
+								<div style="position: relative; padding: 10px;">
+									<div style="float: left; width: 25%; padding: 20px;">
+					 <label id="range1_l"><b>КОЛИЧЕСТВО КЛЮЧЕВЫХ ЗАПРОСОВ</b></label>
+									</div>
+									<div style="float: left; width: 75%;">
+					 <input id="range1" name="range" type="text" value="">
+									</div>
+								</div>
+								<div style="width: 100%; height: 10px; clear: both;">
+								</div>
+								 <!-- -->
+								<div style="position: relative; padding: 10px;">
+									<div style="float: left; width: 25%; padding: 20px;">
+					 <label id="range2_l"><b>КОЛИЧЕСТВО РАЗДЕЛОВ САЙТА</b></label>
+									</div>
+									<div style="float: left; width: 75%;">
+					 <input id="range2" name="range" type="text" value="">
+									</div>
+								</div>
+								<div style="width: 100%; height: 10px; clear: both;">
+								</div>
+								 <!-- -->
+								<div style="position: relative; padding: 10px;">
+									<div style="float: left; width: 25%; padding: 20px;">
+					 <label id="range3_l"><b>РЕГИОН ПРОДВИЖЕНИЯ</b></label>
+									</div>
+									<div style="float: left; width: 75%;">
+					 <input id="range3" name="range" type="text" value="">
+									</div>
+								</div>
+								<div style="width: 100%; height: 10px; clear: both;">
+								</div>
+								 <!-- -->
+								<div style="position: relative; padding: 10px;">
+									<div style="float: left; width: 25%; padding: 20px;">
+					 <label id="range4_l"><b>УРОВЕНЬ КОНКУРЕНЦИИ В ТЕМАТИКЕ</b></label>
+									</div>
+									<div style="float: left; width: 75%;">
+					 <input id="range4" name="range" type="text" value="">
+									</div>
+								</div>
+								<div style="width: 100%; height: 10px; clear: both;">
+								</div>
+								 <!-- -->
+								<div style="position: relative; padding: 10px;">
+									<div style="float: left; width: 25%; padding: 20px;">
+					 <label id="range5_l"><b>ИСТОРИЯ ПРОДВИЖЕНИЯ САЙТА</b></label>
+									</div>
+									<div style="float: left; width: 75%;">
+					 <input id="range5" name="range" type="text" value="">
+									</div>
+								</div>
+								<div style="width: 100%; height: 10px; clear: both;">
+								</div>
+								 <!-- -->
+								<div style="position: relative; padding: 10px;">
+									<div style="float: left; width: 25%; padding: 20px;">
+					 <label id="range16_l"><b>КОНТЕКСТНАЯ РЕКЛАМА (PPC)</b></label>
+									</div>
+									<div style="float: left; width: 75%;">
+					 <input id="range16" name="range" type="text" value="">
+									</div>
+								</div>
+								<div style="width: 100%; height: 10px; clear: both;">
+								</div>
+								 <!-- -->
+								<div style="position: relative; padding: 10px;">
+									<div style="float: left; width: 25%; padding: 20px;">
+					 <label id="range8_l"><b>ЕСТЬ СВОЙ КОПИРАЙТЕР?</b></label>
+									</div>
+									<div style="float: left; width: 30%;">
+					 <input id="range8" name="range" type="text" value="">
+									</div>
+									<div style="float: left; width: 20%; padding: 20px 0px 0px 40px;">
+					 <label id="range9_l"><b>ЕСТЬ СВОЙ ПРОГРАММИСТ?</b></label>
+									</div>
+									<div style="float: left; width: 25%;">
+					 <input id="range9" name="range" type="text" value="">
+									</div>
+								</div>
+								<div style="width: 100%; height: 10px; clear: both;">
+								</div>
+								 <!-- -->
+								<div style="position: relative; padding: 10px;">
+									<div style="float: left; width: 25%; padding: 20px;">
+					 <label id="range11_l"><b>АДАПТИВНОСТЬ</b></label>
+									</div>
+									<div style="float: left; width: 75%;">
+					 <input id="range11" name="range" type="text" value="">
+									</div>
+								</div>
+								<div style="width: 100%; height: 10px; clear: both;">
+								</div>
+								 <!-- -->
+								<div style="position: relative; padding: 10px;">
+									<div style="float: left; width: 25%; padding: 20px;">
+					 <label id="range10_l"><b>САЙТ ПОД ФИЛЬТРОМ?</b></label>
+									</div>
+									<div style="float: left; width: 30%;">
+					 <input id="range10" name="range" type="text" value="">
+									</div>
+									<div style="float: left; width: 20%; padding: 20px 0px 0px 40px;">
+					 <label id="range12_l"><b>ПРОДВИЖЕНИЕ В YANDEX-КАРТАХ</b></label>
+									</div>
+									<div style="float: left; width: 25%;">
+					 <input id="range12" name="range" type="text" value="">
+									</div>
+								</div>
+								<div style="width: 100%; height: 10px; clear: both;">
+								</div>
+								 <!-- -->
+								<div style="position: relative; padding: 10px;">
+									<div style="float: left; width: 25%; padding: 20px;">
+					 <label id="range13_l"><b>КРАУД-МАРКЕТИНГ</b></label>
+									</div>
+									<div style="float: left; width: 30%;">
+					 <input id="range13" name="range" type="text" value="">
+									</div>
+									<div style="float: left; width: 20%; padding: 20px 0px 0px 40px;">
+					 <label id="range14_l"><b>УГЛУБЛЕННАЯ АНАЛИТИКА</b></label>
+									</div>
+									<div style="float: left; width: 25%;">
+					 <input id="range14" name="range" type="text" value="">
+									</div>
+								</div>
+								<div style="width: 100%; height: 1px; clear: both;">
+								</div>
+								 <!-- --> &nbsp; &nbsp;
+							</div>
+
+							<div id="tm_builder_outer_content" class="tm_builder_outer_content" style="text-align: center; padding: 0px;">
+					 <a id="trigger" class="tm_pb_button hover-green" href="">Получить расчет</a>
+							</div>
+							<div id="box" class="tm_pb_section tm_pb_section_1 tm_section_regular tm_section_transparent" style="display: none; color: #fff;">
+								<h4>Результат:</h4>
+								<div class="container">
+									<div class="row tm_pb_row tm_pb_row_1">
+										<div class="tm_pb_column tm_pb_column_1_2 tm_pb_column_1 col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+											<h5>Оставьте ваши контактные данные для связи:</h5>
+																		<form action="/mail_post.php" method="post" class="wpcf7-form">
+												<div style="display: none;">
+												<input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
+												</div>
+												<p>
+					 <label> Ваше имя (обязательно)<br>
+					 <span class="wpcf7-form-control-wrap your-name"><input style="width: 80%;" type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required></span> </label>
+												</p>
+												<p>
+					 <label> Телефон (обязательно)<br>
+					 <span class="wpcf7-form-control-wrap your-phone"><input style="width: 80%;" type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required></span> </label>
+												</p>
+												<p>
+					 <label> Ваш e-mail (обязательно)<br>
+					 <span class="wpcf7-form-control-wrap your-email"><input style="width: 80%;" type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" required></span> </label>
+												</p>
+												<p>
+					 <label> Ваш сайт<br>
+					 <span class="wpcf7-form-control-wrap your-site"><input style="width: 80%;" type="text" name="your-site" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required></span> </label>
+												</p>
+						<p style="display:none;"><input type="text" name="name" value=""></p>
+												<p>
+					 <span class="wpcf7-form-control-wrap your-calc"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea wpcf7-validates-as-required" id="foocalc" required></textarea></span>
+												</p>
+												<div style="width:100%; height: 25px; clear: both;">
+												</div>
+												<p class="widget_text">
+					 <input type="submit" value="Заказать" class="wpcf7-form-control tm_pb_button wpcf7-submit"><span class="ajax-loader"></span>
+												</p>
+												<div class="wpcf7-response-output wpcf7-display-none">
+												</div>
+											</form>
+										</div>
+										<div class="tm_pb_column tm_pb_column_1_2 tm_pb_column_1 col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
+											<h5>Вы выбрали:</h5>
+												<table>
+												<tbody>
+												<tr>
+												<td>ТИП САЙТА: </td>
+												<td><span id="result_1">Корпоративный сайт</span></td>
+												</tr>
+												<tr>
+												<td>КОЛИЧЕСТВО КЛЮЧЕВЫХ ЗАПРОСОВ: </td>
+												<td><span id="result_2"></span></td>
+												</tr>
+												<tr>
+												<td>КОЛИЧЕСТВО РАЗДЕЛОВ САЙТА: </td>
+												<td><span id="result_3"></span></td>
+												</tr>
+												<tr>
+												<td>РЕГИОН ПРОДВИЖЕНИЯ: </td>
+												<td><span id="result_4"></span></td>
+												</tr>
+												<tr>
+												<td>УРОВЕНЬ КОНКУРЕНЦИИ В ТЕМАТИКЕ: </td>
+												<td><span id="result_5"></span></td>
+												</tr>
+												<tr>
+												<td>ИСТОРИЯ ПРОДВИЖЕНИЯ САЙТА: </td>
+												<td><span id="result_6"></span></td>
+												</tr>
+												<tr>
+												<td>КОНТЕКСТНАЯ РЕКЛАМА (PPC): </td>
+												<td><span id="result_7"></span></td>
+												</tr>
+												<tr>
+												<td>ЕСТЬ СВОЙ КОПИРАЙТЕР?: </td>
+												<td><span id="result_8"></span></td>
+												</tr>
+												<tr>
+												<td>ЕСТЬ СВОЙ ПРОГРАММИСТ?: </td>
+												<td><span id="result_9"></span></td>
+												</tr>
+												<tr>
+												<td>АДАПТИВНОСТЬ: </td>
+												<td><span id="result_11"></span></td>
+												</tr>
+												<tr>
+												<td>САЙТ ПОД ФИЛЬТРОМ?: </td>
+												<td><span id="result_10"></span></td>
+												</tr>
+												<tr>
+												<td>ПРОДВИЖЕНИЕ В YANDEX-КАРТАХ: </td>
+												<td><span id="result_12"></span></td>
+												</tr>
+												<tr>
+												<td>КРАУД-МАРКЕТИНГ: </td>
+												<td><span id="result_13"></span></td>
+												</tr>
+												<tr>
+												<td>УГЛУБЛЕННАЯ АНАЛИТИКА: </td>
+												<td><span id="result_14"></span></td>
+												</tr>
+												</tbody>
+												</table>
+											 &nbsp;
+											<h4 id="h4_itogo">Итого: <span id="result_itogo" style="font-size: 36px;"></span> &#8381;/мес. <b class="tooltip" data-tooltip="Для индивидуального расчета заполните форму.">*</b></h4>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="five">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title">Используем комплексный подход</h1>
+					</div>
+					<div class="col-md-12">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="bbcd activeb" id="bbc" data-id="1">
+									<p class="tt">Анализ конкурентов</p>
+									<p>Изучение тематики, анализ конкурентов и методов их продвижения</p>
+								</div>
+								<div class="bbcd" id="bbc" data-id="2">
+									<p class="tt">Разработка стратегии</p>
+									<p>Создание эффективной SEO-стратегии, ведущей к достижению ТОПа</p>
+								</div>
+								<div class="bbcd" id="bbc" data-id="3">
+									<p class="tt">Оптимизация сайта</p>
+									<p>Проведение работ по внутренней и внешней оптимизации сайта</p>
+								</div>
+								<div class="bbcd" id="bbc" data-id="4">
+									<p class="tt">Прозрачная отчетность</p>
+									<p>Отчетность о результатах проведения работ и обо всех рабочих процессах по проекту</p>
+								</div>
+							</div>
+							<div class="col-md-8 dfjkdf">
+								<div id="ibbc1" class="activebi" style="background: url('assests/i1.png');">
+								<div class="over">
+									<p class="tt">Анализ конкурентов</p>
+									<p>Осуществляем детальный анализ отрасли: изучаем конкурентов на предмет внутренней и внешней оптимизации, выявляем математические модели ранжирования, рассчитываем корреляцию между факторами ранжирования и их влиянием на занимаемые сайтом позиции.</p>
+								</div>
+								</div>
+
+								<div id="ibbc2" class="activebin" style="background: url('assests/013/im2.jpg');">
+								<div class="over">
+									<p class="tt">Разработка стратегии</p>
+									<p>Успех не бывает спонтанным. Четкий план и конкретные цели позволяют нам определить самые эффективные средства для достижения желаемого результат - увеличения оборота вашего бизнеса.</p>
+								</div>
+								</div>
+
+								<div id="ibbc3" class="activebin" style="background: url('assests/013/im3.jpg');">
+								<div class="over">
+									<p class="tt">Оптимизация сайта</p>
+									<p>Проведя глубокий всесторонний аудит сайта мы приступаем к работам по внутренней и внешней оптимизации ресурса, постепенно превращая ваш сайт в лидера ниши.</p>
+								</div>
+								</div>
+
+								<div id="ibbc4" class="activebin" style="background: url('assests/013/im4.jpg');">
+								<div class="over">
+									<p class="tt">Прозрачная отчетность</p>
+									<p>Наглядный и понятный отчет по продвижению сайта? Да, мы это умеем. Каждые 2 недели специалисты предоставляют полный отчет о работах, которые были проведены, и о результатах, которые были достигнуты. Теперь метрики сайта, динамика позиций и изменения трафика вы сможете увидеть не только в специальных сервисах, но и прямо в pdf-файле с отчетностью.</p>
+								</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="six">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title">Разрабатываем индивидуальный план продвижения для<br> каждого клиента</h1>
+					</div>
+
+					<div class="col-md-12">
+						<div class="row">
+								<div class="col-md-3 tabs" data-id="1">
+									1-ый месяц
+								</div>
+								<div class="col-md-3 tabs active_t" data-id="2">
+									2-ой месяц
+								</div>
+								<div class="col-md-3 tabs" data-id="3">
+									6-ой месяц
+								</div>
+								<div class="col-md-3 tabs" data-id="4">
+									12-ый месяц
+								</div>
+						</div>
+						<div class="row">
+								<div class="col-md-12 tabk active_tan" id="ff1">
+									<ul class="nummmm">
+									<li>Аналитические работы по оценке тематики и сайтов конкурентов</li>
+									<li>Составление широкого семантического ядра проекта</li>
+									<li>Оценка и доработки структуры сайта</li>
+									<li>Оценка юзабилити сайта и рекомендации по его улучшению</li>
+									<li>Разработка стратегии линк-билдинга</li>
+									<li>Работы по оптимизации контента, создание новых посадочных страниц при необходимости</li>
+									<li>Создание и реализация схемы внутренней перелинковки</li>
+									<li>Аналитика динамики позиций и трафика сайта, создание плана продвижения на следующий месяц</li>
+									</ul>
+								</div>
+								<div class="col-md-12 tabk active_ta" id="ff2">
+									<ul class="nummmm">
+									<li>Продолжение работ по контентной оптимизации сайта. Подготовка очередной партии текстов. Их согласование с заказчиком и внесение на сайт.</li>
+									<li>Продолжение работ по работе с посадочными страницами и их оптимизацией (теги, мета-теги).</li>
+									<li>Рекомендации по созданию новых страниц со статьями.</li>
+									<li>Продолжение работ по внешней оптимизации сайта согласно утвержденной стратегии.</li>
+									<li>Анализ данных систем веб-аналитики.</li>
+									<li>Разработка общих рекомендаций по развитию сайта. Их согласование с заказчиком и внедрение на сайт.</li>
+									<li>Разработка общих рекомендаций по коммерческим факторам сайта. Их согласование с заказчиком и внедрение на сайт.</li>
+									<li>Проведение тестирования юзабилити сайта.</li>
+									<li>Определение проблемных зон юзабилити сайта.</li>
+									<li>Разработка и реализация рекомендаций по улучшению юзабилити сайта. Их согласование с заказчиком и внедрение на сайт.</li>
+									</ul>
+								</div>
+								<div class="col-md-12 tabk active_tan" id="ff3">
+									<ul class="nummmm">
+									<li>Промежуточный технический аудит</li>
+									<li>Промежуточная проверка уникальности контента </li>
+									<li>Конкурентный анализ и выработка рекомендаций по развитию сайта</li>
+									<li>Расширение семантического ядра (при необходимости)</li>
+									<li>Создание дополнительных входных страниц (при необходимости)</li>
+									<li>Продолжение работ по наращиванию ссылочной массы</li>
+									<li>Проверка сайта на фильтры и санкции со стороны поисковых систем</li>
+									<li>Работы по контентной оптимизации сайта</li>
+									<li>Оценка структуры сайта, доработки в случае необходимости</li>
+									<li>Анализ достигнутых результатов, постановка целей на следующий квартал</li>
+									</ul>
+								</div>
+								<div class="col-md-12 tabk active_tan" id="ff4">
+									<ul class="nummmm">
+									<li>Анализ достигнутых за год результатов</li>
+									<li>Корректировка стратегии продвижения (при необходимости)</li>
+									<li>Актуализация семантического ядра</li>
+									<li>Анализ конкурентной среды</li>
+									<li>Разработка рекомендаций по доработке</li>
+									<li>Тестирование юзабилити и поиск «слабых» мест сайта</li>
+									<li>Промежуточный технический аудит сайта</li>
+									<li>Создание новых посадочных страниц (при необходимости)</li>
+									<li>Продолжение работ по контентной оптимизации сайта.</li>
+									<li>Анализ динамики трафика и позиций ресурса в поисковой выдаче</li>
+									</ul>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="seven">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title_wh">Наши кейсы</h1>
+					</div>
+					<div class="col-md-12">
+						<div class="row">
+								<div class="col-sm-12 col-xs-12 col-md-4 Ktabs Kactive_t" data-id="1" id="Kta1">
+									Фабрика штор на ткацкой
+								</div>
+								<div class="col-sm-12 col-xs-12 col-md-4 Ktabs" data-id="2" id="Kta2">
+									Медицинская компания
+								</div>
+								<div class="col-sm-12 col-xs-12 col-md-4 Ktabs" data-id="3" id="Kta3">
+									Кредитный брокер
+								</div>
+						</div>
+						<div class="row">
+								<div class="col-md-12 Ktabk Kactive_ta" id="Kff1">
+									<p class="ttt">Интернет-магазин по продаже  штор, карнизов и сопутствующих товаров</p>
+									<div class="col-md-4 cccd" style="padding:0px; margin:0px;">
+										<p class="ccc">Задача</p>
+										Организация полного цикла продаж через интернет. Поставлена цель по ежемесячному объему продаж
+									</div>
+									<div class="col-md-8 cccd" style="padding:0px; margin:0px;">
+										<p class="ccc">Результат</p>
+										Цели достигнуты в полном объеме. Сайт постоянно обновляется. За счет контекстной рекламы достигнута посещаемость 20 000 уникальных посетителй в месяц. Более 85% фраз в ТОП10.
+									</div>
+												<div style="width: 100%; height: 20px; clear: both"></div>
+									<div class="col-md-8 imgkeq">
+										<img src="assests/shatura4.png" />
+									</div>
+									<div class="col-md-4 imgkeq">
+										<img src="assests/shatura5.png" />
+									</div>
+
+										<div style="width: 100%; height: 20px; clear: both"></div>
+										<p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
+
+										<div class="col-md-6 navlef navar" data-id="3"> <img src="assests/left.png"/>Предыдущий кейс </div>
+										<div class="col-md-6 navrig navar" data-id="2"> Следующий кейс<img src="assests/right.png"/> </div>
+
+										<div class="col-md-12" style="text-align: center; margin: 0 auto;">
+											<a class="tm_pb_button" href="">Заказать услугу</a>
+										</div>
+								</div>
+								<div class="col-md-12 Ktabk Kactive_tan" id="Kff2">
+									<p class="ttt">Срок: Март 2017 - Декабрь 2018</p>
+									<div class="col-md-4 cccd" style="padding:0px; margin:0px; margin-right: 10px; width: calc(33.33% - 10px)">
+										<p class="ccc">Задача</p>
+										Продвинуть сайт с нуля, добиться получения от 100 заявок на получение медицинских книжек в месяц
+									</div>
+									<div class="col-md-8 cccd" style="padding:0px; margin:0px;">
+										<p class="ccc">Результат</p>
+										98% фраз находятся в ТОП-10, в среднем 6-7 тыс. уникальных посетителей в месяц, 215 заявок через форму обратной связи, около 700 обращений по телефону
+									</div>
+												<div style="width: 100%; height: 20px; clear: both"></div>
+									<div class="col-md-8 imgkeq">
+										<img src="assests/013/m1.jpg" style="height: 280px;"/>
+									</div>
+									<div class="col-md-4 imgkeq">
+										<img src="assests/013/m2.jpg" />
+									</div>
+
+									<div style="width: 100%; height: 20px; clear: both"></div>
+									<p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
+
+									<div class="col-md-6 navlef navar" data-id="1"> <img src="assests/left.png"/>Предыдущий кейс </div>
+									<div class="col-md-6 navrig navar" data-id="3"> Следующий кейс<img src="assests/right.png"/> </div>
+
+									<div class="col-md-12" style="text-align: center; margin: 0 auto;">
+										<a class="tm_pb_button" href="">Заказать услугу</a>
+									</div>
+								</div>
+								<div class="col-md-12 Ktabk Kactive_tan" id="Kff3">
+									<p class="ttt">Срок: Сентябрь 2018 - Декабрь 2018</p>
+									<div class="col-md-4 cccd" style="padding:0px; margin:0px; margin-right: 10px; width: calc(33.33% - 10px)">
+										<p class="ccc">Задача</p>
+										Продвинуть сайт с нуля до топовых позиций по региону продвижения
+									</div>
+									<div class="col-md-8 cccd" style="padding:0px; margin:0px;">
+										<p class="ccc">Результат</p>
+										Посещаемость сайта выросла до 150 уникальныных посетителей в месяц, более 50% фраз в ТОП10.
+									</div>
+												<div style="width: 100%; height: 20px; clear: both"></div>
+									<div class="col-md-8 imgkeq">
+										<img src="assests/013/t1.jpg" style="height: 280px;"/>
+									</div>
+									<div class="col-md-4 imgkeq">
+										<img src="assests/013/t2.jpg" />
+									</div>
+
+									<div style="width: 100%; height: 20px; clear: both"></div>
+									<p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
+
+									<div class="col-md-6 navlef navar" data-id="2"> <img src="assests/left.png"/>Предыдущий кейс </div>
+									<div class="col-md-6 navrig navar" data-id="1"> Следующий кейс<img src="assests/right.png"/> </div>
+
+									<div class="col-md-12" style="text-align: center; margin: 0 auto;">
+										<a class="tm_pb_button" href="">Заказать услугу</a>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="eight">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title">Тарифные планы</h1>
+					</div>
+					<div class="col-md-12">
+						<div class="row">
+								<div class="col-sm-12 col-xs-12 col-md-3 Ptabs" data-id="1">
+									Продвижение<br>сайтов услуг
+								</div>
+								<div class="col-sm-12 col-xs-12 col-md-3 Ptabs Pactive_t" data-id="2">
+									Продвижение<br>интернет-магазинов
+								</div>
+								<div class="col-sm-12 col-xs-12 col-md-3 Ptabs" data-id="3">
+									Продвижение<br>порталов
+								</div>
+								<div class="col-sm-12 col-xs-12 col-md-3 Ptabs" data-id="4">
+									Комплексное SEO<br>продвижение
+								</div>
+						</div>
+						<div class="row">
+								<div class="col-md-12 Ptabk Pactive_tan" id="Pff1">
+									<div class="col-md-8">
+										<p class="ttt">Для кого подходит услуга?</p>
+										<p class="ddd">Для кого подходит услуга?</p>
+										<p class="ddd">Для тех, кому нужны быстрые результаты</p>
+										<p class="ddd">Для тех, кто устал от пустых обещаний популярных SEO агентств</p>
+										<p class="ttt">Как строится работа:</p>
+										<p class="ddd">Проектная группа из 4 специалистов</p>
+										<p class="ddd">Детальные планы и отчёты</p>
+										<p class="ddd">Прозрачная работа по продвижению сайта: вы видите всё, что происходит</p>
+										<p class="ddd">Продвижение по 2-м моделям: “Быстрые результаты” + “Лидер тематики”</p>
+										<p class="ttt">Результат</p>
+										<p class="ddd">Рост трафика в 2, 3, 5, 10 раз</p>
+										<p class="ddd">Увеличение продаж</p>
+									</div>
+									<div class="col-md-4">
+										<p class="ttt">Что входит</p>
+										<p class="ddd">Аудит</p>
+										<p class="ddd">Разработка стратегии продвижения</p>
+										<p class="ddd">Составление семантического ядра</p>
+										<p class="ddd">Написание SEO контента</p>
+										<p class="ddd">Аналитика и повышение конверсии</p>
+										<p class="ddd">SERM</p>
+										<p class="ttt">от 25 000 руб./месяц</p>
+										<div style="width: 100%; height: 50px; clear:both"></div>
+										<a class="tm_pb_button" href="">Заказать услугу</a>
+										<div style="width: 100%; height: 30px; clear:both"></div>
+										<p class="gre">*Первые результаты через 2 мес.</p>
+									</div>
+								</div>
+								<div class="col-md-12 Ptabk Pactive_ta" id="Pff2">
+									<div class="col-md-8">
+										<p class="ttt">Для кого подходит услуга?</p>
+										<p class="ddd">Для кого подходит услуга?</p>
+										<p class="ddd">Для тех, кому нужны быстрые результаты</p>
+										<p class="ddd">Для тех, кто устал от пустых обещаний популярных SEO агентств</p>
+										<p class="ttt">Как строится работа:</p>
+										<p class="ddd">Проектная группа из 5 специалистов</p>
+										<p class="ddd">Детальные планы и отчёты</p>
+										<p class="ddd">Прозрачная работа по продвижению сайта: вы видите всё, что происходит</p>
+										<p class="ddd">Продвижение по 2-м моделям: “Быстрые результаты” + “Лидер тематики”</p>
+										<p class="ttt">Результат</p>
+										<p class="ddd">Рост трафика в 2, 3, 5, 10 раз</p>
+										<p class="ddd">Увеличение продаж</p>
+									</div>
+									<div class="col-md-4">
+										<p class="ttt">Что входит</p>
+										<p class="ddd">Аудит</p>
+										<p class="ddd">Разработка стратегии продвижения</p>
+										<p class="ddd">SERM</p>
+										<p class="ddd">Составление семантического ядра</p>
+										<p class="ddd">Разработка SEO модулей</p>
+										<p class="ddd">Написание SEO контента</p>
+										<p class="ddd">Аналитика и повышение конверсии</p>
+										<p class="ttt">от 30 000 руб./месяц</p>
+										<div style="width: 100%; height: 50px; clear:both"></div>
+										<a class="tm_pb_button" href="">Заказать услугу</a>
+										<div style="width: 100%; height: 30px; clear:both"></div>
+										<p class="gre">*Первые результаты через 2 мес.</p>
+									</div>
+								</div>
+								<div class="col-md-12 Ptabk Pactive_tan" id="Pff3">
+									<div class="col-md-8">
+										<p class="ttt">Для кого подходит услуга?</p>
+										<p class="ddd">Для кого подходит услуга?</p>
+										<p class="ddd">Для тех, кому нужны быстрые результаты</p>
+										<p class="ddd">Для тех, кто устал от пустых обещаний популярных SEO агентств</p>
+										<p class="ttt">Как строится работа:</p>
+										<p class="ddd">Проектная группа из 6 специалистов</p>
+										<p class="ddd">Детальные планы и отчёты</p>
+										<p class="ddd">Автоматизация продвижения сайта</p>
+										<p class="ddd">Прозрачная работа по продвижению сайта: вы видите всё, что происходит</p>
+										<p class="ddd">Продвижение по 2-м моделям: “Быстрые результаты” + “Лидер тематики”</p>
+										<p class="ttt">Результат</p>
+										<p class="ddd">Рост трафика в 2, 3, 5, 10 раз</p>
+										<p class="ddd">Увеличение продаж</p>
+									</div>
+									<div class="col-md-4">
+										<p class="ttt">Что входит</p>
+										<p class="ddd">Аудит</p>
+										<p class="ddd">Разработка стратегии продвижения</p>
+										<p class="ddd">Составление семантического ядра</p>
+										<p class="ddd">Разработка SEO модулей</p>
+										<p class="ddd">Написание SEO контента</p>
+										<p class="ddd">Аналитика и повышение конверсии</p>
+										<p class="ttt">от 50 000 руб./месяц</p>
+										<div style="width: 100%; height: 50px; clear:both"></div>
+										<a class="tm_pb_button" href="">Заказать услугу</a>
+										<div style="width: 100%; height: 30px; clear:both"></div>
+										<p class="gre">*Первые результаты через 2 мес.</p>
+									</div>
+								</div>
+								<div class="col-md-12 Ptabk Pactive_tan" id="Pff4">
+									<div class="col-md-8">
+										<p class="ttt">Для кого подходит услуга?</p>
+										<p class="ddd">Для кого подходит услуга?</p>
+										<p class="ddd">Для тех, кому нужны быстрые результаты</p>
+										<p class="ddd">Для тех, кто устал от пустых обещаний популярных SEO агентств</p>
+										<p class="ttt">Как строится работа:</p>
+										<p class="ddd">Проектная группа из 6 специалистов</p>
+										<p class="ddd">Детальные планы и отчёты</p>
+										<p class="ddd">Создание учебной системы, которая позволят самостоятельно расширять отдел</p>
+										<p class="ddd">Автоматизация продвижения сайта</p>
+										<p class="ddd">Продвижение по 2-м моделям: “Быстрые результаты” + “Лидер тематики”</p>
+										<p class="ttt">Результат</p>
+										<p class="ddd">Рост трафика в 2, 3, 5, 10 раз</p>
+										<p class="ddd">Увеличение продаж</p>
+										<p class="ddd">функционирующий отдел SEO</p>
+									</div>
+									<div class="col-md-4">
+										<p class="ttt">Что входит</p>
+										<p class="ddd">Разработка стратегии продвижения</p>
+										<p class="ddd">Обучение сотрудников, создание учебных материалов</p>
+										<p class="ddd">Формирование команды, запуск продвижения</p>
+										<p class="ddd">Совместное продвижение в течение 3-х месяцев</p>
+										<p class="ddd">Сопровождение работы отдела</p>
+										<p class="ttt">от 100 000 руб./месяц</p>
+										<div style="width: 100%; height: 50px; clear:both"></div>
+										<a class="tm_pb_button" href="">Заказать услугу</a>
+										<div style="width: 100%; height: 30px; clear:both"></div>
+										<p class="gre">*Первые результаты через 2 мес.</p>
+									</div>
+								</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="nine">
+			<div class="container">
+				<div class="row milo">
+					<div class="col-md-12">
+						<h1 class="title">Мы любим свое дело</h1>
+					</div>
+
+					<div class="col-md-6">
+						<p class="ttt">Фиксированные цены</p>
+						<p class="pp">Все цены указаны на сайте – не надо ждать обсчета. Цена не меняется от конкуренции, количества ключевых слов и т.п. Кроме того, в каждый пакет уже заложена скидка до 56% – потому что «оптом дешевле».</p>
+					</div>
+					<div class="col-sm-12 col-xs-12 col-md-6">
+						<img src="assests/bitrix.png" style="float: left;"/>
+						<img src="assests/top.png" style="float: right;"/>
+					</div>
+
+					<div class="col-md-6">
+						<p class="ttt">Без мук выбора</p>
+						<p class="pp">Вам не придется выбирать «продвижение по трафику, позициям или за лид». Работаем по западной модели ценообразования – оплата за конкретные работы. Результаты получаются одинаковые, а бешеные накрутки за гарантию отсутствуют.</p>
+					</div>
+					<div class="col-md-6 vvv">
+						<p>Познакомимся?</p> <a class="tm_pb_button" href="">Заполнить бриф</a>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="ten">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title">Подарки и скидки для наших клиентов</h1>
+					</div>
+
+										<div class="col-md-12">
+											<div class="row">
+											<div class="col-sm-12 col-md-4 block_twof">
+												<img src="assests/test.png" />
+												<p class="tit"> Скидка 15% за комплекс </p>
+												<p class="bottit"> При заказе SEO и контекстной рекламы одновременно - делаем скидку 15% на весь срок сотрудничества.</p>
+											</div>
+											<div class="col-sm-12 col-md-4 block_twof">
+												<img src="assests/high-five.png" />
+												<p class="tit"> До 20% за доверие</p>
+												<p class="bottit"> Если вы оплачиваете сразу 3, 6 или 12 месяцев работ, мы дарим вам скидку 10, 15 или 20% соответственно</p>
+											</div>
+											<div class="col-sm-12 col-md-4 block_twof">
+												<img src="assests/stopwatch.png" />
+												<p class="tit"> 5 000 руб. за скорость</p>
+												<p class="bottit"> При подписании договора в течении недели после презентации коммерческого предложения даем скидку 5 000 рублей.</p>
+											</div>
+											</div>
+										</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="elev">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title">Отзывы о нашей работе</h1>
+					</div>
+
+					<div class="rew">
+						<div class="col-md-9">
+							<p class="klhklk">Гранд Сервис</p>
+							<p class="jhkhjk">grandservice.ru</p>
+
+							<div class="dgjfgfgfg">
+								<p class="dfdghghf">Благодаря команде Lapkin Lab наша организация смогла объединить в один портал сайты всех филиалов компании (около 50 по России), в один мощный и современный ресурс. Lapkin Lab  показала себя как профессионал в своем деле грамотно планируя и своевременно реализуя все идеи и задачи, поставленные перед ними. </p>
+							</div>
+
+							<p class="eeee">Аркебус Степан Гафронович</p>
+							<p class="dfdf">Менеджер интернет-проектов</p>
+
+							<div class="dgji">
+								<p class="fffdff ooon"> <img src="assests/fiv.png"/> Результат</p>
+								<p class="fffdff"> <img src="assests/fiv.png"/> Консультации</p>
+								<p class="fffdff"> <img src="assests/fiv.png"/> Взаимопонимание</p>
+								<p class="fffdff"> <img src="assests/fiv.png"/> Поддержка</p>
+							</div>
+
+						</div>
+						<div class="col-md-3 img" style="height: 100%; display: flex; flex-direction: column; justify-content: center;">
+							<img src="assests/st.png" />
+						</div>
+					</div>
+					<div class="rew bbcddfdf">
+						<div class="col-md-9">
+							<p class="klhklk">Салон штор в Москве</p>
+							<p class="jhkhjk">shtorku.ru</p>
+
+							<div class="dgjfgfgfg">
+								<p class="dfdghghf">Я вам не рекомендую заниматься SЕО оптимизацией! Да-да вы меня правильно поняли никогда не занимайтесь SЕО оптимизацией САМИ! Меня зовут Николай и я владелец сети салонов штор в Москве. До того как я пришел в LapkinLab.ru, я занимался SЕО оптимизацией, да и вообще рекламой и продвижением своего сайта shtorku.ru сам и это было долго, дорого и самое важное не эффективно. Скажу, честно, Lapkinlab.ru мне порекомендовал мой хороший знакомый, еще когда у Артура Якушева не было своего маркетинг агенства. Работая с Lapkinlab на протяжении 1,5 лет я забыл что такое недоделки на сайте а конверсия в заявку выросла на 180%. Кстати, кейсы, которые они показывают на сайте, все настоящие и рост позиций тоже настоящий. В общем если хотите результат начинайте сотрудничество прямо сейчас, а если вам нужен процесс, то не тратьте ни свое время ни время, действительно классных специалистов. Отзыв то же реальный, не веришь напиши мне в соц сети. Спасибо Lapkinlab, работаем дальше и достигаем новых целей.</p>
+							</div>
+
+							<p class="eeee">Малышев Николай Андреевич</p>
+							<p class="dfdf">Владелец сети салонов штор Ms.Decor</p>
+
+							<div class="dgji">
+								<p class="fffdff ooon"> <img src="assests/fiv.png"/> Результат</p>
+								<p class="fffdff"> <img src="assests/fiv.png"/> Консультации</p>
+								<p class="fffdff"> <img src="assests/fiv.png"/> Взаимопонимание</p>
+								<p class="fffdff"> <img src="assests/fiv.png"/> Поддержка</p>
+							</div>
+
+						</div>
+						<div class="col-md-3 img" style="height: 100%; display: flex; flex-direction: column; justify-content: center;">
+							<img src="assests/st.png" />
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="twel">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title_wh">Полезные статьи</h1>
+					</div>
+
+					<div class="col-md-12">
+						<div class="row">
+						<div class="col-sm-12 col-md-4 block_news">
+							<div class="img" style="background: url('assests/img1.png'); background-size: cover; background-repeat: no-repeat;">
+							</div>
+							<div class="tit"> Мобильная версия сайта: чек-лист для аудита </div>
+							<div class="bottit"> Мобильный трафик с каждым годом растет, а значит, любой успешный
+								веб-сайт должен быть совместим не только с ПК</div>
+							<div class="botfff">
+								<p style="float: left;">28 ноября 2018</p>
+								<p style="float: right;">Статьи</p>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-4 block_news">
+							<div class="img" style="background: url('assests/img1.png'); background-size: cover; background-repeat: no-repeat;">
+							</div>
+							<div class="tit"> Мобильная версия сайта: чек-лист для аудита </div>
+							<div class="bottit"> Мобильный трафик с каждым годом растет, а значит, любой успешный
+								веб-сайт должен быть совместим не только с ПК</div>
+							<div class="botfff">
+								<p style="float: left;">28 ноября 2018</p>
+								<p style="float: right;">Статьи</p>
+							</div>
+						</div>
+						<div class="col-sm-12 col-md-4 block_news">
+							<div class="img" style="background: url('assests/img1.png'); background-size: cover; background-repeat: no-repeat;">
+							</div>
+							<div class="tit"> Мобильная версия сайта: чек-лист для аудита </div>
+							<div class="bottit"> Мобильный трафик с каждым годом растет, а значит, любой успешный
+								веб-сайт должен быть совместим не только с ПК</div>
+							<div class="botfff">
+								<p style="float: left;">28 ноября 2018</p>
+								<p style="float: right;">Статьи</p>
+							</div>
+						</div>
+
+							<div class="col-md-12 botnew">
+								<a class="tm_pb_button" href="">Смотреть все статьи</a>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="tenthre">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title">Остались вопросы? Напишите нам!</h1>
+					</div>
+
+					<div class="col-md-12 fomrbut">
+						<form>
+							<div class="col-md-4"><input type="text" placeholder="Ваше имя" /></div>
+							<div class="col-md-4"><input type="text" placeholder="Телефон" /></div>
+							<div class="col-md-4"><input type="text" placeholder="Почта" /></div>
+
+							<div class="col-md-12" style="padding: 20px 15px;">
+								<textarea cols="30" rows="10" placeholder="Напишите ваш вопрос для наших специалистов"></textarea>
+							</div>
+
+							<div class="col-md-12" style="text-align: left;">
+								Нажимая на кнопку Отправить заявку, я даю согласие на обработку персональных данных
+							</div>
+							<div class="col-md-12" style="text-align: center;">
+								<input type="submit" class="tm_pb_button" name="" value="Отправить заявку" style="max-width: 255px;">
+							</div>
+
+
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="tenfour">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 class="title">SEO-продвижение сайтов в Москве</h1>
+					</div>
+					<div class="col-md-12 fpfppf">
+
+<p class="ffffe">Самый нужный и интересный сайт может остаться незамеченным, если его не продвигать. Для привлечения целевой аудитории из поисковых систем заказывают СЕО продвижение. Комплекс работ по оптимизации нацелен на выведение сайта в ТОП 10 Яндекс, Google по выбранным запросам.<br><br>
+									Чем выше веб-ресурс в поисковой выкладке, тем больше посетителей из сети Интернет приходит. Формируется положительный имидж компании, повышается лояльность клиентов. Можно не прибегать к оффлайн-рекламе, достаточно СЕО оптимизации, цены на которую ниже выпуска печатных рекламных носителей.
+</p>
+
+<h3>Когда СЕО услуги выгоднее других методов продвижения?</h3>
+<p class="ffffe">Для увеличения трафика на сайт можно заказать СЕО продвижение или применить контекстную рекламу. Каждый подход имеет свои преимущества, но, если вы рассчитываете на долгосрочный устойчивый эффект, выбирайте оптимизацию.<br><br>
+								<b>Преимущества SEO продвижения</b><br>
+								•	Новый посетитель по выгодной цене — стоимость до 4 раз меньше по сравнению контекстной рекламой. <br>
+								•	Прозрачность ценообразования — цена продвижения сайта фиксируется в договоре, в случае с контекстной рекламой конечная стоимость зависит от конкуренции объявлений.<br>
+								•	Широкий охват аудитории — посетители приходят на сайт по продвигаемым ключевым фразам и всем словам, включенным в семантическое ядро.<br><br>
+								Если вы рассчитываете плавно увеличивать конверсию и наращивать прибыль, оказаться в ТОП выдачи, стоит заказать продвижение сайта в ТОП. <br>
+								Лучшие результаты показывает комплексный подход — сочетание поисковой оптимизации и контекстной рекламы. <br>
+<br></p>
+
+<h3>Порядок работ по поисковому продвижению сайта в поисковых системах</h3>
+<p class="ffffe">Предлагаем комплекс мер по настройке ресурса под требования поисковых систем. Мы занимаемся структурой, кодом, текстами, ссылочными связями, и в результате поднимаем позиции сайта.<br><br>
+								<b>Внутренняя оптимизация</b><br>
+								Мы тщательно готовим сайт к продвижению в ТОП поисковой выдачи. Специалисты проводят комплекс мероприятий:<br>
+								•	аудит веб-ресурса;<br>
+								•	технические работы;<br>
+								•	оптимизацию контента, мета-тегов;<br>
+								•	улучшение структуры сайта, перелинковку;<br>
+								•	анализ эффективности URL, оптимизацию скорости загрузки страниц и др.<br><br>
+								Работы по внутренней оптимизации ускоряют индексацию страниц поисковыми роботами, исключают ошибки, ограничивающие работоспособность ресурса.<br><br>
+								<b>Внешняя оптимизация</b><br>
+								Специалисты приступают к постепенному, максимально естественному для поисковиков, увеличению ссылочного объема. Ссылки ведут на сайт с внешних ресурсов в виде комментариев, постов, рекомендаций в социальных сетях. Наши специалисты особенно тщательно выбирают источники — размещают ссылки на качественных ресурсах с хорошим ссылочным профилем.<br><br>
+								<b>Оптимизация поведенческих факторов</b><br>
+								Простота и удобство сайта для пользователей высоко ценится поисковыми системами. Если посетитель задерживается на ресурсе, изучая полезную и интересную информацию, это благоприятно сказывается на продвижении сайта в ТОП.<br><br>
+								Поисковые системы Яндекс и Google оценивают следующие факторы:<br>
+								•	время, которое пользователь провел на web-ресурсе;<br>
+								•	количество отказов при переходе на сайт;<br>
+								•	глубину просмотра — сколько страниц заинтересовало посетителя;<br>
+								•	активность — действия пользователей и др.; <br><br>
+								Компания LabkinLab предлагает заказать СЕО продвижение сайтов в Москве по привлекательным ценам. Мы работаем на долгосрочную перспективу — применяем исключительно белые способы раскрутки, оптимизируем содержание в соответствии с ожиданиями аудитории.
+<br></p>
+
+
+<h3>Цена SEO-продвижения сайта в Москве</h3>
+<p class="ffffe">Цена СЕО продвижения сайта включает оплату специальных сервисов, создания ссылочной массы, работу специалистов - seo-оптимизатора, программиста, копирайтера. <br><br>
+									Точную стоимость мы озвучиваем после аудита ресурса и выбора стратегии. Чтобы рассчитать конечную цену, мы должны знать, какой результат вы ожидаете и в какие сроки хотите получить.<br><br>
+									Цена продвижения сайта в ТОП зависит от:<br>
+									•	структуры и объема ресурса,<br>
+									•	сложности подготовительных работ,<br>
+									•	конкуренции в тематике, <br>
+									•	поставленных целей;<br>
+									•	региона продвижения.<br>
+<br></p>
+
+<h3>5 причин заказать SEO оптимизацию в LablkinLab</h3>
+<p class="ffffe">
+•	Комплексный подход — мы применяем различные маркетинговые инструменты, внимательно изучаем особенности веб-ресурса и выполняем комплекс необходимых мер.<br>
+•	Безопасность — применение белых методов оптимизации исключает риск бана поисковых систем, сайт развивается естественно и стабильно.<br>
+•	Эффективные стратегии продвижения — мы используем собственные наработки в различных тематиках, учитываем малейшие изменения в алгоритмах работы поисковиков. <br>
+•	Честные цены продвижения сайта в ТОП — доступная стоимость без скрытых платежей. Вы платите за услуги, которые нужны именно вашему сайту. <br>
+•	Сопровождение специалиста — каждый проект ведет менеджер: от согласования целей раскрутки до получения ожидаемого результата.<br><br>
+Позвоните нам, чтобы обсудить ваши идеи и наши предложения. Мы знаем, как сделать ваш ресурс прибыльным!
+<br></p>
+
+
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="map hid">
+			<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa7a3c79287b1fc621074ecc2abfb7f6a5097df06d86a534b35155044ad14f33a&amp;source=constructor"
+							width="100%" height="450" frameborder="0"></iframe>
+
+			<div class="overl"></div>
+				<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="text">
+							<h1 class="title_wh_left">Контакты LapkinLab</h1>
+							<p class="vvv"><br>
+								Москва, Ленинская Слобода, д. 26<br>
+								5 мин от метро "Автозаводская"<br>
+								<b style="font-size: 22px; "><a href="tel:88003010019" style="padding:10px 0px;">8 (800) 301-00-19</a></b><br>
+								Письмо директору: <a href="mailto:ya@lapkinlab.ru">ya@lapkinlab.ru</a><br>
+								Письмо по вакансиям: <a href="mailto:hr@lapkinlab.ru">hr@lapkinlab.ru</a><br>
+								Прочие письма: <a href="mailto:mail@lapkinlab.ru">mail@lapkinlab.ru</a><br><br>
+								Мы в социальных сетях:<br>
+								<a href="https://tele.click/lapkinlab" target="_blank" rel="noreferrer noopener"><i class="icon icon-telegram"></i></a>
+								<a href="https://tele.click/lapkinlab_test_bot" target="_blank" rel="noreferrer noopener"><i class="icon icon-telegram"></i></a>
+								<a href="https://www.instagram.com/lapkin___lab/" target="_blank" rel="noreferrer noopener"><i class="icon icon-instagram"></i></a>
+								<a href="https://vk.com/lapkinlab" target="_blank" rel="noreferrer noopener"><i class="icon icon-vkontakte"></i></a>
+								<a href="https://www.facebook.com/lapppkin" target="_blank" rel="noreferrer noopener"><i class="icon icon-facebook-squared"></i></a>
+							</p>
+						</div>
+						<div class="ddddxczzz"></div>
+					</div>
+				</div>
+				</div>
+
+
+		</section>
+		</main>
+
+		<footer class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="col-md-6">
+							<p class="ttt">Услуги</p>
+							<ul>
+								<li><a href="https://msk.lapkinlab.ru/seo/">Seo продвижение</a></li>
+								<li><a href="https://msk.lapkinlab.ru/kalkulyator-stoimosti-sajtov/">Создание сайтов</a></li>
+								<li><a href="https://msk.lapkinlab.ru/kontekstnaya-reklama/">Контекстная реклама</a></li>
+								<li><a href="https://msk.lapkinlab.ru/smm/">SMM продвижение</a></li>
+								<li><a href="https://msk.lapkinlab.ru/telegram/razrabotka-i-vnedrenie-chat-botov/">Чат боты</a></li>
+							</ul>
+						</div>
+						<div class="col-md-6">
+							<p class="ttt">Компания</p>
+							<ul>
+								<li><a href="#">О нас</a></li>
+								<li><a href="https://msk.lapkinlab.ru/novosti/">Статьи</a></li>
+								<li><a href="https://msk.lapkinlab.ru/telegram/">Телеграм</a></li>
+								<li><a href="https://msk.lapkinlab.ru/kalkulyator-stoimosti-sajtov/#portfolio">Портфолио</a></li>
+								<li><a href="#">Отзывы</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="col-md-6">
+							<p class="te"><a href="tel:88003010019">8 (800) 301-00-19</a></p>
+							<a href="" class="jre">Заказать звонок</a>
+						</div>
+						<div class="col-md-6">
+							<p class="te"><a href="mailto:mail@lapkinlab.ru">mail@lapkinlab.ru</a></p>
+							<a href="#win1" class="jre">Быстро отвечаем</a>
+						</div>
+						<div class="col-md-12">
+								<p class="ccss">Москва, Ленинская Слобода, д. 26</p>
+								<p class="sscc">5 мин от метро "Автозаводская"</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</body>
+
+
+
+	<a href="#x" class="overlay" id="win1"></a>
+	    <div class="popup">
+	<div id="form_zakaz_audit_primer"><div role="form" class="wpcf7">
+	<div class="screen-reader-response"></div>
+
+	<form action="/mail_post.php" method="post" class="wpcf7-form" id="form000">
+	<div style="display: none;">
+	<input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
+	</div>
+	<p style="font-size: 24px;">Заказать аудит сайта</p>
+	<p><label> Ваше имя (обязательно)<br>
+	    <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="fff" required></span> </label></p>
+	<p><label> Телефон (обязательно)<br>
+	    <span class="wpcf7-form-control-wrap your-phone"><input type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required></span> </label></p>
+	<p><label> Ваш e-mail (обязательно)<br>
+	    <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" required></span> </label></p>
+	<p><label> Ваш сайт (обязательно)<br>
+		<p style="display:none;"><input type="text" name="name" value=""></p>
+	    <span class="wpcf7-form-control-wrap your-site"><input type="text" name="your-site" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required></span> </label></p>
+	<p><span class="wpcf7-form-control-wrap acceptance-check"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required></span><label>Я принимаю <a href="/privacy-policy" target="_blank">условия передачи информации</a></label></p>
+	<p><input type="submit" id="form_btn" value="Заказать" class="widget_text wpcf7-form-control wpcf7-submit"></p>
+	<div class="wpcf7-response-output wpcf7-display-none"></div>
+	</form>
+	</div>
+	</div>
+	<a class="close" title="Закрыть" href="#close">	&times;</a>
+	</div>
+
+
+
+	<!-- <script src="modul/ionRangeSlider/js/jquery-1.12.3.min.js"></script> -->
+	<script src="modul/ionRangeSlider/js/ion.rangeSlider.js"></script>
+	<script src="modul/ionRangeSlider/js/js.js"></script>
+
+	<!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+	<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</html>

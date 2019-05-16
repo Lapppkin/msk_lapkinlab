@@ -1,8 +1,8 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Воронка", 
-		"/voronka.php", 
+		"SEO аудит",
+		"/seo-page",
 		Array(), 
 		Array(), 
 		"" 

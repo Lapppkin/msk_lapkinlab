@@ -1,0 +1,34 @@
+.breadcrumbs{
+  width: 100%;
+}
+.two {
+    padding: 30px 0px;
+}
+.breadcrumbs__content{
+  display: inline;
+}
+.breadcrumbs__item{
+  display: inline-block;
+  padding: 0px 5px;
+  font-family: "Proxima Nova Lt";
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.16px;
+}
+
+.breadcrumbs__item a{
+color: #fa3a5e;
+}
+
+.feedback_contacts_item {
+font-family: "Proxima Nova Lt";
+font-size: 14px;
+font-weight: bold;
+letter-spacing: 0.14px;
+}
+.feedback_contacts_item .title_wh_left{
+  color: #000;
+}
+.feedback_contacts_item .vvv a{
+  color: #fa3a5e;
+}
