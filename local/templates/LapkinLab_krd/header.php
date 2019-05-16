@@ -26,10 +26,22 @@ IncludeTemplateLangFile(__FILE__); ?>
     <link rel="stylesheet" type="text/css" media="screen" href="//msk.lapkinlab.ru/bitrix/templates/new_design/modul/ionRangeSlider/css/css.css">
     <script src="//code.jquery.com/jquery-1.9.1.js"></script>
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css">
-    <link rel="stylesheet" href="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/css/styles_dev.css">
-    <link rel="stylesheet" href="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/css/styles_seo.css">
-    <link rel="stylesheet" href="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/css/styles_contacts.css">
-    <link rel="stylesheet" href="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/css/styles_ppc.css">
+    <? if ($APPLICATION->GetCurPage(false) === '/kalkulyator-stoimosti-sajtov/') { ?>
+        <link rel="stylesheet" href="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/css/styles_dev.css">
+    <? } ?>
+
+    <? if ($APPLICATION->GetCurPage(false) === '/seo/') { ?>
+        <link rel="stylesheet" href="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/css/styles_seo.css">
+    <? } ?>
+
+    <? if ($APPLICATION->GetCurPage(false) === '/contacts/') { ?>
+        <link rel="stylesheet" href="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/css/styles_contacts.css">
+    <? } ?>
+
+    <? if ($APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/' or
+           $APPLICATION->GetCurPage(false) === '/seo-page/') { ?>
+        <link rel="stylesheet" href="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/css/styles_ppc.css">
+    <? } ?>
     <link rel="stylesheet"
           id="simple-job-board-google-fonts-css"
           href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i&amp;ver=2.6.0"
@@ -44,7 +56,7 @@ IncludeTemplateLangFile(__FILE__); ?>
     <link rel='stylesheet' id='chartist-css' href='<?= SITE_TEMPLATE_PATH ?>/libs/chart/chartist.min.css' type='text/css' media='all'/>
     <link rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/ion.rangeSlider.css">
     <link rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/ion.rangeSlider.skinFlat.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/css.css">
+
     <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/libs/font-awesome/css/font-awesome.min.css">
     <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/css/style.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/css/media.css"/>
@@ -99,6 +111,7 @@ IncludeTemplateLangFile(__FILE__); ?>
        $APPLICATION->GetCurPage(false) != '/rekr/' and
        $APPLICATION->GetCurPage(false) != '/chat-bot/' and
        $APPLICATION->GetCurPage(false) != '/seo-page/') { ?>
+    <link rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/css.css">
     <header>
         <div class="top_panel">
             <div class="container_v2">
