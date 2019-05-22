@@ -108,11 +108,11 @@
                   Услуги
                </p>
                <ul>
-                  <li><a href="https://msk.lapkinlab.ru/seo/">Seo продвижение</a></li>
-                  <li><a href="https://msk.lapkinlab.ru/kalkulyator-stoimosti-sajtov/">Создание сайтов</a></li>
-                  <li><a href="https://msk.lapkinlab.ru/kontekstnaya-reklama/">Контекстная реклама</a></li>
-                  <li><a href="https://msk.lapkinlab.ru/smm/">SMM продвижение</a></li>
-                  <li><a href="https://msk.lapkinlab.ru/telegram/razrabotka-i-vnedrenie-chat-botov/">Чат боты</a></li>
+                  <li><a href="/seo-page/">Seo продвижение</a></li>
+                  <li><a href="/kalkulyator-stoimosti-sajtov/">Создание сайтов</a></li>
+                  <li><a href="/kontekstnaya-reklama/">Контекстная реклама</a></li>
+                  <li><a href="/smm/">SMM продвижение</a></li>
+                  <li><a href="/chat-bot/">Чат боты</a></li>
                </ul>
             </div>
             <div class="col-md-6">

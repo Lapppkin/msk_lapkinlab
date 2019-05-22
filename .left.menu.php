@@ -2,7 +2,7 @@
 $aMenuLinks = Array(
 	Array(
 		"SEO аудит",
-		"/seo-page",
+		"/seo-page/",
 		Array(), 
 		Array(), 
 		"" 

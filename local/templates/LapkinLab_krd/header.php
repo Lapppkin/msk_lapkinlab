@@ -61,7 +61,6 @@ IncludeTemplateLangFile(__FILE__); ?>
     <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/css/style.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/css/media.css"/>
     <link rel="canonical" href="https://msk.lapkinlab.ru<?= $APPLICATION->GetCurPage(false) ?>"/>
-    <link rel="canonical" href="https://msk.lapkinlab.ru<?= $APPLICATION->GetCurPage(false) ?>"/>
     <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.carousel.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.theme.default.css"/>
     <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.carousel.css"/>
