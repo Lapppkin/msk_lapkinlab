@@ -70,7 +70,9 @@
                <a href="/privacy-policy/">Политика в отношении обработки персональных данных</a>
             </div>
             <div>
-               <a href="/image/Сертификат_Бизнес_Партнера_1с_битрикс.pdf" style="padding-right:10px;"> <img width="100px" src="/image/0021-039-.png"> </a>
+<!--               <a href="/image/Сертификат_Бизнес_Партнера_1с_битрикс.pdf" style="padding-right:10px;"> -->
+                   <img width="100px" src="/image/0021-039-.png">
+<!--               </a>-->
                <div class="social_list_footer">
                   <ul>
                      <li><a href="https://www.facebook.com/lapppkin"><span class="screen-reader-text">facebook</span></a></li>
