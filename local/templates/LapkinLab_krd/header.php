@@ -9,6 +9,7 @@ IncludeTemplateLangFile(__FILE__); ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="https://msk.lapkinlab.ru/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" type="image/x-icon" href="https://msk.lapkinlab.ru/favicon.ico"/>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
     <? $APPLICATION->ShowHead(); ?>
 
     <meta name="author" content="akapinos">
@@ -105,6 +106,7 @@ IncludeTemplateLangFile(__FILE__); ?>
        $APPLICATION->GetCurPage(false) != '/reviews/' and
        $APPLICATION->GetCurPage(false) != '/seo/' and
        $APPLICATION->GetCurPage(false) != '/amocrm/' and
+       $APPLICATION->GetCurPage(false) != '/amocrm/amo.php' and
        $APPLICATION->GetCurPage(false) != '/amocrm/brif/' and
        $APPLICATION->GetCurPage(false) != '/amocrm/o-produkte/' and
        $APPLICATION->GetCurPage(false) != '/rekr/' and

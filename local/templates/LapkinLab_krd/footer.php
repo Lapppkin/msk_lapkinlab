@@ -8,7 +8,8 @@
 		$APPLICATION->GetCurPage(false) != '/kontekstnaya-reklama/' and  
 		$APPLICATION->GetCurPage(false) != '/reviews/'and 
 		$APPLICATION->GetCurPage(false) != '/seo/' and 
-		$APPLICATION->GetCurPage(false) != '/amocrm/' and 
+		$APPLICATION->GetCurPage(false) != '/amocrm/' and
+		$APPLICATION->GetCurPage(false) != '/amocrm/amo.php' and
 		$APPLICATION->GetCurPage(false) != '/amocrm/brif/' and 
 		$APPLICATION->GetCurPage(false) != '/amocrm/o-produkte/' and 
 		$APPLICATION->GetCurPage(false) != '/rekr/' and 
@@ -95,7 +96,8 @@
 		$APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/' or 
 		$APPLICATION->GetCurPage(false) === '/reviews/' or 
 		$APPLICATION->GetCurPage(false) === '/seo/' or 
-		$APPLICATION->GetCurPage(false) === '/amocrm/' or 
+		$APPLICATION->GetCurPage(false) === '/amocrm/' or
+		$APPLICATION->GetCurPage(false) === '/amocrm/amo.php' or
 		$APPLICATION->GetCurPage(false) === '/amocrm/brif/' or 
 		$APPLICATION->GetCurPage(false) === '/amocrm/o-produkte/' or 
 		$APPLICATION->GetCurPage(false) === '/rekr/' or 
@@ -334,7 +336,8 @@
 		$APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/' or 
 		$APPLICATION->GetCurPage(false) === '/reviews/' or 
 		$APPLICATION->GetCurPage(false) === '/rekr/' or 
-		$APPLICATION->GetCurPage(false) === '/amocrm/' or 
+		$APPLICATION->GetCurPage(false) === '/amocrm/' or
+		$APPLICATION->GetCurPage(false) === '/amocrm/amo.php' or
 		$APPLICATION->GetCurPage(false) === '/amocrm/brif/' or 
 		$APPLICATION->GetCurPage(false) === '/seo/' or 
 		$APPLICATION->GetCurPage(false) === '/chat-bot/'){ ?> 
@@ -362,7 +365,8 @@
 		$APPLICATION->GetCurPage(false) != '/contacts/' and 
 		$APPLICATION->GetCurPage(false) != '/rekr/' and 
 		$APPLICATION->GetCurPage(false) != '/kontekstnaya-reklama/' and 
-		$APPLICATION->GetCurPage(false) != '/amocrm/' and 
+		$APPLICATION->GetCurPage(false) != '/amocrm/' and
+		$APPLICATION->GetCurPage(false) != '/amocrm/amo.php' and
 		$APPLICATION->GetCurPage(false) != '/amocrm/brif/' and 
 		$APPLICATION->GetCurPage(false) != '/amocrm/o-produkte/' and 
 		$APPLICATION->GetCurPage(false) != '/chat-bot/' and 
@@ -415,7 +419,8 @@
 		$APPLICATION->GetCurPage(false) != '/contacts/' and 
 		$APPLICATION->GetCurPage(false) != '/kontekstnaya-reklama/'and 
 		$APPLICATION->GetCurPage(false) != '/seo/' and 
-		$APPLICATION->GetCurPage(false) != '/amocrm/' and 
+		$APPLICATION->GetCurPage(false) != '/amocrm/' and
+		$APPLICATION->GetCurPage(false) != '/amocrm/amo.php' and
 		$APPLICATION->GetCurPage(false) != '/amocrm/brif/' and 
 		$APPLICATION->GetCurPage(false) != '/amocrm/o-produkte/' and 
 		$APPLICATION->GetCurPage(false) != '/rekr/' and 
@@ -441,6 +446,7 @@
 		$APPLICATION->GetCurPage(false) != '/seo/' and 
 		$APPLICATION->GetCurPage(false) != '/rekr/' and 
 		$APPLICATION->GetCurPage(false) != '/amocrm/' and 
+		$APPLICATION->GetCurPage(false) != '/amocrm/amo.php' and
 		$APPLICATION->GetCurPage(false) != '/amocrm/brif/' and 
 		$APPLICATION->GetCurPage(false) != '/amocrm/o-produkte/' and 
 		$APPLICATION->GetCurPage(false) != '/chat-bot/' and 
@@ -485,7 +491,8 @@
 		$APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/' or 
 		$APPLICATION->GetCurPage(false) === '/reviews/' or 
 		$APPLICATION->GetCurPage(false) === '/seo/' or 
-		$APPLICATION->GetCurPage(false) === '/amocrm/' or 
+		$APPLICATION->GetCurPage(false) === '/amocrm/' or
+		$APPLICATION->GetCurPage(false) === '/amocrm/amo.php' or
 		$APPLICATION->GetCurPage(false) === '/amocrm/brif/' or 
 		$APPLICATION->GetCurPage(false) === '/amocrm/o-produkte/' or 
 		$APPLICATION->GetCurPage(false) === '/chat-bot/' or 
