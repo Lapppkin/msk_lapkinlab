@@ -106,7 +106,7 @@ IncludeTemplateLangFile(__FILE__); ?>
        $APPLICATION->GetCurPage(false) != '/reviews/' and
        $APPLICATION->GetCurPage(false) != '/seo/' and
        $APPLICATION->GetCurPage(false) != '/amocrm/' and
-       $APPLICATION->GetCurPage(false) != '/amocrm/amo.php' and
+       $APPLICATION->GetCurPage(false) != '/amocrm/checklist/' and
        $APPLICATION->GetCurPage(false) != '/amocrm/brif/' and
        $APPLICATION->GetCurPage(false) != '/amocrm/o-produkte/' and
        $APPLICATION->GetCurPage(false) != '/rekr/' and
