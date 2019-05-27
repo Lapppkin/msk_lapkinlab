@@ -520,12 +520,13 @@
 })(window, document, 'script', 'cloud.roistat.com', 'e15a222f8520098c4edb39b3c778f3d0');
 </script>
 
-<script>
-        (function(w,d,u){
-                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
-                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
-        })(window,document,'https://cdn.bitrix24.ru/b8927137/crm/site_button/loader_2_dt8ie7.js');
-</script>
+<!--<script>-->
+<!--        (function(w,d,u){-->
+<!--                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);-->
+<!--                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);-->
+<!--        })(window,document,'https://cdn.bitrix24.ru/b8927137/crm/site_button/loader_2_dt8ie7.js');-->
+<!--</script>-->
+<script type="text/javascript" src="//cdn.callbackhunter.com/cbh.js?hunter_code=d2a52b897791ef4220f5e04952280447" charset="UTF-8"></script>
 
 	</body>
 </html>
