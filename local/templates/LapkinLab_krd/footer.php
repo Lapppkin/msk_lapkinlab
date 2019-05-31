@@ -14,7 +14,8 @@
 		$APPLICATION->GetCurPage(false) != '/amocrm/o-produkte/' and 
 		$APPLICATION->GetCurPage(false) != '/rekr/' and 
 		$APPLICATION->GetCurPage(false) != '/chat-bot/' and 
-		$APPLICATION->GetCurPage(false) != '/seo-page/'){ ?> 
+		$APPLICATION->GetCurPage(false) != '/seo-page/' and
+		$APPLICATION->GetCurPage(false) != '/seo-page/'){ ?>
 
 
 <footer>

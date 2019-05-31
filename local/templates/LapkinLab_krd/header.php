@@ -12,8 +12,6 @@ IncludeTemplateLangFile(__FILE__); ?>
     <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
     <? $APPLICATION->ShowHead(); ?>
 
-    <meta name="author" content="akapinos">
-
     <link rel="stylesheet"
           href="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
@@ -37,6 +35,10 @@ IncludeTemplateLangFile(__FILE__); ?>
 
     <? if ($APPLICATION->GetCurPage(false) === '/contacts/') { ?>
         <link rel="stylesheet" href="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/css/styles_contacts.css">
+    <? } ?>
+
+    <? if ($APPLICATION->GetCurPage(false) === '/smm/') { ?>
+        <link rel="stylesheet" href="/local/templates/LapkinLab_krd/css/main.css">
     <? } ?>
 
     <? if ($APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/' or
