@@ -100,7 +100,7 @@ $APPLICATION->SetTitle("SMM продвижение в Москве: СММ раскрутка в социальных сет
     <section class="seo_header">
         <div class="container_v2">
             <div class="seo_header_title">
-                <h1>SMM и Таргетированная реклама в социальных сетях</h1>
+                <h1 style="background: none">SMM и Таргетированная реклама в социальных сетях</h1>
                 <p class="smm-h5" style="color: #fff; margin: 7px 0 7px;">
                     Мы предлагаем комплексное продвижение в социальных сетях
                 </p>
