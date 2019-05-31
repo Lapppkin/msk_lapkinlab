@@ -1806,7 +1806,7 @@ hr {
     padding-bottom: 104px;
 }
 .seo_header_title h1{
-    background-color: none;
+    background-color: none !important;
     font-size: 48px;
     color: #fff;
     margin: 15px 0 40px;
