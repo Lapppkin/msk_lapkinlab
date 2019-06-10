@@ -241,7 +241,7 @@ $APPLICATION->SetTitle("SMM продвижение в Москве: СММ раскрутка в социальных сет
                 <div class="price_audit_item">
                     <div class="price_audit_item_top">
                         <p style="font-size: 30px;margin: 15px 0 37px;color: #fff;line-height: 1.25;" class="price_audit_title">
-                            Часы поддержки/обслуживания сайта клиента
+                            Расширенный SMM
                         </p>
                         <div>
                             <span class="tm_pb_sum">50 000 &#8381;</span>
