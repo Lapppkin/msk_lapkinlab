@@ -1,9 +1,9 @@
-.navffff2{
+.navffff2 {
     min-width: 250px !important;
-    padding: 15px 0 15px 0 !important;
+    padding:   15px 0 15px 0 !important;
 }
 
-.four .container_v2 .link{
+.four .container_v2 .link {
     text-align: center;
 }
 
@@ -31,10 +31,12 @@
 #box {
     padding-top: 40px;
 }
+
 .ktabs-content img {
     text-align: center;
     margin:     0 auto;
 }
+
 img.tm_pb_brands_showcase_module__item__logo {
     display:    block;
     width:      auto !important;
@@ -128,8 +130,9 @@ section.price .container > div.right-block > div > div.button-of-work img {
 
 section.price .container > div.right-block > div > div.button-of-work .price-text-other {
     padding-top:    50px;
-    font-size:      20px;
     padding-bottom: 10px;
+    font-size:      20px;
+    font-weight:    300;
 }
 
 section.price .container > div.right-block > div > div.button-of-work .button-business {
@@ -191,11 +194,11 @@ section.price .container > div.right-block > div > div > ul > li:after {
 }
 
 section.price .container > div.right-block > div > div:hover > ul > li:after {
-    background:            none;
-    content:               "\f058";
-    font-family:           fontawesome !important;
-    font-size:             29px;
-    color:                 #39adb9;
+    background:  none;
+    content:     "\f058";
+    font-family: fontawesome !important;
+    font-size:   29px;
+    color:       #39adb9;
 }
 
 
