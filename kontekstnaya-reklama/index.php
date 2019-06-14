@@ -943,7 +943,7 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу в агентстве: стоимость наст
                         <p style="font-size: 24px; margin: 10px 0  10px 0;">Оставьте ваши контактные данные для связи:</p>
                         <form action="/mail_post.php" method="post" class="wpcf7-form">
                             <div style="display: none;">
-                                <input type="hidden" name="url" value="https://msk.lapkinlab.ru/calc/">
+                                <input type="hidden" name="url" value="/calc/">
                             </div>
                             <p>
                                 <label> Ваше имя (обязательно)<br>
@@ -1352,7 +1352,7 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу в агентстве: стоимость наст
                     <div class="video-reviews-block" style="margin-top: 50px; justify-content: center !important;">
                         <div class="video-review">
                             <div class="circle-video-block">
-                                <a class="video-popup" href="https://www.youtube.com/embed/jX8QZG4JXHY"></a> <img src="//msk.lapkinlab.ru/assests/kalinza.jpg"
+                                <a class="video-popup" href="https://www.youtube.com/embed/jX8QZG4JXHY"></a> <img src="/assests/kalinza.jpg"
                                                                                                                   style="position: absolute;left: -195px;top: -65px;">
                             </div>
                             <div class="vr-title">
@@ -1364,7 +1364,7 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу в агентстве: стоимость наст
                         </div>
                         <div class="video-review">
                             <div class="circle-video-block">
-                                <a class="video-popup" href="https://www.youtube.com/embed/XaxNwe8O6Vw"></a> <img src="//msk.lapkinlab.ru/assests/trillion.jpg"
+                                <a class="video-popup" href="https://www.youtube.com/embed/XaxNwe8O6Vw"></a> <img src="/assests/trillion.jpg"
                                                                                                                   style="position: absolute;left: -195px;top: -65px;">
                             </div>
                             <div class="vr-title">
@@ -1454,10 +1454,10 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу в агентстве: стоимость наст
                                 <div style="width: 100%; height: 20px; clear: both">
                                 </div>
                                 <div class="col-md-8 imgkeq">
-                                    <img src="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/assests/sk11.png" style="height: 280px;">
+                                    <img src="/bitrix/templates/LapkinLab_krd/assests/sk11.png" style="height: 280px;">
                                 </div>
                                 <div class="col-md-4 imgkeq">
-                                    <img src="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/assests/sk12.png">
+                                    <img src="/bitrix/templates/LapkinLab_krd/assests/sk12.png">
                                 </div>
                                 <div style="width: 100%; height: 20px; clear: both">
                                 </div>
@@ -1465,10 +1465,10 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу в агентстве: стоимость наст
                                     Тип рекламной кампании: Поиск и РСЯ
                                 </p>
                                 <div class="col-md-6 navlef navar" data-id="3">
-                                    <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/left.png">Предыдущий кейс
+                                    <img src="/bitrix/templates/new_design/assests/left.png">Предыдущий кейс
                                 </div>
                                 <div class="col-md-6 navrig navar" data-id="2">
-                                    Следующий кейс<img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/right.png">
+                                    Следующий кейс<img src="/bitrix/templates/new_design/assests/right.png">
                                 </div>
                                 <div class="col-md-12" style="text-align: center; margin: 0 auto;">
                                     <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'uslugazakaz'); return true;">Заказать услугу</a>
@@ -1494,10 +1494,10 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу в агентстве: стоимость наст
                                 <div style="width: 100%; height: 20px; clear: both">
                                 </div>
                                 <div class="col-md-8 imgkeq">
-                                    <img src="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/assests/sk21.png" style="height: 280px;">
+                                    <img src="/bitrix/templates/LapkinLab_krd/assests/sk21.png" style="height: 280px;">
                                 </div>
                                 <div class="col-md-4 imgkeq">
-                                    <img src="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/assests/sk22.png">
+                                    <img src="/bitrix/templates/LapkinLab_krd/assests/sk22.png">
                                 </div>
                                 <div style="width: 100%; height: 20px; clear: both">
                                 </div>
@@ -1505,10 +1505,10 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу в агентстве: стоимость наст
                                     Тип рекламной кампании: Поиск
                                 </p>
                                 <div class="col-md-6 navlef navar" data-id="1">
-                                    <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/left.png">Предыдущий кейс
+                                    <img src="/bitrix/templates/new_design/assests/left.png">Предыдущий кейс
                                 </div>
                                 <div class="col-md-6 navrig navar" data-id="3">
-                                    Следующий кейс<img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/right.png">
+                                    Следующий кейс<img src="/bitrix/templates/new_design/assests/right.png">
                                 </div>
                                 <div class="col-md-12" style="text-align: center; margin: 0 auto;">
                                     <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'uslugazakaz'); return true;">Заказать услугу</a>
@@ -1533,10 +1533,10 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу в агентстве: стоимость наст
                                 <div style="width: 100%; height: 20px; clear: both">
                                 </div>
                                 <div class="col-md-8 imgkeq">
-                                    <img src="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/assests/sk31.png" style="height: 280px;">
+                                    <img src="/bitrix/templates/LapkinLab_krd/assests/sk31.png" style="height: 280px;">
                                 </div>
                                 <div class="col-md-4 imgkeq">
-                                    <img src="//msk.lapkinlab.ru/bitrix/templates/LapkinLab_krd/assests/sk32.png">
+                                    <img src="/bitrix/templates/LapkinLab_krd/assests/sk32.png">
                                 </div>
                                 <div style="width: 100%; height: 20px; clear: both">
                                 </div>
@@ -1544,10 +1544,10 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу в агентстве: стоимость наст
                                     Тип рекламной кампании: Поиск
                                 </p>
                                 <div class="col-md-6 navlef navar" data-id="2">
-                                    <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/left.png">Предыдущий кейс
+                                    <img src="/bitrix/templates/new_design/assests/left.png">Предыдущий кейс
                                 </div>
                                 <div class="col-md-6 navrig navar" data-id="1">
-                                    Следующий кейс<img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/right.png">
+                                    Следующий кейс<img src="/bitrix/templates/new_design/assests/right.png">
                                 </div>
                                 <div class="col-md-12" style="text-align: center; margin: 0 auto;">
                                     <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'uslugazakaz'); return true;">Заказать услугу</a>

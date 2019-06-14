@@ -334,7 +334,7 @@ $APPLICATION->SetTitle("Как формируется стоимость SEO продвижения?");
                 </p>
                 <ul>
                     <li><a href="https://t-do.ru/SEO_lapkinlab" target="_blank">Продвижение бизнеса в интернете</a>— делюсь опытом как продвинуться в интернете, хитрости
-                        современного интернет маркетинга (<a href="https://msk.lapkinlab.ru/">seo</a>, контекстная реклама, smm, telegram + боты и каналы)
+                        современного интернет маркетинга   (<a href="/">seo</a>, контекстная реклама, smm, telegram + боты и каналы)
                     </li>
                     <li><a href="https://t-do.ru/rutelegram_Lab" target="_blank">Обучение Telegram</a> —опыт создания/ведения Telegram каналов и пассивного заработка от их ведения.
                     </li>

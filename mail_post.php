@@ -129,7 +129,7 @@ if (isset($_POST)) {
             $contact->addCustomField(53923, [[$email, 'PRIV'],]);
             $contact->addCustomField(89745, [[$messages,],]);
             $id = $contact->apiAdd();
-            header("Location: https://msk.lapkinlab.ru/#spasibo");
+            header("Location: /#spasibo");
         } catch (\AmoCRM\Exception $e) {
 
             $sitename = "msk.lapkinlab.ru";
@@ -184,12 +184,12 @@ if (isset($_POST)) {
             $headers .= 'Cc: akapinos@lapkinlab.ru' . "\r\n";
             $headers .= "Bcc: akapinos@lapkinlab.ru\r\n";
             mail($to, $subject, $message, $headers);
-            header("Location: https://msk.lapkinlab.ru/#spasibo");
+            header("Location: /#spasibo");
         }
 
-        header("Location: https://msk.lapkinlab.ru/#spasibo");
+        header("Location: /#spasibo");
 
-        //header("Location: https://msk.lapkinlab.ru/testuuu.php?name=".$name."&phone=".$phone."&site=".$site."&email=".$email."&messages=".$messages);
+        //header("Location: /testuuu.php?name=".$name."&phone=".$phone."&site=".$site."&email=".$email."&messages=".$messages);
 
     } else {
 
@@ -235,10 +235,10 @@ if (isset($_POST)) {
 
         $el->Add($arLoadProductArray);
 
-        header("Location: https://msk.lapkinlab.ru/#error");
+        header("Location: /#error");
     }
 } else {
-    header("Location: https://msk.lapkinlab.ru/#error");
+    header("Location: /#error");
 }
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/epilog_after.php");
 ?>
