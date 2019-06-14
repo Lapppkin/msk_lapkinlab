@@ -15,13 +15,13 @@ $.fn.clicktoggle = function(a, b) {
 $(function() {
     $('.arrow-all').clicktoggle(function() {
         $('.ul-main-composition').fadeIn(700);
-        $(this).text('РЎРІРµСЂРЅСѓС‚СЊ РїРѕР»РЅС‹Р№ СЃРїРёСЃРѕРє');
+        $(this).text('Свернуть полный список');
         $('#arrow').toggleClass('img-rotate');
         $('#arrow2').toggleClass('img-rotate');
         $('#arrow3').toggleClass('img-rotate');
     }, function() {
         $('.ul-main-composition').fadeOut(700);
-        $(this).text('Р РµС‰Рµ СЃРєРѕР»СЊРєРѕ-С‚Рѕ РІРёРґРѕРІ СЂР°Р±РѕС‚');
+        $(this).text('И еще сколько-то видов работ');
         $('#arrow').toggleClass('img-rotate');
         $('#arrow2').toggleClass('img-rotate');
         $('#arrow3').toggleClass('img-rotate');
