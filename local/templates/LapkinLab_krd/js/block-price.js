@@ -21,7 +21,7 @@ $(function() {
         $('#arrow3').toggleClass('img-rotate');
     }, function() {
         $('.ul-main-composition').fadeOut(700);
-        $(this).text('И еще сколько-то видов работ');
+        $(this).text('И еще 24 вида работ');
         $('#arrow').toggleClass('img-rotate');
         $('#arrow2').toggleClass('img-rotate');
         $('#arrow3').toggleClass('img-rotate');
