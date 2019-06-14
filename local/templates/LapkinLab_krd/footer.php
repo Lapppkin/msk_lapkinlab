@@ -126,9 +126,9 @@
                </p>
                <ul>
                   <li><a href="#">О нас</a></li>
-                  <li><a href="https://msk.lapkinlab.ru/novosti/">Статьи</a></li>
-                  <li><a href="https://msk.lapkinlab.ru/telegram/">Телеграм</a></li>
-                  <li><a href="https://msk.lapkinlab.ru/kalkulyator-stoimosti-sajtov/#portfolio">Портфолио</a></li>
+                  <li><a href="/novosti/">Статьи</a></li>
+                  <li><a href="/telegram/">Телеграм</a></li>
+                  <li><a href="/kalkulyator-stoimosti-sajtov/#portfolio">Портфолио</a></li>
                   <li><a href="#">Отзывы</a></li>
                </ul>
             </div>
@@ -164,7 +164,7 @@
             </div>
          </div>
          <div class="col-md-6">
-			 <a href="//msk.lapkinlab.ru/amoCRM.jpeg" style="padding-right:10px; padding-top:20px; float: right;" class="fancybox"> <img width="80px" src="//msk.lapkinlab.ru/amoCRM.jpeg" class="lazyload" data-src="//msk.lapkinlab.ru/amoCRM.jpeg"> </a>
+			 <a href="/amoCRM.jpeg" style="padding-right:10px; padding-top:20px; float: right;" class="fancybox"> <img width="80px" src="/amoCRM.jpeg" class="lazyload" data-src="/amoCRM.jpeg"> </a>
             <a href="/image/Сертификат_Бизнес_Партнера_1с_битрикс.pdf" style="padding-right:10px; padding-top:20px; float: right;"> <img width="100px" src="/image/0021-039-.png" class="lazyload" data-src="/image/0021-039-.png"> </a>
          </div>
       </div>
@@ -343,7 +343,7 @@
 		$APPLICATION->GetCurPage(false) === '/seo/' or 
 		$APPLICATION->GetCurPage(false) === '/chat-bot/'){ ?> 
 	<a style="bottom: 110px; right: 10px; position: fixed; z-index: 150; transition-duration: .2s;" class="rocket1" href="#"> 
-		<img src="//msk.lapkinlab.ru/upload/medialibrary/685/Rocket2.png" style="width: 70px;"> 
+		<img src="/upload/medialibrary/685/Rocket2.png" style="width: 70px;"> 
 	</a>
 	<script src="/bitrix/templates/new_design/modul/ionRangeSlider/js/ion.rangeSlider.js"></script>
  	<script src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script> 
@@ -529,5 +529,6 @@
 <!--</script>-->
 <script type="text/javascript" src="//cdn.callbackhunter.com/cbh.js?hunter_code=d2a52b897791ef4220f5e04952280447" charset="UTF-8"></script>
 
+<script src="<?= SITE_TEMPLATE_PATH ?>/js/block-price.js"></script>
 	</body>
 </html>
