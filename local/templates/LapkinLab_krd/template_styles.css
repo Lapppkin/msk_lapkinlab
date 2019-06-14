@@ -44,6 +44,11 @@ img.tm_pb_brands_showcase_module__item__logo {
     margin:     0 auto;
 }
 
+.tet a {
+    position: relative;
+    top:      20px;
+}
+
 .img-rotate {
     transform: rotate(180deg);
 }
