@@ -322,9 +322,11 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сай
                             </ul>
                         </div>
                         <div class="button-of-work">
-                            <div class=""><img alt="arrowdown"
-                                               src="https://www.optimism.ru/local/templates/optimism/img/arrowdown_white.svg"
-                                               class="arrow-down" id="arrow3"></div>
+                            <div class="arrow-down-block">
+                                <img alt="arrowdown"
+                                     src="https://www.optimism.ru/local/templates/optimism/img/arrowdown_white.svg"
+                                     class="arrow-down" id="arrow3">
+                            </div>
                             <div class="price-text-other">45 000 руб.</div>
                             <a href="#win1" class="button-business" role="button">Выбрать</a>
                         </div>
