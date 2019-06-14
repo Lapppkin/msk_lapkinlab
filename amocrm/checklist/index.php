@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetPageProperty("keywords", "Чек-лист внедрения amoCRM");
-$APPLICATION->SetPageProperty("title", "Чек-лист внедрения amoCRM");
-$APPLICATION->SetPageProperty("description", "Маркетинговое агентство LapkinLab Чек-лист внедрения amoCRM");
+$APPLICATION->SetPageProperty("keywords", "чек лист amocrm");
+$APPLICATION->SetPageProperty("title", "Чек-лист настройки amoCRM для внедрения CRM в компании");
+$APPLICATION->SetPageProperty("description", "Список работ при самостоятельно настройке amoCRM");
 $APPLICATION->SetTitle("Чек-лист внедрения amoCRM");
 ?>
     <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/css/main.css"/>
@@ -404,7 +404,7 @@ $APPLICATION->SetTitle("Чек-лист внедрения amoCRM");
                     </p>
                     <ul>
                         <li><a href="https://t-do.ru/SEO_lapkinlab" target="_blank">Продвижение бизнеса в интернете</a>— делюсь опытом как продвинуться в интернете, хитрости
-                            современного интернет маркетинга (<a href="/">seo</a>, контекстная реклама, smm, telegram + боты и каналы)
+                            современного интернет маркетинга (<a href="https://msk.lapkinlab.ru/">seo</a>, контекстная реклама, smm, telegram + боты и каналы)
                         </li>
                         <li><a href="https://t-do.ru/rutelegram_Lab" target="_blank">Обучение Telegram</a> —опыт создания/ведения Telegram каналов и пассивного заработка от их
                             ведения.
