@@ -27,7 +27,7 @@ $APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, ка
                         </ul>
                     </div>
                     <div class="col-md-4">
-                        <form class="form_banner" action="/mail_post.php" method="post">
+                        <form class="form_banner" action="//msk.lapkinlab.ru/mail_post.php" method="post">
                             <div class="form_titile">
                                 Узнать стоимость<br> разработки
                             </div>
@@ -62,7 +62,7 @@ $APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, ка
                     <div class="col-sm-12 col-md-4 blo">
                         <div class="tit">Landing page</div>
                         <div class="tet">Разработка мини промо-сайта. Включает    в себя 5-7 экранов с информацией + форму обратной связи. <br>&nbsp;</div>
-                        <div class="im1"> <img src="../../assests/dollar-symbol.png"> от 20 000 рублей</div>
+                        <div class="im1"> <img src="../../assests/dollar-symbol.png"> от 40 000 рублей</div>
                         <div class="im2"> <img src="../../assests/calendar.png"> от 10 до 20 дней</div>
                         <div class="col-md-12 botnew">
                             <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'cenyrazrab'); return true;">Заказать</a>
@@ -197,7 +197,7 @@ $APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, ка
                                 <p class="bottit"> Интернет-магазин контактных линз</p>
                             </div>
                             <div class="col-sm-12 col-md-6 blo">
-                                <img src="/upload/medialibrary/886/shtorku.png">
+                                <img src="//msk.lapkinlab.ru/upload/medialibrary/886/shtorku.png">
                                 <p class="tit"> Shtorku</p>
                                 <p class="bottit"> Салон штор в Москве</p>
                             </div>
@@ -225,45 +225,45 @@ $APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, ка
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-sm-12 col-md-4 blo">
-                                    <img src="/image/5-1.jpeg">
+                                    <img src="//msk.lapkinlab.ru/image/5-1.jpeg">
                                     <p class="tit"> Модные мужские и женские оправы </p>
                                 </div>
                                 <div class="col-sm-12 col-md-4 blo">
-                                    <img src="/image/9.jpeg">
+                                    <img src="//msk.lapkinlab.ru/image/9.jpeg">
                                     <p class="tit"> KIPR – Комплексное SMM продвижение </p>
                                 </div>
                                 <div class="col-sm-12 col-md-4 blo">
-                                    <img src="/image/1231231.jpeg">
+                                    <img src="//msk.lapkinlab.ru/image/1231231.jpeg">
                                     <p class="tit"> Комфортное дистанционное обучение </p>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="row">
                                     <div class="col-sm-12 col-md-4 blo">
-                                        <img src="/image/10.jpeg">
+                                        <img src="//msk.lapkinlab.ru/image/10.jpeg">
                                         <p class="tit"> ООО “СЕЛЬХОЗМАШ” </p>
                                     </div>
                                     <div class="col-sm-12 col-md-4 blo">
-                                        <img src="/image/11.jpeg">
+                                        <img src="//msk.lapkinlab.ru/image/11.jpeg">
                                         <p class="tit"> Компания «Матадор» </p>
                                     </div>
                                     <div class="col-sm-12 col-md-4 blo">
-                                        <img src="/image/12.jpeg">
+                                        <img src="//msk.lapkinlab.ru/image/12.jpeg">
                                         <p class="tit"> Интернет магазин Волшебный сон </p>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="row">
                                         <div class="col-sm-12 col-md-4 blo">
-                                            <img src="/image/13.jpeg">
+                                            <img src="//msk.lapkinlab.ru/image/13.jpeg">
                                             <p class="tit"> Автомобильные шторки Eva-light </p>
                                         </div>
                                         <div class="col-sm-12 col-md-4 blo">
-                                            <img src="/image/yug.jpg">
+                                            <img src="//msk.lapkinlab.ru/image/yug.jpg">
                                             <p class="tit"> Ипотечные программы от Южных Метров </p>
                                         </div>
                                         <div class="col-sm-12 col-md-4 blo">
-                                            <img src="/image/14.jpeg">
+                                            <img src="//msk.lapkinlab.ru/image/14.jpeg">
                                             <p class="tit"> Бухгалтерские услуги в Москве </p>
                                         </div>
                                     </div>
