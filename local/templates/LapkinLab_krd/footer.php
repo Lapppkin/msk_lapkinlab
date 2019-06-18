@@ -164,7 +164,7 @@
             </div>
          </div>
          <div class="col-md-6">
-			 <a href="/amoCRM.jpeg" style="padding-right:10px; padding-top:20px; float: right;" class="fancybox"> <img width="80px" src="/amoCRM.jpeg" class="lazyload" data-src="/amoCRM.jpeg"> </a>
+			 <a href="/amoCRM.jpeg" style="padding-right:10px; padding-top:20px; float: right;" class="fancybox"> <img width="80px" src="/amoCRM_small.jpeg" class="lazyload" data-src="/amoCRM.jpeg"> </a>
             <a href="/image/Сертификат_Бизнес_Партнера_1с_битрикс.pdf" style="padding-right:10px; padding-top:20px; float: right;"> <img width="100px" src="/image/0021-039-.png" class="lazyload" data-src="/image/0021-039-.png"> </a>
          </div>
       </div>
