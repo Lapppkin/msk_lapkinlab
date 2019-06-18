@@ -654,7 +654,7 @@
     }
 }
 
-/* Portrait phones and smaller */
+/* Portrait phones and smaller  */
 @media (max-width: 480px) {
     .right-block h4 {
         font-size:    20px;
