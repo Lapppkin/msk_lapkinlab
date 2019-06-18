@@ -50,7 +50,26 @@
     }
 }
 
+@media only screen and (max-width: 1024px) {
+    section.price .container > div.right-block > div > div.list-of-work {
+        padding-top: 50px;
+    }
+
+    section.price .container > div.right-block .first-block .desc-price {
+        height: 36px;
+    }
+
+}
+
 @media only screen and (max-width: 768px) {
+    section.price .container > div.right-block > div > div.list-of-work {
+        padding-top: 125px;
+    }
+
+    section.price .container > div.right-block > div > div.button-of-work {
+        padding-bottom: 15px;
+    }
+
     .search_promotion_list h1 {
         font-size: 29px;
     }
@@ -656,6 +675,23 @@
 
 /* Portrait phones and smaller  */
 @media (max-width: 480px) {
+    section.price .container > div.right-block > div > div.button-of-work .price-text-other {
+        font-size: 12px;
+    }
+
+    section.price .container > div.right-block > div > div.button-of-work .button-business {
+        padding: 5px 5px;
+    }
+
+    section.price .container > div.right-block > div > div.list-of-work {
+        padding-top: 51px;
+    }
+
+    section.price .container > div.right-block > div > div > ul > li {
+        text-align:      center;
+        justify-content: center;
+    }
+
     .right-block h4 {
         font-size:    20px;
         writing-mode: tb-rl;
@@ -671,35 +707,44 @@
 
     .right-block > div.first-block {
         font-size:   8px;
-        padding-top: 229px !important;
+        padding-top: 77px !important;
     }
 
     .right-block > div.second-block {
         font-size:   8px;
-        padding-top: 221px !important;
+        padding-top: 80px !important;
+    }
+
+    section.price .container #main-composition > ul {
+        width: 100%;
     }
 
     section.price .container #main-composition > ul > li {
+        display:     flex;
+        align-items: center;
+        line-height: 10px;
         padding:     0px 40px 0px 0;
-        font-size:   10px;
+        font-size:   9px;
     }
+
     section.price .container .block-button .button-business {
-        font-size: 10px;
-        padding: 5px 13px;
+        font-size:  10px;
+        padding:    5px 13px;
         text-align: center;
     }
 
     section.price .container .block-button .price-text {
         text-transform: uppercase;
-        font-size: 25px;
-        margin-left: 36px;
+        font-size:      25px;
+        margin-left:    36px;
     }
+
     section.price .container .block-button {
-        display: flex;
-        flex-direction: row;
+        display:         flex;
+        flex-direction:  row;
         justify-content: space-between;
-        align-items: center;
-        padding: 43px 0 10px 0;
+        align-items:     center;
+        padding:         43px 0 10px 0;
     }
 
     section.price .container .price-title {
@@ -708,6 +753,48 @@
 
     section.price .container > div.right-block > div {
         overflow: hidden;
+    }
+
+    section.price .container {
+        flex-direction: column;
+    }
+
+    section.price .container > div.left-block {
+        width: 100%;
+    }
+
+    section.price .container > div.right-block {
+        width:      100%;
+        border-top: 1px solid #fa3a5e38;
+    }
+
+    section.price .container > div.right-block > div {
+        border-left:  1px solid #fa3a5e38;
+        border-right: 1px solid #fa3a5e38;
+    }
+
+    section.price .container > div.right-block > div > div.button-of-work .price-text-other {
+        padding-top: 10px;
+    }
+
+    section.price .container > div.right-block .formobile {
+        display:          flex;
+        flex-direction:   column;
+        width:            50%;
+        padding:          60px 20px 40px 20px;
+        background-color: rgba(58, 58, 80, 0.38);
+    }
+
+    section.price .container > div.right-block .first-block {
+        width: auto;
+    }
+
+    section.price .container > div.right-block .first-block .desc-price {
+        height: 22px;
+    }
+
+    section.price .container > div.right-block .second-block {
+        width: auto;
     }
 
     .diagram_768 {

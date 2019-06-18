@@ -86,6 +86,10 @@ section.price .container > div.right-block {
     text-align:     center;
 }
 
+section.price .container > div.right-block .formobile {
+    display: none;
+}
+
 section.price .container > div.right-block .first-block {
     background-color: rgba(245, 186, 197, 0.09);
 }
@@ -196,6 +200,9 @@ section.price .container > div.right-block > div > div > ul > li:after {
     background-size:       100% auto;
     -webkit-border-radius: 50%;
     border-radius:         50%;
+}section.price .container > div.right-block > .formobile > div > ul > li:after {
+    background:            none;
+    content:               "";
 }
 
 section.price .container > div.right-block > div > div:hover > ul > li:after {
@@ -260,7 +267,7 @@ section.price .container #main-composition > ul > li {
     line-height: 18px;
 }
 
-section.price .container #main-composition > ul > li:after {
+section.price .container .left-block #main-composition > ul > li:after {
     background:            none;
     content:               "\f058";
     font-family:           fontawesome !important;
@@ -280,7 +287,7 @@ section.price .container #main-composition > ul > li:after {
     border-radius:         50%;
 }
 
-section.price .container #main-composition > ul > li.not-exist:after {
+section.price .container .left-block #main-composition > ul > li.not-exist:after {
     background:            none;
     font-family:           fontawesome !important;
     content:               "\f057";
@@ -384,23 +391,23 @@ section.price .container .block-button .price-text {
     font-size:      34px;
 }
 
-.tit a{
-    color: #000;
+.tit a {
+    color: #000000;
 }
 
 
-.tit a, .tet a{
-    top: 10px;
+.tit a, .tet a {
+    top:              10px;
     background-color: transparent;
-    border-bottom: 3px solid #bee1ff;
-    box-shadow: inset 0 -5px 0 #bee1ff;
-    position: relative;
-    color: #000;
+    border-bottom:    3px solid #bee1ff;
+    box-shadow:       inset 0 -5px 0 #bee1ff;
+    position:         relative;
+    color:            #000000;
 }
 
-.tit a:hover, .tet a:hover{
-    box-shadow: inset 0 -1em 0 #bee1ff;
-    outline: 0;
+.tit a:hover, .tet a:hover {
+    box-shadow:      inset 0 -1em 0 #bee1ff;
+    outline:         0;
     text-decoration: none;
-    color: #ff3a5f;
+    color:           #ff3a5f;
 }

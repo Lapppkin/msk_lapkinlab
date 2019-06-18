@@ -684,9 +684,62 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сай
                 </div>
             </div>
             <div class="right-block">
+                <div class="formobile">
+                    <div id="main-composition">
+                        <h4>Основной состав работ</h4>
+                        <ul>
+                            <li>SEO-аудит</li>
+                            <li>Составление семантического ядра</li>
+                            <li>Составление плана работ по развитию сайта</li>
+                            <li>Регистрация сайта в сервисах для вебмастеров</li>
+                            <li>Анализ оптимизации сайтов конкурентов</li>
+                            <li>Реализация микроразметки</li>
+                            <li>Размещение на тематических порталах</li>
+                            <li>Отчётность по позициям</li>
+                        </ul>
+                        <ul class="ul-main-composition">
+                            <li>Ежеквартальная актуализация семантического ядра</li>
+                            <li class="not-exist">Настройка инструментов повышения продаж</li>
+                            <li>Стратегия поискового продвижения</li>
+                            <li>Базовые рекомендации по оптимизации сайта</li>
+                            <li>Написание текстов для продвигаемых страниц</li>
+                            <li class="not-exist">Базовая отчётность</li>
+                            <li>Расширенное ТЗ на поисковую оптимизацию сайта</li>
+                            <li>Расширенная ежемесячная отчётность</li>
+                            <li>Настройка систем аналитики Яндекс.Метрика и GA</li>
+                            <li>Настройка целей в Яндекс.Метрика или G.Analytics</li>
+                            <li class="not-exist">Настройка систем колл-трекинга</li>
+                            <li class="not-exist">Разработка стратегии размещения ссылок</li>
+                            <li>Составление базовых рекомендаций по юзабилити</li>
+                            <li>Ежемесячная проверка оптимизации сайта</li>
+                            <li>Регистрация в справочниках Яндекс и Google</li>
+                            <li>Кластеризация полного семантического ядра</li>
+                            <li class="not-exist">КРауд-маркетинг</li>
+                            <li>Контент-маркетинг</li>
+                            <li>Проведение юзабилити аудита</li>
+                            <li class="not-exist">Сквозная аналитика на базе Roistat</li>
+                            <li class="not-exist">A|B-тестирование и работы над конверсией</li>
+                            <li>Персональный менеджер</li>
+                            <li class="not-exist">3-х уровневая система контроля качества</li>
+                            <li class="not-exist">Бесплатные консультации по интернет-маркетингу</li>
+                            <li>Гарантия результата</li>
+                            <!--                            <li class="not-exist">SEO-аудит</li>-->
+                            <!--                            <li class="not-exist">SEO-аудит</li>-->
+                            <!--                            <li class="not-exist">SEO-аудит</li>-->
+                        </ul>
+                    </div>
+                    <div class="more-work">
+                        <div class="arrow-all">
+                            <span class="text">И ещё 24 вида работ</span>
+                            <img alt="arrowdown"
+                                 src="https://www.optimism.ru/local/templates/optimism/img/arrowdown_white.svg"
+                                 class="arrow-down" id="arrow1">
+                        </div>
+                    </div>
+                </div>
                 <div class="first-block">
                     <h4>Минимальный</h4>
-                    <div>Для новых сайтов и стартапов</div>
+                    <div class="desc-price">Для новых сайтов и стартапов</div>
                     <div class="list-of-work">
                         <ul>
                             <li></li>
@@ -738,7 +791,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сай
                 </div>
                 <div class="second-block">
                     <h4>Расширенный</h4>
-                    <div>Для бескомпромиссных проектов</div>
+                    <div class="desc-price">Для бескомпромиссных проектов</div>
                     <div class="list-of-work">
                         <ul>
                             <li></li>
