@@ -51,8 +51,10 @@ $APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, ка
                     </div>
 
                     <div class="col-sm-12 col-md-4 blo">
-                        <div class="tit">Mini-Landing page</div>
-                        <div class="tet">Разработка мини промо-сайта. Подходит  в первую очередь для проведения промо-акций, распродаж <br>&nbsp;</div>
+                        <div class="tit"><a href="http://minilanding.lapkinlab.ru/" target="_blank">Mini-Landing page</a></div>
+                        <div class="tet">Разработка мини промо-сайта. Подходит  в первую очередь для проведения промо-акций, распродаж <br>
+                            <a href="http://minilanding.lapkinlab.ru/" target="_blank">Смотреть пример</a>
+                        </div>
                         <div class="im1"> <img src="../../assests/dollar-symbol.png"> от 10 000 рублей</div>
                         <div class="im2"> <img src="../../assests/calendar.png"> от 7 до 10 дней</div>
                         <div class="col-md-12 botnew">

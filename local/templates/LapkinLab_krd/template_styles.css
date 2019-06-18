@@ -383,3 +383,24 @@ section.price .container .block-button .price-text {
     text-transform: uppercase;
     font-size:      34px;
 }
+
+.tit a{
+    color: #000;
+}
+
+
+.tit a, .tet a{
+    top: 10px;
+    background-color: transparent;
+    border-bottom: 3px solid #bee1ff;
+    box-shadow: inset 0 -5px 0 #bee1ff;
+    position: relative;
+    color: #000;
+}
+
+.tit a:hover, .tet a:hover{
+    box-shadow: inset 0 -1em 0 #bee1ff;
+    outline: 0;
+    text-decoration: none;
+    color: #ff3a5f;
+}
