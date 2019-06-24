@@ -13,7 +13,7 @@
     color:          #fa3a5e;
     padding:        20px;
     border-radius:  5px;
-    border:         1px solid #fa3a5e;
+    /*border:         1px solid #fa3a5e;*/
     font-family:    'Proxima Nova Lt';
     font-size:      22px;
     font-weight:    bold;
@@ -64,7 +64,7 @@ section.price {
 section.price .container {
     display:        flex;
     flex-direction: row;
-    padding:        0;
+    padding:        50px 0 100px 0;
 }
 
 section.price .container > div {
@@ -75,8 +75,8 @@ section.price .container > div.left-block {
     width:            60%;
     padding:          60px 20px 40px 20px;
     background-color: rgba(58, 58, 80, 0.38);
-    border-left:      1px solid #fa3a5e;
-    border-right:     1px solid #fa3a5e;
+    /*border-left:      1px solid #fa3a5e;
+    border-right:     1px solid #fa3a5e;*/
 }
 
 section.price .container > div.right-block {
@@ -118,7 +118,7 @@ section.price .container > div.right-block .second-block:hover .button-business 
 section.price .container > div.right-block > div {
     width:        50%;
     padding:      159px 0 0 0;
-    border-right: 1px solid #fa3a5e;
+    /*border-right: 1px solid #fa3a5e;*/
 }
 
 section.price .container > div.right-block > div > div.list-of-work {
@@ -201,9 +201,9 @@ section.price .container > div.right-block > div > div > ul > li:after {
     -webkit-border-radius: 50%;
     border-radius:         50%;
 }section.price .container > div.right-block > .formobile > div > ul > li:after {
-    background:            none;
-    content:               "";
-}
+     background:            none;
+     content:               "";
+ }
 
 section.price .container > div.right-block > div > div:hover > ul > li:after {
     background:  none;
@@ -410,4 +410,15 @@ section.price .container .block-button .price-text {
     outline:         0;
     text-decoration: none;
     color:           #ff3a5f;
+}
+
+.price-title-text{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    display: block;
 }

@@ -1,1 +1,254 @@
-.modal{z-index:999999;opacity:0;visibility:hidden;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);-webkit-transition:.3s ease-in-out;transition:.3s ease-in-out}.modal__box{padding:1em;border-radius:15px;background-size:210%;background-color:#fff;background-image:url(https://lapkinlab.ru/wp-content/uploads/2016/06/slide_1-e1490695895655.png);box-shadow:0 0 10px 0 rgba(0,0,0,0.2);text-align:center}.modal__box label{font-size:20px;text-align:left;float:left;clear:both;text-shadow:0 0 #fff;width:100%}.modal__box input[type='submit']{background-color:green;margin-top:-30px}.modal__box input[type='text']{border:1px solid #008100;box-shadow:0 0 10px 1px #0000001c;border-radius:5px}.modal2{z-index:999999;opacity:0;visibility:hidden;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.7);-webkit-transition:.3s ease-in-out;transition:.3s ease-in-out}.modal__box2{padding:1em;border-radius:15px;background-size:235%;max-width:700px;background-color:#fff;background-image:url(https://lapkinlab.ru/wp-content/uploads/2016/06/slide_1-e1490695895655.png);box-shadow:0 0 10px 0 rgba(0,0,0,0.2);text-align:center}.modal__box2 label{font-size:20px;text-align:left;float:left;clear:both;width:100%;text-shadow:0 0 #fff}.modal__box2 input[type='submit']{background-color:green;margin-top:-30px}.modal__box2 input[type='text']{border:1px solid #008100;box-shadow:0 0 10px 1px #0000001c;border-radius:5px}@media screen and (max-width:768px){.modal{display:none}.modal2{display:none}}.overlay{background-color:rgba(0,0,0,0.7);bottom:0;cursor:default;left:0;opacity:0;position:fixed;right:0;top:0;visibility:hidden;z-index:1;-webkit-transition:opacity .5s;-moz-transition:opacity .5s;-ms-transition:opacity .5s;-o-transition:opacity .5s;transition:opacity .5s}.overlay:target{visibility:visible;opacity:1}.popup{background-color:#fff;border:3px solid #fff;display:inline-block;left:50%;opacity:0;padding:15px;position:fixed;text-align:justify;top:40%;visibility:hidden;z-index:10;-webkit-transform:translate(-50%,-50%);-moz-transform:translate(-50%,-50%);-ms-transform:translate(-50%,-50%);-o-transform:translate(-50%,-50%);transform:translate(-50%,-50%);-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;-o-border-radius:10px;border-radius:10px;-webkit-transition:opacity .5s,top .5s;-moz-transition:opacity .5s,top .5s;-ms-transition:opacity .5s,top .5s;-o-transition:opacity .5s,top .5s;transition:opacity .5s,top .5s}.overlay:target+.popup{top:50%;opacity:1;visibility:visible}.close{color:#fff;background-color:rgba(0,0,0,0.8);border:2px solid #ccc;height:24px;line-height:15px;font-size:22px;position:absolute;right:-13px;font-weight:bold;text-align:center;text-decoration:none;top:-15px;width:24px;-webkit-border-radius:15px;-moz-border-radius:15px;-ms-border-radius:15px;-o-border-radius:15px;border-radius:15px}.close:before{color:#fff;font-size:14px}.close:hover{background-color:#000}.popup input[type=submit]{display:inline-block;max-width:100%;padding:18px 29px;border-radius:3.5px;cursor:pointer;text-align:center;vertical-align:top;white-space:nowrap;text-overflow:ellipsis;border:0;font-weight:300;letter-spacing:.9px;font-size:.95rem;color:#fff;background-color:#ff3a5f}@media screen and (max-width:1415px){.header-container__flex{flex-wrap:unset !important}.main-navigation{margin-top:5px}.stage .stage1{padding:10px 0 15px 0 !important}.price_audit_item_bottom .price_audit{padding:25px !important}}.social_icon a{width:unset !important}.social_icon .tm-pb-icon:before{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;content:attr(data-icon)}
+.modal {
+    z-index:            999999;
+    opacity:            0;
+    visibility:         hidden;
+    display:            -webkit-box;
+    display:            -ms-flexbox;
+    display:            flex;
+    -webkit-box-align:  center;
+    -ms-flex-align:     center;
+    align-items:        center;
+    -webkit-box-pack:   center;
+    -ms-flex-pack:      center;
+    justify-content:    center;
+    position:           fixed;
+    top:                0;
+    left:               0;
+    width:              100%;
+    height:             100%;
+    background:         rgba(0, 0, 0, 0.7);
+    -webkit-transition: .3s ease-in-out;
+    transition:         .3s ease-in-out
+}
+
+.modal__box {
+    padding:          1em;
+    border-radius:    15px;
+    background-size:  210%;
+    background-color: #ffffff;
+    background-image: url(https://lapkinlab.ru/wp-content/uploads/2016/06/slide_1-e1490695895655.png);
+    box-shadow:       0 0 10px 0 rgba(0, 0, 0, 0.2);
+    text-align:       center
+}
+
+.modal__box label {
+    font-size:   20px;
+    text-align:  left;
+    float:       left;
+    clear:       both;
+    text-shadow: 0 0 #ffffff;
+    width:       100%
+}
+
+.modal__box input[type='submit'] {
+    background-color: green;
+    margin-top:       -30px
+}
+
+.modal__box input[type='text'] {
+    border:        1px solid #008100;
+    box-shadow:    0 0 10px 1px #0000001c;
+    border-radius: 5px
+}
+
+.modal2 {
+    z-index:            999999;
+    opacity:            0;
+    visibility:         hidden;
+    display:            -webkit-box;
+    display:            -ms-flexbox;
+    display:            flex;
+    -webkit-box-align:  center;
+    -ms-flex-align:     center;
+    align-items:        center;
+    -webkit-box-pack:   center;
+    -ms-flex-pack:      center;
+    justify-content:    center;
+    position:           fixed;
+    top:                0;
+    left:               0;
+    width:              100%;
+    height:             100%;
+    background:         rgba(0, 0, 0, 0.7);
+    -webkit-transition: .3s ease-in-out;
+    transition:         .3s ease-in-out
+}
+
+.modal__box2 {
+    padding:          1em;
+    border-radius:    15px;
+    background-size:  235%;
+    max-width:        700px;
+    background-color: #ffffff;
+    background-image: url(https://lapkinlab.ru/wp-content/uploads/2016/06/slide_1-e1490695895655.png);
+    box-shadow:       0 0 10px 0 rgba(0, 0, 0, 0.2);
+    text-align:       center
+}
+
+.modal__box2 label {
+    font-size:   20px;
+    text-align:  left;
+    float:       left;
+    clear:       both;
+    width:       100%;
+    text-shadow: 0 0 #ffffff
+}
+
+.modal__box2 input[type='submit'] {
+    background-color: green;
+    margin-top:       -30px
+}
+
+.modal__box2 input[type='text'] {
+    border:        1px solid #008100;
+    box-shadow:    0 0 10px 1px #0000001c;
+    border-radius: 5px
+}
+
+@media screen and (max-width: 768px) {
+    .modal {
+        display: none
+    }
+
+    .modal2 {
+        display: none
+    }
+}
+
+.overlay {
+    background-color:   rgba(0, 0, 0, 0.7);
+    bottom:             0;
+    cursor:             default;
+    left:               0;
+    opacity:            0;
+    position:           fixed;
+    right:              0;
+    top:                0;
+    visibility:         hidden;
+    z-index:            1;
+    -webkit-transition: opacity .5s;
+    -moz-transition:    opacity .5s;
+    -ms-transition:     opacity .5s;
+    -o-transition:      opacity .5s;
+    transition:         opacity .5s
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity:    1
+}
+
+.popup {
+    background-color:      #ffffff;
+    border:                3px solid #ffffff;
+    display:               inline-block;
+    left:                  50%;
+    opacity:               0;
+    padding:               15px;
+    position:              fixed;
+    text-align:            justify;
+    top:                   40%;
+    visibility:            hidden;
+    z-index:               10;
+    -webkit-transform:     translate(-50%, -50%);
+    -moz-transform:        translate(-50%, -50%);
+    -ms-transform:         translate(-50%, -50%);
+    -o-transform:          translate(-50%, -50%);
+    transform:             translate(-50%, -50%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius:    10px;
+    -ms-border-radius:     10px;
+    -o-border-radius:      10px;
+    border-radius:         10px;
+    -webkit-transition:    opacity .5s, top .5s;
+    -moz-transition:       opacity .5s, top .5s;
+    -ms-transition:        opacity .5s, top .5s;
+    -o-transition:         opacity .5s, top .5s;
+    transition:            opacity .5s, top .5s
+}
+
+.overlay:target + .popup {
+    top:        50%;
+    opacity:    1;
+    visibility: visible
+}
+
+.close {
+    color:                 #ffffff;
+    background-color:      rgba(0, 0, 0, 0.8);
+    border:                2px solid #cccccc;
+    height:                24px;
+    line-height:           15px;
+    font-size:             22px;
+    position:              absolute;
+    right:                 -13px;
+    font-weight:           bold;
+    text-align:            center;
+    text-decoration:       none;
+    top:                   -15px;
+    width:                 24px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius:    15px;
+    -ms-border-radius:     15px;
+    -o-border-radius:      15px;
+    border-radius:         15px
+}
+
+.close:before {
+    color:     #ffffff;
+    font-size: 14px
+}
+
+.close:hover {
+    background-color: #000000
+}
+
+.popup input[type=submit] {
+    display:          inline-block;
+    max-width:        100%;
+    padding:          18px 29px;
+    border-radius:    3.5px;
+    cursor:           pointer;
+    text-align:       center;
+    vertical-align:   top;
+    white-space:      nowrap;
+    text-overflow:    ellipsis;
+    border:           0;
+    font-weight:      300;
+    letter-spacing:   .9px;
+    font-size:        .95rem;
+    color:            #ffffff;
+    background-color: #ff3a5f
+}
+
+@media screen and (max-width: 1415px) {
+    .header-container__flex {
+        flex-wrap: unset !important
+    }
+
+    .main-navigation {
+        margin-top: 5px
+    }
+
+    .stage .stage1 {
+        padding: 10px 0 15px 0 !important
+    }
+
+    .price_audit_item_bottom .price_audit {
+        padding: 25px !important
+    }
+}
+
+.social_icon a {
+    width: unset !important
+}
+
+.social_icon .tm-pb-icon:before {
+    display:                 inline-block;
+    font:                    normal normal normal 14px/1 FontAwesome;
+    font-size:               inherit;
+    text-rendering:          auto;
+    -webkit-font-smoothing:  antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content:                 attr(data-icon)
+}

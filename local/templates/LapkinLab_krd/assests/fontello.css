@@ -1,4 +1,5 @@
 @font-face {
+font-display: swap;
   font-family: 'fontello';
   src: url('../fonts/fontello.eot?47155295');
   src: url('../fonts/fontello.eot?47155295#iefix') format('embedded-opentype'),
@@ -14,6 +15,7 @@
 /*
 @media screen and (-webkit-min-device-pixel-ratio:0) {
   @font-face {
+font-display: swap;
     font-family: 'fontello';
     src: url('../font/fontello.svg?47155295#fontello') format('svg');
   }

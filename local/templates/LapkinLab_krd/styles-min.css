@@ -930,6 +930,7 @@ div.wpcf7 input[type="file"]:disabled {
  */
 
 @font-face {
+font-display: swap;
   font-family: 'FontAwesome';
   src: url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/fontawesome-webfont.eot?v=4.6.0);
   src: url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/fontawesome-webfont.eot?#iefix&v=4.6.0) format('embedded-opentype'), url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/fontawesome-webfont.woff2?v=4.6.0) format('woff2'), url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/fontawesome-webfont.woff?v=4.6.0) format('woff'), url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/fontawesome-webfont.ttf?v=4.6.0) format('truetype'), url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/fontawesome-webfont.svg?v=4.6.0#fontawesomeregular) format('svg');
@@ -3764,6 +3765,7 @@ div.wpcf7 input[type="file"]:disabled {
 }
 
 @font-face {
+font-display: swap;
   font-family: 'Material Icons';
   font-style: normal;
   font-weight: 400;
@@ -4266,6 +4268,7 @@ screen and (max-height:300px) {
 }
 
 @font-face {
+font-display: swap;
   font-family: "fl-glypho";
   src: url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/fl-glypho.eot);
   src: url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/fl-glypho.eot#iefix) format("embedded-opentype"), url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/fl-glypho.woff) format("woff"), url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/fl-glypho.ttf) format("truetype"), url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/fl-glypho.svg) format("svg");
@@ -22473,6 +22476,7 @@ ul.order-filters>li.dropdown-state ul {
 }
 
 @font-face {
+font-display: swap;
   font-family: "material-design";
   src: url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/material-design.eot);
   src: url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/material-design.eot#iefix) format("embedded-opentype"), url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/material-design.woff) format("woff"), url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/material-design.ttf) format("truetype"), url(//lapkinlab.ru/wp-content/themes/laraway/assets/css/../fonts/material-design.svg) format("svg");
