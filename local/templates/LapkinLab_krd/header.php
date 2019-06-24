@@ -1,7 +1,22 @@
-<? if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
+<?php
+
+/**
+ * @var \CMain $APPLICATION
+ */
+
+
+if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
     die();
 }
-IncludeTemplateLangFile(__FILE__); ?>
+
+use Bitrix\Main\Page\Asset;
+
+$asset = Asset::getInstance();
+
+$asset->addCss('/bitrix/templates/new_design/css/modal.css');
+
+IncludeTemplateLangFile(__FILE__);
+?>
 <!DOCTYPE html>
 <html lang="ru">
 <head>
@@ -9,69 +24,69 @@ IncludeTemplateLangFile(__FILE__); ?>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
-    <script defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+    <script async defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
     <? $APPLICATION->ShowHead(); ?>
 
     <link rel="stylesheet"
           href="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
           crossorigin="anonymous">
-    <link rel="stylesheet" href="/bitrix/templates/new_design/css/styles.css">
-    <link rel="stylesheet" href="/bitrix/templates/new_design/css/fontello.css">
-    <link rel="stylesheet" href="/bitrix/templates/new_design/fonts/fonts.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/bitrix/templates/new_design/css/modal.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="/bitrix/templates/new_design/modul/ionRangeSlider/css/ion.rangeSlider.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/bitrix/templates/new_design/modul/ionRangeSlider/css/ion.rangeSlider.skinFlat.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/bitrix/templates/new_design/modul/ionRangeSlider/css/css.css">
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/bitrix/templates/new_design/css/styles.css">
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/bitrix/templates/new_design/css/fontello.css">
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/bitrix/templates/new_design/fonts/fonts.css">
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="/bitrix/templates/new_design/css/modal.css"/>
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="/bitrix/templates/new_design/modul/ionRangeSlider/css/ion.rangeSlider.css">
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="/bitrix/templates/new_design/modul/ionRangeSlider/css/ion.rangeSlider.skinFlat.css">
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="/bitrix/templates/new_design/modul/ionRangeSlider/css/css.css">
     <script src="//code.jquery.com/jquery-1.9.1.js"></script>
-    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css">
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css">
     <? if ($APPLICATION->GetCurPage(false) === '/kalkulyator-stoimosti-sajtov/') { ?>
-        <link rel="stylesheet" href="/bitrix/templates/LapkinLab_krd/css/styles_dev.css">
+        <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/bitrix/templates/LapkinLab_krd/css/styles_dev.css">
     <? } ?>
 
     <? if ($APPLICATION->GetCurPage(false) === '/seo/') { ?>
-        <link rel="stylesheet" href="/bitrix/templates/LapkinLab_krd/css/styles_seo.css">
+        <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/bitrix/templates/LapkinLab_krd/css/styles_seo.css">
     <? } ?>
 
     <? if ($APPLICATION->GetCurPage(false) === '/contacts/') { ?>
-        <link rel="stylesheet" href="/bitrix/templates/LapkinLab_krd/css/styles_contacts.css">
+        <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/bitrix/templates/LapkinLab_krd/css/styles_contacts.css">
     <? } ?>
 
     <? if ($APPLICATION->GetCurPage(false) === '/smm/') { ?>
-        <link rel="stylesheet" href="/local/templates/LapkinLab_krd/css/main.css">
+        <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/local/templates/LapkinLab_krd/css/main.css">
     <? } ?>
 
     <? if ($APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/' or
            $APPLICATION->GetCurPage(false) === '/seo-page/') { ?>
-        <link rel="stylesheet" href="/bitrix/templates/LapkinLab_krd/css/styles_ppc.css">
+        <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/bitrix/templates/LapkinLab_krd/css/styles_ppc.css">
     <? } ?>
-    <link rel="stylesheet"
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet"
           id="simple-job-board-google-fonts-css"
           href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i&amp;ver=2.6.0"
           type="text/css"
           media="all">
-    <link rel="stylesheet"
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet"
           id="googlefonts-css"
           href="https://fonts.googleapis.com/css?family=Didact+Gothic:400&amp;subset=latin,cyrillic,cyrillic-ext"
           type="text/css"
           media="all">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link rel='stylesheet' id='chartist-css' href='<?= SITE_TEMPLATE_PATH ?>/libs/chart/chartist.min.css' type='text/css' media='all'/>
-    <link rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/ion.rangeSlider.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/ion.rangeSlider.skinFlat.css">
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link media="none" onload="if(media!='all') media='all'" rel='stylesheet' id='chartist-css' href='<?= SITE_TEMPLATE_PATH ?>/libs/chart/chartist.min.css' type='text/css' media='all'/>
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/ion.rangeSlider.css">
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/ion.rangeSlider.skinFlat.css">
 
-    <link rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/libs/font-awesome/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/css/style.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/css/media.css"/>
-    <link rel="canonical" href="https://msk.lapkinlab.ru<?= $APPLICATION->GetCurPage(false) ?>"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.carousel.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.theme.default.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.carousel.css"/>
-    <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.theme.default.css"/>
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/libs/font-awesome/css/font-awesome.min.css">
+    <link media="none" onload="if(media!='all') media='all'" media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/css/style.css"/>
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/css/media.css"/>
+    <link media="none" onload="if(media!='all') media='all'" rel="canonical" href="https://msk.lapkinlab.ru<?= $APPLICATION->GetCurPage(false) ?>"/>
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.carousel.css"/>
+    <link media="none" onload="if(media!='all') media='all'" media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.theme.default.css"/>
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.carousel.css"/>
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.theme.default.css"/>
 
     <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
     <script src="<?= SITE_TEMPLATE_PATH ?>/libs/jquery/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+    <script async type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
             var ktabsControls = document.querySelectorAll('.ktabs-controls div');
             if (ktabsControls.length > 0) {
                 function removeActiveControl() {
