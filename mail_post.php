@@ -45,7 +45,7 @@ if (isset($_POST)) {
             "IBLOCK_SECTION_ID" => false,
             "IBLOCK_ID"         => 2,
             "PROPERTY_VALUES"   => $PROP,
-            "NAME"              => "Заявка от " . $today[1] . " - " . $date_today . " (" . $name . ")",
+            "NAME"              => "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ " . $today[1] . " - " . $date_today . " (" . $name . ")",
             "ACTIVE"            => "Y",
         );
 
@@ -56,56 +56,27 @@ if (isset($_POST)) {
             <html>
                 <head>
                <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
-                    <title>Заявка с сайта  ' . $sitename . '</title>
+                    <title>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ ' . $sitename . '</title>
                 </head>
                 <body>
-                <p>Заявка с сайта  ' . $sitename . '</p>
+                <p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ ' . $sitename . '</p>
                 <br>
-                    <p>Имя: ' . $name . '</p>
-                    <p>Почта: ' . $email . '</p>
-                    <p>Телефон: ' . $phone . '</p>
-                    <p>Сайт: ' . $site . '</p>
-                    <p>Сообщение: ' . $messages . '</p>
+                    <p>пїЅпїЅпїЅ: ' . $name . '</p>
+                    <p>пїЅпїЅпїЅпїЅпїЅ: ' . $email . '</p>
+                    <p>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ' . $phone . '</p>
+                    <p>пїЅпїЅпїЅпїЅ: ' . $site . '</p>
+                    <p>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ' . $messages . '</p>
                     <br>
-                    <p>Страница отправки: ' . $url . '</p>
-                    <p>IP отправки: ' . $ip . '</p>
-                    <p>Заявка от ' . $today[1] . ' - ' . $date_today . ' (' . $name . ')</p>
+                    <p>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ' . $url . '</p>
+                    <p>IP пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ' . $ip . '</p>
+                    <p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ ' . $today[1] . ' - ' . $date_today . ' (' . $name . ')</p>
                 </body>
             </html>';
         $headers = 'MIME-Version: 1.0' . "\r\n";
         $headers .= "Content-type: text/html; charset=windows-1251 \r\n";
-        $headers .= "From: Интернет-агенство msk.lapkinlab.ru <mail@lapkinlab.ru>\r\n";
+        $headers .= "From: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ msk.lapkinlab.ru <mail@lapkinlab.ru>\r\n";
         $headers .= 'Cc: akapinos@lapkinlab.ru' . "\r\n";
         $headers .= "Bcc: akapinos@lapkinlab.ru\r\n";
-        ?>
-        <!-- Facebook Pixel Code -->
-        <script>
-            !function(f, b, e, v, n, t, s) {
-                if (f.fbq) return;
-                n = f.fbq = function() {
-                    n.callMethod ?
-                        n.callMethod.apply(n, arguments) : n.queue.push(arguments);
-                };
-                if (!f._fbq) f._fbq = n;
-                n.push    = n;
-                n.loaded  = !0;
-                n.version = '2.0';
-                n.queue   = [];
-                t         = b.createElement(e);
-                t.async   = !0;
-                t.src     = v;
-                s         = b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t, s);
-            }(window, document, 'script',
-                'https://connect.facebook.net/en_US/fbevents.js');
-            fbq('init', '754412144956224');
-            fbq('track', 'PageView');
-        </script>
-        <noscript><img height="1" width="1" style="display:none"
-                       src="https://www.facebook.com/tr?id=754412144956224&ev=PageView&noscript=1"
-            /></noscript>
-        <!-- End Facebook Pixel Code -->
-        <?
         mail($to, $subject, $message, $headers);
 
         require 'vendor/autoload.php';
@@ -115,7 +86,7 @@ if (isset($_POST)) {
             $apikey                      = '9430d33c516e102f0f88155f8f2d3dd098e93ab3';
             $amo                         = new \AmoCRM\Client($subdomain, $login, $apikey);
             $lead                        = $amo->lead;
-            $title                       = mb_convert_encoding('Новая заявка с сайта msk.lapkinlab.ru', 'utf-8', 'windows-1251');
+            $title                       = mb_convert_encoding('пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ msk.lapkinlab.ru', 'utf-8', 'windows-1251');
             $lead['name']                = $title;
             $lead['responsible_user_id'] = 3369325;
             // $lead['pipeline_id'] = 1207249;
@@ -130,7 +101,7 @@ if (isset($_POST)) {
             // $site = $_GET["site"];
             // $messages = $_GET["messages"];
             if (empty($name)) {
-                $name = 'Не указано';
+                $name = 'пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ';
             }
             $name = mb_convert_encoding($name, 'utf-8', 'windows-1251');
             if (empty($phone)) {
@@ -156,7 +127,8 @@ if (isset($_POST)) {
             $contact->addCustomField(53923, [[$email, 'PRIV'],]);
             $contact->addCustomField(89745, [[$messages,],]);
             $id = $contact->apiAdd();
-            header("Location: /#spasibo");
+
+            header('Location: /#spasibo');
         } catch (\AmoCRM\Exception $e) {
 
             $sitename = "msk.lapkinlab.ru";
@@ -188,57 +160,29 @@ if (isset($_POST)) {
             <html>
                 <head>
                <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
-                    <title>Заявка с сайта  ' . $sitename . '</title>
+                    <title>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ ' . $sitename . '</title>
                 </head>
                 <body>
-                <p>Заявка с сайта  ' . $sitename . '</p>
+                <p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ ' . $sitename . '</p>
                 <br>
-                    <p>Имя: ' . $name . '</p>
-                    <p>Почта: ' . $email . '</p>
-                    <p>Телефон: ' . $phone . '</p>
-                    <p>Сайт: ' . $site . '</p>
-                    <p>Сообщение: ' . $messages . '</p>
+                    <p>пїЅпїЅпїЅ: ' . $name . '</p>
+                    <p>пїЅпїЅпїЅпїЅпїЅ: ' . $email . '</p>
+                    <p>пїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ' . $phone . '</p>
+                    <p>пїЅпїЅпїЅпїЅ: ' . $site . '</p>
+                    <p>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ' . $messages . '</p>
                     <br>
-                    <p>Страница отправки: ' . $url . '</p>
-                    <p>IP отправки: ' . $ip . '</p>
-                    <p>Заявка от ' . $today[1] . ' - ' . $date_today . ' (' . $name . ')</p>
+                    <p>пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ' . $url . '</p>
+                    <p>IP пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: ' . $ip . '</p>
+                    <p>пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ ' . $today[1] . ' - ' . $date_today . ' (' . $name . ')</p>
                 </body>
             </html>';
             $headers = 'MIME-Version: 1.0' . "\r\n";
             $headers .= "Content-type: text/html; charset=windows-1251 \r\n";
-            $headers .= "From: Интернет-агенство msk.lapkinlab.ru <mail@lapkinlab.ru>\r\n";
+            $headers .= "From: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ msk.lapkinlab.ru <mail@lapkinlab.ru>\r\n";
             $headers .= 'Cc: akapinos@lapkinlab.ru' . "\r\n";
             $headers .= "Bcc: akapinos@lapkinlab.ru\r\n";
-            ?>
-            <!-- Facebook Pixel Code -->
-            <script>
-                !function(f, b, e, v, n, t, s) {
-                    if (f.fbq) return;
-                    n = f.fbq = function() {
-                        n.callMethod ?
-                            n.callMethod.apply(n, arguments) : n.queue.push(arguments);
-                    };
-                    if (!f._fbq) f._fbq = n;
-                    n.push    = n;
-                    n.loaded  = !0;
-                    n.version = '2.0';
-                    n.queue   = [];
-                    t         = b.createElement(e);
-                    t.async   = !0;
-                    t.src     = v;
-                    s         = b.getElementsByTagName(e)[0];
-                    s.parentNode.insertBefore(t, s);
-                }(window, document, 'script',
-                    'https://connect.facebook.net/en_US/fbevents.js');
-                fbq('init', '754412144956224');
-                fbq('track', 'PageView');
-            </script>
-            <noscript><img height="1" width="1" style="display:none"
-                           src="https://www.facebook.com/tr?id=754412144956224&ev=PageView&noscript=1"
-                /></noscript>
-            <!-- End Facebook Pixel Code -->
-            <?
             mail($to, $subject, $message, $headers);
+
             header("Location: /#spasibo");
         }
 
@@ -284,7 +228,7 @@ if (isset($_POST)) {
             "IBLOCK_SECTION_ID" => false,
             "IBLOCK_ID"         => 2,
             "PROPERTY_VALUES"   => $PROP,
-            "NAME"              => "СПАМ! Заявка от " . $today[1] . " - " . $date_today . " (" . $name . ") ???",
+            "NAME"              => "пїЅпїЅпїЅпїЅ! пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ " . $today[1] . " - " . $date_today . " (" . $name . ") ???",
             "ACTIVE"            => "Y",
         );
 
