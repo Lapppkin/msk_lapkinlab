@@ -23,11 +23,11 @@ class RequestHelper
 
     public function __construct()
     {
-        $this->name     = \trim($_POST['your-name']);
-        $this->phone    = \trim($_POST['your-phone']);
-        $this->email    = \trim($_POST['your-email']);
-        $this->site     = \trim($_POST['your-site']);
-        $this->messages = \trim($_POST['your-message']);
+        $this->name     = \trim(\mb_convert_encoding($_POST['your-name'], 'utf8', 'cp1251')) ? : 'не указано';
+        $this->phone    = \trim(\mb_convert_encoding($_POST['your-phone'], 'utf8', 'cp1251')) ? : '';
+        $this->email    = \trim(\mb_convert_encoding($_POST['your-email'], 'utf8', 'cp1251')) ? : '';
+        $this->site     = \trim(\mb_convert_encoding($_POST['your-site'], 'utf8', 'cp1251')) ? : '';
+        $this->messages = \trim(\mb_convert_encoding($_POST['your-message'], 'utf8', 'cp1251')) ? : '';
         $this->url      = \trim($_POST['url']);
 
         $client  = @$_SERVER['HTTP_CLIENT_IP'];
@@ -145,20 +145,14 @@ if (isset($_POST['name']) && $_POST['name'] === '') {
 
         $id = $lead->apiAdd();
 
-        $name     = $requestHelper->name ? : 'не указано';
-        $phone    = $requestHelper->phone ? : '';
-        $email    = $requestHelper->email ? : '';
-        $site     = $requestHelper->site ? : '';
-        $messages = $requestHelper->messages ? : '';
-
         $contact                    = $amo->contact;
-        $contact['name']            = $name;
+        $contact['name']            = $requestHelper->name;
         $contact['linked_leads_id'] = [(int) $id];
 
-        $contact->addCustomField(53921, $phone, 'WORK');
-        $contact->addCustomField(78451, [[$site,]]);
-        $contact->addCustomField(53923, [[$email, 'PRIV']]);
-        $contact->addCustomField(89745, [[$messages,]]);
+        $contact->addCustomField(53921, $requestHelper->phone, 'WORK');
+        $contact->addCustomField(78451, [[$requestHelper->site,]]);
+        $contact->addCustomField(53923, [[$requestHelper->email, 'PRIV']]);
+        $contact->addCustomField(89745, [[$requestHelper->messages,]]);
 
         $contact->apiAdd();
     } catch (\AmoCRM\Exception $e) {
