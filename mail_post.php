@@ -115,7 +115,7 @@ HTML;
 
         $headers = <<<HEADERS
 MIME-Version: 1.0
-Content-type: text/html; charset=windows-1251
+Content-type: text/html; charset=UTF-8
 From: msk.lapkinlab.ru <mail@lapkinlab.ru>
 HEADERS;
 
