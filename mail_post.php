@@ -23,11 +23,11 @@ class RequestHelper
 
     public function __construct()
     {
-        $this->name     = \trim(\mb_convert_encoding($_POST['your-name'], 'utf8', 'cp1251')) ? : 'РЅРµ СѓРєР°Р·Р°РЅРѕ';
-        $this->phone    = \trim(\mb_convert_encoding($_POST['your-phone'], 'utf8', 'cp1251')) ? : '';
-        $this->email    = \trim(\mb_convert_encoding($_POST['your-email'], 'utf8', 'cp1251')) ? : '';
-        $this->site     = \trim(\mb_convert_encoding($_POST['your-site'], 'utf8', 'cp1251')) ? : '';
-        $this->messages = \trim(\mb_convert_encoding($_POST['your-message'], 'utf8', 'cp1251')) ? : '';
+        $this->name     = \trim($_POST['your-name']) ? : 'не указано';
+        $this->phone    = \trim($_POST['your-phone']) ? : '';
+        $this->email    = \trim($_POST['your-email']) ? : '';
+        $this->site     = \trim($_POST['your-site']) ? : '';
+        $this->messages = \trim($_POST['your-message']) ? : '';
         $this->url      = \trim($_POST['url']);
 
         $client  = @$_SERVER['HTTP_CLIENT_IP'];
@@ -48,10 +48,10 @@ class RequestHelper
     public function createBlockElement($isNormalRequest = true)
     {
         $element     = new \CIBlockElement;
-        $elementName = "Р—Р°СЏРІРєР° РѕС‚ {$this->datetime} ({$this->name})";
+        $elementName = "Заявка от {$this->datetime} ({$this->name})";
 
         if ($isNormalRequest === false) {
-            $elementName = "РЎРџРђРњ! {$elementName} ???";
+            $elementName = "СПАМ! {$elementName} ???";
         }
 
         $elementFields = [
@@ -79,36 +79,33 @@ class RequestHelper
             return;
         }
 
-        /**
-         * @var string $to
-         */
         $to = \implode(', ', $to);
 
-        $subject = 'SITE: MSK : NEW ORDER В«msk.lapkinlab.ruВ»';
+        $subject = 'SITE: MSK : NEW ORDER «msk.lapkinlab.ru»';
         $message = <<<HTML
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
         
-        <title>Р—Р°СЏРІРєР° СЃ СЃР°Р№С‚Р° В«msk.lapkinlab.ruВ»</title>
+        <title>Заявка с сайта «msk.lapkinlab.ru»</title>
     </head>
     
     <body>
-        <p>Р—Р°СЏРІРєР° СЃ СЃР°Р№С‚Р° В«msk.lapkinlab.ruВ»</p>
+        <p>Заявка с сайта «msk.lapkinlab.ru»</p>
         
         <br>
         
-        <p>РРјСЏ: {$this->name}</p>
-        <p>РџРѕС‡С‚Р°: {$this->email}</p>
-        <p>РўРµР»РµС„РѕРЅ: {$this->phone}</p>
-        <p>РЎР°Р№С‚: {$this->site}</p>
-        <p>РЎРѕРѕР±С‰РµРЅРёРµ: {$this->messages}</p>
+        <p>Имя: {$this->name}</p>
+        <p>Почта: {$this->email}</p>
+        <p>Телефон: {$this->phone}</p>
+        <p>Сайт: {$this->site}</p>
+        <p>Сообщение: {$this->messages}</p>
         
         <br>
         
-        <p>РЎС‚СЂР°РЅРёС†Р° РѕС‚РїСЂР°РІРєРё: {$this->url}</p>
-        <p>IP РѕС‚РїСЂР°РІРєРё: {$this->ip}</p>
-        <p>Р—Р°СЏРІРєР° РѕС‚ {$this->datetime} ({$this->name})</p>
+        <p>Страница отправки: {$this->url}</p>
+        <p>IP отправки: {$this->ip}</p>
+        <p>Заявка от {$this->datetime} ({$this->name})</p>
     </body>
 </html>
 HTML;
@@ -140,19 +137,25 @@ if (isset($_POST['name']) && $_POST['name'] === '') {
         $amo = new \AmoCRM\Client($requestHelper->amoSubdomain, $requestHelper->amoLogin, $requestHelper->amoApiKey);
 
         $lead                        = $amo->lead;
-        $lead['name']                = 'Р—Р°РєР°Р· Р·РІРѕРЅРєР° СЃ СЃР°Р№С‚Р° В«msk.lapkinlab.ruВ»';
+        $lead['name']                = \mb_convert_encoding('Заказ звонка с сайта «msk.lapkinlab.ru»', 'utf-8', 'windows-1251');
         $lead['responsible_user_id'] = 3369325;
 
         $id = $lead->apiAdd();
 
+        $name     = \mb_convert_encoding($requestHelper->name, 'utf-8', 'windows-1251');
+        $phone    = \mb_convert_encoding($requestHelper->phone, 'utf-8', 'windows-1251');
+        $email    = \mb_convert_encoding($requestHelper->email, 'utf-8', 'windows-1251');
+        $site     = \mb_convert_encoding($requestHelper->site, 'utf-8', 'windows-1251');
+        $messages = \mb_convert_encoding($requestHelper->messages, 'utf-8', 'windows-1251');
+
         $contact                    = $amo->contact;
-        $contact['name']            = $requestHelper->name;
+        $contact['name']            = $name;
         $contact['linked_leads_id'] = [(int) $id];
 
-        $contact->addCustomField(53921, $requestHelper->phone, 'WORK');
-        $contact->addCustomField(78451, [[$requestHelper->site,]]);
-        $contact->addCustomField(53923, [[$requestHelper->email, 'PRIV']]);
-        $contact->addCustomField(89745, [[$requestHelper->messages,]]);
+        $contact->addCustomField(53921, $phone, 'WORK');
+        $contact->addCustomField(78451, [[$site,]]);
+        $contact->addCustomField(53923, [[$email, 'PRIV']]);
+        $contact->addCustomField(89745, [[$messages,]]);
 
         $contact->apiAdd();
     } catch (\AmoCRM\Exception $e) {
