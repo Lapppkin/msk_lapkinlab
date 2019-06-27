@@ -19,7 +19,7 @@ class RequestHelper
 
     public $amoSubdomain = 'lapkinlab';
     public $amoLogin     = 'amo@lapkinlab.ru';
-    public $amoApiKey    = '9430d33c516e102f0f88155f8f2d3dd098e93ab3';
+    public $amoApiKey    = 'e780a5c02bcf2da233ec688b72d90ee22301d37b';
 
     public function __construct()
     {
@@ -86,23 +86,23 @@ class RequestHelper
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
-        
+
         <title>Заявка с сайта «msk.lapkinlab.ru»</title>
     </head>
-    
+
     <body>
         <p>Заявка с сайта «msk.lapkinlab.ru»</p>
-        
+
         <br>
-        
+
         <p>Имя: {$this->name}</p>
         <p>Почта: {$this->email}</p>
         <p>Телефон: {$this->phone}</p>
         <p>Сайт: {$this->site}</p>
         <p>Сообщение: {$this->messages}</p>
-        
+
         <br>
-        
+
         <p>Страница отправки: {$this->url}</p>
         <p>IP отправки: {$this->ip}</p>
         <p>Заявка от {$this->datetime} ({$this->name})</p>
@@ -112,7 +112,7 @@ HTML;
 
         $headers = <<<HEADERS
 MIME-Version: 1.0
-Content-type: text/html; charset=UTF-8
+Content-type: text/html; charset=windows-1251
 From: msk.lapkinlab.ru <mail@lapkinlab.ru>
 HEADERS;
 
@@ -124,7 +124,6 @@ $requestHelper = new RequestHelper();
 
 if (isset($_POST['name']) && $_POST['name'] === '') {
     $to = [
-        'akapinos@lapkinlab.ru',
         'lapppkin@yahoo.com',
         'pochta@lapkinlab.ru',
         'order@lapkinlab.planfix.ru',
@@ -153,9 +152,9 @@ if (isset($_POST['name']) && $_POST['name'] === '') {
         $contact['linked_leads_id'] = [(int) $id];
 
         $contact->addCustomField(53921, $phone, 'WORK');
-        $contact->addCustomField(78451, [[$site,]]);
+        $contact->addCustomField(78451, [[$site]]);
         $contact->addCustomField(53923, [[$email, 'PRIV']]);
-        $contact->addCustomField(89745, [[$messages,]]);
+        $contact->addCustomField(89745, [[$messages]]);
 
         $contact->apiAdd();
     } catch (\AmoCRM\Exception $e) {
