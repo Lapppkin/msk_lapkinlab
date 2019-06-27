@@ -1,244 +1,181 @@
 <?php
-require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/prolog_before.php");
 
-if (isset($_POST)) {
-    if (isset($_POST['name']) and $_POST['name'] == "") {
-        $sitename = "msk.lapkinlab.ru";
-        $to       = 'akapinos@lapkinlab.ru' . ', ';
-        $to       .= 'lapppkin@yahoo.com' . ', ';
-        $to       .= 'pochta@lapkinlab.ru' . ', ';
-        $to       .= 'order@lapkinlab.planfix.ru';
+require $_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/main/include/prolog_before.php';
 
-        $name     = trim($_POST["your-name"]);
-        $phone    = trim($_POST["your-phone"]);
-        $email    = trim($_POST["your-email"]);
-        $site     = trim($_POST["your-site"]);
-        $messages = trim($_POST["your-message"]);
-        $url      = trim($_POST["url"]);
+require 'vendor/autoload.php';
 
-        $client  = @$_SERVER['HTTP_CLIENT_IP'];
-        $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
-        $remote  = @$_SERVER['REMOTE_ADDR'];
-        if (filter_var($client, FILTER_VALIDATE_IP)) {
-            $ip = $client;
-        } elseif (filter_var($forward, FILTER_VALIDATE_IP)) {
-            $ip = $forward;
-        } else {
-            $ip = $remote;
-        }
+\CModule::IncludeModule('iblock');
 
-        CModule::IncludeModule("iblock");
-        $el       = new CIBlockElement;
-        $PROP     = array();
-        $PROP[4]  = $name;
-        $PROP[5]  = $phone;
-        $PROP[6]  = $email;
-        $PROP[7]  = $site;
-        $PROP[8]  = $messages;
-        $PROP[9]  = $ip;
-        $PROP[10] = $url;
+class RequestHelper
+{
+    public $name;
+    public $phone;
+    public $email;
+    public $site;
+    public $messages;
+    public $url;
+    public $ip;
+    public $datetime;
 
-        $date_today = date("d.m.y");
-        $today[1]   = date("H:i:s");
+    public $amoSubdomain = 'lapkinlab';
+    public $amoLogin     = 'amo@lapkinlab.ru';
+    public $amoApiKey    = '9430d33c516e102f0f88155f8f2d3dd098e93ab3';
 
-        $arLoadProductArray = Array(
-            "IBLOCK_SECTION_ID" => false,
-            "IBLOCK_ID"         => 2,
-            "PROPERTY_VALUES"   => $PROP,
-            "NAME"              => "������ �� " . $today[1] . " - " . $date_today . " (" . $name . ")",
-            "ACTIVE"            => "Y",
-        );
-
-        $el->Add($arLoadProductArray);
-
-        $subject = "SITE: MSK : NEW ORDER \"$sitename\"";
-        $message = '
-            <html>
-                <head>
-               <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
-                    <title>������ � ����� ' . $sitename . '</title>
-                </head>
-                <body>
-                <p>������ � ����� ' . $sitename . '</p>
-                <br>
-                    <p>���: ' . $name . '</p>
-                    <p>�����: ' . $email . '</p>
-                    <p>�������: ' . $phone . '</p>
-                    <p>����: ' . $site . '</p>
-                    <p>���������: ' . $messages . '</p>
-                    <br>
-                    <p>�������� ��������: ' . $url . '</p>
-                    <p>IP ��������: ' . $ip . '</p>
-                    <p>������ �� ' . $today[1] . ' - ' . $date_today . ' (' . $name . ')</p>
-                </body>
-            </html>';
-        $headers = 'MIME-Version: 1.0' . "\r\n";
-        $headers .= "Content-type: text/html; charset=windows-1251 \r\n";
-        $headers .= "From: ��������-�������� msk.lapkinlab.ru <mail@lapkinlab.ru>\r\n";
-        $headers .= 'Cc: akapinos@lapkinlab.ru' . "\r\n";
-        $headers .= "Bcc: akapinos@lapkinlab.ru\r\n";
-        mail($to, $subject, $message, $headers);
-
-        require 'vendor/autoload.php';
-        try {
-            $subdomain                   = 'lapkinlab';
-            $login                       = 'amo@lapkinlab.ru';
-            $apikey                      = '9430d33c516e102f0f88155f8f2d3dd098e93ab3';
-            $amo                         = new \AmoCRM\Client($subdomain, $login, $apikey);
-            $lead                        = $amo->lead;
-            $title                       = mb_convert_encoding('����� ������ � ����� msk.lapkinlab.ru', 'utf-8', 'windows-1251');
-            $lead['name']                = $title;
-            $lead['responsible_user_id'] = 3369325;
-            // $lead['pipeline_id'] = 1207249;
-            // echo '<pre>';
-            // print_r($amo->account->apiCurrent());
-            // echo '</pre>';
-            $id      = $lead->apiAdd();
-            $contact = $amo->contact;
-            // $name = $_GET["name"];
-            // $phone = $_GET["phone"];
-            // $email = $_GET["email"];
-            // $site = $_GET["site"];
-            // $messages = $_GET["messages"];
-            if (empty($name)) {
-                $name = '�� �������';
-            }
-            $name = mb_convert_encoding($name, 'utf-8', 'windows-1251');
-            if (empty($phone)) {
-                $phone = '';
-            }
-            $phone = mb_convert_encoding($phone, 'utf-8', 'windows-1251');
-            if (empty($email)) {
-                $email = '';
-            }
-            $email = mb_convert_encoding($email, 'utf-8', 'windows-1251');
-            if (empty($site)) {
-                $site = '';
-            }
-            $site = mb_convert_encoding($site, 'utf-8', 'windows-1251');
-            if (empty($messages)) {
-                $messages = '';
-            }
-            $messages                   = mb_convert_encoding($messages, 'utf-8', 'windows-1251');
-            $contact['name']            = $name;
-            $contact['linked_leads_id'] = [(int) $id];
-            $contact->addCustomField(53921, $phone, 'WORK');
-            $contact->addCustomField(78451, [[$site,],]);
-            $contact->addCustomField(53923, [[$email, 'PRIV'],]);
-            $contact->addCustomField(89745, [[$messages,],]);
-            $id = $contact->apiAdd();
-
-            header('Location: /#spasibo');
-        } catch (\AmoCRM\Exception $e) {
-
-            $sitename = "msk.lapkinlab.ru";
-            $to       = 'amo@lapkinlab.ru';
-
-            $name     = trim($_POST["your-name"]);
-            $phone    = trim($_POST["your-phone"]);
-            $email    = trim($_POST["your-email"]);
-            $site     = trim($_POST["your-site"]);
-            $messages = trim($_POST["your-message"]);
-            $url      = trim($_POST["url"]);
-
-            $client  = @$_SERVER['HTTP_CLIENT_IP'];
-            $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
-            $remote  = @$_SERVER['REMOTE_ADDR'];
-            if (filter_var($client, FILTER_VALIDATE_IP)) {
-                $ip = $client;
-            } elseif (filter_var($forward, FILTER_VALIDATE_IP)) {
-                $ip = $forward;
-            } else {
-                $ip = $remote;
-            }
-
-            $date_today = date("d.m.y");
-            $today[1]   = date("H:i:s");
-
-            $subject = "SITE: MSK : NEW ORDER \"$sitename\"";
-            $message = '
-            <html>
-                <head>
-               <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
-                    <title>������ � ����� ' . $sitename . '</title>
-                </head>
-                <body>
-                <p>������ � ����� ' . $sitename . '</p>
-                <br>
-                    <p>���: ' . $name . '</p>
-                    <p>�����: ' . $email . '</p>
-                    <p>�������: ' . $phone . '</p>
-                    <p>����: ' . $site . '</p>
-                    <p>���������: ' . $messages . '</p>
-                    <br>
-                    <p>�������� ��������: ' . $url . '</p>
-                    <p>IP ��������: ' . $ip . '</p>
-                    <p>������ �� ' . $today[1] . ' - ' . $date_today . ' (' . $name . ')</p>
-                </body>
-            </html>';
-            $headers = 'MIME-Version: 1.0' . "\r\n";
-            $headers .= "Content-type: text/html; charset=windows-1251 \r\n";
-            $headers .= "From: ��������-�������� msk.lapkinlab.ru <mail@lapkinlab.ru>\r\n";
-            $headers .= 'Cc: akapinos@lapkinlab.ru' . "\r\n";
-            $headers .= "Bcc: akapinos@lapkinlab.ru\r\n";
-            mail($to, $subject, $message, $headers);
-
-            header("Location: /#spasibo");
-        }
-
-        header("Location: /#spasibo");
-
-        //header("Location: /testuuu.php?name=".$name."&phone=".$phone."&site=".$site."&email=".$email."&messages=".$messages);
-
-    } else {
-
-        $name     = trim($_POST["your-name"]);
-        $phone    = trim($_POST["your-phone"]);
-        $email    = trim($_POST["your-email"]);
-        $site     = trim($_POST["your-site"]);
-        $messages = trim($_POST["your-message"]);
-        $url      = trim($_POST["url"]);
+    public function __construct()
+    {
+        $this->name     = \trim($_POST['your-name']);
+        $this->phone    = \trim($_POST['your-phone']);
+        $this->email    = \trim($_POST['your-email']);
+        $this->site     = \trim($_POST['your-site']);
+        $this->messages = \trim($_POST['your-message']);
+        $this->url      = \trim($_POST['url']);
 
         $client  = @$_SERVER['HTTP_CLIENT_IP'];
         $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
         $remote  = @$_SERVER['REMOTE_ADDR'];
-        if (filter_var($client, FILTER_VALIDATE_IP)) {
-            $ip = $client;
-        } elseif (filter_var($forward, FILTER_VALIDATE_IP)) {
-            $ip = $forward;
+
+        if (\filter_var($client, FILTER_VALIDATE_IP)) {
+            $this->ip = $client;
+        } elseif (\filter_var($forward, FILTER_VALIDATE_IP)) {
+            $this->ip = $forward;
         } else {
-            $ip = $remote;
+            $this->ip = $remote;
         }
 
-        CModule::IncludeModule("iblock");
-        $el       = new CIBlockElement;
-        $PROP     = array();
-        $PROP[4]  = $name;
-        $PROP[5]  = $phone;
-        $PROP[6]  = $email;
-        $PROP[7]  = $site;
-        $PROP[8]  = $messages;
-        $PROP[9]  = $ip;
-        $PROP[10] = $url;
-
-        $date_today = date("d.m.y");
-        $today[1]   = date("H:i:s");
-
-        $arLoadProductArray = Array(
-            "IBLOCK_SECTION_ID" => false,
-            "IBLOCK_ID"         => 2,
-            "PROPERTY_VALUES"   => $PROP,
-            "NAME"              => "����! ������ �� " . $today[1] . " - " . $date_today . " (" . $name . ") ???",
-            "ACTIVE"            => "Y",
-        );
-
-        $el->Add($arLoadProductArray);
-
-        header("Location: /#error");
+        $this->datetime = \date('H:i:s - d.m.Y');
     }
-} else {
-    header("Location: /#error");
+
+    public function createBlockElement($isNormalRequest = true)
+    {
+        $element     = new \CIBlockElement;
+        $elementName = "Заявка от {$this->datetime} ({$this->name})";
+
+        if ($isNormalRequest === false) {
+            $elementName = "СПАМ! {$elementName} ???";
+        }
+
+        $elementFields = [
+            'ACTIVE'            => 'Y',
+            'IBLOCK_SECTION_ID' => false,
+            'IBLOCK_ID'         => 2,
+            'NAME'              => $elementName,
+            'PROPERTY_VALUES'   => [
+                4  => $this->name,
+                5  => $this->phone,
+                6  => $this->email,
+                7  => $this->site,
+                8  => $this->messages,
+                9  => $this->ip,
+                10 => $this->url,
+            ],
+        ];
+
+        $element->Add($elementFields);
+    }
+
+    public function sendEmail($to = [])
+    {
+        if (\count($to) === 0) {
+            return;
+        }
+
+        /**
+         * @var string $to
+         */
+        $to = \implode(', ', $to);
+
+        $subject = 'SITE: MSK : NEW ORDER «msk.lapkinlab.ru»';
+        $message = <<<HTML
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        
+        <title>Заявка с сайта «msk.lapkinlab.ru»</title>
+    </head>
+    
+    <body>
+        <p>Заявка с сайта «msk.lapkinlab.ru»</p>
+        
+        <br>
+        
+        <p>Имя: {$this->name}</p>
+        <p>Почта: {$this->email}</p>
+        <p>Телефон: {$this->phone}</p>
+        <p>Сайт: {$this->site}</p>
+        <p>Сообщение: {$this->messages}</p>
+        
+        <br>
+        
+        <p>Страница отправки: {$this->url}</p>
+        <p>IP отправки: {$this->ip}</p>
+        <p>Заявка от {$this->datetime} ({$this->name})</p>
+    </body>
+</html>
+HTML;
+
+        $headers = <<<HEADERS
+MIME-Version: 1.0
+Content-type: text/html; charset=windows-1251
+From: msk.lapkinlab.ru <mail@lapkinlab.ru>
+HEADERS;
+
+        \mail($to, $subject, $message, $headers);
+    }
 }
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/epilog_before.php");
-require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/modules/main/include/epilog_after.php");
-?>
+
+$requestHelper = new RequestHelper();
+
+if (isset($_POST['name']) && $_POST['name'] === '') {
+    $to = [
+        'akapinos@lapkinlab.ru',
+        'lapppkin@yahoo.com',
+        'pochta@lapkinlab.ru',
+        'order@lapkinlab.planfix.ru',
+    ];
+
+    $requestHelper->createBlockElement(true);
+    $requestHelper->sendEmail($to);
+
+    try {
+        $amo = new \AmoCRM\Client($requestHelper->amoSubdomain, $requestHelper->amoLogin, $requestHelper->amoApiKey);
+
+        $lead                        = $amo->lead;
+        $lead['name']                = 'Заказ звонка с сайта «msk.lapkinlab.ru»';
+        $lead['responsible_user_id'] = 3369325;
+
+        $id = $lead->apiAdd();
+
+        $name     = $requestHelper->name ? : 'не указано';
+        $phone    = $requestHelper->phone ? : '';
+        $email    = $requestHelper->email ? : '';
+        $site     = $requestHelper->site ? : '';
+        $messages = $requestHelper->messages ? : '';
+
+        $contact                    = $amo->contact;
+        $contact['name']            = $name;
+        $contact['linked_leads_id'] = [(int) $id];
+
+        $contact->addCustomField(53921, $phone, 'WORK');
+        $contact->addCustomField(78451, [[$site,]]);
+        $contact->addCustomField(53923, [[$email, 'PRIV']]);
+        $contact->addCustomField(89745, [[$messages,]]);
+
+        $contact->apiAdd();
+    } catch (\AmoCRM\Exception $e) {
+        $to = [
+            'amo@lapkinlab.ru',
+        ];
+
+        $requestHelper->sendEmail($to);
+    } finally {
+        header('Location: /#spasibo');
+    }
+
+} else {
+    $requestHelper->createBlockElement(false);
+
+    \header('Location: /#error');
+}
+
+require $_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/main/include/epilog_before.php';
+require $_SERVER['DOCUMENT_ROOT'] . '/bitrix/modules/main/include/epilog_after.php';
