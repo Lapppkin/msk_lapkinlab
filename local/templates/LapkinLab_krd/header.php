@@ -84,8 +84,8 @@ IncludeTemplateLangFile(__FILE__);
     <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.carousel.css"/>
     <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.theme.default.css"/>
 
-    <script src="https://cdn.jsdelivr.net/npm/lazyload@2.0.0-beta.2/lazyload.js"></script>
     <script src="<?= SITE_TEMPLATE_PATH ?>/libs/jquery/jquery-3.3.1.min.js"></script>
+    <script src="<?= SITE_TEMPLATE_PATH; ?>/modul/ionRangeSlider/js/ion.rangeSlider.js"></script>
     <script async type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
             var ktabsControls = document.querySelectorAll('.ktabs-controls div');
             if (ktabsControls.length > 0) {
@@ -112,6 +112,24 @@ IncludeTemplateLangFile(__FILE__);
                 }
             }
         });</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(45994323, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        trackHash:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/45994323" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
 </head>
 <? $APPLICATION->ShowPanel() ?>
 <body>
@@ -146,26 +164,26 @@ IncludeTemplateLangFile(__FILE__);
                     <div class="info_block telegram">
                         <a href="http://t-do.ru/lapkinlab_test_bot" onclick="yaCounter45994323.reachGoal('telegram'); return true;"
                            target="_blank">
-                            <img data-src="/image/icon-blog.png" class="lazyload telegram-icon" alt="Telegram агентства Lapkinlab.ru">
+                            <img src="/image/icon-blog.png" class="telegram-icon" alt="Telegram агентства Lapkinlab.ru">
                             Бот Агенства Lapkinlab.ru
                         </a>
                     </div>
                     <div class="info_block telegram">
                         <a href="https://tele.click/joinchat/CaTbaELDzLgjfIDfDjAs-g" target="_blank">
-                            <img data-src="/image/icon-blog.png" class="lazyload telegram-icon" alt="Приватный чат предпринимателей">
+                            <img src="/image/icon-blog.png" class="telegram-icon" alt="Приватный чат предпринимателей">
                             Приватный чат предпринимателей
                         </a>
                     </div>
                     <div class="info_block telegram">
                         <a href="http://t-do.ru/SEO_lapkinlab/" target="_blank">
-                            <img data-src="/image/icon-blog.png" class="lazyload telegram-icon" alt="Lapkinlab - БЛОГ">
+                            <img src="/image/icon-blog.png" class="telegram-icon" alt="Lapkinlab - БЛОГ">
                             Lapkinlab - БЛОГ
                         </a>
                     </div>
                     <div class="info_block telegram filial">
                         <a href="https://lapkinlab.ru/?utm_source=site&amp;utm_medium=ssilka&amp;utm_campaign=msk.lapkinlab"
                            target="_blank">
-                            <img data-src="/image/icon-blog.png" class="lazyload telegram-icon" alt="Lapkinlab - Краснодарский филиал">
+                            <img src="/image/icon-blog.png" class="telegram-icon" alt="Lapkinlab - Краснодарский филиал">
                             Краснодарский филиал
                         </a>
                     </div>

@@ -299,28 +299,28 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сай
                 <div class="col-md-12 stolb">
                     <div class="row" style="display: flex; align-self: end; align-self: flex-end; align-items: end; align-items: flex-end;">
                         <div class="col-sm-12 col-md-3">
-                            <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/st1.png">
+							<img src="/bitrix/templates/new_design/assests/st1.png">
                             <hr>
                             <p class="tit"> 1 этап</p>
                             <p class="bottit"> Аудит сайта и подготовка его к продвижению</p>
                             <div id="st1">1 - 2 месяца</div>
                         </div>
                         <div class="col-sm-12 col-md-3">
-                            <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/st2.png">
+                            <img src="/bitrix/templates/new_design/assests/st2.png">
                             <hr>
                             <p class="tit"> 2 этап</p>
                             <p class="bottit"> Рост позиций сайта. Трафика и продаж здесь нет. Терпение!</p>
                             <div id="st1">2 - 3 месяца</div>
                         </div>
                         <div class="col-sm-12 col-md-3">
-                            <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/st3.png">
+                            <img src="/bitrix/templates/new_design/assests/st3.png">
                             <hr>
                             <p class="tit"> 3 этап</p>
                             <p class="bottit"> Выход в ТОП 10. Рост трафика, первые обращения клиентов, заявки и продажи с сайта</p>
                             <div id="st1">4 - 6 месяца</div>
                         </div>
                         <div class="col-sm-12 col-md-3">
-                            <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/st4.png">
+                            <img src="/bitrix/templates/new_design/assests/st4.png">
                             <hr>
                             <p class="tit"> 4 этап</p>
                             <p class="bottit"> Выход сайта в ТОП 10 по всему списку запросов. Рост продаж, узнаваемость бренда и завоевание рынка</p>
@@ -330,6 +330,236 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сай
             </div>
         </div>
     </section>
+
+    <section class="price">
+		<p class="title_wh" style="padding: 150px 0 0 0;">Наши тарифы</p>
+        <div class="container">
+            <div class="left-block">
+                <div class="price-title">Продвижение сайтов по позициям</div>
+                <div class="price-desc">Специализированные проекты, ресурсы на небольших рынках</div>
+                <ul>
+                    <li>Достигаем целевых позиций в «Яндекс» по ключевым словам</li>
+                    <li>Повышаем авторитет и видимость сайта в поисковых системах</li>
+                    <li>Приводим на сайт целевых клиентов</li>
+                </ul>
+                <div id="main-composition">
+                    <span class="price-title-text">Основной состав работ</span>
+                    <ul>
+                        <li>SEO-аудит</li>
+                        <li>Составление семантического ядра</li>
+                        <li>Составление плана работ по развитию сайта</li>
+                        <li>Регистрация сайта в сервисах для вебмастеров</li>
+                        <li>Анализ оптимизации сайтов конкурентов</li>
+                        <li>Реализация микроразметки</li>
+                        <li>Размещение на тематических порталах</li>
+                        <li>Отчётность по позициям</li>
+                    </ul>
+                    <ul class="ul-main-composition">
+                        <li>Ежеквартальная актуализация семантического ядра</li>
+                        <li class="not-exist">Настройка инструментов повышения продаж</li>
+                        <li>Стратегия поискового продвижения</li>
+                        <li>Базовые рекомендации по оптимизации сайта</li>
+                        <li>Написание текстов для продвигаемых страниц</li>
+                        <li class="not-exist">Базовая отчётность</li>
+                        <li>Расширенное ТЗ на поисковую оптимизацию сайта</li>
+                        <li>Расширенная ежемесячная отчётность</li>
+                        <li>Настройка систем аналитики Яндекс.Метрика и GA</li>
+                        <li>Настройка целей в Яндекс.Метрика или G.Analytics</li>
+                        <li class="not-exist">Настройка систем колл-трекинга</li>
+                        <li class="not-exist">Разработка стратегии размещения ссылок</li>
+                        <li>Составление базовых рекомендаций по юзабилити</li>
+                        <li>Ежемесячная проверка оптимизации сайта</li>
+                        <li>Регистрация в справочниках Яндекс и Google</li>
+                        <li>Кластеризация полного семантического ядра</li>
+                        <li class="not-exist">КРауд-маркетинг</li>
+                        <li>Контент-маркетинг</li>
+                        <li>Проведение юзабилити аудита</li>
+                        <li class="not-exist">Сквозная аналитика на базе Roistat</li>
+                        <li class="not-exist">A|B-тестирование и работы над конверсией</li>
+                        <li>Персональный менеджер</li>
+                        <li class="not-exist">3-х уровневая система контроля качества</li>
+                        <li class="not-exist">Бесплатные консультации по интернет-маркетингу</li>
+                        <li>Гарантия результата</li>
+                        <!--                            <li class="not-exist">SEO-аудит</li>-->
+                        <!--                            <li class="not-exist">SEO-аудит</li>-->
+                        <!--                            <li class="not-exist">SEO-аудит</li>-->
+                    </ul>
+                </div>
+                <div class="more-work">
+                    <div class="arrow-all">
+                        <span class="text">И ещё 24 вида работ</span>
+                        <img alt="arrowdown"
+                             src="https://www.optimism.ru/local/templates/optimism/img/arrowdown_white.svg"
+                             class="arrow-down" id="arrow1">
+                    </div>
+                </div>
+                <div class="block-button">
+                    <a href="#win1" class="button-business" role="button">Заказать услугу</a>
+                    <div class="price-text">30 000 руб.</div>
+                </div>
+            </div>
+            <div class="right-block">
+                <div class="formobile">
+                    <div id="main-composition">
+                        <span class="price-title-text">Основной состав работ</span>
+                        <ul>
+                            <li>SEO-аудит</li>
+                            <li>Составление семантического ядра</li>
+                            <li>Составление плана работ по развитию сайта</li>
+                            <li>Регистрация сайта в сервисах для вебмастеров</li>
+                            <li>Анализ оптимизации сайтов конкурентов</li>
+                            <li>Реализация микроразметки</li>
+                            <li>Размещение на тематических порталах</li>
+                            <li>Отчётность по позициям</li>
+                        </ul>
+                        <ul class="ul-main-composition">
+                            <li>Ежеквартальная актуализация семантического ядра</li>
+                            <li class="not-exist">Настройка инструментов повышения продаж</li>
+                            <li>Стратегия поискового продвижения</li>
+                            <li>Базовые рекомендации по оптимизации сайта</li>
+                            <li>Написание текстов для продвигаемых страниц</li>
+                            <li class="not-exist">Базовая отчётность</li>
+                            <li>Расширенное ТЗ на поисковую оптимизацию сайта</li>
+                            <li>Расширенная ежемесячная отчётность</li>
+                            <li>Настройка систем аналитики Яндекс.Метрика и GA</li>
+                            <li>Настройка целей в Яндекс.Метрика или G.Analytics</li>
+                            <li class="not-exist">Настройка систем колл-трекинга</li>
+                            <li class="not-exist">Разработка стратегии размещения ссылок</li>
+                            <li>Составление базовых рекомендаций по юзабилити</li>
+                            <li>Ежемесячная проверка оптимизации сайта</li>
+                            <li>Регистрация в справочниках Яндекс и Google</li>
+                            <li>Кластеризация полного семантического ядра</li>
+                            <li class="not-exist">КРауд-маркетинг</li>
+                            <li>Контент-маркетинг</li>
+                            <li>Проведение юзабилити аудита</li>
+                            <li class="not-exist">Сквозная аналитика на базе Roistat</li>
+                            <li class="not-exist">A|B-тестирование и работы над конверсией</li>
+                            <li>Персональный менеджер</li>
+                            <li class="not-exist">3-х уровневая система контроля качества</li>
+                            <li class="not-exist">Бесплатные консультации по интернет-маркетингу</li>
+                            <li>Гарантия результата</li>
+                            <!--                            <li class="not-exist">SEO-аудит</li>-->
+                            <!--                            <li class="not-exist">SEO-аудит</li>-->
+                            <!--                            <li class="not-exist">SEO-аудит</li>-->
+                        </ul>
+                    </div>
+                    <div class="more-work">
+                        <div class="arrow-all">
+                            <span class="text">И ещё 24 вида работ</span>
+                            <img alt="arrowdown"
+                                 src="https://www.optimism.ru/local/templates/optimism/img/arrowdown_white.svg"
+                                 class="arrow-down" id="arrow1">
+                        </div>
+                    </div>
+                </div>
+                <div class="first-block">
+                    <span class="price-title-text">Минимальный</span>
+                    <div class="desc-price">Для новых сайтов и стартапов</div>
+                    <div class="list-of-work">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li class="not-exist-sec"></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="ul-main-composition">
+                            <li class="not-exist-sec"></li>
+                            <li class="not-exist-sec"></li>
+                            <li></li>
+                            <li></li>
+                            <li class="not-exist-sec"></li>
+                            <li></li>
+                            <li class="not-exist-sec"></li>
+                            <li class="not-exist-sec"></li>
+                            <li></li>
+                            <li></li>
+                            <li class="not-exist-sec"></li>
+                            <li class="not-exist-sec"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li class="not-exist-sec"></li>
+                            <li class="not-exist-sec"></li>
+                            <li></li>
+                            <li class="not-exist-sec"></li>
+                            <li class="not-exist-sec"></li>
+                            <li class="not-exist-sec"></li>
+                            <li class="not-exist-sec"></li>
+                            <li class="not-exist-sec"></li>
+                            <li class="not-exist-sec"></li>
+                        </ul>
+                    </div>
+                    <div class="button-of-work">
+                        <div class="arrow-down-block">
+                            <img alt="arrowdown"
+                                 src="https://www.optimism.ru/local/templates/optimism/img/arrowdown_white.svg"
+                                 class="arrow-down" id="arrow2">
+                        </div>
+                        <div class="price-text-other">15 000 руб.</div>
+                        <a href="#win1" class="button-business" role="button">Выбрать</a>
+                    </div>
+                </div>
+                <div class="second-block">
+                    <span class="price-title-text">Расширенный</span>
+                    <div class="desc-price">Для бескомпромиссных проектов</div>
+                    <div class="list-of-work">
+                        <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                        <ul class="ul-main-composition">
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li class="not-exist-sec"></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                    </div>
+                    <div class="button-of-work">
+                        <div class="arrow-down-block">
+                            <img alt="arrowdown"
+                                 src="https://www.optimism.ru/local/templates/optimism/img/arrowdown_white.svg"
+                                 class="arrow-down" id="arrow3">
+                        </div>
+                        <div class="price-text-other">45 000 руб.</div>
+                        <a href="#win1" class="button-business" role="button">Выбрать</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <?$APPLICATION->IncludeComponent("bitrix:main.include", ".default", array(
         "AREA_FILE_SHOW" => "file",
         "PATH" => "/include/calculator.php",
@@ -617,233 +847,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сай
         </div>
     </section>
 
-    <section class="price">
-        <div class="container">
-            <div class="left-block">
-                <div class="price-title">Продвижение сайтов по позициям</div>
-                <div class="price-desc">Специализированные проекты, ресурсы на небольших рынках</div>
-                <ul>
-                    <li>Достигаем целевых позиций в «Яндекс» по ключевым словам</li>
-                    <li>Повышаем авторитет и видимость сайта в поисковых системах</li>
-                    <li>Приводим на сайт целевых клиентов</li>
-                </ul>
-                <div id="main-composition">
-                    <h4>Основной состав работ</h4>
-                    <ul>
-                        <li>SEO-аудит</li>
-                        <li>Составление семантического ядра</li>
-                        <li>Составление плана работ по развитию сайта</li>
-                        <li>Регистрация сайта в сервисах для вебмастеров</li>
-                        <li>Анализ оптимизации сайтов конкурентов</li>
-                        <li>Реализация микроразметки</li>
-                        <li>Размещение на тематических порталах</li>
-                        <li>Отчётность по позициям</li>
-                    </ul>
-                    <ul class="ul-main-composition">
-                        <li>Ежеквартальная актуализация семантического ядра</li>
-                        <li class="not-exist">Настройка инструментов повышения продаж</li>
-                        <li>Стратегия поискового продвижения</li>
-                        <li>Базовые рекомендации по оптимизации сайта</li>
-                        <li>Написание текстов для продвигаемых страниц</li>
-                        <li class="not-exist">Базовая отчётность</li>
-                        <li>Расширенное ТЗ на поисковую оптимизацию сайта</li>
-                        <li>Расширенная ежемесячная отчётность</li>
-                        <li>Настройка систем аналитики Яндекс.Метрика и GA</li>
-                        <li>Настройка целей в Яндекс.Метрика или G.Analytics</li>
-                        <li class="not-exist">Настройка систем колл-трекинга</li>
-                        <li class="not-exist">Разработка стратегии размещения ссылок</li>
-                        <li>Составление базовых рекомендаций по юзабилити</li>
-                        <li>Ежемесячная проверка оптимизации сайта</li>
-                        <li>Регистрация в справочниках Яндекс и Google</li>
-                        <li>Кластеризация полного семантического ядра</li>
-                        <li class="not-exist">КРауд-маркетинг</li>
-                        <li>Контент-маркетинг</li>
-                        <li>Проведение юзабилити аудита</li>
-                        <li class="not-exist">Сквозная аналитика на базе Roistat</li>
-                        <li class="not-exist">A|B-тестирование и работы над конверсией</li>
-                        <li>Персональный менеджер</li>
-                        <li class="not-exist">3-х уровневая система контроля качества</li>
-                        <li class="not-exist">Бесплатные консультации по интернет-маркетингу</li>
-                        <li>Гарантия результата</li>
-                        <!--                            <li class="not-exist">SEO-аудит</li>-->
-                        <!--                            <li class="not-exist">SEO-аудит</li>-->
-                        <!--                            <li class="not-exist">SEO-аудит</li>-->
-                    </ul>
-                </div>
-                <div class="more-work">
-                    <div class="arrow-all">
-                        <span class="text">И ещё 24 вида работ</span>
-                        <img alt="arrowdown"
-                             src="https://www.optimism.ru/local/templates/optimism/img/arrowdown_white.svg"
-                             class="arrow-down" id="arrow1">
-                    </div>
-                </div>
-                <div class="block-button">
-                    <a href="#win1" class="button-business" role="button">Заказать услугу</a>
-                    <div class="price-text">30 000 руб.</div>
-                </div>
-            </div>
-            <div class="right-block">
-                <div class="formobile">
-                    <div id="main-composition">
-                        <h4>Основной состав работ</h4>
-                        <ul>
-                            <li>SEO-аудит</li>
-                            <li>Составление семантического ядра</li>
-                            <li>Составление плана работ по развитию сайта</li>
-                            <li>Регистрация сайта в сервисах для вебмастеров</li>
-                            <li>Анализ оптимизации сайтов конкурентов</li>
-                            <li>Реализация микроразметки</li>
-                            <li>Размещение на тематических порталах</li>
-                            <li>Отчётность по позициям</li>
-                        </ul>
-                        <ul class="ul-main-composition">
-                            <li>Ежеквартальная актуализация семантического ядра</li>
-                            <li class="not-exist">Настройка инструментов повышения продаж</li>
-                            <li>Стратегия поискового продвижения</li>
-                            <li>Базовые рекомендации по оптимизации сайта</li>
-                            <li>Написание текстов для продвигаемых страниц</li>
-                            <li class="not-exist">Базовая отчётность</li>
-                            <li>Расширенное ТЗ на поисковую оптимизацию сайта</li>
-                            <li>Расширенная ежемесячная отчётность</li>
-                            <li>Настройка систем аналитики Яндекс.Метрика и GA</li>
-                            <li>Настройка целей в Яндекс.Метрика или G.Analytics</li>
-                            <li class="not-exist">Настройка систем колл-трекинга</li>
-                            <li class="not-exist">Разработка стратегии размещения ссылок</li>
-                            <li>Составление базовых рекомендаций по юзабилити</li>
-                            <li>Ежемесячная проверка оптимизации сайта</li>
-                            <li>Регистрация в справочниках Яндекс и Google</li>
-                            <li>Кластеризация полного семантического ядра</li>
-                            <li class="not-exist">КРауд-маркетинг</li>
-                            <li>Контент-маркетинг</li>
-                            <li>Проведение юзабилити аудита</li>
-                            <li class="not-exist">Сквозная аналитика на базе Roistat</li>
-                            <li class="not-exist">A|B-тестирование и работы над конверсией</li>
-                            <li>Персональный менеджер</li>
-                            <li class="not-exist">3-х уровневая система контроля качества</li>
-                            <li class="not-exist">Бесплатные консультации по интернет-маркетингу</li>
-                            <li>Гарантия результата</li>
-                            <!--                            <li class="not-exist">SEO-аудит</li>-->
-                            <!--                            <li class="not-exist">SEO-аудит</li>-->
-                            <!--                            <li class="not-exist">SEO-аудит</li>-->
-                        </ul>
-                    </div>
-                    <div class="more-work">
-                        <div class="arrow-all">
-                            <span class="text">И ещё 24 вида работ</span>
-                            <img alt="arrowdown"
-                                 src="https://www.optimism.ru/local/templates/optimism/img/arrowdown_white.svg"
-                                 class="arrow-down" id="arrow1">
-                        </div>
-                    </div>
-                </div>
-                <div class="first-block">
-                    <h4>Минимальный</h4>
-                    <div class="desc-price">Для новых сайтов и стартапов</div>
-                    <div class="list-of-work">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="not-exist-sec"></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <ul class="ul-main-composition">
-                            <li class="not-exist-sec"></li>
-                            <li class="not-exist-sec"></li>
-                            <li></li>
-                            <li></li>
-                            <li class="not-exist-sec"></li>
-                            <li></li>
-                            <li class="not-exist-sec"></li>
-                            <li class="not-exist-sec"></li>
-                            <li></li>
-                            <li></li>
-                            <li class="not-exist-sec"></li>
-                            <li class="not-exist-sec"></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="not-exist-sec"></li>
-                            <li class="not-exist-sec"></li>
-                            <li></li>
-                            <li class="not-exist-sec"></li>
-                            <li class="not-exist-sec"></li>
-                            <li class="not-exist-sec"></li>
-                            <li class="not-exist-sec"></li>
-                            <li class="not-exist-sec"></li>
-                            <li class="not-exist-sec"></li>
-                        </ul>
-                    </div>
-                    <div class="button-of-work">
-                        <div class="arrow-down-block">
-                            <img alt="arrowdown"
-                                 src="https://www.optimism.ru/local/templates/optimism/img/arrowdown_white.svg"
-                                 class="arrow-down" id="arrow2">
-                        </div>
-                        <div class="price-text-other">15 000 руб.</div>
-                        <a href="#win1" class="button-business" role="button">Выбрать</a>
-                    </div>
-                </div>
-                <div class="second-block">
-                    <h4>Расширенный</h4>
-                    <div class="desc-price">Для бескомпромиссных проектов</div>
-                    <div class="list-of-work">
-                        <ul>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                        <ul class="ul-main-composition">
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li class="not-exist-sec"></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                            <li></li>
-                        </ul>
-                    </div>
-                    <div class="button-of-work">
-                        <div class="arrow-down-block">
-                            <img alt="arrowdown"
-                                 src="https://www.optimism.ru/local/templates/optimism/img/arrowdown_white.svg"
-                                 class="arrow-down" id="arrow3">
-                        </div>
-                        <div class="price-text-other">45 000 руб.</div>
-                        <a href="#win1" class="button-business" role="button">Выбрать</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+
 
     <section class="ten">
         <div class="container">
