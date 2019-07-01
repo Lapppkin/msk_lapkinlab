@@ -57,7 +57,6 @@ Allow: /novosti/?PAGEN_1=*
 Allow: /search/map.php
 Allow: /bitrix/templates/LapkinLab_krd/css/
 Allow: /bitrix/templates/LapkinLab_krd/js/
-Sitemap: https://msk.lapkinlab.ru/sitemap.xml
 
 User-Agent: Yandex
 Disallow: /kalkulyator-stoimosti-sajtov/1/
@@ -173,6 +172,7 @@ Disallow: /*index.php$
 Disallow: /*?
 Disallow: /feed
 Disallow: /team
+Disallow: /testindex.php
 Disallow: /privacy-policy/
 Allow: /novosti/?PAGEN_1=*
 Allow: /search/map.php

@@ -13,6 +13,13 @@ $aMenuLinks = Array(
 		Array(),
 		Array(),
 		""
+	),
+	Array(
+		"Чек-лист внедрения amoCRM",
+		"/amocrm/checklist/",
+		Array(),
+		Array(),
+		""
 	)
 );
 ?>
