@@ -540,5 +540,13 @@ if (lazyLoadInstance) {
     lazyLoadInstance.update();
 }
 	</script>
+
+    <script type="text/javascript">
+        jQuery(function() {
+            jQuery(document).on('submit', function() {
+                fbq('track', 'Lead');
+            });
+        });
+    </script>
 </body>
 </html>
