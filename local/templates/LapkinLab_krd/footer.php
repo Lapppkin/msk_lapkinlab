@@ -162,8 +162,8 @@
                     </div>
                 </div>
                 <div class="col-md-6">
-                    <a href="/amoCRM.jpeg" style="padding-right:10px; padding-top:20px; float: right;" class="fancybox"> <img width="80px" src="/amoCRM_small.jpeg" class="lazyload" data-src="/amoCRM.jpeg"> </a>
-                    <a href="/image/Сертификат_Бизнес_Партнера_1с_битрикс.pdf" style="padding-right:10px; padding-top:20px; float: right;"> <img width="100px" src="/image/0021-039-.png" class="lazyload" data-src="/image/0021-039-.png"> </a>
+                    <a href="/amoCRM.jpeg" style="padding-right:10px; padding-top:20px; float: right;" class="fancybox"> <img width="80px" src="/amoCRM_small.jpeg"> </a>
+                    <a href="/image/Сертификат_Бизнес_Партнера_1с_битрикс.pdf" style="padding-right:10px; padding-top:20px; float: right;"> <img width="100px" src="/image/0021-039-.png"> </a>
                 </div>
             </div>
         </div>
@@ -456,22 +456,6 @@
     </script>
 <? } ?>
 
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-    (window, document, "script", "https://cdn.jsdelivr.net/npm/yandex-metrica-watch/tag.js", "ym");
-
-    ym(45994323, "init", {
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true,
-        webvisor:true,
-        trackHash:true
-    });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/45994323" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71801643-15"></script>
@@ -546,6 +530,15 @@
                src="https://www.facebook.com/tr?id=754412144956224&ev=PageView&noscript=1"
     /></noscript>
 <!-- End Facebook Pixel Code -->
-
+	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
+	<script>
+var lazyLoadInstance = new LazyLoad({
+    elements_selector: ".lazy"
+    // ... more custom settings?
+});
+if (lazyLoadInstance) {
+    lazyLoadInstance.update();
+}
+	</script>
 </body>
 </html>
