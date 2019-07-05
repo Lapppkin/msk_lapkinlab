@@ -28,7 +28,7 @@ $briefPageTypeMap = [
     '/seo-page' => 'seo',
 
     '/kalkulyator-stoimosti-sajtov' => 'dev',
-    '/chat-bot/'                    => 'dev',
+    '/chat-bot'                     => 'dev',
 
     '/kontekstnaya-reklama' => 'context',
 
@@ -41,7 +41,7 @@ $brief            = $briefTypeLinkMap['seo'];
 
 foreach ($briefPageTypeMap as $path => $type) {
 
-    if ($uri === $path) {
+    if ($uri === \rtrim($path, '/')) {
         $brief = $briefTypeLinkMap[$type];
 
         break;
