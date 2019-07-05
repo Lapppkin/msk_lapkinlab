@@ -21,14 +21,21 @@ $briefTypeLinkMap = [
     'dev'     => 'https://docs.google.com/forms/d/e/1FAIpQLSfJdbhwnd0miOtpYpRLAql5bCsU4b5_VSk8R8lKEkRpvLMkdQ/viewform',
     'context' => 'https://docs.google.com/forms/d/e/1FAIpQLSdC5EtZkU86l1V2pIsEAXUigf6ZH_98BTB823rmgW7d0M_lmQ/viewform',
     'smm'     => 'https://docs.google.com/forms/d/e/1FAIpQLScUUOxtYtc1F1xWTCjo4HpIY4TlQ8CEnfHkhET_K0teL5xCig/viewform',
+    'amo'     => 'https://docs.google.com/forms/d/e/1FAIpQLSfTqL6tOA92Y3SRrYWDoJ7wWNHEr-DFMXv6YWUgaY6DhBRmkw/viewform',
 ];
 $briefPageTypeMap = [
     '/'         => 'seo',
     '/seo-page' => 'seo',
 
     '/kalkulyator-stoimosti-sajtov' => 'dev',
+    '/chat-bot/'                    => 'dev',
 
     '/kontekstnaya-reklama' => 'context',
+
+    '/amocrm'            => 'amo',
+    '/amocrm/o-produkte' => 'amo',
+    '/amocrm/brif'       => 'amo',
+    '/amocrm/checklist'  => 'amo',
 ];
 $brief            = $briefTypeLinkMap['seo'];
 
