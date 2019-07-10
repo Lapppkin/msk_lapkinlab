@@ -6,31 +6,19 @@ const gulp       = require('gulp'),
       sourcemaps = require('gulp-sourcemaps');
 
 gulp.task('scss', () => {
-    return gulp.src('novosti/*.scss', {dot: true})
+    return gulp.src('local/**/*.scss', {dot: true})
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(csso({restructure: false}))
         .pipe(sourcemaps.write('.', {sourceRoot: '/'}))
-        .pipe(gulp.dest('novosti')),
-        gulp.src('amocrm/*.scss', {dot: true})
-        .pipe(sourcemaps.init())
-        .pipe(sass().on('error', sass.logError))
-        .pipe(csso({restructure: false}))
-        .pipe(sourcemaps.write('.', {sourceRoot: '/'}))
-        .pipe(gulp.dest('amocrm')),
-        gulp.src('amocrm/css/*.scss', {dot: true})
-        .pipe(sourcemaps.init())
-        .pipe(sass().on('error', sass.logError))
-        .pipe(csso({restructure: false}))
-        .pipe(sourcemaps.write('.', {sourceRoot: '/'}))
-        .pipe(gulp.dest('amocrm'));
+        .pipe(gulp.dest('local'));
 });
 
 gulp.task('scss:watch', gulp.series('scss', () => {
     gulp.watch([
-        'novosti/*.scss',
-        'amocrm/*.scss',
-        'amocrm/css/*.scss',
+        'local/**/*.scss',
+        'local/**/.default/**/*.scss',
+        'local/**/.default/**/.default/**/*.scss'
     ], gulp.series('scss'));
 }));
 

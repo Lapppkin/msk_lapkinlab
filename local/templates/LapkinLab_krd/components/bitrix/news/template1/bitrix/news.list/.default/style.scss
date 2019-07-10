@@ -1,0 +1,79 @@
+.article-list {
+    display:               grid;
+    grid-template-columns: 1fr;
+    grid-row-gap:          30px;
+
+    article.art {
+        display:                    flex;
+        flex-direction:             column;
+        justify-content:            stretch;
+        min-height:                 360px;
+        background:                 #ffffff;
+        border-bottom-left-radius:  5px;
+        border-bottom-right-radius: 5px;
+
+        .art-img-wrapper {
+            flex-shrink: 0;
+            display:     block;
+            height:      190px;
+
+            > img {
+                width:           100%;
+                height:          100%;
+                object-fit:      cover;
+                object-position: center center;
+            }
+        }
+
+        .art-content {
+            flex-grow: 1;
+            padding:   10px 20px 30px 20px;
+
+            .art-title {
+                color:            #000000;
+                font-family:      "Proxima Nova Lt", sans-serif;
+                font-size:        20px;
+                font-weight:      bold;
+                letter-spacing:   0.24px;
+                background-color: transparent;
+                border-bottom:    3px solid #bee1ff;
+                box-shadow:       inset 0 -5px 0 #bee1ff;
+                text-decoration:  none;
+                outline:          0;
+
+                &:hover {
+                    box-shadow: inset 0 -1em 0 #bee1ff;
+                }
+            }
+        }
+
+        .art-info {
+            flex-shrink:     0;
+            display:         flex;
+            justify-content: space-between;
+            padding:         20px;
+            font-family:     "Proxima Nova Lt", sans-serif;
+            font-size:       14px;
+            font-weight:     bold;
+            letter-spacing:  0.24px;
+            color:           #a3a3a3;
+
+            .art-date {
+
+            }
+
+            .art-category {
+
+            }
+        }
+    }
+
+    @media (min-width: 768px) {
+        grid-template-columns: 1fr 1fr;
+        grid-column-gap:       30px;
+    }
+
+    @media (min-width: 992px) {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
