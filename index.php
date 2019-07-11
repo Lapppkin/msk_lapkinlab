@@ -879,46 +879,34 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сай
         </div>
     </section>
 
-    <section class="elev">
+    <section class="section-review">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <p class="title" style="margin: 0;">Отзывы о нашей работе</p>
+            <div class="section-title">Отзывы о нашей работе</div>
+
+            <div class="review-list">
+                <div class="review-item">
+                    <a class="review-popup" href="https://www.youtube.com/embed/jX8QZG4JXHY" style="background-image: url(/assests/review-01-kalinza.jpg);"></a>
+
+                    <div class="review-title">Сеть оптик Kalinza.ru</div>
+
+                    <div class="review-work">Разработка сайта на CMS Bitrix</div>
                 </div>
 
-                <div class="video-reviews-block" style="margin-top: 50px; justify-content: center !important;">
-                    <div class="video-review">
-                        <div class="circle-video-block">
-                            <a class="video-popup" href="https://www.youtube.com/embed/jX8QZG4JXHY"></a>
-                            <img src="//msk.lapkinlab.ru/assests/kalinza.jpg" style="position: absolute;left: -195px;top: -65px;">
-                        </div>
-                        <div class="vr-title">
-                            Сеть оптик Kalinza.ru
-                        </div>
-                        <p class="comp-work">
-                            Разработка сайта на CMS Bitrix
-                        </p>
-                    </div>
-                    <div class="video-review">
-                        <div class="circle-video-block">
-                            <a class="video-popup" href="https://www.youtube.com/embed/XaxNwe8O6Vw"></a>
-                            <img src="//msk.lapkinlab.ru/assests/trillion.jpg" style="position: absolute;left: -195px;top: -65px;">
-                        </div>
-                        <div class="vr-title">
-                            Кредитный брокер Trillion-ug.ru
-                        </div>
-                        <p class="comp-work">
-                            Доработка сайта и SEO продвижение сайта с нуля
-                        </p>
-                    </div>
+                <div class="review-item">
+                    <a class="review-popup" href="https://www.youtube.com/embed/XaxNwe8O6Vw" style="background-image: url(/assests/review-02-trillion.jpg);"></a>
+
+                    <div class="review-title">Кредитный брокер Trillion-ug.ru</div>
+
+                    <div class="review-work">Доработка сайта и SEO продвижение сайта с нуля</div>
                 </div>
-                <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script> <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js"></script> <script src="/bitrix/templates/LapkinLab_krd/js/video-fancy.js"></script>
-            </div></div></section>
+            </div>
+        </div>
 
+        <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js"></script>
+        <script src="/bitrix/templates/LapkinLab_krd/js/video-fancy.js"></script>
+    </section>
 
-
-
-    <section class="twel">
+    <section class="section-article twel">
         <div class="container">
             <p class="title_wh">Полезные статьи</p>
 

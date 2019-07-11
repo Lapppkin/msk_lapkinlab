@@ -1,5 +1,5 @@
 $(function() {
-    $('.video-popup').fancybox({
+    $('.review-popup').fancybox({
       openEffect  : 'none',
       closeEffect : 'none',
       helpers : {
