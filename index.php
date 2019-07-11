@@ -903,7 +903,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сай
         </div>
 
         <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js"></script>
-        <script src="/bitrix/templates/LapkinLab_krd/js/video-fancy.js"></script>
+        <script src="<?= SITE_TEMPLATE_PATH; ?>/js/video-fancy.js"></script>
     </section>
 
     <section class="section-article twel">
