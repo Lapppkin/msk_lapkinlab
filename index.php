@@ -348,6 +348,10 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сай
                         <li>SEO-аудит</li>
                         <li>Составление семантического ядра</li>
                         <li>Составление плана работ по развитию сайта</li>
+
+                        <li class="tech-webmaster font-weight-bold">
+                            <span class="term-title">Техническая доработка сайта (работы веб-мастера)</span><span class="term-text">10 часов</span></li>
+
                         <li>Регистрация сайта в сервисах для вебмастеров</li>
                         <li>Анализ оптимизации сайтов конкурентов</li>
                         <li>Реализация микроразметки</li>
@@ -380,9 +384,6 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сай
                         <li class="not-exist">3-х уровневая система контроля качества</li>
                         <li class="not-exist">Бесплатные консультации по интернет-маркетингу</li>
                         <li>Гарантия результата</li>
-                        <!--                            <li class="not-exist">SEO-аудит</li>-->
-                        <!--                            <li class="not-exist">SEO-аудит</li>-->
-                        <!--                            <li class="not-exist">SEO-аудит</li>-->
                     </ul>
                 </div>
                 <div class="more-work">
@@ -406,6 +407,10 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сай
                             <li>SEO-аудит</li>
                             <li>Составление семантического ядра</li>
                             <li>Составление плана работ по развитию сайта</li>
+
+                            <li class="tech-webmaster">
+                                <span class="term-title">Техническая доработка сайта (работы веб-мастера)</span><span class="term-text">10 часов</span></li>
+
                             <li>Регистрация сайта в сервисах для вебмастеров</li>
                             <li>Анализ оптимизации сайтов конкурентов</li>
                             <li>Реализация микроразметки</li>
@@ -438,9 +443,6 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сай
                             <li class="not-exist">3-х уровневая система контроля качества</li>
                             <li class="not-exist">Бесплатные консультации по интернет-маркетингу</li>
                             <li>Гарантия результата</li>
-                            <!--                            <li class="not-exist">SEO-аудит</li>-->
-                            <!--                            <li class="not-exist">SEO-аудит</li>-->
-                            <!--                            <li class="not-exist">SEO-аудит</li>-->
                         </ul>
                     </div>
                     <div class="more-work">
@@ -460,6 +462,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сай
                             <li></li>
                             <li></li>
                             <li></li>
+                            <li class="not-exist-sec"></li>
                             <li></li>
                             <li></li>
                             <li class="not-exist-sec"></li>
@@ -512,6 +515,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сай
                             <li></li>
                             <li></li>
                             <li></li>
+                            <li class="no-icon font-weight-bold">15 часов</li>
                             <li></li>
                             <li></li>
                             <li></li>
