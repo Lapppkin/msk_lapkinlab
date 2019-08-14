@@ -209,8 +209,6 @@ IncludeTemplateLangFile(__FILE__);
         <div><img src="https://mc.yandex.ru/watch/45994323" style="position:absolute; left:-9999px;" alt=""/></div>
     </noscript>
     <!-- /Yandex.Metrika counter -->
-
-    <script src="//st.yagla.ru/js/y.c.js?h=e72ecd89a55872b86362ff1c9f3a5881"></script>
 </head>
 <? $APPLICATION->ShowPanel() ?>
 <body>
