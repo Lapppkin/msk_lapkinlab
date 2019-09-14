@@ -1,6 +1,7 @@
+/.idea
+/.vscode
 /bitrix
 /upload
-/image
 /vendor
 /node_modules
-/.idea
+/.htaccess.restore
