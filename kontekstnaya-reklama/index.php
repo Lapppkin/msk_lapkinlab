@@ -1465,10 +1465,10 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                                     Тип рекламной кампании: Поиск и РСЯ
                                 </p>
                                 <div class="col-md-6 navlef navar" data-id="3">
-                                    <img src="/bitrix/templates/new_design/assests/left.png">Предыдущий кейс
+                                    <img src="/local/templates/new_design/assests/left.png">Предыдущий кейс
                                 </div>
                                 <div class="col-md-6 navrig navar" data-id="2">
-                                    Следующий кейс<img src="/bitrix/templates/new_design/assests/right.png">
+                                    Следующий кейс<img src="/local/templates/new_design/assests/right.png">
                                 </div>
                                 <div class="col-md-12" style="text-align: center; margin: 0 auto;">
                                     <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'uslugazakaz'); return true;">Заказать услугу</a>
@@ -1505,10 +1505,10 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                                     Тип рекламной кампании: Поиск
                                 </p>
                                 <div class="col-md-6 navlef navar" data-id="1">
-                                    <img src="/bitrix/templates/new_design/assests/left.png">Предыдущий кейс
+                                    <img src="/local/templates/new_design/assests/left.png">Предыдущий кейс
                                 </div>
                                 <div class="col-md-6 navrig navar" data-id="3">
-                                    Следующий кейс<img src="/bitrix/templates/new_design/assests/right.png">
+                                    Следующий кейс<img src="/local/templates/new_design/assests/right.png">
                                 </div>
                                 <div class="col-md-12" style="text-align: center; margin: 0 auto;">
                                     <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'uslugazakaz'); return true;">Заказать услугу</a>
@@ -1544,10 +1544,10 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                                     Тип рекламной кампании: Поиск
                                 </p>
                                 <div class="col-md-6 navlef navar" data-id="2">
-                                    <img src="/bitrix/templates/new_design/assests/left.png">Предыдущий кейс
+                                    <img src="/local/templates/new_design/assests/left.png">Предыдущий кейс
                                 </div>
                                 <div class="col-md-6 navrig navar" data-id="1">
-                                    Следующий кейс<img src="/bitrix/templates/new_design/assests/right.png">
+                                    Следующий кейс<img src="/local/templates/new_design/assests/right.png">
                                 </div>
                                 <div class="col-md-12" style="text-align: center; margin: 0 auto;">
                                     <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'uslugazakaz'); return true;">Заказать услугу</a>

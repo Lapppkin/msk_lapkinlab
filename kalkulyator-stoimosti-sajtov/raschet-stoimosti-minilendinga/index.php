@@ -5,7 +5,7 @@ $APPLICATION->SetPageProperty("description", "Рассчитать стоимо�
 $APPLICATION->SetTitle("Расчет создания мини-лендинга: стоимость разработки от LapkinLab");
 ?>
 
- <META HTTP-EQUIV="REFRESH" CONTENT="1; URL=https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-stoimosti-minilendinga">
+ <META HTTP-EQUIV="REFRESH" CONTENT="1; URL=https://msk.lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-stoimosti-minilendinga">
 
     <main>
         <div class="breadcrumbs">

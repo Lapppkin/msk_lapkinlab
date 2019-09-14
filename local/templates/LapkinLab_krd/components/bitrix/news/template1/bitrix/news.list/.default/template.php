@@ -29,7 +29,7 @@ $this->setFrameMode(true);
         <?php
         $this->AddEditAction($item['ID'], $item['EDIT_LINK'], CIBlock::GetArrayByID($item['IBLOCK_ID'], 'ELEMENT_EDIT'));
         $this->AddDeleteAction($item['ID'], $item['DELETE_LINK'], CIBlock::GetArrayByID($item['IBLOCK_ID'], 'ELEMENT_DELETE'), [
-            'CONFIRM' => 'Подтвердите удаление',
+            'CONFIRM' => 'РџРѕРґС‚РІРµСЂРґРёС‚Рµ СѓРґР°Р»РµРЅРёРµ',
         ]);
         ?>
 
@@ -46,7 +46,7 @@ $this->setFrameMode(true);
             <div class="art-info">
                 <div class="art-date"><?= $item['TIMESTAMP_X']; ?></div>
 
-                <div class="art-category">Статьи</div>
+                <div class="art-category">РЎС‚Р°С‚СЊРё</div>
             </div>
         </article>
     <?php endforeach; ?>

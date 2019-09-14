@@ -26,7 +26,7 @@
     border-radius:    15px;
     background-size:  210%;
     background-color: #ffffff;
-    background-image: url(https://lapkinlab.ru/wp-content/uploads/2016/06/slide_1-e1490695895655.png);
+    background-image: url(../image/slide_1-e1490695895655.png);
     box-shadow:       0 0 10px 0 rgba(0, 0, 0, 0.2);
     text-align:       center
 }
@@ -80,7 +80,7 @@
     background-size:  235%;
     max-width:        700px;
     background-color: #ffffff;
-    background-image: url(https://lapkinlab.ru/wp-content/uploads/2016/06/slide_1-e1490695895655.png);
+    background-image: url(../image/slide_1-e1490695895655.png);
     box-shadow:       0 0 10px 0 rgba(0, 0, 0, 0.2);
     text-align:       center
 }

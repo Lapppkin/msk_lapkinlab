@@ -62,20 +62,20 @@
                 <? endif ?>
 
                 <ul class="nav_mobi">
-                    <li class="active"><a href="/seo/">Продвижение&nbsp;</a><i class="caret-down"></i>
+                    <li class="active"><a href="/seo/">РџСЂРѕРґРІРёР¶РµРЅРёРµ&nbsp;</a><i class="caret-down"></i>
                         <ul class="navffff">
-                            <li><a href="/seo-page/">SEO аудит</a></li>
+                            <li><a href="/seo-page/">SEO Р°СѓРґРёС‚</a></li>
                         </ul>
                     </li>
-                    <li><a href="/kontekstnaya-reklama/">Контекстная реклама</a></li>
-                    <li><a href="/kalkulyator-stoimosti-sajtov/">Разработка сайтов</a></li>
-                    <li><a href="/chat-bot/">Телеграм</a></li>
+                    <li><a href="/kontekstnaya-reklama/">РљРѕРЅС‚РµРєСЃС‚РЅР°СЏ СЂРµРєР»Р°РјР°</a></li>
+                    <li><a href="/kalkulyator-stoimosti-sajtov/">Р Р°Р·СЂР°Р±РѕС‚РєР° СЃР°Р№С‚РѕРІ</a></li>
+                    <li><a href="/chat-bot/">РўРµР»РµРіСЂР°Рј</a></li>
                     <li><a href="/amocrm/">amoCRM&nbsp;</a><i class="caret-down"></i>
                         <ul class="navffff">
-                            <li><a href="/amocrm/o-produkte/">О продукте</a></li>
-                            <li><a href="/amocrm/brif/">Бриф</a></li>
+                            <li><a href="/amocrm/o-produkte/">Рћ РїСЂРѕРґСѓРєС‚Рµ</a></li>
+                            <li><a href="/amocrm/brif/">Р‘СЂРёС„</a></li>
                         </ul>
                     </li>
-                    <li><a href="/novosti/">Блог</a></li>
-                    <li><a href="/contacts/">Контакты</a></li>
+                    <li><a href="/novosti/">Р‘Р»РѕРі</a></li>
+                    <li><a href="/contacts/">РљРѕРЅС‚Р°РєС‚С‹</a></li>
                 </ul>

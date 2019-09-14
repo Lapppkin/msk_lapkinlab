@@ -215,7 +215,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                     </div>
 
                     <div class="hidden-sm hidden-xs col-md-4 midlblo flex_center" style=" padding-top:60px;">
-                        <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/centr.png">
+                        <img src="/local/templates/new_design/assests/centr.png">
                     </div>
 
                     <div class="col-sm-6 col-md-4">
@@ -258,17 +258,17 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-sm-12 col-md-4 block_twof">
-                            <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/shopping-cart.png">
+                            <img src="/local/templates/new_design/assests/shopping-cart.png">
                             <p class="tit"> Интернет-магазинам</p>
                             <p class="bottit"> Приводим целевой трафик, делаем из посетителя покупателя</p>
                         </div>
                         <div class="col-sm-12 col-md-4 block_twof">
-                            <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/diagram.png">
+                            <img src="/local/templates/new_design/assests/diagram.png">
                             <p class="tit"> Бизнес сайтам</p>
                             <p class="bottit"> Увеличиваем узнаваемость бренда, привлекаем новых клиентов</p>
                         </div>
                         <div class="col-sm-12 col-md-4 block_twof">
-                            <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/customer-support.png">
+                            <img src="/local/templates/new_design/assests/customer-support.png">
                             <p class="tit"> Для сферы услуг</p>
                             <p class="bottit"> Превращаем сайт в инструмент конверсии, наращиваем поток заявок</p>
                         </div>
@@ -299,28 +299,28 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                 <div class="col-md-12 stolb">
                     <div class="row" style="display: flex; align-self: end; align-self: flex-end; align-items: end; align-items: flex-end;">
                         <div class="col-sm-12 col-md-3">
-							<img src="/bitrix/templates/new_design/assests/st1.png">
+							<img src="/local/templates/new_design/assests/st1.png">
                             <hr>
                             <p class="tit"> 1 этап</p>
                             <p class="bottit"> Аудит сайта и подготовка его к продвижению</p>
                             <div id="st1">1 - 2 месяца</div>
                         </div>
                         <div class="col-sm-12 col-md-3">
-                            <img src="/bitrix/templates/new_design/assests/st2.png">
+                            <img src="/local/templates/new_design/assests/st2.png">
                             <hr>
                             <p class="tit"> 2 этап</p>
                             <p class="bottit"> Рост позиций сайта. Трафика и продаж здесь нет. Терпение!</p>
                             <div id="st1">2 - 3 месяца</div>
                         </div>
                         <div class="col-sm-12 col-md-3">
-                            <img src="/bitrix/templates/new_design/assests/st3.png">
+                            <img src="/local/templates/new_design/assests/st3.png">
                             <hr>
                             <p class="tit"> 3 этап</p>
                             <p class="bottit"> Выход в ТОП 10. Рост трафика, первые обращения клиентов, заявки и продажи с сайта</p>
                             <div id="st1">4 - 6 месяца</div>
                         </div>
                         <div class="col-sm-12 col-md-3">
-                            <img src="/bitrix/templates/new_design/assests/st4.png">
+                            <img src="/local/templates/new_design/assests/st4.png">
                             <hr>
                             <p class="tit"> 4 этап</p>
                             <p class="bottit"> Выход сайта в ТОП 10 по всему списку запросов. Рост продаж, узнаваемость бренда и завоевание рынка</p>
@@ -598,28 +598,28 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                             </div>
                         </div>
                         <div class="col-md-8 dfjkdf">
-                            <div id="ibbc1" class="activebi" style="background: url('//msk.lapkinlab.ru/bitrix/templates/new_design/assests/i1.png');">
+                            <div id="ibbc1" class="activebi" style="background: url('/local/templates/new_design/assests/i1.png');">
                                 <div class="over">
                                     <p class="tt">Анализ конкурентов</p>
                                     <p>Осуществляем детальный анализ отрасли: изучаем конкурентов на предмет внутренней и внешней оптимизации, выявляем математические модели ранжирования, рассчитываем корреляцию между факторами ранжирования и их влиянием на занимаемые сайтом позиции.</p>
                                 </div>
                             </div>
 
-                            <div id="ibbc2" class="activebin" style="background: url('//msk.lapkinlab.ru/bitrix/templates/new_design/assests/013/im2.jpg');">
+                            <div id="ibbc2" class="activebin" style="background: url('/local/templates/new_design/assests/013/im2.jpg');">
                                 <div class="over">
                                     <p class="tt">Разработка стратегии</p>
                                     <p>Успех не бывает спонтанным. Четкий план и конкретные цели позволяют нам определить самые эффективные средства для достижения желаемого результата - увеличения оборота вашего бизнеса.</p>
                                 </div>
                             </div>
 
-                            <div id="ibbc3" class="activebin" style="background: url('//msk.lapkinlab.ru/bitrix/templates/new_design/assests/013/im3.jpg');">
+                            <div id="ibbc3" class="activebin" style="background: url('/local/templates/new_design/assests/013/im3.jpg');">
                                 <div class="over">
                                     <p class="tt">Оптимизация сайта</p>
                                     <p>Проведя глубокий, всесторонний аудит сайта, мы приступаем к работам по внутренней и внешней оптимизации ресурса, постепенно превращая ваш сайт в лидера ниши.</p>
                                 </div>
                             </div>
 
-                            <div id="ibbc4" class="activebin" style="background: url('//msk.lapkinlab.ru/bitrix/templates/new_design/assests/013/im4.jpg');">
+                            <div id="ibbc4" class="activebin" style="background: url('/local/templates/new_design/assests/013/im4.jpg');">
                                 <div class="over">
                                     <p class="tt">Прозрачная отчетность</p>
                                     <p>Наглядный и понятный отчет по продвижению сайта? Да, мы это умеем. Каждые 2 недели специалисты предоставляют полный отчет о работах, которые были проведены, и о результатах, которые были достигнуты. Теперь метрики сайта, динамика позиций и изменения трафика вы сможете увидеть не только в специальных сервисах, но и прямо в pdf-файле с отчетностью.</p>
@@ -745,17 +745,17 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                             </div>
                             <div style="width: 100%; height: 20px; clear: both"></div>
                             <div class="col-md-8 imgkeq">
-                                <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/shatura4.png">
+                                <img src="/local/templates/new_design/assests/shatura4.png">
                             </div>
                             <div class="col-md-4 imgkeq">
-                                <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/shatura5.png">
+                                <img src="/local/templates/new_design/assests/shatura5.png">
                             </div>
 
                             <div style="width: 100%; height: 20px; clear: both"></div>
                             <p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
 
-                            <div class="col-md-6 navlef navar" data-id="3"> <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/left.png">Предыдущий кейс </div>
-                            <div class="col-md-6 navrig navar" data-id="2"> Следующий кейс<img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/right.png"> </div>
+                            <div class="col-md-6 navlef navar" data-id="3"> <img src="/local/templates/new_design/assests/left.png">Предыдущий кейс </div>
+                            <div class="col-md-6 navrig navar" data-id="2"> Следующий кейс<img src="/local/templates/new_design/assests/right.png"> </div>
 
                             <div class="col-md-12" style="text-align: center; margin: 0 auto;">
                                 <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'zakaz'); return true;">Заказать услугу</a>
@@ -773,17 +773,17 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                             </div>
                             <div style="width: 100%; height: 20px; clear: both"></div>
                             <div class="col-md-8 imgkeq">
-                                <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/013/m1.jpg" style="height: 280px;">
+                                <img src="/local/templates/new_design/assests/013/m1.jpg" style="height: 280px;">
                             </div>
                             <div class="col-md-4 imgkeq">
-                                <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/013/m2.jpg">
+                                <img src="/local/templates/new_design/assests/013/m2.jpg">
                             </div>
 
                             <div style="width: 100%; height: 20px; clear: both"></div>
                             <p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
 
-                            <div class="col-md-6 navlef navar" data-id="1"> <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/left.png">Предыдущий кейс </div>
-                            <div class="col-md-6 navrig navar" data-id="3"> Следующий кейс<img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/right.png"> </div>
+                            <div class="col-md-6 navlef navar" data-id="1"> <img src="/local/templates/new_design/assests/left.png">Предыдущий кейс </div>
+                            <div class="col-md-6 navrig navar" data-id="3"> Следующий кейс<img src="/local/templates/new_design/assests/right.png"> </div>
 
                             <div class="col-md-12" style="text-align: center; margin: 0 auto;">
                                 <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'zakaz'); return true;">Заказать услугу</a>
@@ -801,17 +801,17 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                             </div>
                             <div style="width: 100%; height: 20px; clear: both"></div>
                             <div class="col-md-8 imgkeq">
-                                <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/013/t1.jpg" style="height: 280px;">
+                                <img src="/local/templates/new_design/assests/013/t1.jpg" style="height: 280px;">
                             </div>
                             <div class="col-md-4 imgkeq">
-                                <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/013/t2.jpg">
+                                <img src="/local/templates/new_design/assests/013/t2.jpg">
                             </div>
 
                             <div style="width: 100%; height: 20px; clear: both"></div>
                             <p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
 
-                            <div class="col-md-6 navlef navar" data-id="2"> <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/left.png">Предыдущий кейс </div>
-                            <div class="col-md-6 navrig navar" data-id="1"> Следующий кейс<img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/right.png"> </div>
+                            <div class="col-md-6 navlef navar" data-id="2"> <img src="/local/templates/new_design/assests/left.png">Предыдущий кейс </div>
+                            <div class="col-md-6 navrig navar" data-id="1"> Следующий кейс<img src="/local/templates/new_design/assests/right.png"> </div>
 
                             <div class="col-md-12" style="text-align: center; margin: 0 auto;">
                                 <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'zakaz'); return true;">Заказать услугу</a>
@@ -836,8 +836,8 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                     <p class="pp">Все цены указаны на сайте – не надо ждать обсчета. Цена не меняется от конкуренции, количества ключевых слов и т.п. Кроме того, в каждый пакет уже заложена скидка до 56% – потому что «оптом дешевле».</p>
                 </div>
                 <div class="col-sm-12 col-xs-12 col-md-6">
-                    <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/bitrix.png" style="float: left;">
-                    <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/top.png" style="float: right;">
+                    <img src="/local/templates/new_design/assests/bitrix.png" style="float: left;">
+                    <img src="/local/templates/new_design/assests/top.png" style="float: right;">
                 </div>
 
                 <div class="col-md-6">
@@ -863,17 +863,17 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                 <div class="col-md-12">
                     <div class="row">
                         <div class="col-sm-12 col-md-4 block_twof">
-                            <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/test.png">
+                            <img src="/local/templates/new_design/assests/test.png">
                             <p class="tit"> Скидка 15% за комплекс </p>
                             <p class="bottit"> При заказе SEO и контекстной рекламы одновременно - делаем скидку 15% на весь срок сотрудничества.</p>
                         </div>
                         <div class="col-sm-12 col-md-4 block_twof">
-                            <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/high-five.png">
+                            <img src="/local/templates/new_design/assests/high-five.png">
                             <p class="tit"> До 20% за доверие</p>
                             <p class="bottit"> Если вы оплачиваете сразу 3, 6 или 12 месяцев работ, мы дарим вам скидку 10, 15 или 20% соответственно</p>
                         </div>
                         <div class="col-sm-12 col-md-4 block_twof">
-                            <img src="//msk.lapkinlab.ru/bitrix/templates/new_design/assests/stopwatch.png">
+                            <img src="/local/templates/new_design/assests/stopwatch.png">
                             <p class="tit"> 5 000 руб. за скорость</p>
                             <p class="bottit"> При подписании договора в течении недели после презентации коммерческого предложения даем скидку 5 000 рублей.</p>
                         </div>
@@ -889,7 +889,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
 
             <div class="review-list">
                 <div class="review-item">
-                    <a class="review-popup" href="https://www.youtube.com/embed/jX8QZG4JXHY" style="background-image: url(/assests/review-01-kalinza.jpg);"></a>
+                    <a class="review-popup" href="https://www.youtube.com/embed/jX8QZG4JXHY" style="background-image: url(/local/templates/LapkinLab_krd/images/review-01-kalinza.jpg);"></a>
 
                     <div class="review-title">Сеть оптик Kalinza.ru</div>
 
@@ -897,7 +897,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                 </div>
 
                 <div class="review-item">
-                    <a class="review-popup" href="https://www.youtube.com/embed/XaxNwe8O6Vw" style="background-image: url(/assests/review-02-trillion.jpg);"></a>
+                    <a class="review-popup" href="https://www.youtube.com/embed/XaxNwe8O6Vw" style="background-image: url(/local/templates/LapkinLab_krd/images/review-02-trillion.jpg);"></a>
 
                     <div class="review-title">Кредитный брокер Trillion-ug.ru</div>
 

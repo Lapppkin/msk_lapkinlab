@@ -1,7 +1,7 @@
 <?
 $arTemplate = array (
   'NAME' => 'LapkinLab_krd',
-  'DESCRIPTION' => 'Øàáëîí êðàñíîäàðñêîãî ñàéòà',
+  'DESCRIPTION' => 'Ð¨Ð°Ð±Ð»Ð¾Ð½ ÐºÑ€Ð°ÑÐ½Ð¾Ð´Ð°Ñ€ÑÐºÐ¾Ð³Ð¾ ÑÐ°Ð¹Ñ‚Ð°',
   'SORT' => '',
   'TYPE' => '',
 );

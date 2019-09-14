@@ -12,7 +12,7 @@ use Bitrix\Main\Page\Asset;
 
 $asset = Asset::getInstance();
 
-$asset->addCss('/bitrix/templates/new_design/css/modal.css');
+$asset->addCss('/local/templates/new_design/css/modal.css');
 
 // Vary brief document on uri.
 $uri              = \rtrim(\parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
@@ -69,23 +69,23 @@ IncludeTemplateLangFile(__FILE__);
           href="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
           integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
           crossorigin="anonymous">
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/bitrix/templates/new_design/css/styles.css">
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/bitrix/templates/new_design/css/fontello.css">
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/bitrix/templates/new_design/fonts/fonts.css">
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="/bitrix/templates/new_design/css/modal.css"/>
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/local/templates/new_design/css/styles.css">
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/local/templates/new_design/css/fontello.css">
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/local/templates/new_design/fonts/fonts.css">
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="/local/templates/new_design/css/modal.css"/>
     <link media="none"
           onload="if(media!='all') media='all'"
           rel="stylesheet"
           type="text/css"
           media="screen"
-          href="/bitrix/templates/new_design/modul/ionRangeSlider/css/ion.rangeSlider.css">
+          href="/local/templates/new_design/modul/ionRangeSlider/css/ion.rangeSlider.css">
     <link media="none"
           onload="if(media!='all') media='all'"
           rel="stylesheet"
           type="text/css"
           media="screen"
-          href="/bitrix/templates/new_design/modul/ionRangeSlider/css/ion.rangeSlider.skinFlat.css">
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="/bitrix/templates/new_design/modul/ionRangeSlider/css/css.css">
+          href="/local/templates/new_design/modul/ionRangeSlider/css/ion.rangeSlider.skinFlat.css">
+    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="/local/templates/new_design/modul/ionRangeSlider/css/css.css">
     <script src="//code.jquery.com/jquery-1.9.1.js"></script>
     <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css">
     <? if ($APPLICATION->GetCurPage(false) === '/kalkulyator-stoimosti-sajtov/') { ?>
@@ -232,8 +232,8 @@ IncludeTemplateLangFile(__FILE__);
             <div class="container_v2">
                 <div class="top_panel__message">
                     <div class="info_block">
-                        <i class="fa fa-map-marker" aria-hidden="true"></i>г. Москва, Ленинская Слобода,
-                        д. 26
+                        <i class="fa fa-map-marker" aria-hidden="true"></i>Рі. РњРѕСЃРєРІР°, Р›РµРЅРёРЅСЃРєР°СЏ РЎР»РѕР±РѕРґР°,
+                        Рґ. 26
                     </div>
                     <div class="info_block">
                         <i class="fa fa-phone" aria-hidden="true"></i>
@@ -243,27 +243,27 @@ IncludeTemplateLangFile(__FILE__);
                     <div class="info_block telegram">
                         <a href="http://t-do.ru/lapkinlab_test_bot" onclick="yaCounter45994323.reachGoal('telegram'); return true;"
                            target="_blank">
-                            <img src="/image/icon-blog.png" class="telegram-icon" alt="Telegram агентства Lapkinlab.ru">
-                            Бот Агенства Lapkinlab.ru
+                            <img src="/local/templates/LapkinLab_krd/images/icon-blog.png" class="telegram-icon" alt="Telegram Р°РіРµРЅС‚СЃС‚РІР° Lapkinlab.ru">
+                            Р‘РѕС‚ РђРіРµРЅСЃС‚РІР° Lapkinlab.ru
                         </a>
                     </div>
                     <div class="info_block telegram">
                         <a href="https://tele.click/joinchat/CaTbaELDzLgjfIDfDjAs-g" target="_blank">
-                            <img src="/image/icon-blog.png" class="telegram-icon" alt="Приватный чат предпринимателей">
-                            Приватный чат предпринимателей
+                            <img src="/local/templates/LapkinLab_krd/images/icon-blog.png" class="telegram-icon" alt="РџСЂРёРІР°С‚РЅС‹Р№ С‡Р°С‚ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»РµР№">
+                            РџСЂРёРІР°С‚РЅС‹Р№ С‡Р°С‚ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»РµР№
                         </a>
                     </div>
                     <div class="info_block telegram">
                         <a href="http://t-do.ru/SEO_lapkinlab/" target="_blank">
-                            <img src="/image/icon-blog.png" class="telegram-icon" alt="Lapkinlab - БЛОГ">
-                            Lapkinlab - БЛОГ
+                            <img src="/local/templates/LapkinLab_krd/images/icon-blog.png" class="telegram-icon" alt="Lapkinlab - Р‘Р›РћР“">
+                            Lapkinlab - Р‘Р›РћР“
                         </a>
                     </div>
                     <div class="info_block telegram filial">
                         <a href="https://lapkinlab.ru/?utm_source=site&amp;utm_medium=ssilka&amp;utm_campaign=msk.lapkinlab"
                            target="_blank">
-                            <img src="/image/icon-blog.png" class="telegram-icon" alt="Lapkinlab - Краснодарский филиал">
-                            Краснодарский филиал
+                            <img src="/local/templates/LapkinLab_krd/images/icon-blog.png" class="telegram-icon" alt="Lapkinlab - РљСЂР°СЃРЅРѕРґР°СЂСЃРєРёР№ С„РёР»РёР°Р»">
+                            РљСЂР°СЃРЅРѕРґР°СЂСЃРєРёР№ С„РёР»РёР°Р»
                         </a>
                     </div>
                 </div>
@@ -277,25 +277,25 @@ IncludeTemplateLangFile(__FILE__);
                 <div class="col-sm-12 col-md-6">
                     <div class="row">
                         <div class="col-sm-12 col-md-6 textlogo">
-                            <i><img src="/bitrix/templates/new_design/assests/pin.png"></i>
-                            <c id="blo11">Ваш город: Москва</c>
-                            <div class="newb cgjfjgkf1"><a href="/">Москва</a><br><a href="https://lapkinlab.ru/">Краснодар</a></div>
+                            <i><img src="/local/templates/new_design/assests/pin.png"></i>
+                            <c id="blo11">Р’Р°С€ РіРѕСЂРѕРґ: РњРѕСЃРєРІР°</c>
+                            <div class="newb cgjfjgkf1"><a href="/">РњРѕСЃРєРІР°</a><br><a href="https://lapkinlab.ru/">РљСЂР°СЃРЅРѕРґР°СЂ</a></div>
                         </div>
                         <div class="col-sm-12 col-md-6 textphone">
-                            <i><img src="/bitrix/templates/new_design/assests/call.png"></i> <a class="roistat-phone" href="tel:88003010019">8 (800) 301-00-19</a>
+                            <i><img src="/local/templates/new_design/assests/call.png"></i> <a class="roistat-phone" href="tel:88003010019">8 (800) 301-00-19</a>
                         </div>
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <div class="row">
                         <div class="col-sm-12 col-md-4 no_m no_p">
-                            <a href="#win1" onclick="ym(45994323, 'reachGoal', 'zvonok'); return true;" class="but but-one">Заказать звонок</a>
+                            <a href="#win1" onclick="ym(45994323, 'reachGoal', 'zvonok'); return true;" class="but but-one">Р—Р°РєР°Р·Р°С‚СЊ Р·РІРѕРЅРѕРє</a>
                         </div>
                         <div class="col-sm-12 col-md-4 no_m no_p">
-                            <a href="#win1" onclick="ym(45994323, 'reachGoal', 'audit'); return true;" class="but but-two">Заказать аудит</a>
+                            <a href="#win1" onclick="ym(45994323, 'reachGoal', 'audit'); return true;" class="but but-two">Р—Р°РєР°Р·Р°С‚СЊ Р°СѓРґРёС‚</a>
                         </div>
                         <div class="col-sm-12 col-md-4 no_m no_p">
-                            <a href="<?= $brief; ?>" class="but but-three" target="_blank">Заполнить бриф</a>
+                            <a href="<?= $brief; ?>" class="but but-three" target="_blank">Р—Р°РїРѕР»РЅРёС‚СЊ Р±СЂРёС„</a>
                         </div>
                     </div>
                 </div>
@@ -308,8 +308,8 @@ IncludeTemplateLangFile(__FILE__);
     <div class="container">
         <div class="row">
             <div class="col-md-3 logo">
-                <a href="/"><img src="/bitrix/templates/new_design/assests/logo-new2.png"></a>
-                <span>Профессиональное поисковое продвижение, создание сайтов и реклама</span>
+                <a href="/"><img src="/local/templates/new_design/assests/logo-new2.png"></a>
+                <span>РџСЂРѕС„РµСЃСЃРёРѕРЅР°Р»СЊРЅРѕРµ РїРѕРёСЃРєРѕРІРѕРµ РїСЂРѕРґРІРёР¶РµРЅРёРµ, СЃРѕР·РґР°РЅРёРµ СЃР°Р№С‚РѕРІ Рё СЂРµРєР»Р°РјР°</span>
             </div>
             <div class="col-md-9">
                 <div class="menuToggle">&#9776;</div>

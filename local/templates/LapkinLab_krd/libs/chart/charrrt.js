@@ -1,10 +1,10 @@
-﻿jQuery(document).ready(function(){
+п»їjQuery(document).ready(function(){
 	var seq = 0,
 	  delays = 30,
 	  durations = 800;
 	var chart = new Chartist.Line('.ct-chart', {
-		  labels: [ null, "Декабрь", "Январь", "Февраль", "Март", "Апрель",
-		  "Май", "Июнь", "Июль", "Август", null],
+		  labels: [ null, "Р”РµРєР°Р±СЂСЊ", "РЇРЅРІР°СЂСЊ", "Р¤РµРІСЂР°Р»СЊ", "РњР°СЂС‚", "РђРїСЂРµР»СЊ",
+		  "РњР°Р№", "Р�СЋРЅСЊ", "Р�СЋР»СЊ", "РђРІРіСѓСЃС‚", null],
 		  series: [
 
 		  {

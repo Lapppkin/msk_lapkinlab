@@ -20,9 +20,9 @@ $APPLICATION->SetTitle("amoCRM");
         }
     </style>
 
-    <link rel="stylesheet" href="/bitrix/templates/new_design/css/styles.css">
-    <link rel="stylesheet" href="/bitrix/templates/new_design/css/fontello.css">
-    <link rel="stylesheet" href="/bitrix/templates/new_design/fonts/fonts.css">
+    <link rel="stylesheet" href="/local/templates/new_design/css/styles.css">
+    <link rel="stylesheet" href="/local/templates/new_design/css/fontello.css">
+    <link rel="stylesheet" href="/local/templates/new_design/fonts/fonts.css">
     <!-- Bootstrap CSS -->
     <link rel="stylesheet"
           href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"

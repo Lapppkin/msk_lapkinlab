@@ -1,4 +1,4 @@
-<a class="tm_pb_more_button tm_btn_1 tm_pb_button" id="aside1" style="padding: 10px 30px; color: #fff; border-radius: 5px; background-color: green;" href="#cccallk">Уникальный SEO Калькулятор</a>
+<a class="tm_pb_more_button tm_btn_1 tm_pb_button" id="aside1" style="padding: 10px 30px; color: #fff; border-radius: 5px; background-color: green;" href="#cccallk">РЈРЅРёРєР°Р»СЊРЅС‹Р№ SEO РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ</a>
 <? if($APPLICATION->GetCurPage(false) != '/' and
       $APPLICATION->GetCurPage(false) != '/kalkulyator-stoimosti-sajtov/' and
       $APPLICATION->GetCurPage(false) != '/calc/' and
@@ -21,39 +21,39 @@
             <div class="container_v2">
                 <div class="footer_top_wrapper">
                     <aside class="widget widget_logo">
-                        <a href="/"> <img alt="LapkinLAb" src="/image/logo-new-350x158.png"> </a>
+                        <a href="/"> <img alt="LapkinLAb" src="/local/templates/LapkinLab_krd/images/logo-new-350x158.png"> </a>
                         <p>
-                            Профессиональное поисковое продвижение и реклама
+                            РџСЂРѕС„РµСЃСЃРёРѕРЅР°Р»СЊРЅРѕРµ РїРѕРёСЃРєРѕРІРѕРµ РїСЂРѕРґРІРёР¶РµРЅРёРµ Рё СЂРµРєР»Р°РјР°
                         </p>
                     </aside>
                     <aside class="widget widget_nav_menu">
                         <ul id="menu-footer-menu-custom" class="menu">
                             <li><a href="/seo">SEO</a></li>
                             <li><a href="/smm">SMM</a></li>
-                            <li><a href="/kontekstnaya-reklama">Контекстная реклама</a></li>
-                            <li><a href="/kalkulyator-stoimosti-sajtov">Разработка сайтов</a></li>
+                            <li><a href="/kontekstnaya-reklama">РљРѕРЅС‚РµРєСЃС‚РЅР°СЏ СЂРµРєР»Р°РјР°</a></li>
+                            <li><a href="/kalkulyator-stoimosti-sajtov">Р Р°Р·СЂР°Р±РѕС‚РєР° СЃР°Р№С‚РѕРІ</a></li>
                             <li><a href="/telegram">Telegram</a></li>
-                            <li><a href="/novosti">Блог</a></li>
-                            <li class="menu-item menu-item-type-post_type"><a href="/contacts">Контакты</a></li>
+                            <li><a href="/novosti">Р‘Р»РѕРі</a></li>
+                            <li class="menu-item menu-item-type-post_type"><a href="/contacts">РљРѕРЅС‚Р°РєС‚С‹</a></li>
                         </ul>
                     </aside>
                     <aside class="widget widget_text">
                         <p class="widget_title">
-                            Подписка на новости
+                            РџРѕРґРїРёСЃРєР° РЅР° РЅРѕРІРѕСЃС‚Рё
                         </p>
                         <form action="/mail_post.php" method="post" class="wpcf7-form">
                             <div style="display: none;">
                                 <input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
                             </div>
                             <div>
-                                <label for="footer_email">email</label> <input type="email" id="footer_email" name="your-email" placeholder="Ваш e-mail" required=""> <label for="submit_footer">Подписаться</label>
+                                <label for="footer_email">email</label> <input type="email" id="footer_email" name="your-email" placeholder="Р’Р°С€ e-mail" required=""> <label for="submit_footer">РџРѕРґРїРёСЃР°С‚СЊСЃСЏ</label>
                                 <p style="display:none;">
                                     <input type="text" name="name" value="">
                                 </p>
-                                <input type="submit" id="submit_footer" value="Подписаться" style="-webkit-appearance: none;">
+                                <input type="submit" id="submit_footer" value="РџРѕРґРїРёСЃР°С‚СЊСЃСЏ" style="-webkit-appearance: none;">
                             </div>
                             <div class="check">
-                                <input type="checkbox" name="acceptance-check" value="1" required=""> <label>Я принимаю <a href="/privacy-policy" target="_blank">условия передачи информации</a></label>
+                                <input type="checkbox" name="acceptance-check" value="1" required=""> <label>РЇ РїСЂРёРЅРёРјР°СЋ <a href="/privacy-policy" target="_blank">СѓСЃР»РѕРІРёСЏ РїРµСЂРµРґР°С‡Рё РёРЅС„РѕСЂРјР°С†РёРё</a></label>
                             </div>
                         </form>
                     </aside>
@@ -65,13 +65,13 @@
                 <div class="site_info_wrapper">
                     <div class="footer_copyright">
                         <p>
-                            © 2015 - 2019 Все права защищены. LapkinLAb
+                            В© 2015 - 2019 Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹. LapkinLAb
                         </p>
-                        <a href="/privacy-policy/">Политика в отношении обработки персональных данных</a>
+                        <a href="/privacy-policy/">РџРѕР»РёС‚РёРєР° РІ РѕС‚РЅРѕС€РµРЅРёРё РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…</a>
                     </div>
                     <div>
-                        <!--               <a href="/image/Сертификат_Бизнес_Партнера_1с_битрикс.pdf" style="padding-right:10px;"> -->
-                        <img width="100px" src="/image/0021-039-.png">
+                        <!--               <a href="/image/РЎРµСЂС‚РёС„РёРєР°С‚_Р‘РёР·РЅРµСЃ_РџР°СЂС‚РЅРµСЂР°_1СЃ_Р±РёС‚СЂРёРєСЃ.pdf" style="padding-right:10px;"> -->
+                        <img width="100px" src="/local/templates/LapkinLab_krd/images/0021-039-.png">
                         <!--               </a>-->
                         <div class="social_list_footer">
                             <ul>
@@ -108,26 +108,26 @@
                 <div class="col-md-6">
                     <div class="col-md-6">
                         <p class="ttt">
-                            Услуги
+                            РЈСЃР»СѓРіРё
                         </p>
                         <ul>
-                            <li><a href="/seo-page/">Seo продвижение</a></li>
-                            <li><a href="/kalkulyator-stoimosti-sajtov/">Создание сайтов</a></li>
-                            <li><a href="/kontekstnaya-reklama/">Контекстная реклама</a></li>
-                            <li><a href="/smm/">SMM продвижение</a></li>
-                            <li><a href="/chat-bot/">Чат боты</a></li>
+                            <li><a href="/seo-page/">Seo РїСЂРѕРґРІРёР¶РµРЅРёРµ</a></li>
+                            <li><a href="/kalkulyator-stoimosti-sajtov/">РЎРѕР·РґР°РЅРёРµ СЃР°Р№С‚РѕРІ</a></li>
+                            <li><a href="/kontekstnaya-reklama/">РљРѕРЅС‚РµРєСЃС‚РЅР°СЏ СЂРµРєР»Р°РјР°</a></li>
+                            <li><a href="/smm/">SMM РїСЂРѕРґРІРёР¶РµРЅРёРµ</a></li>
+                            <li><a href="/chat-bot/">Р§Р°С‚ Р±РѕС‚С‹</a></li>
                         </ul>
                     </div>
                     <div class="col-md-6">
                         <p class="ttt">
-                            Компания
+                            РљРѕРјРїР°РЅРёСЏ
                         </p>
                         <ul>
-                            <li><a href="#">О нас</a></li>
-                            <li><a href="/novosti/">Статьи</a></li>
-                            <li><a href="/telegram/">Телеграм</a></li>
-                            <li><a href="/kalkulyator-stoimosti-sajtov/#portfolio">Портфолио</a></li>
-                            <li><a href="#">Отзывы</a></li>
+                            <li><a href="#">Рћ РЅР°СЃ</a></li>
+                            <li><a href="/novosti/">РЎС‚Р°С‚СЊРё</a></li>
+                            <li><a href="/telegram/">РўРµР»РµРіСЂР°Рј</a></li>
+                            <li><a href="/kalkulyator-stoimosti-sajtov/#portfolio">РџРѕСЂС‚С„РѕР»РёРѕ</a></li>
+                            <li><a href="#">РћС‚Р·С‹РІС‹</a></li>
                         </ul>
                     </div>
                 </div>
@@ -136,34 +136,34 @@
                         <p class="te">
                             <a class="roistat-phone" href="tel:88003010019">8 (800) 301-00-19</a>
                         </p>
-                        <a href="" class="jre">Заказать звонок</a>
+                        <a href="" class="jre">Р—Р°РєР°Р·Р°С‚СЊ Р·РІРѕРЅРѕРє</a>
                     </div>
                     <div class="col-md-6">
                         <p class="te">
                             <a href="mailto:mail@lapkinlab.ru">mail@lapkinlab.ru</a>
                         </p>
-                        <a href="#win1" class="jre">Быстро отвечаем</a>
+                        <a href="#win1" class="jre">Р‘С‹СЃС‚СЂРѕ РѕС‚РІРµС‡Р°РµРј</a>
                     </div>
                     <div class="col-md-12">
                         <p class="ccss">
-                            Москва, Ленинская Слобода, д. 26
+                            РњРѕСЃРєРІР°, Р›РµРЅРёРЅСЃРєР°СЏ РЎР»РѕР±РѕРґР°, Рґ. 26
                         </p>
                         <p class="sscc">
-                            5 мин от метро "Автозаводская"
+                            5 РјРёРЅ РѕС‚ РјРµС‚СЂРѕ "РђРІС‚РѕР·Р°РІРѕРґСЃРєР°СЏ"
                         </p>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="footer_copyright">
                         <p>
-                            © 2015 - 2019 Все права защищены. LapkinLAb
+                            В© 2015 - 2019 Р’СЃРµ РїСЂР°РІР° Р·Р°С‰РёС‰РµРЅС‹. LapkinLAb
                         </p>
-                        <a href="/privacy-policy/">Политика в отношении обработки персональных данных</a>
+                        <a href="/privacy-policy/">РџРѕР»РёС‚РёРєР° РІ РѕС‚РЅРѕС€РµРЅРёРё РѕР±СЂР°Р±РѕС‚РєРё РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…</a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <a href="/amoCRM.jpeg" style="padding-right:10px; padding-top:20px; float: right;" class="fancybox"> <img width="80px" src="/amoCRM_small.jpeg"> </a>
-                    <a href="/image/Сертификат_Бизнес_Партнера_1с_битрикс.pdf" style="padding-right:10px; padding-top:20px; float: right;"> <img width="100px" src="/image/0021-039-.png"> </a>
+                    <a href="/documents/РЎРµСЂС‚РёС„РёРєР°С‚_Р‘РёР·РЅРµСЃ_РџР°СЂС‚РЅРµСЂР°_1СЃ_Р±РёС‚СЂРёРєСЃ.pdf" style="padding-right:10px; padding-top:20px; float: right;"> <img width="100px" src="/local/templates/LapkinLab_krd/images/0021-039-.png"> </a>
                 </div>
             </div>
         </div>
@@ -182,22 +182,22 @@
                     <input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
                 </div>
                 <p style="font-size: 24px;">
-                    Оставить заявку
+                    РћСЃС‚Р°РІРёС‚СЊ Р·Р°СЏРІРєСѓ
                 </p>
                 <p>
-                    <label> Ваше имя (обязательно)<br>
+                    <label> Р’Р°С€Рµ РёРјСЏ (РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ)<br>
                         <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" id="fff" required=""></span> </label>
                 </p>
                 <p>
-                    <label> Телефон (обязательно)<br>
+                    <label> РўРµР»РµС„РѕРЅ (РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ)<br>
                         <span class="wpcf7-form-control-wrap your-phone"><input type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> </label>
                 </p>
                 <p>
-                    <label> Ваш e-mail (обязательно)<br>
+                    <label> Р’Р°С€ e-mail (РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ)<br>
                         <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" required=""></span> </label>
                 </p>
                 <p>
-                    <label> Ваш сайт (обязательно)<br>
+                    <label> Р’Р°С€ СЃР°Р№С‚ (РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ)<br>
                     </label>
                 </p>
                 <p style="display:none;">
@@ -207,46 +207,46 @@
                 <p>
                 </p>
                 <p>
-                    <span class="wpcf7-form-control-wrap acceptance-check"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label>Я принимаю <a href="/privacy-policy/" target="_blank">условия передачи информации</a></label>
+                    <span class="wpcf7-form-control-wrap acceptance-check"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label>РЇ РїСЂРёРЅРёРјР°СЋ <a href="/privacy-policy/" target="_blank">СѓСЃР»РѕРІРёСЏ РїРµСЂРµРґР°С‡Рё РёРЅС„РѕСЂРјР°С†РёРё</a></label>
                 </p>
                 <p>
-                    <input type="submit" id="form_btn" value="Заказать" class="widget_text wpcf7-form-control wpcf7-submit">
+                    <input type="submit" id="form_btn" value="Р—Р°РєР°Р·Р°С‚СЊ" class="widget_text wpcf7-form-control wpcf7-submit">
                 </p>
                 <div class="wpcf7-response-output wpcf7-display-none">
                 </div>
             </form>
         </div>
     </div>
-    <a class="close" title="Закрыть" href="#close"> &#215;</a>
+    <a class="close" title="Р—Р°РєСЂС‹С‚СЊ" href="#close"> &#215;</a>
 </div>
 <a href="#x" class="overlay" id="spasibo"></a>
 <div class="popup">
     <p style="font-size: 24px;">
-        Спасибо за Вашу заявку!
+        РЎРїР°СЃРёР±Рѕ Р·Р° Р’Р°С€Сѓ Р·Р°СЏРІРєСѓ!
     </p>
     <p>
-        Наши менеджера ее обработаю и сразу свяжутся с Вами.
+        РќР°С€Рё РјРµРЅРµРґР¶РµСЂР° РµРµ РѕР±СЂР°Р±РѕС‚Р°СЋ Рё СЃСЂР°Р·Сѓ СЃРІСЏР¶СѓС‚СЃСЏ СЃ Р’Р°РјРё.
     </p>
-    <a class="close" title="Закрыть" href="#close"> &#215;</a>
+    <a class="close" title="Р—Р°РєСЂС‹С‚СЊ" href="#close"> &#215;</a>
 </div>
 <a href="#x" class="overlay" id="error"></a>
 <div class="popup">
     <p style="font-size: 24px;">
-        Что-то пошло не так! :(
+        Р§С‚Рѕ-С‚Рѕ РїРѕС€Р»Рѕ РЅРµ С‚Р°Рє! :(
     </p>
     <p>
-        Заполните форму еще раз.
+        Р—Р°РїРѕР»РЅРёС‚Рµ С„РѕСЂРјСѓ РµС‰Рµ СЂР°Р·.
     </p>
-    <a class="close" title="Закрыть" href="#close"> &#215;</a>
+    <a class="close" title="Р—Р°РєСЂС‹С‚СЊ" href="#close"> &#215;</a>
 </div>
 <div class="modal">
     <div class="modal__box">
         <button class="modal_close" style="padding: 0px 10px 0px 0px;float: right;">x</button>
         <p style="font-style: normal;font-weight: 300;font-size: 30px !important;line-height: 1.25;font-family: 'Didact Gothic', sans-serif;letter-spacing: 0px;text-align: inherit;color: #3a3a50;">
-            Нельзя так просто уйти с сайта!
+            РќРµР»СЊР·СЏ С‚Р°Рє РїСЂРѕСЃС‚Рѕ СѓР№С‚Рё СЃ СЃР°Р№С‚Р°!
         </p>
         <p style="font-size: 25px;">
-            Ваши потенциальные покупатели уже рядом.
+            Р’Р°С€Рё РїРѕС‚РµРЅС†РёР°Р»СЊРЅС‹Рµ РїРѕРєСѓРїР°С‚РµР»Рё СѓР¶Рµ СЂСЏРґРѕРј.
         </p>
         <div role="form" class="wpcf7" id="wpcf7-f6504-o33" lang="ru-RU" dir="ltr">
             <div class="screen-reader-response">
@@ -256,15 +256,15 @@
                     <input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
                 </div>
                 <p>
-                    <label> Ваше имя<br>
+                    <label> Р’Р°С€Рµ РёРјСЏ<br>
                         <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text" required=""></span> </label>
                 </p>
                 <p>
-                    <label> Телефон<br>
+                    <label> РўРµР»РµС„РѕРЅ<br>
                         <span class="wpcf7-form-control-wrap your-phone"><input type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> </label><br>
                 </p>
                 <p>
-                    <span class="wpcf7-form-control-wrap acceptance-check" style="float: left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label style="float: left;font-size: 16px;color: #fff; padding: 0px;width: unset !important;clear: unset;">Я принимаю <a href="/privacy-policy/" target="_blank" style="background: #fff;">условия передачи информации</a></label>
+                    <span class="wpcf7-form-control-wrap acceptance-check" style="float: left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label style="float: left;font-size: 16px;color: #fff; padding: 0px;width: unset !important;clear: unset;">РЇ РїСЂРёРЅРёРјР°СЋ <a href="/privacy-policy/" target="_blank" style="background: #fff;">СѓСЃР»РѕРІРёСЏ РїРµСЂРµРґР°С‡Рё РёРЅС„РѕСЂРјР°С†РёРё</a></label>
                 </p>
                 <br>
                 &nbsp;<br>
@@ -273,7 +273,7 @@
                     <input type="text" name="name" value="">
                 </p>
                 <div style="text-align:center;">
-                    <input type="submit" value="Хочу Аудит" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span>
+                    <input type="submit" value="РҐРѕС‡Сѓ РђСѓРґРёС‚" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span>
                 </div>
                 <div class="wpcf7-response-output wpcf7-display-none">
                 </div>
@@ -286,11 +286,11 @@
     <div class="modal__box2">
         <button class="modal_close2" style="padding: 0px 10px 0px 0px;float: right;">x</button>
         <p style="font-style: normal;font-weight: 300;font-size: 30px !important;line-height: 1.25;font-family: 'Didact Gothic', sans-serif;letter-spacing: 0px;text-align: inherit;color: #3a3a50;">
-            Узнайте слабые стороны и точки взрывного роста трафика для Вашего сайта!
+            РЈР·РЅР°Р№С‚Рµ СЃР»Р°Р±С‹Рµ СЃС‚РѕСЂРѕРЅС‹ Рё С‚РѕС‡РєРё РІР·СЂС‹РІРЅРѕРіРѕ СЂРѕСЃС‚Р° С‚СЂР°С„РёРєР° РґР»СЏ Р’Р°С€РµРіРѕ СЃР°Р№С‚Р°!
         </p>
         <p style="font-size: 21px;">
-            Получите экспресс аудит вашего сайта<br>
-            стоимостью 5 000 рублей в ПОДАРОК
+            РџРѕР»СѓС‡РёС‚Рµ СЌРєСЃРїСЂРµСЃСЃ Р°СѓРґРёС‚ РІР°С€РµРіРѕ СЃР°Р№С‚Р°<br>
+            СЃС‚РѕРёРјРѕСЃС‚СЊСЋ 5 000 СЂСѓР±Р»РµР№ РІ РџРћР”РђР РћРљ
         </p>
         <div role="form" class="wpcf7" id="wpcf7-f6504-o33" lang="ru-RU" dir="ltr">
             <div class="screen-reader-response">
@@ -300,15 +300,15 @@
                     <input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
                 </div>
                 <p>
-                    <label> Ваше имя<br>
+                    <label> Р’Р°С€Рµ РёРјСЏ<br>
                         <span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text" required=""></span> </label>
                 </p>
                 <p>
-                    <label> Телефон<br>
+                    <label> РўРµР»РµС„РѕРЅ<br>
                         <span class="wpcf7-form-control-wrap your-phone"><input type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> </label><br>
                 </p>
                 <p>
-                    <span class="wpcf7-form-control-wrap acceptance-check" style="float: left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label style="float: left;font-size: 16px;color: #fff; padding: 0px;width: unset !important;clear: unset;">Я принимаю <a href="/privacy-policy/" target="_blank" style="background: #fff;">условия передачи информации</a></label>
+                    <span class="wpcf7-form-control-wrap acceptance-check" style="float: left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label style="float: left;font-size: 16px;color: #fff; padding: 0px;width: unset !important;clear: unset;">РЇ РїСЂРёРЅРёРјР°СЋ <a href="/privacy-policy/" target="_blank" style="background: #fff;">СѓСЃР»РѕРІРёСЏ РїРµСЂРµРґР°С‡Рё РёРЅС„РѕСЂРјР°С†РёРё</a></label>
                 </p>
                 <br>
                 &nbsp;<br>
@@ -317,7 +317,7 @@
                     <input type="text" name="name" value="">
                 </p>
                 <div style="text-align:center;">
-                    <input type="submit" value="Хочу Аудит" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span>
+                    <input type="submit" value="РҐРѕС‡Сѓ РђСѓРґРёС‚" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"></span>
                 </div>
                 <div class="wpcf7-response-output wpcf7-display-none">
                 </div>
@@ -343,7 +343,7 @@
     <a style="bottom: 110px; right: 10px; position: fixed; z-index: 150; transition-duration: .2s;" class="rocket1" href="#">
         <img src="/upload/medialibrary/685/Rocket2.png" style="width: 70px;">
     </a>
-    <script async src="/bitrix/templates/new_design/modul/ionRangeSlider/js/ion.rangeSlider.js"></script>
+    <script async src="/local/templates/new_design/modul/ionRangeSlider/js/ion.rangeSlider.js"></script>
     <script async src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script async src="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <? } ?>
@@ -351,11 +351,11 @@
 <? if($APPLICATION->GetCurPage(false) === '/' or
       $APPLICATION->GetCurPage(false) === '/calc/' or
       $APPLICATION->GetCurPage(false) === '/seo/'){ ?>
-    <script async src="/bitrix/templates/new_design/modul/ionRangeSlider/js/js.js"></scriptasync>
+    <script async src="/local/templates/new_design/modul/ionRangeSlider/js/js.js"></scriptasync>
 <? } ?>
 
 <? if($APPLICATION->GetCurPage(false) === '/kalkulyator-stoimosti-sajtov/'){ ?>
-    <script async src="/bitrix/templates/new_design/modul/ionRangeSlider/js/js_dev.js"></script>
+    <script async src="/local/templates/new_design/modul/ionRangeSlider/js/js_dev.js"></script>
 <? } ?>
 
 <? if($APPLICATION->GetCurPage(false) != '/' and
@@ -480,17 +480,17 @@
       $APPLICATION->GetCurPage(false) === '/amocrm/o-produkte/' or
       $APPLICATION->GetCurPage(false) === '/chat-bot/' or
       $APPLICATION->GetCurPage(false) === '/seo-page/'){ ?>
-    <script async src='/bitrix/templates/new_design/js/scri.js'></script>
+    <script async src='/local/templates/new_design/js/scri.js'></script>
 <? } ?>
 
 <div style="display:none;">
     <div itemscope="" itemtype="http://schema.org/Organization">
         <span itemprop="name">LapkinLAb</span>
-        Контакты:
+        РљРѕРЅС‚Р°РєС‚С‹:
         <div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
-            Адрес: <span itemprop="streetAddress">Ленинская Слобода, д. 26</span> <span itemprop="postalCode"> 115280</span> <span itemprop="addressLocality">Москва</span>,
+            РђРґСЂРµСЃ: <span itemprop="streetAddress">Р›РµРЅРёРЅСЃРєР°СЏ РЎР»РѕР±РѕРґР°, Рґ. 26</span> <span itemprop="postalCode"> 115280</span> <span itemprop="addressLocality">РњРѕСЃРєРІР°</span>,
         </div>
-        Телефон:<span itemprop="telephone">8 (800) 301-00-19</span>, Электронная почта: <span itemprop="email">mail@lapkinlab.ru</span>
+        РўРµР»РµС„РѕРЅ:<span itemprop="telephone">8 (800) 301-00-19</span>, Р­Р»РµРєС‚СЂРѕРЅРЅР°СЏ РїРѕС‡С‚Р°: <span itemprop="email">mail@lapkinlab.ru</span>
     </div>
 </div>
 

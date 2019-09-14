@@ -5,7 +5,7 @@ $APPLICATION->SetPageProperty("description", "Рассчитать стоимо�
 $APPLICATION->SetTitle("Создание корпоративного сайта: стоимость разработки корпоративного сайта компании");
 ?>
 
- <META HTTP-EQUIV="REFRESH" CONTENT="1; URL=https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-korporativnogo-sajta">
+ <META HTTP-EQUIV="REFRESH" CONTENT="1; URL=https://msk.lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-korporativnogo-sajta">
 
     <main>
         <div class="breadcrumbs">

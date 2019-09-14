@@ -26,7 +26,7 @@ CUtil::InitJSCore();
         <ul class="menu">
 		<?foreach($arResult["MENU_STRUCTURE"] as $itemID => $arColumns):?>     <!-- first level-->
 			<?$existPictureDescColomn = ($arResult["ALL_ITEMS"][$itemID]["PARAMS"]["picture_src"] || $arResult["ALL_ITEMS"][$itemID]["PARAMS"]["description"]) ? true : false;?>
-<?/* Если мы находимся на главной */?>
+<?/* Р•СЃР»Рё РјС‹ РЅР°С…РѕРґРёРјСЃСЏ РЅР° РіР»Р°РІРЅРѕР№ */?>
 <? if($APPLICATION->GetCurPage(false) === '/'){ ?>
 			<li
 				class="menu-item <?=$arResult["ALL_ITEMS"][$itemID]["PARAMS"]["active"]?> <?if($arResult["ALL_ITEMS"][$itemID]["SELECTED"]):?>current-menu-item<?endif?>" 
