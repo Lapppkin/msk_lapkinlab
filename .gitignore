@@ -1,7 +1,6 @@
 /bitrix
 /upload
 /image
-/wp-content
 /vendor
 /node_modules
 /.idea
