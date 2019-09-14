@@ -1,35 +1,35 @@
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-   $APPLICATION->SetPageProperty("keywords", "раскрутка сайта, цена раскрутки сайта");
-   $APPLICATION->SetPageProperty("title", "Раскрутка сайта в Москве - заказать продвижение сайта, цены и тарифы");
-   $APPLICATION->SetPageProperty("description", "Комплексная раскрутка &#127942; сайтов в поисковых системах в Москве. SEO компания по поисковому продвижению LabkinLab");
-   $APPLICATION->SetTitle("Заказать услуги продвижения сайта: комплексное SEO и маркетинг");
+   $APPLICATION->SetPageProperty("keywords", "СЂР°СЃРєСЂСѓС‚РєР° СЃР°Р№С‚Р°, С†РµРЅР° СЂР°СЃРєСЂСѓС‚РєРё СЃР°Р№С‚Р°");
+   $APPLICATION->SetPageProperty("title", "Р Р°СЃРєСЂСѓС‚РєР° СЃР°Р№С‚Р° РІ РњРѕСЃРєРІРµ - Р·Р°РєР°Р·Р°С‚СЊ РїСЂРѕРґРІРёР¶РµРЅРёРµ СЃР°Р№С‚Р°, С†РµРЅС‹ Рё С‚Р°СЂРёС„С‹");
+   $APPLICATION->SetPageProperty("description", "РљРѕРјРїР»РµРєСЃРЅР°СЏ СЂР°СЃРєСЂСѓС‚РєР° &#127942; СЃР°Р№С‚РѕРІ РІ РїРѕРёСЃРєРѕРІС‹С… СЃРёСЃС‚РµРјР°С… РІ РњРѕСЃРєРІРµ. SEO РєРѕРјРїР°РЅРёСЏ РїРѕ РїРѕРёСЃРєРѕРІРѕРјСѓ РїСЂРѕРґРІРёР¶РµРЅРёСЋ LabkinLab");
+   $APPLICATION->SetTitle("Р—Р°РєР°Р·Р°С‚СЊ СѓСЃР»СѓРіРё РїСЂРѕРґРІРёР¶РµРЅРёСЏ СЃР°Р№С‚Р°: РєРѕРјРїР»РµРєСЃРЅРѕРµ SEO Рё РјР°СЂРєРµС‚РёРЅРі");
    ?>
 <section class="banner active_ban" id="ban1">
    <div class="container">
       <div class="row">
          <div class="col-md-8 left_banner">
             <div class="text">
-               Раскрутка сайтов в Москве
+               Р Р°СЃРєСЂСѓС‚РєР° СЃР°Р№С‚РѕРІ РІ РњРѕСЃРєРІРµ
             </div>
             <ul class="main_ul">
-               <li>Рост поискового трафика в 2,5 раза</li>
-               <li>Увеличение переходов потенциальных клиентов</li>
-               <li>Повышение доверия со стороны поисковых систем</li>
-               <li>Работа по договору</li>
-               <li>Техническая поддержка 10 часов</li>
+               <li>Р РѕСЃС‚ РїРѕРёСЃРєРѕРІРѕРіРѕ С‚СЂР°С„РёРєР° РІ 2,5 СЂР°Р·Р°</li>
+               <li>РЈРІРµР»РёС‡РµРЅРёРµ РїРµСЂРµС…РѕРґРѕРІ РїРѕС‚РµРЅС†РёР°Р»СЊРЅС‹С… РєР»РёРµРЅС‚РѕРІ</li>
+               <li>РџРѕРІС‹С€РµРЅРёРµ РґРѕРІРµСЂРёСЏ СЃРѕ СЃС‚РѕСЂРѕРЅС‹ РїРѕРёСЃРєРѕРІС‹С… СЃРёСЃС‚РµРј</li>
+               <li>Р Р°Р±РѕС‚Р° РїРѕ РґРѕРіРѕРІРѕСЂСѓ</li>
+               <li>РўРµС…РЅРёС‡РµСЃРєР°СЏ РїРѕРґРґРµСЂР¶РєР° 10 С‡Р°СЃРѕРІ</li>
             </ul>
          </div>
          <div class="col-md-4">
             <form class="form_banner" action="/mail_post.php" method="post">
                <div class="form_titile">
-                  Узнать стоимость<br> продвижения моего сайта
+                  РЈР·РЅР°С‚СЊ СЃС‚РѕРёРјРѕСЃС‚СЊ<br> РїСЂРѕРґРІРёР¶РµРЅРёСЏ РјРѕРµРіРѕ СЃР°Р№С‚Р°
                </div>
-               <input type="text" name="your-name" placeholder="Ваше имя" value="" required="">
-               <input type="text" name="your-phone" placeholder="Телефон" value="" required="">
-               <input type="text" name="your-email" placeholder="Почта" value="" required="">
+               <input type="text" name="your-name" placeholder="Р’Р°С€Рµ РёРјСЏ" value="" required="">
+               <input type="text" name="your-phone" placeholder="РўРµР»РµС„РѕРЅ" value="" required="">
+               <input type="text" name="your-email" placeholder="РџРѕС‡С‚Р°" value="" required="">
                <p style="display:none;"><input type="text" name="name" value=""></p>
-               <button type="submit" name="button" value="Получить расчет">Получить расчет</button>
-               Нажимая на кнопку Получить расчет, я даю согласие на обработку персональных данных
+               <button type="submit" name="button" value="РџРѕР»СѓС‡РёС‚СЊ СЂР°СЃС‡РµС‚">РџРѕР»СѓС‡РёС‚СЊ СЂР°СЃС‡РµС‚</button>
+               РќР°Р¶РёРјР°СЏ РЅР° РєРЅРѕРїРєСѓ РџРѕР»СѓС‡РёС‚СЊ СЂР°СЃС‡РµС‚, СЏ РґР°СЋ СЃРѕРіР»Р°СЃРёРµ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…
             </form>
          </div>
       </div>
@@ -39,11 +39,11 @@
    <div class="container">
       <div class="row">
          <div class="col-md-12">
-            <h1 class="title">Комплексное продвижение сайтов</h1>
+            <h1 class="title">РљРѕРјРїР»РµРєСЃРЅРѕРµ РїСЂРѕРґРІРёР¶РµРЅРёРµ СЃР°Р№С‚РѕРІ</h1>
          </div>
          <div class="col-sm-12 col-md-6">
-            <p>Предлагаем заказать раскрутку сайта по доступной цене в Москве. Мы выполняем комплекс мероприятий для привлечения целевой аудитории из поисковых систем Яндекс и Google.</p>
-            <p>Обратитесь к нам, и мы сделаем ваш проект успешным! Мы внимательно изучим сайт, оценим конкурентность и приступим к СЕО-оптимизации. Заказав услуги раскрутки сайта у нас, вы в первые 2-3 месяца заметите рост видимости вашего ресурса.</p>
+            <p>РџСЂРµРґР»Р°РіР°РµРј Р·Р°РєР°Р·Р°С‚СЊ СЂР°СЃРєСЂСѓС‚РєСѓ СЃР°Р№С‚Р° РїРѕ РґРѕСЃС‚СѓРїРЅРѕР№ С†РµРЅРµ РІ РњРѕСЃРєРІРµ. РњС‹ РІС‹РїРѕР»РЅСЏРµРј РєРѕРјРїР»РµРєСЃ РјРµСЂРѕРїСЂРёСЏС‚РёР№ РґР»СЏ РїСЂРёРІР»РµС‡РµРЅРёСЏ С†РµР»РµРІРѕР№ Р°СѓРґРёС‚РѕСЂРёРё РёР· РїРѕРёСЃРєРѕРІС‹С… СЃРёСЃС‚РµРј РЇРЅРґРµРєСЃ Рё Google.</p>
+            <p>РћР±СЂР°С‚РёС‚РµСЃСЊ Рє РЅР°Рј, Рё РјС‹ СЃРґРµР»Р°РµРј РІР°С€ РїСЂРѕРµРєС‚ СѓСЃРїРµС€РЅС‹Рј! РњС‹ РІРЅРёРјР°С‚РµР»СЊРЅРѕ РёР·СѓС‡РёРј СЃР°Р№С‚, РѕС†РµРЅРёРј РєРѕРЅРєСѓСЂРµРЅС‚РЅРѕСЃС‚СЊ Рё РїСЂРёСЃС‚СѓРїРёРј Рє РЎР•Рћ-РѕРїС‚РёРјРёР·Р°С†РёРё. Р—Р°РєР°Р·Р°РІ СѓСЃР»СѓРіРё СЂР°СЃРєСЂСѓС‚РєРё СЃР°Р№С‚Р° Сѓ РЅР°СЃ, РІС‹ РІ РїРµСЂРІС‹Рµ 2-3 РјРµСЃСЏС†Р° Р·Р°РјРµС‚РёС‚Рµ СЂРѕСЃС‚ РІРёРґРёРјРѕСЃС‚Рё РІР°С€РµРіРѕ СЂРµСЃСѓСЂСЃР°.</p>
          </div>
          <div class="col-sm-12 col-md-6">
             <img src="../../assests/visi.png">
@@ -55,27 +55,27 @@
    <div class="container">
       <div class="row">
          <div class="col-md-12">
-            <h2 class="title">Что включает SEO продвижение</h2>
+            <h2 class="title">Р§С‚Рѕ РІРєР»СЋС‡Р°РµС‚ SEO РїСЂРѕРґРІРёР¶РµРЅРёРµ</h2>
          </div>
          <div class="col-md-12">
             <div class="row">
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/audit.png">
-                  <p class="tit"> Комплексный аудит</p>
-                  <p class="bottit">Мы проверяем ресурс по всем направлениям, оцениваем рыночную ситуацию и конкурентность ниши, смотрим слабые и сильные стороны сайта. Специалисты оценивают удобство сайта для пользователей, выявляют причины низких позиций в выдаче, находят технические недоработки.</p>
+                  <p class="tit"> РљРѕРјРїР»РµРєСЃРЅС‹Р№ Р°СѓРґРёС‚</p>
+                  <p class="bottit">РњС‹ РїСЂРѕРІРµСЂСЏРµРј СЂРµСЃСѓСЂСЃ РїРѕ РІСЃРµРј РЅР°РїСЂР°РІР»РµРЅРёСЏРј, РѕС†РµРЅРёРІР°РµРј СЂС‹РЅРѕС‡РЅСѓСЋ СЃРёС‚СѓР°С†РёСЋ Рё РєРѕРЅРєСѓСЂРµРЅС‚РЅРѕСЃС‚СЊ РЅРёС€Рё, СЃРјРѕС‚СЂРёРј СЃР»Р°Р±С‹Рµ Рё СЃРёР»СЊРЅС‹Рµ СЃС‚РѕСЂРѕРЅС‹ СЃР°Р№С‚Р°. РЎРїРµС†РёР°Р»РёСЃС‚С‹ РѕС†РµРЅРёРІР°СЋС‚ СѓРґРѕР±СЃС‚РІРѕ СЃР°Р№С‚Р° РґР»СЏ РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№, РІС‹СЏРІР»СЏСЋС‚ РїСЂРёС‡РёРЅС‹ РЅРёР·РєРёС… РїРѕР·РёС†РёР№ РІ РІС‹РґР°С‡Рµ, РЅР°С…РѕРґСЏС‚ С‚РµС…РЅРёС‡РµСЃРєРёРµ РЅРµРґРѕСЂР°Р±РѕС‚РєРё.</p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/active_search.png">
-                  <p class="tit"> Поисковое продвижение</p>
-                  <p class="bottit"> Занимаясь оптимизацией сайтов, мы понимаем, как сделать сайт прибыльным. Качественное продвижение работает на долгосрочную перспективу, помогает постоянно увеличивать конверсионные и улучшая поведенческие показатели сайта.
+                  <p class="tit"> РџРѕРёСЃРєРѕРІРѕРµ РїСЂРѕРґРІРёР¶РµРЅРёРµ</p>
+                  <p class="bottit"> Р—Р°РЅРёРјР°СЏСЃСЊ РѕРїС‚РёРјРёР·Р°С†РёРµР№ СЃР°Р№С‚РѕРІ, РјС‹ РїРѕРЅРёРјР°РµРј, РєР°Рє СЃРґРµР»Р°С‚СЊ СЃР°Р№С‚ РїСЂРёР±С‹Р»СЊРЅС‹Рј. РљР°С‡РµСЃС‚РІРµРЅРЅРѕРµ РїСЂРѕРґРІРёР¶РµРЅРёРµ СЂР°Р±РѕС‚Р°РµС‚ РЅР° РґРѕР»РіРѕСЃСЂРѕС‡РЅСѓСЋ РїРµСЂСЃРїРµРєС‚РёРІСѓ, РїРѕРјРѕРіР°РµС‚ РїРѕСЃС‚РѕСЏРЅРЅРѕ СѓРІРµР»РёС‡РёРІР°С‚СЊ РєРѕРЅРІРµСЂСЃРёРѕРЅРЅС‹Рµ Рё СѓР»СѓС‡С€Р°СЏ РїРѕРІРµРґРµРЅС‡РµСЃРєРёРµ РїРѕРєР°Р·Р°С‚РµР»Рё СЃР°Р№С‚Р°.
                      <br>
-                     Независимо от стоимости раскрутки сайта в месяц, мы делаем все, чтобы сайт максимально соответствовал требованиям поисковых систем и привлекал как можно больше целевых клиентов.
+                     РќРµР·Р°РІРёСЃРёРјРѕ РѕС‚ СЃС‚РѕРёРјРѕСЃС‚Рё СЂР°СЃРєСЂСѓС‚РєРё СЃР°Р№С‚Р° РІ РјРµСЃСЏС†, РјС‹ РґРµР»Р°РµРј РІСЃРµ, С‡С‚РѕР±С‹ СЃР°Р№С‚ РјР°РєСЃРёРјР°Р»СЊРЅРѕ СЃРѕРѕС‚РІРµС‚СЃС‚РІРѕРІР°Р» С‚СЂРµР±РѕРІР°РЅРёСЏРј РїРѕРёСЃРєРѕРІС‹С… СЃРёСЃС‚РµРј Рё РїСЂРёРІР»РµРєР°Р» РєР°Рє РјРѕР¶РЅРѕ Р±РѕР»СЊС€Рµ С†РµР»РµРІС‹С… РєР»РёРµРЅС‚РѕРІ.
                   </p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/technical_support.png">
-                  <p class="tit"> Техническое сопровождение</p>
-                  <p class="bottit"> Для сохранения позиций сайта в поисковой выдаче необходимы мероприятия по поддержанию работоспособности ресурса. В комплекс работ входит анализ нагрузки, которую испытывает сайт, работы по обеспечению безопасности. Специалисты редактируют дизайн и структуру, выполняют внешнюю и внутреннюю оптимизацию.</p>
+                  <p class="tit"> РўРµС…РЅРёС‡РµСЃРєРѕРµ СЃРѕРїСЂРѕРІРѕР¶РґРµРЅРёРµ</p>
+                  <p class="bottit"> Р”Р»СЏ СЃРѕС…СЂР°РЅРµРЅРёСЏ РїРѕР·РёС†РёР№ СЃР°Р№С‚Р° РІ РїРѕРёСЃРєРѕРІРѕР№ РІС‹РґР°С‡Рµ РЅРµРѕР±С…РѕРґРёРјС‹ РјРµСЂРѕРїСЂРёСЏС‚РёСЏ РїРѕ РїРѕРґРґРµСЂР¶Р°РЅРёСЋ СЂР°Р±РѕС‚РѕСЃРїРѕСЃРѕР±РЅРѕСЃС‚Рё СЂРµСЃСѓСЂСЃР°. Р’ РєРѕРјРїР»РµРєСЃ СЂР°Р±РѕС‚ РІС…РѕРґРёС‚ Р°РЅР°Р»РёР· РЅР°РіСЂСѓР·РєРё, РєРѕС‚РѕСЂСѓСЋ РёСЃРїС‹С‚С‹РІР°РµС‚ СЃР°Р№С‚, СЂР°Р±РѕС‚С‹ РїРѕ РѕР±РµСЃРїРµС‡РµРЅРёСЋ Р±РµР·РѕРїР°СЃРЅРѕСЃС‚Рё. РЎРїРµС†РёР°Р»РёСЃС‚С‹ СЂРµРґР°РєС‚РёСЂСѓСЋС‚ РґРёР·Р°Р№РЅ Рё СЃС‚СЂСѓРєС‚СѓСЂСѓ, РІС‹РїРѕР»РЅСЏСЋС‚ РІРЅРµС€РЅСЋСЋ Рё РІРЅСѓС‚СЂРµРЅРЅСЋСЋ РѕРїС‚РёРјРёР·Р°С†РёСЋ.</p>
                </div>
             </div>
          </div>
@@ -86,36 +86,36 @@
    <div class="container">
       <div class="row">
          <div class="col-md-12">
-            <h2 class="title">Этапы работ по SEO продвижению</h2>
+            <h2 class="title">Р­С‚Р°РїС‹ СЂР°Р±РѕС‚ РїРѕ SEO РїСЂРѕРґРІРёР¶РµРЅРёСЋ</h2>
          </div>
          <div class="col-md-12">
             <div class="row">
                <div class="col-sm-12 col-md-6">
                   <div class="str">
                      <div class="number">1</div>
-                     <div class="text">Аудит сайта и ресурсов конкурентов. Мы внимательно анализируем семантику и объем трафика. На основании исследования предоставляем рекомендации.</div>
+                     <div class="text">РђСѓРґРёС‚ СЃР°Р№С‚Р° Рё СЂРµСЃСѓСЂСЃРѕРІ РєРѕРЅРєСѓСЂРµРЅС‚РѕРІ. РњС‹ РІРЅРёРјР°С‚РµР»СЊРЅРѕ Р°РЅР°Р»РёР·РёСЂСѓРµРј СЃРµРјР°РЅС‚РёРєСѓ Рё РѕР±СЉРµРј С‚СЂР°С„РёРєР°. РќР° РѕСЃРЅРѕРІР°РЅРёРё РёСЃСЃР»РµРґРѕРІР°РЅРёСЏ РїСЂРµРґРѕСЃС‚Р°РІР»СЏРµРј СЂРµРєРѕРјРµРЅРґР°С†РёРё.</div>
                   </div>
                   <div class="str">
                      <div class="number">3</div>
-                     <div class="text">СЕО оптимизация контента с учетом последних изменений в алгоритме поиска Яндекса и Google. Работа с юзабилити.</div>
+                     <div class="text">РЎР•Рћ РѕРїС‚РёРјРёР·Р°С†РёСЏ РєРѕРЅС‚РµРЅС‚Р° СЃ СѓС‡РµС‚РѕРј РїРѕСЃР»РµРґРЅРёС… РёР·РјРµРЅРµРЅРёР№ РІ Р°Р»РіРѕСЂРёС‚РјРµ РїРѕРёСЃРєР° РЇРЅРґРµРєСЃР° Рё Google. Р Р°Р±РѕС‚Р° СЃ СЋР·Р°Р±РёР»РёС‚Рё.</div>
                   </div>
                   <div class="str">
                      <div class="number">5</div>
-                     <div class="text">Предоставление отчетов о росте позиций сайта в поисковой выдаче, рекомендаций, консультаций по вопросам продвижения.</div>
+                     <div class="text">РџСЂРµРґРѕСЃС‚Р°РІР»РµРЅРёРµ РѕС‚С‡РµС‚РѕРІ Рѕ СЂРѕСЃС‚Рµ РїРѕР·РёС†РёР№ СЃР°Р№С‚Р° РІ РїРѕРёСЃРєРѕРІРѕР№ РІС‹РґР°С‡Рµ, СЂРµРєРѕРјРµРЅРґР°С†РёР№, РєРѕРЅСЃСѓР»СЊС‚Р°С†РёР№ РїРѕ РІРѕРїСЂРѕСЃР°Рј РїСЂРѕРґРІРёР¶РµРЅРёСЏ.</div>
                   </div>
                </div>
                <div class="col-sm-12 col-md-6">
                   <div class="str">
                      <div class="number">2</div>
-                     <div class="text">Формирование семантического ядра. Специалисты подбирают слова, по которым веб-ресурс будет продвигаться, привлекая целевой трафик.</div>
+                     <div class="text">Р¤РѕСЂРјРёСЂРѕРІР°РЅРёРµ СЃРµРјР°РЅС‚РёС‡РµСЃРєРѕРіРѕ СЏРґСЂР°. РЎРїРµС†РёР°Р»РёСЃС‚С‹ РїРѕРґР±РёСЂР°СЋС‚ СЃР»РѕРІР°, РїРѕ РєРѕС‚РѕСЂС‹Рј РІРµР±-СЂРµСЃСѓСЂСЃ Р±СѓРґРµС‚ РїСЂРѕРґРІРёРіР°С‚СЊСЃСЏ, РїСЂРёРІР»РµРєР°СЏ С†РµР»РµРІРѕР№ С‚СЂР°С„РёРє.</div>
                   </div>
                   <div class="str">
                      <div class="number">4</div>
-                     <div class="text">Раскрутка сайта в Яндексе и Google по доступной стоимости с применением исключительно белых методов.</div>
+                     <div class="text">Р Р°СЃРєСЂСѓС‚РєР° СЃР°Р№С‚Р° РІ РЇРЅРґРµРєСЃРµ Рё Google РїРѕ РґРѕСЃС‚СѓРїРЅРѕР№ СЃС‚РѕРёРјРѕСЃС‚Рё СЃ РїСЂРёРјРµРЅРµРЅРёРµРј РёСЃРєР»СЋС‡РёС‚РµР»СЊРЅРѕ Р±РµР»С‹С… РјРµС‚РѕРґРѕРІ.</div>
                   </div>
                   <div class="str">
                      <div class="number">6</div>
-                     <div class="text">Оптимизация стратегии после вывода сайта в ТОП в соответствии с тенденциями сферы и поведением конкурентов ниши.</div>
+                     <div class="text">РћРїС‚РёРјРёР·Р°С†РёСЏ СЃС‚СЂР°С‚РµРіРёРё РїРѕСЃР»Рµ РІС‹РІРѕРґР° СЃР°Р№С‚Р° РІ РўРћРџ РІ СЃРѕРѕС‚РІРµС‚СЃС‚РІРёРё СЃ С‚РµРЅРґРµРЅС†РёСЏРјРё СЃС„РµСЂС‹ Рё РїРѕРІРµРґРµРЅРёРµРј РєРѕРЅРєСѓСЂРµРЅС‚РѕРІ РЅРёС€Рё.</div>
                   </div>
                </div>
             </div>
@@ -127,7 +127,7 @@
    <div class="container">
       <div class="row">
          <div class="col-md-12">
-            <h3 class="title_wh">Выберите свою стратегию продвижения</h3>
+            <h3 class="title_wh">Р’С‹Р±РµСЂРёС‚Рµ СЃРІРѕСЋ СЃС‚СЂР°С‚РµРіРёСЋ РїСЂРѕРґРІРёР¶РµРЅРёСЏ</h3>
          </div>
          <div class="col-md-12">
             <div class="container_v2">
@@ -135,7 +135,7 @@
                   <div style="text-align: center;">
                      <div style="position: relative; padding: 10px;">
                         <div style="float: left; width: 25%; padding: 20px;">
-                           <label id="range7_l"><b>ТИП САЙТА</b></label>
+                           <label id="range7_l"><b>РўРРџ РЎРђР™РўРђ</b></label>
                         </div>
                         <div style="float: left; width: 75%;">
                            <input id="range7" name="range" type="text" value="">
@@ -146,7 +146,7 @@
                      <!-- -->
                      <div style="position: relative; padding: 10px;">
                         <div style="float: left; width: 25%; padding: 20px;">
-                           <label id="range1_l"><b>КОЛИЧЕСТВО КЛЮЧЕВЫХ ЗАПРОСОВ</b></label>
+                           <label id="range1_l"><b>РљРћР›РР§Р•РЎРўР’Рћ РљР›Р®Р§Р•Р’Р«РҐ Р—РђРџР РћРЎРћР’</b></label>
                         </div>
                         <div style="float: left; width: 75%;">
                            <input id="range1" name="range" type="text" value="">
@@ -157,7 +157,7 @@
                      <!-- -->
                      <div style="position: relative; padding: 10px;">
                         <div style="float: left; width: 25%; padding: 20px;">
-                           <label id="range2_l"><b>КОЛИЧЕСТВО РАЗДЕЛОВ САЙТА</b></label>
+                           <label id="range2_l"><b>РљРћР›РР§Р•РЎРўР’Рћ Р РђР—Р”Р•Р›РћР’ РЎРђР™РўРђ</b></label>
                         </div>
                         <div style="float: left; width: 75%;">
                            <input id="range2" name="range" type="text" value="">
@@ -168,7 +168,7 @@
                      <!-- -->
                      <div style="position: relative; padding: 10px;">
                         <div style="float: left; width: 25%; padding: 20px;">
-                           <label id="range3_l"><b>РЕГИОН ПРОДВИЖЕНИЯ</b></label>
+                           <label id="range3_l"><b>Р Р•Р“РРћРќ РџР РћР”Р’РР–Р•РќРРЇ</b></label>
                         </div>
                         <div style="float: left; width: 75%;">
                            <input id="range3" name="range" type="text" value="">
@@ -179,7 +179,7 @@
                      <!-- -->
                      <div style="position: relative; padding: 10px;">
                         <div style="float: left; width: 25%; padding: 20px;">
-                           <label id="range4_l"><b>УРОВЕНЬ КОНКУРЕНЦИИ В ТЕМАТИКЕ</b></label>
+                           <label id="range4_l"><b>РЈР РћР’Р•РќР¬ РљРћРќРљРЈР Р•РќР¦РР Р’ РўР•РњРђРўРРљР•</b></label>
                         </div>
                         <div style="float: left; width: 75%;">
                            <input id="range4" name="range" type="text" value="">
@@ -190,7 +190,7 @@
                      <!-- -->
                      <div style="position: relative; padding: 10px;">
                         <div style="float: left; width: 25%; padding: 20px;">
-                           <label id="range5_l"><b>ИСТОРИЯ ПРОДВИЖЕНИЯ САЙТА</b></label>
+                           <label id="range5_l"><b>РРЎРўРћР РРЇ РџР РћР”Р’РР–Р•РќРРЇ РЎРђР™РўРђ</b></label>
                         </div>
                         <div style="float: left; width: 75%;">
                            <input id="range5" name="range" type="text" value="">
@@ -201,7 +201,7 @@
                      <!-- -->
                      <div style="position: relative; padding: 10px;">
                         <div style="float: left; width: 25%; padding: 20px;">
-                           <label id="range16_l"><b>КОНТЕКСТНАЯ РЕКЛАМА (PPC)</b></label>
+                           <label id="range16_l"><b>РљРћРќРўР•РљРЎРўРќРђРЇ Р Р•РљР›РђРњРђ (PPC)</b></label>
                         </div>
                         <div style="float: left; width: 75%;">
                            <input id="range16" name="range" type="text" value="">
@@ -212,13 +212,13 @@
                      <!-- -->
                      <div style="position: relative; padding: 10px;">
                         <div style="float: left; width: 25%; padding: 20px;">
-                           <label id="range8_l"><b>ЕСТЬ СВОЙ КОПИРАЙТЕР?</b></label>
+                           <label id="range8_l"><b>Р•РЎРўР¬ РЎР’РћР™ РљРћРџРР РђР™РўР•Р ?</b></label>
                         </div>
                         <div style="float: left; width: 30%;">
                            <input id="range8" name="range" type="text" value="">
                         </div>
                         <div style="float: left; width: 20%; padding: 20px 0px 0px 40px;">
-                           <label id="range9_l"><b>ЕСТЬ СВОЙ ПРОГРАММИСТ?</b></label>
+                           <label id="range9_l"><b>Р•РЎРўР¬ РЎР’РћР™ РџР РћР“Р РђРњРњРРЎРў?</b></label>
                         </div>
                         <div style="float: left; width: 25%;">
                            <input id="range9" name="range" type="text" value="">
@@ -229,7 +229,7 @@
                      <!-- -->
                      <div style="position: relative; padding: 10px;">
                         <div style="float: left; width: 25%; padding: 20px;">
-                           <label id="range11_l"><b>АДАПТИВНОСТЬ</b></label>
+                           <label id="range11_l"><b>РђР”РђРџРўРР’РќРћРЎРўР¬</b></label>
                         </div>
                         <div style="float: left; width: 75%;">
                            <input id="range11" name="range" type="text" value="">
@@ -240,13 +240,13 @@
                      <!-- -->
                      <div style="position: relative; padding: 10px;">
                         <div style="float: left; width: 25%; padding: 20px;">
-                           <label id="range10_l"><b>САЙТ ПОД ФИЛЬТРОМ?</b></label>
+                           <label id="range10_l"><b>РЎРђР™Рў РџРћР” Р¤РР›Р¬РўР РћРњ?</b></label>
                         </div>
                         <div style="float: left; width: 30%;">
                            <input id="range10" name="range" type="text" value="">
                         </div>
                         <div style="float: left; width: 20%; padding: 20px 0px 0px 40px;">
-                           <label id="range12_l"><b>ПРОДВИЖЕНИЕ В YANDEX-КАРТАХ</b></label>
+                           <label id="range12_l"><b>РџР РћР”Р’РР–Р•РќРР• Р’ YANDEX-РљРђР РўРђРҐ</b></label>
                         </div>
                         <div style="float: left; width: 25%;">
                            <input id="range12" name="range" type="text" value="">
@@ -257,13 +257,13 @@
                      <!-- -->
                      <div style="position: relative; padding: 10px;">
                         <div style="float: left; width: 25%; padding: 20px;">
-                           <label id="range13_l"><b>КРАУД-МАРКЕТИНГ</b></label>
+                           <label id="range13_l"><b>РљР РђРЈР”-РњРђР РљР•РўРРќР“</b></label>
                         </div>
                         <div style="float: left; width: 30%;">
                            <input id="range13" name="range" type="text" value="">
                         </div>
                         <div style="float: left; width: 20%; padding: 20px 0px 0px 40px;">
-                           <label id="range14_l"><b>УГЛУБЛЕННАЯ АНАЛИТИКА</b></label>
+                           <label id="range14_l"><b>РЈР“Р›РЈР‘Р›Р•РќРќРђРЇ РђРќРђР›РРўРРљРђ</b></label>
                         </div>
                         <div style="float: left; width: 25%;">
                            <input id="range14" name="range" type="text" value="">
@@ -274,14 +274,14 @@
                      <!-- --> &nbsp; &nbsp;
                   </div>
                   <div id="tm_builder_outer_content" class="tm_builder_outer_content" style="text-align: center; padding: 0px;">
-                     <a id="trigger" class="tm_pb_button hover-green" href="">Получить расчет</a>
+                     <a id="trigger" class="tm_pb_button hover-green" href="">РџРѕР»СѓС‡РёС‚СЊ СЂР°СЃС‡РµС‚</a>
                   </div>
                   <div id="box" class="tm_pb_section tm_pb_section_1 tm_section_regular tm_section_transparent" style="display: none; color: #fff;">
                      <p style="margin-top: 10px;
                         margin-bottom: 10px;font-size: 18px;font-family: inherit;
                         font-weight: 500;
                         line-height: 1.1;
-                        color: inherit;">Результат:</p>
+                        color: inherit;">Р РµР·СѓР»СЊС‚Р°С‚:</p>
                      <div class="container">
                         <div class="row tm_pb_row tm_pb_row_1">
                            <div class="tm_pb_column tm_pb_column_1_2 tm_pb_column_1 col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
@@ -289,25 +289,25 @@
                                  margin-bottom: 10px;font-size: 14px;font-family: inherit;
                                  font-weight: 500;
                                  line-height: 1.1;
-                                 color: inherit;">Оставьте ваши контактные данные для связи:</p>
+                                 color: inherit;">РћСЃС‚Р°РІСЊС‚Рµ РІР°С€Рё РєРѕРЅС‚Р°РєС‚РЅС‹Рµ РґР°РЅРЅС‹Рµ РґР»СЏ СЃРІСЏР·Рё:</p>
                               <form action="/mail_post.php" method="post" class="wpcf7-form">
                                  <div style="display: none;">
                                     <input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
                                  </div>
                                  <p>
-                                    <label> Ваше имя (обязательно)<br>
+                                    <label> Р’Р°С€Рµ РёРјСЏ (РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ)<br>
                                     <span class="wpcf7-form-control-wrap your-name"><input style="width: 80%;" type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> </label>
                                  </p>
                                  <p>
-                                    <label> Телефон (обязательно)<br>
+                                    <label> РўРµР»РµС„РѕРЅ (РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ)<br>
                                     <span class="wpcf7-form-control-wrap your-phone"><input style="width: 80%;" type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> </label>
                                  </p>
                                  <p>
-                                    <label> Ваш e-mail (обязательно)<br>
+                                    <label> Р’Р°С€ e-mail (РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ)<br>
                                     <span class="wpcf7-form-control-wrap your-email"><input style="width: 80%;" type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" required=""></span> </label>
                                  </p>
                                  <p>
-                                    <label> Ваш сайт<br>
+                                    <label> Р’Р°С€ СЃР°Р№С‚<br>
                                     <span class="wpcf7-form-control-wrap your-site"><input style="width: 80%;" type="text" name="your-site" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> </label>
                                  </p>
                                  <p style="display:none;"><input type="text" name="name" value=""></p>
@@ -317,7 +317,7 @@
                                  <div style="width:100%; height: 25px; clear: both;">
                                  </div>
                                  <p class="widget_text">
-                                    <input type="submit" value="Заказать" class="wpcf7-form-control tm_pb_button wpcf7-submit"><span class="ajax-loader"></span>
+                                    <input type="submit" value="Р—Р°РєР°Р·Р°С‚СЊ" class="wpcf7-form-control tm_pb_button wpcf7-submit"><span class="ajax-loader"></span>
                                  </p>
                                  <div class="wpcf7-response-output wpcf7-display-none">
                                  </div>
@@ -328,63 +328,63 @@
                                  margin-bottom: 10px;font-size: 14px;font-family: inherit;
                                  font-weight: 500;
                                  line-height: 1.1;
-                                 color: inherit;">Вы выбрали:</p>
+                                 color: inherit;">Р’С‹ РІС‹Р±СЂР°Р»Рё:</p>
                               <table>
                                  <tbody>
                                     <tr>
-                                       <td>ТИП САЙТА: </td>
+                                       <td>РўРРџ РЎРђР™РўРђ: </td>
                                        <td><span id="result_1"></span></td>
                                     </tr>
                                     <tr>
-                                       <td>КОЛИЧЕСТВО КЛЮЧЕВЫХ ЗАПРОСОВ: </td>
+                                       <td>РљРћР›РР§Р•РЎРўР’Рћ РљР›Р®Р§Р•Р’Р«РҐ Р—РђРџР РћРЎРћР’: </td>
                                        <td><span id="result_2"></span></td>
                                     </tr>
                                     <tr>
-                                       <td>КОЛИЧЕСТВО РАЗДЕЛОВ САЙТА: </td>
+                                       <td>РљРћР›РР§Р•РЎРўР’Рћ Р РђР—Р”Р•Р›РћР’ РЎРђР™РўРђ: </td>
                                        <td><span id="result_3"></span></td>
                                     </tr>
                                     <tr>
-                                       <td>РЕГИОН ПРОДВИЖЕНИЯ: </td>
+                                       <td>Р Р•Р“РРћРќ РџР РћР”Р’РР–Р•РќРРЇ: </td>
                                        <td><span id="result_4"></span></td>
                                     </tr>
                                     <tr>
-                                       <td>УРОВЕНЬ КОНКУРЕНЦИИ В ТЕМАТИКЕ: </td>
+                                       <td>РЈР РћР’Р•РќР¬ РљРћРќРљРЈР Р•РќР¦РР Р’ РўР•РњРђРўРРљР•: </td>
                                        <td><span id="result_5"></span></td>
                                     </tr>
                                     <tr>
-                                       <td>ИСТОРИЯ ПРОДВИЖЕНИЯ САЙТА: </td>
+                                       <td>РРЎРўРћР РРЇ РџР РћР”Р’РР–Р•РќРРЇ РЎРђР™РўРђ: </td>
                                        <td><span id="result_6"></span></td>
                                     </tr>
                                     <tr>
-                                       <td>КОНТЕКСТНАЯ РЕКЛАМА (PPC): </td>
+                                       <td>РљРћРќРўР•РљРЎРўРќРђРЇ Р Р•РљР›РђРњРђ (PPC): </td>
                                        <td><span id="result_7"></span></td>
                                     </tr>
                                     <tr>
-                                       <td>ЕСТЬ СВОЙ КОПИРАЙТЕР?: </td>
+                                       <td>Р•РЎРўР¬ РЎР’РћР™ РљРћРџРР РђР™РўР•Р ?: </td>
                                        <td><span id="result_8"></span></td>
                                     </tr>
                                     <tr>
-                                       <td>ЕСТЬ СВОЙ ПРОГРАММИСТ?: </td>
+                                       <td>Р•РЎРўР¬ РЎР’РћР™ РџР РћР“Р РђРњРњРРЎРў?: </td>
                                        <td><span id="result_9"></span></td>
                                     </tr>
                                     <tr>
-                                       <td>АДАПТИВНОСТЬ: </td>
+                                       <td>РђР”РђРџРўРР’РќРћРЎРўР¬: </td>
                                        <td><span id="result_11"></span></td>
                                     </tr>
                                     <tr>
-                                       <td>САЙТ ПОД ФИЛЬТРОМ?: </td>
+                                       <td>РЎРђР™Рў РџРћР” Р¤РР›Р¬РўР РћРњ?: </td>
                                        <td><span id="result_10"></span></td>
                                     </tr>
                                     <tr>
-                                       <td>ПРОДВИЖЕНИЕ В YANDEX-КАРТАХ: </td>
+                                       <td>РџР РћР”Р’РР–Р•РќРР• Р’ YANDEX-РљРђР РўРђРҐ: </td>
                                        <td><span id="result_12"></span></td>
                                     </tr>
                                     <tr>
-                                       <td>КРАУД-МАРКЕТИНГ: </td>
+                                       <td>РљР РђРЈР”-РњРђР РљР•РўРРќР“: </td>
                                        <td><span id="result_13"></span></td>
                                     </tr>
                                     <tr>
-                                       <td>УГЛУБЛЕННАЯ АНАЛИТИКА: </td>
+                                       <td>РЈР“Р›РЈР‘Р›Р•РќРќРђРЇ РђРќРђР›РРўРРљРђ: </td>
                                        <td><span id="result_14"></span></td>
                                     </tr>
                                  </tbody>
@@ -394,7 +394,7 @@
                                  margin-bottom: 10px;font-size: 18px;font-family: inherit;
                                  font-weight: 500;
                                  line-height: 1.1;
-                                 color: inherit;" id="h4_itogo">Итого: <span id="result_itogo"></span> &#8381;/мес. <b class="tooltip" data-tooltip="Для индивидуального расчета заполните форму.">*</b></p>
+                                 color: inherit;" id="h4_itogo">РС‚РѕРіРѕ: <span id="result_itogo"></span> &#8381;/РјРµСЃ. <b class="tooltip" data-tooltip="Р”Р»СЏ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕРіРѕ СЂР°СЃС‡РµС‚Р° Р·Р°РїРѕР»РЅРёС‚Рµ С„РѕСЂРјСѓ.">*</b></p>
                            </div>
                         </div>
                      </div>
@@ -409,24 +409,24 @@
    <div class="container">
       <div class="row">
          <div class="col-md-12">
-            <h2 class="title">Преимущества SEO продвижения</h2>
+            <h2 class="title">РџСЂРµРёРјСѓС‰РµСЃС‚РІР° SEO РїСЂРѕРґРІРёР¶РµРЅРёСЏ</h2>
          </div>
          <div class="col-md-12">
             <div class="row">
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/star2.png">
-                  <p class="tit"> Долгосрочный эффект</p>
-                  <p class="bottit"> Сайт, заняв высокие позиции в поиске, будет стабильно приносить клиентов на протяжении долгого времени</p>
+                  <p class="tit"> Р”РѕР»РіРѕСЃСЂРѕС‡РЅС‹Р№ СЌС„С„РµРєС‚</p>
+                  <p class="bottit"> РЎР°Р№С‚, Р·Р°РЅСЏРІ РІС‹СЃРѕРєРёРµ РїРѕР·РёС†РёРё РІ РїРѕРёСЃРєРµ, Р±СѓРґРµС‚ СЃС‚Р°Р±РёР»СЊРЅРѕ РїСЂРёРЅРѕСЃРёС‚СЊ РєР»РёРµРЅС‚РѕРІ РЅР° РїСЂРѕС‚СЏР¶РµРЅРёРё РґРѕР»РіРѕРіРѕ РІСЂРµРјРµРЅРё</p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/star2.png">
-                  <p class="tit"> Низкая стоимость за одного привлеченного посетителя</p>
-                  <p class="bottit"> Стоимость каждого нового посетителя становится меньше. Цена SEO раскрутки сайта гораздо ниже использования контекстной рекламы.</p>
+                  <p class="tit"> РќРёР·РєР°СЏ СЃС‚РѕРёРјРѕСЃС‚СЊ Р·Р° РѕРґРЅРѕРіРѕ РїСЂРёРІР»РµС‡РµРЅРЅРѕРіРѕ РїРѕСЃРµС‚РёС‚РµР»СЏ</p>
+                  <p class="bottit"> РЎС‚РѕРёРјРѕСЃС‚СЊ РєР°Р¶РґРѕРіРѕ РЅРѕРІРѕРіРѕ РїРѕСЃРµС‚РёС‚РµР»СЏ СЃС‚Р°РЅРѕРІРёС‚СЃСЏ РјРµРЅСЊС€Рµ. Р¦РµРЅР° SEO СЂР°СЃРєСЂСѓС‚РєРё СЃР°Р№С‚Р° РіРѕСЂР°Р·РґРѕ РЅРёР¶Рµ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёСЏ РєРѕРЅС‚РµРєСЃС‚РЅРѕР№ СЂРµРєР»Р°РјС‹.</p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/star2.png">
-                  <p class="tit"> Постоянное увеличение трафика</p>
-                  <p class="bottit">  Качественная оптимизация способствует положительной динамике. Наряду с основными запросами ресурс начинает ранжироваться по близким по значению и запросам-«хвостам».</p>
+                  <p class="tit"> РџРѕСЃС‚РѕСЏРЅРЅРѕРµ СѓРІРµР»РёС‡РµРЅРёРµ С‚СЂР°С„РёРєР°</p>
+                  <p class="bottit">  РљР°С‡РµСЃС‚РІРµРЅРЅР°СЏ РѕРїС‚РёРјРёР·Р°С†РёСЏ СЃРїРѕСЃРѕР±СЃС‚РІСѓРµС‚ РїРѕР»РѕР¶РёС‚РµР»СЊРЅРѕР№ РґРёРЅР°РјРёРєРµ. РќР°СЂСЏРґСѓ СЃ РѕСЃРЅРѕРІРЅС‹РјРё Р·Р°РїСЂРѕСЃР°РјРё СЂРµСЃСѓСЂСЃ РЅР°С‡РёРЅР°РµС‚ СЂР°РЅР¶РёСЂРѕРІР°С‚СЊСЃСЏ РїРѕ Р±Р»РёР·РєРёРј РїРѕ Р·РЅР°С‡РµРЅРёСЋ Рё Р·Р°РїСЂРѕСЃР°Рј-В«С…РІРѕСЃС‚Р°РјВ».</p>
                </div>
             </div>
             <div style="width: 100%; height: 20px; clear: both;"></div>
@@ -435,18 +435,18 @@
             <div class="row">
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/star2.png">
-                  <p class="tit"> Привлечение целевой аудитории</p>
-                  <p class="bottit">  — потенциальных покупателей, которые ищут товары и услуги, вами предлагаемые. Поисковые системы показывают ваш ресурс в качестве ответа на запрос.</p>
+                  <p class="tit"> РџСЂРёРІР»РµС‡РµРЅРёРµ С†РµР»РµРІРѕР№ Р°СѓРґРёС‚РѕСЂРёРё</p>
+                  <p class="bottit">  вЂ” РїРѕС‚РµРЅС†РёР°Р»СЊРЅС‹С… РїРѕРєСѓРїР°С‚РµР»РµР№, РєРѕС‚РѕСЂС‹Рµ РёС‰СѓС‚ С‚РѕРІР°СЂС‹ Рё СѓСЃР»СѓРіРё, РІР°РјРё РїСЂРµРґР»Р°РіР°РµРјС‹Рµ. РџРѕРёСЃРєРѕРІС‹Рµ СЃРёСЃС‚РµРјС‹ РїРѕРєР°Р·С‹РІР°СЋС‚ РІР°С€ СЂРµСЃСѓСЂСЃ РІ РєР°С‡РµСЃС‚РІРµ РѕС‚РІРµС‚Р° РЅР° Р·Р°РїСЂРѕСЃ.</p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/star2.png">
-                  <p class="tit"> Естественное продвижение</p>
-                  <p class="bottit">  Компаниям, которые показываются в поисковой выдаче, доверяют больше, чем рекламируемым. Мы рекомендуем сочетать несколько инструментов продвижения для увеличения узнаваемости.</p>
+                  <p class="tit"> Р•СЃС‚РµСЃС‚РІРµРЅРЅРѕРµ РїСЂРѕРґРІРёР¶РµРЅРёРµ</p>
+                  <p class="bottit">  РљРѕРјРїР°РЅРёСЏРј, РєРѕС‚РѕСЂС‹Рµ РїРѕРєР°Р·С‹РІР°СЋС‚СЃСЏ РІ РїРѕРёСЃРєРѕРІРѕР№ РІС‹РґР°С‡Рµ, РґРѕРІРµСЂСЏСЋС‚ Р±РѕР»СЊС€Рµ, С‡РµРј СЂРµРєР»Р°РјРёСЂСѓРµРјС‹Рј. РњС‹ СЂРµРєРѕРјРµРЅРґСѓРµРј СЃРѕС‡РµС‚Р°С‚СЊ РЅРµСЃРєРѕР»СЊРєРѕ РёРЅСЃС‚СЂСѓРјРµРЅС‚РѕРІ РїСЂРѕРґРІРёР¶РµРЅРёСЏ РґР»СЏ СѓРІРµР»РёС‡РµРЅРёСЏ СѓР·РЅР°РІР°РµРјРѕСЃС‚Рё.</p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/star2.png">
-                  <p class="tit"> Повышение конверсии</p>
-                  <p class="bottit">  На ранжирование ресурса влияет качество оптимизации и сайта в целом. Мы работаем с юзабилити, чтобы ресурсом было понятно и удобно пользоваться. Специалисты уделяют внимание скорости загрузки страницы, оценивают время на сайте и глубину просмотра посетителями.</p>
+                  <p class="tit"> РџРѕРІС‹С€РµРЅРёРµ РєРѕРЅРІРµСЂСЃРёРё</p>
+                  <p class="bottit">  РќР° СЂР°РЅР¶РёСЂРѕРІР°РЅРёРµ СЂРµСЃСѓСЂСЃР° РІР»РёСЏРµС‚ РєР°С‡РµСЃС‚РІРѕ РѕРїС‚РёРјРёР·Р°С†РёРё Рё СЃР°Р№С‚Р° РІ С†РµР»РѕРј. РњС‹ СЂР°Р±РѕС‚Р°РµРј СЃ СЋР·Р°Р±РёР»РёС‚Рё, С‡С‚РѕР±С‹ СЂРµСЃСѓСЂСЃРѕРј Р±С‹Р»Рѕ РїРѕРЅСЏС‚РЅРѕ Рё СѓРґРѕР±РЅРѕ РїРѕР»СЊР·РѕРІР°С‚СЊСЃСЏ. РЎРїРµС†РёР°Р»РёСЃС‚С‹ СѓРґРµР»СЏСЋС‚ РІРЅРёРјР°РЅРёРµ СЃРєРѕСЂРѕСЃС‚Рё Р·Р°РіСЂСѓР·РєРё СЃС‚СЂР°РЅРёС†С‹, РѕС†РµРЅРёРІР°СЋС‚ РІСЂРµРјСЏ РЅР° СЃР°Р№С‚Рµ Рё РіР»СѓР±РёРЅСѓ РїСЂРѕСЃРјРѕС‚СЂР° РїРѕСЃРµС‚РёС‚РµР»СЏРјРё.</p>
                </div>
             </div>
          </div>
@@ -462,18 +462,18 @@
             <div class="row">
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/noun_cart.png">
-                  <p class="tit"> Продвижение интернет-магазинов</p>
-                  <p class="bottit"> <a href="#win1">Подробнее</a></p>
+                  <p class="tit"> РџСЂРѕРґРІРёР¶РµРЅРёРµ РёРЅС‚РµСЂРЅРµС‚-РјР°РіР°Р·РёРЅРѕРІ</p>
+                  <p class="bottit"> <a href="#win1">РџРѕРґСЂРѕР±РЅРµРµ</a></p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/noun_Business.png">
-                  <p class="tit"> Продвижение корпоративных сайтов</p>
-                  <p class="bottit"> <a href="#win1">Подробнее</a></p>
+                  <p class="tit"> РџСЂРѕРґРІРёР¶РµРЅРёРµ РєРѕСЂРїРѕСЂР°С‚РёРІРЅС‹С… СЃР°Р№С‚РѕРІ</p>
+                  <p class="bottit"> <a href="#win1">РџРѕРґСЂРѕР±РЅРµРµ</a></p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/noun_Location.png">
-                  <p class="tit"> Продвижение в регионах</p>
-                  <p class="bottit"> <a href="#win1">Подробнее</a></p>
+                  <p class="tit"> РџСЂРѕРґРІРёР¶РµРЅРёРµ РІ СЂРµРіРёРѕРЅР°С…</p>
+                  <p class="bottit"> <a href="#win1">РџРѕРґСЂРѕР±РЅРµРµ</a></p>
                </div>
             </div>
          </div>
@@ -484,39 +484,39 @@
    <div class="container">
       <div class="row">
          <div class="col-md-12">
-            <h3 class="title">Постоянное улучшение вашего сайта</h3>
+            <h3 class="title">РџРѕСЃС‚РѕСЏРЅРЅРѕРµ СѓР»СѓС‡С€РµРЅРёРµ РІР°С€РµРіРѕ СЃР°Р№С‚Р°</h3>
          </div>
          <div class="col-md-12">
             <div class="row">
                <div class="col-sm-12 col-md-4 block_twof2">
-                  <div class="tit">Трафик на сайте есть, но  продаж все еще мало</div>
-                  <p>Если трафик достаточный, а продажи не увеличиваются, мы найдем причины такого положения.</p>
+                  <div class="tit">РўСЂР°С„РёРє РЅР° СЃР°Р№С‚Рµ РµСЃС‚СЊ, РЅРѕ  РїСЂРѕРґР°Р¶ РІСЃРµ РµС‰Рµ РјР°Р»Рѕ</div>
+                  <p>Р•СЃР»Рё С‚СЂР°С„РёРє РґРѕСЃС‚Р°С‚РѕС‡РЅС‹Р№, Р° РїСЂРѕРґР°Р¶Рё РЅРµ СѓРІРµР»РёС‡РёРІР°СЋС‚СЃСЏ, РјС‹ РЅР°Р№РґРµРј РїСЂРёС‡РёРЅС‹ С‚Р°РєРѕРіРѕ РїРѕР»РѕР¶РµРЅРёСЏ.</p>
                   <ul>
-                     <li>Оценим релевантность поискового трафика</li>
-                     <li>Займемся оптимизацией поведенческих факторов</li>
-                     <li>Дадим рекомендации по мета-тегам и контенту</li>
+                     <li>РћС†РµРЅРёРј СЂРµР»РµРІР°РЅС‚РЅРѕСЃС‚СЊ РїРѕРёСЃРєРѕРІРѕРіРѕ С‚СЂР°С„РёРєР°</li>
+                     <li>Р—Р°Р№РјРµРјСЃСЏ РѕРїС‚РёРјРёР·Р°С†РёРµР№ РїРѕРІРµРґРµРЅС‡РµСЃРєРёС… С„Р°РєС‚РѕСЂРѕРІ</li>
+                     <li>Р”Р°РґРёРј СЂРµРєРѕРјРµРЅРґР°С†РёРё РїРѕ РјРµС‚Р°-С‚РµРіР°Рј Рё РєРѕРЅС‚РµРЅС‚Сѓ</li>
                   </ul>
                </div>
                <div class="col-sm-12 col-md-4 block_twof2">
-                  <div class="tit">Сайт плохо ранжируется в поисковой выдаче</div>
-                  <p>Если ресурс плохо ранжируется поисковыми системами, мы проведем комплексную проверку.</p>
+                  <div class="tit">РЎР°Р№С‚ РїР»РѕС…Рѕ СЂР°РЅР¶РёСЂСѓРµС‚СЃСЏ РІ РїРѕРёСЃРєРѕРІРѕР№ РІС‹РґР°С‡Рµ</div>
+                  <p>Р•СЃР»Рё СЂРµСЃСѓСЂСЃ РїР»РѕС…Рѕ СЂР°РЅР¶РёСЂСѓРµС‚СЃСЏ РїРѕРёСЃРєРѕРІС‹РјРё СЃРёСЃС‚РµРјР°РјРё, РјС‹ РїСЂРѕРІРµРґРµРј РєРѕРјРїР»РµРєСЃРЅСѓСЋ РїСЂРѕРІРµСЂРєСѓ.</p>
                   <ul>
-                     <li>Оценим техническое состояние и проверим наличие санкций со стороны поисковиков</li>
-                     <li>Используем новые URL для фильтров — увеличим количество страниц в поисковой выдаче</li>
-                     <li>Оптимизируем контент с учетом сформированного семантического ядра</li>
+                     <li>РћС†РµРЅРёРј С‚РµС…РЅРёС‡РµСЃРєРѕРµ СЃРѕСЃС‚РѕСЏРЅРёРµ Рё РїСЂРѕРІРµСЂРёРј РЅР°Р»РёС‡РёРµ СЃР°РЅРєС†РёР№ СЃРѕ СЃС‚РѕСЂРѕРЅС‹ РїРѕРёСЃРєРѕРІРёРєРѕРІ</li>
+                     <li>РСЃРїРѕР»СЊР·СѓРµРј РЅРѕРІС‹Рµ URL РґР»СЏ С„РёР»СЊС‚СЂРѕРІ вЂ” СѓРІРµР»РёС‡РёРј РєРѕР»РёС‡РµСЃС‚РІРѕ СЃС‚СЂР°РЅРёС† РІ РїРѕРёСЃРєРѕРІРѕР№ РІС‹РґР°С‡Рµ</li>
+                     <li>РћРїС‚РёРјРёР·РёСЂСѓРµРј РєРѕРЅС‚РµРЅС‚ СЃ СѓС‡РµС‚РѕРј СЃС„РѕСЂРјРёСЂРѕРІР°РЅРЅРѕРіРѕ СЃРµРјР°РЅС‚РёС‡РµСЃРєРѕРіРѕ СЏРґСЂР°</li>
                   </ul>
                </div>
                <div class="col-sm-12 col-md-4 block_twof2">
-                  <div class="tit">Попадание в топ-5 по запросам своей тематики</div>
-                  <p>Выход в лидеры органической выдачи по широкому спектру запросов – не простая задача. Но для каждого проекта мы разрабатываем индивидуальную стратегию</p>
+                  <div class="tit">РџРѕРїР°РґР°РЅРёРµ РІ С‚РѕРї-5 РїРѕ Р·Р°РїСЂРѕСЃР°Рј СЃРІРѕРµР№ С‚РµРјР°С‚РёРєРё</div>
+                  <p>Р’С‹С…РѕРґ РІ Р»РёРґРµСЂС‹ РѕСЂРіР°РЅРёС‡РµСЃРєРѕР№ РІС‹РґР°С‡Рё РїРѕ С€РёСЂРѕРєРѕРјСѓ СЃРїРµРєС‚СЂСѓ Р·Р°РїСЂРѕСЃРѕРІ вЂ“ РЅРµ РїСЂРѕСЃС‚Р°СЏ Р·Р°РґР°С‡Р°. РќРѕ РґР»СЏ РєР°Р¶РґРѕРіРѕ РїСЂРѕРµРєС‚Р° РјС‹ СЂР°Р·СЂР°Р±Р°С‚С‹РІР°РµРј РёРЅРґРёРІРёРґСѓР°Р»СЊРЅСѓСЋ СЃС‚СЂР°С‚РµРіРёСЋ</p>
                   <ul>
-                     <li>Нарастим ссылочную массу, оптимизируем и удалим дублирующийся контент для лучшего ранжирования</li>
-                     <li>Внедрим внутреннюю перелинковку и проведем техническую оптимизацию, чтобы сайт быстрее загружался и находился поисковиками</li>
-                     <li>Тем самым приведем релевантный трафик</li>
+                     <li>РќР°СЂР°СЃС‚РёРј СЃСЃС‹Р»РѕС‡РЅСѓСЋ РјР°СЃСЃСѓ, РѕРїС‚РёРјРёР·РёСЂСѓРµРј Рё СѓРґР°Р»РёРј РґСѓР±Р»РёСЂСѓСЋС‰РёР№СЃСЏ РєРѕРЅС‚РµРЅС‚ РґР»СЏ Р»СѓС‡С€РµРіРѕ СЂР°РЅР¶РёСЂРѕРІР°РЅРёСЏ</li>
+                     <li>Р’РЅРµРґСЂРёРј РІРЅСѓС‚СЂРµРЅРЅСЋСЋ РїРµСЂРµР»РёРЅРєРѕРІРєСѓ Рё РїСЂРѕРІРµРґРµРј С‚РµС…РЅРёС‡РµСЃРєСѓСЋ РѕРїС‚РёРјРёР·Р°С†РёСЋ, С‡С‚РѕР±С‹ СЃР°Р№С‚ Р±С‹СЃС‚СЂРµРµ Р·Р°РіСЂСѓР¶Р°Р»СЃСЏ Рё РЅР°С…РѕРґРёР»СЃСЏ РїРѕРёСЃРєРѕРІРёРєР°РјРё</li>
+                     <li>РўРµРј СЃР°РјС‹Рј РїСЂРёРІРµРґРµРј СЂРµР»РµРІР°РЅС‚РЅС‹Р№ С‚СЂР°С„РёРє</li>
                   </ul>
                </div>
                <div class="col-md-12 botnew">
-                  <a class="tm_pb_button" href="#win1">Заказать аудит сайта</a>
+                  <a class="tm_pb_button" href="#win1">Р—Р°РєР°Р·Р°С‚СЊ Р°СѓРґРёС‚ СЃР°Р№С‚Р°</a>
                </div>
             </div>
          </div>
@@ -527,30 +527,30 @@
    <div class="container">
       <div class="row">
          <div class="col-md-12">
-            <h3 class="title_wh">Наши кейсы</h3>
+            <h3 class="title_wh">РќР°С€Рё РєРµР№СЃС‹</h3>
          </div>
          <div class="col-md-12">
             <div class="row">
                <div class="col-md-4 Ktabs Kactive_t" data-id="1" id="Kta1">
-                  Фабрика штор на ткацкой
+                  Р¤Р°Р±СЂРёРєР° С€С‚РѕСЂ РЅР° С‚РєР°С†РєРѕР№
                </div>
                <div class="col-md-4 Ktabs" data-id="2" id="Kta2">
-                  Медицинская компания
+                  РњРµРґРёС†РёРЅСЃРєР°СЏ РєРѕРјРїР°РЅРёСЏ
                </div>
                <div class="col-md-4 Ktabs" data-id="3" id="Kta3">
-                  Кредитный брокер
+                  РљСЂРµРґРёС‚РЅС‹Р№ Р±СЂРѕРєРµСЂ
                </div>
             </div>
             <div class="row">
                <div class="col-md-12 Ktabk Kactive_ta" id="Kff1">
-                  <p class="ttt">Интернет-магазин по продаже  штор, карнизов и сопутствующих товаров</p>
+                  <p class="ttt">РРЅС‚РµСЂРЅРµС‚-РјР°РіР°Р·РёРЅ РїРѕ РїСЂРѕРґР°Р¶Рµ  С€С‚РѕСЂ, РєР°СЂРЅРёР·РѕРІ Рё СЃРѕРїСѓС‚СЃС‚РІСѓСЋС‰РёС… С‚РѕРІР°СЂРѕРІ</p>
                   <div class="col-md-4 cccd" style="padding:0px; margin:0px;">
-                     <p class="ccc">Задача</p>
-                     Организация полного цикла продаж через интернет. Поставлена цель по ежемесячному объему продаж
+                     <p class="ccc">Р—Р°РґР°С‡Р°</p>
+                     РћСЂРіР°РЅРёР·Р°С†РёСЏ РїРѕР»РЅРѕРіРѕ С†РёРєР»Р° РїСЂРѕРґР°Р¶ С‡РµСЂРµР· РёРЅС‚РµСЂРЅРµС‚. РџРѕСЃС‚Р°РІР»РµРЅР° С†РµР»СЊ РїРѕ РµР¶РµРјРµСЃСЏС‡РЅРѕРјСѓ РѕР±СЉРµРјСѓ РїСЂРѕРґР°Р¶
                   </div>
                   <div class="col-md-8 cccd" style="padding:0px; margin:0px;">
-                     <p class="ccc">Результат</p>
-                     Цели достигнуты в полном объеме. Сайт постоянно обновляется. За счет контекстной рекламы достигнута посещаемость 20 000 уникальных посетителей в месяц. Более 85% фраз в ТОП10.
+                     <p class="ccc">Р РµР·СѓР»СЊС‚Р°С‚</p>
+                     Р¦РµР»Рё РґРѕСЃС‚РёРіРЅСѓС‚С‹ РІ РїРѕР»РЅРѕРј РѕР±СЉРµРјРµ. РЎР°Р№С‚ РїРѕСЃС‚РѕСЏРЅРЅРѕ РѕР±РЅРѕРІР»СЏРµС‚СЃСЏ. Р—Р° СЃС‡РµС‚ РєРѕРЅС‚РµРєСЃС‚РЅРѕР№ СЂРµРєР»Р°РјС‹ РґРѕСЃС‚РёРіРЅСѓС‚Р° РїРѕСЃРµС‰Р°РµРјРѕСЃС‚СЊ 20 000 СѓРЅРёРєР°Р»СЊРЅС‹С… РїРѕСЃРµС‚РёС‚РµР»РµР№ РІ РјРµСЃСЏС†. Р‘РѕР»РµРµ 85% С„СЂР°Р· РІ РўРћРџ10.
                   </div>
                   <div style="width: 100%; height: 20px; clear: both"></div>
                   <div class="col-md-8 imgkeq">
@@ -560,22 +560,22 @@
                      <img src="../../assests/shatura5.png">
                   </div>
                   <div style="width: 100%; height: 20px; clear: both"></div>
-                  <p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
-                  <div class="col-md-6 navlef navar" data-id="3"> <img src="../../assests/left.png">Предыдущий кейс </div>
-                  <div class="col-md-6 navrig navar" data-id="2"> Следующий кейс<img src="../../assests/right.png"> </div>
+                  <p class="cccd">РџСЂРѕРґРІРёР¶РµРЅРёРµ РІ РїРѕРёСЃРєРѕРІС‹С… СЃРёСЃС‚РµРјР°С… РЇРЅРґРµРєСЃ Рё Google</p>
+                  <div class="col-md-6 navlef navar" data-id="3"> <img src="../../assests/left.png">РџСЂРµРґС‹РґСѓС‰РёР№ РєРµР№СЃ </div>
+                  <div class="col-md-6 navrig navar" data-id="2"> РЎР»РµРґСѓСЋС‰РёР№ РєРµР№СЃ<img src="../../assests/right.png"> </div>
                   <div class="col-md-12" style="text-align: center; margin: 0 auto;">
-                     <a class="tm_pb_button" href="#win1">Заказать услугу</a>
+                     <a class="tm_pb_button" href="#win1">Р—Р°РєР°Р·Р°С‚СЊ СѓСЃР»СѓРіСѓ</a>
                   </div>
                </div>
                <div class="col-md-12 Ktabk Kactive_tan" id="Kff2">
-                  <p class="ttt">Срок: Март 2017 - Декабрь 2018</p>
+                  <p class="ttt">РЎСЂРѕРє: РњР°СЂС‚ 2017 - Р”РµРєР°Р±СЂСЊ 2018</p>
                   <div class="col-md-4 cccd" style="padding:0px; margin:0px; margin-right: 10px; width: calc(33.33% - 10px)">
-                     <p class="ccc">Задача</p>
-                     Продвинуть сайт с нуля, добиться получения от 100 заявок на получение медицинских книжек в месяц
+                     <p class="ccc">Р—Р°РґР°С‡Р°</p>
+                     РџСЂРѕРґРІРёРЅСѓС‚СЊ СЃР°Р№С‚ СЃ РЅСѓР»СЏ, РґРѕР±РёС‚СЊСЃСЏ РїРѕР»СѓС‡РµРЅРёСЏ РѕС‚ 100 Р·Р°СЏРІРѕРє РЅР° РїРѕР»СѓС‡РµРЅРёРµ РјРµРґРёС†РёРЅСЃРєРёС… РєРЅРёР¶РµРє РІ РјРµСЃСЏС†
                   </div>
                   <div class="col-md-8 cccd" style="padding:0px; margin:0px;">
-                     <p class="ccc">Результат</p>
-                     98% фраз находятся в ТОП-10, в среднем 6-7 тыс. уникальных посетителей в месяц, 215 заявок через форму обратной связи, около 700 обращений по телефону
+                     <p class="ccc">Р РµР·СѓР»СЊС‚Р°С‚</p>
+                     98% С„СЂР°Р· РЅР°С…РѕРґСЏС‚СЃСЏ РІ РўРћРџ-10, РІ СЃСЂРµРґРЅРµРј 6-7 С‚С‹СЃ. СѓРЅРёРєР°Р»СЊРЅС‹С… РїРѕСЃРµС‚РёС‚РµР»РµР№ РІ РјРµСЃСЏС†, 215 Р·Р°СЏРІРѕРє С‡РµСЂРµР· С„РѕСЂРјСѓ РѕР±СЂР°С‚РЅРѕР№ СЃРІСЏР·Рё, РѕРєРѕР»Рѕ 700 РѕР±СЂР°С‰РµРЅРёР№ РїРѕ С‚РµР»РµС„РѕРЅСѓ
                   </div>
                   <div style="width: 100%; height: 20px; clear: both"></div>
                   <div class="col-md-8 imgkeq">
@@ -585,22 +585,22 @@
                      <img src="../../assests/013/m2.jpg">
                   </div>
                   <div style="width: 100%; height: 20px; clear: both"></div>
-                  <p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
-                  <div class="col-md-6 navlef navar" data-id="1"> <img src="../../assests/left.png">Предыдущий кейс </div>
-                  <div class="col-md-6 navrig navar" data-id="3"> Следующий кейс<img src="../../assests/right.png"> </div>
+                  <p class="cccd">РџСЂРѕРґРІРёР¶РµРЅРёРµ РІ РїРѕРёСЃРєРѕРІС‹С… СЃРёСЃС‚РµРјР°С… РЇРЅРґРµРєСЃ Рё Google</p>
+                  <div class="col-md-6 navlef navar" data-id="1"> <img src="../../assests/left.png">РџСЂРµРґС‹РґСѓС‰РёР№ РєРµР№СЃ </div>
+                  <div class="col-md-6 navrig navar" data-id="3"> РЎР»РµРґСѓСЋС‰РёР№ РєРµР№СЃ<img src="../../assests/right.png"> </div>
                   <div class="col-md-12" style="text-align: center; margin: 0 auto;">
-                     <a class="tm_pb_button" href="#win1">Заказать услугу</a>
+                     <a class="tm_pb_button" href="#win1">Р—Р°РєР°Р·Р°С‚СЊ СѓСЃР»СѓРіСѓ</a>
                   </div>
                </div>
                <div class="col-md-12 Ktabk Kactive_tan" id="Kff3">
-                  <p class="ttt">Срок: Сентябрь 2018 - Декабрь 2018</p>
+                  <p class="ttt">РЎСЂРѕРє: РЎРµРЅС‚СЏР±СЂСЊ 2018 - Р”РµРєР°Р±СЂСЊ 2018</p>
                   <div class="col-md-4 cccd" style="padding:0px; margin:0px; margin-right: 10px; width: calc(33.33% - 10px)">
-                     <p class="ccc">Задача</p>
-                     Продвинуть сайт с нуля до топовых позиций по региону продвижения
+                     <p class="ccc">Р—Р°РґР°С‡Р°</p>
+                     РџСЂРѕРґРІРёРЅСѓС‚СЊ СЃР°Р№С‚ СЃ РЅСѓР»СЏ РґРѕ С‚РѕРїРѕРІС‹С… РїРѕР·РёС†РёР№ РїРѕ СЂРµРіРёРѕРЅСѓ РїСЂРѕРґРІРёР¶РµРЅРёСЏ
                   </div>
                   <div class="col-md-8 cccd" style="padding:0px; margin:0px;">
-                     <p class="ccc">Результат</p>
-                     Посещаемость сайта выросла до 150 уникальных посетителей в месяц, более 50% фраз в ТОП10.
+                     <p class="ccc">Р РµР·СѓР»СЊС‚Р°С‚</p>
+                     РџРѕСЃРµС‰Р°РµРјРѕСЃС‚СЊ СЃР°Р№С‚Р° РІС‹СЂРѕСЃР»Р° РґРѕ 150 СѓРЅРёРєР°Р»СЊРЅС‹С… РїРѕСЃРµС‚РёС‚РµР»РµР№ РІ РјРµСЃСЏС†, Р±РѕР»РµРµ 50% С„СЂР°Р· РІ РўРћРџ10.
                   </div>
                   <div style="width: 100%; height: 20px; clear: both"></div>
                   <div class="col-md-8 imgkeq">
@@ -610,11 +610,11 @@
                      <img src="../../assests/013/t2.jpg">
                   </div>
                   <div style="width: 100%; height: 20px; clear: both"></div>
-                  <p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
-                  <div class="col-md-6 navlef navar" data-id="2"> <img src="../../assests/left.png">Предыдущий кейс </div>
-                  <div class="col-md-6 navrig navar" data-id="1"> Следующий кейс<img src="../../assests/right.png"> </div>
+                  <p class="cccd">РџСЂРѕРґРІРёР¶РµРЅРёРµ РІ РїРѕРёСЃРєРѕРІС‹С… СЃРёСЃС‚РµРјР°С… РЇРЅРґРµРєСЃ Рё Google</p>
+                  <div class="col-md-6 navlef navar" data-id="2"> <img src="../../assests/left.png">РџСЂРµРґС‹РґСѓС‰РёР№ РєРµР№СЃ </div>
+                  <div class="col-md-6 navrig navar" data-id="1"> РЎР»РµРґСѓСЋС‰РёР№ РєРµР№СЃ<img src="../../assests/right.png"> </div>
                   <div class="col-md-12" style="text-align: center; margin: 0 auto;">
-                     <a class="tm_pb_button" href="#win1">Заказать услугу</a>
+                     <a class="tm_pb_button" href="#win1">Р—Р°РєР°Р·Р°С‚СЊ СѓСЃР»СѓРіСѓ</a>
                   </div>
                </div>
             </div>
@@ -626,145 +626,145 @@
    <div class="container">
       <div class="row">
          <div class="col-md-12">
-            <h3 class="title">Тарифы и цена продвижения</h3>
+            <h3 class="title">РўР°СЂРёС„С‹ Рё С†РµРЅР° РїСЂРѕРґРІРёР¶РµРЅРёСЏ</h3>
          </div>
          <div class="col-md-12">
             <div class="row">
                <div class="col-md-3 Ptabs" data-id="1">
-                  Продвижение<br>сайтов услуг
+                  РџСЂРѕРґРІРёР¶РµРЅРёРµ<br>СЃР°Р№С‚РѕРІ СѓСЃР»СѓРі
                </div>
                <div class="col-md-3 Ptabs Pactive_t" data-id="2">
-                  Продвижение<br>интернет-магазинов
+                  РџСЂРѕРґРІРёР¶РµРЅРёРµ<br>РёРЅС‚РµСЂРЅРµС‚-РјР°РіР°Р·РёРЅРѕРІ
                </div>
                <div class="col-md-3 Ptabs" data-id="3">
-                  Продвижение<br>порталов
+                  РџСЂРѕРґРІРёР¶РµРЅРёРµ<br>РїРѕСЂС‚Р°Р»РѕРІ
                </div>
                <div class="col-md-3 Ptabs" data-id="4">
-                  Комплексное SEO<br>продвижение
+                  РљРѕРјРїР»РµРєСЃРЅРѕРµ SEO<br>РїСЂРѕРґРІРёР¶РµРЅРёРµ
                </div>
             </div>
             <div class="row">
                <div class="col-md-12 Ptabk Pactive_tan" id="Pff1">
                   <div class="col-md-8">
-                     <p class="ttt">Для кого подходит услуга?</p>
-                     <p class="ddd">Для кого подходит услуга?</p>
-                     <p class="ddd">Для тех, кому нужны быстрые результаты</p>
-                     <p class="ddd">Для тех, кто устал от пустых обещаний популярных SEO агентств</p>
-                     <p class="ttt">Как строится работа:</p>
-                     <p class="ddd">Проектная группа из 4 специалистов</p>
-                     <p class="ddd">Детальные планы и отчёты</p>
-                     <p class="ddd">Прозрачная работа по продвижению сайта: вы видите всё, что происходит</p>
-                     <p class="ddd">Продвижение по 2-м моделям: “Быстрые результаты” + “Лидер тематики”</p>
-                     <p class="ttt">Результат</p>
-                     <p class="ddd">Рост трафика в 2, 3, 5, 10 раз</p>
-                     <p class="ddd">Увеличение продаж</p>
+                     <p class="ttt">Р”Р»СЏ РєРѕРіРѕ РїРѕРґС…РѕРґРёС‚ СѓСЃР»СѓРіР°?</p>
+                     <p class="ddd">Р”Р»СЏ РєРѕРіРѕ РїРѕРґС…РѕРґРёС‚ СѓСЃР»СѓРіР°?</p>
+                     <p class="ddd">Р”Р»СЏ С‚РµС…, РєРѕРјСѓ РЅСѓР¶РЅС‹ Р±С‹СЃС‚СЂС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹</p>
+                     <p class="ddd">Р”Р»СЏ С‚РµС…, РєС‚Рѕ СѓСЃС‚Р°Р» РѕС‚ РїСѓСЃС‚С‹С… РѕР±РµС‰Р°РЅРёР№ РїРѕРїСѓР»СЏСЂРЅС‹С… SEO Р°РіРµРЅС‚СЃС‚РІ</p>
+                     <p class="ttt">РљР°Рє СЃС‚СЂРѕРёС‚СЃСЏ СЂР°Р±РѕС‚Р°:</p>
+                     <p class="ddd">РџСЂРѕРµРєС‚РЅР°СЏ РіСЂСѓРїРїР° РёР· 4 СЃРїРµС†РёР°Р»РёСЃС‚РѕРІ</p>
+                     <p class="ddd">Р”РµС‚Р°Р»СЊРЅС‹Рµ РїР»Р°РЅС‹ Рё РѕС‚С‡С‘С‚С‹</p>
+                     <p class="ddd">РџСЂРѕР·СЂР°С‡РЅР°СЏ СЂР°Р±РѕС‚Р° РїРѕ РїСЂРѕРґРІРёР¶РµРЅРёСЋ СЃР°Р№С‚Р°: РІС‹ РІРёРґРёС‚Рµ РІСЃС‘, С‡С‚Рѕ РїСЂРѕРёСЃС…РѕРґРёС‚</p>
+                     <p class="ddd">РџСЂРѕРґРІРёР¶РµРЅРёРµ РїРѕ 2-Рј РјРѕРґРµР»СЏРј: вЂњР‘С‹СЃС‚СЂС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹вЂќ + вЂњР›РёРґРµСЂ С‚РµРјР°С‚РёРєРёвЂќ</p>
+                     <p class="ttt">Р РµР·СѓР»СЊС‚Р°С‚</p>
+                     <p class="ddd">Р РѕСЃС‚ С‚СЂР°С„РёРєР° РІ 2, 3, 5, 10 СЂР°Р·</p>
+                     <p class="ddd">РЈРІРµР»РёС‡РµРЅРёРµ РїСЂРѕРґР°Р¶</p>
                   </div>
                   <div class="col-md-4">
-                     <p class="ttt">Что входит</p>
-                     <p class="ddd">Аудит</p>
-                     <p class="ddd">Разработка стратегии продвижения</p>
-                     <p class="ddd">Составление семантического ядра</p>
-                     <p class="ddd">Написание SEO контента</p>
-                     <p class="ddd">Аналитика и повышение конверсии</p>
+                     <p class="ttt">Р§С‚Рѕ РІС…РѕРґРёС‚</p>
+                     <p class="ddd">РђСѓРґРёС‚</p>
+                     <p class="ddd">Р Р°Р·СЂР°Р±РѕС‚РєР° СЃС‚СЂР°С‚РµРіРёРё РїСЂРѕРґРІРёР¶РµРЅРёСЏ</p>
+                     <p class="ddd">РЎРѕСЃС‚Р°РІР»РµРЅРёРµ СЃРµРјР°РЅС‚РёС‡РµСЃРєРѕРіРѕ СЏРґСЂР°</p>
+                     <p class="ddd">РќР°РїРёСЃР°РЅРёРµ SEO РєРѕРЅС‚РµРЅС‚Р°</p>
+                     <p class="ddd">РђРЅР°Р»РёС‚РёРєР° Рё РїРѕРІС‹С€РµРЅРёРµ РєРѕРЅРІРµСЂСЃРёРё</p>
                      <p class="ddd">SERM</p>
-                     <p class="ttt">от 25 000 руб./месяц</p>
+                     <p class="ttt">РѕС‚ 25 000 СЂСѓР±./РјРµСЃСЏС†</p>
                      <div style="width: 100%; height: 50px; clear:both"></div>
-                     <a class="tm_pb_button" href="">Заказать услугу</a>
+                     <a class="tm_pb_button" href="">Р—Р°РєР°Р·Р°С‚СЊ СѓСЃР»СѓРіСѓ</a>
                      <div style="width: 100%; height: 30px; clear:both"></div>
-                     <p class="gre">*Первые результаты через 2 мес.</p>
+                     <p class="gre">*РџРµСЂРІС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹ С‡РµСЂРµР· 2 РјРµСЃ.</p>
                   </div>
                </div>
                <div class="col-md-12 Ptabk Pactive_ta" id="Pff2">
                   <div class="col-md-8">
-                     <p class="ttt">Для кого подходит услуга?</p>
-                     <p class="ddd">Для кого подходит услуга?</p>
-                     <p class="ddd">Для тех, кому нужны быстрые результаты</p>
-                     <p class="ddd">Для тех, кто устал от пустых обещаний популярных SEO агентств</p>
-                     <p class="ttt">Как строится работа:</p>
-                     <p class="ddd">Проектная группа из 5 специалистов</p>
-                     <p class="ddd">Детальные планы и отчёты</p>
-                     <p class="ddd">Прозрачная работа по продвижению сайта: вы видите всё, что происходит</p>
-                     <p class="ddd">Продвижение по 2-м моделям: “Быстрые результаты” + “Лидер тематики”</p>
-                     <p class="ttt">Результат</p>
-                     <p class="ddd">Рост трафика в 2, 3, 5, 10 раз</p>
-                     <p class="ddd">Увеличение продаж</p>
+                     <p class="ttt">Р”Р»СЏ РєРѕРіРѕ РїРѕРґС…РѕРґРёС‚ СѓСЃР»СѓРіР°?</p>
+                     <p class="ddd">Р”Р»СЏ РєРѕРіРѕ РїРѕРґС…РѕРґРёС‚ СѓСЃР»СѓРіР°?</p>
+                     <p class="ddd">Р”Р»СЏ С‚РµС…, РєРѕРјСѓ РЅСѓР¶РЅС‹ Р±С‹СЃС‚СЂС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹</p>
+                     <p class="ddd">Р”Р»СЏ С‚РµС…, РєС‚Рѕ СѓСЃС‚Р°Р» РѕС‚ РїСѓСЃС‚С‹С… РѕР±РµС‰Р°РЅРёР№ РїРѕРїСѓР»СЏСЂРЅС‹С… SEO Р°РіРµРЅС‚СЃС‚РІ</p>
+                     <p class="ttt">РљР°Рє СЃС‚СЂРѕРёС‚СЃСЏ СЂР°Р±РѕС‚Р°:</p>
+                     <p class="ddd">РџСЂРѕРµРєС‚РЅР°СЏ РіСЂСѓРїРїР° РёР· 5 СЃРїРµС†РёР°Р»РёСЃС‚РѕРІ</p>
+                     <p class="ddd">Р”РµС‚Р°Р»СЊРЅС‹Рµ РїР»Р°РЅС‹ Рё РѕС‚С‡С‘С‚С‹</p>
+                     <p class="ddd">РџСЂРѕР·СЂР°С‡РЅР°СЏ СЂР°Р±РѕС‚Р° РїРѕ РїСЂРѕРґРІРёР¶РµРЅРёСЋ СЃР°Р№С‚Р°: РІС‹ РІРёРґРёС‚Рµ РІСЃС‘, С‡С‚Рѕ РїСЂРѕРёСЃС…РѕРґРёС‚</p>
+                     <p class="ddd">РџСЂРѕРґРІРёР¶РµРЅРёРµ РїРѕ 2-Рј РјРѕРґРµР»СЏРј: вЂњР‘С‹СЃС‚СЂС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹вЂќ + вЂњР›РёРґРµСЂ С‚РµРјР°С‚РёРєРёвЂќ</p>
+                     <p class="ttt">Р РµР·СѓР»СЊС‚Р°С‚</p>
+                     <p class="ddd">Р РѕСЃС‚ С‚СЂР°С„РёРєР° РІ 2, 3, 5, 10 СЂР°Р·</p>
+                     <p class="ddd">РЈРІРµР»РёС‡РµРЅРёРµ РїСЂРѕРґР°Р¶</p>
                   </div>
                   <div class="col-md-4">
-                     <p class="ttt">Что входит</p>
-                     <p class="ddd">Аудит</p>
-                     <p class="ddd">Разработка стратегии продвижения</p>
+                     <p class="ttt">Р§С‚Рѕ РІС…РѕРґРёС‚</p>
+                     <p class="ddd">РђСѓРґРёС‚</p>
+                     <p class="ddd">Р Р°Р·СЂР°Р±РѕС‚РєР° СЃС‚СЂР°С‚РµРіРёРё РїСЂРѕРґРІРёР¶РµРЅРёСЏ</p>
                      <p class="ddd">SERM</p>
-                     <p class="ddd">Составление семантического ядра</p>
-                     <p class="ddd">Разработка SEO модулей</p>
-                     <p class="ddd">Написание SEO контента</p>
-                     <p class="ddd">Аналитика и повышение конверсии</p>
-                     <p class="ttt">от 30 000 руб./месяц</p>
+                     <p class="ddd">РЎРѕСЃС‚Р°РІР»РµРЅРёРµ СЃРµРјР°РЅС‚РёС‡РµСЃРєРѕРіРѕ СЏРґСЂР°</p>
+                     <p class="ddd">Р Р°Р·СЂР°Р±РѕС‚РєР° SEO РјРѕРґСѓР»РµР№</p>
+                     <p class="ddd">РќР°РїРёСЃР°РЅРёРµ SEO РєРѕРЅС‚РµРЅС‚Р°</p>
+                     <p class="ddd">РђРЅР°Р»РёС‚РёРєР° Рё РїРѕРІС‹С€РµРЅРёРµ РєРѕРЅРІРµСЂСЃРёРё</p>
+                     <p class="ttt">РѕС‚ 30 000 СЂСѓР±./РјРµСЃСЏС†</p>
                      <div style="width: 100%; height: 50px; clear:both"></div>
-                     <a class="tm_pb_button" href="">Заказать услугу</a>
+                     <a class="tm_pb_button" href="">Р—Р°РєР°Р·Р°С‚СЊ СѓСЃР»СѓРіСѓ</a>
                      <div style="width: 100%; height: 30px; clear:both"></div>
-                     <p class="gre">*Первые результаты через 2 мес.</p>
+                     <p class="gre">*РџРµСЂРІС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹ С‡РµСЂРµР· 2 РјРµСЃ.</p>
                   </div>
                </div>
                <div class="col-md-12 Ptabk Pactive_tan" id="Pff3">
                   <div class="col-md-8">
-                     <p class="ttt">Для кого подходит услуга?</p>
-                     <p class="ddd">Для кого подходит услуга?</p>
-                     <p class="ddd">Для тех, кому нужны быстрые результаты</p>
-                     <p class="ddd">Для тех, кто устал от пустых обещаний популярных SEO агентств</p>
-                     <p class="ttt">Как строится работа:</p>
-                     <p class="ddd">Проектная группа из 6 специалистов</p>
-                     <p class="ddd">Детальные планы и отчёты</p>
-                     <p class="ddd">Автоматизация продвижения сайта</p>
-                     <p class="ddd">Прозрачная работа по продвижению сайта: вы видите всё, что происходит</p>
-                     <p class="ddd">Продвижение по 2-м моделям: “Быстрые результаты” + “Лидер тематики”</p>
-                     <p class="ttt">Результат</p>
-                     <p class="ddd">Рост трафика в 2, 3, 5, 10 раз</p>
-                     <p class="ddd">Увеличение продаж</p>
+                     <p class="ttt">Р”Р»СЏ РєРѕРіРѕ РїРѕРґС…РѕРґРёС‚ СѓСЃР»СѓРіР°?</p>
+                     <p class="ddd">Р”Р»СЏ РєРѕРіРѕ РїРѕРґС…РѕРґРёС‚ СѓСЃР»СѓРіР°?</p>
+                     <p class="ddd">Р”Р»СЏ С‚РµС…, РєРѕРјСѓ РЅСѓР¶РЅС‹ Р±С‹СЃС‚СЂС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹</p>
+                     <p class="ddd">Р”Р»СЏ С‚РµС…, РєС‚Рѕ СѓСЃС‚Р°Р» РѕС‚ РїСѓСЃС‚С‹С… РѕР±РµС‰Р°РЅРёР№ РїРѕРїСѓР»СЏСЂРЅС‹С… SEO Р°РіРµРЅС‚СЃС‚РІ</p>
+                     <p class="ttt">РљР°Рє СЃС‚СЂРѕРёС‚СЃСЏ СЂР°Р±РѕС‚Р°:</p>
+                     <p class="ddd">РџСЂРѕРµРєС‚РЅР°СЏ РіСЂСѓРїРїР° РёР· 6 СЃРїРµС†РёР°Р»РёСЃС‚РѕРІ</p>
+                     <p class="ddd">Р”РµС‚Р°Р»СЊРЅС‹Рµ РїР»Р°РЅС‹ Рё РѕС‚С‡С‘С‚С‹</p>
+                     <p class="ddd">РђРІС‚РѕРјР°С‚РёР·Р°С†РёСЏ РїСЂРѕРґРІРёР¶РµРЅРёСЏ СЃР°Р№С‚Р°</p>
+                     <p class="ddd">РџСЂРѕР·СЂР°С‡РЅР°СЏ СЂР°Р±РѕС‚Р° РїРѕ РїСЂРѕРґРІРёР¶РµРЅРёСЋ СЃР°Р№С‚Р°: РІС‹ РІРёРґРёС‚Рµ РІСЃС‘, С‡С‚Рѕ РїСЂРѕРёСЃС…РѕРґРёС‚</p>
+                     <p class="ddd">РџСЂРѕРґРІРёР¶РµРЅРёРµ РїРѕ 2-Рј РјРѕРґРµР»СЏРј: вЂњР‘С‹СЃС‚СЂС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹вЂќ + вЂњР›РёРґРµСЂ С‚РµРјР°С‚РёРєРёвЂќ</p>
+                     <p class="ttt">Р РµР·СѓР»СЊС‚Р°С‚</p>
+                     <p class="ddd">Р РѕСЃС‚ С‚СЂР°С„РёРєР° РІ 2, 3, 5, 10 СЂР°Р·</p>
+                     <p class="ddd">РЈРІРµР»РёС‡РµРЅРёРµ РїСЂРѕРґР°Р¶</p>
                   </div>
                   <div class="col-md-4">
-                     <p class="ttt">Что входит</p>
-                     <p class="ddd">Аудит</p>
-                     <p class="ddd">Разработка стратегии продвижения</p>
-                     <p class="ddd">Составление семантического ядра</p>
-                     <p class="ddd">Разработка SEO модулей</p>
-                     <p class="ddd">Написание SEO контента</p>
-                     <p class="ddd">Аналитика и повышение конверсии</p>
-                     <p class="ttt">от 50 000 руб./месяц</p>
+                     <p class="ttt">Р§С‚Рѕ РІС…РѕРґРёС‚</p>
+                     <p class="ddd">РђСѓРґРёС‚</p>
+                     <p class="ddd">Р Р°Р·СЂР°Р±РѕС‚РєР° СЃС‚СЂР°С‚РµРіРёРё РїСЂРѕРґРІРёР¶РµРЅРёСЏ</p>
+                     <p class="ddd">РЎРѕСЃС‚Р°РІР»РµРЅРёРµ СЃРµРјР°РЅС‚РёС‡РµСЃРєРѕРіРѕ СЏРґСЂР°</p>
+                     <p class="ddd">Р Р°Р·СЂР°Р±РѕС‚РєР° SEO РјРѕРґСѓР»РµР№</p>
+                     <p class="ddd">РќР°РїРёСЃР°РЅРёРµ SEO РєРѕРЅС‚РµРЅС‚Р°</p>
+                     <p class="ddd">РђРЅР°Р»РёС‚РёРєР° Рё РїРѕРІС‹С€РµРЅРёРµ РєРѕРЅРІРµСЂСЃРёРё</p>
+                     <p class="ttt">РѕС‚ 50 000 СЂСѓР±./РјРµСЃСЏС†</p>
                      <div style="width: 100%; height: 50px; clear:both"></div>
-                     <a class="tm_pb_button" href="">Заказать услугу</a>
+                     <a class="tm_pb_button" href="">Р—Р°РєР°Р·Р°С‚СЊ СѓСЃР»СѓРіСѓ</a>
                      <div style="width: 100%; height: 30px; clear:both"></div>
-                     <p class="gre">*Первые результаты через 2 мес.</p>
+                     <p class="gre">*РџРµСЂРІС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹ С‡РµСЂРµР· 2 РјРµСЃ.</p>
                   </div>
                </div>
                <div class="col-md-12 Ptabk Pactive_tan" id="Pff4">
                   <div class="col-md-8">
-                     <p class="ttt">Для кого подходит услуга?</p>
-                     <p class="ddd">Для кого подходит услуга?</p>
-                     <p class="ddd">Для тех, кому нужны быстрые результаты</p>
-                     <p class="ddd">Для тех, кто устал от пустых обещаний популярных SEO агентств</p>
-                     <p class="ttt">Как строится работа:</p>
-                     <p class="ddd">Проектная группа из 6 специалистов</p>
-                     <p class="ddd">Детальные планы и отчёты</p>
-                     <p class="ddd">Создание учебной системы, которая позволят самостоятельно расширять отдел</p>
-                     <p class="ddd">Автоматизация продвижения сайта</p>
-                     <p class="ddd">Продвижение по 2-м моделям: “Быстрые результаты” + “Лидер тематики”</p>
-                     <p class="ttt">Результат</p>
-                     <p class="ddd">Рост трафика в 2, 3, 5, 10 раз</p>
-                     <p class="ddd">Увеличение продаж</p>
-                     <p class="ddd">функционирующий отдел SEO</p>
+                     <p class="ttt">Р”Р»СЏ РєРѕРіРѕ РїРѕРґС…РѕРґРёС‚ СѓСЃР»СѓРіР°?</p>
+                     <p class="ddd">Р”Р»СЏ РєРѕРіРѕ РїРѕРґС…РѕРґРёС‚ СѓСЃР»СѓРіР°?</p>
+                     <p class="ddd">Р”Р»СЏ С‚РµС…, РєРѕРјСѓ РЅСѓР¶РЅС‹ Р±С‹СЃС‚СЂС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹</p>
+                     <p class="ddd">Р”Р»СЏ С‚РµС…, РєС‚Рѕ СѓСЃС‚Р°Р» РѕС‚ РїСѓСЃС‚С‹С… РѕР±РµС‰Р°РЅРёР№ РїРѕРїСѓР»СЏСЂРЅС‹С… SEO Р°РіРµРЅС‚СЃС‚РІ</p>
+                     <p class="ttt">РљР°Рє СЃС‚СЂРѕРёС‚СЃСЏ СЂР°Р±РѕС‚Р°:</p>
+                     <p class="ddd">РџСЂРѕРµРєС‚РЅР°СЏ РіСЂСѓРїРїР° РёР· 6 СЃРїРµС†РёР°Р»РёСЃС‚РѕРІ</p>
+                     <p class="ddd">Р”РµС‚Р°Р»СЊРЅС‹Рµ РїР»Р°РЅС‹ Рё РѕС‚С‡С‘С‚С‹</p>
+                     <p class="ddd">РЎРѕР·РґР°РЅРёРµ СѓС‡РµР±РЅРѕР№ СЃРёСЃС‚РµРјС‹, РєРѕС‚РѕСЂР°СЏ РїРѕР·РІРѕР»СЏС‚ СЃР°РјРѕСЃС‚РѕСЏС‚РµР»СЊРЅРѕ СЂР°СЃС€РёСЂСЏС‚СЊ РѕС‚РґРµР»</p>
+                     <p class="ddd">РђРІС‚РѕРјР°С‚РёР·Р°С†РёСЏ РїСЂРѕРґРІРёР¶РµРЅРёСЏ СЃР°Р№С‚Р°</p>
+                     <p class="ddd">РџСЂРѕРґРІРёР¶РµРЅРёРµ РїРѕ 2-Рј РјРѕРґРµР»СЏРј: вЂњР‘С‹СЃС‚СЂС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹вЂќ + вЂњР›РёРґРµСЂ С‚РµРјР°С‚РёРєРёвЂќ</p>
+                     <p class="ttt">Р РµР·СѓР»СЊС‚Р°С‚</p>
+                     <p class="ddd">Р РѕСЃС‚ С‚СЂР°С„РёРєР° РІ 2, 3, 5, 10 СЂР°Р·</p>
+                     <p class="ddd">РЈРІРµР»РёС‡РµРЅРёРµ РїСЂРѕРґР°Р¶</p>
+                     <p class="ddd">С„СѓРЅРєС†РёРѕРЅРёСЂСѓСЋС‰РёР№ РѕС‚РґРµР» SEO</p>
                   </div>
                   <div class="col-md-4">
-                     <p class="ttt">Что входит</p>
-                     <p class="ddd">Разработка стратегии продвижения</p>
-                     <p class="ddd">Обучение сотрудников, создание учебных материалов</p>
-                     <p class="ddd">Формирование команды, запуск продвижения</p>
-                     <p class="ddd">Совместное продвижение в течение 3-х месяцев</p>
-                     <p class="ddd">Сопровождение работы отдела</p>
-                     <p class="ttt">от 100 000 руб./месяц</p>
+                     <p class="ttt">Р§С‚Рѕ РІС…РѕРґРёС‚</p>
+                     <p class="ddd">Р Р°Р·СЂР°Р±РѕС‚РєР° СЃС‚СЂР°С‚РµРіРёРё РїСЂРѕРґРІРёР¶РµРЅРёСЏ</p>
+                     <p class="ddd">РћР±СѓС‡РµРЅРёРµ СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ, СЃРѕР·РґР°РЅРёРµ СѓС‡РµР±РЅС‹С… РјР°С‚РµСЂРёР°Р»РѕРІ</p>
+                     <p class="ddd">Р¤РѕСЂРјРёСЂРѕРІР°РЅРёРµ РєРѕРјР°РЅРґС‹, Р·Р°РїСѓСЃРє РїСЂРѕРґРІРёР¶РµРЅРёСЏ</p>
+                     <p class="ddd">РЎРѕРІРјРµСЃС‚РЅРѕРµ РїСЂРѕРґРІРёР¶РµРЅРёРµ РІ С‚РµС‡РµРЅРёРµ 3-С… РјРµСЃСЏС†РµРІ</p>
+                     <p class="ddd">РЎРѕРїСЂРѕРІРѕР¶РґРµРЅРёРµ СЂР°Р±РѕС‚С‹ РѕС‚РґРµР»Р°</p>
+                     <p class="ttt">РѕС‚ 100 000 СЂСѓР±./РјРµСЃСЏС†</p>
                      <div style="width: 100%; height: 50px; clear:both"></div>
-                     <a class="tm_pb_button" href="">Заказать услугу</a>
+                     <a class="tm_pb_button" href="">Р—Р°РєР°Р·Р°С‚СЊ СѓСЃР»СѓРіСѓ</a>
                      <div style="width: 100%; height: 30px; clear:both"></div>
-                     <p class="gre">*Первые результаты через 2 мес.</p>
+                     <p class="gre">*РџРµСЂРІС‹Рµ СЂРµР·СѓР»СЊС‚Р°С‚С‹ С‡РµСЂРµР· 2 РјРµСЃ.</p>
                   </div>
                </div>
             </div>
@@ -776,7 +776,7 @@
    <div class="container">
       <div class="row">
          <div class="col-md-12">
-            <h3 class="title">Отзывы о нашей работе</h3>
+            <h3 class="title">РћС‚Р·С‹РІС‹ Рѕ РЅР°С€РµР№ СЂР°Р±РѕС‚Рµ</h3>
          </div>
          <div class="video-reviews-block" style="margin-top: 50px; justify-content: center !important;">
             <div class="video-review">
@@ -785,10 +785,10 @@
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/jX8QZG4JXHY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                </div>
                <div class="vr-title">
-                  Сеть оптик Kalinza.ru
+                  РЎРµС‚СЊ РѕРїС‚РёРє Kalinza.ru
                </div>
                <p class="comp-work">
-                  Разработка сайта на CMS Bitrix
+                  Р Р°Р·СЂР°Р±РѕС‚РєР° СЃР°Р№С‚Р° РЅР° CMS Bitrix
                </p>
             </div>
             <div class="video-review">
@@ -797,10 +797,10 @@
                   <iframe width="560" height="315" src="https://www.youtube.com/embed/XaxNwe8O6Vw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                </div>
                <div class="vr-title">
-                  Кредитный брокер Trillion-ug.ru
+                  РљСЂРµРґРёС‚РЅС‹Р№ Р±СЂРѕРєРµСЂ Trillion-ug.ru
                </div>
                <p class="comp-work">
-                  Доработка сайта и SEO продвижение сайта с нуля
+                  Р”РѕСЂР°Р±РѕС‚РєР° СЃР°Р№С‚Р° Рё SEO РїСЂРѕРґРІРёР¶РµРЅРёРµ СЃР°Р№С‚Р° СЃ РЅСѓР»СЏ
                </p>
             </div>
          </div>
@@ -812,21 +812,21 @@
    <div class="container">
       <div class="row">
          <div class="col-md-12">
-            <h3 class="title">3 причины обратиться к нам</h3>
+            <h3 class="title">3 РїСЂРёС‡РёРЅС‹ РѕР±СЂР°С‚РёС‚СЊСЃСЏ Рє РЅР°Рј</h3>
          </div>
          <div class="col-md-12">
             <div class="row">
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/noun_deadline.png">
-                  <p class="tit"> Ответственность — мы соблюдаем заявленные сроки, полностью выполняем обязательства</p>
+                  <p class="tit"> РћС‚РІРµС‚СЃС‚РІРµРЅРЅРѕСЃС‚СЊ вЂ” РјС‹ СЃРѕР±Р»СЋРґР°РµРј Р·Р°СЏРІР»РµРЅРЅС‹Рµ СЃСЂРѕРєРё, РїРѕР»РЅРѕСЃС‚СЊСЋ РІС‹РїРѕР»РЅСЏРµРј РѕР±СЏР·Р°С‚РµР»СЊСЃС‚РІР°</p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/noun_report.png">
-                  <p class="tit"> Профессионализм — у нас работают специалисты, нацеленные на результат</p>
+                  <p class="tit"> РџСЂРѕС„РµСЃСЃРёРѕРЅР°Р»РёР·Рј вЂ” Сѓ РЅР°СЃ СЂР°Р±РѕС‚Р°СЋС‚ СЃРїРµС†РёР°Р»РёСЃС‚С‹, РЅР°С†РµР»РµРЅРЅС‹Рµ РЅР° СЂРµР·СѓР»СЊС‚Р°С‚</p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
                   <img src="../../assests/noun_Clients_Consulting.png">
-                  <p class="tit"> Эффективность продвижения — мы гарантируем максимальный охват целевой аудитории</p>
+                  <p class="tit"> Р­С„С„РµРєС‚РёРІРЅРѕСЃС‚СЊ РїСЂРѕРґРІРёР¶РµРЅРёСЏ вЂ” РјС‹ РіР°СЂР°РЅС‚РёСЂСѓРµРј РјР°РєСЃРёРјР°Р»СЊРЅС‹Р№ РѕС…РІР°С‚ С†РµР»РµРІРѕР№ Р°СѓРґРёС‚РѕСЂРёРё</p>
                </div>
             </div>
          </div>
@@ -837,20 +837,20 @@
    <div class="container">
       <div class="row">
          <div class="col-md-12 fpfppf">
-            <h2>Как мы достигаем целей?</h2>
-            <p class="ffffe">Необходимо понимать, что алгоритмы поисковых систем меняются, и сегодня процедура раскрутки заметно усложнилась. Чтобы продвинуть сайт в ТОП в Москве нужно постараться.</p>
-            <p class="ffffe">Для развития вашего бизнеса предлагаем заказать услуги продвижения, раскрутки сайта по доступной цене. Мы постоянно совершенствуем свою работу, учитываем малейшие изменения в ранжировании и 
-               предлагаем клиентам эффективные стратегии.
+            <h2>РљР°Рє РјС‹ РґРѕСЃС‚РёРіР°РµРј С†РµР»РµР№?</h2>
+            <p class="ffffe">РќРµРѕР±С…РѕРґРёРјРѕ РїРѕРЅРёРјР°С‚СЊ, С‡С‚Рѕ Р°Р»РіРѕСЂРёС‚РјС‹ РїРѕРёСЃРєРѕРІС‹С… СЃРёСЃС‚РµРј РјРµРЅСЏСЋС‚СЃСЏ, Рё СЃРµРіРѕРґРЅСЏ РїСЂРѕС†РµРґСѓСЂР° СЂР°СЃРєСЂСѓС‚РєРё Р·Р°РјРµС‚РЅРѕ СѓСЃР»РѕР¶РЅРёР»Р°СЃСЊ. Р§С‚РѕР±С‹ РїСЂРѕРґРІРёРЅСѓС‚СЊ СЃР°Р№С‚ РІ РўРћРџ РІ РњРѕСЃРєРІРµ РЅСѓР¶РЅРѕ РїРѕСЃС‚Р°СЂР°С‚СЊСЃСЏ.</p>
+            <p class="ffffe">Р”Р»СЏ СЂР°Р·РІРёС‚РёСЏ РІР°С€РµРіРѕ Р±РёР·РЅРµСЃР° РїСЂРµРґР»Р°РіР°РµРј Р·Р°РєР°Р·Р°С‚СЊ СѓСЃР»СѓРіРё РїСЂРѕРґРІРёР¶РµРЅРёСЏ, СЂР°СЃРєСЂСѓС‚РєРё СЃР°Р№С‚Р° РїРѕ РґРѕСЃС‚СѓРїРЅРѕР№ С†РµРЅРµ. РњС‹ РїРѕСЃС‚РѕСЏРЅРЅРѕ СЃРѕРІРµСЂС€РµРЅСЃС‚РІСѓРµРј СЃРІРѕСЋ СЂР°Р±РѕС‚Сѓ, СѓС‡РёС‚С‹РІР°РµРј РјР°Р»РµР№С€РёРµ РёР·РјРµРЅРµРЅРёСЏ РІ СЂР°РЅР¶РёСЂРѕРІР°РЅРёРё Рё 
+               РїСЂРµРґР»Р°РіР°РµРј РєР»РёРµРЅС‚Р°Рј СЌС„С„РµРєС‚РёРІРЅС‹Рµ СЃС‚СЂР°С‚РµРіРёРё.
             </p>
-            <p class="ffffe">Наши специалисты занимаются тщательным анализом сайта и ресурсов конкурентов, проводят эксперименты, внедряют новое и совершенствуют имеющееся.</p>
-            <p class="ffffe">Мы готовы предложить вам:</p>
+            <p class="ffffe">РќР°С€Рё СЃРїРµС†РёР°Р»РёСЃС‚С‹ Р·Р°РЅРёРјР°СЋС‚СЃСЏ С‚С‰Р°С‚РµР»СЊРЅС‹Рј Р°РЅР°Р»РёР·РѕРј СЃР°Р№С‚Р° Рё СЂРµСЃСѓСЂСЃРѕРІ РєРѕРЅРєСѓСЂРµРЅС‚РѕРІ, РїСЂРѕРІРѕРґСЏС‚ СЌРєСЃРїРµСЂРёРјРµРЅС‚С‹, РІРЅРµРґСЂСЏСЋС‚ РЅРѕРІРѕРµ Рё СЃРѕРІРµСЂС€РµРЅСЃС‚РІСѓСЋС‚ РёРјРµСЋС‰РµРµСЃСЏ.</p>
+            <p class="ffffe">РњС‹ РіРѕС‚РѕРІС‹ РїСЂРµРґР»РѕР¶РёС‚СЊ РІР°Рј:</p>
             <ul class="ffffe">
-               <li><b>•</b>  надежную SEO-раскрутку сайта по конкурентной цене;</li>
-               <li><b>•</b>  полную консультативную поддержку;</li>
-               <li><b>•</b>  работу опытных специалистов.</li>
+               <li><b>вЂў</b>  РЅР°РґРµР¶РЅСѓСЋ SEO-СЂР°СЃРєСЂСѓС‚РєСѓ СЃР°Р№С‚Р° РїРѕ РєРѕРЅРєСѓСЂРµРЅС‚РЅРѕР№ С†РµРЅРµ;</li>
+               <li><b>вЂў</b>  РїРѕР»РЅСѓСЋ РєРѕРЅСЃСѓР»СЊС‚Р°С‚РёРІРЅСѓСЋ РїРѕРґРґРµСЂР¶РєСѓ;</li>
+               <li><b>вЂў</b>  СЂР°Р±РѕС‚Сѓ РѕРїС‹С‚РЅС‹С… СЃРїРµС†РёР°Р»РёСЃС‚РѕРІ.</li>
             </ul>
-            <p class="ffffe">Мы используем белые методы продвижения, обеспечиваем проектам постоянный рост трафика.</p>
-            <p class="ffffe">Доказательством качества нашей работы служат веб-ресурсы наших клиентов, занимающие высокие позиции в выдаче.</p>
+            <p class="ffffe">РњС‹ РёСЃРїРѕР»СЊР·СѓРµРј Р±РµР»С‹Рµ РјРµС‚РѕРґС‹ РїСЂРѕРґРІРёР¶РµРЅРёСЏ, РѕР±РµСЃРїРµС‡РёРІР°РµРј РїСЂРѕРµРєС‚Р°Рј РїРѕСЃС‚РѕСЏРЅРЅС‹Р№ СЂРѕСЃС‚ С‚СЂР°С„РёРєР°.</p>
+            <p class="ffffe">Р”РѕРєР°Р·Р°С‚РµР»СЊСЃС‚РІРѕРј РєР°С‡РµСЃС‚РІР° РЅР°С€РµР№ СЂР°Р±РѕС‚С‹ СЃР»СѓР¶Р°С‚ РІРµР±-СЂРµСЃСѓСЂСЃС‹ РЅР°С€РёС… РєР»РёРµРЅС‚РѕРІ, Р·Р°РЅРёРјР°СЋС‰РёРµ РІС‹СЃРѕРєРёРµ РїРѕР·РёС†РёРё РІ РІС‹РґР°С‡Рµ.</p>
          </div>
       </div>
    </div>
@@ -859,30 +859,30 @@
    <div class="container">
       <div class="row">
          <div class="col-md-12">
-            <p class="title">Остались вопросы? Напишите нам!</p>
+            <p class="title">РћСЃС‚Р°Р»РёСЃСЊ РІРѕРїСЂРѕСЃС‹? РќР°РїРёС€РёС‚Рµ РЅР°Рј!</p>
          </div>
          <div class="col-md-12 fomrbut">
             <form action="/mail_post.php" method="post">
                <div class="col-md-4">
-                  <input type="text" name="your-name" placeholder="Ваше имя" required="">
+                  <input type="text" name="your-name" placeholder="Р’Р°С€Рµ РёРјСЏ" required="">
                </div>
                <div class="col-md-4">
-                  <input type="text" name="your-phone" placeholder="Телефон" required="">
+                  <input type="text" name="your-phone" placeholder="РўРµР»РµС„РѕРЅ" required="">
                </div>
                <div class="col-md-4">
-                  <input type="text" name="your-email" placeholder="Почта" required="">
+                  <input type="text" name="your-email" placeholder="РџРѕС‡С‚Р°" required="">
                </div>
                <p style="display:none;">
                   <input type="text" name="name" value="">
                </p>
                <div class="col-md-12" style="padding: 20px 15px;">
-                  <textarea cols="30" rows="10" name="your-message" placeholder="Напишите ваш вопрос для наших специалистов" required=""></textarea>
+                  <textarea cols="30" rows="10" name="your-message" placeholder="РќР°РїРёС€РёС‚Рµ РІР°С€ РІРѕРїСЂРѕСЃ РґР»СЏ РЅР°С€РёС… СЃРїРµС†РёР°Р»РёСЃС‚РѕРІ" required=""></textarea>
                </div>
                <div class="col-md-12" style="text-align: left;">
-                  Нажимая на кнопку Отправить заявку, я даю согласие на обработку персональных данных
+                  РќР°Р¶РёРјР°СЏ РЅР° РєРЅРѕРїРєСѓ РћС‚РїСЂР°РІРёС‚СЊ Р·Р°СЏРІРєСѓ, СЏ РґР°СЋ СЃРѕРіР»Р°СЃРёРµ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…
                </div>
                <div class="col-md-12" style="text-align: center;">
-                  <input type="submit" class="tm_pb_button" name="" value="Отправить заявку" style="max-width: 255px;" onclick="ym(45994323, 'reachGoal', 'otpravkakont'); return true;">
+                  <input type="submit" class="tm_pb_button" name="" value="РћС‚РїСЂР°РІРёС‚СЊ Р·Р°СЏРІРєСѓ" style="max-width: 255px;" onclick="ym(45994323, 'reachGoal', 'otpravkakont'); return true;">
                </div>
             </form>
          </div>
@@ -897,15 +897,15 @@
       <div class="row">
          <div class="col-md-4">
             <div class="text">
-               <p class="title_wh_left">Контакты LapkinLab</p>
+               <p class="title_wh_left">РљРѕРЅС‚Р°РєС‚С‹ LapkinLab</p>
                <p class="vvv"><br>
-                  Москва, Ленинская Слобода, д. 26<br>
-                  5 мин от метро "Автозаводская"<br>
+                  РњРѕСЃРєРІР°, Р›РµРЅРёРЅСЃРєР°СЏ РЎР»РѕР±РѕРґР°, Рґ. 26<br>
+                  5 РјРёРЅ РѕС‚ РјРµС‚СЂРѕ "РђРІС‚РѕР·Р°РІРѕРґСЃРєР°СЏ"<br>
                   <b style="font-size: 22px; "><a href="tel:88003010019" style="padding:10px 0px;">8 (800) 301-00-19</a></b><br>
-                  Письмо директору: <a href="mailto:ya@lapkinlab.ru">ya@lapkinlab.ru</a><br>
-                  Письмо по вакансиям: <a href="mailto:hr@lapkinlab.ru">hr@lapkinlab.ru</a><br>
-                  Прочие письма: <a href="mailto:mail@lapkinlab.ru">mail@lapkinlab.ru</a><br><br>
-                  Мы в социальных сетях:<br>
+                  РџРёСЃСЊРјРѕ РґРёСЂРµРєС‚РѕСЂСѓ: <a href="mailto:ya@lapkinlab.ru">ya@lapkinlab.ru</a><br>
+                  РџРёСЃСЊРјРѕ РїРѕ РІР°РєР°РЅСЃРёСЏРј: <a href="mailto:hr@lapkinlab.ru">hr@lapkinlab.ru</a><br>
+                  РџСЂРѕС‡РёРµ РїРёСЃСЊРјР°: <a href="mailto:mail@lapkinlab.ru">mail@lapkinlab.ru</a><br><br>
+                  РњС‹ РІ СЃРѕС†РёР°Р»СЊРЅС‹С… СЃРµС‚СЏС…:<br>
                   <a href="https://tele.click/lapkinlab" target="_blank" rel="noreferrer noopener"><i class="icon icon-telegram"></i></a>
                   <a href="https://tele.click/lapkinlab_test_bot" target="_blank" rel="noreferrer noopener"><i class="icon icon-telegram"></i></a>
                   <a href="https://www.instagram.com/lapkin___lab/" target="_blank" rel="noreferrer noopener"><i class="icon icon-instagram"></i></a>

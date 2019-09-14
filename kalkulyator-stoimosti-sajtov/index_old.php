@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Разработка и создание сайтов под ключ: цены в Москве, калькулятор стоимости");
-$APPLICATION->SetPageProperty("description", "Рассчитать стоимость создания сайтов от компании LapkinLab &#9997;Разработка интернет-магазинов, лендингов, корпоративных сайтов под ключ &#9997;Цены в Москве");
-$APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, калькулятор стоимости");
+$APPLICATION->SetPageProperty("title", "Р Р°Р·СЂР°Р±РѕС‚РєР° Рё СЃРѕР·РґР°РЅРёРµ СЃР°Р№С‚РѕРІ РїРѕРґ РєР»СЋС‡: С†РµРЅС‹ РІ РњРѕСЃРєРІРµ, РєР°Р»СЊРєСѓР»СЏС‚РѕСЂ СЃС‚РѕРёРјРѕСЃС‚Рё");
+$APPLICATION->SetPageProperty("description", "Р Р°СЃСЃС‡РёС‚Р°С‚СЊ СЃС‚РѕРёРјРѕСЃС‚СЊ СЃРѕР·РґР°РЅРёСЏ СЃР°Р№С‚РѕРІ РѕС‚ РєРѕРјРїР°РЅРёРё LapkinLab &#9997;Р Р°Р·СЂР°Р±РѕС‚РєР° РёРЅС‚РµСЂРЅРµС‚-РјР°РіР°Р·РёРЅРѕРІ, Р»РµРЅРґРёРЅРіРѕРІ, РєРѕСЂРїРѕСЂР°С‚РёРІРЅС‹С… СЃР°Р№С‚РѕРІ РїРѕРґ РєР»СЋС‡ &#9997;Р¦РµРЅС‹ РІ РњРѕСЃРєРІРµ");
+$APPLICATION->SetTitle("Р Р°Р·СЂР°Р±РѕС‚РєР° Рё СЃРѕР·РґР°РЅРёРµ СЃР°Р№С‚РѕРІ РїРѕРґ РєР»СЋС‡: С†РµРЅС‹ РІ РњРѕСЃРєРІРµ, РєР°Р»СЊРєСѓР»СЏС‚РѕСЂ СЃС‚РѕРёРјРѕСЃС‚Рё");
 ?>    <main>
         <div class="breadcrumbs">
             <div class="container_v2">
@@ -11,7 +11,7 @@ $APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, ка
                         <div class="breadcrumbs__wrap">
                             <div class="breadcrumbs__item">
                                 <a href="/" class="breadcrumbs__item-link is-home" rel="home"
-                                    title="Главная">Главная</a>
+                                    title="Р“Р»Р°РІРЅР°СЏ">Р“Р»Р°РІРЅР°СЏ</a>
                             </div>
                             <div class="breadcrumbs__item">
                                 <div class="breadcrumbs__item-sep">
@@ -19,7 +19,7 @@ $APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, ка
                                 </div>
                             </div>
                             <div class="breadcrumbs__item">
-                                <span class="breadcrumbs__item-target">КАЛЬКУЛЯТОР СТОИМОСТИ САЙТОВ</span>
+                                <span class="breadcrumbs__item-target">РљРђР›Р¬РљРЈР›РЇРўРћР  РЎРўРћРРњРћРЎРўР РЎРђР™РўРћР’</span>
                             </div>
                         </div>
                     </div>
@@ -30,59 +30,59 @@ $APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, ка
         <section class="calculation">
             <div class="container_v2">
                 <div class="calculation_box">
-                    <h1>Калькулятор стоимости сайтов</h1>
+                    <h1>РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ СЃС‚РѕРёРјРѕСЃС‚Рё СЃР°Р№С‚РѕРІ</h1>
                     <div class="calculation_list">
                         <div class="calculation_list_item">
-                            <span class="calculation_list_item_title">РАСЧЕТ ИНТЕРНЕТ-МАГАЗИНА</span>
+                            <span class="calculation_list_item_title">Р РђРЎР§Р•Рў РРќРўР•Р РќР•Рў-РњРђР“РђР—РРќРђ</span>
                             <div>
-                                <div class="calculation_list_item_price">Стоимость от 60 000 руб</div>
-                                <a href="https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-stoimosti-internet-magazina">открыть
-                                    калькулятор</a>
+                                <div class="calculation_list_item_price">РЎС‚РѕРёРјРѕСЃС‚СЊ РѕС‚ 60 000 СЂСѓР±</div>
+                                <a href="https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-stoimosti-internet-magazina">РѕС‚РєСЂС‹С‚СЊ
+                                    РєР°Р»СЊРєСѓР»СЏС‚РѕСЂ</a>
                             </div>
                         </div>
                         <div class="calculation_list_item">
-                            <span class="calculation_list_item_title">РАСЧЕТ КОРПОРАТИВНОГО САЙТА</span>
+                            <span class="calculation_list_item_title">Р РђРЎР§Р•Рў РљРћР РџРћР РђРўРР’РќРћР“Рћ РЎРђР™РўРђ</span>
                             <div>
-                                <div class="calculation_list_item_price">Стоимость от 45 000 руб</div>
-                                <a href="https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-korporativnogo-sajta">открыть
-                                    калькулятор</a>
+                                <div class="calculation_list_item_price">РЎС‚РѕРёРјРѕСЃС‚СЊ РѕС‚ 45 000 СЂСѓР±</div>
+                                <a href="https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-korporativnogo-sajta">РѕС‚РєСЂС‹С‚СЊ
+                                    РєР°Р»СЊРєСѓР»СЏС‚РѕСЂ</a>
                             </div>
                         </div>
                         <div class="calculation_list_item">
-                            <span class="calculation_list_item_title">РАСЧЕТ БИЗНЕС-САЙТА</span>
+                            <span class="calculation_list_item_title">Р РђРЎР§Р•Рў Р‘РР—РќР•РЎ-РЎРђР™РўРђ</span>
                             <div>
-                                <div class="calculation_list_item_price">Стоимость от 40 000 руб</div>
-                                <a href="https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-biznes-sajta">открыть калькулятор</a>
+                                <div class="calculation_list_item_price">РЎС‚РѕРёРјРѕСЃС‚СЊ РѕС‚ 40 000 СЂСѓР±</div>
+                                <a href="https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-biznes-sajta">РѕС‚РєСЂС‹С‚СЊ РєР°Р»СЊРєСѓР»СЏС‚РѕСЂ</a>
                             </div>
                         </div>
                         <div class="calculation_list_item">
-                            <span class="calculation_list_item_title">РАСЧЕТ ЛЕНДИНГА</span>
+                            <span class="calculation_list_item_title">Р РђРЎР§Р•Рў Р›Р•РќР”РРќР“Рђ</span>
                             <div>
-                                <div class="calculation_list_item_price">Стоимость от 40 000 руб</div>
-                                <a href="https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-stoimosti-lendinga">открыть калькулятор</a>
+                                <div class="calculation_list_item_price">РЎС‚РѕРёРјРѕСЃС‚СЊ РѕС‚ 40 000 СЂСѓР±</div>
+                                <a href="https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-stoimosti-lendinga">РѕС‚РєСЂС‹С‚СЊ РєР°Р»СЊРєСѓР»СЏС‚РѕСЂ</a>
                             </div>
                         </div>
                         <div class="calculation_list_item">
-                            <span class="calculation_list_item_title">РАСЧЕТ МИНИЛЕНДИНГА</span>
+                            <span class="calculation_list_item_title">Р РђРЎР§Р•Рў РњРРќРР›Р•РќР”РРќР“Рђ</span>
                             <div>
-                                <div class="calculation_list_item_price">Стоимость от 10 000 руб</div>
-                                <a href="https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-stoimosti-minilendinga">открыть
-                                    калькулятор</a>
+                                <div class="calculation_list_item_price">РЎС‚РѕРёРјРѕСЃС‚СЊ РѕС‚ 10 000 СЂСѓР±</div>
+                                <a href="https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-stoimosti-minilendinga">РѕС‚РєСЂС‹С‚СЊ
+                                    РєР°Р»СЊРєСѓР»СЏС‚РѕСЂ</a>
                             </div>
                         </div>
                     </div>
 					<link rel="stylesheet" href="<?=SITE_TEMPLATE_PATH?>/css/cd_handle.css">
                     <div  id="portfolio" class="calculation_item">
-                        <p class="calculation_item_title">Наша последняя разработка на 1С-Битрикс (Август 2018)</p>
-                        <p><a href="https://kalinza.ru/" target="_blank" rel="noopener">Интернет-магазин
-                                контактных линз Kalinza.ru</a></p>
+                        <p class="calculation_item_title">РќР°С€Р° РїРѕСЃР»РµРґРЅСЏСЏ СЂР°Р·СЂР°Р±РѕС‚РєР° РЅР° 1РЎ-Р‘РёС‚СЂРёРєСЃ (РђРІРіСѓСЃС‚ 2018)</p>
+                        <p><a href="https://kalinza.ru/" target="_blank" rel="noopener">РРЅС‚РµСЂРЅРµС‚-РјР°РіР°Р·РёРЅ
+                                РєРѕРЅС‚Р°РєС‚РЅС‹С… Р»РёРЅР· Kalinza.ru</a></p>
                         <figure class="cd-image-container is-visible">
-							<img src="/image/2.jpeg" alt="Стало после LapkinLab"><br>
-                            <span class="cd-image-label" data-type="original">Стало</span>
+							<img src="/image/2.jpeg" alt="РЎС‚Р°Р»Рѕ РїРѕСЃР»Рµ LapkinLab"><br>
+                            <span class="cd-image-label" data-type="original">РЎС‚Р°Р»Рѕ</span>
                             <p></p>
                             <div class="cd-resize-img">
-								<img src="/image/1.jpeg" alt="Было до LapkinLab"><br>
-                                <span class="cd-image-label" data-type="modified">Было</span>
+								<img src="/image/1.jpeg" alt="Р‘С‹Р»Рѕ РґРѕ LapkinLab"><br>
+                                <span class="cd-image-label" data-type="modified">Р‘С‹Р»Рѕ</span>
                             </div>
                             <p><span class="cd-handle"></span><br>
                             </p>
@@ -96,24 +96,24 @@ $APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, ка
         <section class="our_work">
             <div class="container_v2">
                 <div class="our_work_list">
-                    <h3>Некоторые из наших работ</h3>
+                    <h3>РќРµРєРѕС‚РѕСЂС‹Рµ РёР· РЅР°С€РёС… СЂР°Р±РѕС‚</h3>
                     <div class="col-md-12">
                         <div class="row">
                             <div class="our_work_col">
                                 <div><a class="hover_line" href="http://shtorku.ru/" target="_blank"
-                                        rel="noopener">Салон штор в Москве Ms.Decor</a></div>
+                                        rel="noopener">РЎР°Р»РѕРЅ С€С‚РѕСЂ РІ РњРѕСЃРєРІРµ Ms.Decor</a></div>
                                 <p><a href="http://shtorku.ru/" target="_blank" rel="noopener"><img
 									src="/image/1-1.jpeg"></a></p>
                             </div>
                             <div class="our_work_col">
                                 <div><a class="hover_line" href="http://towelpro.ru/" target="_blank"
-                                        rel="nofollow noopener">Towel Pro полотенце для занятий</a></div>
+                                        rel="nofollow noopener">Towel Pro РїРѕР»РѕС‚РµРЅС†Рµ РґР»СЏ Р·Р°РЅСЏС‚РёР№</a></div>
                                 <p><a href="http://towelpro.ru/" target="_blank" rel="nofollow noopener"><img
 									src="/image/2-1.jpeg"></a></p>
                             </div>
                             <div class="our_work_col">
                                 <div><a class="hover_line" href="http://itmngo.ru/" target="_blank"
-                                        rel="noopener">Компания IT-MANGO</a></div>
+                                        rel="noopener">РљРѕРјРїР°РЅРёСЏ IT-MANGO</a></div>
                                 <p><a href="http://itmngo.ru/" target="_blank" rel="noopener"><img
 									src="/image/3.jpeg"></a></p>
                             </div>
@@ -122,19 +122,19 @@ $APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, ка
                         <div class="row">
                             <div class="our_work_col">
                                 <div><a class="hover_line" href="http://carsnab.ru/" target="_blank"
-                                        rel="noopener">Carsnab Магазин погрузчиков и запчастей</a></div>
+                                        rel="noopener">Carsnab РњР°РіР°Р·РёРЅ РїРѕРіСЂСѓР·С‡РёРєРѕРІ Рё Р·Р°РїС‡Р°СЃС‚РµР№</a></div>
                                 <p><a href="http://carsnab.ru/" target="_blank" rel="noopener"><img
 									src="/image/4-1.jpeg"></a></p>
                             </div>
                             <div class="our_work_col">
                                 <div><a class="hover_line" href="http://musthaveframes.ru/"
-                                        target="_blank" rel="nofollow noopener">Модные мужские и женские оправы</a></div>
+                                        target="_blank" rel="nofollow noopener">РњРѕРґРЅС‹Рµ РјСѓР¶СЃРєРёРµ Рё Р¶РµРЅСЃРєРёРµ РѕРїСЂР°РІС‹</a></div>
                                 <p><a href="http://musthaveframes.ru/" target="_blank" rel="nofollow noopener"><img
 									src="/image/5-1.jpeg"></a></p>
                             </div>
                             <div class="our_work_col">
                                 <div><a class="hover_line" href="http://medic-net.ru/" target="_blank"
-                                        rel="noopener">Оформление медкнижки в Москве</a></div>
+                                        rel="noopener">РћС„РѕСЂРјР»РµРЅРёРµ РјРµРґРєРЅРёР¶РєРё РІ РњРѕСЃРєРІРµ</a></div>
                                 <p><a href="http://medic-net.ru/" target="_blank" rel="noopener"><img
 									src="/image/6-2.jpeg"></a></p>
                             </div>
@@ -143,19 +143,19 @@ $APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, ка
                         <div class="row">
                             <div class="our_work_col">
                                 <div><a class="hover_line" href="http://ecertification.ru/"
-                                        target="_blank" rel="noopener">Комфортное дистанционное обучение</a></div>
+                                        target="_blank" rel="noopener">РљРѕРјС„РѕСЂС‚РЅРѕРµ РґРёСЃС‚Р°РЅС†РёРѕРЅРЅРѕРµ РѕР±СѓС‡РµРЅРёРµ</a></div>
                                 <p><a href="http://ecertification.ru/" target="_blank" rel="noopener"><img
 									src="/image/1231231.jpeg"></a></p>
                             </div>
                             <div class="our_work_col">
                                 <div><a class="hover_line" href="https://wineandvine.ru/" target="_blank"
-                                        rel="nofollow noopener">Винный ресторан Wine&amp;Vine</a></div>
+                                        rel="nofollow noopener">Р’РёРЅРЅС‹Р№ СЂРµСЃС‚РѕСЂР°РЅ Wine&amp;Vine</a></div>
                                 <p><a href="https://wineandvine.ru/" target="_blank" rel="nofollow noopener"><img
 									src="/image/8.jpeg"></a></p>
                             </div>
                             <div class="our_work_col">
                                 <div><a class="hover_line" href="https://kipr.agency/" target="_blank"
-                                        rel="nofollow noopener">KIPR – Комплексное SMM продвижение</a></div>
+                                        rel="nofollow noopener">KIPR вЂ“ РљРѕРјРїР»РµРєСЃРЅРѕРµ SMM РїСЂРѕРґРІРёР¶РµРЅРёРµ</a></div>
                                 <p><a href="https://kipr.agency/" target="_blank" rel="nofollow noopener"><img
 									src="/image/9.jpeg"></a></p>
                             </div>
@@ -164,19 +164,19 @@ $APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, ка
                         <div class="row">
                             <div class="our_work_col">
                                 <div><a class="hover_line" href="http://zernosushilki.com.ua/ru/"
-                                        target="_blank" rel="nofollow noopener">ООО “СЕЛЬХОЗМАШ”</a></div>
+                                        target="_blank" rel="nofollow noopener">РћРћРћ вЂњРЎР•Р›Р¬РҐРћР—РњРђРЁвЂќ</a></div>
                                 <p><a href="http://zernosushilki.com.ua/ru/" target="_blank" rel="nofollow noopener">
 									<img src="/image/10.jpeg"></a></p>
                             </div>
                             <div class="our_work_col">
-                                <div><a class="hover_line" href="http://matador-adv.ru/" rel="nofollow">Компания
-                                        «Матадор»</a></div>
+                                <div><a class="hover_line" href="http://matador-adv.ru/" rel="nofollow">РљРѕРјРїР°РЅРёСЏ
+                                        В«РњР°С‚Р°РґРѕСЂВ»</a></div>
                                 <p><a href="http://matador-adv.ru/" rel="nofollow">
 									<img style="width: 100%;" src="/image/11.jpeg"></a></p>
                             </div>
                             <div class="our_work_col">
                                 <div><a class="hover_line" href="http://son-krd.ru/" target="_blank"
-                                        rel="nofollow noopener">Интернет магазин Волшебный сон</a></div>
+                                        rel="nofollow noopener">РРЅС‚РµСЂРЅРµС‚ РјР°РіР°Р·РёРЅ Р’РѕР»С€РµР±РЅС‹Р№ СЃРѕРЅ</a></div>
                                 <p><a href="http://son-krd.ru/" target="_blank" rel="nofollow noopener">
 									<img src="/image/12.jpeg"></a></p>
                             </div>
@@ -185,21 +185,21 @@ $APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, ка
                         <div class="row">
                             <div class="our_work_col">
                                 <div><a class="hover_line" href="http://eva-light.ru/" target="_blank"
-                                        rel="nofollow noopener">Автомобильные шторки Eva-light</a></div>
+                                        rel="nofollow noopener">РђРІС‚РѕРјРѕР±РёР»СЊРЅС‹Рµ С€С‚РѕСЂРєРё Eva-light</a></div>
                                 <p><a href="http://eva-light.ru/" target="_blank" rel="nofollow noopener"><img
 									src="/image/13.jpeg"></a>
                                 </p>
                             </div>
                             <div class="our_work_col">
                                 <div><a class="hover_line" href="http://yugmetr.ru/" target="_blank"
-                                        rel="nofollow noopener">Ипотечные программы от Южных Метров</a></div>
+                                        rel="nofollow noopener">РРїРѕС‚РµС‡РЅС‹Рµ РїСЂРѕРіСЂР°РјРјС‹ РѕС‚ Р®Р¶РЅС‹С… РњРµС‚СЂРѕРІ</a></div>
                                 <p><a href="http://yugmetr.ru/" target="_blank" rel="nofollow noopener"><img
 									src="/image/yug.jpg"></a>
                                 </p>
                             </div>
                             <div class="our_work_col">
                                 <div><a class="hover_line" href="http://buhstart.ru/" target="_blank"
-                                        rel="nofollow noopener">Бухгалтерские услуги в Москве</a></div>
+                                        rel="nofollow noopener">Р‘СѓС…РіР°Р»С‚РµСЂСЃРєРёРµ СѓСЃР»СѓРіРё РІ РњРѕСЃРєРІРµ</a></div>
                                 <p><a href="http://buhstart.ru/" target="_blank" rel="nofollow noopener"><img
 									src="/image/14.jpeg"></a></p>
                             </div>

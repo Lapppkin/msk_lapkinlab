@@ -1,9 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("keywords", "контакты labkinlab, контактная информация");
-$APPLICATION->SetPageProperty("title", "Контакты маркетингового агентства LapkinLAb в Москве");
-$APPLICATION->SetPageProperty("description", "Маркетинговое агентство LapkinLAb располагается по адресу: г. Москва, 2-й Котляковский пер., д. 18 &#9742; 8(800) 301-00-19 &#9993; mail@lapkinlab.ru");
-$APPLICATION->SetTitle("Контакты маркетингового агентства LapkinLAb в Москве");
+$APPLICATION->SetPageProperty("keywords", "РєРѕРЅС‚Р°РєС‚С‹ labkinlab, РєРѕРЅС‚Р°РєС‚РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ");
+$APPLICATION->SetPageProperty("title", "РљРѕРЅС‚Р°РєС‚С‹ РјР°СЂРєРµС‚РёРЅРіРѕРІРѕРіРѕ Р°РіРµРЅС‚СЃС‚РІР° LapkinLAb РІ РњРѕСЃРєРІРµ");
+$APPLICATION->SetPageProperty("description", "РњР°СЂРєРµС‚РёРЅРіРѕРІРѕРµ Р°РіРµРЅС‚СЃС‚РІРѕ LapkinLAb СЂР°СЃРїРѕР»Р°РіР°РµС‚СЃСЏ РїРѕ Р°РґСЂРµСЃСѓ: Рі. РњРѕСЃРєРІР°, 2-Р№ РљРѕС‚Р»СЏРєРѕРІСЃРєРёР№ РїРµСЂ., Рґ. 18 &#9742; 8(800) 301-00-19 &#9993; mail@lapkinlab.ru");
+$APPLICATION->SetTitle("РљРѕРЅС‚Р°РєС‚С‹ РјР°СЂРєРµС‚РёРЅРіРѕРІРѕРіРѕ Р°РіРµРЅС‚СЃС‚РІР° LapkinLAb РІ РњРѕСЃРєРІРµ");
 ?><main> <section class="two">
 <div class="container">
 	<div class="row">
@@ -14,7 +14,7 @@ $APPLICATION->SetTitle("Контакты маркетингового агентства LapkinLAb в Москве");
 						<div class="breadcrumbs__content">
 							<div class="breadcrumbs__wrap">
 								<div class="breadcrumbs__item">
- <a href="/" class="breadcrumbs__item-link is-home" rel="home" title="Главная">Главная</a>
+ <a href="/" class="breadcrumbs__item-link is-home" rel="home" title="Р“Р»Р°РІРЅР°СЏ">Р“Р»Р°РІРЅР°СЏ</a>
 								</div>
 								<div class="breadcrumbs__item">
 									<div class="breadcrumbs__item-sep">
@@ -22,7 +22,7 @@ $APPLICATION->SetTitle("Контакты маркетингового агентства LapkinLAb в Москве");
 									</div>
 								</div>
 								<div class="breadcrumbs__item">
- <span class="breadcrumbs__item-target">Контакты</span>
+ <span class="breadcrumbs__item-target">РљРѕРЅС‚Р°РєС‚С‹</span>
 								</div>
 							</div>
 						</div>
@@ -44,17 +44,17 @@ $APPLICATION->SetTitle("Контакты маркетингового агентства LapkinLAb в Москве");
 				<div class="feedback_contacts_item">
 					<div class="text">
 						<h1 class="title_wh_left">
-						Контакты LapkinLab </h1>
+						РљРѕРЅС‚Р°РєС‚С‹ LapkinLab </h1>
 						<p class="vvv">
  <br>
-							 Москва, Ленинская Слобода, д. 26<br>
-							 5 мин от метро "Автозаводская"<br>
+							 РњРѕСЃРєРІР°, Р›РµРЅРёРЅСЃРєР°СЏ РЎР»РѕР±РѕРґР°, Рґ. 26<br>
+							 5 РјРёРЅ РѕС‚ РјРµС‚СЂРѕ "РђРІС‚РѕР·Р°РІРѕРґСЃРєР°СЏ"<br>
  <b style="font-size: 22px; "><a class="roistat-phone" href="tel:88003010019" style="padding:10px 0px;">8 (800) 301-00-19</a></b><br>
-							 Письмо директору: <a href="mailto:ya@lapkinlab.ru">ya@lapkinlab.ru</a><br>
-							 Письмо по вакансиям: <a href="mailto:hr@lapkinlab.ru">hr@lapkinlab.ru</a><br>
-							 Прочие письма: <a href="mailto:mail@lapkinlab.ru">mail@lapkinlab.ru</a><br>
+							 РџРёСЃСЊРјРѕ РґРёСЂРµРєС‚РѕСЂСѓ: <a href="mailto:ya@lapkinlab.ru">ya@lapkinlab.ru</a><br>
+							 РџРёСЃСЊРјРѕ РїРѕ РІР°РєР°РЅСЃРёСЏРј: <a href="mailto:hr@lapkinlab.ru">hr@lapkinlab.ru</a><br>
+							 РџСЂРѕС‡РёРµ РїРёСЃСЊРјР°: <a href="mailto:mail@lapkinlab.ru">mail@lapkinlab.ru</a><br>
  <br>
-							 Мы в социальных сетях:<br>
+							 РњС‹ РІ СЃРѕС†РёР°Р»СЊРЅС‹С… СЃРµС‚СЏС…:<br>
  <a href="https://tele.click/lapkinlab" target="_blank" rel="noreferrer noopener"><i class="icon icon-telegram"></i></a> <a href="https://tele.click/lapkinlab_test_bot" target="_blank" rel="noreferrer noopener"><i class="icon icon-telegram"></i></a> <a href="https://www.instagram.com/lapkin___lab/" target="_blank" rel="noreferrer noopener"><i class="icon icon-instagram"></i></a> <a href="https://vk.com/lapkinlab" target="_blank" rel="noreferrer noopener"><i class="icon icon-vkontakte"></i></a> <a href="https://www.facebook.com/lapppkin" target="_blank" rel="noreferrer noopener"><i class="icon icon-facebook-squared"></i></a>
 						</p>
 					</div>
@@ -67,30 +67,30 @@ $APPLICATION->SetTitle("Контакты маркетингового агентства LapkinLAb в Москве");
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
-			<p class="title">Остались вопросы? Напишите нам!</p>
+			<p class="title">РћСЃС‚Р°Р»РёСЃСЊ РІРѕРїСЂРѕСЃС‹? РќР°РїРёС€РёС‚Рµ РЅР°Рј!</p>
 		</div>
 		<div class="col-md-12 fomrbut">
 			<form action="/mail_post.php" method="post">
 				<div class="col-md-4">
- <input type="text" name="your-name" placeholder="Ваше имя" required="">
+ <input type="text" name="your-name" placeholder="Р’Р°С€Рµ РёРјСЏ" required="">
 				</div>
 				<div class="col-md-4">
- <input type="text" name="your-phone" placeholder="Телефон" required="">
+ <input type="text" name="your-phone" placeholder="РўРµР»РµС„РѕРЅ" required="">
 				</div>
 				<div class="col-md-4">
- <input type="text" name="your-email" placeholder="Почта" required="">
+ <input type="text" name="your-email" placeholder="РџРѕС‡С‚Р°" required="">
 				</div>
 				<p style="display:none;">
  <input type="text" name="name" value="">
 				</p>
 				<div class="col-md-12" style="padding: 20px 15px;">
- <textarea cols="30" rows="10" name="your-message" placeholder="Напишите ваш вопрос для наших специалистов" required=""></textarea>
+ <textarea cols="30" rows="10" name="your-message" placeholder="РќР°РїРёС€РёС‚Рµ РІР°С€ РІРѕРїСЂРѕСЃ РґР»СЏ РЅР°С€РёС… СЃРїРµС†РёР°Р»РёСЃС‚РѕРІ" required=""></textarea>
 				</div>
 				<div class="col-md-12" style="text-align: left;">
-					 Нажимая на кнопку Отправить заявку, я даю согласие на обработку персональных данных
+					 РќР°Р¶РёРјР°СЏ РЅР° РєРЅРѕРїРєСѓ РћС‚РїСЂР°РІРёС‚СЊ Р·Р°СЏРІРєСѓ, СЏ РґР°СЋ СЃРѕРіР»Р°СЃРёРµ РЅР° РѕР±СЂР°Р±РѕС‚РєСѓ РїРµСЂСЃРѕРЅР°Р»СЊРЅС‹С… РґР°РЅРЅС‹С…
 				</div>
 				<div class="col-md-12" style="text-align: center;">
- <input type="submit" class="tm_pb_button" name="" value="Отправить заявку" style="max-width: 255px;">
+ <input type="submit" class="tm_pb_button" name="" value="РћС‚РїСЂР°РІРёС‚СЊ Р·Р°СЏРІРєСѓ" style="max-width: 255px;">
 				</div>
 			</form>
 		</div>

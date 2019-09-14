@@ -1,42 +1,42 @@
 <?//
 //$aMenuLinks = Array(
 //	Array(
-//		"Ïîðòôîëèî",
+//		"ÐŸÐ¾Ñ€Ñ‚Ñ„Ð¾Ð»Ð¸Ð¾",
 //		"/kalkulyator-stoimosti-sajtov#portfolio",
 //		Array(),
 //		Array(),
 //		""
 //	),
 //	Array(
-//		"Ðàñ÷åò ñòîèìîñòè ñîçäàíèÿ ëåíäèíãà",
+//		"Ð Ð°ÑÑ‡ÐµÑ‚ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚Ð¸ ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ñ Ð»ÐµÐ½Ð´Ð¸Ð½Ð³Ð°",
 //		"https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-stoimosti-lendinga",
 //		Array(),
 //		Array(),
 //		""
 //	),
 //	Array(
-//		"Ðàñ÷åò ñòîèìîñòè ñîçäàíèÿ ìèíè ëåíäèíãà",
+//		"Ð Ð°ÑÑ‡ÐµÑ‚ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚Ð¸ ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ñ Ð¼Ð¸Ð½Ð¸ Ð»ÐµÐ½Ð´Ð¸Ð½Ð³Ð°",
 //		"https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-stoimosti-minilendinga",
 //		Array(),
 //		Array(),
 //		""
 //	),
 //	Array(
-//		"Ðàñ÷åò ñòîèìîñòè ñîçäàíèÿ ñàéòà èíòåðíåò-ìàãàçèíà",
+//		"Ð Ð°ÑÑ‡ÐµÑ‚ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚Ð¸ ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ñ ÑÐ°Ð¹Ñ‚Ð° Ð¸Ð½Ñ‚ÐµÑ€Ð½ÐµÑ‚-Ð¼Ð°Ð³Ð°Ð·Ð¸Ð½Ð°",
 //		"https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-stoimosti-internet-magazina",
 //		Array(),
 //		Array(),
 //		""
 //	),
 //	Array(
-//		"Ðàñ÷åò ñòîèìîñòè ñîçäàíèÿ áèçíåñ-ñàéòà",
+//		"Ð Ð°ÑÑ‡ÐµÑ‚ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚Ð¸ ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ñ Ð±Ð¸Ð·Ð½ÐµÑ-ÑÐ°Ð¹Ñ‚Ð°",
 //		"https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-biznes-sajta",
 //		Array(),
 //		Array(),
 //		""
 //	),
 //	Array(
-//		"Ðàñ÷åò ñòîèìîñòè ñîçäàíèÿ êîðïîðàòèâíîãî ñàéòà",
+//		"Ð Ð°ÑÑ‡ÐµÑ‚ ÑÑ‚Ð¾Ð¸Ð¼Ð¾ÑÑ‚Ð¸ ÑÐ¾Ð·Ð´Ð°Ð½Ð¸Ñ ÐºÐ¾Ñ€Ð¿Ð¾Ñ€Ð°Ñ‚Ð¸Ð²Ð½Ð¾Ð³Ð¾ ÑÐ°Ð¹Ñ‚Ð°",
 //		"https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-korporativnogo-sajta",
 //		Array(),
 //		Array(),

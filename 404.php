@@ -5,20 +5,20 @@ CHTTP::SetStatus("404 Not Found");
 @define("ERROR_404","Y");
 
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Страница не найдена - LapkinLAb");
-$APPLICATION->SetPageProperty("description", "Страница не найдена - LapkinLAb");
+$APPLICATION->SetPageProperty("title", "РЎС‚СЂР°РЅРёС†Р° РЅРµ РЅР°Р№РґРµРЅР° - LapkinLAb");
+$APPLICATION->SetPageProperty("description", "РЎС‚СЂР°РЅРёС†Р° РЅРµ РЅР°Р№РґРµРЅР° - LapkinLAb");
 
-$APPLICATION->SetTitle("Страница не найдена - LapkinLAb");
+$APPLICATION->SetTitle("РЎС‚СЂР°РЅРёС†Р° РЅРµ РЅР°Р№РґРµРЅР° - LapkinLAb");
 ?>
 <main id="main" class="site-main" role="main">		
 	<section class="error-404 not-found">
 		<header class="page-header">
-			<h3 class="page-title">Ошибка 404.</h3>
+			<h3 class="page-title">РћС€РёР±РєР° 404.</h3>
 		</header>
 		<div class="page-content" style="text-align:center;">
-			<h3>Такой страницы не существует.</h3>
+			<h3>РўР°РєРѕР№ СЃС‚СЂР°РЅРёС†С‹ РЅРµ СЃСѓС‰РµСЃС‚РІСѓРµС‚.</h3>
 			<p>
-				<a class="btn" href="/">Перейти на главную страницу</a>
+				<a class="btn" href="/">РџРµСЂРµР№С‚Рё РЅР° РіР»Р°РІРЅСѓСЋ СЃС‚СЂР°РЅРёС†Сѓ</a>
 			</p>
 	
 	</div>

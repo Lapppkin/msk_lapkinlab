@@ -8,151 +8,151 @@ $APPLICATION->SetTitle("Title");
 		<div class="container">
 			<div class="row">
 			    <div class="col-md-12">
-			        <h1 class="title" style="color: #fff; margin-top: 15px;">�����������</h1>
+			        <h1 class="title" style="color: #fff; margin-top: 15px;">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</h1>
 			    </div>
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-6">
-                    <div class="h3">������� ����������� �������</div>
+                    <div class="h3">пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</div>
 					<ul>
-                         <input class="checkbox" id="checkbox-1" type="checkbox" name="checkbox" required=""> <label for="checkbox-1">������.������</label> <br>
+                         <input class="checkbox" id="checkbox-1" type="checkbox" name="checkbox" required=""> <label for="checkbox-1">пїЅпїЅпїЅпїЅпїЅпїЅ.пїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
                          <input class="checkbox" id="checkbox-2" type="checkbox" name="checkbox" required=""> <label for="checkbox-2">Google Adwords</label> <br>
 					</ul>
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <div class="h3">�������� ���-�� �������� ����</div>
+                    <div class="h3">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ-пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ</div>
 				    <ul>
-				         <input class="radio" id="radio-seo-1" type="radio" name="radio1" required=""> <label for="radio-seo-1">�� 200</label> <br>
-                         <input class="radio" id="radio-seo-2" type="radio" name="radio1" required=""> <label for="radio-seo-2">�� 1000</label> <br>
-                         <input class="radio" id="radio-seo-3" type="radio" name="radio1" required=""> <label for="radio-seo-3">�� 3000</label><br>
-                         <input class="radio" id="radio-seo-4" type="radio" name="radio1" required=""> <label for="radio-seo-4">����� 3000 �������� ����</label><br>
+				         <input class="radio" id="radio-seo-1" type="radio" name="radio1" required=""> <label for="radio-seo-1">пїЅпїЅ 200</label> <br>
+                         <input class="radio" id="radio-seo-2" type="radio" name="radio1" required=""> <label for="radio-seo-2">пїЅпїЅ 1000</label> <br>
+                         <input class="radio" id="radio-seo-3" type="radio" name="radio1" required=""> <label for="radio-seo-3">пїЅпїЅ 3000</label><br>
+                         <input class="radio" id="radio-seo-4" type="radio" name="radio1" required=""> <label for="radio-seo-4">пїЅпїЅпїЅпїЅпїЅ 3000 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ</label><br>
 				    </ul>
                 </div>
             </div>
             <div class="row">
                <div class="col-md-12 col-sm-12"><div class="calc-line"></div></div>
                 <div class="col-sm-12 col-md-6">
-                    <div class="h3 mt-zero">��������� �������</div>
+                    <div class="h3 mt-zero">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</div>
                     <ul>
-                        <input class="checkbox" id="checkbox-3" type="checkbox" name="checkbox" required=""> <label for="checkbox-3">���������� ����� ��������� �������� � ����������� ������� ���������</label> <br>
-                        <input class="checkbox" id="checkbox-4" type="checkbox" name="checkbox" required=""> <label for="checkbox-4">���� �������� ����</label> <br>
-                        <input class="checkbox" id="checkbox-5" type="checkbox" name="checkbox" required=""> <label for="checkbox-5">������ �����-����</label> <br>
-                        <!-- <input class="checkbox" id="checkbox-6" type="checkbox" name="checkbox" required=""> <label for="checkbox-6">���� �������� ����</label> <br> -->
-                        <input class="checkbox" id="checkbox-7" type="checkbox" name="checkbox" required=""> <label for="checkbox-7">�����-���������</label> <br>
-                        <input class="checkbox" id="checkbox-8" type="checkbox" name="checkbox" required=""> <label for="checkbox-8">������������� �������� �� �������</label> <br>
-                        <input class="checkbox" id="checkbox-9" type="checkbox" name="checkbox" required=""> <label for="checkbox-9">�������� ��������� ���������� ��������</label> <br>
-                        <input class="checkbox" id="checkbox-10" type="checkbox" name="checkbox" required=""> <label for="checkbox-10">�������� ��������-����������� ����������</label> <br>
-                        <input class="checkbox" id="checkbox-11" type="checkbox" name="checkbox" required=""> <label for="checkbox-11">��������� �������������</label> <br>
-                        <input class="checkbox" id="checkbox-12" type="checkbox" name="checkbox" required=""> <label for="checkbox-12">��������� ������� ������</label> <br>
-                        <input class="checkbox" id="checkbox-13" type="checkbox" name="checkbox" required=""> <label for="checkbox-13">��������� ������������ ������</label> <br>
-                        <input class="checkbox" id="checkbox-14" type="checkbox" name="checkbox" required=""> <label for="checkbox-14">��������� ������� ��������</label> <br>
-                        <input class="checkbox" id="checkbox-15" type="checkbox" name="checkbox" required=""> <label for="checkbox-15">��������� ���������</label> <br>
-                        <input class="checkbox" id="checkbox-16" type="checkbox" name="checkbox" required=""> <label for="checkbox-16">UTM-��������</label> <br>
-                        <input class="checkbox" id="checkbox-17" type="checkbox" name="checkbox" required=""> <label for="checkbox-17">������� �� �������� (��������� �� ��������)</label> <br>
-                        <input class="checkbox" id="checkbox-18" type="checkbox" name="checkbox" required=""> <label for="checkbox-18">��������� �� ����������</label> <br>
+                        <input class="checkbox" id="checkbox-3" type="checkbox" name="checkbox" required=""> <label for="checkbox-3">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-4" type="checkbox" name="checkbox" required=""> <label for="checkbox-4">пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-5" type="checkbox" name="checkbox" required=""> <label for="checkbox-5">пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅ</label> <br>
+                        <!-- <input class="checkbox" id="checkbox-6" type="checkbox" name="checkbox" required=""> <label for="checkbox-6">пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ</label> <br> -->
+                        <input class="checkbox" id="checkbox-7" type="checkbox" name="checkbox" required=""> <label for="checkbox-7">пїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-8" type="checkbox" name="checkbox" required=""> <label for="checkbox-8">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-9" type="checkbox" name="checkbox" required=""> <label for="checkbox-9">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-10" type="checkbox" name="checkbox" required=""> <label for="checkbox-10">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-11" type="checkbox" name="checkbox" required=""> <label for="checkbox-11">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-12" type="checkbox" name="checkbox" required=""> <label for="checkbox-12">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-13" type="checkbox" name="checkbox" required=""> <label for="checkbox-13">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-14" type="checkbox" name="checkbox" required=""> <label for="checkbox-14">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-15" type="checkbox" name="checkbox" required=""> <label for="checkbox-15">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-16" type="checkbox" name="checkbox" required=""> <label for="checkbox-16">UTM-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-17" type="checkbox" name="checkbox" required=""> <label for="checkbox-17">пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)</label> <br>
+                        <input class="checkbox" id="checkbox-18" type="checkbox" name="checkbox" required=""> <label for="checkbox-18">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
                     </ul>
                 </div>
                 <div class="col-sm-12 col-md-6">
-                    <div class="h3">�������� ������� (���/���)</div>
+                    <div class="h3">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅ/пїЅпїЅпїЅ)</div>
                     <ul>
-                        <input class="checkbox" id="checkbox-19" type="checkbox" name="checkbox" required=""> <label for="checkbox-19">���������� ����� ��������� ��������</label> <br>
-                        <input class="checkbox" id="checkbox-20" type="checkbox" name="checkbox" required=""> <label for="checkbox-20">������ ������� ��������� � ����������� "�������� ����������"</label> <br>
-                        <input class="checkbox" id="checkbox-21" type="checkbox" name="checkbox" required=""> <label for="checkbox-21">������ ������ ���������� (����� ���/���������/���� ����������, ������ �������� ����)</label> <br>
-                        <input class="checkbox" id="checkbox-22" type="checkbox" name="checkbox" required=""> <label for="checkbox-22">�������� ��������� ���������� ��������</label> <br>
-                        <input class="checkbox" id="checkbox-23" type="checkbox" name="checkbox" required=""> <label for="checkbox-23">�������� ��������-����������� ����������</label> <br>
-                        <input class="checkbox" id="checkbox-24" type="checkbox" name="checkbox" required=""> <label for="checkbox-24">�������� ����������� ����������</label> <br>
-                        <input class="checkbox" id="checkbox-25" type="checkbox" name="checkbox" required=""> <label for="checkbox-25">��������� �������������</label> <br>
-                        <input class="checkbox" id="checkbox-26" type="checkbox" name="checkbox" required=""> <label for="checkbox-26">��������� ������� ������</label> <br>
-                        <input class="checkbox" id="checkbox-27" type="checkbox" name="checkbox" required=""> <label for="checkbox-27">��������� ������� ��������</label> <br>
-                        <input class="checkbox" id="checkbox-28" type="checkbox" name="checkbox" required=""> <label for="checkbox-28">��������� ���������</label> <br>
-                        <input class="checkbox" id="checkbox-29" type="checkbox" name="checkbox" required=""> <label for="checkbox-29">UTM-��������</label> <br>
-                        <input class="checkbox" id="checkbox-30" type="checkbox" name="checkbox" required=""> <label for="checkbox-30">������� �� �������� (��������� �� ��������)</label> <br>
-                        <input class="checkbox" id="checkbox-31" type="checkbox" name="checkbox" required=""> <label for="checkbox-31">���������� ����� ��������, ���������� ��������� ������</label> <br>
-                        <input class="checkbox" id="checkbox-32" type="checkbox" name="checkbox" required=""> <label for="checkbox-32">��������� �� ����������</label> <br>
+                        <input class="checkbox" id="checkbox-19" type="checkbox" name="checkbox" required=""> <label for="checkbox-19">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-20" type="checkbox" name="checkbox" required=""> <label for="checkbox-20">пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ"</label> <br>
+                        <input class="checkbox" id="checkbox-21" type="checkbox" name="checkbox" required=""> <label for="checkbox-21">пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ/пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ/пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ)</label> <br>
+                        <input class="checkbox" id="checkbox-22" type="checkbox" name="checkbox" required=""> <label for="checkbox-22">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-23" type="checkbox" name="checkbox" required=""> <label for="checkbox-23">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-24" type="checkbox" name="checkbox" required=""> <label for="checkbox-24">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-25" type="checkbox" name="checkbox" required=""> <label for="checkbox-25">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-26" type="checkbox" name="checkbox" required=""> <label for="checkbox-26">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-27" type="checkbox" name="checkbox" required=""> <label for="checkbox-27">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-28" type="checkbox" name="checkbox" required=""> <label for="checkbox-28">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-29" type="checkbox" name="checkbox" required=""> <label for="checkbox-29">UTM-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-30" type="checkbox" name="checkbox" required=""> <label for="checkbox-30">пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)</label> <br>
+                        <input class="checkbox" id="checkbox-31" type="checkbox" name="checkbox" required=""> <label for="checkbox-31">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-32" type="checkbox" name="checkbox" required=""> <label for="checkbox-32">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
                     </ul>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-12 col-sm-12"><div class="calc-line"></div></div>
                 <div class="col-sm-12 col-md-6">
-                    <div class="h3">�����������/�����������</div>
+                    <div class="h3">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ/пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</div>
                     <ul>
-                        <input class="checkbox" id="checkbox-33" type="checkbox" name="checkbox" required=""> <label for="checkbox-33">���������� ����� ��������� ��������</label> <br>
-                        <input class="checkbox" id="checkbox-34" type="checkbox" name="checkbox" required=""> <label for="checkbox-34">������ ������� ��������� � ����������� ������� ������� ���������</label> <br>
-                        <input class="checkbox" id="checkbox-35" type="checkbox" name="checkbox" required=""> <label for="checkbox-35">��������� ����� ���������</label> <br>
-                        <input class="checkbox" id="checkbox-36" type="checkbox" name="checkbox" required=""> <label for="checkbox-36">�������� �������� ������ ��</label> <br>
-                        <input class="checkbox" id="checkbox-37" type="checkbox" name="checkbox" required=""> <label for="checkbox-37">������ ��������� ������������/������������</label> <br>
-                        <input class="checkbox" id="checkbox-38" type="checkbox" name="checkbox" required=""> <label for="checkbox-38">��������� ������� ������</label> <br>
-                        <input class="checkbox" id="checkbox-39" type="checkbox" name="checkbox" required=""> <label for="checkbox-39">�������� �������������� ��������� ��� ����������</label> <br>
+                        <input class="checkbox" id="checkbox-33" type="checkbox" name="checkbox" required=""> <label for="checkbox-33">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-34" type="checkbox" name="checkbox" required=""> <label for="checkbox-34">пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-35" type="checkbox" name="checkbox" required=""> <label for="checkbox-35">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-36" type="checkbox" name="checkbox" required=""> <label for="checkbox-36">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-37" type="checkbox" name="checkbox" required=""> <label for="checkbox-37">пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ/пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-38" type="checkbox" name="checkbox" required=""> <label for="checkbox-38">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-39" type="checkbox" name="checkbox" required=""> <label for="checkbox-39">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
                     </ul>
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <div class="h3">&nbsp;</div>
                     <ul>
-                        <input class="checkbox" id="checkbox-40" type="checkbox" name="checkbox" required=""> <label for="checkbox-40">��������� ������������� ������</label> <br>
-                        <input class="checkbox" id="checkbox-41" type="checkbox" name="checkbox" required=""> <label for="checkbox-41">�������� ������������� ����������</label> <br>
-                        <input class="checkbox" id="checkbox-42" type="checkbox" name="checkbox" required=""> <label for="checkbox-42">��������� ���������� ������� �� �����</label> <br>
-                        <input class="checkbox" id="checkbox-43" type="checkbox" name="checkbox" required=""> <label for="checkbox-43">�������� �������� ��� ����� ���������� �������</label> <br>
-                        <input class="checkbox" id="checkbox-44" type="checkbox" name="checkbox" required=""> <label for="checkbox-44">UTM-��������</label> <br>
-                        <input class="checkbox" id="checkbox-45" type="checkbox" name="checkbox" required=""> <label for="checkbox-45">������� �� �������� (��������� �� ��������)</label> <br>
+                        <input class="checkbox" id="checkbox-40" type="checkbox" name="checkbox" required=""> <label for="checkbox-40">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-41" type="checkbox" name="checkbox" required=""> <label for="checkbox-41">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-42" type="checkbox" name="checkbox" required=""> <label for="checkbox-42">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-43" type="checkbox" name="checkbox" required=""> <label for="checkbox-43">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-44" type="checkbox" name="checkbox" required=""> <label for="checkbox-44">UTM-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-45" type="checkbox" name="checkbox" required=""> <label for="checkbox-45">пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)</label> <br>
                     </ul>
                 </div>
             </div>
             <div class="row">
                <div class="col-md-12 col-sm-12"><div class="calc-line"></div></div>
                 <div class="col-sm-12 col-md-6">
-                    <div class="h3">������� � ����������� ��</div>
+                    <div class="h3">пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ</div>
                     <ul>
-                        <p class="h2">�����</p>
-                        <input class="checkbox" id="checkbox-46" type="checkbox" name="checkbox" required=""> <label for="checkbox-46">������ ��������� ��������: ���������� �������� ����, ����� ����</label> <br>
-                        <input class="checkbox" id="checkbox-47" type="checkbox" name="checkbox" required=""> <label for="checkbox-47">������ ������� ��������� � ����������� ������� ������� ���������</label> <br>
-                        <input class="checkbox" id="checkbox-48" type="checkbox" name="checkbox" required=""> <label for="checkbox-48">��������� � ������������ ����������</label> <br>
-                        <input class="checkbox" id="checkbox-49" type="checkbox" name="checkbox" required=""> <label for="checkbox-49">��������� ������� � ���������� ����������� (������������� ������, ������������ ������������� ���������)</label> <br>
-                        <input class="checkbox" id="checkbox-50" type="checkbox" name="checkbox" required=""> <label for="checkbox-50">��������� ������� � �������������� ������������</label> <br>
+                        <p class="h2">пїЅпїЅпїЅпїЅпїЅ</p>
+                        <input class="checkbox" id="checkbox-46" type="checkbox" name="checkbox" required=""> <label for="checkbox-46">пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-47" type="checkbox" name="checkbox" required=""> <label for="checkbox-47">пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-48" type="checkbox" name="checkbox" required=""> <label for="checkbox-48">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-49" type="checkbox" name="checkbox" required=""> <label for="checkbox-49">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)</label> <br>
+                        <input class="checkbox" id="checkbox-50" type="checkbox" name="checkbox" required=""> <label for="checkbox-50">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
                     </ul>
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <div class="h3">&nbsp;</div>
                     <ul>
-                        <p class="h2">���/���/�����������</p>
-                        <input class="checkbox" id="checkbox-51" type="checkbox" name="checkbox" required=""> <label for="checkbox-51">������ ���� ����������: ���������� ����� ��������</label> <br>
-                        <input class="checkbox" id="checkbox-52" type="checkbox" name="checkbox" required=""> <label for="checkbox-52">��������� � ������������ ����������</label> <br>
-                        <input class="checkbox" id="checkbox-53" type="checkbox" name="checkbox" required=""> <label for="checkbox-53">��������� ������� � ���������� ����������� (������������� ������, ������������ ������������� ���������)</label> <br>
-                        <input class="checkbox" id="checkbox-54" type="checkbox" name="checkbox" required=""> <label for="checkbox-54">��������� ������� � �������������� ������������</label> <br>
+                        <p class="h2">пїЅпїЅпїЅ/пїЅпїЅпїЅ/пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</p>
+                        <input class="checkbox" id="checkbox-51" type="checkbox" name="checkbox" required=""> <label for="checkbox-51">пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ: пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-52" type="checkbox" name="checkbox" required=""> <label for="checkbox-52">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-53" type="checkbox" name="checkbox" required=""> <label for="checkbox-53">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ, пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)</label> <br>
+                        <input class="checkbox" id="checkbox-54" type="checkbox" name="checkbox" required=""> <label for="checkbox-54">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
                     </ul>
                 </div>
             </div>
             <div class="row">
                <div class="col-md-12 col-sm-12"><div class="calc-line"></div></div>
                 <div class="col-sm-12 col-md-6">
-                    <div class="h3">�������������� ������</div>
+                    <div class="h3">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</div>
                     <ul>
-                        <input class="checkbox" id="checkbox-55" type="checkbox" name="checkbox" required=""> <label for="checkbox-55">����� �����/��������</label> <br>
-                        <input class="checkbox" id="checkbox-56" type="checkbox" name="checkbox" required=""> <label for="checkbox-56">��������� ������.�������</label> <br>
-                        <input class="checkbox" id="checkbox-57" type="checkbox" name="checkbox" required=""> <label for="checkbox-57">��������� Google Analytics</label> <br>
-                        <input class="checkbox" id="checkbox-58" type="checkbox" name="checkbox" required=""> <label for="checkbox-58">��������� Google Tag Manager</label> <br>
-                        <input class="checkbox" id="checkbox-59" type="checkbox" name="checkbox" required=""> <label for="checkbox-59">��������� ������� ����� � ������.�������</label> <br>
-                        <input class="checkbox" id="checkbox-60" type="checkbox" name="checkbox" required=""> <label for="checkbox-60">��������� ������� ����� � Google Analytics</label> <br>
-                        <input class="checkbox" id="checkbox-61" type="checkbox" name="checkbox" required=""> <label for="checkbox-61">��������� ���� � �������������� ������������ �� �����</label> <br>
+                        <input class="checkbox" id="checkbox-55" type="checkbox" name="checkbox" required=""> <label for="checkbox-55">пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ/пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-56" type="checkbox" name="checkbox" required=""> <label for="checkbox-56">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ.пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-57" type="checkbox" name="checkbox" required=""> <label for="checkbox-57">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Google Analytics</label> <br>
+                        <input class="checkbox" id="checkbox-58" type="checkbox" name="checkbox" required=""> <label for="checkbox-58">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Google Tag Manager</label> <br>
+                        <input class="checkbox" id="checkbox-59" type="checkbox" name="checkbox" required=""> <label for="checkbox-59">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ.пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-60" type="checkbox" name="checkbox" required=""> <label for="checkbox-60">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ Google Analytics</label> <br>
+                        <input class="checkbox" id="checkbox-61" type="checkbox" name="checkbox" required=""> <label for="checkbox-61">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ</label> <br>
                     </ul>
                 </div>
                 <div class="col-sm-12 col-md-6">
                     <div class="h3">&nbsp;</div>
                     <ul>
-                        <input class="checkbox" id="checkbox-62" type="checkbox" name="checkbox" required=""> <label for="checkbox-62">���������� �������� � ��������� ��������</label> <br>
-                        <input class="checkbox" id="checkbox-63" type="checkbox" name="checkbox" required=""> <label for="checkbox-63">�������� ����������� ������ �����</label> <br>
-                        <input class="checkbox" id="checkbox-64" type="checkbox" name="checkbox" required=""> <label for="checkbox-64">���������� ������������ �� ��������� ��������� ���������� ������� �����</label> <br>
-                        <input class="checkbox" id="checkbox-65" type="checkbox" name="checkbox" required=""> <label for="checkbox-65">����������� ����-��������</label> <br>
-                        <input class="checkbox" id="checkbox-66" type="checkbox" name="checkbox" required=""> <label for="checkbox-66">����������� � ��������� �������� ��������� Roistat</label> <br>
-                        <input class="checkbox" id="checkbox-67" type="checkbox" name="checkbox" required=""> <label for="checkbox-67">��� ������ ����������� �� ����� ������� ������</label> <br>
+                        <input class="checkbox" id="checkbox-62" type="checkbox" name="checkbox" required=""> <label for="checkbox-62">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-63" type="checkbox" name="checkbox" required=""> <label for="checkbox-63">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-64" type="checkbox" name="checkbox" required=""> <label for="checkbox-64">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-65" type="checkbox" name="checkbox" required=""> <label for="checkbox-65">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
+                        <input class="checkbox" id="checkbox-66" type="checkbox" name="checkbox" required=""> <label for="checkbox-66">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ Roistat</label> <br>
+                        <input class="checkbox" id="checkbox-67" type="checkbox" name="checkbox" required=""> <label for="checkbox-67">пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</label> <br>
                     </ul>
                 </div>
             </div>
                 <div class="row">
                     <div class="col-sm-12 col-md-12">
                         <div id="tm_builder_outer_content" class="tm_builder_outer_content" style="text-align: center; padding: 0px;">
-                            <a class="tm_pb_button hover-green" id="trigger-fill">��������� ����</a><br class="br-mob"><br class="br-mob"><br class="br-mob"><br class="br-mob">      
-                            <a class="tm_pb_button hover-green" id="trigger-get">�������� ������</a>
+                            <a class="tm_pb_button hover-green" id="trigger-fill">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ</a><br class="br-mob"><br class="br-mob"><br class="br-mob"><br class="br-mob">      
+                            <a class="tm_pb_button hover-green" id="trigger-get">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</a>
                         </div>
                     </div>
                 </div>
@@ -167,21 +167,21 @@ $APPLICATION->SetTitle("Title");
 <div class="container">
 											<div class="row tm_pb_row tm_pb_row_1">
                                               <div class="tm_pb_column tm_pb_column_1_2 tm_pb_column_1 col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                                                <p style="font-size: 24px; margin: 10px 0  10px 0;">�������� ���� ���������� ������ ��� �����:</p>
+                                                <p style="font-size: 24px; margin: 10px 0  10px 0;">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ:</p>
                                                 <form action="/mail_post.php" method="post" class="wpcf7-form">
                                                   <div style="display: none;">
                                                   	<input type="hidden" name="url" value="/calc/">
                                                   </div>
                                                   <p>
-                                     				<label> ���� ��� (�����������)<br>
+                                     				<label> пїЅпїЅпїЅпїЅ пїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)<br>
                                      				<span class="wpcf7-form-control-wrap your-name"><input style="width: 350px;" type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> </label>
                                                   </p>
                                                   <p>
-                                     				<label> ������� (�����������)<br>
+                                     				<label> пїЅпїЅпїЅпїЅпїЅпїЅпїЅ (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)<br>
                                      				<span class="wpcf7-form-control-wrap your-phone"><input style="width: 350px;" type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> </label>
                                                   </p>
                                                   <p>
-                                     				<label> ��� e-mail (�����������)<br>
+                                     				<label> пїЅпїЅпїЅ e-mail (пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)<br>
                                      				<span class="wpcf7-form-control-wrap your-email"><input style="width: 350px;" type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" required=""></span> </label>
                                                   </p>
                                       			  <p style="display:none;"><input type="text" name="name" value=""></p>
@@ -194,27 +194,27 @@ $APPLICATION->SetTitle("Title");
                                                   </div>
 												  <p><span class="wpcf7-form-control-wrap acceptance-check">
 													<input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span>
-													<label style="float: left;padding-bottom: 10px;">� �������� <a style="color: #fff; text-decoration:underline;" href="/privacy-policy" target="_blank">������� �������� ����������</a></label>
+													<label style="float: left;padding-bottom: 10px;">пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ <a style="color: #fff; text-decoration:underline;" href="/privacy-policy" target="_blank">пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a></label>
 												  </p>
                                                   <p class="widget_text">
-                                     				<input type="submit" value="��������" class="wpcf7-form-control tm_pb_button wpcf7-submit" onclick="ym(45994323, 'reachGoal', 'kalkulrash'); return true;"><span class="ajax-loader"></span>
+                                     				<input type="submit" value="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" class="wpcf7-form-control tm_pb_button wpcf7-submit" onclick="ym(45994323, 'reachGoal', 'kalkulrash'); return true;"><span class="ajax-loader"></span>
                                                   </p>
                                                   <div class="wpcf7-response-output wpcf7-display-none">
                                                   </div>
                                                 </form>
                                               </div>
                                               <div class="tm_pb_column tm_pb_column_1_2 tm_pb_column_1 col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                                                <p style="font-size: 24px; margin: 10px 0  10px 0;">�� �������:</p>
-                                                <p style="font-size: 20px;margin: 10px 0 10px 0;" id="h1_itogo">������.������</p> <br>
-                                                <p style="font-size: 20px;margin: 10px 0 10px 0;" id="h2_itogo">���������� �������� ���� - �� 200</p> <br>
-                                                <p style="font-size: 20px;margin: 10px 0 10px 0;" id="h3_itogo">��������� �� - <span id="result_itogo3" style="font-weight:bold; font-size: 20px; display: inline-block;"> 1 000 </span> &#8381;</p>
-                                                <p style="font-size: 20px;margin: 10px 0 10px 0;" id="h4_itogo">������� � ����������� �� - <span id="result_itogo4" style="font-weight:bold; font-size: 20px; display: inline-block;"> 1 000 </span> &#8381;</p>
-												<p style="font-size: 20px;margin: 10px 0 10px 0;" id="h5_itogo">�������������� ������ - <span id="result_itogo5" style="font-weight:bold; font-size: 20px; display: inline-block;"> 1 000 </span> &#8381;</p> <br>
-												<p style="font-size: 20px;margin: 10px 0 10px 0;" id="h6_itogo"><b>�����: </b><span id="result_itogo6" style="font-weight:bold; font-size: 20px; display: inline-block;"> 1 000 </span> &#8381;</p>
+                                                <p style="font-size: 24px; margin: 10px 0  10px 0;">пїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:</p>
+                                                <p style="font-size: 20px;margin: 10px 0 10px 0;" id="h1_itogo">пїЅпїЅпїЅпїЅпїЅпїЅ.пїЅпїЅпїЅпїЅпїЅпїЅ</p> <br>
+                                                <p style="font-size: 20px;margin: 10px 0 10px 0;" id="h2_itogo">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅ - пїЅпїЅ 200</p> <br>
+                                                <p style="font-size: 20px;margin: 10px 0 10px 0;" id="h3_itogo">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ - <span id="result_itogo3" style="font-weight:bold; font-size: 20px; display: inline-block;"> 1 000 </span> &#8381;</p>
+                                                <p style="font-size: 20px;margin: 10px 0 10px 0;" id="h4_itogo">пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅ - <span id="result_itogo4" style="font-weight:bold; font-size: 20px; display: inline-block;"> 1 000 </span> &#8381;</p>
+												<p style="font-size: 20px;margin: 10px 0 10px 0;" id="h5_itogo">пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ - <span id="result_itogo5" style="font-weight:bold; font-size: 20px; display: inline-block;"> 1 000 </span> &#8381;</p> <br>
+												<p style="font-size: 20px;margin: 10px 0 10px 0;" id="h6_itogo"><b>пїЅпїЅпїЅпїЅпїЅ: </b><span id="result_itogo6" style="font-weight:bold; font-size: 20px; display: inline-block;"> 1 000 </span> &#8381;</p>
 													<p id="h5_itogo" style="display: inline-block;font-size: 20px;margin: 10px 0 10px 0;"> </p> 
 													<span id="result_itogo2" style="font-size: 36px; display: inline-block;"> </span> 
 													<p id="h6_itogo" style="display: inline-block;font-size: 18px;margin: 10px 0 10px 0;"> </p> <br>
-												<div style="display:block;">* ������ �������� ���������������. ��� ��������� ��������� � ���� �������� ��� ��������.</div>
+												<div style="display:block;">* пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ. пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ.</div>
                                               </div>
 											</div>
 </div>
@@ -227,22 +227,22 @@ $APPLICATION->SetTitle("Title");
 
 .sus{
          /**
-         * ��� ����������
+         * пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
          */
         -ms-user-select: none;
 
         /**
-         * ��� ������
+         * пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ
          */
         -moz-user-select: none;
 
         /**
-         * ��� ����������
+         * пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
          */
         -khtml-user-select: none;
 
         /**
-         * ��� ������ � �����
+         * пїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ
          */
         -webkit-user-select: none;
 }

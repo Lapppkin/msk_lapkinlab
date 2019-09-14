@@ -1,8 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Создание бизнес-сайта: стоимость разработки бизнес-сайта в Москве");
-$APPLICATION->SetPageProperty("description", "Рассчитать стоимость создания бизнес-сайта от компании LapkinLab &#9997;Разработка сайта с нуля &#9997;Цены на создание бизнес-сайта под ключ в Москве");
-$APPLICATION->SetTitle("Создание бизнес-сайта: стоимость разработки бизнес-сайта в Москве");
+$APPLICATION->SetPageProperty("title", "РЎРѕР·РґР°РЅРёРµ Р±РёР·РЅРµСЃ-СЃР°Р№С‚Р°: СЃС‚РѕРёРјРѕСЃС‚СЊ СЂР°Р·СЂР°Р±РѕС‚РєРё Р±РёР·РЅРµСЃ-СЃР°Р№С‚Р° РІ РњРѕСЃРєРІРµ");
+$APPLICATION->SetPageProperty("description", "Р Р°СЃСЃС‡РёС‚Р°С‚СЊ СЃС‚РѕРёРјРѕСЃС‚СЊ СЃРѕР·РґР°РЅРёСЏ Р±РёР·РЅРµСЃ-СЃР°Р№С‚Р° РѕС‚ РєРѕРјРїР°РЅРёРё LapkinLab &#9997;Р Р°Р·СЂР°Р±РѕС‚РєР° СЃР°Р№С‚Р° СЃ РЅСѓР»СЏ &#9997;Р¦РµРЅС‹ РЅР° СЃРѕР·РґР°РЅРёРµ Р±РёР·РЅРµСЃ-СЃР°Р№С‚Р° РїРѕРґ РєР»СЋС‡ РІ РњРѕСЃРєРІРµ");
+$APPLICATION->SetTitle("РЎРѕР·РґР°РЅРёРµ Р±РёР·РЅРµСЃ-СЃР°Р№С‚Р°: СЃС‚РѕРёРјРѕСЃС‚СЊ СЂР°Р·СЂР°Р±РѕС‚РєРё Р±РёР·РЅРµСЃ-СЃР°Р№С‚Р° РІ РњРѕСЃРєРІРµ");
 ?>
 
  <META HTTP-EQUIV="REFRESH" CONTENT="1; URL=https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-biznes-sajta">
@@ -15,7 +15,7 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимость разработки бизнес-сайта
                         <div class="breadcrumbs__wrap">
                             <div class="breadcrumbs__item">
                                 <a href="/" class="breadcrumbs__item-link is-home" rel="home"
-                                    title="Главная">Главная</a>
+                                    title="Р“Р»Р°РІРЅР°СЏ">Р“Р»Р°РІРЅР°СЏ</a>
                             </div>
                             <div class="breadcrumbs__item">
                                 <div class="breadcrumbs__item-sep">
@@ -24,7 +24,7 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимость разработки бизнес-сайта
                             </div>
                             <div class="breadcrumbs__item">
 								<a href="/kalkulyator-stoimosti-sajtov" class="breadcrumbs__item-link"
-                                    rel="tag" title="Калькулятор стоимости сайтов">Калькулятор стоимости сайтов</a>
+                                    rel="tag" title="РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ СЃС‚РѕРёРјРѕСЃС‚Рё СЃР°Р№С‚РѕРІ">РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ СЃС‚РѕРёРјРѕСЃС‚Рё СЃР°Р№С‚РѕРІ</a>
                             </div>
                             <div class="breadcrumbs__item">
                                 <div class="breadcrumbs__item-sep">
@@ -32,7 +32,7 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимость разработки бизнес-сайта
                                 </div>
                             </div>
                             <div class="breadcrumbs__item">
-                                <span class="breadcrumbs__item-target">Расчет стоимости создания бизнес-сайта</span>
+                                <span class="breadcrumbs__item-target">Р Р°СЃС‡РµС‚ СЃС‚РѕРёРјРѕСЃС‚Рё СЃРѕР·РґР°РЅРёСЏ Р±РёР·РЅРµСЃ-СЃР°Р№С‚Р°</span>
                             </div>
                         </div>
                     </div>
@@ -42,24 +42,24 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимость разработки бизнес-сайта
         </div>
         <section class="calculator_block">
             <div class="container_v2">
-                <h1>Расчет стоимости создания бизнес-сайта</h1>
+                <h1>Р Р°СЃС‡РµС‚ СЃС‚РѕРёРјРѕСЃС‚Рё СЃРѕР·РґР°РЅРёСЏ Р±РёР·РЅРµСЃ-СЃР°Р№С‚Р°</h1>
                 <div class="calculator">
                     
                         	<form action="/mail_post.php" method="post" class="wpcf7-form">
 							<div style="display: none;">
 							<input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
 							</div>
-                        <input type="hidden" name="your-email" value="Расчет стоимости создания сайта интернет-магазина">
+                        <input type="hidden" name="your-email" value="Р Р°СЃС‡РµС‚ СЃС‚РѕРёРјРѕСЃС‚Рё СЃРѕР·РґР°РЅРёСЏ СЃР°Р№С‚Р° РёРЅС‚РµСЂРЅРµС‚-РјР°РіР°Р·РёРЅР°">
                         <p></p>
                         <div class="total-up">
-                            <div class="site-price">Стоимость от <p></p>
+                            <div class="site-price">РЎС‚РѕРёРјРѕСЃС‚СЊ РѕС‚ <p></p>
                                 <div class="price-number">40 000</div>
-                                <p> <sup>*</sup> руб</p>
+                                <p> <sup>*</sup> СЂСѓР±</p>
                             </div>
                         </div>
                         <div class="calculate">
                                 <div class="calc-price-block calc-price-block-base">
-                                <div class="calc-title">Базовый функционал</div>
+                                <div class="calc-title">Р‘Р°Р·РѕРІС‹Р№ С„СѓРЅРєС†РёРѕРЅР°Р»</div>
                                 <div class="calc-price-item">
                                               <label for="check1" class="label_check disabled chked c_on"><br>
                                                 <input id="check1" checked="true" disabled="true" type="checkbox" name="d1" value="40000"><span>CMS</span><br>
@@ -67,22 +67,22 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимость разработки бизнес-сайта
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check2" class="label_check disabled chked c_on"><br>
-                                                <input id="check2" checked="true" disabled="true" type="checkbox" name="d2" value="0"><span>Хостинг</span><br>
+                                                <input id="check2" checked="true" disabled="true" type="checkbox" name="d2" value="0"><span>РҐРѕСЃС‚РёРЅРі</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check3" class="label_check disabled chked c_on"><br>
-                                                <input id="check3" checked="true" disabled="true" type="checkbox" name="d3" value="0"><span>Стандартная структура</span><br>
+                                                <input id="check3" checked="true" disabled="true" type="checkbox" name="d3" value="0"><span>РЎС‚Р°РЅРґР°СЂС‚РЅР°СЏ СЃС‚СЂСѓРєС‚СѓСЂР°</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check6" class="label_check disabled chked c_on"><br>
-                                                <input id="check6" checked="true" disabled="true" type="checkbox" name="d5" value="0"><span>Кроссбраузерность</span><br>
+                                                <input id="check6" checked="true" disabled="true" type="checkbox" name="d5" value="0"><span>РљСЂРѕСЃСЃР±СЂР°СѓР·РµСЂРЅРѕСЃС‚СЊ</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="checkd4" class="label_check disabled chked c_on"><br>
-                                                 <input id="checkd4" checked="true" disabled="true" type="checkbox" name="d4" value="0"><span>Адаптивная верстка</span><br>
+                                                 <input id="checkd4" checked="true" disabled="true" type="checkbox" name="d4" value="0"><span>РђРґР°РїС‚РёРІРЅР°СЏ РІРµСЂСЃС‚РєР°</span><br>
                                               </label>
                                            </div>
                                 <p></p></div>
@@ -90,173 +90,173 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимость разработки бизнес-сайта
                                             <input type="hidden" name="1" value="40000">
                                           </p>
                                 <div class="calc-price-block calc-price-block-other">
-                                <div class="calc-title">Дизайн</div>
+                                <div class="calc-title">Р”РёР·Р°Р№РЅ</div>
                                 <div class="calc-price-item">
                                               <label for="check7" class="label_check"><br>
-                                                <input id="check7" type="checkbox" name="6" value="3000"><span style="background-position: -5px -5px;">Логотип</span><span class="calc-price-plus">+3000</span><br>
+                                                <input id="check7" type="checkbox" name="6" value="3000"><span style="background-position: -5px -5px;">Р›РѕРіРѕС‚РёРї</span><span class="calc-price-plus">+3000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check8" class="label_check chked c_on"><br>
-                                                <input id="check8" type="checkbox" name="7" value="9000"><span style="background-position: -5px -5px;">Фирменный стиль</span><span class="calc-price-plus">+9000</span><br>
+                                                <input id="check8" type="checkbox" name="7" value="9000"><span style="background-position: -5px -5px;">Р¤РёСЂРјРµРЅРЅС‹Р№ СЃС‚РёР»СЊ</span><span class="calc-price-plus">+9000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check9" class="label_check"><br>
-                                                <input id="check9" type="checkbox" name="8" value="15000"><span style="background-position: -5px -5px;">Индивидуальный дизайн</span><span class="calc-price-plus">+15000</span><br>
+                                                <input id="check9" type="checkbox" name="8" value="15000"><span style="background-position: -5px -5px;">РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РґРёР·Р°Р№РЅ</span><span class="calc-price-plus">+15000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check10" class="label_check"><br>
-                                                <input id="check10" type="checkbox" name="9" value="5000"><span style="background-position: -5px -5px;">Инфографика</span><span class="calc-price-plus">+5000</span><br>
+                                                <input id="check10" type="checkbox" name="9" value="5000"><span style="background-position: -5px -5px;">РРЅС„РѕРіСЂР°С„РёРєР°</span><span class="calc-price-plus">+5000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check11" class="label_check"><br>
-                                                <input id="check11" type="checkbox" name="10" value="25000"><span style="background-position: -5px -5px;">Адаптивный дизайн</span><span class="calc-price-plus">+25000</span><br>
+                                                <input id="check11" type="checkbox" name="10" value="25000"><span style="background-position: -5px -5px;">РђРґР°РїС‚РёРІРЅС‹Р№ РґРёР·Р°Р№РЅ</span><span class="calc-price-plus">+25000</span><br>
                                               </label>
                                             </div>
                                 <p></p></div>
                                 <div class="calc-price-block calc-price-block-other">
-                                <div class="calc-title">Верстка</div>
+                                <div class="calc-title">Р’РµСЂСЃС‚РєР°</div>
                                 <div class="calc-price-item">
                                               <label for="check13" class="label_check c_on"><br>
-                                                <input id="check13" type="checkbox" name="12" value="4500"><span style="background-position: -5px -5px;">Слайдер</span><span class="calc-price-plus">+4500</span><br>
+                                                <input id="check13" type="checkbox" name="12" value="4500"><span style="background-position: -5px -5px;">РЎР»Р°Р№РґРµСЂ</span><span class="calc-price-plus">+4500</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check14" class="label_check"><br>
-                                                <input id="check14" type="checkbox" name="13" value="5000"><span style="background-position: -5px -5px;">Анимация</span><span class="calc-price-plus">+5000</span><br>
+                                                <input id="check14" type="checkbox" name="13" value="5000"><span style="background-position: -5px -5px;">РђРЅРёРјР°С†РёСЏ</span><span class="calc-price-plus">+5000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check15" class="label_check"><br>
-                                                <input id="check15" type="checkbox" name="14" value="2500"><span style="background-position: -5px -5px;">Интерактивность, эффекты параллакса</span><span class="calc-price-plus">+2500</span><br>
+                                                <input id="check15" type="checkbox" name="14" value="2500"><span style="background-position: -5px -5px;">РРЅС‚РµСЂР°РєС‚РёРІРЅРѕСЃС‚СЊ, СЌС„С„РµРєС‚С‹ РїР°СЂР°Р»Р»Р°РєСЃР°</span><span class="calc-price-plus">+2500</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check16" class="label_check"><br>
-                                                <input id="check16" type="checkbox" name="15" value="2000"><span style="background-position: -5px -5px;">Геопривязка</span><span class="calc-price-plus">+2000</span><br>
+                                                <input id="check16" type="checkbox" name="15" value="2000"><span style="background-position: -5px -5px;">Р“РµРѕРїСЂРёРІСЏР·РєР°</span><span class="calc-price-plus">+2000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check17" class="label_check"><br>
-                                                <input id="check17" type="checkbox" name="16" value="3500"><span style="background-position: -5px -5px;">Локализация (перевод на другой язык)</span><span class="calc-price-plus">+3500</span><br>
+                                                <input id="check17" type="checkbox" name="16" value="3500"><span style="background-position: -5px -5px;">Р›РѕРєР°Р»РёР·Р°С†РёСЏ (РїРµСЂРµРІРѕРґ РЅР° РґСЂСѓРіРѕР№ СЏР·С‹Рє)</span><span class="calc-price-plus">+3500</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check18" class="label_check"><br>
-                                                <input id="check18" type="checkbox" name="17" value="15000"><span style="background-position: -5px -5px;">Сложная структура</span><span class="calc-price-plus">+15000</span><br>
+                                                <input id="check18" type="checkbox" name="17" value="15000"><span style="background-position: -5px -5px;">РЎР»РѕР¶РЅР°СЏ СЃС‚СЂСѓРєС‚СѓСЂР°</span><span class="calc-price-plus">+15000</span><br>
                                               </label>
                                             </div>
                                 <p></p></div>
                                 <div class="calc-price-block">
-                                <div class="calc-title">Функционал (модули)</div>
+                                <div class="calc-title">Р¤СѓРЅРєС†РёРѕРЅР°Р» (РјРѕРґСѓР»Рё)</div>
                                 <div class="calc-price-item">
                                               <label for="check19" class="label_check"><br>
-                                                <input id="check19" type="checkbox" name="18" value="3000"><span style="background-position: -5px -5px;">Форма обратной связи</span><span class="calc-price-plus">+3000</span><br>
+                                                <input id="check19" type="checkbox" name="18" value="3000"><span style="background-position: -5px -5px;">Р¤РѕСЂРјР° РѕР±СЂР°С‚РЅРѕР№ СЃРІСЏР·Рё</span><span class="calc-price-plus">+3000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check20" class="label_check"><br>
-                                                <input id="check20" type="checkbox" name="19" value="2000"><span style="background-position: -5px -5px;">Настройка почты</span><span class="calc-price-plus">+2000</span><br>
+                                                <input id="check20" type="checkbox" name="19" value="2000"><span style="background-position: -5px -5px;">РќР°СЃС‚СЂРѕР№РєР° РїРѕС‡С‚С‹</span><span class="calc-price-plus">+2000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check24" class="label_check"><br>
-                                                <input id="check24" type="checkbox" name="23" value="2000"><span style="background-position: -5px -5px;">Установка онлайн чата</span><span class="calc-price-plus">+2000</span><br>
+                                                <input id="check24" type="checkbox" name="23" value="2000"><span style="background-position: -5px -5px;">РЈСЃС‚Р°РЅРѕРІРєР° РѕРЅР»Р°Р№РЅ С‡Р°С‚Р°</span><span class="calc-price-plus">+2000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check29" class="label_check"><br>
-                                                <input id="check29" type="checkbox" name="28" value="5000"><span style="background-position: -5px -5px;">Добавление блоков</span><span class="calc-price-plus">+5000</span><br>
+                                                <input id="check29" type="checkbox" name="28" value="5000"><span style="background-position: -5px -5px;">Р”РѕР±Р°РІР»РµРЅРёРµ Р±Р»РѕРєРѕРІ</span><span class="calc-price-plus">+5000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check30" class="label_check"><br>
-                                                <input id="check30" type="checkbox" name="29" value="5000"><span style="background-position: -5px -5px;">Акционные блоки (счетчики)</span><span class="calc-price-plus">+5000</span><br>
+                                                <input id="check30" type="checkbox" name="29" value="5000"><span style="background-position: -5px -5px;">РђРєС†РёРѕРЅРЅС‹Рµ Р±Р»РѕРєРё (СЃС‡РµС‚С‡РёРєРё)</span><span class="calc-price-plus">+5000</span><br>
                                               </label>
                                             </div>
                                 <p></p></div>
                                 <div class="calc-price-block">
-                                <div class="calc-title">Наполнение</div>
+                                <div class="calc-title">РќР°РїРѕР»РЅРµРЅРёРµ</div>
                                 <div class="calc-price-item">
                                               <label for="check34" class="label_check"><br>
-                                                <input id="check34" type="checkbox" name="33" value="15000"><span style="background-position: -5px -5px;">Поиск и обработка изображений</span><span class="calc-price-plus">+15000</span><br>
+                                                <input id="check34" type="checkbox" name="33" value="15000"><span style="background-position: -5px -5px;">РџРѕРёСЃРє Рё РѕР±СЂР°Р±РѕС‚РєР° РёР·РѕР±СЂР°Р¶РµРЅРёР№</span><span class="calc-price-plus">+15000</span><br>
                                               </label>
                                             </div>
                                 <p></p></div>
                                 <div class="calc-price-block">
-                                <div class="calc-title">Продвижение</div>
+                                <div class="calc-title">РџСЂРѕРґРІРёР¶РµРЅРёРµ</div>
                                 <div class="calc-price-item">
                                               <label for="check38" class="label_check"><br>
-                                                <input id="check38" type="checkbox" name="37" value="20000"><span style="background-position: -5px -5px;">SEO — оптимизация (поисковое)</span><span class="calc-price-plus">+20000</span><br>
+                                                <input id="check38" type="checkbox" name="37" value="20000"><span style="background-position: -5px -5px;">SEO вЂ” РѕРїС‚РёРјРёР·Р°С†РёСЏ (РїРѕРёСЃРєРѕРІРѕРµ)</span><span class="calc-price-plus">+20000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check39" class="label_check"><br>
-                                                <input id="check39" type="checkbox" name="38" value="7000"><span style="background-position: -5px -5px;">Оптимизация изображений</span><span class="calc-price-plus">+7000</span><br>
+                                                <input id="check39" type="checkbox" name="38" value="7000"><span style="background-position: -5px -5px;">РћРїС‚РёРјРёР·Р°С†РёСЏ РёР·РѕР±СЂР°Р¶РµРЅРёР№</span><span class="calc-price-plus">+7000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check40" class="label_check"><br>
-                                                <input id="check40" type="checkbox" name="39" value="250"><span style="background-position: -5px -5px;">Копирайтинг</span><span class="calc-price-plus">+250 за 1000 зн.</span><br>
+                                                <input id="check40" type="checkbox" name="39" value="250"><span style="background-position: -5px -5px;">РљРѕРїРёСЂР°Р№С‚РёРЅРі</span><span class="calc-price-plus">+250 Р·Р° 1000 Р·РЅ.</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check41" class="label_check"><br>
-                                                <input id="check41" type="checkbox" name="40" value="10000"><span style="background-position: -5px -5px;">Контекстная реклама</span><span class="calc-price-plus">+10000</span><br>
+                                                <input id="check41" type="checkbox" name="40" value="10000"><span style="background-position: -5px -5px;">РљРѕРЅС‚РµРєСЃС‚РЅР°СЏ СЂРµРєР»Р°РјР°</span><span class="calc-price-plus">+10000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check42" class="label_check"><br>
-                                                <input id="check42" type="checkbox" name="41" value="12500"><span style="background-position: -5px -5px;">Социальные сети</span><span class="calc-price-plus">+12500</span><br>
+                                                <input id="check42" type="checkbox" name="41" value="12500"><span style="background-position: -5px -5px;">РЎРѕС†РёР°Р»СЊРЅС‹Рµ СЃРµС‚Рё</span><span class="calc-price-plus">+12500</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check43" class="label_check"><br>
-                                                <input id="check43" type="checkbox" name="42" value="10000"><span style="background-position: -5px -5px;">Аналитика</span><span class="calc-price-plus">+10000</span><br>
+                                                <input id="check43" type="checkbox" name="42" value="10000"><span style="background-position: -5px -5px;">РђРЅР°Р»РёС‚РёРєР°</span><span class="calc-price-plus">+10000</span><br>
                                               </label>
                                             </div>
                                 <p></p></div>
                                 <div class="calc-price-block">
-                                <div class="calc-title">Сопровождение (в месяц)</div>
+                                <div class="calc-title">РЎРѕРїСЂРѕРІРѕР¶РґРµРЅРёРµ (РІ РјРµСЃСЏС†)</div>
                                 <div class="calc-price-item">
                                               <label for="check44" class="label_check"><br>
-                                                <input id="check44" type="checkbox" name="43" value="15000"><span style="background-position: -5px -5px;">Техническое</span><span class="calc-price-plus">+15000</span><br>
+                                                <input id="check44" type="checkbox" name="43" value="15000"><span style="background-position: -5px -5px;">РўРµС…РЅРёС‡РµСЃРєРѕРµ</span><span class="calc-price-plus">+15000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check45" class="label_check"><br>
-                                                <input id="check45" type="checkbox" name="44" value="10000"><span style="background-position: -5px -5px;">Информационное</span><span class="calc-price-plus">+10000</span><br>
+                                                <input id="check45" type="checkbox" name="44" value="10000"><span style="background-position: -5px -5px;">РРЅС„РѕСЂРјР°С†РёРѕРЅРЅРѕРµ</span><span class="calc-price-plus">+10000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check46" class="label_check"><br>
-                                                <input id="check46" type="checkbox" name="45" value="8000"><span style="background-position: -5px -5px;">В социальных сетях</span><span class="calc-price-plus">+8000</span><br>
+                                                <input id="check46" type="checkbox" name="45" value="8000"><span style="background-position: -5px -5px;">Р’ СЃРѕС†РёР°Р»СЊРЅС‹С… СЃРµС‚СЏС…</span><span class="calc-price-plus">+8000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check47" class="label_check"><br>
-                                                <input id="check47" type="checkbox" name="46" value="45000"><span style="background-position: -5px -5px;">Контекстная реклама</span><span class="calc-price-plus">+45000</span><br>
+                                                <input id="check47" type="checkbox" name="46" value="45000"><span style="background-position: -5px -5px;">РљРѕРЅС‚РµРєСЃС‚РЅР°СЏ СЂРµРєР»Р°РјР°</span><span class="calc-price-plus">+45000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check48" class="label_check"><br>
-                                                <input id="check48" type="checkbox" name="47" value="5000"><span style="background-position: -5px -5px;">Резервное копирование</span><span class="calc-price-plus">+5000</span><br>
+                                                <input id="check48" type="checkbox" name="47" value="5000"><span style="background-position: -5px -5px;">Р РµР·РµСЂРІРЅРѕРµ РєРѕРїРёСЂРѕРІР°РЅРёРµ</span><span class="calc-price-plus">+5000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
                                               <label for="check49" class="label_check"><br>
-                                                <input id="check49" type="checkbox" name="48" value="10000"><span style="background-position: -5px -5px;">Безопасность сайта</span><span class="calc-price-plus">+10000</span><br>
+                                                <input id="check49" type="checkbox" name="48" value="10000"><span style="background-position: -5px -5px;">Р‘РµР·РѕРїР°СЃРЅРѕСЃС‚СЊ СЃР°Р№С‚Р°</span><span class="calc-price-plus">+10000</span><br>
                                               </label>
                                             </div>
                                 <p></p></div>
                                 <p></p></div>
                         <div class="total-bottom">
-                            <div class="site-price">Стоимость от<p></p>
+                            <div class="site-price">РЎС‚РѕРёРјРѕСЃС‚СЊ РѕС‚<p></p>
                                 <div class="price-number">40 000</div>
-                                <p> <sup>*</sup> руб</p>
+                                <p> <sup>*</sup> СЂСѓР±</p>
                             </div>
                             <p>
                                 <input class="price-hidden" type="hidden" name="your-site" value="60000">
@@ -264,27 +264,27 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимость разработки бизнес-сайта
                             <p></p>
                         </div>
                         <div class="calc-order">
-                            <div>Пожалуйста, заполните форму для заказа. Все поля являются обязательными.</div>
-                            <p><input type="text" name="your-name" required="required" placeholder="Имя *"> <input type="tel"
-                                    name="your-phone" required="required" placeholder="Телефон *"></p>
+                            <div>РџРѕР¶Р°Р»СѓР№СЃС‚Р°, Р·Р°РїРѕР»РЅРёС‚Рµ С„РѕСЂРјСѓ РґР»СЏ Р·Р°РєР°Р·Р°. Р’СЃРµ РїРѕР»СЏ СЏРІР»СЏСЋС‚СЃСЏ РѕР±СЏР·Р°С‚РµР»СЊРЅС‹РјРё.</div>
+                            <p><input type="text" name="your-name" required="required" placeholder="РРјСЏ *"> <input type="tel"
+                                    name="your-phone" required="required" placeholder="РўРµР»РµС„РѕРЅ *"></p>
                             <div class="calc-price-item">
                                 <label for="privacy" class="label_check"> <input name="privacy" id="privacy" type="checkbox"
                                          required="required" value="0">
 	<p style="display:none;"><input type="text" name="name" value=""></p>
-                                    <span>Я принимаю
-                                        <a class="hover_line" href="/privacy-policy" target="_blank">условия передачи
-                                            информации</a>
+                                    <span>РЇ РїСЂРёРЅРёРјР°СЋ
+                                        <a class="hover_line" href="/privacy-policy" target="_blank">СѓСЃР»РѕРІРёСЏ РїРµСЂРµРґР°С‡Рё
+                                            РёРЅС„РѕСЂРјР°С†РёРё</a>
                                     </span>
                                 </label>
                             </div>
                         </div>
                         <p>
-                            <input type="submit" class="calc-order-btn" value="Заказать">
+                            <input type="submit" class="calc-order-btn" value="Р—Р°РєР°Р·Р°С‚СЊ">
                             <a class="tm_pb_button" href="https://docs.google.com/forms/d/e/1FAIpQLSfJdbhwnd0miOtpYpRLAql5bCsU4b5_VSk8R8lKEkRpvLMkdQ/viewform"
-                                target="_blank">Бриф на создание сайта</a>
+                                target="_blank">Р‘СЂРёС„ РЅР° СЃРѕР·РґР°РЅРёРµ СЃР°Р№С‚Р°</a>
                         </p>
-                        <div class="calc-annotation"><sup>*</sup> Расчет является приблизительным. Для уточнения
-                            стоимости с Вами свяжется наш менеджер.</div>
+                        <div class="calc-annotation"><sup>*</sup> Р Р°СЃС‡РµС‚ СЏРІР»СЏРµС‚СЃСЏ РїСЂРёР±Р»РёР·РёС‚РµР»СЊРЅС‹Рј. Р”Р»СЏ СѓС‚РѕС‡РЅРµРЅРёСЏ
+                            СЃС‚РѕРёРјРѕСЃС‚Рё СЃ Р’Р°РјРё СЃРІСЏР¶РµС‚СЃСЏ РЅР°С€ РјРµРЅРµРґР¶РµСЂ.</div>
                     </form>
                     <p></p>
                 </div>

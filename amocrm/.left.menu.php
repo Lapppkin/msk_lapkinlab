@@ -1,21 +1,21 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Î ïðîäóêòå",
+		"Ðž Ð¿Ñ€Ð¾Ð´ÑƒÐºÑ‚Ðµ",
 		"/amocrm/o-produkte/",
 		Array(),
 		Array(), 
 		"" 
 	),
 	Array(
-		"Áðèô",
+		"Ð‘Ñ€Ð¸Ñ„",
 		"/amocrm/brif/",
 		Array(),
 		Array(),
 		""
 	),
 	Array(
-		"×åê-ëèñò âíåäðåíèÿ amoCRM",
+		"Ð§ÐµÐº-Ð»Ð¸ÑÑ‚ Ð²Ð½ÐµÐ´Ñ€ÐµÐ½Ð¸Ñ amoCRM",
 		"/amocrm/checklist/",
 		Array(),
 		Array(),

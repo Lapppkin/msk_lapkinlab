@@ -1,9 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("keywords", "продвижение телеграм каналов москва");
-$APPLICATION->SetPageProperty("title", "Раскрутка Телеграм канала: заказать продвижение в Telegram");
-$APPLICATION->SetPageProperty("description", "Агентство LapkinLab предлагает заказать продвижение Telegram-канала в Москве и других городах &#9997;Создание и раскрутка канала или магазина в Телеграм");
-$APPLICATION->SetTitle("Раскрутка Телеграм канала: заказать продвижение в Telegram");
+$APPLICATION->SetPageProperty("keywords", "РїСЂРѕРґРІРёР¶РµРЅРёРµ С‚РµР»РµРіСЂР°Рј РєР°РЅР°Р»РѕРІ РјРѕСЃРєРІР°");
+$APPLICATION->SetPageProperty("title", "Р Р°СЃРєСЂСѓС‚РєР° РўРµР»РµРіСЂР°Рј РєР°РЅР°Р»Р°: Р·Р°РєР°Р·Р°С‚СЊ РїСЂРѕРґРІРёР¶РµРЅРёРµ РІ Telegram");
+$APPLICATION->SetPageProperty("description", "РђРіРµРЅС‚СЃС‚РІРѕ LapkinLab РїСЂРµРґР»Р°РіР°РµС‚ Р·Р°РєР°Р·Р°С‚СЊ РїСЂРѕРґРІРёР¶РµРЅРёРµ Telegram-РєР°РЅР°Р»Р° РІ РњРѕСЃРєРІРµ Рё РґСЂСѓРіРёС… РіРѕСЂРѕРґР°С… &#9997;РЎРѕР·РґР°РЅРёРµ Рё СЂР°СЃРєСЂСѓС‚РєР° РєР°РЅР°Р»Р° РёР»Рё РјР°РіР°Р·РёРЅР° РІ РўРµР»РµРіСЂР°Рј");
+$APPLICATION->SetTitle("Р Р°СЃРєСЂСѓС‚РєР° РўРµР»РµРіСЂР°Рј РєР°РЅР°Р»Р°: Р·Р°РєР°Р·Р°С‚СЊ РїСЂРѕРґРІРёР¶РµРЅРёРµ РІ Telegram");
 ?>
     <link rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/css/main.css"/>
     <main>
@@ -13,7 +13,7 @@ $APPLICATION->SetTitle("Раскрутка Телеграм канала: заказать продвижение в Telegr
 			<div class="breadcrumbs__content">
 				<div class="breadcrumbs__wrap">
 					<div class="breadcrumbs__item">
- <a href="/" class="breadcrumbs__item-link is-home" rel="home" title="Главная">Главная</a>
+ <a href="/" class="breadcrumbs__item-link is-home" rel="home" title="Р“Р»Р°РІРЅР°СЏ">Р“Р»Р°РІРЅР°СЏ</a>
 					</div>
 					<div class="breadcrumbs__item">
 						<div class="breadcrumbs__item-sep">
@@ -34,12 +34,12 @@ $APPLICATION->SetTitle("Раскрутка Телеграм канала: заказать продвижение в Telegr
 <div class="container_v2">
 	<div class="telegram_banner_list">
 		<div class="telegram_banner_title">
-			<h1 class="page-title page-title_light">Мы помогаем делать деньги в Telegram</h1>
+			<h1 class="page-title page-title_light">РњС‹ РїРѕРјРѕРіР°РµРј РґРµР»Р°С‚СЊ РґРµРЅСЊРіРё РІ Telegram</h1>
 			<p>
-				 Услуги по созданию и продвижению актива(канала/магазина) в Telegram
+				 РЈСЃР»СѓРіРё РїРѕ СЃРѕР·РґР°РЅРёСЋ Рё РїСЂРѕРґРІРёР¶РµРЅРёСЋ Р°РєС‚РёРІР°(РєР°РЅР°Р»Р°/РјР°РіР°Р·РёРЅР°) РІ Telegram
 			</p>
 			<div class="tm_pb_button_module_wrapper tm_pb_module">
- <a class="tm_pb_button tm_pb_custom_button_icon tm_pb_button_0 tm_pb_module tm_pb_bg_layout_light tm_pb_icon_right" href="#win1" data-icon="&#61838;">Подробней</a>
+ <a class="tm_pb_button tm_pb_custom_button_icon tm_pb_button_0 tm_pb_module tm_pb_bg_layout_light tm_pb_icon_right" href="#win1" data-icon="&#61838;">РџРѕРґСЂРѕР±РЅРµР№</a>
 			</div>
 		</div>
 		<div class="telegram_banner_img">
@@ -49,102 +49,102 @@ $APPLICATION->SetTitle("Раскрутка Телеграм канала: заказать продвижение в Telegr
 </div>
  </section> <section class="row_icon">
 <div class="container_v2">
-	<h2>Кому мы можем быть полезны?</h2>
+	<h2>РљРѕРјСѓ РјС‹ РјРѕР¶РµРј Р±С‹С‚СЊ РїРѕР»РµР·РЅС‹?</h2>
 	<div class="row row_icon_list">
 		<div class="second__item">
 			<div class="second__item-img second__item-img-1">
 			</div>
 			<p>
-				 Рекламодателям
+				 Р РµРєР»Р°РјРѕРґР°С‚РµР»СЏРј
 			</p>
 		</div>
 		<div class="second__item">
 			<div class="second__item-img second__item-img-2">
 			</div>
 			<p>
-				 Владельцам каналов
+				 Р’Р»Р°РґРµР»СЊС†Р°Рј РєР°РЅР°Р»РѕРІ
 			</p>
 		</div>
 		<div class="second__item">
 			<div class="second__item-img second__item-img-3">
 			</div>
 			<p>
-				 Медийным личностям
+				 РњРµРґРёР№РЅС‹Рј Р»РёС‡РЅРѕСЃС‚СЏРј
 			</p>
 		</div>
 		<div class="second__item">
 			<div class="second__item-img second__item-img-4">
 			</div>
 			<p>
-				 Желающим заработать
+				 Р–РµР»Р°СЋС‰РёРј Р·Р°СЂР°Р±РѕС‚Р°С‚СЊ
 			</p>
 		</div>
 	</div>
 </div>
  </section> <section class="telegram_work">
 <div class="container_v2">
-	<h2>Что мы делаем?</h2>
+	<h2>Р§С‚Рѕ РјС‹ РґРµР»Р°РµРј?</h2>
 	<div class="telegram_work_list">
 		<div class="third__item">
  <img src="/image/levelup.png" class="third__item-img">
 			<div class="third__item-title">
-				 Обучаем работе с Telegram с “нуля” и Помогаем в монетизации канала
+				 РћР±СѓС‡Р°РµРј СЂР°Р±РѕС‚Рµ СЃ Telegram СЃ вЂњРЅСѓР»СЏвЂќ Рё РџРѕРјРѕРіР°РµРј РІ РјРѕРЅРµС‚РёР·Р°С†РёРё РєР°РЅР°Р»Р°
 			</div>
 		</div>
 		<div class="third__item">
  <img src="/image/strategy.png" class="third__item-img">
 			<div class="third__item-title">
-				 Составляем стратегию выхода вашего бизнеса в Телеграм
+				 РЎРѕСЃС‚Р°РІР»СЏРµРј СЃС‚СЂР°С‚РµРіРёСЋ РІС‹С…РѕРґР° РІР°С€РµРіРѕ Р±РёР·РЅРµСЃР° РІ РўРµР»РµРіСЂР°Рј
 			</div>
 		</div>
 		<div class="third__item">
  <img src="/image/Crowdfunding.png" class="third__item-img">
 			<div class="third__item-title">
-				 Размещаем рекламный бюджет
+				 Р Р°Р·РјРµС‰Р°РµРј СЂРµРєР»Р°РјРЅС‹Р№ Р±СЋРґР¶РµС‚
 			</div>
 		</div>
 		<div class="third__item">
  <img src="/image/Work.png" class="third__item-img">
 			<div class="third__item-title">
-				 Создаем каналы под ключ
+				 РЎРѕР·РґР°РµРј РєР°РЅР°Р»С‹ РїРѕРґ РєР»СЋС‡
 			</div>
 		</div>
 		<div class="third__item">
  <img src="/image/Increase.png" class="third__item-img">
 			<div class="third__item-title">
-				 Подбираем наиболее эффективные рекламные источники
+				 РџРѕРґР±РёСЂР°РµРј РЅР°РёР±РѕР»РµРµ СЌС„С„РµРєС‚РёРІРЅС‹Рµ СЂРµРєР»Р°РјРЅС‹Рµ РёСЃС‚РѕС‡РЅРёРєРё
 			</div>
 		</div>
 		<div class="third__item">
  <img src="/image/Online Support.png" class="third__item-img">
 			<div class="third__item-title">
-				 Консультируем
+				 РљРѕРЅСЃСѓР»СЊС‚РёСЂСѓРµРј
 			</div>
 		</div>
 	</div>
 </div>
  </section> <section class="work_slider">
 <div class="container_v2">
-	<h2 class="page-title">Как мы делаем?</h2>
+	<h2 class="page-title">РљР°Рє РјС‹ РґРµР»Р°РµРј?</h2>
 	<div id="slider_5437" class="carousel_wrap owl-carousel owl-theme" style="opacity: 1;">
 		<div class="item kontekst-carousel-item owl-item">
 			<div class="partfolio-carousel-item__img">
  <img src="/image/image.png" alt="">
 			</div>
 			<div class="partfolio-carousel-item__text">
-				<h3 style="font-size: 30px;margin: 15px 0 18px;">Самый крупный финансовый канал в Telegram</h3>
+				<h3 style="font-size: 30px;margin: 15px 0 18px;">РЎР°РјС‹Р№ РєСЂСѓРїРЅС‹Р№ С„РёРЅР°РЅСЃРѕРІС‹Р№ РєР°РЅР°Р» РІ Telegram</h3>
  <a class="hover_line" href="http://t-do.ru/financemonster" target="_blank">http://t-do.ru/financemonster</a>
 				<p>
-					 От момента создания канала до фактического его статуса самого крупного авторского финансового канала в Telegram прошло 2 месяца.
+					 РћС‚ РјРѕРјРµРЅС‚Р° СЃРѕР·РґР°РЅРёСЏ РєР°РЅР°Р»Р° РґРѕ С„Р°РєС‚РёС‡РµСЃРєРѕРіРѕ РµРіРѕ СЃС‚Р°С‚СѓСЃР° СЃР°РјРѕРіРѕ РєСЂСѓРїРЅРѕРіРѕ Р°РІС‚РѕСЂСЃРєРѕРіРѕ С„РёРЅР°РЅСЃРѕРІРѕРіРѕ РєР°РЅР°Р»Р° РІ Telegram РїСЂРѕС€Р»Рѕ 2 РјРµСЃСЏС†Р°.
 				</p>
 				<p>
-					 Рекламный бюджет: 86576р<br>
-					 Цена подписчика: 9,83 рубля<br>
-					 Вовлечение аудитории: 68% <br>
-					 за первые 24 часа
+					 Р РµРєР»Р°РјРЅС‹Р№ Р±СЋРґР¶РµС‚: 86576СЂ<br>
+					 Р¦РµРЅР° РїРѕРґРїРёСЃС‡РёРєР°: 9,83 СЂСѓР±Р»СЏ<br>
+					 Р’РѕРІР»РµС‡РµРЅРёРµ Р°СѓРґРёС‚РѕСЂРёРё: 68% <br>
+					 Р·Р° РїРµСЂРІС‹Рµ 24 С‡Р°СЃР°
 				</p>
 				<p>
-					 На текущий момент ROI канала(монетизация происходила через продажу финансовых продуктов) -618,2%
+					 РќР° С‚РµРєСѓС‰РёР№ РјРѕРјРµРЅС‚ ROI РєР°РЅР°Р»Р°(РјРѕРЅРµС‚РёР·Р°С†РёСЏ РїСЂРѕРёСЃС…РѕРґРёР»Р° С‡РµСЂРµР· РїСЂРѕРґР°Р¶Сѓ С„РёРЅР°РЅСЃРѕРІС‹С… РїСЂРѕРґСѓРєС‚РѕРІ) -618,2%
 				</p>
 			</div>
 		</div>
@@ -175,10 +175,10 @@ $APPLICATION->SetTitle("Раскрутка Телеграм канала: заказать продвижение в Telegr
  </section> <section class="feedback_form">
 <div class="container_v2">
 	<div class="page-title page-title_light">
-		 Сомневаетесь что в Телеграм есть деньги?
+		 РЎРѕРјРЅРµРІР°РµС‚РµСЃСЊ С‡С‚Рѕ РІ РўРµР»РµРіСЂР°Рј РµСЃС‚СЊ РґРµРЅСЊРіРё?
 	</div>
 	<div class="form__subtitle page-title_light">
-		 Запишитесь на бесплатную консультацию и мы поможем определиться, нужно вам это или нет
+		 Р—Р°РїРёС€РёС‚РµСЃСЊ РЅР° Р±РµСЃРїР»Р°С‚РЅСѓСЋ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЋ Рё РјС‹ РїРѕРјРѕР¶РµРј РѕРїСЂРµРґРµР»РёС‚СЊСЃСЏ, РЅСѓР¶РЅРѕ РІР°Рј СЌС‚Рѕ РёР»Рё РЅРµС‚
 	</div>
 	<div class="kontekst-form">
 		<div role="form" class="wpcf7" id="wpcf7-f5755-p5742-o1" lang="ru-RU" dir="ltr">
@@ -187,24 +187,24 @@ $APPLICATION->SetTitle("Раскрутка Телеграм канала: заказать продвижение в Telegr
  <input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
 				</div>
 				<p>
- <label> Ваше имя (обязательно)<br>
+ <label> Р’Р°С€Рµ РёРјСЏ (РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ)<br>
  <span class="wpcf7-form-control-wrap your-name"> <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> </label>
 				</p>
 				<p>
- <label> Телефон (обязательно)<br>
+ <label> РўРµР»РµС„РѕРЅ (РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ)<br>
  <span class="wpcf7-form-control-wrap your-phone"><input type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> </label>
 				</p>
 				<p>
- <label> Ваш e-mail (обязательно)<br>
+ <label> Р’Р°С€ e-mail (РѕР±СЏР·Р°С‚РµР»СЊРЅРѕ)<br>
  <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" required=""></span> </label>
 				</p>
 				<p>
- <span style="float:left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label>Я принимаю <a href="/privacy-policy" target="_blank">условия передачи информации</a></label>
+ <span style="float:left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label>РЇ РїСЂРёРЅРёРјР°СЋ <a href="/privacy-policy" target="_blank">СѓСЃР»РѕРІРёСЏ РїРµСЂРµРґР°С‡Рё РёРЅС„РѕСЂРјР°С†РёРё</a></label>
 				</p>
 			</form>
 		</div>
 		<div style="text-align:center;">
- <input class="tm_pb_button" type="submit" value="Записаться"><span class="ajax-loader"></span>
+ <input class="tm_pb_button" type="submit" value="Р—Р°РїРёСЃР°С‚СЊСЃСЏ"><span class="ajax-loader"></span>
 		</div>
 	</div>
 </div>
@@ -213,15 +213,15 @@ $APPLICATION->SetTitle("Раскрутка Телеграм канала: заказать продвижение в Telegr
 	<div class="telegram_working_list">
 		<div class="telegram_working_item">
 			<div class="page-title">
-				 Пришло время обучиться новой востребованной профессии
+				 РџСЂРёС€Р»Рѕ РІСЂРµРјСЏ РѕР±СѓС‡РёС‚СЊСЃСЏ РЅРѕРІРѕР№ РІРѕСЃС‚СЂРµР±РѕРІР°РЅРЅРѕР№ РїСЂРѕС„РµСЃСЃРёРё
 			</div>
 			<ul class="sBlockUL">
-				<li>Telegram Менеджер</li>
-				<li>Менеджер по рекламе в Telegram</li>
-				<li>Администратор Telegram Канала</li>
+				<li>Telegram РњРµРЅРµРґР¶РµСЂ</li>
+				<li>РњРµРЅРµРґР¶РµСЂ РїРѕ СЂРµРєР»Р°РјРµ РІ Telegram</li>
+				<li>РђРґРјРёРЅРёСЃС‚СЂР°С‚РѕСЂ Telegram РљР°РЅР°Р»Р°</li>
 			</ul>
 			<div class="page-title">
- <img width="250" alt="Подписывайтесь и начинайте учиться" src="/image/strelka22.png" height="120" class="wp-image-5493 size-full alignright"> Подписывайтесь и начинайте учиться!
+ <img width="250" alt="РџРѕРґРїРёСЃС‹РІР°Р№С‚РµСЃСЊ Рё РЅР°С‡РёРЅР°Р№С‚Рµ СѓС‡РёС‚СЊСЃСЏ" src="/image/strelka22.png" height="120" class="wp-image-5493 size-full alignright"> РџРѕРґРїРёСЃС‹РІР°Р№С‚РµСЃСЊ Рё РЅР°С‡РёРЅР°Р№С‚Рµ СѓС‡РёС‚СЊСЃСЏ!
 			</div>
 		</div>
 		<div class="telegram_working_item_link">
@@ -234,10 +234,10 @@ $APPLICATION->SetTitle("Раскрутка Телеграм канала: заказать продвижение в Telegr
                                     width="160px" height="50px" frameborder="0" scrolling="no"></iframe>
 				</div>
 				<div class="tgme_page_description">
-					 ?Онлайн школа в Телеграме ?<br>
-					 по созданию и продвижению Telegram каналов.?<br>
-					 ?Пошаговые уроки.<br>
-					 ?Уровень знаний учеников на старте – с нуля.
+					 ?РћРЅР»Р°Р№РЅ С€РєРѕР»Р° РІ РўРµР»РµРіСЂР°РјРµ ?<br>
+					 РїРѕ СЃРѕР·РґР°РЅРёСЋ Рё РїСЂРѕРґРІРёР¶РµРЅРёСЋ Telegram РєР°РЅР°Р»РѕРІ.?<br>
+					 ?РџРѕС€Р°РіРѕРІС‹Рµ СѓСЂРѕРєРё.<br>
+					 ?РЈСЂРѕРІРµРЅСЊ Р·РЅР°РЅРёР№ СѓС‡РµРЅРёРєРѕРІ РЅР° СЃС‚Р°СЂС‚Рµ вЂ“ СЃ РЅСѓР»СЏ.
 				</div>
 				<div class="tgme_page_action">
  <a class="tgme_action_button_new" href="http://t-do.ru/joinchat/AAAAAFEDtVapScYSYU1KHQ" target="_blank" rel="noopener">Join Channel</a>
@@ -247,18 +247,18 @@ $APPLICATION->SetTitle("Раскрутка Телеграм канала: заказать продвижение в Telegr
 	</div>
 	<div class="telegram_pb_text">
 		<p>
-			 Безопасный и бесплатный прокси для обхода блокировки<br>
+			 Р‘РµР·РѕРїР°СЃРЅС‹Р№ Рё Р±РµСЃРїР»Р°С‚РЅС‹Р№ РїСЂРѕРєСЃРё РґР»СЏ РѕР±С…РѕРґР° Р±Р»РѕРєРёСЂРѕРІРєРё<br>
  <a class="hover_line" href="http://t-do.ru/Proxy_lab_bot?start=1" style="font-size:26px;">@Proxy_lab_bot</a>
 		</p>
 		<p>
-			 Успей сохранить и обезопасить свой аккаунт в Telegram
+			 РЈСЃРїРµР№ СЃРѕС…СЂР°РЅРёС‚СЊ Рё РѕР±РµР·РѕРїР°СЃРёС‚СЊ СЃРІРѕР№ Р°РєРєР°СѓРЅС‚ РІ Telegram
 		</p>
 	</div>
 </div>
  </section> <section class="channel_news">
 <div class="container_v2">
 	<div class="page-title">
-		 Свежие новости из нашего канала
+		 РЎРІРµР¶РёРµ РЅРѕРІРѕСЃС‚Рё РёР· РЅР°С€РµРіРѕ РєР°РЅР°Р»Р°
 	</div>
 	<div class="post_tel">
 		<div class="post_tel_post">

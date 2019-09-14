@@ -71,8 +71,8 @@ $(document).ready(function(){
 		  	arr.forEach(function(entry) {
 
 			   if(entry == 1){
-			   		document.getElementById("foocalc").value+="\nЯндекс.Директ";
-			   		text_set+="\nЯндекс.Директ";
+			   		document.getElementById("foocalc").value+="\nРЇРЅРґРµРєСЃ.Р”РёСЂРµРєС‚";
+			   		text_set+="\nРЇРЅРґРµРєСЃ.Р”РёСЂРµРєС‚";
 			   		set = set + 1;
 			   }
 			   if(entry == 2){
@@ -82,290 +82,290 @@ $(document).ready(function(){
 			   }
 
 			   if(entry == 70){
-			   		document.getElementById("foocalc").value+="\nКоличество ключевых фраз - до 200";
-			   		text_kolvo="Количество ключевых фраз - до 200";
+			   		document.getElementById("foocalc").value+="\nРљРѕР»РёС‡РµСЃС‚РІРѕ РєР»СЋС‡РµРІС‹С… С„СЂР°Р· - РґРѕ 200";
+			   		text_kolvo="РљРѕР»РёС‡РµСЃС‚РІРѕ РєР»СЋС‡РµРІС‹С… С„СЂР°Р· - РґРѕ 200";
 			   		koef = 1;
 			   }
 			   if(entry == 71){
-			   		document.getElementById("foocalc").value+="\nКоличество ключевых фраз - до 1000";
-			   		text_kolvo="Количество ключевых фраз - до 1000";
+			   		document.getElementById("foocalc").value+="\nРљРѕР»РёС‡РµСЃС‚РІРѕ РєР»СЋС‡РµРІС‹С… С„СЂР°Р· - РґРѕ 1000";
+			   		text_kolvo="РљРѕР»РёС‡РµСЃС‚РІРѕ РєР»СЋС‡РµРІС‹С… С„СЂР°Р· - РґРѕ 1000";
 			   		koef = 1.5;
 			   }
 			   if(entry == 72){
-			   		document.getElementById("foocalc").value+="\nКоличество ключевых фраз - до 3000";
-			   		text_kolvo="Количество ключевых фраз - до 3000";
+			   		document.getElementById("foocalc").value+="\nРљРѕР»РёС‡РµСЃС‚РІРѕ РєР»СЋС‡РµРІС‹С… С„СЂР°Р· - РґРѕ 3000";
+			   		text_kolvo="РљРѕР»РёС‡РµСЃС‚РІРѕ РєР»СЋС‡РµРІС‹С… С„СЂР°Р· - РґРѕ 3000";
 			   		koef = 2;
 			   }
 			   if(entry == 73){
-			   		document.getElementById("foocalc").value+="\nКоличество ключевых фраз - свыше 3000";
-			   		text_kolvo="Количество ключевых фраз - свыше 3000";
+			   		document.getElementById("foocalc").value+="\nРљРѕР»РёС‡РµСЃС‚РІРѕ РєР»СЋС‡РµРІС‹С… С„СЂР°Р· - СЃРІС‹С€Рµ 3000";
+			   		text_kolvo="РљРѕР»РёС‡РµСЃС‚РІРѕ РєР»СЋС‡РµРІС‹С… С„СЂР°Р· - СЃРІС‹С€Рµ 3000";
 			   		koef = 3;
 			   }
 
 
 			   if(entry == 3){
-			   		document.getElementById("foocalc").value+="\nПостановка целей рекламной кампании и определение целевой аудитории";
+			   		document.getElementById("foocalc").value+="\nРџРѕСЃС‚Р°РЅРѕРІРєР° С†РµР»РµР№ СЂРµРєР»Р°РјРЅРѕР№ РєР°РјРїР°РЅРёРё Рё РѕРїСЂРµРґРµР»РµРЅРёРµ С†РµР»РµРІРѕР№ Р°СѓРґРёС‚РѕСЂРёРё";
 			   		summa_chasov = summa_chasov + 1;
 			   }
 			   if(entry == 4){
-			   		document.getElementById("foocalc").value+="\nСбор ключевых слов";
+			   		document.getElementById("foocalc").value+="\nРЎР±РѕСЂ РєР»СЋС‡РµРІС‹С… СЃР»РѕРІ";
 			   		summa_chasov = summa_chasov + 4;
 			   }
 			   if(entry == 5){
-			   		document.getElementById("foocalc").value+="\nПодбор минус-слов";
+			   		document.getElementById("foocalc").value+="\nРџРѕРґР±РѕСЂ РјРёРЅСѓСЃ-СЃР»РѕРІ";
 			   		summa_chasov = summa_chasov + 1;
 			   }
 			   // if(entry == 6){
 			   // 		summa_chasov = summa_chasov + 0.35;
 			   // }
 			   if(entry == 7){
-			   		document.getElementById("foocalc").value+="\nКросс-минусация";
+			   		document.getElementById("foocalc").value+="\nРљСЂРѕСЃСЃ-РјРёРЅСѓСЃР°С†РёСЏ";
 			   		summa_chasov = summa_chasov + 0.35;
 			   }
 			   if(entry == 8){
-			   		document.getElementById("foocalc").value+="\nКластеризация запросов по группам";
+			   		document.getElementById("foocalc").value+="\nРљР»Р°СЃС‚РµСЂРёР·Р°С†РёСЏ Р·Р°РїСЂРѕСЃРѕРІ РїРѕ РіСЂСѓРїРїР°Рј";
 			   		summa_chasov = summa_chasov + 0.35;
 			   }
 			   if(entry == 9){
-			   		document.getElementById("foocalc").value+="\nСоздание структуры рекламного аккаунта";
+			   		document.getElementById("foocalc").value+="\nРЎРѕР·РґР°РЅРёРµ СЃС‚СЂСѓРєС‚СѓСЂС‹ СЂРµРєР»Р°РјРЅРѕРіРѕ Р°РєРєР°СѓРЅС‚Р°";
 			   		summa_chasov = summa_chasov + 0.5;
 			   }
 			   if(entry == 10){
-			   		document.getElementById("foocalc").value+="\nСоздание текстово-графических объявлений";
+			   		document.getElementById("foocalc").value+="\nРЎРѕР·РґР°РЅРёРµ С‚РµРєСЃС‚РѕРІРѕ-РіСЂР°С„РёС‡РµСЃРєРёС… РѕР±СЉСЏРІР»РµРЅРёР№";
 			   		summa_chasov = summa_chasov + 2.35;
 			   }
 			   if(entry == 11){
-			   		document.getElementById("foocalc").value+="\nНастройка геотаргетинга";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° РіРµРѕС‚Р°СЂРіРµС‚РёРЅРіР°";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 12){
-			   		document.getElementById("foocalc").value+="\nНастройка быстрых ссылок";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° Р±С‹СЃС‚СЂС‹С… СЃСЃС‹Р»РѕРє";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 13){
-			   		document.getElementById("foocalc").value+="\nНастройка отображаемых ссылок";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° РѕС‚РѕР±СЂР°Р¶Р°РµРјС‹С… СЃСЃС‹Р»РѕРє";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 14){
-			   		document.getElementById("foocalc").value+="\nНастройка визитки компании";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° РІРёР·РёС‚РєРё РєРѕРјРїР°РЅРёРё";
 			   		summa_chasov = summa_chasov + 0.35;
 			   }
 			   if(entry == 15){
-			   		document.getElementById("foocalc").value+="\nНастройка уточнений";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° СѓС‚РѕС‡РЅРµРЅРёР№";
 			   		summa_chasov = summa_chasov + 0.35;
 			   }
 			   if(entry == 16){
-			   		document.getElementById("foocalc").value+="\nUTM-разметка";
+			   		document.getElementById("foocalc").value+="\nUTM-СЂР°Р·РјРµС‚РєР°";
 			   		summa_chasov = summa_chasov + 0.35;
 			   }
 			   if(entry == 17){
-			   		document.getElementById("foocalc").value+="\nДеление по регионам (таргетинг по регионам)";
+			   		document.getElementById("foocalc").value+="\nР”РµР»РµРЅРёРµ РїРѕ СЂРµРіРёРѕРЅР°Рј (С‚Р°СЂРіРµС‚РёРЅРі РїРѕ СЂРµРіРёРѕРЅР°Рј)";
 			   		summa_chasov = summa_chasov + 0.5;
 			   }
 			   if(entry == 18){
-			   		document.getElementById("foocalc").value+="\nТаргетинг по аудиториям";
+			   		document.getElementById("foocalc").value+="\nРўР°СЂРіРµС‚РёРЅРі РїРѕ Р°СѓРґРёС‚РѕСЂРёСЏРј";
 			   		summa_chasov = summa_chasov + 0.5;
 			   }
 			   if(entry == 19){
-			   		document.getElementById("foocalc").value+="\nПостановка целей рекламной кампании";
+			   		document.getElementById("foocalc").value+="\nРџРѕСЃС‚Р°РЅРѕРІРєР° С†РµР»РµР№ СЂРµРєР»Р°РјРЅРѕР№ РєР°РјРїР°РЅРёРё";
 			   		summa_chasov = summa_chasov + 0.5;
 			   }
 			   if(entry == 20){
-			   		document.getElementById("foocalc").value+="\nАнализ целевой аудитории и определение портрета покупателя";
+			   		document.getElementById("foocalc").value+="\nРђРЅР°Р»РёР· С†РµР»РµРІРѕР№ Р°СѓРґРёС‚РѕСЂРёРё Рё РѕРїСЂРµРґРµР»РµРЅРёРµ РїРѕСЂС‚СЂРµС‚Р° РїРѕРєСѓРїР°С‚РµР»СЏ";
 			   		summa_chasov = summa_chasov + 0.5;
 			   }
 			   if(entry == 21){
-			   		document.getElementById("foocalc").value+="\nПодбор метода таргетинга (выбор тем/интересов/мест размещений, подбор ключевых слов)";
+			   		document.getElementById("foocalc").value+="\nРџРѕРґР±РѕСЂ РјРµС‚РѕРґР° С‚Р°СЂРіРµС‚РёРЅРіР° (РІС‹Р±РѕСЂ С‚РµРј/РёРЅС‚РµСЂРµСЃРѕРІ/РјРµСЃС‚ СЂР°Р·РјРµС‰РµРЅРёР№, РїРѕРґР±РѕСЂ РєР»СЋС‡РµРІС‹С… СЃР»РѕРІ)";
 			   		summa_chasov = summa_chasov + 0.5;
 			   }
 			   if(entry == 22){
-			   		document.getElementById("foocalc").value+="\nСоздание структуры рекламного аккаунта";
+			   		document.getElementById("foocalc").value+="\nРЎРѕР·РґР°РЅРёРµ СЃС‚СЂСѓРєС‚СѓСЂС‹ СЂРµРєР»Р°РјРЅРѕРіРѕ Р°РєРєР°СѓРЅС‚Р°";
 			   		summa_chasov = summa_chasov + 0.5;
 			   }
 			   if(entry == 23){
-			   		document.getElementById("foocalc").value+="\nСоздание текстово-графических объявлений";
+			   		document.getElementById("foocalc").value+="\nРЎРѕР·РґР°РЅРёРµ С‚РµРєСЃС‚РѕРІРѕ-РіСЂР°С„РёС‡РµСЃРєРёС… РѕР±СЉСЏРІР»РµРЅРёР№";
 			   		summa_chasov = summa_chasov + 1;
 			   }
 			   if(entry == 24){
-			   		document.getElementById("foocalc").value+="\nСоздание графических объявлений";
+			   		document.getElementById("foocalc").value+="\nРЎРѕР·РґР°РЅРёРµ РіСЂР°С„РёС‡РµСЃРєРёС… РѕР±СЉСЏРІР»РµРЅРёР№";
 			   		summa_chasov = summa_chasov + 1;
 			   }
 			   if(entry == 25){
-			   		document.getElementById("foocalc").value+="\nНастройка геотаргетинга";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° РіРµРѕС‚Р°СЂРіРµС‚РёРЅРіР°";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 26){
-			   		document.getElementById("foocalc").value+="\nНастройка быстрых ссылок";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° Р±С‹СЃС‚СЂС‹С… СЃСЃС‹Р»РѕРє";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 27){
-			   		document.getElementById("foocalc").value+="\nНастройка визитки компании";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° РІРёР·РёС‚РєРё РєРѕРјРїР°РЅРёРё";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 28){
-			   		document.getElementById("foocalc").value+="\nНастройка уточнений";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° СѓС‚РѕС‡РЅРµРЅРёР№";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 29){
-			   		document.getElementById("foocalc").value+="\nUTM-разметка";
+			   		document.getElementById("foocalc").value+="\nUTM-СЂР°Р·РјРµС‚РєР°";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 30){
-			   		document.getElementById("foocalc").value+="\nДеление по регионам (таргетинг по регионам)";
+			   		document.getElementById("foocalc").value+="\nР”РµР»РµРЅРёРµ РїРѕ СЂРµРіРёРѕРЅР°Рј (С‚Р°СЂРіРµС‚РёРЅРі РїРѕ СЂРµРіРёРѕРЅР°Рј)";
 			   		summa_chasov = summa_chasov + 0.5;
 			   }
 			   if(entry == 31){
-			   		document.getElementById("foocalc").value+="\nДобавление минус площадок, исключение категорий сайтов";
+			   		document.getElementById("foocalc").value+="\nР”РѕР±Р°РІР»РµРЅРёРµ РјРёРЅСѓСЃ РїР»РѕС‰Р°РґРѕРє, РёСЃРєР»СЋС‡РµРЅРёРµ РєР°С‚РµРіРѕСЂРёР№ СЃР°Р№С‚РѕРІ";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 32){
-			   		document.getElementById("foocalc").value+="\nТаргетинг по аудиториям";
+			   		document.getElementById("foocalc").value+="\nРўР°СЂРіРµС‚РёРЅРі РїРѕ Р°СѓРґРёС‚РѕСЂРёСЏРј";
 			   		summa_chasov = summa_chasov + 0.5;
 			   }
 			   if(entry == 33){
-			   		document.getElementById("foocalc").value+="\nПостановка целей рекламной кампании";
+			   		document.getElementById("foocalc").value+="\nРџРѕСЃС‚Р°РЅРѕРІРєР° С†РµР»РµР№ СЂРµРєР»Р°РјРЅРѕР№ РєР°РјРїР°РЅРёРё";
 			   		summa_chasov = summa_chasov + 0.5;
 			   }
 			   if(entry == 34){
-			   		document.getElementById("foocalc").value+="\nАнализ целевой аудитории и определение целевых списков аудиторий";
+			   		document.getElementById("foocalc").value+="\nРђРЅР°Р»РёР· С†РµР»РµРІРѕР№ Р°СѓРґРёС‚РѕСЂРёРё Рё РѕРїСЂРµРґРµР»РµРЅРёРµ С†РµР»РµРІС‹С… СЃРїРёСЃРєРѕРІ Р°СѓРґРёС‚РѕСЂРёР№";
 			   		summa_chasov = summa_chasov + 0.5;
 			   }
 			   if(entry == 35){
-			   		document.getElementById("foocalc").value+="\nНастройка сбора аудиторий";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° СЃР±РѕСЂР° Р°СѓРґРёС‚РѕСЂРёР№";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 36){
-			   		document.getElementById("foocalc").value+="\nСоздание сценария работы РК";
+			   		document.getElementById("foocalc").value+="\nРЎРѕР·РґР°РЅРёРµ СЃС†РµРЅР°СЂРёСЏ СЂР°Р±РѕС‚С‹ Р Рљ";
 			   		summa_chasov = summa_chasov + 1;
 			   }
 			   if(entry == 37){
-			   		document.getElementById("foocalc").value+="\nПодбор аудитории ретаргетинга/рематкетинга";
+			   		document.getElementById("foocalc").value+="\nРџРѕРґР±РѕСЂ Р°СѓРґРёС‚РѕСЂРёРё СЂРµС‚Р°СЂРіРµС‚РёРЅРіР°/СЂРµРјР°С‚РєРµС‚РёРЅРіР°";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 38){
-			   		document.getElementById("foocalc").value+="\nНастройка условий показа";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° СѓСЃР»РѕРІРёР№ РїРѕРєР°Р·Р°";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 39){
-			   		document.getElementById("foocalc").value+="\nСоздание индивидуальных сегментов для таргетинга";
+			   		document.getElementById("foocalc").value+="\nРЎРѕР·РґР°РЅРёРµ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹С… СЃРµРіРјРµРЅС‚РѕРІ РґР»СЏ С‚Р°СЂРіРµС‚РёРЅРіР°";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 40){
-			   		document.getElementById("foocalc").value+="\nНастройка корректировок ставок";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° РєРѕСЂСЂРµРєС‚РёСЂРѕРІРѕРє СЃС‚Р°РІРѕРє";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 41){
-			   		document.getElementById("foocalc").value+="\nСоздание подогревающих объявлений";
+			   		document.getElementById("foocalc").value+="\nРЎРѕР·РґР°РЅРёРµ РїРѕРґРѕРіСЂРµРІР°СЋС‰РёС… РѕР±СЉСЏРІР»РµРЅРёР№";
 			   		summa_chasov = summa_chasov + 0.5;
 			   }
 			   if(entry == 42){
-			   		document.getElementById("foocalc").value+="\nНастройка посадочных страниц на сайте";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° РїРѕСЃР°РґРѕС‡РЅС‹С… СЃС‚СЂР°РЅРёС† РЅР° СЃР°Р№С‚Рµ";
 			   		summa_chasov = summa_chasov + 1;
 			   }
 			   if(entry == 43){
-			   		document.getElementById("foocalc").value+="\nСоздание контента для новых посадочных страниц";
+			   		document.getElementById("foocalc").value+="\nРЎРѕР·РґР°РЅРёРµ РєРѕРЅС‚РµРЅС‚Р° РґР»СЏ РЅРѕРІС‹С… РїРѕСЃР°РґРѕС‡РЅС‹С… СЃС‚СЂР°РЅРёС†";
 			   		summa_chasov = summa_chasov + 1;
 			   }
 			   if(entry == 44){
-			   		document.getElementById("foocalc").value+="\nUTM-разметка";
+			   		document.getElementById("foocalc").value+="\nUTM-СЂР°Р·РјРµС‚РєР°";
 			   		summa_chasov = summa_chasov + 0.2;
 			   }
 			   if(entry == 45){
-			   		document.getElementById("foocalc").value+="\nДеление по регионам (таргетинг по регионам)";
+			   		document.getElementById("foocalc").value+="\nР”РµР»РµРЅРёРµ РїРѕ СЂРµРіРёРѕРЅР°Рј (С‚Р°СЂРіРµС‚РёРЅРі РїРѕ СЂРµРіРёРѕРЅР°Рј)";
 			   		summa_chasov = summa_chasov + 0.5;
 			   }
 
 
 
 			   if(entry == 46){
-			   		document.getElementById("foocalc").value+="\nАнализ поисковых запросов: добавление ключевых слов, минус слов";
+			   		document.getElementById("foocalc").value+="\nРђРЅР°Р»РёР· РїРѕРёСЃРєРѕРІС‹С… Р·Р°РїСЂРѕСЃРѕРІ: РґРѕР±Р°РІР»РµРЅРёРµ РєР»СЋС‡РµРІС‹С… СЃР»РѕРІ, РјРёРЅСѓСЃ СЃР»РѕРІ";
 			   		summa_chasov2 = summa_chasov2 + 1;
 			   }
 			   if(entry == 47){
-			   		document.getElementById("foocalc").value+="\nАнализ целевой аудитории и определение целевых списков аудиторий";
+			   		document.getElementById("foocalc").value+="\nРђРЅР°Р»РёР· С†РµР»РµРІРѕР№ Р°СѓРґРёС‚РѕСЂРёРё Рё РѕРїСЂРµРґРµР»РµРЅРёРµ С†РµР»РµРІС‹С… СЃРїРёСЃРєРѕРІ Р°СѓРґРёС‚РѕСЂРёР№";
 			   		summa_chasov2 = summa_chasov2 + 1;
 			   }
 			   if(entry == 48){
-			   		document.getElementById("foocalc").value+="\nНаписание и тестирование объявлений";
+			   		document.getElementById("foocalc").value+="\nРќР°РїРёСЃР°РЅРёРµ Рё С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ РѕР±СЉСЏРІР»РµРЅРёР№";
 			   		summa_chasov2 = summa_chasov2 + 2;
 			   }
 			   if(entry == 49){
-			   		document.getElementById("foocalc").value+="\nАналитика трафика и дальнейшая оптимизация (корректировка ставок, приостановка неэффективных элементов)";
+			   		document.getElementById("foocalc").value+="\nРђРЅР°Р»РёС‚РёРєР° С‚СЂР°С„РёРєР° Рё РґР°Р»СЊРЅРµР№С€Р°СЏ РѕРїС‚РёРјРёР·Р°С†РёСЏ (РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° СЃС‚Р°РІРѕРє, РїСЂРёРѕСЃС‚Р°РЅРѕРІРєР° РЅРµСЌС„С„РµРєС‚РёРІРЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ)";
 			   		summa_chasov2 = summa_chasov2 + 1;
 			   }
 			   if(entry == 50){
-			   		document.getElementById("foocalc").value+="\nАналитика трафика и стратегическое планирование";
+			   		document.getElementById("foocalc").value+="\nРђРЅР°Р»РёС‚РёРєР° С‚СЂР°С„РёРєР° Рё СЃС‚СЂР°С‚РµРіРёС‡РµСЃРєРѕРµ РїР»Р°РЅРёСЂРѕРІР°РЅРёРµ";
 			   		summa_chasov2 = summa_chasov2 + 0.5;
 			   }
 			   if(entry == 51){
-			   		document.getElementById("foocalc").value+="\nАнализ мест размещений: добавление минус площадок";
+			   		document.getElementById("foocalc").value+="\nРђРЅР°Р»РёР· РјРµСЃС‚ СЂР°Р·РјРµС‰РµРЅРёР№: РґРѕР±Р°РІР»РµРЅРёРµ РјРёРЅСѓСЃ РїР»РѕС‰Р°РґРѕРє";
 			   		summa_chasov2 = summa_chasov2 + 1;
 			   }
 			   if(entry == 52){
-			   		document.getElementById("foocalc").value+="\nНаписание и тестирование объявлений";
+			   		document.getElementById("foocalc").value+="\nРќР°РїРёСЃР°РЅРёРµ Рё С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ РѕР±СЉСЏРІР»РµРЅРёР№";
 			   		summa_chasov2 = summa_chasov2 + 2;
 			   }
 			   if(entry == 53){
-			   		document.getElementById("foocalc").value+="\nАналитика трафика и дальнейшая оптимизация (корректировка ставок, приостановка неэффективных элементов)";
+			   		document.getElementById("foocalc").value+="\nРђРЅР°Р»РёС‚РёРєР° С‚СЂР°С„РёРєР° Рё РґР°Р»СЊРЅРµР№С€Р°СЏ РѕРїС‚РёРјРёР·Р°С†РёСЏ (РєРѕСЂСЂРµРєС‚РёСЂРѕРІРєР° СЃС‚Р°РІРѕРє, РїСЂРёРѕСЃС‚Р°РЅРѕРІРєР° РЅРµСЌС„С„РµРєС‚РёРІРЅС‹С… СЌР»РµРјРµРЅС‚РѕРІ)";
 			   		summa_chasov2 = summa_chasov2 + 1;
 			   }
 			   if(entry == 54){
-			   		document.getElementById("foocalc").value+="\nАналитика трафика и стратегическое планирование";
+			   		document.getElementById("foocalc").value+="\nРђРЅР°Р»РёС‚РёРєР° С‚СЂР°С„РёРєР° Рё СЃС‚СЂР°С‚РµРіРёС‡РµСЃРєРѕРµ РїР»Р°РЅРёСЂРѕРІР°РЅРёРµ";
 			   		summa_chasov2 = summa_chasov2 + 0.5;
 			   }
 
 
 
 			   if(entry == 55){
-			   		document.getElementById("foocalc").value+="\nАудит сайта/лендинга";
+			   		document.getElementById("foocalc").value+="\nРђСѓРґРёС‚ СЃР°Р№С‚Р°/Р»РµРЅРґРёРЅРіР°";
 			   		summa_chasov3 = summa_chasov3 + 1;
 			   }
 			   if(entry == 56){
-			   		document.getElementById("foocalc").value+="\nУстановка Яндекс.Метрики";
+			   		document.getElementById("foocalc").value+="\nРЈСЃС‚Р°РЅРѕРІРєР° РЇРЅРґРµРєСЃ.РњРµС‚СЂРёРєРё";
 			   		summa_chasov3 = summa_chasov3 + 1;
 			   }
 			   if(entry == 57){
-			   		document.getElementById("foocalc").value+="\nУстановка Google Analytics";
+			   		document.getElementById("foocalc").value+="\nРЈСЃС‚Р°РЅРѕРІРєР° Google Analytics";
 			   		summa_chasov3 = summa_chasov3 + 1;
 			   }
 			   if(entry == 58){
-			   		document.getElementById("foocalc").value+="\nУстановка Google Tag Manager";
+			   		document.getElementById("foocalc").value+="\nРЈСЃС‚Р°РЅРѕРІРєР° Google Tag Manager";
 			   		summa_chasov3 = summa_chasov3 + 1;
 			   }
 			   if(entry == 59){
-			   		document.getElementById("foocalc").value+="\nНастройка базовых целей в Яндекс.Метрике";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° Р±Р°Р·РѕРІС‹С… С†РµР»РµР№ РІ РЇРЅРґРµРєСЃ.РњРµС‚СЂРёРєРµ";
 			   		summa_chasov3 = summa_chasov3 + 1;
 			   }
 			   if(entry == 60){
-			   		document.getElementById("foocalc").value+="\nНастройка базовых целей в Google Analytics";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° Р±Р°Р·РѕРІС‹С… С†РµР»РµР№ РІ Google Analytics";
 			   		summa_chasov3 = summa_chasov3 + 1;
 			   }
 			   if(entry == 61){
-			   		document.getElementById("foocalc").value+="\nНастройка чата с автоматическим приветствием на сайте";
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° С‡Р°С‚Р° СЃ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРёРј РїСЂРёРІРµС‚СЃС‚РІРёРµРј РЅР° СЃР°Р№С‚Рµ";
 			   		summa_chasov3 = summa_chasov3 + 1;
 			   }
 			   if(entry == 62){
-			   		document.getElementById("foocalc").value+="\nУправление ставками в рекламном кабинете";
+			   		document.getElementById("foocalc").value+="\nРЈРїСЂР°РІР»РµРЅРёРµ СЃС‚Р°РІРєР°РјРё РІ СЂРµРєР»Р°РјРЅРѕРј РєР°Р±РёРЅРµС‚Рµ";
 			   		summa_chasov3 = summa_chasov3 + 1;
 			   }
 			   if(entry == 63){
-			   		document.getElementById("foocalc").value+="\nКонтроль доступности вашего сайта";
+			   		document.getElementById("foocalc").value+="\nРљРѕРЅС‚СЂРѕР»СЊ РґРѕСЃС‚СѓРїРЅРѕСЃС‚Рё РІР°С€РµРіРѕ СЃР°Р№С‚Р°";
 			   		summa_chasov3 = summa_chasov3 + 1;
 			   }
 			   if(entry == 64){
-			   		document.getElementById("foocalc").value+="\nРазработка рекомендаций по повышению конверсии посадочных страниц сайта";
+			   		document.getElementById("foocalc").value+="\nР Р°Р·СЂР°Р±РѕС‚РєР° СЂРµРєРѕРјРµРЅРґР°С†РёР№ РїРѕ РїРѕРІС‹С€РµРЅРёСЋ РєРѕРЅРІРµСЂСЃРёРё РїРѕСЃР°РґРѕС‡РЅС‹С… СЃС‚СЂР°РЅРёС† СЃР°Р№С‚Р°";
 			   		summa_chasov3 = summa_chasov3 + 2;
 			   }
 			   if(entry == 65){
-			   		document.getElementById("foocalc").value+="\nПодключение колл-трекинга";
+			   		document.getElementById("foocalc").value+="\nРџРѕРґРєР»СЋС‡РµРЅРёРµ РєРѕР»Р»-С‚СЂРµРєРёРЅРіР°";
 			   		summa_chasov3 = summa_chasov3 + 2;
 			   }
 			   if(entry == 66){
-			   		document.getElementById("foocalc").value+="\nПодключение и настройка сквозной аналитики Roistat";
+			   		document.getElementById("foocalc").value+="\nРџРѕРґРєР»СЋС‡РµРЅРёРµ Рё РЅР°СЃС‚СЂРѕР№РєР° СЃРєРІРѕР·РЅРѕР№ Р°РЅР°Р»РёС‚РёРєРё Roistat";
 			   		summa_chasov3 = summa_chasov3 + 2;
 			   }
 			   if(entry == 67){
-			   		document.getElementById("foocalc").value+="\nЧас работы специалиста по вашей разовой задаче";
+			   		document.getElementById("foocalc").value+="\nР§Р°СЃ СЂР°Р±РѕС‚С‹ СЃРїРµС†РёР°Р»РёСЃС‚Р° РїРѕ РІР°С€РµР№ СЂР°Р·РѕРІРѕР№ Р·Р°РґР°С‡Рµ";
 			   		summa_chasov3 = summa_chasov3 + 1;
 			   }
 
@@ -381,14 +381,14 @@ $(document).ready(function(){
             $("#h2_itogo").html(text_kolvo);
 			
             $("#result_itogo3").html(number_format(itogo.toFixed(), 2, ',', ' '));
-			   		document.getElementById("foocalc").value+="\nНастройка РК - "+number_format(itogo.toFixed(), 2, ',', ' ');
+			   		document.getElementById("foocalc").value+="\nРќР°СЃС‚СЂРѕР№РєР° Р Рљ - "+number_format(itogo.toFixed(), 2, ',', ' ');
             $("#result_itogo4").html(number_format(itogo2.toFixed(), 2, ',', ' '));
-			   		document.getElementById("foocalc").value+="\nВедение и оптимизация РК - "+number_format(itogo2.toFixed(), 2, ',', ' ');
+			   		document.getElementById("foocalc").value+="\nР’РµРґРµРЅРёРµ Рё РѕРїС‚РёРјРёР·Р°С†РёСЏ Р Рљ - "+number_format(itogo2.toFixed(), 2, ',', ' ');
             $("#result_itogo5").html(number_format(itogo3.toFixed(), 2, ',', ' '));
-			   		document.getElementById("foocalc").value+="\nДополнительные услуги - "+number_format(itogo3.toFixed(), 2, ',', ' ');
+			   		document.getElementById("foocalc").value+="\nР”РѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ СѓСЃР»СѓРіРё - "+number_format(itogo3.toFixed(), 2, ',', ' ');
 
             $("#result_itogo6").html(number_format(itogo_all.toFixed(), 2, ',', ' '));
-			   		document.getElementById("foocalc").value+="\nИтого: "+number_format(itogo_all.toFixed(), 2, ',', ' ');
+			   		document.getElementById("foocalc").value+="\nРС‚РѕРіРѕ: "+number_format(itogo_all.toFixed(), 2, ',', ' ');
 
 			$("#box").fadeIn(); return false;
 	});

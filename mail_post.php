@@ -23,7 +23,7 @@ class RequestHelper
 
     public function __construct()
     {
-        $this->name     = \trim($_POST['your-name']) ? : 'не указано';
+        $this->name     = \trim($_POST['your-name']) ? : 'РЅРµ СѓРєР°Р·Р°РЅРѕ';
         $this->phone    = \trim($_POST['your-phone']) ? : '';
         $this->email    = \trim($_POST['your-email']) ? : '';
         $this->site     = \trim($_POST['your-site']) ? : '';
@@ -48,10 +48,10 @@ class RequestHelper
     public function createBlockElement($isNormalRequest = true)
     {
         $element     = new \CIBlockElement;
-        $elementName = "Заявка от {$this->datetime} ({$this->name})";
+        $elementName = "Р—Р°СЏРІРєР° РѕС‚ {$this->datetime} ({$this->name})";
 
         if ($isNormalRequest === false) {
-            $elementName = "СПАМ! {$elementName} ???";
+            $elementName = "РЎРџРђРњ! {$elementName} ???";
         }
 
         $elementFields = [
@@ -81,31 +81,31 @@ class RequestHelper
 
         $to = \implode(', ', $to);
 
-        $subject = 'SITE: MSK : NEW ORDER «msk.lapkinlab.ru»';
+        $subject = 'SITE: MSK : NEW ORDER В«msk.lapkinlab.ruВ»';
         $message = <<<HTML
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
 
-        <title>Заявка с сайта «msk.lapkinlab.ru»</title>
+        <title>Р—Р°СЏРІРєР° СЃ СЃР°Р№С‚Р° В«msk.lapkinlab.ruВ»</title>
     </head>
 
     <body>
-        <p>Заявка с сайта «msk.lapkinlab.ru»</p>
+        <p>Р—Р°СЏРІРєР° СЃ СЃР°Р№С‚Р° В«msk.lapkinlab.ruВ»</p>
 
         <br>
 
-        <p>Имя: {$this->name}</p>
-        <p>Почта: {$this->email}</p>
-        <p>Телефон: {$this->phone}</p>
-        <p>Сайт: {$this->site}</p>
-        <p>Сообщение: {$this->messages}</p>
+        <p>РРјСЏ: {$this->name}</p>
+        <p>РџРѕС‡С‚Р°: {$this->email}</p>
+        <p>РўРµР»РµС„РѕРЅ: {$this->phone}</p>
+        <p>РЎР°Р№С‚: {$this->site}</p>
+        <p>РЎРѕРѕР±С‰РµРЅРёРµ: {$this->messages}</p>
 
         <br>
 
-        <p>Страница отправки: {$this->url}</p>
-        <p>IP отправки: {$this->ip}</p>
-        <p>Заявка от {$this->datetime} ({$this->name})</p>
+        <p>РЎС‚СЂР°РЅРёС†Р° РѕС‚РїСЂР°РІРєРё: {$this->url}</p>
+        <p>IP РѕС‚РїСЂР°РІРєРё: {$this->ip}</p>
+        <p>Р—Р°СЏРІРєР° РѕС‚ {$this->datetime} ({$this->name})</p>
     </body>
 </html>
 HTML;
@@ -136,7 +136,7 @@ if (isset($_POST['name']) && $_POST['name'] === '') {
         $amo = new \AmoCRM\Client($requestHelper->amoSubdomain, $requestHelper->amoLogin, $requestHelper->amoApiKey);
 
         $lead                        = $amo->lead;
-        $lead['name']                = \mb_convert_encoding('Заказ звонка с сайта «msk.lapkinlab.ru»', 'utf-8', 'windows-1251');
+        $lead['name']                = \mb_convert_encoding('Р—Р°РєР°Р· Р·РІРѕРЅРєР° СЃ СЃР°Р№С‚Р° В«msk.lapkinlab.ruВ»', 'utf-8', 'windows-1251');
         $lead['responsible_user_id'] = 3369325;
 
         $id = $lead->apiAdd();

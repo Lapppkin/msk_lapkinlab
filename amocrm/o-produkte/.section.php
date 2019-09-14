@@ -1,7 +1,7 @@
 <?
-$sSectionName = "Î ïðîäóêòå";
+$sSectionName = "Ðž Ð¿Ñ€Ð¾Ð´ÑƒÐºÑ‚Ðµ";
 $arDirProperties = array(
-   "description" => "Îñíîâíàÿ èíôîðìàöèÿ î ñèñòåìå amoCRM",
-   "title" => "Èíôîðìàöèÿ î ïðîäóêòå amoCRM"
+   "description" => "ÐžÑÐ½Ð¾Ð²Ð½Ð°Ñ Ð¸Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ Ð¾ ÑÐ¸ÑÑ‚ÐµÐ¼Ðµ amoCRM",
+   "title" => "Ð˜Ð½Ñ„Ð¾Ñ€Ð¼Ð°Ñ†Ð¸Ñ Ð¾ Ð¿Ñ€Ð¾Ð´ÑƒÐºÑ‚Ðµ amoCRM"
 );
 ?>

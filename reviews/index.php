@@ -1,10 +1,10 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 
-$APPLICATION->SetPageProperty("title", "������ � ������ LapkinLab");
-$APPLICATION->SetPageProperty("description", "������ �������� � ������ ���-������ LapkinLab");
-$APPLICATION->SetTitle("������ � ������ LapkinLab");
-$APPLICATION->SetPageProperty("keywords", "������,lapkinlab");
+$APPLICATION->SetPageProperty("title", "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ LapkinLab");
+$APPLICATION->SetPageProperty("description", "пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅ-пїЅпїЅпїЅпїЅпїЅпїЅ LapkinLab");
+$APPLICATION->SetTitle("пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅпїЅ LapkinLab");
+$APPLICATION->SetPageProperty("keywords", "пїЅпїЅпїЅпїЅпїЅпїЅ,lapkinlab");
 ?><style type="text/css">
 .breadcrumbs{
   width: 100%;
@@ -38,7 +38,7 @@ color: #fa3a5e;
 						<div class="breadcrumbs__content">
 							<div class="breadcrumbs__wrap">
 								<div class="breadcrumbs__item">
- <a href="/" class="breadcrumbs__item-link is-home" rel="home" title="�������">�������</a>
+ <a href="/" class="breadcrumbs__item-link is-home" rel="home" title="пїЅпїЅпїЅпїЅпїЅпїЅпїЅ">пїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a>
 								</div>
 								<div class="breadcrumbs__item">
 									<div class="breadcrumbs__item-sep">
@@ -46,7 +46,7 @@ color: #fa3a5e;
 									</div>
 								</div>
 								<div class="breadcrumbs__item">
- <span class="breadcrumbs__item-target">������</span>
+ <span class="breadcrumbs__item-target">пїЅпїЅпїЅпїЅпїЅпїЅ</span>
 								</div>
 							</div>
 						</div>
@@ -57,7 +57,7 @@ color: #fa3a5e;
 	</div>
 </div>
  </section>
-<h1 class="title" style=" padding-bottom: 70px;padding-top: 50px; font-size: 36px; line-height: 36px; text-align: center; font-weight: bold; color: #000; background: transparent;">������ � ����� ������</h1>
+<h1 class="title" style=" padding-bottom: 70px;padding-top: 50px; font-size: 36px; line-height: 36px; text-align: center; font-weight: bold; color: #000; background: transparent;">пїЅпїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ</h1>
 <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css">
 <div class="video-reviews-block" style="margin-top: 50px; justify-content: center !important;">
 	<div class="video-review">
@@ -66,10 +66,10 @@ color: #fa3a5e;
 			<img src="/assests/kalinza.jpg" style="position: absolute;left: -195px;top: -65px;">
 		</div>
 		<div class="vr-title">
-			 ���� ����� Kalinza.ru
+			 пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ Kalinza.ru
 		</div>
 		<p class="comp-work">
-			 ���������� ����� �� CMS Bitrix
+			 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅ CMS Bitrix
 		</p>
 	</div>
 	<div class="video-review">
@@ -78,10 +78,10 @@ color: #fa3a5e;
 			<img src="/assests/trillion.jpg" style="position: absolute;left: -195px;top: -65px;">
 		</div>
 		<div class="vr-title">
-			 ��������� ������ Trillion-ug.ru
+			 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ Trillion-ug.ru
 		</div>
 		<p class="comp-work">
-			 ��������� ����� � SEO ����������� ����� � ����
+			 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ SEO пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅ пїЅпїЅпїЅпїЅ
 		</p>
 	</div>
 </div>

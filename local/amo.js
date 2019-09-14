@@ -11,7 +11,7 @@ var menagercalc = function () {
             var arr = {
                 add: [
                     {
-                        name: "Покупка карандашей",
+                        name: "РџРѕРєСѓРїРєР° РєР°СЂР°РЅРґР°С€РµР№",
                         created_at: "1508101200",
                         updated_at: "1508274000",
                         status_id: "13670637",
@@ -48,11 +48,11 @@ var menagercalc = function () {
                                 id: "4399655",
                                 values: [
                                     {
-                                        value: "ул. Охотный ряд, 1",
+                                        value: "СѓР». РћС…РѕС‚РЅС‹Р№ СЂСЏРґ, 1",
                                         subtype: "address_line_1"
                                     },
                                     {
-                                        value: "Москва",
+                                        value: "РњРѕСЃРєРІР°",
                                         subtype: "city"
                                     },
                                     {

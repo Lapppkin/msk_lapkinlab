@@ -76,7 +76,7 @@ function createPDF() {
             Hour = Data.getHours();
             Minutes = Data.getMinutes();
             Seconds = Data.getSeconds();
-            pdf.save('Калькулятор_от_LapkinLab__'+Day+'_'+Month+'_'+Year+'__'+Hour+'_'+Minutes+'_'+Seconds+'.pdf');
+            pdf.save('РљР°Р»СЊРєСѓР»СЏС‚РѕСЂ_РѕС‚_LapkinLab__'+Day+'_'+Month+'_'+Year+'__'+Hour+'_'+Minutes+'_'+Seconds+'.pdf');
         }
     });
 }
@@ -141,25 +141,25 @@ $(document).ready(function(){
         document.getElementById("i10").value = i10.toFixed()+"%";
 
         i16 = i1 / i13;
-        document.getElementById("i16").value = i16.toFixed(2)+" руб";
+        document.getElementById("i16").value = i16.toFixed(2)+" СЂСѓР±";
 
         i22 = (i13*i19)/100;
         document.getElementById("i22").value = i22.toFixed();
 
         i25 = i1 / i22;
-        document.getElementById("i25").value = i25.toFixed(2)+" руб";
+        document.getElementById("i25").value = i25.toFixed(2)+" СЂСѓР±";
 
         i31 = (i22*i28)/100;
         document.getElementById("i31").value = i31.toFixed();
 
         i34 = i1 / i31;
-        document.getElementById("i34").value = i34.toFixed(2)+" руб";
+        document.getElementById("i34").value = i34.toFixed(2)+" СЂСѓР±";
 
         i37 = i31/22;
         document.getElementById("i37").value = i37.toFixed();
 
         i43 = i31*i40;
-        document.getElementById("i43").value = i43.toFixed(2)+" руб";
+        document.getElementById("i43").value = i43.toFixed(2)+" СЂСѓР±";
 
         i46 = ((i43-i1)/i1)*100;
         document.getElementById("i46").value = i46.toFixed()+" %";
@@ -171,25 +171,25 @@ $(document).ready(function(){
         document.getElementById("i11").value = i11.toFixed()+"%";
 
         i17 = i2 / i14;
-        document.getElementById("i17").value = i17.toFixed(2)+" руб";
+        document.getElementById("i17").value = i17.toFixed(2)+" СЂСѓР±";
 
         i23 = (i14*i20)/100;
         document.getElementById("i23").value = i23.toFixed();
 
         i26 = i2 / i23;
-        document.getElementById("i26").value = i26.toFixed(2)+" руб";
+        document.getElementById("i26").value = i26.toFixed(2)+" СЂСѓР±";
 
         i32 = (i23*i29)/100;
         document.getElementById("i32").value = i32.toFixed();
 
         i35 = i2 / i32;
-        document.getElementById("i35").value = i35.toFixed(2)+" руб";
+        document.getElementById("i35").value = i35.toFixed(2)+" СЂСѓР±";
 
         i38 = i32/22;
         document.getElementById("i38").value = i38.toFixed();
 
         i44 = i32*i41;
-        document.getElementById("i44").value = i44.toFixed(2)+" руб";
+        document.getElementById("i44").value = i44.toFixed(2)+" СЂСѓР±";
 
         i47 = ((i44-i2)/i2)*100;
         document.getElementById("i47").value = i47.toFixed()+" %";
@@ -209,25 +209,25 @@ $(document).ready(function(){
         document.getElementById("i15").value = i15.toFixed();
 
         i18 = i3 / i15;
-        document.getElementById("i18").value = i18.toFixed(2)+" руб";
+        document.getElementById("i18").value = i18.toFixed(2)+" СЂСѓР±";
 
         i24 = (i15*i21)/100;
         document.getElementById("i24").value = i24.toFixed();
 
         i27 = i3 / i24;
-        document.getElementById("i27").value = i27.toFixed(2)+" руб";
+        document.getElementById("i27").value = i27.toFixed(2)+" СЂСѓР±";
 
         i33 = (i24*i30)/100;
         document.getElementById("i33").value = i33.toFixed();
 
         i36 = i3 / i33;
-        document.getElementById("i36").value = i36.toFixed(2)+" руб";
+        document.getElementById("i36").value = i36.toFixed(2)+" СЂСѓР±";
 
         i39 = i33/22;
         document.getElementById("i39").value = i39.toFixed();
 
         i45 = i33*i42;
-        document.getElementById("i45").value = i45.toFixed(2)+" руб";
+        document.getElementById("i45").value = i45.toFixed(2)+" СЂСѓР±";
 
         i48 = ((i45-i3)/i3)*100;
         document.getElementById("i48").value = i48.toFixed()+" %";

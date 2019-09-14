@@ -1,9 +1,9 @@
 
-<h5 class="widgetheading">Наши контакты</h5>
+<h5 class="widgetheading">РќР°С€Рё РєРѕРЅС‚Р°РєС‚С‹</h5>
  
 <address> 
 <strong></strong><br />
- <em>Наш адрес:</em><br />
+ <em>РќР°С€ Р°РґСЂРµСЃ:</em><br />
  <br />
 </address>
  

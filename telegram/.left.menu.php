@@ -1,7 +1,7 @@
 <?//
 //$aMenuLinks = Array(
 //	Array(
-//		"Îáó÷åíèå Telegram",
+//		"ÐžÐ±ÑƒÑ‡ÐµÐ½Ð¸Ðµ Telegram",
 //		"http://rutelegramlab.lapkinlab.ru/",
 //		Array(),
 //		Array(),
@@ -15,7 +15,7 @@
 //		""
 //	),
 //	Array(
-//		"Ðàçðàáîòêà è âíåäðåíèå ÷àò-áîòîâ",
+//		"Ð Ð°Ð·Ñ€Ð°Ð±Ð¾Ñ‚ÐºÐ° Ð¸ Ð²Ð½ÐµÐ´Ñ€ÐµÐ½Ð¸Ðµ Ñ‡Ð°Ñ‚-Ð±Ð¾Ñ‚Ð¾Ð²",
 //		"/telegram/razrabotka-i-vnedrenie-chat-botov/",
 //		Array(),
 //		Array(),

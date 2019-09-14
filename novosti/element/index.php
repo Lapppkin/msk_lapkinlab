@@ -58,7 +58,7 @@ $APPLICATION->SetTitle("Title");
 		"CACHE_GROUPS" => "N",
 		"DISPLAY_TOP_PAGER" => "Y",
 		"DISPLAY_BOTTOM_PAGER" => "Y",
-		"PAGER_TITLE" => "Ñòðàíèöà",
+		"PAGER_TITLE" => "Ð¡Ñ‚Ñ€Ð°Ð½Ð¸Ñ†Ð°",
 		"PAGER_TEMPLATE" => "",
 		"PAGER_SHOW_ALL" => "Y",
 		"PAGER_BASE_LINK_ENABLE" => "Y",

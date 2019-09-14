@@ -1,7 +1,7 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"SEO àóäèò",
+		"SEO Ð°ÑƒÐ´Ð¸Ñ‚",
 		"/seo-page/",
 		Array(), 
 		Array(), 

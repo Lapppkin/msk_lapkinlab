@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <div class="col-md-12">
-                <p class="title_wh">¬˚·ÂËÚÂ Ò‚Ó˛ ÒÚ‡ÚÂ„Ë˛ ÔÓ‰‚ËÊÂÌËˇ</p>
+                <p class="title_wh">–í—ã–±–µ—Ä–∏—Ç–µ —Å–≤–æ—é —Å—Ç—Ä–∞—Ç–µ–≥–∏—é –ø—Ä–æ–¥–≤–∏–∂–µ–Ω–∏—è</p>
             </div>
             <div class="col-md-12">
                 <div class="container_v2">
@@ -10,7 +10,7 @@
                         <div style="text-align: center;">
                             <div style="position: relative; padding: 10px;">
                                 <div style="float: left; width: 25%; padding: 20px;">
-                                    <label id="range7_l"><b>“»œ —¿…“¿</b></label>
+                                    <label id="range7_l"><b>–¢–ò–ü –°–ê–ô–¢–ê</b></label>
                                 </div>
                                 <div style="float: left; width: 75%;">
                                     <input id="range7" name="range" type="text" value="">
@@ -21,7 +21,7 @@
                             <!-- -->
                             <div style="position: relative; padding: 10px;">
                                 <div style="float: left; width: 25%; padding: 20px;">
-                                    <label id="range1_l"><b> ŒÀ»◊≈—“¬Œ  Àﬁ◊≈¬€’ «¿œ–Œ—Œ¬</b></label>
+                                    <label id="range1_l"><b>–ö–û–õ–ò–ß–ï–°–¢–í–û –ö–õ–Æ–ß–ï–í–´–• –ó–ê–ü–†–û–°–û–í</b></label>
                                 </div>
                                 <div style="float: left; width: 75%;">
                                     <input id="range1" name="range" type="text" value="">
@@ -32,7 +32,7 @@
                             <!-- -->
                             <div style="position: relative; padding: 10px;">
                                 <div style="float: left; width: 25%; padding: 20px;">
-                                    <label id="range2_l"><b> ŒÀ»◊≈—“¬Œ –¿«ƒ≈ÀŒ¬ —¿…“¿</b></label>
+                                    <label id="range2_l"><b>–ö–û–õ–ò–ß–ï–°–¢–í–û –†–ê–ó–î–ï–õ–û–í –°–ê–ô–¢–ê</b></label>
                                 </div>
                                 <div style="float: left; width: 75%;">
                                     <input id="range2" name="range" type="text" value="">
@@ -43,7 +43,7 @@
                             <!-- -->
                             <div style="position: relative; padding: 10px;">
                                 <div style="float: left; width: 25%; padding: 20px;">
-                                    <label id="range3_l"><b>–≈√»ŒÕ œ–Œƒ¬»∆≈Õ»ﬂ</b></label>
+                                    <label id="range3_l"><b>–†–ï–ì–ò–û–ù –ü–†–û–î–í–ò–ñ–ï–ù–ò–Ø</b></label>
                                 </div>
                                 <div style="float: left; width: 75%;">
                                     <input id="range3" name="range" type="text" value="">
@@ -54,7 +54,7 @@
                             <!-- -->
                             <div style="position: relative; padding: 10px;">
                                 <div style="float: left; width: 25%; padding: 20px;">
-                                    <label id="range4_l"><b>”–Œ¬≈Õ‹  ŒÕ ”–≈Õ÷»» ¬ “≈Ã¿“» ≈</b></label>
+                                    <label id="range4_l"><b>–£–†–û–í–ï–ù–¨ –ö–û–ù–ö–£–†–ï–ù–¶–ò–ò –í –¢–ï–ú–ê–¢–ò–ö–ï</b></label>
                                 </div>
                                 <div style="float: left; width: 75%;">
                                     <input id="range4" name="range" type="text" value="">
@@ -65,7 +65,7 @@
                             <!-- -->
                             <div style="position: relative; padding: 10px;">
                                 <div style="float: left; width: 25%; padding: 20px;">
-                                    <label id="range5_l"><b>»—“Œ–»ﬂ œ–Œƒ¬»∆≈Õ»ﬂ —¿…“¿</b></label>
+                                    <label id="range5_l"><b>–ò–°–¢–û–†–ò–Ø –ü–†–û–î–í–ò–ñ–ï–ù–ò–Ø –°–ê–ô–¢–ê</b></label>
                                 </div>
                                 <div style="float: left; width: 75%;">
                                     <input id="range5" name="range" type="text" value="">
@@ -76,7 +76,7 @@
                             <!-- -->
                             <div style="position: relative; padding: 10px;">
                                 <div style="float: left; width: 25%; padding: 20px;">
-                                    <label id="range16_l"><b> ŒÕ“≈ —“Õ¿ﬂ –≈ À¿Ã¿ (PPC)</b></label>
+                                    <label id="range16_l"><b>–ö–û–ù–¢–ï–ö–°–¢–ù–ê–Ø –†–ï–ö–õ–ê–ú–ê (PPC)</b></label>
                                 </div>
                                 <div style="float: left; width: 75%;">
                                     <input id="range16" name="range" type="text" value="">
@@ -87,13 +87,13 @@
                             <!-- -->
                             <div style="position: relative; padding: 10px;">
                                 <div style="float: left; width: 25%; padding: 20px;">
-                                    <label id="range8_l"><b>≈—“‹ —¬Œ…  Œœ»–¿…“≈–?</b></label>
+                                    <label id="range8_l"><b>–ï–°–¢–¨ –°–í–û–ô –ö–û–ü–ò–†–ê–ô–¢–ï–†?</b></label>
                                 </div>
                                 <div style="float: left; width: 30%;">
                                     <input id="range8" name="range" type="text" value="">
                                 </div>
                                 <div style="float: left; width: 20%; padding: 20px 0px 0px 40px;">
-                                    <label id="range9_l"><b>≈—“‹ —¬Œ… œ–Œ√–¿ÃÃ»—“?</b></label>
+                                    <label id="range9_l"><b>–ï–°–¢–¨ –°–í–û–ô –ü–†–û–ì–†–ê–ú–ú–ò–°–¢?</b></label>
                                 </div>
                                 <div style="float: left; width: 25%;">
                                     <input id="range9" name="range" type="text" value="">
@@ -104,7 +104,7 @@
                             <!-- -->
                             <div style="position: relative; padding: 10px;">
                                 <div style="float: left; width: 25%; padding: 20px;">
-                                    <label id="range11_l"><b>¿ƒ¿œ“»¬ÕŒ—“‹</b></label>
+                                    <label id="range11_l"><b>–ê–î–ê–ü–¢–ò–í–ù–û–°–¢–¨</b></label>
                                 </div>
                                 <div style="float: left; width: 75%;">
                                     <input id="range11" name="range" type="text" value="">
@@ -115,13 +115,13 @@
                             <!-- -->
                             <div style="position: relative; padding: 10px;">
                                 <div style="float: left; width: 25%; padding: 20px;">
-                                    <label id="range10_l"><b>—¿…“ œŒƒ ‘»À‹“–ŒÃ?</b></label>
+                                    <label id="range10_l"><b>–°–ê–ô–¢ –ü–û–î –§–ò–õ–¨–¢–†–û–ú?</b></label>
                                 </div>
                                 <div style="float: left; width: 30%;">
                                     <input id="range10" name="range" type="text" value="">
                                 </div>
                                 <div style="float: left; width: 20%; padding: 20px 0px 0px 40px;">
-                                    <label id="range12_l"><b>œ–Œƒ¬»∆≈Õ»≈ ¬ YANDEX- ¿–“¿’</b></label>
+                                    <label id="range12_l"><b>–ü–†–û–î–í–ò–ñ–ï–ù–ò–ï –í YANDEX-–ö–ê–†–¢–ê–•</b></label>
                                 </div>
                                 <div style="float: left; width: 25%;">
                                     <input id="range12" name="range" type="text" value="">
@@ -132,13 +132,13 @@
                             <!-- -->
                             <div style="position: relative; padding: 10px;">
                                 <div style="float: left; width: 25%; padding: 20px;">
-                                    <label id="range13_l"><b> –¿”ƒ-Ã¿– ≈“»Õ√</b></label>
+                                    <label id="range13_l"><b>–ö–†–ê–£–î-–ú–ê–†–ö–ï–¢–ò–ù–ì</b></label>
                                 </div>
                                 <div style="float: left; width: 30%;">
                                     <input id="range13" name="range" type="text" value="">
                                 </div>
                                 <div style="float: left; width: 20%; padding: 20px 0px 0px 40px;">
-                                    <label id="range14_l"><b>”√À”¡À≈ÕÕ¿ﬂ ¿Õ¿À»“» ¿</b></label>
+                                    <label id="range14_l"><b>–£–ì–õ–£–ë–õ–ï–ù–ù–ê–Ø –ê–ù–ê–õ–ò–¢–ò–ö–ê</b></label>
                                 </div>
                                 <div style="float: left; width: 25%;">
                                     <input id="range14" name="range" type="text" value="">
@@ -150,20 +150,20 @@
                         </div>
 
                         <div id="tm_builder_outer_content" class="tm_builder_outer_content" style="text-align: center; padding: 0px;">
-                            <a id="trigger" class="tm_pb_button hover-green" href="" onclick="ym(45994323, 'reachGoal', 'bill'); return true;">œÓÎÛ˜ËÚ¸ ‡Ò˜ÂÚ</a>
+                            <a id="trigger" class="tm_pb_button hover-green" href="" onclick="ym(45994323, 'reachGoal', 'bill'); return true;">–ü–æ–ª—É—á–∏—Ç—å —Ä–∞—Å—á–µ—Ç</a>
                         </div>
                         <div id="box" class="tm_pb_section tm_pb_section_1 tm_section_regular tm_section_transparent" style="display: none; color: #fff;">
-                            <p style="font-size:25px;">–ÂÁÛÎ¸Ú‡Ú:</p>
+                            <p style="font-size:25px;">–†–µ–∑—É–ª—å—Ç–∞—Ç:</p>
                             <div class="container">
                                 <div class="row tm_pb_row tm_pb_row_1">
                                     <div class="tm_pb_column tm_pb_column_1_2 tm_pb_column_1 col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                                        <p style="font-size:22px;">ŒÒÚ‡‚¸ÚÂ ‚‡¯Ë ÍÓÌÚ‡ÍÚÌ˚Â ‰‡ÌÌ˚Â ‰Îˇ Ò‚ˇÁË:</p>
+                                        <p style="font-size:22px;">–û—Å—Ç–∞–≤—å—Ç–µ –≤–∞—à–∏ –∫–æ–Ω—Ç–∞–∫—Ç–Ω—ã–µ –¥–∞–Ω–Ω—ã–µ –¥–ª—è —Å–≤—è–∑–∏:</p>
                                         <form action="/mail_post.php" method="post" class="wpcf7-form">
                                             <div style="display: none;">
                                                 <input type="hidden" name="url" value="http://<?= $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] ?>">
                                             </div>
                                             <p>
-                                                <label> ¬‡¯Â ËÏˇ (Ó·ˇÁ‡ÚÂÎ¸ÌÓ)<br>
+                                                <label> –í–∞—à–µ –∏–º—è (–æ–±—è–∑–∞—Ç–µ–ª—å–Ω–æ)<br>
                                                     <span class="wpcf7-form-control-wrap your-name"><input style="width: 80%;"
                                                                                                            type="text"
                                                                                                            name="your-name"
@@ -173,7 +173,7 @@
                                                                                                            required=""></span> </label>
                                             </p>
                                             <p>
-                                                <label> “ÂÎÂÙÓÌ (Ó·ˇÁ‡ÚÂÎ¸ÌÓ)<br>
+                                                <label> –¢–µ–ª–µ—Ñ–æ–Ω (–æ–±—è–∑–∞—Ç–µ–ª—å–Ω–æ)<br>
                                                     <span class="wpcf7-form-control-wrap your-phone"><input style="width: 80%;"
                                                                                                             type="text"
                                                                                                             name="your-phone"
@@ -183,7 +183,7 @@
                                                                                                             required=""></span> </label>
                                             </p>
                                             <p>
-                                                <label> ¬‡¯ e-mail (Ó·ˇÁ‡ÚÂÎ¸ÌÓ)<br>
+                                                <label> –í–∞—à e-mail (–æ–±—è–∑–∞—Ç–µ–ª—å–Ω–æ)<br>
                                                     <span class="wpcf7-form-control-wrap your-email"><input style="width: 80%;"
                                                                                                             type="email"
                                                                                                             name="your-email"
@@ -193,7 +193,7 @@
                                                                                                             required=""></span> </label>
                                             </p>
                                             <p>
-                                                <label> ¬‡¯ Ò‡ÈÚ<br>
+                                                <label> –í–∞—à —Å–∞–π—Ç<br>
                                                     <span class="wpcf7-form-control-wrap your-site"><input style="width: 80%;"
                                                                                                            type="text"
                                                                                                            name="your-site"
@@ -215,7 +215,7 @@
                                             </div>
                                             <p class="widget_text">
                                                 <input type="submit"
-                                                       value="«‡Í‡Á‡Ú¸"
+                                                       value="–ó–∞–∫–∞–∑–∞—Ç—å"
                                                        class="wpcf7-form-control tm_pb_button wpcf7-submit"
                                                        onclick="ym(45994323, 'reachGoal', 'push_but'); return true;"><span class="ajax-loader"></span>
                                             </p>
@@ -224,63 +224,63 @@
                                         </form>
                                     </div>
                                     <div class="tm_pb_column tm_pb_column_1_2 tm_pb_column_1 col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
-                                        <p style="font-size:22px;">¬˚ ‚˚·‡ÎË:</p>
+                                        <p style="font-size:22px;">–í—ã –≤—ã–±—Ä–∞–ª–∏:</p>
                                         <table>
                                             <tbody>
                                             <tr>
-                                                <td>“»œ —¿…“¿:</td>
+                                                <td>–¢–ò–ü –°–ê–ô–¢–ê:</td>
                                                 <td><span id="result_1"></span></td>
                                             </tr>
                                             <tr>
-                                                <td> ŒÀ»◊≈—“¬Œ  Àﬁ◊≈¬€’ «¿œ–Œ—Œ¬:</td>
+                                                <td>–ö–û–õ–ò–ß–ï–°–¢–í–û –ö–õ–Æ–ß–ï–í–´–• –ó–ê–ü–†–û–°–û–í:</td>
                                                 <td><span id="result_2"></span></td>
                                             </tr>
                                             <tr>
-                                                <td> ŒÀ»◊≈—“¬Œ –¿«ƒ≈ÀŒ¬ —¿…“¿:</td>
+                                                <td>–ö–û–õ–ò–ß–ï–°–¢–í–û –†–ê–ó–î–ï–õ–û–í –°–ê–ô–¢–ê:</td>
                                                 <td><span id="result_3"></span></td>
                                             </tr>
                                             <tr>
-                                                <td>–≈√»ŒÕ œ–Œƒ¬»∆≈Õ»ﬂ:</td>
+                                                <td>–†–ï–ì–ò–û–ù –ü–†–û–î–í–ò–ñ–ï–ù–ò–Ø:</td>
                                                 <td><span id="result_4"></span></td>
                                             </tr>
                                             <tr>
-                                                <td>”–Œ¬≈Õ‹  ŒÕ ”–≈Õ÷»» ¬ “≈Ã¿“» ≈:</td>
+                                                <td>–£–†–û–í–ï–ù–¨ –ö–û–ù–ö–£–†–ï–ù–¶–ò–ò –í –¢–ï–ú–ê–¢–ò–ö–ï:</td>
                                                 <td><span id="result_5"></span></td>
                                             </tr>
                                             <tr>
-                                                <td>»—“Œ–»ﬂ œ–Œƒ¬»∆≈Õ»ﬂ —¿…“¿:</td>
+                                                <td>–ò–°–¢–û–†–ò–Ø –ü–†–û–î–í–ò–ñ–ï–ù–ò–Ø –°–ê–ô–¢–ê:</td>
                                                 <td><span id="result_6"></span></td>
                                             </tr>
                                             <tr>
-                                                <td> ŒÕ“≈ —“Õ¿ﬂ –≈ À¿Ã¿ (PPC):</td>
+                                                <td>–ö–û–ù–¢–ï–ö–°–¢–ù–ê–Ø –†–ï–ö–õ–ê–ú–ê (PPC):</td>
                                                 <td><span id="result_7"></span></td>
                                             </tr>
                                             <tr>
-                                                <td>≈—“‹ —¬Œ…  Œœ»–¿…“≈–?:</td>
+                                                <td>–ï–°–¢–¨ –°–í–û–ô –ö–û–ü–ò–†–ê–ô–¢–ï–†?:</td>
                                                 <td><span id="result_8"></span></td>
                                             </tr>
                                             <tr>
-                                                <td>≈—“‹ —¬Œ… œ–Œ√–¿ÃÃ»—“?:</td>
+                                                <td>–ï–°–¢–¨ –°–í–û–ô –ü–†–û–ì–†–ê–ú–ú–ò–°–¢?:</td>
                                                 <td><span id="result_9"></span></td>
                                             </tr>
                                             <tr>
-                                                <td>¿ƒ¿œ“»¬ÕŒ—“‹:</td>
+                                                <td>–ê–î–ê–ü–¢–ò–í–ù–û–°–¢–¨:</td>
                                                 <td><span id="result_11"></span></td>
                                             </tr>
                                             <tr>
-                                                <td>—¿…“ œŒƒ ‘»À‹“–ŒÃ?:</td>
+                                                <td>–°–ê–ô–¢ –ü–û–î –§–ò–õ–¨–¢–†–û–ú?:</td>
                                                 <td><span id="result_10"></span></td>
                                             </tr>
                                             <tr>
-                                                <td>œ–Œƒ¬»∆≈Õ»≈ ¬ YANDEX- ¿–“¿’:</td>
+                                                <td>–ü–†–û–î–í–ò–ñ–ï–ù–ò–ï –í YANDEX-–ö–ê–†–¢–ê–•:</td>
                                                 <td><span id="result_12"></span></td>
                                             </tr>
                                             <tr>
-                                                <td> –¿”ƒ-Ã¿– ≈“»Õ√:</td>
+                                                <td>–ö–†–ê–£–î-–ú–ê–†–ö–ï–¢–ò–ù–ì:</td>
                                                 <td><span id="result_13"></span></td>
                                             </tr>
                                             <tr>
-                                                <td>”√À”¡À≈ÕÕ¿ﬂ ¿Õ¿À»“» ¿:</td>
+                                                <td>–£–ì–õ–£–ë–õ–ï–ù–ù–ê–Ø –ê–ù–ê–õ–ò–¢–ò–ö–ê:</td>
                                                 <td><span id="result_14"></span></td>
                                             </tr>
                                             </tbody>
@@ -290,8 +290,8 @@
                                  margin-bottom: 10px;font-size: 18px;font-family: inherit;
                                  font-weight: 500;
                                  line-height: 1.1;
-                                 color: inherit;" id="h4_itogo">»ÚÓ„Ó: <span id="result_itogo"></span> &#8381;/ÏÂÒ. <b class="tooltip"
-                                                                                                                       data-tooltip="ƒÎˇ ËÌ‰Ë‚Ë‰Û‡Î¸ÌÓ„Ó ‡Ò˜ÂÚ‡ Á‡ÔÓÎÌËÚÂ ÙÓÏÛ.">*</b>
+                                 color: inherit;" id="h4_itogo">–ò—Ç–æ–≥–æ: <span id="result_itogo"></span> &#8381;/–º–µ—Å. <b class="tooltip"
+                                                                                                                       data-tooltip="–î–ª—è –∏–Ω–¥–∏–≤–∏–¥—É–∞–ª—å–Ω–æ–≥–æ —Ä–∞—Å—á–µ—Ç–∞ –∑–∞–ø–æ–ª–Ω–∏—Ç–µ —Ñ–æ—Ä–º—É.">*</b>
                                         </p>
                                     </div>
                                 </div>
@@ -299,7 +299,7 @@
                         </div>
                     </div>
                     <div class="link">
-                        <a class="post" href="/novosti/iz-chego-skladyvaetsya-stoimost-seo-prodvizheniya.html">◊ËÚ‡Ú¸ ÒÚ‡Ú¸˛: <span>ËÁ ˜Â„Ó ÒÍÎ‡‰˚‚‡ÂÚÒˇ ÒÚÓËÏÓÒÚ¸ SEO</span></a>
+                        <a class="post" href="/novosti/iz-chego-skladyvaetsya-stoimost-seo-prodvizheniya.html">–ß–∏—Ç–∞—Ç—å —Å—Ç–∞—Ç—å—é: <span>–∏–∑ —á–µ–≥–æ —Å–∫–ª–∞–¥—ã–≤–∞–µ—Ç—Å—è —Å—Ç–æ–∏–º–æ—Å—Ç—å SEO</span></a>
                     </div>
                 </div>
             </div>

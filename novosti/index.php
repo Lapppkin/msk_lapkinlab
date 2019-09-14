@@ -1,9 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetPageProperty("keywords", "блог lablinlab, новости интернет-маркетинга");
-$APPLICATION->SetPageProperty("title", "Блог маркетингового агентства LapkinLAb: новости и статьи");
-$APPLICATION->SetPageProperty("description", "Ознакомиться с актуальными новостями и полезными статьями в сфере интернет-продвижения можно на сайте маркетингового агентства LapkinLAb");
-$APPLICATION->SetTitle("Блог маркетингового агентства LapkinLAb: новости и статьи");
+$APPLICATION->SetPageProperty("keywords", "Р±Р»РѕРі lablinlab, РЅРѕРІРѕСЃС‚Рё РёРЅС‚РµСЂРЅРµС‚-РјР°СЂРєРµС‚РёРЅРіР°");
+$APPLICATION->SetPageProperty("title", "Р‘Р»РѕРі РјР°СЂРєРµС‚РёРЅРіРѕРІРѕРіРѕ Р°РіРµРЅС‚СЃС‚РІР° LapkinLAb: РЅРѕРІРѕСЃС‚Рё Рё СЃС‚Р°С‚СЊРё");
+$APPLICATION->SetPageProperty("description", "РћР·РЅР°РєРѕРјРёС‚СЊСЃСЏ СЃ Р°РєС‚СѓР°Р»СЊРЅС‹РјРё РЅРѕРІРѕСЃС‚СЏРјРё Рё РїРѕР»РµР·РЅС‹РјРё СЃС‚Р°С‚СЊСЏРјРё РІ СЃС„РµСЂРµ РёРЅС‚РµСЂРЅРµС‚-РїСЂРѕРґРІРёР¶РµРЅРёСЏ РјРѕР¶РЅРѕ РЅР° СЃР°Р№С‚Рµ РјР°СЂРєРµС‚РёРЅРіРѕРІРѕРіРѕ Р°РіРµРЅС‚СЃС‚РІР° LapkinLAb");
+$APPLICATION->SetTitle("Р‘Р»РѕРі РјР°СЂРєРµС‚РёРЅРіРѕРІРѕРіРѕ Р°РіРµРЅС‚СЃС‚РІР° LapkinLAb: РЅРѕРІРѕСЃС‚Рё Рё СЃС‚Р°С‚СЊРё");
 ?>
 
     <style>
@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("Блог маркетингового агентства LapkinLAb: новости и стать
                         <div class="breadcrumbs__wrap">
                             <div class="breadcrumbs__item">
                                 <a href="/" class="breadcrumbs__item-link is-home" rel="home"
-                                   title="Главная">Главная</a>
+                                   title="Р“Р»Р°РІРЅР°СЏ">Р“Р»Р°РІРЅР°СЏ</a>
                             </div>
                             <div class="breadcrumbs__item">
                                 <div class="breadcrumbs__item-sep">
@@ -31,7 +31,7 @@ $APPLICATION->SetTitle("Блог маркетингового агентства LapkinLAb: новости и стать
                                 </div>
                             </div>
                             <div class="breadcrumbs__item">
-                                <span class="breadcrumbs__item-target">Новости</span>
+                                <span class="breadcrumbs__item-target">РќРѕРІРѕСЃС‚Рё</span>
                             </div>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ $APPLICATION->SetTitle("Блог маркетингового агентства LapkinLAb: новости и стать
         </div>
         <section class="news_layout">
             <div class="container_v2">
-                <h1> Новости </h1><Br>
+                <h1> РќРѕРІРѕСЃС‚Рё </h1><Br>
                 <?
                 $APPLICATION->IncludeComponent(
                     "bitrix:news.list",
@@ -94,7 +94,7 @@ $APPLICATION->SetTitle("Блог маркетингового агентства LapkinLAb: новости и стать
                         "PAGER_TEMPLATE"                  => "grid",
                         "DISPLAY_TOP_PAGER"               => "N",
                         "DISPLAY_BOTTOM_PAGER"            => "Y",
-                        "PAGER_TITLE"                     => "Новости",
+                        "PAGER_TITLE"                     => "РќРѕРІРѕСЃС‚Рё",
                         "PAGER_SHOW_ALWAYS"               => "N",
                         "PAGER_DESC_NUMBERING"            => "N",
                         "PAGER_DESC_NUMBERING_CACHE_TIME" => "36000",

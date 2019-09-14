@@ -1,28 +1,28 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Продвижение", 
+		"РџСЂРѕРґРІРёР¶РµРЅРёРµ", 
 		"/", 
 		Array(), 
 		Array("active"=>"current-menu-item"), 
 		"" 
 	),
 	Array(
-		"Контекстная реклама", 
+		"РљРѕРЅС‚РµРєСЃС‚РЅР°СЏ СЂРµРєР»Р°РјР°", 
 		"/kontekstnaya-reklama/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Разработка сайтов", 
+		"Р Р°Р·СЂР°Р±РѕС‚РєР° СЃР°Р№С‚РѕРІ", 
 		"/kalkulyator-stoimosti-sajtov/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Телеграм", 
+		"РўРµР»РµРіСЂР°Рј", 
 		"/chat-bot/", 
 		Array(), 
 		Array(), 
@@ -36,14 +36,14 @@ $aMenuLinks = Array(
 		"" 
 	),
 	Array(
-		"Блог", 
+		"Р‘Р»РѕРі", 
 		"/novosti/", 
 		Array(), 
 		Array(), 
 		"" 
 	),
 	Array(
-		"Контакты", 
+		"РљРѕРЅС‚Р°РєС‚С‹", 
 		"/contacts/", 
 		Array(), 
 		Array(), 

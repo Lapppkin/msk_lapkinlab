@@ -31,65 +31,65 @@ $APPLICATION->SetTitle("amoCRM");
     <!-- Document CSS -->
     <link rel="stylesheet" href="/amocrm/css/style.css">
 
-    <!--  Слайдер  -->
+    <!--  РЎР»Р°Р№РґРµСЂ  -->
     <section class="amocrm-top">
         <div class="amocrm-top__slider slider-top" id="top-slider">
 
             <div class="amocrm-top__slide amocrm-top__slide-1">
                 <div class="container">
                     <div class="amocrm-top__wrap">
-                        <div class="desc-1" id="desc-1-1"><span class="desc-1__unvisible">Контролируйте скорость обработки заявок и конверсию продаж с amoCRM</span></div>
-                        <div class="desc-1__sub">Выжимайте из отдела продаж максимум</div>
+                        <div class="desc-1" id="desc-1-1"><span class="desc-1__unvisible">РљРѕРЅС‚СЂРѕР»РёСЂСѓР№С‚Рµ СЃРєРѕСЂРѕСЃС‚СЊ РѕР±СЂР°Р±РѕС‚РєРё Р·Р°СЏРІРѕРє Рё РєРѕРЅРІРµСЂСЃРёСЋ РїСЂРѕРґР°Р¶ СЃ amoCRM</span></div>
+                        <div class="desc-1__sub">Р’С‹Р¶РёРјР°Р№С‚Рµ РёР· РѕС‚РґРµР»Р° РїСЂРѕРґР°Р¶ РјР°РєСЃРёРјСѓРј</div>
                     </div>
                 </div>
             </div>
             <div class="amocrm-top__slide amocrm-top__slide-2">
                 <div class="container">
                     <div class="amocrm-top__wrap">
-                        <div class="desc-1" id="desc-1-2"><span class="desc-1__unvisible">Перестаньте терять клиентов из-за забывчивости менеджеров и дыр в воронке продаж</span>
+                        <div class="desc-1" id="desc-1-2"><span class="desc-1__unvisible">РџРµСЂРµСЃС‚Р°РЅСЊС‚Рµ С‚РµСЂСЏС‚СЊ РєР»РёРµРЅС‚РѕРІ РёР·-Р·Р° Р·Р°Р±С‹РІС‡РёРІРѕСЃС‚Рё РјРµРЅРµРґР¶РµСЂРѕРІ Рё РґС‹СЂ РІ РІРѕСЂРѕРЅРєРµ РїСЂРѕРґР°Р¶</span>
                         </div>
-                        <div class="desc-1__sub">Контролируйте и корректируйте все показатели, не вставая с кресла</div>
+                        <div class="desc-1__sub">РљРѕРЅС‚СЂРѕР»РёСЂСѓР№С‚Рµ Рё РєРѕСЂСЂРµРєС‚РёСЂСѓР№С‚Рµ РІСЃРµ РїРѕРєР°Р·Р°С‚РµР»Рё, РЅРµ РІСЃС‚Р°РІР°СЏ СЃ РєСЂРµСЃР»Р°</div>
                     </div>
                 </div>
             </div>
             <div class="amocrm-top__slide amocrm-top__slide-3">
                 <div class="container">
                     <div class="amocrm-top__wrap">
-                        <div class="desc-1" id="desc-1-2"><span class="desc-1__unvisible">Повышайте число дополнительных продаж с цифровой воронкой</span></div>
-                        <div class="desc-1__sub">Подогревайте клиентов на автопилоте</div>
+                        <div class="desc-1" id="desc-1-2"><span class="desc-1__unvisible">РџРѕРІС‹С€Р°Р№С‚Рµ С‡РёСЃР»Рѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РїСЂРѕРґР°Р¶ СЃ С†РёС„СЂРѕРІРѕР№ РІРѕСЂРѕРЅРєРѕР№</span></div>
+                        <div class="desc-1__sub">РџРѕРґРѕРіСЂРµРІР°Р№С‚Рµ РєР»РёРµРЅС‚РѕРІ РЅР° Р°РІС‚РѕРїРёР»РѕС‚Рµ</div>
                     </div>
                 </div>
             </div>
         </div>
-    </section><!--  /Слайдер -->
-    <!-- Форма -->
+    </section><!--  /РЎР»Р°Р№РґРµСЂ -->
+    <!-- Р¤РѕСЂРјР° -->
     <section class="section-form">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <h1 style="display:none;">Внедрение amoCRM под ключ</h1>
-                    <div class="form-title">Хотите продавать больше?</div>
+                    <h1 style="display:none;">Р’РЅРµРґСЂРµРЅРёРµ amoCRM РїРѕРґ РєР»СЋС‡</h1>
+                    <div class="form-title">РҐРѕС‚РёС‚Рµ РїСЂРѕРґР°РІР°С‚СЊ Р±РѕР»СЊС€Рµ?</div>
                 </div>
                 <div class="col-md-12">
                     <form action="/mail_post.php" method="post" class="form" id="form2">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-xl-4 col-sm-12">
-                                    <input type="text" name="your-name" class="form-control" placeholder="Имя" required>
+                                    <input type="text" name="your-name" class="form-control" placeholder="РРјСЏ" required>
                                 </div>
                                 <div class="col-xl-4 col-sm-12">
-                                    <input type="tel" name="your-phone" class="form-control" placeholder="Телефон" required>
+                                    <input type="tel" name="your-phone" class="form-control" placeholder="РўРµР»РµС„РѕРЅ" required>
                                 </div>
                                 <p style="display:none;"><input type="text" name="name" value=""></p>
                                 <div class="col-xl-4 col-sm-12">
                                     <div class="row">
                                         <div class="col-xl-6 col-sm-12">
-                                            <button type="submit" class="btn form-btn">Хочу!</button>
+                                            <button type="submit" class="btn form-btn">РҐРѕС‡Сѓ!</button>
                                         </div>
                                         <div class="col-xl-6 col-sm-12">
                                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfTqL6tOA92Y3SRrYWDoJ7wWNHEr-DFMXv6YWUgaY6DhBRmkw/viewform"
                                                target="_blank"
-                                               class="btn form-btn">Заполнить бриф</a>
+                                               class="btn form-btn">Р—Р°РїРѕР»РЅРёС‚СЊ Р±СЂРёС„</a>
                                         </div>
                                     </div>
 
@@ -103,75 +103,75 @@ $APPLICATION->SetTitle("amoCRM");
             </div>
         </div>
     </section>
-    <!-- Второй блок -->
+    <!-- Р’С‚РѕСЂРѕР№ Р±Р»РѕРє -->
     <section class="section-block section-two">
         <div class="section-row">
             <div class="section-row__block">
                 <div class="section-two__block">
-                    <div class="main-title main-title_blue">Основные термины</div>
+                    <div class="main-title main-title_blue">РћСЃРЅРѕРІРЅС‹Рµ С‚РµСЂРјРёРЅС‹</div>
                     <ul class="main-list">
-                        <li class="main-list__item"><span class="item-span">Лид</span> - потенциальный клиент, проявивший интерес к продукту</li>
-                        <li class="main-list__item"><span class="item-span">Лидогенерация</span> - процесс создания лидов</li>
-                        <li class="main-list__item"><span class="item-span">Лидменеджмент</span> - доведение лида до покупки</li>
+                        <li class="main-list__item"><span class="item-span">Р›РёРґ</span> - РїРѕС‚РµРЅС†РёР°Р»СЊРЅС‹Р№ РєР»РёРµРЅС‚, РїСЂРѕСЏРІРёРІС€РёР№ РёРЅС‚РµСЂРµСЃ Рє РїСЂРѕРґСѓРєС‚Сѓ</li>
+                        <li class="main-list__item"><span class="item-span">Р›РёРґРѕРіРµРЅРµСЂР°С†РёСЏ</span> - РїСЂРѕС†РµСЃСЃ СЃРѕР·РґР°РЅРёСЏ Р»РёРґРѕРІ</li>
+                        <li class="main-list__item"><span class="item-span">Р›РёРґРјРµРЅРµРґР¶РјРµРЅС‚</span> - РґРѕРІРµРґРµРЅРёРµ Р»РёРґР° РґРѕ РїРѕРєСѓРїРєРё</li>
                     </ul>
-                    <p class="paragraph">Задача CRM-системы - автоматизировать лидменеджмент, тем самым сократив его себестоимость и повысив конверсию.</p>
+                    <p class="paragraph">Р—Р°РґР°С‡Р° CRM-СЃРёСЃС‚РµРјС‹ - Р°РІС‚РѕРјР°С‚РёР·РёСЂРѕРІР°С‚СЊ Р»РёРґРјРµРЅРµРґР¶РјРµРЅС‚, С‚РµРј СЃР°РјС‹Рј СЃРѕРєСЂР°С‚РёРІ РµРіРѕ СЃРµР±РµСЃС‚РѕРёРјРѕСЃС‚СЊ Рё РїРѕРІС‹СЃРёРІ РєРѕРЅРІРµСЂСЃРёСЋ.</p>
                 </div>
                 <div class="section-two__block">
-                    <div class="main-title main-title_blue">Виды CRM-систем</div>
-                    <p class="paragraph">По целям:</p>
+                    <div class="main-title main-title_blue">Р’РёРґС‹ CRM-СЃРёСЃС‚РµРј</div>
+                    <p class="paragraph">РџРѕ С†РµР»СЏРј:</p>
                     <ul class="main-list">
-                        <li class="main-list__item">Для автоматизации программ лояльности</li>
-                        <li class="main-list__item">Для управления проектами</li>
-                        <li class="main-list__item main-list__item_arrow-one">Для отделов продаж (учёт сделок,<br class=none> клиентов, продаж)</li>
+                        <li class="main-list__item">Р”Р»СЏ Р°РІС‚РѕРјР°С‚РёР·Р°С†РёРё РїСЂРѕРіСЂР°РјРј Р»РѕСЏР»СЊРЅРѕСЃС‚Рё</li>
+                        <li class="main-list__item">Р”Р»СЏ СѓРїСЂР°РІР»РµРЅРёСЏ РїСЂРѕРµРєС‚Р°РјРё</li>
+                        <li class="main-list__item main-list__item_arrow-one">Р”Р»СЏ РѕС‚РґРµР»РѕРІ РїСЂРѕРґР°Р¶ (СѓС‡С‘С‚ СЃРґРµР»РѕРє,<br class=none> РєР»РёРµРЅС‚РѕРІ, РїСЂРѕРґР°Р¶)</li>
                     </ul>
-                    <p class="paragraph">По типу внедрения:</p>
+                    <p class="paragraph">РџРѕ С‚РёРїСѓ РІРЅРµРґСЂРµРЅРёСЏ:</p>
                     <ul class="main-list">
-                        <li class="main-list__item">Требующие внедрения</li>
-                        <li class="main-list__item main-list__item_arrow-two">Само внедряемые</li>
+                        <li class="main-list__item">РўСЂРµР±СѓСЋС‰РёРµ РІРЅРµРґСЂРµРЅРёСЏ</li>
+                        <li class="main-list__item main-list__item_arrow-two">РЎР°РјРѕ РІРЅРµРґСЂСЏРµРјС‹Рµ</li>
                     </ul>
                 </div>
             </div>
             <div class="section-row__block section-row__block_white">
                 <div class="section-two__block section-two__block_black-text">
-                    <div class="main-title main-title_blue">Преимущества <span class="span-title">amo</span>CRM</div>
-                    <p class="paragraph paragraph_pdn">Специализация на универсальных задачах отделов продаж:</p>
+                    <div class="main-title main-title_blue">РџСЂРµРёРјСѓС‰РµСЃС‚РІР° <span class="span-title">amo</span>CRM</div>
+                    <p class="paragraph paragraph_pdn">РЎРїРµС†РёР°Р»РёР·Р°С†РёСЏ РЅР° СѓРЅРёРІРµСЂСЃР°Р»СЊРЅС‹С… Р·Р°РґР°С‡Р°С… РѕС‚РґРµР»РѕРІ РїСЂРѕРґР°Р¶:</p>
                     <ul class="main-list main-list_right">
-                        <li class="main-list__item">уникальная Digital воронка;</li>
-                        <li class="main-list__item">автоматизация процесса лидогенерации и учёта лидов;</li>
-                        <li class="main-list__item">универсальная воронка продаж;</li>
-                        <li class="main-list__item">управление менеджерами по продажам;</li>
-                        <li class="main-list__item">единый источник получения всех статистических данных по продажам;</li>
-                        <li class="main-list__item">гибкий API: возможность любых доработок системы;</li>
-                        <li class="main-list__item">работа с покупателями;</li>
+                        <li class="main-list__item">СѓРЅРёРєР°Р»СЊРЅР°СЏ Digital РІРѕСЂРѕРЅРєР°;</li>
+                        <li class="main-list__item">Р°РІС‚РѕРјР°С‚РёР·Р°С†РёСЏ РїСЂРѕС†РµСЃСЃР° Р»РёРґРѕРіРµРЅРµСЂР°С†РёРё Рё СѓС‡С‘С‚Р° Р»РёРґРѕРІ;</li>
+                        <li class="main-list__item">СѓРЅРёРІРµСЂСЃР°Р»СЊРЅР°СЏ РІРѕСЂРѕРЅРєР° РїСЂРѕРґР°Р¶;</li>
+                        <li class="main-list__item">СѓРїСЂР°РІР»РµРЅРёРµ РјРµРЅРµРґР¶РµСЂР°РјРё РїРѕ РїСЂРѕРґР°Р¶Р°Рј;</li>
+                        <li class="main-list__item">РµРґРёРЅС‹Р№ РёСЃС‚РѕС‡РЅРёРє РїРѕР»СѓС‡РµРЅРёСЏ РІСЃРµС… СЃС‚Р°С‚РёСЃС‚РёС‡РµСЃРєРёС… РґР°РЅРЅС‹С… РїРѕ РїСЂРѕРґР°Р¶Р°Рј;</li>
+                        <li class="main-list__item">РіРёР±РєРёР№ API: РІРѕР·РјРѕР¶РЅРѕСЃС‚СЊ Р»СЋР±С‹С… РґРѕСЂР°Р±РѕС‚РѕРє СЃРёСЃС‚РµРјС‹;</li>
+                        <li class="main-list__item">СЂР°Р±РѕС‚Р° СЃ РїРѕРєСѓРїР°С‚РµР»СЏРјРё;</li>
                     </ul>
-                    <p class="paragraph">Простота внедрения и интуитивно понятный интерфейс</p>
-                    <p class="paragraph">Лёгкая интеграция с большинством популярных сервисов</p>
+                    <p class="paragraph">РџСЂРѕСЃС‚РѕС‚Р° РІРЅРµРґСЂРµРЅРёСЏ Рё РёРЅС‚СѓРёС‚РёРІРЅРѕ РїРѕРЅСЏС‚РЅС‹Р№ РёРЅС‚РµСЂС„РµР№СЃ</p>
+                    <p class="paragraph">Р›С‘РіРєР°СЏ РёРЅС‚РµРіСЂР°С†РёСЏ СЃ Р±РѕР»СЊС€РёРЅСЃС‚РІРѕРј РїРѕРїСѓР»СЏСЂРЅС‹С… СЃРµСЂРІРёСЃРѕРІ</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- третий блок -->
+    <!-- С‚СЂРµС‚РёР№ Р±Р»РѕРє -->
     <section class="section-three">
-        <div class="section__title section__title_blue section__title_section-three">Рабочий стол</div>
-        <p class="section-three__paragraph">Отслеживайте текущую ситуацию по каждому этапу воронки продаж, краткую анатилику по задачам и менеджерам, а также прогноз продаж.</p>
+        <div class="section__title section__title_blue section__title_section-three">Р Р°Р±РѕС‡РёР№ СЃС‚РѕР»</div>
+        <p class="section-three__paragraph">РћС‚СЃР»РµР¶РёРІР°Р№С‚Рµ С‚РµРєСѓС‰СѓСЋ СЃРёС‚СѓР°С†РёСЋ РїРѕ РєР°Р¶РґРѕРјСѓ СЌС‚Р°РїСѓ РІРѕСЂРѕРЅРєРё РїСЂРѕРґР°Р¶, РєСЂР°С‚РєСѓСЋ Р°РЅР°С‚РёР»РёРєСѓ РїРѕ Р·Р°РґР°С‡Р°Рј Рё РјРµРЅРµРґР¶РµСЂР°Рј, Р° С‚Р°РєР¶Рµ РїСЂРѕРіРЅРѕР· РїСЂРѕРґР°Р¶.</p>
     </section>
 
-    <!-- Четвертый блок -->
+    <!-- Р§РµС‚РІРµСЂС‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-block section-four">
         <div class="section-row">
             <div class="section-row__block section-row__block_light">
-                <div class="section__title section__title_blue">Воронка <br>продаж</div>
-                <p class="paragraph paragraph__image">это последовательность этапов, которые будет проходить потенциальный клиент прежде, чем он у нас купит или откажется от
-                    покупки</p>
+                <div class="section__title section__title_blue">Р’РѕСЂРѕРЅРєР° <br>РїСЂРѕРґР°Р¶</div>
+                <p class="paragraph paragraph__image">СЌС‚Рѕ РїРѕСЃР»РµРґРѕРІР°С‚РµР»СЊРЅРѕСЃС‚СЊ СЌС‚Р°РїРѕРІ, РєРѕС‚РѕСЂС‹Рµ Р±СѓРґРµС‚ РїСЂРѕС…РѕРґРёС‚СЊ РїРѕС‚РµРЅС†РёР°Р»СЊРЅС‹Р№ РєР»РёРµРЅС‚ РїСЂРµР¶РґРµ, С‡РµРј РѕРЅ Сѓ РЅР°СЃ РєСѓРїРёС‚ РёР»Рё РѕС‚РєР°Р¶РµС‚СЃСЏ РѕС‚
+                    РїРѕРєСѓРїРєРё</p>
                 <ul class="main-list">
-                    <li class="main-list__item"><span class="item-span">Упрощает процесс продажи:</span> на каждом этапе менеджер продаёт только следующий этап воронки, а не весь
-                        продукт/услугу.
+                    <li class="main-list__item"><span class="item-span">РЈРїСЂРѕС‰Р°РµС‚ РїСЂРѕС†РµСЃСЃ РїСЂРѕРґР°Р¶Рё:</span> РЅР° РєР°Р¶РґРѕРј СЌС‚Р°РїРµ РјРµРЅРµРґР¶РµСЂ РїСЂРѕРґР°С‘С‚ С‚РѕР»СЊРєРѕ СЃР»РµРґСѓСЋС‰РёР№ СЌС‚Р°Рї РІРѕСЂРѕРЅРєРё, Р° РЅРµ РІРµСЃСЊ
+                        РїСЂРѕРґСѓРєС‚/СѓСЃР»СѓРіСѓ.
                     </li>
-                    <li class="main-list__item"><span class="item-span">Помогает расставить приоритеты:</span> больше ресурсов на правую часть воронки.</li>
-                    <li class="main-list__item"><span class="item-span">Точнее данные</span> для контроля и прогноза результата (видим на каком этапе находится каждый клиент)</li>
-                    <li class="main-list__item"><span class="item-span">Позволяет определять события</span> (триггеры), по которым клиенты переходят из одного этапа в другой, и
-                        устанавливать оптимальное время нахождения клиента на каждом этапе воронки.
+                    <li class="main-list__item"><span class="item-span">РџРѕРјРѕРіР°РµС‚ СЂР°СЃСЃС‚Р°РІРёС‚СЊ РїСЂРёРѕСЂРёС‚РµС‚С‹:</span> Р±РѕР»СЊС€Рµ СЂРµСЃСѓСЂСЃРѕРІ РЅР° РїСЂР°РІСѓСЋ С‡Р°СЃС‚СЊ РІРѕСЂРѕРЅРєРё.</li>
+                    <li class="main-list__item"><span class="item-span">РўРѕС‡РЅРµРµ РґР°РЅРЅС‹Рµ</span> РґР»СЏ РєРѕРЅС‚СЂРѕР»СЏ Рё РїСЂРѕРіРЅРѕР·Р° СЂРµР·СѓР»СЊС‚Р°С‚Р° (РІРёРґРёРј РЅР° РєР°РєРѕРј СЌС‚Р°РїРµ РЅР°С…РѕРґРёС‚СЃСЏ РєР°Р¶РґС‹Р№ РєР»РёРµРЅС‚)</li>
+                    <li class="main-list__item"><span class="item-span">РџРѕР·РІРѕР»СЏРµС‚ РѕРїСЂРµРґРµР»СЏС‚СЊ СЃРѕР±С‹С‚РёСЏ</span> (С‚СЂРёРіРіРµСЂС‹), РїРѕ РєРѕС‚РѕСЂС‹Рј РєР»РёРµРЅС‚С‹ РїРµСЂРµС…РѕРґСЏС‚ РёР· РѕРґРЅРѕРіРѕ СЌС‚Р°РїР° РІ РґСЂСѓРіРѕР№, Рё
+                        СѓСЃС‚Р°РЅР°РІР»РёРІР°С‚СЊ РѕРїС‚РёРјР°Р»СЊРЅРѕРµ РІСЂРµРјСЏ РЅР°С…РѕР¶РґРµРЅРёСЏ РєР»РёРµРЅС‚Р° РЅР° РєР°Р¶РґРѕРј СЌС‚Р°РїРµ РІРѕСЂРѕРЅРєРё.
                     </li>
                 </ul>
 
@@ -184,13 +184,13 @@ $APPLICATION->SetTitle("amoCRM");
                                 <img src="img/1-1.jpg" alt="">
                             </div>
                             <div class="lidgen__text">
-                                <p>Первый контакт</p>
+                                <p>РџРµСЂРІС‹Р№ РєРѕРЅС‚Р°РєС‚</p>
                             </div>
                         </div>
                     </div>
                     <div class="line">
                         <div class="line__text">
-                            <p>Отправили КП</p>
+                            <p>РћС‚РїСЂР°РІРёР»Рё РљРџ</p>
                         </div>
                         <div class="line__image">
                             <img src="img/line.jpg" alt="">
@@ -205,13 +205,13 @@ $APPLICATION->SetTitle("amoCRM");
                                 <img src="img/2-2.jpg" alt="">
                             </div>
                             <div class="lidgen__text">
-                                <p>Изучает КП</p>
+                                <p>РР·СѓС‡Р°РµС‚ РљРџ</p>
                             </div>
                         </div>
                     </div>
                     <div class="line">
                         <div class="line__text">
-                            <p>Получена ОС</p>
+                            <p>РџРѕР»СѓС‡РµРЅР° РћРЎ</p>
                         </div>
                         <div class="line__image">
                             <img src="img/line.jpg" alt="">
@@ -226,13 +226,13 @@ $APPLICATION->SetTitle("amoCRM");
                                 <img src="img/3-3.jpg" alt="">
                             </div>
                             <div class="lidgen__text">
-                                <p>Переговоры</p>
+                                <p>РџРµСЂРµРіРѕРІРѕСЂС‹</p>
                             </div>
                         </div>
                     </div>
                     <div class="line">
                         <div class="line__text">
-                            <p>Подписание договора</p>
+                            <p>РџРѕРґРїРёСЃР°РЅРёРµ РґРѕРіРѕРІРѕСЂР°</p>
                         </div>
                         <div class="line__image">
                             <img src="img/line.jpg" alt="">
@@ -247,13 +247,13 @@ $APPLICATION->SetTitle("amoCRM");
                                 <img src="img/4-4.jpg" alt="">
                             </div>
                             <div class="lidgen__text">
-                                <p>Договор подписан</p>
+                                <p>Р”РѕРіРѕРІРѕСЂ РїРѕРґРїРёСЃР°РЅ</p>
                             </div>
                         </div>
                     </div>
                     <div class="line">
                         <div class="line__text">
-                            <p>Выставлен счёт</p>
+                            <p>Р’С‹СЃС‚Р°РІР»РµРЅ СЃС‡С‘С‚</p>
                         </div>
                         <div class="line__image">
                             <img src="img/line.jpg" alt="">
@@ -268,7 +268,7 @@ $APPLICATION->SetTitle("amoCRM");
                                 <img src="img/5-5.jpg" alt="">
                             </div>
                             <div class="lidgen__text">
-                                <p>Оплачен счёт</p>
+                                <p>РћРїР»Р°С‡РµРЅ СЃС‡С‘С‚</p>
                             </div>
                         </div>
                     </div>
@@ -279,19 +279,19 @@ $APPLICATION->SetTitle("amoCRM");
         </div>
     </section>
 
-    <!-- Пятый блок -->
+    <!-- РџСЏС‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-five">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-5 col-md-12">
-                    <div class="section__title section__title_blue section__title_five">Воронка<br> продаж <br>в <span class="span-title">amo</span>CRM</div>
+                    <div class="section__title section__title_blue section__title_five">Р’РѕСЂРѕРЅРєР°<br> РїСЂРѕРґР°Р¶ <br>РІ <span class="span-title">amo</span>CRM</div>
                 </div>
                 <div class="col-lg-7 col-md-12">
                     <ul class="main-list main-list_five">
-                        <li class="main-list__item main-list__item_five">настраивайте воронку продаж самостоятельно под свои задачи</li>
-                        <li class="main-list__item main-list__item_five">Добавляйте, называйте и меняйте местами этапы своей воронки</li>
-                        <li class="main-list__item main-list__item_five">Настраивайте автоматический переход от этапа к этапу или переносите клиентов на другой этап вручную</li>
-                        <li class="main-list__item main-list__item_five">Помечайте разными цветами каждый этап</li>
+                        <li class="main-list__item main-list__item_five">РЅР°СЃС‚СЂР°РёРІР°Р№С‚Рµ РІРѕСЂРѕРЅРєСѓ РїСЂРѕРґР°Р¶ СЃР°РјРѕСЃС‚РѕСЏС‚РµР»СЊРЅРѕ РїРѕРґ СЃРІРѕРё Р·Р°РґР°С‡Рё</li>
+                        <li class="main-list__item main-list__item_five">Р”РѕР±Р°РІР»СЏР№С‚Рµ, РЅР°Р·С‹РІР°Р№С‚Рµ Рё РјРµРЅСЏР№С‚Рµ РјРµСЃС‚Р°РјРё СЌС‚Р°РїС‹ СЃРІРѕРµР№ РІРѕСЂРѕРЅРєРё</li>
+                        <li class="main-list__item main-list__item_five">РќР°СЃС‚СЂР°РёРІР°Р№С‚Рµ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРёР№ РїРµСЂРµС…РѕРґ РѕС‚ СЌС‚Р°РїР° Рє СЌС‚Р°РїСѓ РёР»Рё РїРµСЂРµРЅРѕСЃРёС‚Рµ РєР»РёРµРЅС‚РѕРІ РЅР° РґСЂСѓРіРѕР№ СЌС‚Р°Рї РІСЂСѓС‡РЅСѓСЋ</li>
+                        <li class="main-list__item main-list__item_five">РџРѕРјРµС‡Р°Р№С‚Рµ СЂР°Р·РЅС‹РјРё С†РІРµС‚Р°РјРё РєР°Р¶РґС‹Р№ СЌС‚Р°Рї</li>
                     </ul>
                 </div>
             </div>
@@ -303,18 +303,18 @@ $APPLICATION->SetTitle("amoCRM");
         </div>
     </section>
 
-    <!-- Шестой блок -->
+    <!-- РЁРµСЃС‚РѕР№ Р±Р»РѕРє -->
     <section class="section-five">
-        <div class="section__title section__title_blue">Настройка прав <br> пользователей</div>
+        <div class="section__title section__title_blue">РќР°СЃС‚СЂРѕР№РєР° РїСЂР°РІ <br> РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№</div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-lg-5 col-md-12">
                     <ul class="main-list main-list_section-six">
-                        <li class="main-list__item">Настраивайте права пользователей аккаунта (ваших коллег и сотрудников) как индивидуально (на каждого сотрудника), так и на
-                            группы (отделы) в любых сочетаниях режимов видимости и редактирования
+                        <li class="main-list__item">РќР°СЃС‚СЂР°РёРІР°Р№С‚Рµ РїСЂР°РІР° РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№ Р°РєРєР°СѓРЅС‚Р° (РІР°С€РёС… РєРѕР»Р»РµРі Рё СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ) РєР°Рє РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕ (РЅР° РєР°Р¶РґРѕРіРѕ СЃРѕС‚СЂСѓРґРЅРёРєР°), С‚Р°Рє Рё РЅР°
+                            РіСЂСѓРїРїС‹ (РѕС‚РґРµР»С‹) РІ Р»СЋР±С‹С… СЃРѕС‡РµС‚Р°РЅРёСЏС… СЂРµР¶РёРјРѕРІ РІРёРґРёРјРѕСЃС‚Рё Рё СЂРµРґР°РєС‚РёСЂРѕРІР°РЅРёСЏ
                         </li>
-                        <li class="main-list__item">Если ваш сотрудник уволился, вы легко можете удалить его из системы</li>
-                        <li class="main-list__item">При удалении amoCRM автоматически предложит Вам перенести всю информацию на другого менеджера</li>
+                        <li class="main-list__item">Р•СЃР»Рё РІР°С€ СЃРѕС‚СЂСѓРґРЅРёРє СѓРІРѕР»РёР»СЃСЏ, РІС‹ Р»РµРіРєРѕ РјРѕР¶РµС‚Рµ СѓРґР°Р»РёС‚СЊ РµРіРѕ РёР· СЃРёСЃС‚РµРјС‹</li>
+                        <li class="main-list__item">РџСЂРё СѓРґР°Р»РµРЅРёРё amoCRM Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РїСЂРµРґР»РѕР¶РёС‚ Р’Р°Рј РїРµСЂРµРЅРµСЃС‚Рё РІСЃСЋ РёРЅС„РѕСЂРјР°С†РёСЋ РЅР° РґСЂСѓРіРѕРіРѕ РјРµРЅРµРґР¶РµСЂР°</li>
 
                     </ul>
                 </div>
@@ -327,26 +327,26 @@ $APPLICATION->SetTitle("amoCRM");
         </div>
     </section>
 
-    <!-- Седьмой блок -->
+    <!-- РЎРµРґСЊРјРѕР№ Р±Р»РѕРє -->
     <section class="section-seven">
-        <div class="section__title section__title_white">Digital воронка</div>
-        <p class="paragraph paragraph_seven-white">amoCRM сама умеет утеплять заявки и доводить их до покупки. Система сама напишет письмо от имени менеджера, сама сменит статус
-            сделки при наступлении того или иного события, сама уведомит вас и поставит задачу, сама подпишет или отпишет клиента от листа рассылки, а также будет каждому клиенту
-            показывать индивидуальную рекламу на разных этапах продажи.</p>
+        <div class="section__title section__title_white">Digital РІРѕСЂРѕРЅРєР°</div>
+        <p class="paragraph paragraph_seven-white">amoCRM СЃР°РјР° СѓРјРµРµС‚ СѓС‚РµРїР»СЏС‚СЊ Р·Р°СЏРІРєРё Рё РґРѕРІРѕРґРёС‚СЊ РёС… РґРѕ РїРѕРєСѓРїРєРё. РЎРёСЃС‚РµРјР° СЃР°РјР° РЅР°РїРёС€РµС‚ РїРёСЃСЊРјРѕ РѕС‚ РёРјРµРЅРё РјРµРЅРµРґР¶РµСЂР°, СЃР°РјР° СЃРјРµРЅРёС‚ СЃС‚Р°С‚СѓСЃ
+            СЃРґРµР»РєРё РїСЂРё РЅР°СЃС‚СѓРїР»РµРЅРёРё С‚РѕРіРѕ РёР»Рё РёРЅРѕРіРѕ СЃРѕР±С‹С‚РёСЏ, СЃР°РјР° СѓРІРµРґРѕРјРёС‚ РІР°СЃ Рё РїРѕСЃС‚Р°РІРёС‚ Р·Р°РґР°С‡Сѓ, СЃР°РјР° РїРѕРґРїРёС€РµС‚ РёР»Рё РѕС‚РїРёС€РµС‚ РєР»РёРµРЅС‚Р° РѕС‚ Р»РёСЃС‚Р° СЂР°СЃСЃС‹Р»РєРё, Р° С‚Р°РєР¶Рµ Р±СѓРґРµС‚ РєР°Р¶РґРѕРјСѓ РєР»РёРµРЅС‚Сѓ
+            РїРѕРєР°Р·С‹РІР°С‚СЊ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅСѓСЋ СЂРµРєР»Р°РјСѓ РЅР° СЂР°Р·РЅС‹С… СЌС‚Р°РїР°С… РїСЂРѕРґР°Р¶Рё.</p>
         <div class="section-seven__image">
             <img src="img/6.png" alt="">
         </div>
     </section>
 
-    <!-- Восьмой блок -->
+    <!-- Р’РѕСЃСЊРјРѕР№ Р±Р»РѕРє -->
     <section class="section-seven">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-5 col-lg-6 col-md-12 col-sm-12">
-                    <div class="section__title section__title_white section__title_seven">Все письма в <span class="span-title">amo</span>CRM</div>
-                    <p class="paragraph paragraph_eight-white">Ведите всю переписку прямо в amoCRM - пишите письма, создавайте типовые шаблоны и на их основе отправляйте письма и
-                        планируйте автоматическую рассылку. Подключайте неограниченное количество ящиков: общих, корпоративных или личных, и ваша переписка отобразится в amoCRM с
-                        учётов прав доступа. При этом на каждое новое письмо от клиента amoCRM автоматически создаст новую сделку и сохранит всю историю переписки.</p>
+                    <div class="section__title section__title_white section__title_seven">Р’СЃРµ РїРёСЃСЊРјР° РІ <span class="span-title">amo</span>CRM</div>
+                    <p class="paragraph paragraph_eight-white">Р’РµРґРёС‚Рµ РІСЃСЋ РїРµСЂРµРїРёСЃРєСѓ РїСЂСЏРјРѕ РІ amoCRM - РїРёС€РёС‚Рµ РїРёСЃСЊРјР°, СЃРѕР·РґР°РІР°Р№С‚Рµ С‚РёРїРѕРІС‹Рµ С€Р°Р±Р»РѕРЅС‹ Рё РЅР° РёС… РѕСЃРЅРѕРІРµ РѕС‚РїСЂР°РІР»СЏР№С‚Рµ РїРёСЃСЊРјР° Рё
+                        РїР»Р°РЅРёСЂСѓР№С‚Рµ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєСѓСЋ СЂР°СЃСЃС‹Р»РєСѓ. РџРѕРґРєР»СЋС‡Р°Р№С‚Рµ РЅРµРѕРіСЂР°РЅРёС‡РµРЅРЅРѕРµ РєРѕР»РёС‡РµСЃС‚РІРѕ СЏС‰РёРєРѕРІ: РѕР±С‰РёС…, РєРѕСЂРїРѕСЂР°С‚РёРІРЅС‹С… РёР»Рё Р»РёС‡РЅС‹С…, Рё РІР°С€Р° РїРµСЂРµРїРёСЃРєР° РѕС‚РѕР±СЂР°Р·РёС‚СЃСЏ РІ amoCRM СЃ
+                        СѓС‡С‘С‚РѕРІ РїСЂР°РІ РґРѕСЃС‚СѓРїР°. РџСЂРё СЌС‚РѕРј РЅР° РєР°Р¶РґРѕРµ РЅРѕРІРѕРµ РїРёСЃСЊРјРѕ РѕС‚ РєР»РёРµРЅС‚Р° amoCRM Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё СЃРѕР·РґР°СЃС‚ РЅРѕРІСѓСЋ СЃРґРµР»РєСѓ Рё СЃРѕС…СЂР°РЅРёС‚ РІСЃСЋ РёСЃС‚РѕСЂРёСЋ РїРµСЂРµРїРёСЃРєРё.</p>
                 </div>
                 <div class="col-xl-7 col-lg-6 col-md-12 col-sm-12">
                     <div class="section-five__image">
@@ -357,46 +357,46 @@ $APPLICATION->SetTitle("amoCRM");
         </div>
     </section>
 
-    <!-- Девятый блок -->
+    <!-- Р”РµРІСЏС‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-seven">
-        <div class="section__title section__title_white">Интеграция с сайтом</div>
-        <p class="paragraph paragraph_seven-white">Подключение специальных виджетов избавит вас от необходимости вручную переносить лиды и контакты в систему! Создавайте
-            специальные формы на вашем сайте. После заполнения их клиентом контакт или сделка будут автоматически попадать в amoCRM.</p>
+        <div class="section__title section__title_white">РРЅС‚РµРіСЂР°С†РёСЏ СЃ СЃР°Р№С‚РѕРј</div>
+        <p class="paragraph paragraph_seven-white">РџРѕРґРєР»СЋС‡РµРЅРёРµ СЃРїРµС†РёР°Р»СЊРЅС‹С… РІРёРґР¶РµС‚РѕРІ РёР·Р±Р°РІРёС‚ РІР°СЃ РѕС‚ РЅРµРѕР±С…РѕРґРёРјРѕСЃС‚Рё РІСЂСѓС‡РЅСѓСЋ РїРµСЂРµРЅРѕСЃРёС‚СЊ Р»РёРґС‹ Рё РєРѕРЅС‚Р°РєС‚С‹ РІ СЃРёСЃС‚РµРјСѓ! РЎРѕР·РґР°РІР°Р№С‚Рµ
+            СЃРїРµС†РёР°Р»СЊРЅС‹Рµ С„РѕСЂРјС‹ РЅР° РІР°С€РµРј СЃР°Р№С‚Рµ. РџРѕСЃР»Рµ Р·Р°РїРѕР»РЅРµРЅРёСЏ РёС… РєР»РёРµРЅС‚РѕРј РєРѕРЅС‚Р°РєС‚ РёР»Рё СЃРґРµР»РєР° Р±СѓРґСѓС‚ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРё РїРѕРїР°РґР°С‚СЊ РІ amoCRM.</p>
         <div class="section-seven__image">
             <img src="img/8.jpg" alt="">
         </div>
     </section>
 
-    <!-- Десятый блок -->
+    <!-- Р”РµСЃСЏС‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-ten">
-        <div class="section__title section__title_no-pdn">Интеграция с вашей <br> телефонией</div>
-        <p class="paragraph paragraph_ten">amoCRM станет незаменимым помощником в совершении и переадресации звонков. С ее помощью вы сможете "помнить" имена всех ваших клиентов. В
-            программе хранится вся статистика ваших входящих и исходящих звонков. И самое интересное - настройки всего этого не требуют никаких усилий или технических знаний.</p>
+        <div class="section__title section__title_no-pdn">РРЅС‚РµРіСЂР°С†РёСЏ СЃ РІР°С€РµР№ <br> С‚РµР»РµС„РѕРЅРёРµР№</div>
+        <p class="paragraph paragraph_ten">amoCRM СЃС‚Р°РЅРµС‚ РЅРµР·Р°РјРµРЅРёРјС‹Рј РїРѕРјРѕС‰РЅРёРєРѕРј РІ СЃРѕРІРµСЂС€РµРЅРёРё Рё РїРµСЂРµР°РґСЂРµСЃР°С†РёРё Р·РІРѕРЅРєРѕРІ. РЎ РµРµ РїРѕРјРѕС‰СЊСЋ РІС‹ СЃРјРѕР¶РµС‚Рµ "РїРѕРјРЅРёС‚СЊ" РёРјРµРЅР° РІСЃРµС… РІР°С€РёС… РєР»РёРµРЅС‚РѕРІ. Р’
+            РїСЂРѕРіСЂР°РјРјРµ С…СЂР°РЅРёС‚СЃСЏ РІСЃСЏ СЃС‚Р°С‚РёСЃС‚РёРєР° РІР°С€РёС… РІС…РѕРґСЏС‰РёС… Рё РёСЃС…РѕРґСЏС‰РёС… Р·РІРѕРЅРєРѕРІ. Р СЃР°РјРѕРµ РёРЅС‚РµСЂРµСЃРЅРѕРµ - РЅР°СЃС‚СЂРѕР№РєРё РІСЃРµРіРѕ СЌС‚РѕРіРѕ РЅРµ С‚СЂРµР±СѓСЋС‚ РЅРёРєР°РєРёС… СѓСЃРёР»РёР№ РёР»Рё С‚РµС…РЅРёС‡РµСЃРєРёС… Р·РЅР°РЅРёР№.</p>
     </section>
 
-    <!-- Одиннадцатый блок -->
+    <!-- РћРґРёРЅРЅР°РґС†Р°С‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-eleven">
-        <div class="section__title section__title_pdn">Задачи и напоминания</div>
-        <p class="paragraph paragraph_eleven">amoCRM помогает следить за тем, чтобы по каждой сделке было запланировано действие. Если задачи не поставлены - система сигнализирует
-            об этом. Конечно, нет ничего проще, чем поставить задачу в amoCRM - вы указываете когда, кому и что надо выполнить, а системные напоминания никогда не дадут забыть о
-            поставленной задаче.</p>
+        <div class="section__title section__title_pdn">Р—Р°РґР°С‡Рё Рё РЅР°РїРѕРјРёРЅР°РЅРёСЏ</div>
+        <p class="paragraph paragraph_eleven">amoCRM РїРѕРјРѕРіР°РµС‚ СЃР»РµРґРёС‚СЊ Р·Р° С‚РµРј, С‡С‚РѕР±С‹ РїРѕ РєР°Р¶РґРѕР№ СЃРґРµР»РєРµ Р±С‹Р»Рѕ Р·Р°РїР»Р°РЅРёСЂРѕРІР°РЅРѕ РґРµР№СЃС‚РІРёРµ. Р•СЃР»Рё Р·Р°РґР°С‡Рё РЅРµ РїРѕСЃС‚Р°РІР»РµРЅС‹ - СЃРёСЃС‚РµРјР° СЃРёРіРЅР°Р»РёР·РёСЂСѓРµС‚
+            РѕР± СЌС‚РѕРј. РљРѕРЅРµС‡РЅРѕ, РЅРµС‚ РЅРёС‡РµРіРѕ РїСЂРѕС‰Рµ, С‡РµРј РїРѕСЃС‚Р°РІРёС‚СЊ Р·Р°РґР°С‡Сѓ РІ amoCRM - РІС‹ СѓРєР°Р·С‹РІР°РµС‚Рµ РєРѕРіРґР°, РєРѕРјСѓ Рё С‡С‚Рѕ РЅР°РґРѕ РІС‹РїРѕР»РЅРёС‚СЊ, Р° СЃРёСЃС‚РµРјРЅС‹Рµ РЅР°РїРѕРјРёРЅР°РЅРёСЏ РЅРёРєРѕРіРґР° РЅРµ РґР°РґСѓС‚ Р·Р°Р±С‹С‚СЊ Рѕ
+            РїРѕСЃС‚Р°РІР»РµРЅРЅРѕР№ Р·Р°РґР°С‡Рµ.</p>
     </section>
 
-    <!-- Двенадцатый блок -->
+    <!-- Р”РІРµРЅР°РґС†Р°С‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-twelve">
-        <div class="section__title section__title_blue section__title_twelve">Аналитика</div>
-        <p class="paragraph paragraph_twelve">В amoCRM предусмотрены диаграммы распределения всех сделок по статусам воронки продаж, менеджерам или другом удобном для вас разрезе.
-            Вы можете увидеть все значимые данные на одном экране или углубиться в анализ ситуации по конкретному менеджеру или сделке.</p>
+        <div class="section__title section__title_blue section__title_twelve">РђРЅР°Р»РёС‚РёРєР°</div>
+        <p class="paragraph paragraph_twelve">Р’ amoCRM РїСЂРµРґСѓСЃРјРѕС‚СЂРµРЅС‹ РґРёР°РіСЂР°РјРјС‹ СЂР°СЃРїСЂРµРґРµР»РµРЅРёСЏ РІСЃРµС… СЃРґРµР»РѕРє РїРѕ СЃС‚Р°С‚СѓСЃР°Рј РІРѕСЂРѕРЅРєРё РїСЂРѕРґР°Р¶, РјРµРЅРµРґР¶РµСЂР°Рј РёР»Рё РґСЂСѓРіРѕРј СѓРґРѕР±РЅРѕРј РґР»СЏ РІР°СЃ СЂР°Р·СЂРµР·Рµ.
+            Р’С‹ РјРѕР¶РµС‚Рµ СѓРІРёРґРµС‚СЊ РІСЃРµ Р·РЅР°С‡РёРјС‹Рµ РґР°РЅРЅС‹Рµ РЅР° РѕРґРЅРѕРј СЌРєСЂР°РЅРµ РёР»Рё СѓРіР»СѓР±РёС‚СЊСЃСЏ РІ Р°РЅР°Р»РёР· СЃРёС‚СѓР°С†РёРё РїРѕ РєРѕРЅРєСЂРµС‚РЅРѕРјСѓ РјРµРЅРµРґР¶РµСЂСѓ РёР»Рё СЃРґРµР»РєРµ.</p>
     </section>
 
-    <!-- Тринадцатый блок -->
+    <!-- РўСЂРёРЅР°РґС†Р°С‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-thirteen">
         <div class="container-fluid">
             <div class="row">
                 <div class="hidden-desktop col-md-12">
-                    <div class="section-thirteen__title">Аналитика <br>по воронке</div>
-                    <p class="paragraph section-thirteen__paragraph">Аналитика по воронке продаж позволит увидеть на каких этапах вы теряете клиентов и предоставит достаточное
-                        количество данных, чтобы принять верные управленческие решения.</p>
+                    <div class="section-thirteen__title">РђРЅР°Р»РёС‚РёРєР° <br>РїРѕ РІРѕСЂРѕРЅРєРµ</div>
+                    <p class="paragraph section-thirteen__paragraph">РђРЅР°Р»РёС‚РёРєР° РїРѕ РІРѕСЂРѕРЅРєРµ РїСЂРѕРґР°Р¶ РїРѕР·РІРѕР»РёС‚ СѓРІРёРґРµС‚СЊ РЅР° РєР°РєРёС… СЌС‚Р°РїР°С… РІС‹ С‚РµСЂСЏРµС‚Рµ РєР»РёРµРЅС‚РѕРІ Рё РїСЂРµРґРѕСЃС‚Р°РІРёС‚ РґРѕСЃС‚Р°С‚РѕС‡РЅРѕРµ
+                        РєРѕР»РёС‡РµСЃС‚РІРѕ РґР°РЅРЅС‹С…, С‡С‚РѕР±С‹ РїСЂРёРЅСЏС‚СЊ РІРµСЂРЅС‹Рµ СѓРїСЂР°РІР»РµРЅС‡РµСЃРєРёРµ СЂРµС€РµРЅРёСЏ.</p>
                 </div>
                 <div class="col-xl-7 col-md-12">
                     <div class="section-thirteen__image">
@@ -404,52 +404,52 @@ $APPLICATION->SetTitle("amoCRM");
                     </div>
                 </div>
                 <div class="col-xl-5 col-lg-5 hidden-mobile">
-                    <div class="section-thirteen__title">Аналитика <br>по воронке</div>
-                    <p class="paragraph section-thirteen__paragraph">Аналитика по воронке продаж позволит увидеть на каких этапах вы теряете клиентов и предоставит достаточное
-                        количество данных, чтобы принять верные управленческие решения.</p>
+                    <div class="section-thirteen__title">РђРЅР°Р»РёС‚РёРєР° <br>РїРѕ РІРѕСЂРѕРЅРєРµ</div>
+                    <p class="paragraph section-thirteen__paragraph">РђРЅР°Р»РёС‚РёРєР° РїРѕ РІРѕСЂРѕРЅРєРµ РїСЂРѕРґР°Р¶ РїРѕР·РІРѕР»РёС‚ СѓРІРёРґРµС‚СЊ РЅР° РєР°РєРёС… СЌС‚Р°РїР°С… РІС‹ С‚РµСЂСЏРµС‚Рµ РєР»РёРµРЅС‚РѕРІ Рё РїСЂРµРґРѕСЃС‚Р°РІРёС‚ РґРѕСЃС‚Р°С‚РѕС‡РЅРѕРµ
+                        РєРѕР»РёС‡РµСЃС‚РІРѕ РґР°РЅРЅС‹С…, С‡С‚РѕР±С‹ РїСЂРёРЅСЏС‚СЊ РІРµСЂРЅС‹Рµ СѓРїСЂР°РІР»РµРЅС‡РµСЃРєРёРµ СЂРµС€РµРЅРёСЏ.</p>
                 </div>
             </div>
 
         </div>
     </section>
 
-    <!-- Четырнадцатый блок -->
+    <!-- Р§РµС‚С‹СЂРЅР°РґС†Р°С‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-fourteen">
-        <div class="section-fourteen__title">Аналитика по сотруднику</div>
-        <p class="paragraph section-fourteen__paragraph">Аналитика по каждому сотруднику покажет успехи, проблемные зоны и загруженность по каждому сотруднику - во всех
-            деталях.</p>
+        <div class="section-fourteen__title">РђРЅР°Р»РёС‚РёРєР° РїРѕ СЃРѕС‚СЂСѓРґРЅРёРєСѓ</div>
+        <p class="paragraph section-fourteen__paragraph">РђРЅР°Р»РёС‚РёРєР° РїРѕ РєР°Р¶РґРѕРјСѓ СЃРѕС‚СЂСѓРґРЅРёРєСѓ РїРѕРєР°Р¶РµС‚ СѓСЃРїРµС…Рё, РїСЂРѕР±Р»РµРјРЅС‹Рµ Р·РѕРЅС‹ Рё Р·Р°РіСЂСѓР¶РµРЅРЅРѕСЃС‚СЊ РїРѕ РєР°Р¶РґРѕРјСѓ СЃРѕС‚СЂСѓРґРЅРёРєСѓ - РІРѕ РІСЃРµС…
+            РґРµС‚Р°Р»СЏС….</p>
     </section>
 
-    <!-- Пятнадцатый блок -->
+    <!-- РџСЏС‚РЅР°РґС†Р°С‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-fifteen">
-        <div class="section-fifteen__title">Аналитика по целям</div>
-        <p class="paragraph section-fifteen__paragraph">Аналитика по целям позволяет поставить KPI сотрудников, отделов и компании в целом и в реальном времени видеть, кто и как
-            приближает компанию к ключевым показателям.</p>
+        <div class="section-fifteen__title">РђРЅР°Р»РёС‚РёРєР° РїРѕ С†РµР»СЏРј</div>
+        <p class="paragraph section-fifteen__paragraph">РђРЅР°Р»РёС‚РёРєР° РїРѕ С†РµР»СЏРј РїРѕР·РІРѕР»СЏРµС‚ РїРѕСЃС‚Р°РІРёС‚СЊ KPI СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ, РѕС‚РґРµР»РѕРІ Рё РєРѕРјРїР°РЅРёРё РІ С†РµР»РѕРј Рё РІ СЂРµР°Р»СЊРЅРѕРј РІСЂРµРјРµРЅРё РІРёРґРµС‚СЊ, РєС‚Рѕ Рё РєР°Рє
+            РїСЂРёР±Р»РёР¶Р°РµС‚ РєРѕРјРїР°РЅРёСЋ Рє РєР»СЋС‡РµРІС‹Рј РїРѕРєР°Р·Р°С‚РµР»СЏРј.</p>
         <div class="section-fifteen__image">
             <img src="img/13.jpg" alt="">
         </div>
     </section>
 
-    <!-- Шестнадцатый блок -->
+    <!-- РЁРµСЃС‚РЅР°РґС†Р°С‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-sixteen">
-        <div class="section__title section__title_pdn">API, расширения <br> и виджеты</div>
-        <p class="paragraph paragraph_ten paragraph_sixteen">Экономьте время ваших специалистов - сделайте работу с amoCRM привычной и комфортной. Ведь в amoCRM есть десятки
-            готовых интеграций, с помощью которых можно в два клика создать email-рассылки, интегрировать систему с телефонией, хранить файлы в удобном облачном хранилище Dropbox и
-            многое другое. А благодаря открытому API вы можете изменить интерфейс под себя, создать собственные виджеты, чтобы расширить возможности amoCRM.</p>
+        <div class="section__title section__title_pdn">API, СЂР°СЃС€РёСЂРµРЅРёСЏ <br> Рё РІРёРґР¶РµС‚С‹</div>
+        <p class="paragraph paragraph_ten paragraph_sixteen">Р­РєРѕРЅРѕРјСЊС‚Рµ РІСЂРµРјСЏ РІР°С€РёС… СЃРїРµС†РёР°Р»РёСЃС‚РѕРІ - СЃРґРµР»Р°Р№С‚Рµ СЂР°Р±РѕС‚Сѓ СЃ amoCRM РїСЂРёРІС‹С‡РЅРѕР№ Рё РєРѕРјС„РѕСЂС‚РЅРѕР№. Р’РµРґСЊ РІ amoCRM РµСЃС‚СЊ РґРµСЃСЏС‚РєРё
+            РіРѕС‚РѕРІС‹С… РёРЅС‚РµРіСЂР°С†РёР№, СЃ РїРѕРјРѕС‰СЊСЋ РєРѕС‚РѕСЂС‹С… РјРѕР¶РЅРѕ РІ РґРІР° РєР»РёРєР° СЃРѕР·РґР°С‚СЊ email-СЂР°СЃСЃС‹Р»РєРё, РёРЅС‚РµРіСЂРёСЂРѕРІР°С‚СЊ СЃРёСЃС‚РµРјСѓ СЃ С‚РµР»РµС„РѕРЅРёРµР№, С…СЂР°РЅРёС‚СЊ С„Р°Р№Р»С‹ РІ СѓРґРѕР±РЅРѕРј РѕР±Р»Р°С‡РЅРѕРј С…СЂР°РЅРёР»РёС‰Рµ Dropbox Рё
+            РјРЅРѕРіРѕРµ РґСЂСѓРіРѕРµ. Рђ Р±Р»Р°РіРѕРґР°СЂСЏ РѕС‚РєСЂС‹С‚РѕРјСѓ API РІС‹ РјРѕР¶РµС‚Рµ РёР·РјРµРЅРёС‚СЊ РёРЅС‚РµСЂС„РµР№СЃ РїРѕРґ СЃРµР±СЏ, СЃРѕР·РґР°С‚СЊ СЃРѕР±СЃС‚РІРµРЅРЅС‹Рµ РІРёРґР¶РµС‚С‹, С‡С‚РѕР±С‹ СЂР°СЃС€РёСЂРёС‚СЊ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё amoCRM.</p>
     </section>
 
-    <!-- Семнадцатый блок -->
+    <!-- РЎРµРјРЅР°РґС†Р°С‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-seventeen">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-7 col-md-12">
-                    <div class="section__title section__title_seventeen">Сканер визиток</div>
-                    <p class="paragraph section-seventeen__paragraph">Мобильное приложение amoCRM научилось распознавать визитки. Все, что нужно - скачать приложение amoCRM,
-                        запустить его, взять визитку и нажать на кнопку "распознавание". amoCRM создаст карточку сделки, внесет все контактные данные, данные о компании и сохранит
-                        запись в базе.</p>
-                    <p class="paragraph section-seventeen__paragraph">Вам потребуется буквально несколько минут, чтобы оцифровать стопку новых визиток после очередной конференции.
-                        но самое главное, вы не потеряете ни одного потенциального клиента - самого ценного клиента, с которым вы пообщались лично, пожали друг другу руки,
-                        обменялись контактами. Визитки это здорово, а с amoCRM еще и удобно!</p>
+                    <div class="section__title section__title_seventeen">РЎРєР°РЅРµСЂ РІРёР·РёС‚РѕРє</div>
+                    <p class="paragraph section-seventeen__paragraph">РњРѕР±РёР»СЊРЅРѕРµ РїСЂРёР»РѕР¶РµРЅРёРµ amoCRM РЅР°СѓС‡РёР»РѕСЃСЊ СЂР°СЃРїРѕР·РЅР°РІР°С‚СЊ РІРёР·РёС‚РєРё. Р’СЃРµ, С‡С‚Рѕ РЅСѓР¶РЅРѕ - СЃРєР°С‡Р°С‚СЊ РїСЂРёР»РѕР¶РµРЅРёРµ amoCRM,
+                        Р·Р°РїСѓСЃС‚РёС‚СЊ РµРіРѕ, РІР·СЏС‚СЊ РІРёР·РёС‚РєСѓ Рё РЅР°Р¶Р°С‚СЊ РЅР° РєРЅРѕРїРєСѓ "СЂР°СЃРїРѕР·РЅР°РІР°РЅРёРµ". amoCRM СЃРѕР·РґР°СЃС‚ РєР°СЂС‚РѕС‡РєСѓ СЃРґРµР»РєРё, РІРЅРµСЃРµС‚ РІСЃРµ РєРѕРЅС‚Р°РєС‚РЅС‹Рµ РґР°РЅРЅС‹Рµ, РґР°РЅРЅС‹Рµ Рѕ РєРѕРјРїР°РЅРёРё Рё СЃРѕС…СЂР°РЅРёС‚
+                        Р·Р°РїРёСЃСЊ РІ Р±Р°Р·Рµ.</p>
+                    <p class="paragraph section-seventeen__paragraph">Р’Р°Рј РїРѕС‚СЂРµР±СѓРµС‚СЃСЏ Р±СѓРєРІР°Р»СЊРЅРѕ РЅРµСЃРєРѕР»СЊРєРѕ РјРёРЅСѓС‚, С‡С‚РѕР±С‹ РѕС†РёС„СЂРѕРІР°С‚СЊ СЃС‚РѕРїРєСѓ РЅРѕРІС‹С… РІРёР·РёС‚РѕРє РїРѕСЃР»Рµ РѕС‡РµСЂРµРґРЅРѕР№ РєРѕРЅС„РµСЂРµРЅС†РёРё.
+                        РЅРѕ СЃР°РјРѕРµ РіР»Р°РІРЅРѕРµ, РІС‹ РЅРµ РїРѕС‚РµСЂСЏРµС‚Рµ РЅРё РѕРґРЅРѕРіРѕ РїРѕС‚РµРЅС†РёР°Р»СЊРЅРѕРіРѕ РєР»РёРµРЅС‚Р° - СЃР°РјРѕРіРѕ С†РµРЅРЅРѕРіРѕ РєР»РёРµРЅС‚Р°, СЃ РєРѕС‚РѕСЂС‹Рј РІС‹ РїРѕРѕР±С‰Р°Р»РёСЃСЊ Р»РёС‡РЅРѕ, РїРѕР¶Р°Р»Рё РґСЂСѓРі РґСЂСѓРіСѓ СЂСѓРєРё,
+                        РѕР±РјРµРЅСЏР»РёСЃСЊ РєРѕРЅС‚Р°РєС‚Р°РјРё. Р’РёР·РёС‚РєРё СЌС‚Рѕ Р·РґРѕСЂРѕРІРѕ, Р° СЃ amoCRM РµС‰Рµ Рё СѓРґРѕР±РЅРѕ!</p>
 
                 </div>
                 <div class="col-xl-5 col-md-12">
@@ -462,14 +462,14 @@ $APPLICATION->SetTitle("amoCRM");
         </div>
     </section>
 
-    <!-- ОВосемнадцатый блок -->
+    <!-- РћР’РѕСЃРµРјРЅР°РґС†Р°С‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-eighteen">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-7 col-sm-12">
-                    <div class="section__title section__title_eighteen">Iphone и Android</div>
-                    <p class="paragraph section-eighteen__paragraph">С мобильными приложениями amoCRM можно работать где и когда вам удобно. Приложения работают онлайн и позволяют
-                        просматривать актуальные данные без задержек. Но самое главное - теперь все функции веб-версии доступны в вашем телефоне!</p>
+                    <div class="section__title section__title_eighteen">Iphone Рё Android</div>
+                    <p class="paragraph section-eighteen__paragraph">РЎ РјРѕР±РёР»СЊРЅС‹РјРё РїСЂРёР»РѕР¶РµРЅРёСЏРјРё amoCRM РјРѕР¶РЅРѕ СЂР°Р±РѕС‚Р°С‚СЊ РіРґРµ Рё РєРѕРіРґР° РІР°Рј СѓРґРѕР±РЅРѕ. РџСЂРёР»РѕР¶РµРЅРёСЏ СЂР°Р±РѕС‚Р°СЋС‚ РѕРЅР»Р°Р№РЅ Рё РїРѕР·РІРѕР»СЏСЋС‚
+                        РїСЂРѕСЃРјР°С‚СЂРёРІР°С‚СЊ Р°РєС‚СѓР°Р»СЊРЅС‹Рµ РґР°РЅРЅС‹Рµ Р±РµР· Р·Р°РґРµСЂР¶РµРє. РќРѕ СЃР°РјРѕРµ РіР»Р°РІРЅРѕРµ - С‚РµРїРµСЂСЊ РІСЃРµ С„СѓРЅРєС†РёРё РІРµР±-РІРµСЂСЃРёРё РґРѕСЃС‚СѓРїРЅС‹ РІ РІР°С€РµРј С‚РµР»РµС„РѕРЅРµ!</p>
                     <div class="content-block__links mobile-app-links">
                         <a href="https://itunes.apple.com/ru/app/amocrm-2.0/id1128315486?mt=8" target="_blank" class="mobile-app-links_item icon icon-appstore-ru"></a>
                         <a href="https://play.google.com/store/apps/details?id=com.amocrm.amocrmv2" target="_blank" class="mobile-app-links_item icon icon-google-play-ru"></a>
@@ -479,24 +479,24 @@ $APPLICATION->SetTitle("amoCRM");
         </div>
     </section>
 
-    <!-- Девятнадцатый блок -->
+    <!-- Р”РµРІСЏС‚РЅР°РґС†Р°С‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-nineteen">
-        <div class="section__title section__title_pdn">Кастомизируемая <br>карточка сделки</div>
-        <p class="paragraph paragraph_ten paragraph_sixteen">amoCRM сама умеет создавать портрет вашего покупателя на основе полной статистики по каждому клиенту и всех обращений в
-            компанию. В карточке по-прежнему фиксируется любое изменение, а обновленная лента событий тесно интегрирована с внутренними и внешними сообщениями. Но самое главное -
-            карточку можно дорабатывать, добавлять свои блоки и подстаивать под себя.</p>
+        <div class="section__title section__title_pdn">РљР°СЃС‚РѕРјРёР·РёСЂСѓРµРјР°СЏ <br>РєР°СЂС‚РѕС‡РєР° СЃРґРµР»РєРё</div>
+        <p class="paragraph paragraph_ten paragraph_sixteen">amoCRM СЃР°РјР° СѓРјРµРµС‚ СЃРѕР·РґР°РІР°С‚СЊ РїРѕСЂС‚СЂРµС‚ РІР°С€РµРіРѕ РїРѕРєСѓРїР°С‚РµР»СЏ РЅР° РѕСЃРЅРѕРІРµ РїРѕР»РЅРѕР№ СЃС‚Р°С‚РёСЃС‚РёРєРё РїРѕ РєР°Р¶РґРѕРјСѓ РєР»РёРµРЅС‚Сѓ Рё РІСЃРµС… РѕР±СЂР°С‰РµРЅРёР№ РІ
+            РєРѕРјРїР°РЅРёСЋ. Р’ РєР°СЂС‚РѕС‡РєРµ РїРѕ-РїСЂРµР¶РЅРµРјСѓ С„РёРєСЃРёСЂСѓРµС‚СЃСЏ Р»СЋР±РѕРµ РёР·РјРµРЅРµРЅРёРµ, Р° РѕР±РЅРѕРІР»РµРЅРЅР°СЏ Р»РµРЅС‚Р° СЃРѕР±С‹С‚РёР№ С‚РµСЃРЅРѕ РёРЅС‚РµРіСЂРёСЂРѕРІР°РЅР° СЃ РІРЅСѓС‚СЂРµРЅРЅРёРјРё Рё РІРЅРµС€РЅРёРјРё СЃРѕРѕР±С‰РµРЅРёСЏРјРё. РќРѕ СЃР°РјРѕРµ РіР»Р°РІРЅРѕРµ -
+            РєР°СЂС‚РѕС‡РєСѓ РјРѕР¶РЅРѕ РґРѕСЂР°Р±Р°С‚С‹РІР°С‚СЊ, РґРѕР±Р°РІР»СЏС‚СЊ СЃРІРѕРё Р±Р»РѕРєРё Рё РїРѕРґСЃС‚Р°РёРІР°С‚СЊ РїРѕРґ СЃРµР±СЏ.</p>
     </section>
 
-    <!-- Двадцатый блок -->
+    <!-- Р”РІР°РґС†Р°С‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-twenty">
-        <div class="section__title section__title_twenty">Платформа amoCRM</div>
+        <div class="section__title section__title_twenty">РџР»Р°С‚С„РѕСЂРјР° amoCRM</div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6 col-md-12">
-                    <p class="paragraph section-twenty_paragraph">Больше не нужны дополнительные приложения для общения с коллегами - теперь вы можете общаться прямо в amoCRM! И
-                        самое главное, всё это интегрировано с карточкой клиента. Ваш коллега сразу же получит уведомление на телефон и внутри аккаунта, перейдёт в карточку и
-                        сможет ответить. А если такой возможности нет, то в центре нотификаций можно прочесть все уведомления из разных источников. И да, все отлично работает на
-                        iPhone и Android.</p>
+                    <p class="paragraph section-twenty_paragraph">Р‘РѕР»СЊС€Рµ РЅРµ РЅСѓР¶РЅС‹ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ РѕР±С‰РµРЅРёСЏ СЃ РєРѕР»Р»РµРіР°РјРё - С‚РµРїРµСЂСЊ РІС‹ РјРѕР¶РµС‚Рµ РѕР±С‰Р°С‚СЊСЃСЏ РїСЂСЏРјРѕ РІ amoCRM! Р
+                        СЃР°РјРѕРµ РіР»Р°РІРЅРѕРµ, РІСЃС‘ СЌС‚Рѕ РёРЅС‚РµРіСЂРёСЂРѕРІР°РЅРѕ СЃ РєР°СЂС‚РѕС‡РєРѕР№ РєР»РёРµРЅС‚Р°. Р’Р°С€ РєРѕР»Р»РµРіР° СЃСЂР°Р·Сѓ Р¶Рµ РїРѕР»СѓС‡РёС‚ СѓРІРµРґРѕРјР»РµРЅРёРµ РЅР° С‚РµР»РµС„РѕРЅ Рё РІРЅСѓС‚СЂРё Р°РєРєР°СѓРЅС‚Р°, РїРµСЂРµР№РґС‘С‚ РІ РєР°СЂС‚РѕС‡РєСѓ Рё
+                        СЃРјРѕР¶РµС‚ РѕС‚РІРµС‚РёС‚СЊ. Рђ РµСЃР»Рё С‚Р°РєРѕР№ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РЅРµС‚, С‚Рѕ РІ С†РµРЅС‚СЂРµ РЅРѕС‚РёС„РёРєР°С†РёР№ РјРѕР¶РЅРѕ РїСЂРѕС‡РµСЃС‚СЊ РІСЃРµ СѓРІРµРґРѕРјР»РµРЅРёСЏ РёР· СЂР°Р·РЅС‹С… РёСЃС‚РѕС‡РЅРёРєРѕРІ. Р РґР°, РІСЃРµ РѕС‚Р»РёС‡РЅРѕ СЂР°Р±РѕС‚Р°РµС‚ РЅР°
+                        iPhone Рё Android.</p>
                 </div>
                 <div class="col-xl-6 col-md-12">
                     <div class="section-twenty__iamge">
@@ -507,15 +507,15 @@ $APPLICATION->SetTitle("amoCRM");
         </div>
     </section>
 
-    <!-- Двадцать первый блок -->
+    <!-- Р”РІР°РґС†Р°С‚СЊ РїРµСЂРІС‹Р№ Р±Р»РѕРє -->
     <section class="section-twentyone">
-        <div class="section__title section__title_twenty">Бесплатные<br> пользователи</div>
+        <div class="section__title section__title_twenty">Р‘РµСЃРїР»Р°С‚РЅС‹Рµ<br> РїРѕР»СЊР·РѕРІР°С‚РµР»Рё</div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6 col-md-12">
-                    <p class="paragraph section-twenty_paragraph">Теперь вы сможете переписываться с любым человеком прямо в amoCRM и не важно есть у него доступ или нет.
-                        Указываете любой email, и ваш коллега получает приглашение, переходит в карточку и может общаться с вами - все просто и удобно.</p>
-                    <p class="paragraph section-twenty_paragraph section-twenty_paragraph-nopdn">Самое интересное: всё это абсолютно бесплатно.</p>
+                    <p class="paragraph section-twenty_paragraph">РўРµРїРµСЂСЊ РІС‹ СЃРјРѕР¶РµС‚Рµ РїРµСЂРµРїРёСЃС‹РІР°С‚СЊСЃСЏ СЃ Р»СЋР±С‹Рј С‡РµР»РѕРІРµРєРѕРј РїСЂСЏРјРѕ РІ amoCRM Рё РЅРµ РІР°Р¶РЅРѕ РµСЃС‚СЊ Сѓ РЅРµРіРѕ РґРѕСЃС‚СѓРї РёР»Рё РЅРµС‚.
+                        РЈРєР°Р·С‹РІР°РµС‚Рµ Р»СЋР±РѕР№ email, Рё РІР°С€ РєРѕР»Р»РµРіР° РїРѕР»СѓС‡Р°РµС‚ РїСЂРёРіР»Р°С€РµРЅРёРµ, РїРµСЂРµС…РѕРґРёС‚ РІ РєР°СЂС‚РѕС‡РєСѓ Рё РјРѕР¶РµС‚ РѕР±С‰Р°С‚СЊСЃСЏ СЃ РІР°РјРё - РІСЃРµ РїСЂРѕСЃС‚Рѕ Рё СѓРґРѕР±РЅРѕ.</p>
+                    <p class="paragraph section-twenty_paragraph section-twenty_paragraph-nopdn">РЎР°РјРѕРµ РёРЅС‚РµСЂРµСЃРЅРѕРµ: РІСЃС‘ СЌС‚Рѕ Р°Р±СЃРѕР»СЋС‚РЅРѕ Р±РµСЃРїР»Р°С‚РЅРѕ.</p>
                 </div>
                 <div class="col-xl-6 col-md-12">
                     <div class="section-twenty__iamge">
@@ -526,16 +526,16 @@ $APPLICATION->SetTitle("amoCRM");
         </div>
     </section>
 
-    <!-- Двадцать второй блок -->
+    <!-- Р”РІР°РґС†Р°С‚СЊ РІС‚РѕСЂРѕР№ Р±Р»РѕРє -->
     <section class="section-twenty">
-        <div class="section__title section__title_twenty">Уникальный <br>salesbot</div>
+        <div class="section__title section__title_twenty">РЈРЅРёРєР°Р»СЊРЅС‹Р№ <br>salesbot</div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6 col-md-12">
-                    <p class="paragraph section-twenty_paragraph">Больше не нужны дополнительные приложения для общения с коллегами - теперь вы можете общаться прямо в amoCRM! И
-                        самое главное, всё это интегрировано с карточкой клиента. Ваш коллега сразу же получит уведомление на телефон и внутри аккаунта, перейдёт в карточку и
-                        сможет ответить. А если такой возможности нет, то в центре нотификаций можно прочесть все уведомления из разных источников. И да, все отлично работает на
-                        iPhone и Android.</p>
+                    <p class="paragraph section-twenty_paragraph">Р‘РѕР»СЊС€Рµ РЅРµ РЅСѓР¶РЅС‹ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РїСЂРёР»РѕР¶РµРЅРёСЏ РґР»СЏ РѕР±С‰РµРЅРёСЏ СЃ РєРѕР»Р»РµРіР°РјРё - С‚РµРїРµСЂСЊ РІС‹ РјРѕР¶РµС‚Рµ РѕР±С‰Р°С‚СЊСЃСЏ РїСЂСЏРјРѕ РІ amoCRM! Р
+                        СЃР°РјРѕРµ РіР»Р°РІРЅРѕРµ, РІСЃС‘ СЌС‚Рѕ РёРЅС‚РµРіСЂРёСЂРѕРІР°РЅРѕ СЃ РєР°СЂС‚РѕС‡РєРѕР№ РєР»РёРµРЅС‚Р°. Р’Р°С€ РєРѕР»Р»РµРіР° СЃСЂР°Р·Сѓ Р¶Рµ РїРѕР»СѓС‡РёС‚ СѓРІРµРґРѕРјР»РµРЅРёРµ РЅР° С‚РµР»РµС„РѕРЅ Рё РІРЅСѓС‚СЂРё Р°РєРєР°СѓРЅС‚Р°, РїРµСЂРµР№РґС‘С‚ РІ РєР°СЂС‚РѕС‡РєСѓ Рё
+                        СЃРјРѕР¶РµС‚ РѕС‚РІРµС‚РёС‚СЊ. Рђ РµСЃР»Рё С‚Р°РєРѕР№ РІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РЅРµС‚, С‚Рѕ РІ С†РµРЅС‚СЂРµ РЅРѕС‚РёС„РёРєР°С†РёР№ РјРѕР¶РЅРѕ РїСЂРѕС‡РµСЃС‚СЊ РІСЃРµ СѓРІРµРґРѕРјР»РµРЅРёСЏ РёР· СЂР°Р·РЅС‹С… РёСЃС‚РѕС‡РЅРёРєРѕРІ. Р РґР°, РІСЃРµ РѕС‚Р»РёС‡РЅРѕ СЂР°Р±РѕС‚Р°РµС‚ РЅР°
+                        iPhone Рё Android.</p>
                 </div>
                 <div class="col-xl-6 col-md-12">
                     <div class="section-twenty__iamge">
@@ -546,36 +546,36 @@ $APPLICATION->SetTitle("amoCRM");
         </div>
     </section>
 
-    <!-- Двадцать третий блок -->
+    <!-- Р”РІР°РґС†Р°С‚СЊ С‚СЂРµС‚РёР№ Р±Р»РѕРє -->
     <section class="section-twentytwo">
-        <div class="section__title section__title_white">Покупатели и воронка<br> покупателей</div>
-        <p class="paragraph paragraph_seven-white paragraph_twentytwo">Воронка покупателей создана для работы с постоянными клиентами. Теперь вы можете видеть покупателей, которым
-            пора вернуться и купить, и тех, кто припозднился. Вы можете в нужный момент напомнить клиенту о себе - позвонить, отправить смс или написать сообщение. Воронка
-            покупателей идеально подходит бизнесам по подписке.</p>
+        <div class="section__title section__title_white">РџРѕРєСѓРїР°С‚РµР»Рё Рё РІРѕСЂРѕРЅРєР°<br> РїРѕРєСѓРїР°С‚РµР»РµР№</div>
+        <p class="paragraph paragraph_seven-white paragraph_twentytwo">Р’РѕСЂРѕРЅРєР° РїРѕРєСѓРїР°С‚РµР»РµР№ СЃРѕР·РґР°РЅР° РґР»СЏ СЂР°Р±РѕС‚С‹ СЃ РїРѕСЃС‚РѕСЏРЅРЅС‹РјРё РєР»РёРµРЅС‚Р°РјРё. РўРµРїРµСЂСЊ РІС‹ РјРѕР¶РµС‚Рµ РІРёРґРµС‚СЊ РїРѕРєСѓРїР°С‚РµР»РµР№, РєРѕС‚РѕСЂС‹Рј
+            РїРѕСЂР° РІРµСЂРЅСѓС‚СЊСЃСЏ Рё РєСѓРїРёС‚СЊ, Рё С‚РµС…, РєС‚Рѕ РїСЂРёРїРѕР·РґРЅРёР»СЃСЏ. Р’С‹ РјРѕР¶РµС‚Рµ РІ РЅСѓР¶РЅС‹Р№ РјРѕРјРµРЅС‚ РЅР°РїРѕРјРЅРёС‚СЊ РєР»РёРµРЅС‚Сѓ Рѕ СЃРµР±Рµ - РїРѕР·РІРѕРЅРёС‚СЊ, РѕС‚РїСЂР°РІРёС‚СЊ СЃРјСЃ РёР»Рё РЅР°РїРёСЃР°С‚СЊ СЃРѕРѕР±С‰РµРЅРёРµ. Р’РѕСЂРѕРЅРєР°
+            РїРѕРєСѓРїР°С‚РµР»РµР№ РёРґРµР°Р»СЊРЅРѕ РїРѕРґС…РѕРґРёС‚ Р±РёР·РЅРµСЃР°Рј РїРѕ РїРѕРґРїРёСЃРєРµ.</p>
         <div class="section-seven__image">
             <img src="img/20.png" alt="">
         </div>
     </section>
 
-    <!-- Двадцать четвертый блок -->
+    <!-- Р”РІР°РґС†Р°С‚СЊ С‡РµС‚РІРµСЂС‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-twentythree">
-        <div class="section__title section__title_white">Digital воронка<br> покупателя</div>
-        <p class="paragraph paragraph_seven-white paragraph_twentytwo">amoCRM сама возвращает клиентов и доводит их до повторной покупки. Система сделает всё, чтобы случайный
-            посетитель стал постоянным покупателем, сама проследить когда покупателю пришло время совершить покупку, сама напишет письмо или другое сообщение от имени менеджера,
-            покажет персональную рекламу в нужный момент, поставит задачу связаться с клиентом и многое другое.</p>
+        <div class="section__title section__title_white">Digital РІРѕСЂРѕРЅРєР°<br> РїРѕРєСѓРїР°С‚РµР»СЏ</div>
+        <p class="paragraph paragraph_seven-white paragraph_twentytwo">amoCRM СЃР°РјР° РІРѕР·РІСЂР°С‰Р°РµС‚ РєР»РёРµРЅС‚РѕРІ Рё РґРѕРІРѕРґРёС‚ РёС… РґРѕ РїРѕРІС‚РѕСЂРЅРѕР№ РїРѕРєСѓРїРєРё. РЎРёСЃС‚РµРјР° СЃРґРµР»Р°РµС‚ РІСЃС‘, С‡С‚РѕР±С‹ СЃР»СѓС‡Р°Р№РЅС‹Р№
+            РїРѕСЃРµС‚РёС‚РµР»СЊ СЃС‚Р°Р» РїРѕСЃС‚РѕСЏРЅРЅС‹Рј РїРѕРєСѓРїР°С‚РµР»РµРј, СЃР°РјР° РїСЂРѕСЃР»РµРґРёС‚СЊ РєРѕРіРґР° РїРѕРєСѓРїР°С‚РµР»СЋ РїСЂРёС€Р»Рѕ РІСЂРµРјСЏ СЃРѕРІРµСЂС€РёС‚СЊ РїРѕРєСѓРїРєСѓ, СЃР°РјР° РЅР°РїРёС€РµС‚ РїРёСЃСЊРјРѕ РёР»Рё РґСЂСѓРіРѕРµ СЃРѕРѕР±С‰РµРЅРёРµ РѕС‚ РёРјРµРЅРё РјРµРЅРµРґР¶РµСЂР°,
+            РїРѕРєР°Р¶РµС‚ РїРµСЂСЃРѕРЅР°Р»СЊРЅСѓСЋ СЂРµРєР»Р°РјСѓ РІ РЅСѓР¶РЅС‹Р№ РјРѕРјРµРЅС‚, РїРѕСЃС‚Р°РІРёС‚ Р·Р°РґР°С‡Сѓ СЃРІСЏР·Р°С‚СЊСЃСЏ СЃ РєР»РёРµРЅС‚РѕРј Рё РјРЅРѕРіРѕРµ РґСЂСѓРіРѕРµ.</p>
         <div class="section-seven__image">
             <img src="img/21.jpg" alt="">
         </div>
     </section>
 
-    <!-- Двадцать пятый блок -->
+    <!-- Р”РІР°РґС†Р°С‚СЊ РїСЏС‚С‹Р№ Р±Р»РѕРє -->
     <section class="section-block section-two">
         <div class=" section-row section-row_two">
             <div class="section-row__block section-row__block_left">
-                <div class="section__title section__title_price">Цены и тарифы</div>
+                <div class="section__title section__title_price">Р¦РµРЅС‹ Рё С‚Р°СЂРёС„С‹</div>
                 <div class="section-two__block section-two__block_black section-two__block_black-one">
                     <div class="price-block">
-                        <h2 class="price-block__title">Базовый</h2>
+                        <h2 class="price-block__title">Р‘Р°Р·РѕРІС‹Р№</h2>
                         <div class="price-block__cost">
                             <p>499</p>
                             <div class="image">
@@ -583,17 +583,17 @@ $APPLICATION->SetTitle("amoCRM");
                             </div>
                         </div>
                     </div>
-                    <p class="paragraph">Для больших компаний с небольшим отделом продаж</p>
+                    <p class="paragraph">Р”Р»СЏ Р±РѕР»СЊС€РёС… РєРѕРјРїР°РЅРёР№ СЃ РЅРµР±РѕР»СЊС€РёРј РѕС‚РґРµР»РѕРј РїСЂРѕРґР°Р¶</p>
                     <ul class="main-list main-list_nopdn">
-                        <li class="main-list__item main-list__item_icon">Создание сделок и контактов</li>
-                        <li class="main-list__item main-list__item_icon">Интеграция с сайтом и Google Universal</li>
-                        <li class="main-list__item main-list__item_icon">Поиск и объединение дубликатов</li>
-                        <li class="main-list__item main-list__item_icon">Настройка этапов продаж и работа с воронкой</li>
+                        <li class="main-list__item main-list__item_icon">РЎРѕР·РґР°РЅРёРµ СЃРґРµР»РѕРє Рё РєРѕРЅС‚Р°РєС‚РѕРІ</li>
+                        <li class="main-list__item main-list__item_icon">РРЅС‚РµРіСЂР°С†РёСЏ СЃ СЃР°Р№С‚РѕРј Рё Google Universal</li>
+                        <li class="main-list__item main-list__item_icon">РџРѕРёСЃРє Рё РѕР±СЉРµРґРёРЅРµРЅРёРµ РґСѓР±Р»РёРєР°С‚РѕРІ</li>
+                        <li class="main-list__item main-list__item_icon">РќР°СЃС‚СЂРѕР№РєР° СЌС‚Р°РїРѕРІ РїСЂРѕРґР°Р¶ Рё СЂР°Р±РѕС‚Р° СЃ РІРѕСЂРѕРЅРєРѕР№</li>
                     </ul>
                 </div>
                 <div class="section-two__block section-two__block_black section-two__block_black-two">
                     <div class="price-block">
-                        <h2 class="price-block__title">Расширенный</h2>
+                        <h2 class="price-block__title">Р Р°СЃС€РёСЂРµРЅРЅС‹Р№</h2>
                         <div class="price-block__cost">
                             <p>999</p>
                             <div class="image">
@@ -601,17 +601,17 @@ $APPLICATION->SetTitle("amoCRM");
                             </div>
                         </div>
                     </div>
-                    <p class="paragraph">Для тех, кто хочет оптимизировать конверсию</p>
+                    <p class="paragraph">Р”Р»СЏ С‚РµС…, РєС‚Рѕ С…РѕС‡РµС‚ РѕРїС‚РёРјРёР·РёСЂРѕРІР°С‚СЊ РєРѕРЅРІРµСЂСЃРёСЋ</p>
                     <ul class="main-list main-list_nopdn">
-                        <li class="main-list__item main-list__item_icon">Бизнес процессы с автоматическим созданием задач</li>
-                        <li class="main-list__item main-list__item_icon">Обязательность заполнения полей</li>
-                        <li class="main-list__item main-list__item_icon">KPI и план продаж для менеджеров</li>
-                        <li class="main-list__item main-list__item_icon">Возможность доработки рабочего стола</li>
+                        <li class="main-list__item main-list__item_icon">Р‘РёР·РЅРµСЃ РїСЂРѕС†РµСЃСЃС‹ СЃ Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєРёРј СЃРѕР·РґР°РЅРёРµРј Р·Р°РґР°С‡</li>
+                        <li class="main-list__item main-list__item_icon">РћР±СЏР·Р°С‚РµР»СЊРЅРѕСЃС‚СЊ Р·Р°РїРѕР»РЅРµРЅРёСЏ РїРѕР»РµР№</li>
+                        <li class="main-list__item main-list__item_icon">KPI Рё РїР»Р°РЅ РїСЂРѕРґР°Р¶ РґР»СЏ РјРµРЅРµРґР¶РµСЂРѕРІ</li>
+                        <li class="main-list__item main-list__item_icon">Р’РѕР·РјРѕР¶РЅРѕСЃС‚СЊ РґРѕСЂР°Р±РѕС‚РєРё СЂР°Р±РѕС‡РµРіРѕ СЃС‚РѕР»Р°</li>
                     </ul>
                 </div>
                 <div class="section-two__block section-two__block_black section-two__block_black-three">
                     <div class="price-block">
-                        <div class="price-block__title">Профессиональный</div>
+                        <div class="price-block__title">РџСЂРѕС„РµСЃСЃРёРѕРЅР°Р»СЊРЅС‹Р№</div>
                         <div class="price-block__cost">
                             <p>1 499</p>
                             <div class="image">
@@ -619,33 +619,33 @@ $APPLICATION->SetTitle("amoCRM");
                             </div>
                         </div>
                     </div>
-                    <p class="paragraph">Для тех, кто занимается обработкой большого количества лидов</p>
+                    <p class="paragraph">Р”Р»СЏ С‚РµС…, РєС‚Рѕ Р·Р°РЅРёРјР°РµС‚СЃСЏ РѕР±СЂР°Р±РѕС‚РєРѕР№ Р±РѕР»СЊС€РѕРіРѕ РєРѕР»РёС‡РµСЃС‚РІР° Р»РёРґРѕРІ</p>
                     <ul class="main-list main-list_nopdn">
-                        <li class="main-list__item main-list__item_icon">Скоринг лидов</li>
-                        <li class="main-list__item main-list__item_icon">Периодический данных с отправкой архива на почту</li>
+                        <li class="main-list__item main-list__item_icon">РЎРєРѕСЂРёРЅРі Р»РёРґРѕРІ</li>
+                        <li class="main-list__item main-list__item_icon">РџРµСЂРёРѕРґРёС‡РµСЃРєРёР№ РґР°РЅРЅС‹С… СЃ РѕС‚РїСЂР°РІРєРѕР№ Р°СЂС…РёРІР° РЅР° РїРѕС‡С‚Сѓ</li>
                     </ul>
                 </div>
             </div>
             <div class="section-row__block section-row__block_white section-row__block_right">
                 <div class="section-two__block section-two__block_new section-two__block_first">
-                    <div class="price-block__title price-block__title_white">Пакет <br> Микро-Бизнес</div>
-                    <p class="paragraph paragraph_white">Для тех, кто только открыл свой бизнес и начинает привлекать своих первых клиентов</p>
+                    <div class="price-block__title price-block__title_white">РџР°РєРµС‚ <br> РњРёРєСЂРѕ-Р‘РёР·РЅРµСЃ</div>
+                    <p class="paragraph paragraph_white">Р”Р»СЏ С‚РµС…, РєС‚Рѕ С‚РѕР»СЊРєРѕ РѕС‚РєСЂС‹Р» СЃРІРѕР№ Р±РёР·РЅРµСЃ Рё РЅР°С‡РёРЅР°РµС‚ РїСЂРёРІР»РµРєР°С‚СЊ СЃРІРѕРёС… РїРµСЂРІС‹С… РєР»РёРµРЅС‚РѕРІ</p>
                     <div class="block-price">
                         <div class="block-price__cost">4 990</div>
                         <div class="block-price__text">
-                            <p class="par">руб/год</p>
-                            <p class="par">за 2 пользователей</p>
+                            <p class="par">СЂСѓР±/РіРѕРґ</p>
+                            <p class="par">Р·Р° 2 РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№</p>
                         </div>
                     </div>
                 </div>
                 <div class="section-two__block section-two__block_new">
-                    <div class="price-block__title price-block__title_white">Пакет <br> Старт-ап</div>
-                    <p class="paragraph paragraph_white">Для молодого бизнеса, где все вокруг друзья и не нужен контроль сотрудников</p>
+                    <div class="price-block__title price-block__title_white">РџР°РєРµС‚ <br> РЎС‚Р°СЂС‚-Р°Рї</div>
+                    <p class="paragraph paragraph_white">Р”Р»СЏ РјРѕР»РѕРґРѕРіРѕ Р±РёР·РЅРµСЃР°, РіРґРµ РІСЃРµ РІРѕРєСЂСѓРі РґСЂСѓР·СЊСЏ Рё РЅРµ РЅСѓР¶РµРЅ РєРѕРЅС‚СЂРѕР»СЊ СЃРѕС‚СЂСѓРґРЅРёРєРѕРІ</p>
                     <div class="block-price">
                         <div class="block-price__cost">14 990</div>
                         <div class="block-price__text">
-                            <p class="par">руб/год</p>
-                            <p class="par">за 5 пользователей</p>
+                            <p class="par">СЂСѓР±/РіРѕРґ</p>
+                            <p class="par">Р·Р° 5 РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№</p>
                         </div>
                     </div>
                 </div>
@@ -653,124 +653,124 @@ $APPLICATION->SetTitle("amoCRM");
         </div>
     </section>
 
-    <!-- Двадцать шестой блок -->
+    <!-- Р”РІР°РґС†Р°С‚СЊ С€РµСЃС‚РѕР№ Р±Р»РѕРє -->
     <section class="section-last">
-        <div class="main-title main-title_blue">УСЛУГИ ПО ВНЕДРЕНИЮ <span class="span-title">amo</span>CRM ДЛЯ ВАШЕГО БИЗНЕСА</div>
+        <div class="main-title main-title_blue">РЈРЎР›РЈР“Р РџРћ Р’РќР•Р”Р Р•РќРР® <span class="span-title">amo</span>CRM Р”Р›РЇ Р’РђРЁР•Р“Рћ Р‘РР—РќР•РЎРђ</div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xl-6 col-md-12">
-                    <h2 class="main-title main-title_little">amoCRM-стандарт:</h2>
+                    <h2 class="main-title main-title_little">amoCRM-СЃС‚Р°РЅРґР°СЂС‚:</h2>
                     <ul class="main-list main-list_white">
-                        <li class="main-list__item">Презентация amoCRM клиенту в офисе или в онлайн-режиме</li>
-                        <li class="main-list__item">Обучение работе с amoCRM, аттестация персонала</li>
-                        <li class="main-list__item">Интеграция с почтой, телефонией и заявками с сайта в amoCRM</li>
-                        <li class="main-list__item">Настройка воронки продаж</li>
-                        <li class="main-list__item">Digital — маркетинг (автоматическая интеграция рекламы в соц.сетях (Facebook, Вконтакте) с воронкой продаж amoCR</li>
-                        <li class="main-list__item">Создание групп пользователей, настройка прав, разграничение видимости клиентской базы)</li>
-                        <li class="main-list__item">Настройка аккаунта в amoCRM под специфику Вашего бизнеса (персонификация полей, фильтры, дополнительные обозначения)</li>
+                        <li class="main-list__item">РџСЂРµР·РµРЅС‚Р°С†РёСЏ amoCRM РєР»РёРµРЅС‚Сѓ РІ РѕС„РёСЃРµ РёР»Рё РІ РѕРЅР»Р°Р№РЅ-СЂРµР¶РёРјРµ</li>
+                        <li class="main-list__item">РћР±СѓС‡РµРЅРёРµ СЂР°Р±РѕС‚Рµ СЃ amoCRM, Р°С‚С‚РµСЃС‚Р°С†РёСЏ РїРµСЂСЃРѕРЅР°Р»Р°</li>
+                        <li class="main-list__item">РРЅС‚РµРіСЂР°С†РёСЏ СЃ РїРѕС‡С‚РѕР№, С‚РµР»РµС„РѕРЅРёРµР№ Рё Р·Р°СЏРІРєР°РјРё СЃ СЃР°Р№С‚Р° РІ amoCRM</li>
+                        <li class="main-list__item">РќР°СЃС‚СЂРѕР№РєР° РІРѕСЂРѕРЅРєРё РїСЂРѕРґР°Р¶</li>
+                        <li class="main-list__item">Digital вЂ” РјР°СЂРєРµС‚РёРЅРі (Р°РІС‚РѕРјР°С‚РёС‡РµСЃРєР°СЏ РёРЅС‚РµРіСЂР°С†РёСЏ СЂРµРєР»Р°РјС‹ РІ СЃРѕС†.СЃРµС‚СЏС… (Facebook, Р’РєРѕРЅС‚Р°РєС‚Рµ) СЃ РІРѕСЂРѕРЅРєРѕР№ РїСЂРѕРґР°Р¶ amoCR</li>
+                        <li class="main-list__item">РЎРѕР·РґР°РЅРёРµ РіСЂСѓРїРї РїРѕР»СЊР·РѕРІР°С‚РµР»РµР№, РЅР°СЃС‚СЂРѕР№РєР° РїСЂР°РІ, СЂР°Р·РіСЂР°РЅРёС‡РµРЅРёРµ РІРёРґРёРјРѕСЃС‚Рё РєР»РёРµРЅС‚СЃРєРѕР№ Р±Р°Р·С‹)</li>
+                        <li class="main-list__item">РќР°СЃС‚СЂРѕР№РєР° Р°РєРєР°СѓРЅС‚Р° РІ amoCRM РїРѕРґ СЃРїРµС†РёС„РёРєСѓ Р’Р°С€РµРіРѕ Р±РёР·РЅРµСЃР° (РїРµСЂСЃРѕРЅРёС„РёРєР°С†РёСЏ РїРѕР»РµР№, С„РёР»СЊС‚СЂС‹, РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹Рµ РѕР±РѕР·РЅР°С‡РµРЅРёСЏ)</li>
                     </ul>
-                    <h2 class="main-title main-title_little main-title_little-white">Стоимость:</h2>
+                    <h2 class="main-title main-title_little main-title_little-white">РЎС‚РѕРёРјРѕСЃС‚СЊ:</h2>
                     <ul class="main-list main-list_white">
-                        <li class="main-list__item">от 55 000р. (для Москвы и городов-миллионников);</li>
-                        <li class="main-list__item">от 37 000р. (для небольших городов).</li>
+                        <li class="main-list__item">РѕС‚ 55 000СЂ. (РґР»СЏ РњРѕСЃРєРІС‹ Рё РіРѕСЂРѕРґРѕРІ-РјРёР»Р»РёРѕРЅРЅРёРєРѕРІ);</li>
+                        <li class="main-list__item">РѕС‚ 37 000СЂ. (РґР»СЏ РЅРµР±РѕР»СЊС€РёС… РіРѕСЂРѕРґРѕРІ).</li>
 
                     </ul>
-                    <h2 class="main-title main-title_little">amoCRM - консалтинг:</h2>
+                    <h2 class="main-title main-title_little">amoCRM - РєРѕРЅСЃР°Р»С‚РёРЅРі:</h2>
                     <ul class="main-list main-list_white">
-                        <li class="main-list__item">Аудит отдела продаж.</li>
-                        <li class="main-list__item">Построение отдела продаж.</li>
-                        <li class="main-list__item">Разработка системы мотивации, бизнес-процессов продажи, обучение персонала.</li>
-                        <li class="main-list__item">Разработка инструментов продаж (маркетинг-кит, КП, каталоги).</li>
-                        <li class="main-list__item">Создание скриптов, модулей, сценариев работы, корпоративной книги продаж.</li>
+                        <li class="main-list__item">РђСѓРґРёС‚ РѕС‚РґРµР»Р° РїСЂРѕРґР°Р¶.</li>
+                        <li class="main-list__item">РџРѕСЃС‚СЂРѕРµРЅРёРµ РѕС‚РґРµР»Р° РїСЂРѕРґР°Р¶.</li>
+                        <li class="main-list__item">Р Р°Р·СЂР°Р±РѕС‚РєР° СЃРёСЃС‚РµРјС‹ РјРѕС‚РёРІР°С†РёРё, Р±РёР·РЅРµСЃ-РїСЂРѕС†РµСЃСЃРѕРІ РїСЂРѕРґР°Р¶Рё, РѕР±СѓС‡РµРЅРёРµ РїРµСЂСЃРѕРЅР°Р»Р°.</li>
+                        <li class="main-list__item">Р Р°Р·СЂР°Р±РѕС‚РєР° РёРЅСЃС‚СЂСѓРјРµРЅС‚РѕРІ РїСЂРѕРґР°Р¶ (РјР°СЂРєРµС‚РёРЅРі-РєРёС‚, РљРџ, РєР°С‚Р°Р»РѕРіРё).</li>
+                        <li class="main-list__item">РЎРѕР·РґР°РЅРёРµ СЃРєСЂРёРїС‚РѕРІ, РјРѕРґСѓР»РµР№, СЃС†РµРЅР°СЂРёРµРІ СЂР°Р±РѕС‚С‹, РєРѕСЂРїРѕСЂР°С‚РёРІРЅРѕР№ РєРЅРёРіРё РїСЂРѕРґР°Р¶.</li>
 
                     </ul>
-                    <h2 class="main-title main-title_little main-title_little-white">Стоимость: <span class="thin">зависит от объема работ и рассчитывается индивидуально.</span>
+                    <h2 class="main-title main-title_little main-title_little-white">РЎС‚РѕРёРјРѕСЃС‚СЊ: <span class="thin">Р·Р°РІРёСЃРёС‚ РѕС‚ РѕР±СЉРµРјР° СЂР°Р±РѕС‚ Рё СЂР°СЃСЃС‡РёС‚С‹РІР°РµС‚СЃСЏ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕ.</span>
                     </h2>
                 </div>
                 <div class="col-xl-6 col-md-12">
-                    <h2 class="main-title main-title_little">amoCRM — интернет-продвижение:</h2>
+                    <h2 class="main-title main-title_little">amoCRM вЂ” РёРЅС‚РµСЂРЅРµС‚-РїСЂРѕРґРІРёР¶РµРЅРёРµ:</h2>
                     <ul class="main-list main-list_white">
-                        <li class="main-list__item">Создание сайтов, Landing page</li>
-                        <li class="main-list__item">Рекламные кампании</li>
-                        <li class="main-list__item">SEO-продвижение сайт</li>
+                        <li class="main-list__item">РЎРѕР·РґР°РЅРёРµ СЃР°Р№С‚РѕРІ, Landing page</li>
+                        <li class="main-list__item">Р РµРєР»Р°РјРЅС‹Рµ РєР°РјРїР°РЅРёРё</li>
+                        <li class="main-list__item">SEO-РїСЂРѕРґРІРёР¶РµРЅРёРµ СЃР°Р№С‚</li>
                     </ul>
-                    <h2 class="main-title main-title_little main-title_little-white">Стоимость: <span class="thin">зависит от объема работ и рассчитывается индивидуально.</span>
+                    <h2 class="main-title main-title_little main-title_little-white">РЎС‚РѕРёРјРѕСЃС‚СЊ: <span class="thin">Р·Р°РІРёСЃРёС‚ РѕС‚ РѕР±СЉРµРјР° СЂР°Р±РѕС‚ Рё СЂР°СЃСЃС‡РёС‚С‹РІР°РµС‚СЃСЏ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕ.</span>
                     </h2>
-                    <h2 class="main-title main-title_little">amoCRM — IT-проект:</h2>
+                    <h2 class="main-title main-title_little">amoCRM вЂ” IT-РїСЂРѕРµРєС‚:</h2>
                     <ul class="main-list main-list_white">
-                        <li class="main-list__item">Сквозная аналитика каналов продаж, колтрекинг, подсчет ROI</li>
-                        <li class="main-list__item">Интеграция с 1С-бухгалтерией.</li>
-                        <li class="main-list__item">Интеграция с программами по управлению складом и логистикой.</li>
-                        <li class="main-list__item">Интеграция со службой технической поддержки.</li>
-                        <li class="main-list__item">Интеграция с сервисами аналитики.</li>
-                        <li class="main-list__item">Программирование индивидуальных отраслевых решений и настройка amoCRM под них.</li>
+                        <li class="main-list__item">РЎРєРІРѕР·РЅР°СЏ Р°РЅР°Р»РёС‚РёРєР° РєР°РЅР°Р»РѕРІ РїСЂРѕРґР°Р¶, РєРѕР»С‚СЂРµРєРёРЅРі, РїРѕРґСЃС‡РµС‚ ROI</li>
+                        <li class="main-list__item">РРЅС‚РµРіСЂР°С†РёСЏ СЃ 1РЎ-Р±СѓС…РіР°Р»С‚РµСЂРёРµР№.</li>
+                        <li class="main-list__item">РРЅС‚РµРіСЂР°С†РёСЏ СЃ РїСЂРѕРіСЂР°РјРјР°РјРё РїРѕ СѓРїСЂР°РІР»РµРЅРёСЋ СЃРєР»Р°РґРѕРј Рё Р»РѕРіРёСЃС‚РёРєРѕР№.</li>
+                        <li class="main-list__item">РРЅС‚РµРіСЂР°С†РёСЏ СЃРѕ СЃР»СѓР¶Р±РѕР№ С‚РµС…РЅРёС‡РµСЃРєРѕР№ РїРѕРґРґРµСЂР¶РєРё.</li>
+                        <li class="main-list__item">РРЅС‚РµРіСЂР°С†РёСЏ СЃ СЃРµСЂРІРёСЃР°РјРё Р°РЅР°Р»РёС‚РёРєРё.</li>
+                        <li class="main-list__item">РџСЂРѕРіСЂР°РјРјРёСЂРѕРІР°РЅРёРµ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹С… РѕС‚СЂР°СЃР»РµРІС‹С… СЂРµС€РµРЅРёР№ Рё РЅР°СЃС‚СЂРѕР№РєР° amoCRM РїРѕРґ РЅРёС….</li>
 
                     </ul>
-                    <h2 class="main-title main-title_little main-title_little-white">Стоимость: <span class="thin">зависит от объема работ и рассчитывается индивидуально.</span>
+                    <h2 class="main-title main-title_little main-title_little-white">РЎС‚РѕРёРјРѕСЃС‚СЊ: <span class="thin">Р·Р°РІРёСЃРёС‚ РѕС‚ РѕР±СЉРµРјР° СЂР°Р±РѕС‚ Рё СЂР°СЃСЃС‡РёС‚С‹РІР°РµС‚СЃСЏ РёРЅРґРёРІРёРґСѓР°Р»СЊРЅРѕ.</span>
                     </h2>
 
                 </div>
             </div>
         </div>
     </section>
-    <!--  Слайдер  -->
+    <!--  РЎР»Р°Р№РґРµСЂ  -->
     <section class="amocrm-top">
         <div class="amocrm-top__slider slider-top" id="top-slider2">
 
             <div class="amocrm-top__slide amocrm-top__slide-1">
                 <div class="container">
                     <div class="amocrm-top__wrap">
-                        <div class="desc-1" id="desc-2-1"><span class="desc-1__unvisible">Контролируйте скорость обработки заявок и конверсию продаж с amoCRM</span></div>
-                        <div class="desc-1__sub">Выжимайте из отдела продаж максимум</div>
+                        <div class="desc-1" id="desc-2-1"><span class="desc-1__unvisible">РљРѕРЅС‚СЂРѕР»РёСЂСѓР№С‚Рµ СЃРєРѕСЂРѕСЃС‚СЊ РѕР±СЂР°Р±РѕС‚РєРё Р·Р°СЏРІРѕРє Рё РєРѕРЅРІРµСЂСЃРёСЋ РїСЂРѕРґР°Р¶ СЃ amoCRM</span></div>
+                        <div class="desc-1__sub">Р’С‹Р¶РёРјР°Р№С‚Рµ РёР· РѕС‚РґРµР»Р° РїСЂРѕРґР°Р¶ РјР°РєСЃРёРјСѓРј</div>
                     </div>
                 </div>
             </div>
             <div class="amocrm-top__slide amocrm-top__slide-2">
                 <div class="container">
                     <div class="amocrm-top__wrap">
-                        <div class="desc-1" id="desc-2-2"><span class="desc-1__unvisible">Перестаньте терять клиентов из-за забывчивости менеджеров и дыр в воронке продаж</span>
+                        <div class="desc-1" id="desc-2-2"><span class="desc-1__unvisible">РџРµСЂРµСЃС‚Р°РЅСЊС‚Рµ С‚РµСЂСЏС‚СЊ РєР»РёРµРЅС‚РѕРІ РёР·-Р·Р° Р·Р°Р±С‹РІС‡РёРІРѕСЃС‚Рё РјРµРЅРµРґР¶РµСЂРѕРІ Рё РґС‹СЂ РІ РІРѕСЂРѕРЅРєРµ РїСЂРѕРґР°Р¶</span>
                         </div>
-                        <div class="desc-1__sub">Контролируйте и корректируйте все показатели, не вставая с кресла</div>
+                        <div class="desc-1__sub">РљРѕРЅС‚СЂРѕР»РёСЂСѓР№С‚Рµ Рё РєРѕСЂСЂРµРєС‚РёСЂСѓР№С‚Рµ РІСЃРµ РїРѕРєР°Р·Р°С‚РµР»Рё, РЅРµ РІСЃС‚Р°РІР°СЏ СЃ РєСЂРµСЃР»Р°</div>
                     </div>
                 </div>
             </div>
             <div class="amocrm-top__slide amocrm-top__slide-3">
                 <div class="container">
                     <div class="amocrm-top__wrap">
-                        <div class="desc-1" id="desc-2-3"><span class="desc-1__unvisible">Повышайте число дополнительных продаж с цифровой воронкой</span></div>
-                        <div class="desc-1__sub">Подогревайте клиентов на автопилоте</div>
+                        <div class="desc-1" id="desc-2-3"><span class="desc-1__unvisible">РџРѕРІС‹С€Р°Р№С‚Рµ С‡РёСЃР»Рѕ РґРѕРїРѕР»РЅРёС‚РµР»СЊРЅС‹С… РїСЂРѕРґР°Р¶ СЃ С†РёС„СЂРѕРІРѕР№ РІРѕСЂРѕРЅРєРѕР№</span></div>
+                        <div class="desc-1__sub">РџРѕРґРѕРіСЂРµРІР°Р№С‚Рµ РєР»РёРµРЅС‚РѕРІ РЅР° Р°РІС‚РѕРїРёР»РѕС‚Рµ</div>
                     </div>
                 </div>
             </div>
         </div>
-    </section><!--  /Слайдер -->
-    <!-- Форма -->
+    </section><!--  /РЎР»Р°Р№РґРµСЂ -->
+    <!-- Р¤РѕСЂРјР° -->
     <section class="section-form">
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="form-title">Хотите продавать больше?</div>
+                    <div class="form-title">РҐРѕС‚РёС‚Рµ РїСЂРѕРґР°РІР°С‚СЊ Р±РѕР»СЊС€Рµ?</div>
                 </div>
                 <div class="col-md-12">
                     <form action="/mail_post.php" method="post" class="form" id="form2">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-xl-4 col-sm-12">
-                                    <input type="text" name="your-name" class="form-control" placeholder="Имя" required>
+                                    <input type="text" name="your-name" class="form-control" placeholder="РРјСЏ" required>
                                 </div>
                                 <div class="col-xl-4 col-sm-12">
-                                    <input type="tel" name="your-phone" class="form-control" placeholder="Телефон" required>
+                                    <input type="tel" name="your-phone" class="form-control" placeholder="РўРµР»РµС„РѕРЅ" required>
                                 </div>
                                 <p style="display:none;"><input type="text" name="name" value=""></p>
                                 <div class="col-xl-4 col-sm-12">
                                     <div class="row">
                                         <div class="col-xl-6 col-sm-12">
-                                            <button type="submit" class="btn form-btn">Хочу!</button>
+                                            <button type="submit" class="btn form-btn">РҐРѕС‡Сѓ!</button>
                                         </div>
                                         <div class="col-xl-6 col-sm-12">
                                             <a href="https://docs.google.com/forms/d/e/1FAIpQLSfTqL6tOA92Y3SRrYWDoJ7wWNHEr-DFMXv6YWUgaY6DhBRmkw/viewform"
                                                target="_blank"
-                                               class="btn form-btn">Заполнить бриф</a>
+                                               class="btn form-btn">Р—Р°РїРѕР»РЅРёС‚СЊ Р±СЂРёС„</a>
                                         </div>
                                     </div>
 
