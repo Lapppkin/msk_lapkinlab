@@ -42,7 +42,7 @@ $APPLICATION->SetTitle("");
 
 	<section class="tenthre" id="root" style="padding-bottom: 90px">
 
-		<div class="container"><div class="row"><div class="col-md-3 logo"><a href="/"><img src="/bitrix/templates/new_design/assests/logo-new2.png"></a><span>Профессиональное поисковое продвижение, создание сайтов и реклама</span></div><div class="col-md-9" style="display: flex;flex-direction: column;justify-content: center;"><h1>Расчет прогнозной эффективности контекстной рекламы от msk.lapkinlab.ru</h1></div></div>
+		<div class="container"><div class="row"><div class="col-md-3 logo"><a href="/"><img src="<?= SITE_TEMPLATE_PATH ?>/assests/logo-new2.png"></a><span>Профессиональное поисковое продвижение, создание сайтов и реклама</span></div><div class="col-md-9" style="display: flex;flex-direction: column;justify-content: center;"><h1>Расчет прогнозной эффективности контекстной рекламы от msk.lapkinlab.ru</h1></div></div>
 					<br>
 					<br>
 
