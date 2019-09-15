@@ -1,8 +1,8 @@
 <?php
 
 //\AddEventHandler("main", "OnEndBufferContent", "deleteKernelJs"); //Убрать js
-//\AddEventHandler("main", "OnEndBufferContent", "deleteKernelCss"); //Убрать css
-//\AddEventHandler("main", "OnEndBufferContent", "ChangeMyContent"); //Сжать html
+\AddEventHandler("main", "OnEndBufferContent", "deleteKernelCss"); //Убрать css
+\AddEventHandler("main", "OnEndBufferContent", "ChangeMyContent"); //Сжать html
 
 \AddEventHandler('main', 'OnEpilog', '_Check404Error', 1);
 
