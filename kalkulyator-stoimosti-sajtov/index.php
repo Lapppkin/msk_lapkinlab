@@ -55,8 +55,8 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                         <div class="tet">Разработка мини промо-сайта. Подходит  в первую очередь для проведения промо-акций, распродаж <br>
                             <a href="http://minilanding.lapkinlab.ru/" target="_blank">Смотреть пример</a>
                         </div>
-                        <div class="im1"> <img src="../../assests/dollar-symbol.png"> от 10 000 рублей</div>
-                        <div class="im2"> <img src="../../assests/calendar.png"> от 7 до 10 дней</div>
+                        <div class="im1"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/dollar-symbol.png"> от 10 000 рублей</div>
+                        <div class="im2"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/calendar.png"> от 7 до 10 дней</div>
                         <div class="col-md-12 botnew">
                             <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'cenyrazrab'); return true;">Заказать</a>
                         </div>
@@ -64,8 +64,8 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                     <div class="col-sm-12 col-md-4 blo">
                         <div class="tit">Landing page</div>
                         <div class="tet">Разработка мини промо-сайта. Включает    в себя 5-7 экранов с информацией + форму обратной связи. <br>&nbsp;</div>
-                        <div class="im1"> <img src="../../assests/dollar-symbol.png"> от 40 000 рублей</div>
-                        <div class="im2"> <img src="../../assests/calendar.png"> от 10 до 20 дней</div>
+                        <div class="im1"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/dollar-symbol.png"> от 40 000 рублей</div>
+                        <div class="im2"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/calendar.png"> от 10 до 20 дней</div>
                         <div class="col-md-12 botnew">
                             <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'cenyrazrab'); return true;">Заказать</a>
                         </div>
@@ -73,8 +73,8 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                     <div class="col-sm-12 col-md-4 blo tri">
                         <div class="tit">Сайт услуг</div>
                         <div class="tet">Данный тип сайта служит для представления информации о деятельности компании, ее структуре и услугах</div>
-                        <div class="im1"> <img src="../../assests/dollar-symbol.png"> от 50 000 рублей</div>
-                        <div class="im2"> <img src="../../assests/calendar.png"> от 10 до 20 дней</div>
+                        <div class="im1"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/dollar-symbol.png"> от 50 000 рублей</div>
+                        <div class="im2"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/calendar.png"> от 10 до 20 дней</div>
                         <div class="col-md-12 botnew">
                             <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'cenyrazrab'); return true;">Заказать</a>
                         </div>
@@ -83,8 +83,8 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                     <div class="col-sm-12 col-md-4 blo">
                         <div class="tit">Интернет-магазин</div>
                         <div class="tet">Разработка полнофункциональных интернет-магазинов, направленных на продажу как малого, так и большого количества товаров  </div>
-                        <div class="im1"> <img src="../../assests/dollar-symbol.png"> от 65 000 рублей</div>
-                        <div class="im2"> <img src="../../assests/calendar.png"> от 30 до 45 дней</div>
+                        <div class="im1"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/dollar-symbol.png"> от 65 000 рублей</div>
+                        <div class="im2"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/calendar.png"> от 30 до 45 дней</div>
                         <div class="col-md-12 botnew">
                             <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'cenyrazrab'); return true;">Заказать</a>
                         </div>
@@ -92,8 +92,8 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                     <div class="col-sm-12 col-md-4 blo">
                         <div class="tit">Корпоративный сайт</div>
                         <div class="tet">Призван предоставить пользователю  всю информацию компании, ее товарах или услугах <br>&nbsp;</div>
-                        <div class="im1"> <img src="../../assests/dollar-symbol.png"> от 75 000 рублей</div>
-                        <div class="im2"> <img src="../../assests/calendar.png"> от 25 до 40 дней</div>
+                        <div class="im1"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/dollar-symbol.png"> от 75 000 рублей</div>
+                        <div class="im2"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/calendar.png"> от 25 до 40 дней</div>
                         <div class="col-md-12 botnew">
                             <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'cenyrazrab'); return true;">Заказать</a>
                         </div>
@@ -101,8 +101,8 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                     <div class="col-sm-12 col-md-4 blo tri">
                         <div class="tit">Дизайн/редизайн сайтов</div>
                         <div class="tet">Разработка современного дизайна (редизайна) сайта, который будет  соответствовать трендам<br>&nbsp;</div>
-                        <div class="im1"> <img src="../../assests/dollar-symbol.png"> от 19 000 рублей</div>
-                        <div class="im2"> <img src="../../assests/calendar.png"> от 10 до 20 дней</div>
+                        <div class="im1"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/dollar-symbol.png"> от 19 000 рублей</div>
+                        <div class="im2"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/calendar.png"> от 10 до 20 дней</div>
                         <div class="col-md-12 botnew">
                             <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'cenyrazrab'); return true;">Заказать</a>
                         </div>
@@ -121,8 +121,8 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                             <p>Контроль над менеджерами компании</p>
                             <p>Слабые места маркетинговой стратегии</p>
                         </div>
-                        <div class="im1"> <img src="../../assests/dollar-symbol.png"> от 15 000 рублей</div>
-                        <div class="im2"> <img src="../../assests/calendar.png"> от 5 дней</div>
+                        <div class="im1"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/dollar-symbol.png"> от 15 000 рублей</div>
+                        <div class="im2"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/calendar.png"> от 5 дней</div>
                         <div class="col-md-12 botnew">
                             <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'zakazcrm'); return true;">Заказать</a>
                         </div>
@@ -143,19 +143,19 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-sm-12 col-md-3 block_twof">
-                                <img src="../../assests/call1.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/call1.png">
                                 <p class="tit"> Функция обратного звонка </p>
                             </div>
                             <div class="col-sm-12 col-md-3 block_twof">
-                                <img src="../../assests/location1.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/location1.png">
                                 <p class="tit"> Интерактивная карта </p>
                             </div>
                             <div class="col-sm-12 col-md-3 block_twof">
-                                <img src="../../assests/email1.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/email1.png">
                                 <p class="tit"> Корпоративная почта </p>
                             </div>
                             <div class="col-sm-12 col-md-3 block_twof">
-                                <img src="../../assests/gear.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/gear.png">
                                 <p class="tit"> Удобная система управления </p>
                             </div>
                         </div>
@@ -164,19 +164,19 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-sm-12 col-md-3 block_twof">
-                                <img src="../../assests/ssl-certificate.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/ssl-certificate.png">
                                 <p class="tit"> SSL сертификат безопасности </p>
                             </div>
                             <div class="col-sm-12 col-md-3 block_twof">
-                                <img src="../../assests/layout1.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/layout1.png">
                                 <p class="tit"> Адаптивная верстка </p>
                             </div>
                             <div class="col-sm-12 col-md-3 block_twof">
-                                <img src="../../assests/manager1.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/manager1.png">
                                 <p class="tit"> Персональный менеджер </p>
                             </div>
                             <div class="col-sm-12 col-md-3 block_twof">
-                                <img src="../../assests/chat.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chat.png">
                                 <p class="tit"> 14 дней бесплатной техподдержки </p>
                             </div>
                         </div>
@@ -194,12 +194,12 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-sm-12 col-md-6 blo">
-                                <img src="../../assests/kalinza.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/kalinza.png">
                                 <p class="tit"> Калинза </p>
                                 <p class="bottit"> Интернет-магазин контактных линз</p>
                             </div>
                             <div class="col-sm-12 col-md-6 blo">
-                                <img src="//msk.lapkinlab.ru/upload/medialibrary/886/shtorku.png">
+                                <img src="/upload/medialibrary/886/shtorku.png">
                                 <p class="tit"> Shtorku</p>
                                 <p class="bottit"> Салон штор в Москве</p>
                             </div>
@@ -209,17 +209,17 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-sm-12 col-md-4 blo">
-                                <img src="../../assests/itmngo-ru.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/itmngo-ru.png">
                                 <p class="tit"> IT-Mango </p>
                                 <p class="bottit"> Корпоративный сайт ит оборудования</p>
                             </div>
                             <div class="col-sm-12 col-md-4 blo">
-                                <img src="../../assests/wineandvine-ru.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/wineandvine-ru.png">
                                 <p class="tit"> Wine&amp;Vine </p>
                                 <p class="bottit"> Винный ресторан Wine&amp;Vine</p>
                             </div>
                             <div class="col-sm-12 col-md-4 blo">
-                                <img src="../../assests/carsnab-ru.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/carsnab-ru.png">
                                 <p class="tit"> Carsnab </p>
                                 <p class="bottit"> Интернет-магазин запчастей</p>
                             </div>
@@ -227,45 +227,45 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-sm-12 col-md-4 blo">
-                                    <img src="//msk.lapkinlab.ru/image/5-1.jpeg">
+                                    <img src="<?= SITE_TEMPLATE_PATH ?>/image/5-1.jpeg">
                                     <p class="tit"> Модные мужские и женские оправы </p>
                                 </div>
                                 <div class="col-sm-12 col-md-4 blo">
-                                    <img src="//msk.lapkinlab.ru/image/9.jpeg">
+                                    <img src="<?= SITE_TEMPLATE_PATH ?>/image/9.jpeg">
                                     <p class="tit"> KIPR – Комплексное SMM продвижение </p>
                                 </div>
                                 <div class="col-sm-12 col-md-4 blo">
-                                    <img src="//msk.lapkinlab.ru/image/1231231.jpeg">
+                                    <img src="<?= SITE_TEMPLATE_PATH ?>/image/1231231.jpeg">
                                     <p class="tit"> Комфортное дистанционное обучение </p>
                                 </div>
                             </div>
                             <div class="col-md-12">
                                 <div class="row">
                                     <div class="col-sm-12 col-md-4 blo">
-                                        <img src="//msk.lapkinlab.ru/image/10.jpeg">
+                                        <img src="<?= SITE_TEMPLATE_PATH ?>/image/10.jpeg">
                                         <p class="tit"> ООО “СЕЛЬХОЗМАШ” </p>
                                     </div>
                                     <div class="col-sm-12 col-md-4 blo">
-                                        <img src="//msk.lapkinlab.ru/image/11.jpeg">
+                                        <img src="<?= SITE_TEMPLATE_PATH ?>/image/11.jpeg">
                                         <p class="tit"> Компания «Матадор» </p>
                                     </div>
                                     <div class="col-sm-12 col-md-4 blo">
-                                        <img src="//msk.lapkinlab.ru/image/12.jpeg">
+                                        <img src="<?= SITE_TEMPLATE_PATH ?>/image/12.jpeg">
                                         <p class="tit"> Интернет магазин Волшебный сон </p>
                                     </div>
                                 </div>
                                 <div class="col-md-12">
                                     <div class="row">
                                         <div class="col-sm-12 col-md-4 blo">
-                                            <img src="//msk.lapkinlab.ru/image/13.jpeg">
+                                            <img src="<?= SITE_TEMPLATE_PATH ?>/image/13.jpeg">
                                             <p class="tit"> Автомобильные шторки Eva-light </p>
                                         </div>
                                         <div class="col-sm-12 col-md-4 blo">
-                                            <img src="//msk.lapkinlab.ru/image/yug.jpg">
+                                            <img src="<?= SITE_TEMPLATE_PATH ?>/image/yug.jpg">
                                             <p class="tit"> Ипотечные программы от Южных Метров </p>
                                         </div>
                                         <div class="col-sm-12 col-md-4 blo">
-                                            <img src="//msk.lapkinlab.ru/image/14.jpeg">
+                                            <img src="<?= SITE_TEMPLATE_PATH ?>/image/14.jpeg">
                                             <p class="tit"> Бухгалтерские услуги в Москве </p>
                                         </div>
                                     </div>
@@ -824,7 +824,7 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                         <p class="h4">С момента обращения Вашим проектом занимается личный менеджер. Он контролирует все этапы разработки, вместе с клиентом и разработчиками ищет оптимальные пути решения задач сайта, консультирует по любым вопросам, касающимся проекта.</p>
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <img src="../../assests/crm-kns1.png">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/assests/crm-kns1.png">
                     </div>
 
                 </div>
@@ -841,19 +841,19 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-sm-12 col-md-3 block_twof">
-                                <img src="../../assests/1c_bitrix_logo.svg.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/1c_bitrix_logo.svg.png">
                                 <p class="tit"> 1C Битрикс </p>
                             </div>
                             <div class="col-sm-12 col-md-3 block_twof">
-                                <img src="../../assests/WordPress.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/WordPress.png">
                                 <p class="tit"> WordPress </p>
                             </div>
                             <div class="col-sm-12 col-md-3 block_twof">
-                                <img src="../../assests/opencart.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/opencart.png">
                                 <p class="tit"> Open Cart </p>
                             </div>
                             <div class="col-sm-12 col-md-3 block_twof">
-                                <img src="../../assests/modx.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/modx.png">
                                 <p class="tit"> ModX </p>
                             </div>
                         </div>
@@ -871,7 +871,7 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                         <h2 class="title">Точная аналитика и отслеживание эффективности</h2>
                     </div>
                     <div class="col-sm-12 col-md-6">
-                        <img src="../../assests/4-layers.png">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/assests/4-layers.png">
                     </div>
                     <div class="col-sm-12 col-md-6">
                         <div class="h3">Определение задач бизнеса</div>
@@ -966,7 +966,6 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                             </p>
                         </div>
                     </div>
-                    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
                     <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js"></script>
                     <script src="/bitrix/templates/LapkinLab_krd/js/video-fancy.js"></script>
                 </div></div></section>
@@ -981,15 +980,15 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                     <div class="col-md-12">
                         <div class="row">
                             <div class="col-sm-12 col-md-4 block_twof">
-                                <img src="../../assests/customer-service.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/customer-service.png">
                                 <p class="tit"> Гарантированная поддержка  после сдачи проекта</p>
                             </div>
                             <div class="col-sm-12 col-md-4 block_twof">
-                                <img src="../../assests/portfolio2.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/portfolio2.png">
                                 <p class="tit"> Опыт работы с крупными заказчиками</p>
                             </div>
                             <div class="col-sm-12 col-md-4 block_twof">
-                                <img src="../../assests/file2.png">
+                                <img src="<?= SITE_TEMPLATE_PATH ?>/assests/file2.png">
                                 <p class="tit"> Полный пакет всех документов</p>
                             </div>
                         </div>

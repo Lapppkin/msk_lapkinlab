@@ -46,7 +46,7 @@
             <p>Обратитесь к нам, и мы сделаем ваш проект успешным! Мы внимательно изучим сайт, оценим конкурентность и приступим к СЕО-оптимизации. Заказав услуги раскрутки сайта у нас, вы в первые 2-3 месяца заметите рост видимости вашего ресурса.</p>
          </div>
          <div class="col-sm-12 col-md-6">
-            <img src="../../assests/visi.png">
+            <img src="<?= SITE_TEMPLATE_PATH ?>/assests/visi.png">
          </div>
       </div>
    </div>
@@ -60,12 +60,12 @@
          <div class="col-md-12">
             <div class="row">
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/audit.png">
+                  <img src="<?= SITE_TEMPLATE_PATH ?>/assests/audit.png">
                   <p class="tit"> Комплексный аудит</p>
                   <p class="bottit">Мы проверяем ресурс по всем направлениям, оцениваем рыночную ситуацию и конкурентность ниши, смотрим слабые и сильные стороны сайта. Специалисты оценивают удобство сайта для пользователей, выявляют причины низких позиций в выдаче, находят технические недоработки.</p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/active_search.png">
+                  <img src="<?= SITE_TEMPLATE_PATH ?>/assests/active_search.png">
                   <p class="tit"> Поисковое продвижение</p>
                   <p class="bottit"> Занимаясь оптимизацией сайтов, мы понимаем, как сделать сайт прибыльным. Качественное продвижение работает на долгосрочную перспективу, помогает постоянно увеличивать конверсионные и улучшая поведенческие показатели сайта.
                      <br>
@@ -73,7 +73,7 @@
                   </p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/technical_support.png">
+                  <img src="<?= SITESITE_TEMPLATE_DIR ?>/assests/technical_support.png">
                   <p class="tit"> Техническое сопровождение</p>
                   <p class="bottit"> Для сохранения позиций сайта в поисковой выдаче необходимы мероприятия по поддержанию работоспособности ресурса. В комплекс работ входит анализ нагрузки, которую испытывает сайт, работы по обеспечению безопасности. Специалисты редактируют дизайн и структуру, выполняют внешнюю и внутреннюю оптимизацию.</p>
                </div>
@@ -414,17 +414,17 @@
          <div class="col-md-12">
             <div class="row">
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/star2.png">
+                  <img src="<?= SITE_TEMPLATE_PATH ?>/assests/star2.png">
                   <p class="tit"> Долгосрочный эффект</p>
                   <p class="bottit"> Сайт, заняв высокие позиции в поиске, будет стабильно приносить клиентов на протяжении долгого времени</p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/star2.png">
+                  <img src="<?= SITE_TEMPLATE_PATH ?>/assests/star2.png">
                   <p class="tit"> Низкая стоимость за одного привлеченного посетителя</p>
                   <p class="bottit"> Стоимость каждого нового посетителя становится меньше. Цена SEO раскрутки сайта гораздо ниже использования контекстной рекламы.</p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/star2.png">
+                  <img src="<?= SITE_TEMPLATE_PATH ?>/assests/star2.png">
                   <p class="tit"> Постоянное увеличение трафика</p>
                   <p class="bottit">  Качественная оптимизация способствует положительной динамике. Наряду с основными запросами ресурс начинает ранжироваться по близким по значению и запросам-«хвостам».</p>
                </div>
@@ -434,17 +434,17 @@
          <div class="col-md-12">
             <div class="row">
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/star2.png">
+                  <img src="<?= SITE_TEMPLATE_PATH ?>/assests/star2.png">
                   <p class="tit"> Привлечение целевой аудитории</p>
                   <p class="bottit">  — потенциальных покупателей, которые ищут товары и услуги, вами предлагаемые. Поисковые системы показывают ваш ресурс в качестве ответа на запрос.</p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/star2.png">
+                  <img src="<?= SITE_TEMPLATE_PATH ?>/assests/star2.png">
                   <p class="tit"> Естественное продвижение</p>
                   <p class="bottit">  Компаниям, которые показываются в поисковой выдаче, доверяют больше, чем рекламируемым. Мы рекомендуем сочетать несколько инструментов продвижения для увеличения узнаваемости.</p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/star2.png">
+                  <img src="<?= SITE_TEMPLATE_PATH ?>/assests/star2.png">
                   <p class="tit"> Повышение конверсии</p>
                   <p class="bottit">  На ранжирование ресурса влияет качество оптимизации и сайта в целом. Мы работаем с юзабилити, чтобы ресурсом было понятно и удобно пользоваться. Специалисты уделяют внимание скорости загрузки страницы, оценивают время на сайте и глубину просмотра посетителями.</p>
                </div>
@@ -461,17 +461,17 @@
          <div class="col-md-12">
             <div class="row">
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/noun_cart.png">
+                  <img src="<?= SITE_TEMPLATE_PATH ?>/assests/noun_cart.png">
                   <p class="tit"> Продвижение интернет-магазинов</p>
                   <p class="bottit"> <a href="#win1">Подробнее</a></p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/noun_Business.png">
+                  <img src="<?= SITE_TEMPLATE_PATH ?>/assests/noun_Business.png">
                   <p class="tit"> Продвижение корпоративных сайтов</p>
                   <p class="bottit"> <a href="#win1">Подробнее</a></p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/noun_Location.png">
+                  <img src="<?= SITE_TEMPLATE_PATH ?>/assests/noun_Location.png">
                   <p class="tit"> Продвижение в регионах</p>
                   <p class="bottit"> <a href="#win1">Подробнее</a></p>
                </div>
@@ -554,15 +554,15 @@
                   </div>
                   <div style="width: 100%; height: 20px; clear: both"></div>
                   <div class="col-md-8 imgkeq">
-                     <img src="../../assests/shatura4.png">
+                     <img src="<?= SITE_TEMPLATE_PATH ?>/assests/shatura4.png">
                   </div>
                   <div class="col-md-4 imgkeq">
-                     <img src="../../assests/shatura5.png">
+                     <img src="<?= SITE_TEMPLATE_PATH ?>/assests/shatura5.png">
                   </div>
                   <div style="width: 100%; height: 20px; clear: both"></div>
                   <p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
-                  <div class="col-md-6 navlef navar" data-id="3"> <img src="../../assests/left.png">Предыдущий кейс </div>
-                  <div class="col-md-6 navrig navar" data-id="2"> Следующий кейс<img src="../../assests/right.png"> </div>
+                  <div class="col-md-6 navlef navar" data-id="3"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/left.png">Предыдущий кейс </div>
+                  <div class="col-md-6 navrig navar" data-id="2"> Следующий кейс<img src="<?= SITE_TEMPLATE_PATH ?>/assests/right.png"> </div>
                   <div class="col-md-12" style="text-align: center; margin: 0 auto;">
                      <a class="tm_pb_button" href="#win1">Заказать услугу</a>
                   </div>
@@ -579,15 +579,15 @@
                   </div>
                   <div style="width: 100%; height: 20px; clear: both"></div>
                   <div class="col-md-8 imgkeq">
-                     <img src="../../assests/013/m1.jpg" style="height: 280px;">
+                     <img src="<?= SITE_TEMPLATE_PATH ?>/assests/013/m1.jpg" style="height: 280px;">
                   </div>
                   <div class="col-md-4 imgkeq">
-                     <img src="../../assests/013/m2.jpg">
+                     <img src="<?= SITE_TEMPLATE_PATH ?>/assests/013/m2.jpg">
                   </div>
                   <div style="width: 100%; height: 20px; clear: both"></div>
                   <p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
-                  <div class="col-md-6 navlef navar" data-id="1"> <img src="../../assests/left.png">Предыдущий кейс </div>
-                  <div class="col-md-6 navrig navar" data-id="3"> Следующий кейс<img src="../../assests/right.png"> </div>
+                  <div class="col-md-6 navlef navar" data-id="1"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/left.png">Предыдущий кейс </div>
+                  <div class="col-md-6 navrig navar" data-id="3"> Следующий кейс<img src="<?= SITE_TEMPLATE_PATH ?>/assests/right.png"> </div>
                   <div class="col-md-12" style="text-align: center; margin: 0 auto;">
                      <a class="tm_pb_button" href="#win1">Заказать услугу</a>
                   </div>
@@ -604,15 +604,15 @@
                   </div>
                   <div style="width: 100%; height: 20px; clear: both"></div>
                   <div class="col-md-8 imgkeq">
-                     <img src="../../assests/013/t1.jpg" style="height: 280px;">
+                     <img src="<?= SITE_TEMPLATE_PATH ?>/assests/013/t1.jpg" style="height: 280px;">
                   </div>
                   <div class="col-md-4 imgkeq">
-                     <img src="../../assests/013/t2.jpg">
+                     <img src="<?= SITE_TEMPLATE_PATH ?>/assests/013/t2.jpg">
                   </div>
                   <div style="width: 100%; height: 20px; clear: both"></div>
                   <p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
-                  <div class="col-md-6 navlef navar" data-id="2"> <img src="../../assests/left.png">Предыдущий кейс </div>
-                  <div class="col-md-6 navrig navar" data-id="1"> Следующий кейс<img src="../../assests/right.png"> </div>
+                  <div class="col-md-6 navlef navar" data-id="2"> <img src="<?= SITE_TEMPLATE_PATH ?>/assests/left.png">Предыдущий кейс </div>
+                  <div class="col-md-6 navrig navar" data-id="1"> Следующий кейс<img src="<?= SITE_TEMPLATE_PATH ?>/assests/right.png"> </div>
                   <div class="col-md-12" style="text-align: center; margin: 0 auto;">
                      <a class="tm_pb_button" href="#win1">Заказать услугу</a>
                   </div>
@@ -817,15 +817,15 @@
          <div class="col-md-12">
             <div class="row">
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/noun_deadline.png">
+                  <img src="<?= SITE_TEMPLATE_PATH ?>/assests/noun_deadline.png">
                   <p class="tit"> Ответственность — мы соблюдаем заявленные сроки, полностью выполняем обязательства</p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/noun_report.png">
+                  <img src="<?= SITE_TEMPLATE_PATH ?>/assests/noun_report.png">
                   <p class="tit"> Профессионализм — у нас работают специалисты, нацеленные на результат</p>
                </div>
                <div class="col-sm-12 col-md-4 block_twof">
-                  <img src="../../assests/noun_Clients_Consulting.png">
+                  <img src="<?= SITE_TEMPLATE_PATH ?>/assests/noun_Clients_Consulting.png">
                   <p class="tit"> Эффективность продвижения — мы гарантируем максимальный охват целевой аудитории</p>
                </div>
             </div>

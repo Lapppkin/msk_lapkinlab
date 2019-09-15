@@ -4,7 +4,7 @@ $APPLICATION->SetPageProperty("keywords", "разработка чат-бото�
 $APPLICATION->SetPageProperty("title", "Разработка чат-ботов в Москве: цена разработки");
 $APPLICATION->SetPageProperty("description", "Доступная стоимость разработки чат-ботов для бизнеса в Москве в LabkinLab. Звоните!");
 $APPLICATION->SetTitle("Разработка и внедрение чат-ботов - LapkinLAb");
-?><section class="banner active_ban" id="ban1" style="background: url(../assests/chb/chat-bot-banner.jpg); background-repeat: no-repeat; background-size: auto; background-position-y: center; background-position-x: center;">
+?><section class="banner active_ban" id="ban1" style="background: url(<?= SITE_TEMPLATE_PATH ?>/assests/chb/chat-bot-banner.jpg); background-repeat: no-repeat; background-size: auto; background-position-y: center; background-position-x: center;">
 <div class="container">
 	<div class="row" style="background: transparent; box-shadow: none;">
 		<div class="col-md-8 left_banner">
@@ -89,7 +89,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 				<div class="top_icons">
 					<div class="int_item">
 						<div class="int-icon">
- <img src="../../assests/chb/tlg2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/tlg2.png">
 						</div>
 						<p>
 							 Telegram
@@ -97,7 +97,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 					</div>
 					<div class="int_item">
 						<div class="int-icon">
- <img src="../../assests/chb/viber.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/viber.png">
 						</div>
 						<p>
 							 Viber
@@ -105,7 +105,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 					</div>
 					<div class="int_item">
 						<div class="int-icon">
- <img src="../../assests/chb/whatsapp2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/whatsapp2.png">
 						</div>
 						<p>
 							 WhatsApp
@@ -113,7 +113,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 					</div>
 					<div class="int_item">
 						<div class="int-icon">
- <img src="../../assests/chb/facebook.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/facebook.png">
 						</div>
 						<p>
 							 Facebook
@@ -121,7 +121,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 					</div>
 					<div class="int_item">
 						<div class="int-icon">
- <img src="../../assests/chb/dr2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/dr2.png">
 						</div>
 						<p>
 							 Vkontakte
@@ -129,7 +129,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 					</div>
 					<div class="int_item">
 						<div class="int-icon">
- <img src="../../assests/chb/superman2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/superman2.png">
 						</div>
 						<p>
 							 Site
@@ -156,7 +156,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-6">
 			<div class="block_twof">
- <img src="../../assests/chb/shopping2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/shopping2.png">
 				<p>
 					 Интернет-магазин
 				</p>
@@ -164,7 +164,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-6">
 			<div class="block_twof">
- <img src="../../assests/chb/spa2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/spa2.png">
 				<p>
 					 Бьюти-индустрия
 				</p>
@@ -172,7 +172,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-6">
 			<div class="block_twof">
- <img src="../../assests/chb/gym2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/gym2.png">
 				<p>
 					 Фитнес центры
 				</p>
@@ -180,7 +180,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-6">
 			<div class="block_twof">
- <img src="../../assests/chb/delivery-truck-2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/delivery-truck-2.png">
 				<p>
 					 Транспорт и логистика
 				</p>
@@ -188,7 +188,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-6">
 			<div class="block_twof">
- <img src="../../assests/chb/debt2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/debt2.png">
 				<p>
 					 Финансы и страхование
 				</p>
@@ -196,7 +196,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-6">
 			<div class="block_twof">
- <img src="../../assests/chb/presentation2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/presentation2.png">
 				<p>
 					 Аудит и консалтинг
 				</p>
@@ -286,7 +286,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-5 col-md-12">
 			<div class="cycle_images">
- <img src="../../assests/chb/chb1.jpg"><img src="../../assests/chb/chb2.jpg" class="top">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/chb1.jpg"><img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/chb2.jpg" class="top">
 			</div>
 		</div>
 	</div>
@@ -299,7 +299,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-12">
 			<div class="case-l">
- <img src="../../assests/chb/Iphone2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/Iphone2.png">
 			</div>
 		</div>
 		<div class="col-lg-8 col-md-12">
@@ -468,7 +468,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		<div class="col-lg-6 col-md-12">
 			<div class="grnt_item">
 				<div class="l_image">
- <img src="../../assests/chb/message2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/message2.png">
 				</div>
 				<div class="txt">
  <span class="span">Повторные обращения клиентов</span>
@@ -481,7 +481,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		<div class="col-lg-6 col-md-12">
 			<div class="grnt_item">
 				<div class="l_image">
- <img src="../../assests/chb/test2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/test2.png">
 				</div>
 				<div class="txt">
  <span class="span">Гарантия качественной работы</span>
@@ -503,7 +503,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-6">
 			<div class="adv_item">
- <img src="../../assests/chb/stopwatch2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/stopwatch2.png">
 				<p class="chb_h2">
 					 Быстрый старт проекта
 				</p>
@@ -514,7 +514,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-6">
 			<div class="adv_item">
- <img src="../../assests/chb/web-design2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/web-design2.png">
 				<p class="chb_h2">
 					 Прозрачность разработки
 				</p>
@@ -525,7 +525,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-6">
 			<div class="adv_item">
- <img src="../../assests/chb/development2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/development2.png">
 				<p class="chb_h2">
 					 Полный цикл разработки
 				</p>
@@ -536,7 +536,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-6">
 			<div class="adv_item">
- <img src="../../assests/chb/requirement2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/requirement2.png">
 				<p class="chb_h2">
 					 Защита проекта и NDA
 				</p>
@@ -548,7 +548,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-6">
 			<div class="adv_item">
- <img src="../../assests/chb/learning2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/learning2.png">
 				<p class="chb_h2">
 					 Активное взаимодействие
 				</p>
@@ -560,7 +560,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-6">
 			<div class="adv_item">
- <img src="../../assests/chb/launch2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/launch2.png">
 				<p class="chb_h2">
 					 Высокое качество продукта
 				</p>
@@ -571,7 +571,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 	</div>
 </div>
- </section> <section class="banner active_ban" id="ban1" style="background: url(../assests/chb/chb-bg.jpg); background-repeat: no-repeat; background-size: auto; background-position-y: center; background-position-x: center;">
+ </section> <section class="banner active_ban" id="ban1" style="background: url(<?= SITE_TEMPLATE_PATH ?>/assests/chb/chb-bg.jpg); background-repeat: no-repeat; background-size: auto; background-position-y: center; background-position-x: center;">
 <div class="container">
 	<div class="row" style="background: transparent; box-shadow: none;">
 		<div class="col-md-8 left_banner">
@@ -710,7 +710,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-6">
 			<div class="adv_item">
- <img src="../../assests/chb/piggy-bank.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/piggy-bank.png">
 				<p class="chb_h2">
 					 Экономия средств
 				</p>
@@ -721,7 +721,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-6">
 			<div class="adv_item">
- <img src="../../assests/chb/smartphone2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/smartphone2.png">
 				<p class="chb_h2">
 					 Простота использования
 				</p>
@@ -732,7 +732,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-lg-4 col-md-12">
 			<div class="adv_item">
- <img src="../../assests/chb/chat2.png">
+ <img src="<?= SITE_TEMPLATE_PATH ?>/assests/chb/chat2.png">
 				<p class="chb_h2">
 					 Легкое масштабирование
 				</p>

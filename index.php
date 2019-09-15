@@ -889,7 +889,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
 
             <div class="review-list">
                 <div class="review-item">
-                    <a class="review-popup" href="https://www.youtube.com/embed/jX8QZG4JXHY" style="background-image: url(/local/templates/LapkinLab_krd/images/review-01-kalinza.jpg);"></a>
+                    <a class="review-popup" href="https://www.youtube.com/embed/jX8QZG4JXHY" style="background-image: url(<?= SITE_TEMPLATE_PATH ?>/images/review-01-kalinza.jpg);"></a>
 
                     <div class="review-title">Сеть оптик Kalinza.ru</div>
 
@@ -897,7 +897,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                 </div>
 
                 <div class="review-item">
-                    <a class="review-popup" href="https://www.youtube.com/embed/XaxNwe8O6Vw" style="background-image: url(/local/templates/LapkinLab_krd/images/review-02-trillion.jpg);"></a>
+                    <a class="review-popup" href="https://www.youtube.com/embed/XaxNwe8O6Vw" style="background-image: url(<?= SITE_TEMPLATE_PATH ?>/images/review-02-trillion.jpg);"></a>
 
                     <div class="review-title">Кредитный брокер Trillion-ug.ru</div>
 
@@ -907,7 +907,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
         </div>
 
         <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js"></script>
-        <script src="<?= SITE_TEMPLATE_PATH; ?>/js/video-fancy.js"></script>
+        <script src="<?= SITE_TEMPLATE_PATH ?>/js/video-fancy.js"></script>
     </section>
 
     <section class="section-article twel">

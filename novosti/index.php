@@ -14,6 +14,12 @@ $APPLICATION->SetTitle("Блог маркетингового агентства
         .news_layout_list figure img {
             max-height: 300px;
         }
+        .menu_logo {
+            margin-top: 0;
+        }
+        .row ul li::before {
+            display: none !important;
+        }
     </style>
     <main>
         <div class="breadcrumbs">

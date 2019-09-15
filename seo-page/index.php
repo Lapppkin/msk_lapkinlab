@@ -56,7 +56,7 @@ $APPLICATION->SetTitle("Title");
 		</div>
 		<div class="col-md-6">
 			<div>
- <img alt="seo-audit" src="../../assests/seo-audit.png" style="width: 100%;">
+ <img alt="seo-audit" src="<?= SITE_TEMPLATE_PATH ?>/assests/seo-audit.png" style="width: 100%;">
 			</div>
 		</div>
 		<div class="col-md-12 fpfppf">
@@ -127,15 +127,15 @@ $APPLICATION->SetTitle("Title");
 					</div>
 					<div class="fdfdf">
 						<ul>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Технический аудит</li>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Анализ внутренней оптимизации</li>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Анализ внешней оптимизации</li>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Анализ поведенческих факторов</li>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Внешние факторы</li>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Рекомендации</li>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Отчет</li>
-							<li style="opacity: 0;"><img src="../../assests/kisspng-check-mark_копия_5.png"> Перенос сайта на другой хостинг</li>
-							<li style="opacity: 0;"><img src="../../assests/kisspng-check-mark_копия_5.png"> Быстрое время реакции на обращение</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Технический аудит</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Анализ внутренней оптимизации</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Анализ внешней оптимизации</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Анализ поведенческих факторов</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Внешние факторы</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Рекомендации</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Отчет</li>
+							<li style="opacity: 0;"><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Перенос сайта на другой хостинг</li>
+							<li style="opacity: 0;"><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Быстрое время реакции на обращение</li>
 						</ul>
 					</div>
 					<div class="tet2">
@@ -151,14 +151,14 @@ $APPLICATION->SetTitle("Title");
 					</div>
 					<div class="fdfdf">
 						<ul>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Техподдержка 24/7</li>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Обеспечение стабильной работы сайта</li>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Экстренное восстановление работы сайта</li>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Корректировки на сайте</li>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Оперативное устранение ошибок</li>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Диагностика и лечение вирусов</li>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Перенос сайта на другой хостинг</li>
-							<li><img src="../../assests/kisspng-check-mark_копия_5.png"> Быстрое время реакции на обращение</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Техподдержка 24/7</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Обеспечение стабильной работы сайта</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Экстренное восстановление работы сайта</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Корректировки на сайте</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Оперативное устранение ошибок</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Диагностика и лечение вирусов</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Перенос сайта на другой хостинг</li>
+							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_копия_5.png"> Быстрое время реакции на обращение</li>
 						</ul>
 					</div>
 					<div class="tet2">

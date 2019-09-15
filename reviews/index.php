@@ -63,7 +63,7 @@ color: #fa3a5e;
 	<div class="video-review">
 		<div class="circle-video-block">
  <a class="video-popup" href="https://www.youtube.com/embed/jX8QZG4JXHY"></a>
-			<img src="/assests/kalinza.jpg" style="position: absolute;left: -195px;top: -65px;">
+			<img src="<?= SITE_TEMPLATE_PATH ?>'/assests/kalinza.png" style="position: absolute;left: -195px;top: -65px;">
 		</div>
 		<div class="vr-title">
 			 пїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ Kalinza.ru
@@ -75,7 +75,7 @@ color: #fa3a5e;
 	<div class="video-review">
 		<div class="circle-video-block">
  <a class="video-popup" href="https://www.youtube.com/embed/XaxNwe8O6Vw"></a>
-			<img src="/assests/trillion.jpg" style="position: absolute;left: -195px;top: -65px;">
+			<img src="<?= SITE_TEMPLATE_PATH ?>/assests/trillion.jpg" style="position: absolute;left: -195px;top: -65px;">
 		</div>
 		<div class="vr-title">
 			 пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅ Trillion-ug.ru
