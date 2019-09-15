@@ -921,7 +921,7 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                             <div class="row">
                                 <div class="col-sm-12 col-md-12">
                                     <div id="tm_builder_outer_content" class="tm_builder_outer_content" style="text-align: center; padding: 0px;">
-                                        <a class="tm_pb_button hover-green" id="trigger-fill">Заполнить
+                                        <a class="tm_pb_button hover-green" id="trigger-fill" href="https://docs.google.com/forms/d/e/1FAIpQLSdC5EtZkU86l1V2pIsEAXUigf6ZH_98BTB823rmgW7d0M_lmQ/viewform" target="_blank">Заполнить
                                             бриф</a><br class="br-mob"><br class="br-mob"><br class="br-mob"><br class="br-mob">
                                         <a class="tm_pb_button hover-green" id="trigger-get" onclick="ym(45994323, 'reachGoal', 'poluchit'); return true;">Получить расчет</a>
                                     </div>
