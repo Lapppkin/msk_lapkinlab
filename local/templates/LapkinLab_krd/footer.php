@@ -1,20 +1,32 @@
-<a class="tm_pb_more_button tm_btn_1 tm_pb_button" id="aside1" style="padding: 10px 30px; color: #fff; border-radius: 5px; background-color: green;" href="#cccallk">Уникальный SEO Калькулятор</a>
-<? if($APPLICATION->GetCurPage(false) != '/' and
-      $APPLICATION->GetCurPage(false) != '/kalkulyator-stoimosti-sajtov/' and
-      $APPLICATION->GetCurPage(false) != '/calc/' and
-      $APPLICATION->GetCurPage(false) != '/contacts/' and
-      $APPLICATION->GetCurPage(false) != '/kontekstnaya-reklama/' and
-      $APPLICATION->GetCurPage(false) != '/reviews/'and
-      $APPLICATION->GetCurPage(false) != '/seo/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/checklist/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/brif/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/o-produkte/' and
-      $APPLICATION->GetCurPage(false) != '/rekr/' and
-      $APPLICATION->GetCurPage(false) != '/chat-bot/' and
-      $APPLICATION->GetCurPage(false) != '/seo-page/' and
-      $APPLICATION->GetCurPage(false) != '/seo-page/'){ ?>
+<?
 
+use Bitrix\Main\Page\Asset;
+
+$pages = array(
+    '/',
+    '/kalkulyator-stoimosti-sajtov/',
+    '/calc/',
+    '/contacts/',
+    '/kontekstnaya-reklama/',
+    '/reviews/',
+    '/seo/',
+    '/amocrm/',
+    '/amocrm/checklist/',
+    '/amocrm/brif/',
+    '/amocrm/o-produkte/',
+    '/rekr/',
+    '/chat-bot/',
+    '/seo-page/',
+    '/seo-page/'
+);
+$isPromoPage = !in_array($APPLICATION->GetCurPage(false), $pages, true);
+
+$asset = Asset::getInstance();
+?>
+
+<a class="tm_pb_more_button tm_btn_1 tm_pb_button" id="aside1" style="padding: 10px 30px; color: #fff; border-radius: 5px; background-color: green;" href="#cccallk">Уникальный SEO Калькулятор</a>
+
+<? if ($isPromoPage) { ?>
 
     <footer>
         <section class="footer_top">
@@ -86,22 +98,9 @@
             </div>
         </section>
     </footer>
-<? } ?>
 
-<? if($APPLICATION->GetCurPage(false) === '/' or
-      $APPLICATION->GetCurPage(false) === '/kalkulyator-stoimosti-sajtov/' or
-      $APPLICATION->GetCurPage(false) === '/calc/'or
-      $APPLICATION->GetCurPage(false) === '/contacts/' or
-      $APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/' or
-      $APPLICATION->GetCurPage(false) === '/reviews/' or
-      $APPLICATION->GetCurPage(false) === '/seo/' or
-      $APPLICATION->GetCurPage(false) === '/amocrm/' or
-      $APPLICATION->GetCurPage(false) === '/amocrm/checklist/' or
-      $APPLICATION->GetCurPage(false) === '/amocrm/brif/' or
-      $APPLICATION->GetCurPage(false) === '/amocrm/o-produkte/' or
-      $APPLICATION->GetCurPage(false) === '/rekr/' or
-      $APPLICATION->GetCurPage(false) === '/chat-bot/' or
-      $APPLICATION->GetCurPage(false) === '/seo-page/'){ ?>
+<? } else { ?>
+
     <footer class="footer">
         <div class="container">
             <div class="row">
@@ -326,65 +325,54 @@
         <img width="200px" src="/image/meme-sticker-package-6.png" style="float: right;position: relative;margin-top: -200px;">
     </div>
 </div>
-<a style="bottom: 110px; right: 10px; display:none;" class="fixed_link--telegram-group" href="http://t-do.ru/LapkinLAb_Agency_bot" target="_blank"></a>
 
-<? if($APPLICATION->GetCurPage(false) === '/' or
-      $APPLICATION->GetCurPage(false) === '/calc/' or
-      $APPLICATION->GetCurPage(false) === '/kalkulyator-stoimosti-sajtov/' or
-      $APPLICATION->GetCurPage(false) === '/contacts/' or
-      $APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/' or
-      $APPLICATION->GetCurPage(false) === '/reviews/' or
-      $APPLICATION->GetCurPage(false) === '/rekr/' or
-      $APPLICATION->GetCurPage(false) === '/amocrm/' or
-      $APPLICATION->GetCurPage(false) === '/amocrm/checklist/' or
-      $APPLICATION->GetCurPage(false) === '/amocrm/brif/' or
-      $APPLICATION->GetCurPage(false) === '/seo/' or
-      $APPLICATION->GetCurPage(false) === '/chat-bot/'){ ?>
-    <a style="bottom: 110px; right: 10px; position: fixed; z-index: 150; transition-duration: .2s;" class="rocket1" href="#">
-        <img src="/upload/medialibrary/685/Rocket2.png" style="width: 70px;">
-    </a>
-    <script async src="/local/templates/new_design/modul/ionRangeSlider/js/ion.rangeSlider.js"></script>
-    <script async src="//cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script async src="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-<? } ?>
+<a style="bottom: 110px; right: 10px; display:none;" class="fixed_link--telegram-group" href="http://t-do.ru/LapkinLAb_Agency_bot" target3"4b1ank"></a>
 
-<? if($APPLICATION->GetCurPage(false) === '/' or
-      $APPLICATION->GetCurPage(false) === '/calc/' or
-      $APPLICATION->GetCurPage(false) === '/seo/'){ ?>
-    <script async src="/local/templates/new_design/modul/ionRangeSlider/js/js.js"></scriptasync>
-<? } ?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ion-rangeslider/2.3.0/js/ion.rangeSlider.min.js"></script>
 
-<? if($APPLICATION->GetCurPage(false) === '/kalkulyator-stoimosti-sajtov/'){ ?>
-    <script async src="/local/templates/new_design/modul/ionRangeSlider/js/js_dev.js"></script>
-<? } ?>
+<? if ($isPromoPage) { ?>
 
-<? if($APPLICATION->GetCurPage(false) != '/' and
-      $APPLICATION->GetCurPage(false) != '/calc/' and
-      $APPLICATION->GetCurPage(false) != '/kalkulyator-stoimosti-sajtov/' and
-      $APPLICATION->GetCurPage(false) != '/contacts/' and
-      $APPLICATION->GetCurPage(false) != '/rekr/' and
-      $APPLICATION->GetCurPage(false) != '/kontekstnaya-reklama/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/checklist/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/brif/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/o-produkte/' and
-      $APPLICATION->GetCurPage(false) != '/chat-bot/' and
-      $APPLICATION->GetCurPage(false) != '/seo-page/'){ ?>
-    <script async src="<?=SITE_TEMPLATE_PATH?>/js/scripts.js"></script>
-    <script async src="<?=SITE_TEMPLATE_PATH?>/js/common.js"></script>
-    <script async>
+    <?
+    $asset->addJs(SITE_TEMPLATE_PATH . '/js/scripts.js');
+    $asset->addJs(SITE_TEMPLATE_PATH . '/js/common.js');
+    $asset->addJs(SITE_TEMPLATE_PATH . '/libs/chart/chartist.min.js');
+    $asset->addJs(SITE_TEMPLATE_PATH . '/libs/chart/chartist-plugin-tooltip.min.js');
+    $asset->addJs(SITE_TEMPLATE_PATH . '/libs/chart/charrrt.js');
+    $asset->addJs(SITE_TEMPLATE_PATH . '/js/jquery.tm-pb-simple-slider.js');
+    $asset->addJs(SITE_TEMPLATE_PATH . '/js/js_block.js');
+    $asset->addJs(SITE_TEMPLATE_PATH . '/js/block-price.js');
+    ?>
+
+<? } else { ?>
+
+    <script>
         $('.nav-toggle').on('click', function(){
             $('#menu').toggleClass('active');
         });
     </script>
+    <script>//lazyload();</script>
+
 <? } ?>
 
-<? if($APPLICATION->GetCurPage(false) === '/telegram/'){ ?>
-    <script async type='text/javascript'>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
+<script>
+    var lazyLoadInstance = new LazyLoad({elements_selector: '.lazy'});
+    if (lazyLoadInstance) { lazyLoadInstance.update(); }
+</script>
+
+<a style="bottom: 110px; right: 10px; position: fixed; z-index: 150; transition-duration: .2s;" class="rocket1" href="#"><img src="/upload/medialibrary/685/Rocket2.png" style="width: 70px;"></a>
+
+<? $asset->addJs('/local/templates/new_design/js/scri.js'); ?>
+
+<? if ($APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/') { ?>
+    <? $asset->addJs(SITE_TEMPLATE_PATH . '/libs/owl-carousel/owl.carousel.min.js'); ?>
+<? } ?>
+
+<? if ($APPLICATION->GetCurPage(false) === '/telegram/') { ?>
+    <script>
         jQuery(document).ready(function() {
             jQuery('#slider_5437').owlCarousel({
                 items : 1,
-                smartSpeed : 300,
                 autoplay : true,
                 autoplayTimeout : 4000,
                 smartSpeed : 300,
@@ -410,143 +398,20 @@
             });
         });
     </script>
-    <script async src='<?=SITE_TEMPLATE_PATH?>/libs/owl-carousel/owl.carousel.min.js'></script>
+    <? $asset->addJs(SITE_TEMPLATE_PATH . '/libs/owl-carousel/owl.carousel.min.js'); ?>
 <? } ?>
 
-<? if($APPLICATION->GetCurPage(false) != '/'  and
-      $APPLICATION->GetCurPage(false) != '/kalkulyator-stoimosti-sajtov/' and
-      $APPLICATION->GetCurPage(false) != '/contacts/' and
-      $APPLICATION->GetCurPage(false) != '/kontekstnaya-reklama/'and
-      $APPLICATION->GetCurPage(false) != '/seo/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/checklist/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/brif/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/o-produkte/' and
-      $APPLICATION->GetCurPage(false) != '/rekr/' and
-      $APPLICATION->GetCurPage(false) != '/chat-bot/' and
-      $APPLICATION->GetCurPage(false) != '/seo-page/'){ ?>
-    <script async type='text/javascript' src='<?=SITE_TEMPLATE_PATH?>/libs/chart/chartist.min.js'></script>
-    <script async type='text/javascript' src='<?=SITE_TEMPLATE_PATH?>/libs/chart/chartist-plugin-tooltip.min.js'></script>
-    <script async type="text/javascript" src="<?=SITE_TEMPLATE_PATH?>/libs/chart/charrrt.js"></script>
-    <script async src="<?=SITE_TEMPLATE_PATH?>/js/jquery.tm-pb-simple-slider.js"></script>
-    <script async src="<?=SITE_TEMPLATE_PATH?>/js/js_block.js"></script>
-    <script async src="<?=SITE_TEMPLATE_PATH?>/js/scripts.js"></script>
-<? } ?>
-
-<? if($APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/'){ ?>
-    <script async src='<?=SITE_TEMPLATE_PATH?>/libs/owl-carousel/owl.carousel.min.js'></script>
-<? } ?>
-
-<? if($APPLICATION->GetCurPage(false) != '/' and
-      $APPLICATION->GetCurPage(false) != '/calc/' and
-      $APPLICATION->GetCurPage(false) != '/kalkulyator-stoimosti-sajtov/' and
-      $APPLICATION->GetCurPage(false) != '/contacts/' and
-      $APPLICATION->GetCurPage(false) != '/kontekstnaya-reklama/'and
-      $APPLICATION->GetCurPage(false) != '/seo/' and
-      $APPLICATION->GetCurPage(false) != '/rekr/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/checklist/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/brif/' and
-      $APPLICATION->GetCurPage(false) != '/amocrm/o-produkte/' and
-      $APPLICATION->GetCurPage(false) != '/chat-bot/' and
-      $APPLICATION->GetCurPage(false) != '/seo-page/'){ ?>
-    <script async src="<?=SITE_TEMPLATE_PATH?>/js/common.js"></script>
-    <script type='text/javascript'>
-        lazyload();
-    </script>
-<? } ?>
-
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-71801643-15"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-71801643-15');
-</script>
-
-<? if($APPLICATION->GetCurPage(false) === '/' or
-      $APPLICATION->GetCurPage(false) === '/calc/' or
-      $APPLICATION->GetCurPage(false) === '/kalkulyator-stoimosti-sajtov/' or
-      $APPLICATION->GetCurPage(false) === '/contacts/' or
-      $APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/' or
-      $APPLICATION->GetCurPage(false) === '/reviews/' or
-      $APPLICATION->GetCurPage(false) === '/seo/' or
-      $APPLICATION->GetCurPage(false) === '/amocrm/' or
-      $APPLICATION->GetCurPage(false) === '/amocrm/checklist/' or
-      $APPLICATION->GetCurPage(false) === '/amocrm/brif/' or
-      $APPLICATION->GetCurPage(false) === '/amocrm/o-produkte/' or
-      $APPLICATION->GetCurPage(false) === '/chat-bot/' or
-      $APPLICATION->GetCurPage(false) === '/seo-page/'){ ?>
-    <script async src='/local/templates/new_design/js/scri.js'></script>
-<? } ?>
-
-<div style="display:none;">
-    <div itemscope="" itemtype="http://schema.org/Organization">
-        <span itemprop="name">LapkinLAb</span>
-        Контакты:
-        <div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
-            Адрес: <span itemprop="streetAddress">Ленинская Слобода, д. 26</span> <span itemprop="postalCode"> 115280</span> <span itemprop="addressLocality">Москва</span>,
-        </div>
-        Телефон:<span itemprop="telephone">8 (800) 301-00-19</span>, Электронная почта: <span itemprop="email">mail@lapkinlab.ru</span>
-    </div>
-</div>
-
-<script>
-    (function(w, d, s, h, id) {
-        w.roistatProjectId = id; w.roistatHost = h;
-        var p = d.location.protocol == "https:" ? "https://" : "http://";
-        var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init";
-        var js = d.createElement(s); js.charset="UTF-8"; js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
-    })(window, document, 'script', 'cloud.roistat.com', 'e15a222f8520098c4edb39b3c778f3d0');
-</script>
-
-<!--<script>-->
-<!--        (function(w,d,u){-->
-<!--                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);-->
-<!--                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);-->
-<!--        })(window,document,'https://cdn.bitrix24.ru/b8927137/crm/site_button/loader_2_dt8ie7.js');-->
-<!--</script>-->
-<script async type="text/javascript" src="//cdn.callbackhunter.com/cbh.js?hunter_code=d2a52b897791ef4220f5e04952280447" charset="UTF-8"></script>
-
-<script async src="<?= SITE_TEMPLATE_PATH ?>/js/block-price.js"></script>
-
-<!-- Facebook Pixel Code -->
-<script>
-    !function(f,b,e,v,n,t,s)
-    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
-        n.callMethod.apply(n,arguments):n.queue.push(arguments)};
-        if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
-        n.queue=[];t=b.createElement(e);t.async=!0;
-        t.src=v;s=b.getElementsByTagName(e)[0];
-        s.parentNode.insertBefore(t,s)}(window, document,'script',
-        'https://connect.facebook.net/en_US/fbevents.js');
-    fbq('init', '754412144956224');
-    fbq('track', 'PageView');
-</script>
-<noscript><img height="1" width="1" style="display:none"
-               src="https://www.facebook.com/tr?id=754412144956224&ev=PageView&noscript=1"
-    /></noscript>
-<!-- End Facebook Pixel Code -->
-	<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@12.0.0/dist/lazyload.min.js"></script>
-	<script>
-var lazyLoadInstance = new LazyLoad({
-    elements_selector: ".lazy"
-    // ... more custom settings?
-});
-if (lazyLoadInstance) {
-    lazyLoadInstance.update();
+<?
+if ($APPLICATION->GetCurPage(false) === '/' or
+    $APPLICATION->GetCurPage(false) === '/calc/' or
+    $APPLICATION->GetCurPage(false) === '/seo/'){
+    $asset->addJs('/local/templates/new_design/modul/ionRangeSlider/js/js.js');
 }
-	</script>
+if ($APPLICATION->GetCurPage(false) === '/kalkulyator-stoimosti-sajtov/') {
+    $asset->addJs('/local/templates/new_design/modul/ionRangeSlider/js/js_dev.js');
+}
 
-    <script type="text/javascript">
-        jQuery(function() {
-            jQuery(document).on('submit', function() {
-                fbq('track', 'Lead');
-            });
-        });
-    </script>
+$APPLICATION->IncludeFile(SITE_DIR . 'include/seo.php'); ?>
+
 </body>
 </html>

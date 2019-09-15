@@ -1,5 +1,7 @@
-.menu_logo{
-    margin-top:0;
+* {
+    box-sizing: border-box;
+    font-weight: 300;
+    font-display: auto;
 }
 
 ul {
@@ -7,9 +9,6 @@ ul {
     padding: 0;
     margin: 0;
     list-style: none;
-}
-.nav li{
-    font-family: 'Proxima Nova Rg' !important;
 }
 .news-detail ul li::before {
   content: "\e86c";
@@ -120,7 +119,7 @@ body {
     font-style: normal;
     font-weight: 300;
     font-size: 17px;
-    /*line-height: 1.8;*/
+    line-height: 1.8;
     font-family: 'Didact Gothic', sans-serif;
     letter-spacing: 0px;
     text-align: left;
@@ -1005,18 +1004,18 @@ footer {
 }
 .outer_content_list_item ul li::before,
 .row ul li::before {
-    /*color: #ff3a5f;*/
-    /*content: "\e86c";*/
-    /*position: absolute;*/
-    /*left: 0;*/
-    /*top: 0;*/
-    /*background-color: transparent;*/
-    /*display: inline-block;*/
-    /*font-family: 'Material Icons';*/
-    /*font-weight: 300;*/
-    /*font-style: normal;*/
-    /*font-size: 26px;*/
-    /*line-height: 1;*/
+    color: #ff3a5f;
+    content: "\e86c";
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: transparent;
+    display: inline-block;
+    font-family: 'Material Icons';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 26px;
+    line-height: 1;
 }
 ul.seo-icons > li:before {
     content: " ";
@@ -1723,7 +1722,7 @@ ul.tm_pb_tabs_controls li:before {
 }
 .row ul > li {
     position: relative;
-    /*padding-left: 40px;*/
+    padding-left: 40px;
 }
 .row .pricing-col ul > li {
     padding-left: 10px;
@@ -1806,7 +1805,6 @@ hr {
     padding-bottom: 104px;
 }
 .seo_header_title h1{
-    background-color: none !important;
     font-size: 48px;
     color: #fff;
     margin: 15px 0 40px;
@@ -4122,4 +4120,8 @@ a, a:hover, a:focus, a:visited {
 	.video-reviews-block .video-review {
 		margin-right: 0;
 	}
+}
+
+.wpcf7-form textarea {
+  color: black;
 }

@@ -1,9 +1,9 @@
-jQuery(function() {
-    jQuery('.review-popup').fancybox({
-        openEffect:  'none',
-        closeEffect: 'none',
-        helpers:     {
-            media: {}
-        }
+$(function() {
+    $('.video-popup').fancybox({
+      openEffect  : 'none',
+      closeEffect : 'none',
+      helpers : {
+        media : {}
+      }
     });
 });

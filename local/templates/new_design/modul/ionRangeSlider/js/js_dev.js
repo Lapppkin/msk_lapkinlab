@@ -40,11 +40,11 @@ $(document).ready(function(){
     //     $("#radio-"+i).onchange = e => { alert(e.target.value); };
     // };
 
-    document.getElementById("radio-1").onchange = e => { $("#range1").data("ionRangeSlider").update({"disable": false}); };
-    document.getElementById("radio-2").onchange = e => { $("#range1").data("ionRangeSlider").update({"disable": false}); };
-    document.getElementById("radio-3").onchange = e => { $("#range1").data("ionRangeSlider").update({"disable": false}); };
-    document.getElementById("radio-4").onchange = e => { $("#range1").data("ionRangeSlider").update({"disable": false}); };
-    document.getElementById("radio-5").onchange = e => { $("#range1").data("ionRangeSlider").update({"disable": false}); };
+    document.getElementById("radio-1").onchange = function(e) { $("#range1").data("ionRangeSlider").update({"disable": false}); };
+    document.getElementById("radio-2").onchange = function(e) { $("#range1").data("ionRangeSlider").update({"disable": false}); };
+    document.getElementById("radio-3").onchange = function(e) { $("#range1").data("ionRangeSlider").update({"disable": false}); };
+    document.getElementById("radio-4").onchange = function(e) { $("#range1").data("ionRangeSlider").update({"disable": false}); };
+    document.getElementById("radio-5").onchange = function(e) { $("#range1").data("ionRangeSlider").update({"disable": false}); };
 
 
   //document.getElementById("radio-1").value="";

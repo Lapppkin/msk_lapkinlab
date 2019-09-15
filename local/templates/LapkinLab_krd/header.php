@@ -10,6 +10,25 @@ if (!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED !== true) {
 
 use Bitrix\Main\Page\Asset;
 
+$pages = array(
+    '/',
+    '/kalkulyator-stoimosti-sajtov/',
+    '/calc/',
+    '/contacts/',
+    '/kontekstnaya-reklama/',
+    '/reviews/',
+    '/seo/',
+    '/amocrm/',
+    '/amocrm/checklist/',
+    '/amocrm/brif/',
+    '/amocrm/o-produkte/',
+    '/rekr/',
+    '/chat-bot/',
+    '/seo-page/',
+    '/seo-page/'
+);
+$isPromoPage = !in_array($APPLICATION->GetCurPage(false), $pages, true);
+
 $asset = Asset::getInstance();
 
 $asset->addCss('/local/templates/new_design/css/modal.css');
@@ -54,112 +73,63 @@ IncludeTemplateLangFile(__FILE__);
 <!DOCTYPE html>
 <html lang="ru">
 <head>
+    <meta charset="UTF-8">
     <title><? $APPLICATION->ShowTitle(); ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" href="/favicon.ico" type="image/x-icon">
-    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico"/>
-    <script async
-            defer
-            src="https://use.fontawesome.com/releases/v5.8.2/js/all.js"
-            integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH"
-            crossorigin="anonymous"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="canonical" href="https://msk.lapkinlab.ru<?= $APPLICATION->GetCurPage(false) ?>">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link media="all" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css">
+
+    <?
+    CUtil::InitJSCore();
+    CJSCore::init(['core', 'fx', 'ajax', 'jquery']);
+
+    $asset->addCss('/local/templates/new_design/css/styles.css');
+    $asset->addCss('/local/templates/new_design/css/fontello.css');
+    $asset->addCss('/local/templates/new_design/fonts/fonts.css');
+    $asset->addCss('/local/templates/new_design/css/modal.css');
+    $asset->addCss('/local/templates/new_design/modul/ionRangeSlider/css/css.css');
+    $asset->addCss('/local/templates/new_design/modul/ionRangeSlider/css/ion.rangeSlider.css');
+
+    $asset->addCss(SITE_TEMPLATE_PATH . '/libs/chart/chartist.min.css');
+    $asset->addCss(SITE_TEMPLATE_PATH . '/libs/font-awesome/css/font-awesome.min.css');
+
+    $asset->addCss(SITE_TEMPLATE_PATH . '/css/style.css');
+    $asset->addCss(SITE_TEMPLATE_PATH . '/css/media.css');
+    $asset->addCss(SITE_TEMPLATE_PATH . '/libs/owl-carousel/owl.carousel.css');
+    $asset->addCss(SITE_TEMPLATE_PATH . '/libs/owl-carousel/owl.theme.default.css');
+
+    if ($APPLICATION->GetCurPage(false) === '/kalkulyator-stoimosti-sajtov/') {
+        $asset->addCss('/local/templates/LapkinLab_krd/css/styles_dev.css'); }
+
+    if ($APPLICATION->GetCurPage(false) === '/seo/') {
+        $asset->addCss('/local/templates/LapkinLab_krd/css/styles_seo.css'); }
+
+    if ($APPLICATION->GetCurPage(false) === '/contacts/') {
+        $asset->addCss('/local/templates/LapkinLab_krd/css/styles_contacts.css'); }
+
+    if ($APPLICATION->GetCurPage(false) === '/smm/') {
+        $asset->addCss('/local/templates/LapkinLab_krd/css/main.css'); }
+
+    if ($APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/' || $APPLICATION->GetCurPage(false) === '/seo-page/') {
+        $asset->addCss('/local/templates/LapkinLab_krd/css/styles_ppc.css'); }
+    ?>
+
+    <?/*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i&amp;ver=2.6.0" type="text/css" media="all">*/?>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic:400&amp;subset=latin,cyrillic,cyrillic-ext" type="text/css" media="all">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" type="text/css" media="all">
+    <script async defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>
+
+    <?/*<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>*/?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
     <? $APPLICATION->ShowHead(); ?>
 
-    <link rel="stylesheet"
-          href="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-          crossorigin="anonymous">
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/local/templates/new_design/css/styles.css">
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/local/templates/new_design/css/fontello.css">
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/local/templates/new_design/fonts/fonts.css">
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="/local/templates/new_design/css/modal.css"/>
-    <link media="none"
-          onload="if(media!='all') media='all'"
-          rel="stylesheet"
-          type="text/css"
-          media="screen"
-          href="/local/templates/new_design/modul/ionRangeSlider/css/ion.rangeSlider.css">
-    <link media="none"
-          onload="if(media!='all') media='all'"
-          rel="stylesheet"
-          type="text/css"
-          media="screen"
-          href="/local/templates/new_design/modul/ionRangeSlider/css/ion.rangeSlider.skinFlat.css">
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="/local/templates/new_design/modul/ionRangeSlider/css/css.css">
-    <script src="//code.jquery.com/jquery-1.9.1.js"></script>
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.css">
-    <? if ($APPLICATION->GetCurPage(false) === '/kalkulyator-stoimosti-sajtov/') { ?>
-        <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/bitrix/templates/LapkinLab_krd/css/styles_dev.css">
-    <? } ?>
-
-    <? if ($APPLICATION->GetCurPage(false) === '/seo/') { ?>
-        <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/bitrix/templates/LapkinLab_krd/css/styles_seo.css">
-    <? } ?>
-
-    <? if ($APPLICATION->GetCurPage(false) === '/contacts/') { ?>
-        <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/bitrix/templates/LapkinLab_krd/css/styles_contacts.css">
-    <? } ?>
-
-    <? if ($APPLICATION->GetCurPage(false) === '/smm/') { ?>
-        <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/local/templates/LapkinLab_krd/css/main.css">
-    <? } ?>
-
-    <? if ($APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/' or
-           $APPLICATION->GetCurPage(false) === '/seo-page/') { ?>
-        <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="/bitrix/templates/LapkinLab_krd/css/styles_ppc.css">
-    <? } ?>
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet"
-          id="simple-job-board-google-fonts-css"
-          href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i&amp;ver=2.6.0"
-          type="text/css"
-          media="all">
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet"
-          id="googlefonts-css"
-          href="https://fonts.googleapis.com/css?family=Didact+Gothic:400&amp;subset=latin,cyrillic,cyrillic-ext"
-          type="text/css"
-          media="all">
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-    <link media="none"
-          onload="if(media!='all') media='all'"
-          rel='stylesheet'
-          id='chartist-css'
-          href='<?= SITE_TEMPLATE_PATH ?>/libs/chart/chartist.min.css'
-          type='text/css'
-          media='all'/>
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/ion.rangeSlider.css">
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/ion.rangeSlider.skinFlat.css">
-
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" href="<?= SITE_TEMPLATE_PATH ?>/libs/font-awesome/css/font-awesome.min.css">
-    <link media="none"
-          onload="if(media!='all') media='all'"
-          media="none"
-          onload="if(media!='all') media='all'"
-          rel="stylesheet"
-          type="text/css"
-          media="screen"
-          href="<?= SITE_TEMPLATE_PATH ?>/css/style.css"/>
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/css/media.css"/>
-    <link media="none" onload="if(media!='all') media='all'" rel="canonical" href="https://msk.lapkinlab.ru<?= $APPLICATION->GetCurPage(false) ?>"/>
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.carousel.css"/>
-    <link media="none"
-          onload="if(media!='all') media='all'"
-          media="none"
-          onload="if(media!='all') media='all'"
-          rel="stylesheet"
-          type="text/css"
-          media="screen"
-          href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.theme.default.css"/>
-    <link media="none" onload="if(media!='all') media='all'" rel="stylesheet" type="text/css" media="screen" href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.carousel.css"/>
-    <link media="none"
-          onload="if(media!='all') media='all'"
-          rel="stylesheet"
-          type="text/css"
-          media="screen"
-          href="<?= SITE_TEMPLATE_PATH ?>/libs/owl-carousel/owl.theme.default.css"/>
-
-    <script src="<?= SITE_TEMPLATE_PATH ?>/libs/jquery/jquery-3.3.1.min.js"></script>
-    <script src="<?= SITE_TEMPLATE_PATH; ?>/modul/ionRangeSlider/js/ion.rangeSlider.js"></script>
-    <script async type="text/javascript">window.addEventListener('DOMContentLoaded', function() {
+    <script>
+        window.addEventListener('DOMContentLoaded', function() {
             var ktabsControls = document.querySelectorAll('.ktabs-controls div');
             if (ktabsControls.length > 0) {
                 function removeActiveControl() {
@@ -167,14 +137,12 @@ IncludeTemplateLangFile(__FILE__);
                         ktabsControls[i].classList.remove('active');
                     }
                 }
-
                 function removeActiveContent() {
                     var ktabsContents = document.querySelectorAll('.ktabs-content');
                     for (var i = 0; i < ktabsContents.length; i++) {
                         ktabsContents[i].classList.remove('active');
                     }
                 }
-
                 for (var i = 0; i < ktabsControls.length; i++) {
                     ktabsControls[i].addEventListener('mouseenter', function() {
                         removeActiveControl();
@@ -184,48 +152,30 @@ IncludeTemplateLangFile(__FILE__);
                     });
                 }
             }
-        });</script>
-
-    <!-- Yandex.Metrika counter -->
-    <script type="text/javascript">
-        (function(m, e, t, r, i, k, a) {
-            m[i]   = m[i] || function() {
-                (m[i].a = m[i].a || []).push(arguments);
-            };
-            m[i].l = 1 * new Date();
-            k = e.createElement(t), a = e.getElementsByTagName(t)[0], k.async = 1, k.src = r, a.parentNode.insertBefore(k, a);
-        })
-        (window, document, 'script', 'https://mc.yandex.ru/metrika/tag.js', 'ym');
-
-        ym(45994323, 'init', {
-            clickmap:            true,
-            trackLinks:          true,
-            accurateTrackBounce: true,
-            webvisor:            true,
-            trackHash:           true
         });
     </script>
-    <noscript>
-        <div><img src="https://mc.yandex.ru/watch/45994323" style="position:absolute; left:-9999px;" alt=""/></div>
-    </noscript>
-    <!-- /Yandex.Metrika counter -->
+
 </head>
-<? $APPLICATION->ShowPanel() ?>
+
 <body>
-<? if ($APPLICATION->GetCurPage(false) != '/' and
-       $APPLICATION->GetCurPage(false) != '/calc/' and
-       $APPLICATION->GetCurPage(false) != '/kalkulyator-stoimosti-sajtov/' and
-       $APPLICATION->GetCurPage(false) != '/contacts/' and
-       $APPLICATION->GetCurPage(false) != '/kontekstnaya-reklama/' and
-       $APPLICATION->GetCurPage(false) != '/reviews/' and
-       $APPLICATION->GetCurPage(false) != '/seo/' and
-       $APPLICATION->GetCurPage(false) != '/amocrm/' and
-       $APPLICATION->GetCurPage(false) != '/amocrm/checklist/' and
-       $APPLICATION->GetCurPage(false) != '/amocrm/brif/' and
-       $APPLICATION->GetCurPage(false) != '/amocrm/o-produkte/' and
-       $APPLICATION->GetCurPage(false) != '/rekr/' and
-       $APPLICATION->GetCurPage(false) != '/chat-bot/' and
-       $APPLICATION->GetCurPage(false) != '/seo-page/') { ?>
+<? $APPLICATION->ShowPanel() ?>
+
+<!--schema.org-->
+<div hidden>
+    <div itemscope="" itemtype="http://schema.org/Organization">
+        <span itemprop="name">LapkinLAb</span>
+        Контакты:
+        <div itemprop="address" itemscope="" itemtype="http://schema.org/PostalAddress">
+            Адрес:
+            <span itemprop="streetAddress">Ленинская Слобода, д. 26</span>
+            <span itemprop="postalCode">115280</span>
+            <span itemprop="addressLocality">Москва</span>,
+        </div>
+        Телефон: <span itemprop="telephone">8 (800) 301-00-19</span>, Электронная почта: <span itemprop="email">mail@lapkinlab.ru</span>
+    </div>
+</div>
+
+<? if ($isPromoPage) { ?>
     <link rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/css.css">
     <header>
         <div class="top_panel">
@@ -342,5 +292,3 @@ IncludeTemplateLangFile(__FILE__);
         </div>
     </div>
 </section>
-
-

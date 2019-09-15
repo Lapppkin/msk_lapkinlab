@@ -252,3 +252,7 @@
     -moz-osx-font-smoothing: grayscale;
     content:                 attr(data-icon)
 }
+
+.wpcf7-form textarea {
+  color: black;
+}
