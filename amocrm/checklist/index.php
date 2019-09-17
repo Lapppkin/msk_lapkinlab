@@ -434,4 +434,13 @@ $APPLICATION->SetTitle("Чек-лист внедрения amoCRM");
         </div>
     </section>
 
+    <style>
+        .row ul li::before {
+            display: none;
+        }
+        .menu_logo {
+            margin-top: 60px !important;
+        }
+    </style>
+
 <? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

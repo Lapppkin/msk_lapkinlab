@@ -256,3 +256,10 @@
 .wpcf7-form textarea {
   color: black;
 }
+.tabs {
+  user-select: none;
+  cursor: pointer;
+}
+.tabs:hover {
+  color: #fa3a5e;
+}
