@@ -4,7 +4,8 @@ $APPLICATION->SetPageProperty("keywords", "заказать аудит сайт�
 $APPLICATION->SetPageProperty("title", "SEO-аудит сайта | Заказать поисковый аудит сайта в Москве");
 $APPLICATION->SetPageProperty("description", "Профессиональный SEO аудит сайта - цены от 10 000 рублей &#8730; срок от 2 рабочий дней &#8730;. Заказать проведение комплексного поискового СЕО аудита веб-сайта для продвижения в Москве и всей России");
 $APPLICATION->SetTitle("Title");
-?><section class="two">
+?>
+    <section class="two">
 <div class="container">
 	<div class="row">
 		<div class="col-md-12">
@@ -360,7 +361,7 @@ $APPLICATION->SetTitle("Title");
     display: inline-block;
     width: 30px;
     height: 30px;
-    background: url(../assests/kisspng-check-mark.png);
+    background: url("/local/templates/new_design/assests/kisspng-check-mark.png");
     background-repeat: no-repeat;
     background-size: auto;
     background-position-y: bottom;

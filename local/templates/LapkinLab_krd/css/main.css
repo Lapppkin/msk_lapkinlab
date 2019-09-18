@@ -1016,6 +1016,7 @@ footer {
     font-style: normal;
     font-size: 26px;
     line-height: 1;
+    display: none;
 }
 ul.seo-icons > li:before {
     content: " ";

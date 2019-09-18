@@ -25,7 +25,8 @@ $pages = array(
     '/rekr/',
     '/chat-bot/',
     '/seo-page/',
-    '/seo-page/'
+    '/seo-page/',
+    '/privacy-policy/',
 );
 $isPromoPage = !in_array($APPLICATION->GetCurPage(false), $pages, true);
 
@@ -107,13 +108,17 @@ IncludeTemplateLangFile(__FILE__);
     if ($APPLICATION->GetCurPage(false) === '/seo/') {
         $asset->addCss('/local/templates/LapkinLab_krd/css/styles_seo.css'); }
 
-    if ($APPLICATION->GetCurPage(false) === '/contacts/') {
+    if ($APPLICATION->GetCurPage(false) === '/contacts/'
+        || $APPLICATION->GetCurPage(false) === '/privacy-policy/'
+    ) {
         $asset->addCss('/local/templates/LapkinLab_krd/css/styles_contacts.css'); }
 
     if ($APPLICATION->GetCurPage(false) === '/smm/') {
         $asset->addCss('/local/templates/LapkinLab_krd/css/main.css'); }
 
-    if ($APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/' || $APPLICATION->GetCurPage(false) === '/seo-page/') {
+    if ($APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/'
+        || $APPLICATION->GetCurPage(false) === '/seo-page/'
+    ) {
         $asset->addCss('/local/templates/LapkinLab_krd/css/styles_ppc.css'); }
     ?>
 

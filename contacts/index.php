@@ -96,4 +96,6 @@ $APPLICATION->SetTitle("Контакты маркетингового агент
 		</div>
 	</div>
 </div>
- </section> </main><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+ </section>
+</main>
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

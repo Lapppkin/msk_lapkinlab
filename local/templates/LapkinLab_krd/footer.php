@@ -17,7 +17,8 @@ $pages = array(
     '/rekr/',
     '/chat-bot/',
     '/seo-page/',
-    '/seo-page/'
+    '/seo-page/',
+    '/privacy-policy/',
 );
 $isPromoPage = !in_array($APPLICATION->GetCurPage(false), $pages, true);
 
@@ -162,7 +163,7 @@ $asset = Asset::getInstance();
                 </div>
                 <div class="col-md-6">
                     <a href="/amoCRM.jpeg" style="padding-right:10px; padding-top:20px; float: right;" class="fancybox"> <img width="80px" src="/amoCRM_small.jpeg"> </a>
-                    <a href="/documents/Сертификат_Бизнес_Партнера_1с_битрикс.pdf" style="padding-right:10px; padding-top:20px; float: right;"> <img width="100px" src="/local/templates/LapkinLab_krd/images/0021-039-.png"> </a>
+                    <a href="/documents/Sertifikat_Biznes_Partnera_1C_Bitrix.pdf" style="padding-right:10px; padding-top:20px; float: right;"> <img width="100px" src="/local/templates/LapkinLab_krd/images/0021-039-.png"> </a>
                 </div>
             </div>
         </div>

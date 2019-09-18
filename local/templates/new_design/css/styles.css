@@ -7496,7 +7496,7 @@ html {
 .four {
 	padding: 90px 0px;
 	background-color: #000000e6;
-	background-image: url("../assests/bgg.png");
+	background-image: url("/local/templates/new_design/assests/bgg.png");
 	background-repeat: no-repeat;
 	background-size: cover
 }
@@ -7514,7 +7514,7 @@ html {
 .seven {
 	padding: 90px 0px;
 	background-color: #000000e6;
-	background-image: url("../assests/bgg.png");
+	background-image: url("/local/templates/new_design/assests/bgg.png");
 	background-repeat: no-repeat;
 	background-size: cover
 }
@@ -7542,7 +7542,7 @@ html {
 .twel {
 	padding: 90px 0px;
 	background-color: #000000e6;
-	background-image: url("../assests/bgg.png");
+	background-image: url("/local/templates/new_design/assests/bgg.png");
 	background-repeat: no-repeat;
 	background-size: cover
 }
@@ -7832,7 +7832,7 @@ h1 {
 }
 
 .banner#ban1 {
-	background: url("../assests/banner/1.jpg");
+	background: url("/local/templates/new_design/assests/banner/1.jpg");
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position-y: center;
@@ -7840,7 +7840,7 @@ h1 {
 }
 
 .banner#ban2 {
-	background: url("../assests/banner/2.jpg");
+	background: url("/local/templates/new_design/assests/banner/2.jpg");
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position-y: center;
@@ -7848,7 +7848,7 @@ h1 {
 }
 
 .banner#ban3 {
-	background: url("../assests/banner/3.jpg");
+	background: url("/local/templates/new_design/assests/banner/3.jpg");
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position-y: center;
@@ -7856,7 +7856,7 @@ h1 {
 }
 
 .banner#ban4 {
-	background: url("../assests/banner/4.jpg");
+	background: url("/local/templates/new_design/assests/banner/4.jpg");
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position-y: center;
@@ -7887,7 +7887,7 @@ h1 {
 	display: inline-block;
 	width: 30px;
 	height: 30px;
-	background: url("../assests/kisspng-check-mark.png");
+	background: url("/local/templates/new_design/assests/kisspng-check-mark.png");
 	background-repeat: no-repeat;
 	background-size: auto;
 	background-position-y: bottom;
@@ -8141,7 +8141,7 @@ h1 {
 
 .textblomid .icob1 {
 	background-size: contain;
-	background-image: url("../assests/podium2.png");
+	background-image: url("/local/templates/new_design/assests/podium2.png");
 	background-position: top;
 	background-repeat: no-repeat;
 	width: 65px;
@@ -8150,7 +8150,7 @@ h1 {
 
 .textblomid .icob2 {
 	background-size: contain;
-	background-image: url("../assests/checklist.png");
+	background-image: url("/local/templates/new_design/assests/checklist.png");
 	background-position: top;
 	background-repeat: no-repeat;
 	width: 65px;
@@ -8159,7 +8159,7 @@ h1 {
 
 .textblomid .icob3 {
 	background-size: contain;
-	background-image: url("../assests/text.png");
+	background-image: url("/local/templates/new_design/assests/text.png");
 	background-position: top;
 	background-repeat: no-repeat;
 	width: 65px;
@@ -8168,7 +8168,7 @@ h1 {
 
 .textblomid .icob4 {
 	background-size: contain;
-	background-image: url("../assests/bar-chart.png");
+	background-image: url("/local/templates/new_design/assests/bar-chart.png");
 	background-position: top;
 	background-repeat: no-repeat;
 	width: 65px;
@@ -8177,7 +8177,7 @@ h1 {
 
 .textblomid .icob5 {
 	background-size: contain;
-	background-image: url("../assests/www.png");
+	background-image: url("/local/templates/new_design/assests/www.png");
 	background-position: top;
 	background-repeat: no-repeat;
 	width: 65px;
@@ -8186,7 +8186,7 @@ h1 {
 
 .textblomid .icob6 {
 	background-size: contain;
-	background-image: url("../assests/analytics.png");
+	background-image: url("/local/templates/new_design/assests/analytics.png");
 	background-position: top;
 	background-repeat: no-repeat;
 	width: 65px;
@@ -8206,27 +8206,27 @@ h1 {
 }
 
 .textblomid .blt:hover .icob1 {
-	background-image: url("../assests/podium.png")
+	background-image: url("/local/templates/new_design/assests/podium.png")
 }
 
 .textblomid .blt:hover .icob2 {
-	background-image: url("../assests/checklist.png")
+	background-image: url("/local/templates/new_design/assests/checklist.png")
 }
 
 .textblomid .blt:hover .icob3 {
-	background-image: url("../assests/text.png")
+	background-image: url("/local/templates/new_design/assests/text.png")
 }
 
 .textblomid .blt:hover .icob4 {
-	background-image: url("../assests/bar-chart.png")
+	background-image: url("/local/templates/new_design/assests/bar-chart.png")
 }
 
 .textblomid .blt:hover .icob5 {
-	background-image: url("../assests/www.png")
+	background-image: url("/local/templates/new_design/assests/www.png")
 }
 
 .textblomid .blt:hover .icob6 {
-	background-image: url("../assests/analytics.png")
+	background-image: url("/local/templates/new_design/assests/analytics.png")
 }
 
 .textblomid .blt:hover .color {
@@ -8245,11 +8245,11 @@ h1 {
 }
 
 .textblomid .brt:hover .icob1 {
-	background-image: url("../assests/podium.png")
+	background-image: url("/local/templates/new_design/assests/podium.png")
 }
 
 .textblomid .brt:hover .icob2 {
-	background-image: url("../assests/podium.png")
+	background-image: url("/local/templates/new_design/assests/podium.png")
 }
 
 .textblomid .brt:hover .color {
@@ -8733,7 +8733,7 @@ h1 {
 	content: ' ';
 	width: 15px;
 	height: 13px;
-	background: url("../assests/check-mark.png");
+	background: url("/local/templates/new_design/assests/check-mark.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
@@ -9259,7 +9259,7 @@ h1 {
 .footer {
 	padding: 80px 0px;
 	background-color: #000;
-	background-image: url("../assests/bgg.png");
+	background-image: url("/local/templates/new_design/assests/bgg.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	z-index: 100;
@@ -9410,7 +9410,7 @@ h1 {
 	content: " ";
 	width: 32px;
 	height: 30px;
-	background: url("../assests/quotation.png");
+	background: url("/local/templates/new_design/assests/quotation.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
@@ -9559,7 +9559,7 @@ h1 {
 		top: 0
 	}
 	.menu_logo {
-		margin-top: 50px
+		margin-top: 50px;
 	}
 }
 
@@ -10203,7 +10203,7 @@ h1 {
 }
 
 .chb_example {
-	background-image: url(https://msk.lapkinlab.ru/assests/chb/chb-bg.jpg);
+    background-image: url("/local/templates/LapkinLab_krd/assests/chb/chb-bg.jpg");
 	background-repeat: no-repeat;
 	-webkit-background-size: cover;
 	background-size: cover;
@@ -10257,7 +10257,7 @@ h1 {
 }
 
 .chb_example .txt ul li .case_icn {
-	background: url(https://msk.lapkinlab.ru/assests/chb/star.png);
+	background: url("/local/templates/LapkinLab_krd/assests/chb/star.png");
 	-webkit-background-size: contain;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -10328,7 +10328,7 @@ h1 {
 	content: "";
 	width: 16px;
 	height: 15px;
-	background: url(https://msk.lapkinlab.ru/assests/chb/chb-check-mark.png);
+	background: url("/local/templates/LapkinLab_krd/assests/chb/chb-check-mark.png");
 	display: block;
 	position: absolute;
 	left: -26px;
@@ -10426,13 +10426,13 @@ h1 {
 	cursor: pointer;
 	height: 34px;
 	background-repeat: no-repeat;
-	background: url(https://msk.lapkinlab.ru/assests/chb/plus2.png);
+	background: url("/local/templates/LapkinLab_krd/assests/chb/plus2.png");
 	-webkit-background-size: contain;
 	background-size: contain;
 }
 
 .ask_n_question .ask_item .view_question_btn .active {
-	background: url(https://msk.lapkinlab.ru/assests/chb/minus2.png);
+	background: url("/local/templates/LapkinLab_krd/assests/chb/minus2.png");
 	-webkit-background-size: contain;
 	background-size: contain;
 }
