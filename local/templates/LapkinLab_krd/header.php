@@ -122,7 +122,6 @@ IncludeTemplateLangFile(__FILE__);
         $asset->addCss('/local/templates/LapkinLab_krd/css/styles_ppc.css'); }
     ?>
 
-    <?/*<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100i%2C300%2C300i%2C400%2C400i%2C500%2C500i%2C700%2C700i%2C900%2C900i&amp;ver=2.6.0" type="text/css" media="all">*/?>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Didact+Gothic:400&amp;subset=latin,cyrillic,cyrillic-ext" type="text/css" media="all">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" type="text/css" media="all">
     <script async defer src="https://use.fontawesome.com/releases/v5.8.2/js/all.js" integrity="sha384-DJ25uNYET2XCl5ZF++U8eNxPWqcKohUUBUpKGlNLMchM7q4Wjg2CUpjHLaL8yYPH" crossorigin="anonymous"></script>

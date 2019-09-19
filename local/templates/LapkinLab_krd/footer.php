@@ -41,12 +41,12 @@ $asset = Asset::getInstance();
                     </aside>
                     <aside class="widget widget_nav_menu">
                         <ul id="menu-footer-menu-custom" class="menu">
-                            <li><a href="/seo">SEO</a></li>
-                            <li><a href="/smm">SMM</a></li>
-                            <li><a href="/kontekstnaya-reklama">Контекстная реклама</a></li>
-                            <li><a href="/kalkulyator-stoimosti-sajtov">Разработка сайтов</a></li>
-                            <li><a href="/telegram">Telegram</a></li>
-                            <li><a href="/novosti">Блог</a></li>
+                            <li><a href="/seo/">SEO</a></li>
+                            <li><a href="/smm/">SMM</a></li>
+                            <li><a href="/kontekstnaya-reklama/">Контекстная реклама</a></li>
+                            <li><a href="/kalkulyator-stoimosti-sajtov/">Разработка сайтов</a></li>
+                            <li><a href="/telegram/">Telegram</a></li>
+                            <li><a href="/novosti/">Блог</a></li>
                             <li class="menu-item menu-item-type-post_type"><a href="/contacts">Контакты</a></li>
                         </ul>
                     </aside>
@@ -66,7 +66,7 @@ $asset = Asset::getInstance();
                                 <input type="submit" id="submit_footer" value="Подписаться" style="-webkit-appearance: none;">
                             </div>
                             <div class="check">
-                                <input type="checkbox" name="acceptance-check" value="1" required=""> <label>Я принимаю <a href="/privacy-policy" target="_blank">условия передачи информации</a></label>
+                                <input type="checkbox" name="acceptance-check" value="1" required=""> <label>Я принимаю <a href="/privacy-policy/" target="_blank">условия передачи информации</a></label>
                             </div>
                         </form>
                     </aside>

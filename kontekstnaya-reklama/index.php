@@ -991,7 +991,7 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                             <p><span class="wpcf7-form-control-wrap acceptance-check">
 													<input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span>
                                 <label style="float: left;padding-bottom: 10px;">Я принимаю <a style="color: #fff; text-decoration:underline;"
-                                                                                               href="/privacy-policy"
+                                                                                               href="/privacy-policy/"
                                                                                                target="_blank">условия передачи информации</a></label>
                             </p>
                             <p class="widget_text">
@@ -1375,7 +1375,7 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                     </div>
                     <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
                     <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js"></script>
-                    <script src="/bitrix/templates/LapkinLab_krd/js/video-fancy.js"></script>
+                    <script src="/local/templates/LapkinLab_krd/js/video-fancy.js"></script>
                 </div>
             </div>
         </section>
@@ -1492,10 +1492,10 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                                 <div style="width: 100%; height: 20px; clear: both">
                                 </div>
                                 <div class="col-md-8 imgkeq">
-                                    <img src="/bitrix/templates/LapkinLab_krd/assests/sk21.png" style="height: 280px;">
+                                    <img src="/local/templates/LapkinLab_krd/assests/sk21.png" style="height: 280px;">
                                 </div>
                                 <div class="col-md-4 imgkeq">
-                                    <img src="/bitrix/templates/LapkinLab_krd/assests/sk22.png">
+                                    <img src="/local/templates/LapkinLab_krd/assests/sk22.png">
                                 </div>
                                 <div style="width: 100%; height: 20px; clear: both">
                                 </div>
@@ -1531,10 +1531,10 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                                 <div style="width: 100%; height: 20px; clear: both">
                                 </div>
                                 <div class="col-md-8 imgkeq">
-                                    <img src="/bitrix/templates/LapkinLab_krd/assests/sk31.png" style="height: 280px;">
+                                    <img src="/local/templates/LapkinLab_krd/assests/sk31.png" style="height: 280px;">
                                 </div>
                                 <div class="col-md-4 imgkeq">
-                                    <img src="/bitrix/templates/LapkinLab_krd/assests/sk32.png">
+                                    <img src="/local/templates/LapkinLab_krd/assests/sk32.png">
                                 </div>
                                 <div style="width: 100%; height: 20px; clear: both">
                                 </div>

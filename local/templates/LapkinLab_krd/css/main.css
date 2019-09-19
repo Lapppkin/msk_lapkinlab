@@ -4126,3 +4126,8 @@ a, a:hover, a:focus, a:visited {
 .wpcf7-form textarea {
   color: black;
 }
+
+.error-404 .page-content {
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
