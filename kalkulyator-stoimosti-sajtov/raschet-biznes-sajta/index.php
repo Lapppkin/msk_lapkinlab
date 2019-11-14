@@ -272,8 +272,8 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимос
                                          required="required" value="0">
 	<p style="display:none;"><input type="text" name="name" value=""></p>
                                     <span>Я принимаю
-                                        <a class="hover_line" href="/privacy-policy" target="_blank">условия передачи
-                                            информации</a>
+                                        <!--noindex--><a class="hover_line" href="/privacy-policy" target="_blank" rel="nofollow">условия передачи
+                                            информации</a><!--/noindex-->
                                     </span>
                                 </label>
                             </div>

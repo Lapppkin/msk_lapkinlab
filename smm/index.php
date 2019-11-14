@@ -89,7 +89,7 @@ $APPLICATION->SetTitle("SMM продвижение в Москве: СММ ра�
                                    value="1"
                                    class="wpcf7-form-control wpcf7-acceptance"
                                    required=""
-                                   aria-invalid="false"> <label for="acceptance-check">Я принимаю <a href="/privacy-policy" target="_blank">условия передачи информации</a> </label>
+                                   aria-invalid="false"> <label for="acceptance-check">Я принимаю <!--noindex--><a href="/privacy-policy" target="_blank" rel="nofollow">условия передачи информации</a><!--/noindex--> </label>
                             <input type="submit" value="Оставить заявку на анализ аккаунта за 99 рублей" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"> </span>
                         </p>
                     </form>

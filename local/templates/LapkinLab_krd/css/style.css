@@ -256,10 +256,41 @@
 .wpcf7-form textarea {
   color: black;
 }
+
 .tabs {
   user-select: none;
   cursor: pointer;
 }
+
 .tabs:hover {
   color: #fa3a5e;
+}
+
+.other-prices {
+  display: none;
+}
+
+div.graphic {
+  overflow-y: auto;
+}
+
+.footer_top_wrapper {
+  flex-wrap: wrap;
+}
+
+.news-detail > h1 {
+  margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  section.menu_logo ul.nav li {
+    max-height: 40px;
+    line-height: initial;
+  }
+  section.menu_logo ul.nav {
+    display: flex !important;
+    flex-wrap: wrap;
+    line-height: initial;
+    height: initial;
+  }
 }

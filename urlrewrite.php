@@ -10,7 +10,7 @@ $arUrlRewrite=array (
   ),
   15 => 
   array (
-    'CONDITION' => '#^/novosti/([0-9a-zA-Z_-]+).html?(.+)#',
+    'CONDITION' => '#^/novosti/([0-9a-zA-Z_-]+)?(.+)#',
     'RULE' => 'ELEMENT_CODE=$1',
     'ID' => '',
     'PATH' => '/novosti/element/index.php',

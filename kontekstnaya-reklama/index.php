@@ -14,13 +14,20 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
             font-weight:     bold;
             text-align:      center;
             position:        fixed;
-            right:           30px;
-            bottom:          190px;
+            left: 15px;
+            bottom: 20px;
             background:      #fa3a5e;
             color:           #fff;
             border-radius:   15px;
             padding:         10px;
             z-index:         9990;
+        }
+        @media (max-width: 360px) {
+            #but_calc {
+                width: 200px;
+                align-items: center;
+                display: flex;
+            }
         }
 
         #but_calc span {
@@ -33,6 +40,15 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
         #but_calc:hover span {
             display: block !important;
         }
+        .footer_top_wrapper {
+            flex-wrap: wrap;
+        }
+        section.menu_logo {
+            ul.nav {
+                flex-wrap: wrap;
+            }
+        }
+
     </style>
 
     <main role="main">
@@ -990,9 +1006,9 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                             </div>
                             <p><span class="wpcf7-form-control-wrap acceptance-check">
 													<input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span>
-                                <label style="float: left;padding-bottom: 10px;">Я принимаю <a style="color: #fff; text-decoration:underline;"
+                                <label style="float: left;padding-bottom: 10px;">Я принимаю <!--noindex--><a style="color: #fff; text-decoration:underline;"
                                                                                                href="/privacy-policy/"
-                                                                                               target="_blank">условия передачи информации</a></label>
+                                                                                               target="_blank">условия передачи информации</a><!--/noindex--></label>
                             </p>
                             <p class="widget_text">
                                 <input type="submit" value="Заказать" class="wpcf7-form-control tm_pb_button wpcf7-submit" onclick="ym(45994323, 'reachGoal', 'zak'); return true;"><span

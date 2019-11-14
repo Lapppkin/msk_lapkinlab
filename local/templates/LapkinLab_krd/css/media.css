@@ -62,7 +62,55 @@
 }
 
 @media only screen and (max-width: 768px) {
-    section.price .container > div.right-block > div > div.list-of-work {
+
+  section.price {}
+  section.price > .container {
+    flex-wrap: wrap;
+  }
+
+  section.price .other-prices {
+    width: 100%;
+    display: flex;
+    color: #fa3a5e;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 16px;
+  }
+  section.price .other-prices:hover {
+    color: white;
+    cursor: pointer;
+  }
+
+  section.price .left-block {
+    width: 100%;
+    flex-basis: 100%;
+  }
+
+  section.price .container > div.right-block {
+    visibility: hidden;
+    height: 0;
+  }
+
+  section.price .right-block {
+    width: 100%;
+    flex-basis: 100%;
+  }
+  section.price .right-block .first-block,
+  section.price .right-block .second-block {
+    width: 50% !important;
+  }
+  section.price .right-block .first-block .desc-price,
+  section.price .right-block .second-block .desc-price {
+    font-size: 13px;
+  }
+
+
+  section.price .container .price-title {
+
+  }
+
+  section.price .container > div.right-block > div > div.list-of-work {
         padding-top: 125px;
     }
 
@@ -633,7 +681,6 @@
 
     .calculation_list_item > div {
         flex-wrap:       wrap;
-        padding:         0;
         align-items:     center;
         justify-content: center;
         padding:         0 20px;

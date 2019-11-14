@@ -638,7 +638,7 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                                                     </p>
                                                     <div style="width:100%; height: 25px; clear: both;">
                                                     </div>
-                                                    <p><span class="wpcf7-form-control-wrap acceptance-check"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label style="float: left;padding-bottom: 10px;">Я принимаю <a style="color: #fff; text-decoration:underline;" href="/privacy-policy" target="_blank">условия передачи информации</a></label></p>
+                                                    <p><span class="wpcf7-form-control-wrap acceptance-check"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label style="float: left;padding-bottom: 10px;">Я принимаю <!--noindex--><a style="color: #fff; text-decoration:underline;" href="/privacy-policy" target="_blank">условия передачи информации</a><!--/noindex--></label></p>
                                                     <p class="widget_text">
                                                         <input type="submit" value="Заказать" class="wpcf7-form-control tm_pb_button wpcf7-submit" onclick="ym(45994323, 'reachGoal', 'kalkulrash'); return true;"><span class="ajax-loader"></span>
                                                     </p>
@@ -1115,7 +1115,7 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                     <p><label> Ваш сайт (обязательно)<br>
                         </label></p><p style="display:none;"><input type="text" name="name" value=""></p>
                     <span class="wpcf7-form-control-wrap your-site"><input type="text" name="your-site" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> <p></p>
-                    <p><span class="wpcf7-form-control-wrap acceptance-check"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label>Я принимаю <a href="/privacy-policy" target="_blank">условия передачи информации</a></label></p>
+                    <p><span class="wpcf7-form-control-wrap acceptance-check"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label>Я принимаю <!--noindex--><a href="/privacy-policy" target="_blank">условия передачи информации</a><!--/noindex--></label></p>
                     <p><input type="submit" id="form_btn" value="Заказать" class="widget_text wpcf7-form-control wpcf7-submit"></p>
                     <div class="wpcf7-response-output wpcf7-display-none"></div>
                 </form>

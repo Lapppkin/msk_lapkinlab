@@ -22,6 +22,7 @@ $APPLICATION->SetTitle("Блог маркетингового агентства
         }
     </style>
     <main>
+
         <div class="breadcrumbs">
             <div class="container_v2">
                 <div class="breadcrumbs__items">
@@ -45,6 +46,7 @@ $APPLICATION->SetTitle("Блог маркетингового агентства
                 <div class="clear"></div>
             </div>
         </div>
+
         <section class="news_layout">
             <div class="container_v2">
                 <h1> Новости </h1><Br>

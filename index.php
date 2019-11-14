@@ -399,6 +399,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                     <div class="price-text">30 000 руб.</div>
                 </div>
             </div>
+            <div class="other-prices">▼ &nbsp; Показать другие тарифы &nbsp; ▼</div>
             <div class="right-block">
                 <div class="formobile">
                     <div id="main-composition">
@@ -996,6 +997,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
             </div>
         </div>
     </section>
+    */ ?>
 
     <section class="tenthre">
         <div class="container">

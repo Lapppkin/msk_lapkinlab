@@ -194,7 +194,7 @@ $APPLICATION->SetTitle("Title");
                                                   </div>
 												  <p><span class="wpcf7-form-control-wrap acceptance-check">
 													<input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span>
-													<label style="float: left;padding-bottom: 10px;">пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ <a style="color: #fff; text-decoration:underline;" href="/privacy-policy" target="_blank">пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a></label>
+													<label style="float: left;padding-bottom: 10px;">пїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ <!--noindex--><a style="color: #fff; text-decoration:underline;" href="/privacy-policy" target="_blank" rel="nofollow">пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ</a><!--/noindex--></label>
 												  </p>
                                                   <p class="widget_text">
                                      				<input type="submit" value="пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ" class="wpcf7-form-control tm_pb_button wpcf7-submit" onclick="ym(45994323, 'reachGoal', 'kalkulrash'); return true;"><span class="ajax-loader"></span>

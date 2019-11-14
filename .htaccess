@@ -16,8 +16,8 @@ ErrorDocument 404 /404.php
   Options +FollowSymLinks
   RewriteEngine On
 
-RewriteRule ^index.html$ / [R=301,L]
-RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
+#RewriteRule ^index.html$ / [R=301,L]
+#RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.php\ HTTP/
 RewriteRule ^index\.php$ https://msk.lapkinlab.ru/$1 [R=301,L]
 RewriteCond %{REQUEST_URI} ^(.*)/index\.php$
 

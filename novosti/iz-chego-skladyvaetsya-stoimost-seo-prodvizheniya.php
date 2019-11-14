@@ -1,4 +1,9 @@
 <?
+
+/**
+ * @var $APPLICATION
+ */
+
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetPageProperty("keywords", "блог lablinlab, новости интернет-маркетинга");
 $APPLICATION->SetPageProperty("title", "Блог маркетингового агентства LapkinLAb: новости и статьи");
@@ -10,24 +15,21 @@ $APPLICATION->SetTitle("Как формируется стоимость SEO п�
         .news_layout_list figure {
             height: unset !important;
         }
-
         .news_layout_list figure img {
             max-height: 300px;
         }
-
         div.news-detail img.detail_picture {
             float:  left;
             margin: 0 8px 6px 1px;
         }
-
         .news-date-time {
             padding-top: 2px;
-            color:       #486DAA;
+            color: #486DAA;
         }
-
     </style>
+
     <section class="news_layout1">
-        <div class="container_v2" style=" padding: 30px !important; margin: 0 auto;">
+        <div class="container">
 
             <div class="news-detail" style="display:grid;">
 
@@ -357,7 +359,7 @@ $APPLICATION->SetTitle("Как формируется стоимость SEO п�
 
                 <div style="clear:both"></div>
 
-                <p><a href="<? echo $arResult["LIST_PAGE_URL"]; ?>"><?= GetMessage("NEWS_BACK_TEXT") ?></a></p>
+                <p><a href="<?= $arResult["LIST_PAGE_URL"]; ?>"><?= GetMessage("NEWS_BACK_TEXT") ?></a></p>
             </div>
         </div>
     </section>

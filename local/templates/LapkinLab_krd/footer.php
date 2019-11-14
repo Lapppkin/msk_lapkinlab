@@ -66,7 +66,7 @@ $asset = Asset::getInstance();
                                 <input type="submit" id="submit_footer" value="Подписаться" style="-webkit-appearance: none;">
                             </div>
                             <div class="check">
-                                <input type="checkbox" name="acceptance-check" value="1" required=""> <label>Я принимаю <a href="/privacy-policy/" target="_blank">условия передачи информации</a></label>
+                                <input type="checkbox" name="acceptance-check" value="1" required=""> <label>Я принимаю <a href="/privacy-policy/" target="_blank" rel="nofollow">условия передачи информации</a></label>
                             </div>
                         </form>
                     </aside>
@@ -80,7 +80,9 @@ $asset = Asset::getInstance();
                         <p>
                             © 2015 - 2019 Все права защищены. LapkinLAb
                         </p>
-                        <a href="/privacy-policy/">Политика в отношении обработки персональных данных</a>
+                        <!--noindex-->
+                        <a href="/privacy-policy/" rel="nofollow" target="_blank">Политика в отношении обработки персональных данных</a>
+                        <!--/noindex-->
                     </div>
                     <div>
                         <!--               <a href="/image/Сертификат_Бизнес_Партнера_1с_битрикс.pdf" style="padding-right:10px;"> -->
@@ -158,7 +160,9 @@ $asset = Asset::getInstance();
                         <p>
                             © 2015 - 2019 Все права защищены. LapkinLAb
                         </p>
-                        <a href="/privacy-policy/">Политика в отношении обработки персональных данных</a>
+                        <!--noindex-->
+                        <a href="/privacy-policy/" rel="nofollow" target="_blank">Политика в отношении обработки персональных данных</a>
+                        <!--/noindex-->
                     </div>
                 </div>
                 <div class="col-md-6">
@@ -207,7 +211,7 @@ $asset = Asset::getInstance();
                 <p>
                 </p>
                 <p>
-                    <span class="wpcf7-form-control-wrap acceptance-check"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label>Я принимаю <a href="/privacy-policy/" target="_blank">условия передачи информации</a></label>
+                    <span class="wpcf7-form-control-wrap acceptance-check"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label>Я принимаю <!--noindex--><a href="/privacy-policy/" target="_blank">условия передачи информации</a><!--/noindex--></label>
                 </p>
                 <p>
                     <input type="submit" id="form_btn" value="Заказать" class="widget_text wpcf7-form-control wpcf7-submit">
@@ -264,7 +268,7 @@ $asset = Asset::getInstance();
                         <span class="wpcf7-form-control-wrap your-phone"><input type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> </label><br>
                 </p>
                 <p>
-                    <span class="wpcf7-form-control-wrap acceptance-check" style="float: left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label style="float: left;font-size: 16px;color: #fff; padding: 0px;width: unset !important;clear: unset;">Я принимаю <a href="/privacy-policy/" target="_blank" style="background: #fff;">условия передачи информации</a></label>
+                    <span class="wpcf7-form-control-wrap acceptance-check" style="float: left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label style="float: left;font-size: 16px;color: #fff; padding: 0px;width: unset !important;clear: unset;">Я принимаю <!--noindex--><a href="/privacy-policy/" target="_blank" style="background: #fff;">условия передачи информации</a><!--/noindex--></label>
                 </p>
                 <br>
                 &nbsp;<br>
@@ -308,7 +312,7 @@ $asset = Asset::getInstance();
                         <span class="wpcf7-form-control-wrap your-phone"><input type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> </label><br>
                 </p>
                 <p>
-                    <span class="wpcf7-form-control-wrap acceptance-check" style="float: left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label style="float: left;font-size: 16px;color: #fff; padding: 0px;width: unset !important;clear: unset;">Я принимаю <a href="/privacy-policy/" target="_blank" style="background: #fff;">условия передачи информации</a></label>
+                    <span class="wpcf7-form-control-wrap acceptance-check" style="float: left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label style="float: left;font-size: 16px;color: #fff; padding: 0px;width: unset !important;clear: unset;">Я принимаю <!--noindex--><a href="/privacy-policy/" target="_blank" style="background: #fff;">условия передачи информации</a><!--/noindex--></label>
                 </p>
                 <br>
                 &nbsp;<br>
@@ -359,6 +363,14 @@ $asset = Asset::getInstance();
 <script>
     var lazyLoadInstance = new LazyLoad({elements_selector: '.lazy'});
     if (lazyLoadInstance) { lazyLoadInstance.update(); }
+    $(document).ready(function () {
+        $(document).on('click', 'section.price .other-prices', function () {
+            $(this).next('section.price .right-block').css({
+                visibility: 'visible',
+                height: 'auto'
+            });
+        });
+    });
 </script>
 
 <a style="bottom: 110px; right: 10px; position: fixed; z-index: 150; transition-duration: .2s;" class="rocket1" href="#"><img src="/upload/medialibrary/685/Rocket2.png" style="width: 70px;"></a>

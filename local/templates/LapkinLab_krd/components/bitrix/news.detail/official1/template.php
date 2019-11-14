@@ -14,8 +14,16 @@
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
+<style>
+    @media (max-width: 768px) {
+        section.news_layout1 .news-detail {
+            display:flex; flex-wrap:wrap;
+        }
+    }
+</style>
+
 <section class="news_layout1">
-    <div class="container_v2" style=" padding: 30px !important; margin: 0 auto;">
+    <div class="container_v2" style="padding: 30px !important; margin: 0 auto;">
 
         <div class="news-detail" style="display:grid;">
 

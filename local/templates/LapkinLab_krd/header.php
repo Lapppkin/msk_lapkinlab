@@ -231,12 +231,12 @@ IncludeTemplateLangFile(__FILE__);
                 <div class="col-sm-12 col-md-6">
                     <div class="row">
                         <div class="col-sm-12 col-md-6 textlogo">
-                            <i><img src="/local/templates/new_design/assests/pin.png"></i>
+                            <i><img src="/local/templates/new_design/assests/pin.png" alt="LapkinLab"></i>
                             <c id="blo11">Ваш город: Москва</c>
                             <div class="newb cgjfjgkf1"><a href="/">Москва</a><br><a href="https://lapkinlab.ru/">Краснодар</a></div>
                         </div>
                         <div class="col-sm-12 col-md-6 textphone">
-                            <i><img src="/local/templates/new_design/assests/call.png"></i> <a class="roistat-phone" href="tel:88003010019">8 (800) 301-00-19</a>
+                            <i><img src="/local/templates/new_design/assests/call.png" alt="LapkinLab"></i> <a class="roistat-phone" href="tel:88003010019">8 (800) 301-00-19</a>
                         </div>
                     </div>
                 </div>
@@ -262,7 +262,7 @@ IncludeTemplateLangFile(__FILE__);
     <div class="container">
         <div class="row">
             <div class="col-md-3 logo">
-                <a href="/"><img src="/local/templates/new_design/assests/logo-new2.png"></a>
+                <a href="/"><img src="/local/templates/new_design/assests/logo-new2.png" alt="LapkinLab"></a>
                 <span>Профессиональное поисковое продвижение, создание сайтов и реклама</span>
             </div>
             <div class="col-md-9">

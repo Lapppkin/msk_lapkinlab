@@ -199,7 +199,7 @@ $APPLICATION->SetTitle("Раскрутка Телеграм канала: зак
  <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" required=""></span> </label>
 				</p>
 				<p>
- <span style="float:left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label>Я принимаю <a href="/privacy-policy" target="_blank">условия передачи информации</a></label>
+ <span style="float:left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label>Я принимаю <!--noindex--><a href="/privacy-policy" target="_blank" rel="nofollow">условия передачи информации</a><!--/noindex--></label>
 				</p>
 			</form>
 		</div>
