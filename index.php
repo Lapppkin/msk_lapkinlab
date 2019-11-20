@@ -396,7 +396,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                 </div>
                 <div class="block-button">
                     <a href="#win1" class="button-business" role="button">Заказать услугу</a>
-                    <div class="price-text">30 000 руб.</div>
+                    <div class="price-text">от 30 000 руб.</div>
                 </div>
             </div>
             <div class="other-prices">▼ &nbsp; Показать другие тарифы &nbsp; ▼</div>
@@ -504,7 +504,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                                  src="https://www.optimism.ru/local/templates/optimism/img/arrowdown_white.svg"
                                  class="arrow-down" id="arrow2">
                         </div>
-                        <div class="price-text-other">15 000 руб.</div>
+                        <div class="price-text-other">от 15 000 руб.</div>
                         <a href="#win1" class="button-business" role="button">Выбрать</a>
                     </div>
                 </div>
@@ -557,7 +557,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                                  src="https://www.optimism.ru/local/templates/optimism/img/arrowdown_white.svg"
                                  class="arrow-down" id="arrow3">
                         </div>
-                        <div class="price-text-other">45 000 руб.</div>
+                        <div class="price-text-other">от 45 000 руб.</div>
                         <a href="#win1" class="button-business" role="button">Выбрать</a>
                     </div>
                 </div>

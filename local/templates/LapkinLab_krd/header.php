@@ -24,8 +24,7 @@ $pages = array(
     '/amocrm/o-produkte/',
     '/rekr/',
     '/chat-bot/',
-    '/seo-page/',
-    '/seo-page/',
+    '/seo/',
     '/privacy-policy/',
 );
 $isPromoPage = !in_array($APPLICATION->GetCurPage(false), $pages, true);
@@ -44,8 +43,8 @@ $briefTypeLinkMap = [
     'amo'     => 'https://docs.google.com/forms/d/e/1FAIpQLSfTqL6tOA92Y3SRrYWDoJ7wWNHEr-DFMXv6YWUgaY6DhBRmkw/viewform',
 ];
 $briefPageTypeMap = [
-    '/'         => 'seo',
-    '/seo-page' => 'seo',
+    '/' => 'seo',
+    '/seo' => 'seo',
 
     '/kalkulyator-stoimosti-sajtov' => 'dev',
     '/chat-bot'                     => 'dev',
@@ -117,7 +116,7 @@ IncludeTemplateLangFile(__FILE__);
         $asset->addCss('/local/templates/LapkinLab_krd/css/main.css'); }
 
     if ($APPLICATION->GetCurPage(false) === '/kontekstnaya-reklama/'
-        || $APPLICATION->GetCurPage(false) === '/seo-page/'
+        || $APPLICATION->GetCurPage(false) === '/seo/'
     ) {
         $asset->addCss('/local/templates/LapkinLab_krd/css/styles_ppc.css'); }
     ?>
@@ -231,12 +230,12 @@ IncludeTemplateLangFile(__FILE__);
                 <div class="col-sm-12 col-md-6">
                     <div class="row">
                         <div class="col-sm-12 col-md-6 textlogo">
-                            <i><img src="/local/templates/new_design/assests/pin.png" alt="LapkinLab"></i>
+                            <i><img src="/local/templates/new_design/assests/pin.png" alt="Lapkinlab - Продвижение сайтов"></i>
                             <c id="blo11">Ваш город: Москва</c>
                             <div class="newb cgjfjgkf1"><a href="/">Москва</a><br><a href="https://lapkinlab.ru/">Краснодар</a></div>
                         </div>
                         <div class="col-sm-12 col-md-6 textphone">
-                            <i><img src="/local/templates/new_design/assests/call.png" alt="LapkinLab"></i> <a class="roistat-phone" href="tel:88003010019">8 (800) 301-00-19</a>
+                            <i><img src="/local/templates/new_design/assests/call.png" alt="Lapkinlab - Продвижение сайтов"></i> <a class="roistat-phone" href="tel:88003010019">8 (800) 301-00-19</a>
                         </div>
                     </div>
                 </div>
@@ -262,7 +261,7 @@ IncludeTemplateLangFile(__FILE__);
     <div class="container">
         <div class="row">
             <div class="col-md-3 logo">
-                <a href="/"><img src="/local/templates/new_design/assests/logo-new2.png" alt="LapkinLab"></a>
+                <a href="/"><img src="/local/templates/new_design/assests/logo-new2.png" alt="Lapkinlab - Продвижение сайтов"></a>
                 <span>Профессиональное поисковое продвижение, создание сайтов и реклама</span>
             </div>
             <div class="col-md-9">

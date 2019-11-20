@@ -64,7 +64,7 @@
                 <ul class="nav_mobi">
                     <li class="active"><a href="/seo/">Продвижение&nbsp;</a><i class="caret-down"></i>
                         <ul class="navffff">
-                            <li><a href="/seo-page/">SEO аудит</a></li>
+                            <li><a href="/seo/">SEO аудит</a></li>
                         </ul>
                     </li>
                     <li><a href="/kontekstnaya-reklama/">Контекстная реклама</a></li>

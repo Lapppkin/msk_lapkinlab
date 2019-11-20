@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("Расчет создания мини-лендинга:
                                 </div>
                             </div>
                             <div class="breadcrumbs__item">
-								<a href="/kalkulyator-stoimosti-sajtov" class="breadcrumbs__item-link"
+								<a href="/kalkulyator-stoimosti-sajtov/" class="breadcrumbs__item-link"
                                     rel="tag" title="Калькулятор стоимости сайтов">Калькулятор стоимости сайтов</a>
                             </div>
                             <div class="breadcrumbs__item">
@@ -227,7 +227,7 @@ $APPLICATION->SetTitle("Расчет создания мини-лендинга:
                                          required="required" value="0">
 	<p style="display:none;"><input type="text" name="name" value=""></p>
                                     <span>Я принимаю
-                                        <!--noindex--><a class="hover_line" href="/privacy-policy" target="_blank" rel="nofollow">условия передачи
+                                        <!--noindex--><a class="hover_line" href="/privacy-policy/" target="_blank" rel="nofollow">условия передачи
                                             информации</a><!--/noindex-->
                                     </span>
                                 </label>

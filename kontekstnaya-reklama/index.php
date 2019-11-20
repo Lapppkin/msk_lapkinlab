@@ -1008,7 +1008,7 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
 													<input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span>
                                 <label style="float: left;padding-bottom: 10px;">Я принимаю <!--noindex--><a style="color: #fff; text-decoration:underline;"
                                                                                                href="/privacy-policy/"
-                                                                                               target="_blank">условия передачи информации</a><!--/noindex--></label>
+                                                                                               target="_blank" rel="nofollow">условия передачи информации</a><!--/noindex--></label>
                             </p>
                             <p class="widget_text">
                                 <input type="submit" value="Заказать" class="wpcf7-form-control tm_pb_button wpcf7-submit" onclick="ym(45994323, 'reachGoal', 'zak'); return true;"><span

@@ -16,8 +16,7 @@ $pages = array(
     '/amocrm/o-produkte/',
     '/rekr/',
     '/chat-bot/',
-    '/seo-page/',
-    '/seo-page/',
+    '/seo/',
     '/privacy-policy/',
 );
 $isPromoPage = !in_array($APPLICATION->GetCurPage(false), $pages, true);
@@ -34,7 +33,7 @@ $asset = Asset::getInstance();
             <div class="container_v2">
                 <div class="footer_top_wrapper">
                     <aside class="widget widget_logo">
-                        <a href="/"> <img alt="LapkinLAb" src="/local/templates/LapkinLab_krd/images/logo-new-350x158.png"> </a>
+                        <a href="/"> <img alt="Lapkinlab - Продвижение сайтов" src="/local/templates/LapkinLab_krd/images/logo-new-350x158.png"> </a>
                         <p>
                             Профессиональное поисковое продвижение и реклама
                         </p>
@@ -47,7 +46,7 @@ $asset = Asset::getInstance();
                             <li><a href="/kalkulyator-stoimosti-sajtov/">Разработка сайтов</a></li>
                             <li><a href="/telegram/">Telegram</a></li>
                             <li><a href="/novosti/">Блог</a></li>
-                            <li class="menu-item menu-item-type-post_type"><a href="/contacts">Контакты</a></li>
+                            <li class="menu-item menu-item-type-post_type"><a href="/contacts/">Контакты</a></li>
                         </ul>
                     </aside>
                     <aside class="widget widget_text">
@@ -113,7 +112,7 @@ $asset = Asset::getInstance();
                             Услуги
                         </p>
                         <ul>
-                            <li><a href="/seo-page/">Seo продвижение</a></li>
+                            <li><a href="/seo/">Seo продвижение</a></li>
                             <li><a href="/kalkulyator-stoimosti-sajtov/">Создание сайтов</a></li>
                             <li><a href="/kontekstnaya-reklama/">Контекстная реклама</a></li>
                             <li><a href="/smm/">SMM продвижение</a></li>
@@ -211,7 +210,7 @@ $asset = Asset::getInstance();
                 <p>
                 </p>
                 <p>
-                    <span class="wpcf7-form-control-wrap acceptance-check"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label>Я принимаю <!--noindex--><a href="/privacy-policy/" target="_blank">условия передачи информации</a><!--/noindex--></label>
+                    <span class="wpcf7-form-control-wrap acceptance-check"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label>Я принимаю <!--noindex--><a href="/privacy-policy/" target="_blank" rel="nofollow">условия передачи информации</a><!--/noindex--></label>
                 </p>
                 <p>
                     <input type="submit" id="form_btn" value="Заказать" class="widget_text wpcf7-form-control wpcf7-submit">
@@ -268,7 +267,7 @@ $asset = Asset::getInstance();
                         <span class="wpcf7-form-control-wrap your-phone"><input type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> </label><br>
                 </p>
                 <p>
-                    <span class="wpcf7-form-control-wrap acceptance-check" style="float: left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label style="float: left;font-size: 16px;color: #fff; padding: 0px;width: unset !important;clear: unset;">Я принимаю <!--noindex--><a href="/privacy-policy/" target="_blank" style="background: #fff;">условия передачи информации</a><!--/noindex--></label>
+                    <span class="wpcf7-form-control-wrap acceptance-check" style="float: left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label style="float: left;font-size: 16px;color: #fff; padding: 0px;width: unset !important;clear: unset;">Я принимаю <!--noindex--><a href="/privacy-policy/" target="_blank" style="background: #fff;" rel="nofollow">условия передачи информации</a><!--/noindex--></label>
                 </p>
                 <br>
                 &nbsp;<br>
@@ -312,7 +311,7 @@ $asset = Asset::getInstance();
                         <span class="wpcf7-form-control-wrap your-phone"><input type="text" name="your-phone" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-validates-as-required" required=""></span> </label><br>
                 </p>
                 <p>
-                    <span class="wpcf7-form-control-wrap acceptance-check" style="float: left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label style="float: left;font-size: 16px;color: #fff; padding: 0px;width: unset !important;clear: unset;">Я принимаю <!--noindex--><a href="/privacy-policy/" target="_blank" style="background: #fff;">условия передачи информации</a><!--/noindex--></label>
+                    <span class="wpcf7-form-control-wrap acceptance-check" style="float: left;"><input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""></span><label style="float: left;font-size: 16px;color: #fff; padding: 0px;width: unset !important;clear: unset;">Я принимаю <!--noindex--><a href="/privacy-policy/" target="_blank" style="background: #fff;" rel="nofollow">условия передачи информации</a><!--/noindex--></label>
                 </p>
                 <br>
                 &nbsp;<br>

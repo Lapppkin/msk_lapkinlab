@@ -456,7 +456,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 				<p>
 				</p>
 				<p class="form_link">
- <input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""><label>Я принимаю <a href="/privacy-policy" target="_blank" rel="nofollow">условия передачи информации</a></label>
+ <input type="checkbox" name="acceptance-check" value="1" class="wpcf7-form-control wpcf7-acceptance" required=""><label>Я принимаю <a href="/privacy-policy/" target="_blank" rel="nofollow">условия передачи информации</a></label>
 				</p>
 			</form>
 		</div>
