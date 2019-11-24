@@ -183,6 +183,7 @@ $APPLICATION->SetTitle("Раскрутка Телеграм канала: зак
 	<div class="kontekst-form">
 		<div role="form" class="wpcf7" id="wpcf7-f5755-p5742-o1" lang="ru-RU" dir="ltr">
 			<form action="/mail_post.php" method="post" class="wpcf7-form">
+                <input type="hidden" name="formname" value="Разработка чат-бота Телеграм">
 				<div style="display: none;">
  <input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
 				</div>

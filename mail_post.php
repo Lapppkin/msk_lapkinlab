@@ -13,6 +13,7 @@ class RequestHelper
     public $email;
     public $site;
     public $messages;
+    public $form_name;
     public $url;
     public $ip;
     public $datetime;
@@ -28,6 +29,7 @@ class RequestHelper
         $this->email    = \trim($_POST['your-email']) ? : '';
         $this->site     = \trim($_POST['your-site']) ? : '';
         $this->messages = \trim($_POST['your-message']) ? : '';
+        $this->form_name = \trim($_POST['formname']) ? : '';
         $this->url      = \trim($_POST['url']);
 
         $client  = @$_SERVER['HTTP_CLIENT_IP'];
@@ -67,6 +69,7 @@ class RequestHelper
                 8  => $this->messages,
                 9  => $this->ip,
                 10 => $this->url,
+                11 => $this->form_name,
             ],
         ];
 
@@ -92,6 +95,7 @@ class RequestHelper
 
     <body>
         <p>Заявка с сайта «msk.lapkinlab.ru»</p>
+        <p>Форма: {$this->form_name}</p>
 
         <br>
 
@@ -146,6 +150,7 @@ if (isset($_POST['name']) && $_POST['name'] === '') {
         $email    = \mb_convert_encoding($requestHelper->email, 'utf-8', 'windows-1251');
         $site     = \mb_convert_encoding($requestHelper->site, 'utf-8', 'windows-1251');
         $messages = \mb_convert_encoding($requestHelper->messages, 'utf-8', 'windows-1251');
+        $form_name = \mb_convert_encoding($requestHelper->formname, 'utf-8', 'windows-1251');
 
         $contact                    = $amo->contact;
         $contact['name']            = $name;

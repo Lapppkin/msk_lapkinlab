@@ -379,6 +379,7 @@ $APPLICATION->SetTitle("Чек-лист внедрения amoCRM");
                 </br>
 
                 <form id="audit" method="post" action="/mail_post.php">
+                    <input type="hidden" name="formname" value="AmoCRM">
                     <div class="form">
                         <div>
                             <span class="form-title black">Нет времени и желания разбираться?</span></br>

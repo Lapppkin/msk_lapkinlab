@@ -71,6 +71,7 @@ $APPLICATION->SetTitle("Контакты маркетингового агент
 		</div>
 		<div class="col-md-12 fomrbut">
 			<form action="/mail_post.php" method="post">
+                <input type="hidden" name="formname" value="Контакты">
 				<div class="col-md-4">
  <input type="text" name="your-name" placeholder="Ваше имя" required="">
 				</div>

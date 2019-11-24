@@ -24,6 +24,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                 </div>
                 <div class="col-md-4">
                     <form class="form_banner" action="/mail_post.php" method="post">
+                        <input type="hidden" name="formname" value="Оптимизация сайта">
                         <div class="form_titile">
                             Выявим проблемы<br>
                             с оптимизацией сайта
@@ -31,6 +32,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                         <input type="text" name="your-site" placeholder="Сайт" value="" required="">
                         <input type="text" name="your-phone" placeholder="Телефон" value="" required="">
                         <input type="text" name="your-email" placeholder="Почта" value="" required="">
+                        <input type="hidden" name="formname" value="Выявим проблемы с оптимизацией сайта">
                         <p style="display:none;"><input type="text" name="name" value=""></p>
                         <button type="submit" name="button" value="Проверить сайт" onclick="ym(45994323, 'reachGoal', 'push'); return true;">Проверить сайт</button>
                         Нажимая на кнопку Проверить сайт, я даю согласие на обработку персональных данных
@@ -57,6 +59,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                 </div>
                 <div class="col-md-4">
                     <form class="form_banner" action="/mail_post.php" method="post">
+                        <input type="hidden" name="formname" value="Оптимизация сайта">
                         <div class="form_titile">
                             Выявим проблемы<br>
                             с оптимизацией сайта
@@ -88,6 +91,7 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
                 </div>
                 <div class="col-md-4">
                     <form class="form_banner" action="/mail_post.php" method="post">
+                        <input type="hidden" name="formname" value="Оптимизация сайта">
                         <div class="form_titile">
                             Выявим проблемы<br>
                             с оптимизацией сайта

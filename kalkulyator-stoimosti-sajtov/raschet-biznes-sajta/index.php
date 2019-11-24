@@ -46,6 +46,7 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимос
                 <div class="calculator">
                     
                         	<form action="/mail_post.php" method="post" class="wpcf7-form">
+                                <input type="hidden" name="formname" value="Расчет бизнес-сайта">
 							<div style="display: none;">
 							<input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
 							</div>

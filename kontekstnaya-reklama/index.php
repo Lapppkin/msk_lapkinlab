@@ -70,6 +70,7 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                     </div>
                     <div class="col-md-4">
                         <form class="form_banner" action="/mail_post.php" method="post">
+                            <input type="hidden" name="formname" value="Настройка контекстной рекламы">
                             <div class="form_titile">
                                 Подбор оптимальной стратегии для Вашей контекстной рекламы
                             </div>
@@ -958,6 +959,7 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                     <div class="tm_pb_column tm_pb_column_1_2 tm_pb_column_1 col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
                         <p style="font-size: 24px; margin: 10px 0  10px 0;">Оставьте ваши контактные данные для связи:</p>
                         <form action="/mail_post.php" method="post" class="wpcf7-form">
+                            <input type="hidden" name="formname" value="Контекстная реклама">
                             <div style="display: none;">
                                 <input type="hidden" name="url" value="/calc/">
                             </div>
@@ -1580,6 +1582,7 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                     </div>
                     <div class="col-md-12 fomrbut">
                         <form action="/mail_post.php" method="post">
+                            <input type="hidden" name="formname" value="Контекстная реклама">
                             <div class="col-md-4">
                                 <input type="text" name="your-name" placeholder="Ваше имя" required="">
                             </div>

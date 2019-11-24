@@ -753,6 +753,7 @@ $APPLICATION->SetTitle("amoCRM");
                 </div>
                 <div class="col-md-12">
                     <form action="/mail_post.php" method="post" class="form" id="form2">
+                        <input type="hidden" name="formname" value="AmoCRM">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-xl-4 col-sm-12">

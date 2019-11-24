@@ -28,6 +28,7 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                     </div>
                     <div class="col-md-4">
                         <form class="form_banner" action="//msk.lapkinlab.ru/mail_post.php" method="post">
+                            <input type="hidden" name="formname" value="Создание сайта под ключ">
                             <div class="form_titile">
                                 Узнать стоимость<br> разработки
                             </div>
@@ -1007,6 +1008,7 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
 
                     <div class="col-md-12 fomrbut">
                         <form action="/mail_post.php" method="post">
+                            <input type="hidden" name="formname" value="Калькулятор стоимости сайтов">
                             <div class="col-md-4"><input type="text" name="your-name" placeholder="Ваше имя" required=""></div>
                             <div class="col-md-4"><input type="text" name="your-phone" placeholder="Телефон" required=""></div>
                             <div class="col-md-4"><input type="text" name="your-email" placeholder="Почта" required=""></div>

@@ -192,12 +192,14 @@ $APPLICATION->SetTitle("Как формируется стоимость SEO п�
 
                 <p class="black">В итоге: из SEO-бюджета расходуется примерно 5&nbsp;000 рублей.</p>
                 <form id="audit" method="post" action="/mail_post.php">
+                    <input type="hidden" name="formname" value="SEO-аудит">
                     <div class="form">
                         <div>
                             <span class="form-title black">Проведем бесплатный аудит и сэкономим ваши деньги</span></br>
                             <span>Покажем ошибки сайта и укажем точки роста</span>
                         </div>
                         <div>
+                            <input type="hidden" name="formname" value="Проведем бесплатный аудит и сэкономим ваши деньги">
                             <input type="hidden" name="name" placeholder="">
 
                             <input type="text" name="your-name" required placeholder="Ваше имя">

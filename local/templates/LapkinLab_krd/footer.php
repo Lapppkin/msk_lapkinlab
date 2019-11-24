@@ -54,6 +54,7 @@ $asset = Asset::getInstance();
                             Подписка на новости
                         </p>
                         <form action="/mail_post.php" method="post" class="wpcf7-form">
+                            <input type="hidden" name="formname" value="Подписка на новости">
                             <div style="display: none;">
                                 <input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
                             </div>
@@ -181,6 +182,7 @@ $asset = Asset::getInstance();
             <div class="screen-reader-response">
             </div>
             <form action="/mail_post.php" method="post" class="wpcf7-form" id="form000" onsubmit="ym(45994323, 'reachGoal', 'zakazat'); return true;">
+                <input type="hidden" name="formname" value="Заказ аудита">
                 <div style="display: none;">
                     <input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
                 </div>
@@ -255,6 +257,7 @@ $asset = Asset::getInstance();
             <div class="screen-reader-response">
             </div>
             <form action="/mail_post.php" method="post" class="wpcf7-form">
+                <input type="hidden" name="formname" value="Аудит сайта">
                 <div style="display: none;">
                     <input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
                 </div>
@@ -299,6 +302,7 @@ $asset = Asset::getInstance();
             <div class="screen-reader-response">
             </div>
             <form action="/mail_post.php" method="post" class="wpcf7-form">
+                <input type="hidden" name="formname" value="Аудит сайта">
                 <div style="display: none;">
                     <input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
                 </div>

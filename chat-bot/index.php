@@ -19,6 +19,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-md-4">
 			<form class="form_banner" action="/mail_post.php" method="post">
+                <input type="hidden" name="formname" value="Разработка и внедрение чат-ботов">
 				<div class="form_titile">
 					 Получить бесплатную<br>
 					 консультацию
@@ -586,6 +587,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-md-4">
 			<form class="form_banner" action="/mail_post.php" method="post">
+                <input type="hidden" name="formname" value="Разработка и внедрение чат-ботов">
 				<div class="form_titile">
 					 Получить бесплатную<br>
 					 консультацию
@@ -753,6 +755,7 @@ $APPLICATION->SetTitle("Разработка и внедрение чат-бот
 		</div>
 		<div class="col-md-12 fomrbut">
 			<form action="/mail_post.php" method="post">
+                <input type="hidden" name="formname" value="Разработка чат-бота">
 				<div class="col-md-4">
  <input type="text" name="your-name" placeholder="Ваше имя" required="">
 				</div>

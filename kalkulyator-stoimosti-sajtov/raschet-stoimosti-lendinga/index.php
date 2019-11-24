@@ -45,6 +45,7 @@ $APPLICATION->SetTitle("Создание сайта-лендинга: стоим
                 <h1>Расчет стоимости создания лендинга</h1>
                 <div class="calculator">
                         	<form action="/mail_post.php" method="post" class="wpcf7-form">
+                                <input type="hidden" name="formname" value="Создание лендинга">
 							<div style="display: none;">
 							<input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
 							</div>
