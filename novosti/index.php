@@ -1,6 +1,5 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetPageProperty("keywords", "блог lablinlab, новости интернет-маркетинга");
 $APPLICATION->SetPageProperty("title", "Блог маркетингового агентства LapkinLAb: новости и статьи");
 $APPLICATION->SetPageProperty("description", "Ознакомиться с актуальными новостями и полезными статьями в сфере интернет-продвижения можно на сайте маркетингового агентства LapkinLAb");
 $APPLICATION->SetTitle("Блог маркетингового агентства LapkinLAb: новости и статьи");
