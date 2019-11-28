@@ -88,7 +88,7 @@ class RequestHelper
         $message = <<<HTML
 <html>
     <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=windows-1251" />
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
         <title>Заявка с сайта «msk.lapkinlab.ru»</title>
     </head>
@@ -116,7 +116,7 @@ HTML;
 
         $headers = <<<HEADERS
 MIME-Version: 1.0
-Content-type: text/html; charset=windows-1251
+Content-type: text/html; charset=utf-8
 From: msk.lapkinlab.ru <mail@lapkinlab.ru>
 HEADERS;
 
@@ -140,17 +140,17 @@ if (isset($_POST['name']) && $_POST['name'] === '') {
         $amo = new \AmoCRM\Client($requestHelper->amoSubdomain, $requestHelper->amoLogin, $requestHelper->amoApiKey);
 
         $lead                        = $amo->lead;
-        $lead['name']                = \mb_convert_encoding('Заказ звонка с сайта «msk.lapkinlab.ru»', 'utf-8', 'windows-1251');
+        $lead['name']                = 'Заказ звонка с сайта «msk.lapkinlab.ru»';
         $lead['responsible_user_id'] = 3369325;
 
         $id = $lead->apiAdd();
 
-        $name     = \mb_convert_encoding($requestHelper->name, 'utf-8', 'windows-1251');
-        $phone    = \mb_convert_encoding($requestHelper->phone, 'utf-8', 'windows-1251');
-        $email    = \mb_convert_encoding($requestHelper->email, 'utf-8', 'windows-1251');
-        $site     = \mb_convert_encoding($requestHelper->site, 'utf-8', 'windows-1251');
-        $messages = \mb_convert_encoding($requestHelper->messages, 'utf-8', 'windows-1251');
-        $form_name = \mb_convert_encoding($requestHelper->formname, 'utf-8', 'windows-1251');
+        $name     = $requestHelper->name;
+        $phone    = $requestHelper->phone;
+        $email    = $requestHelper->email;
+        $site     = $requestHelper->site;
+        $messages = $requestHelper->messages;
+        $form_name = $requestHelper->formname;
 
         $contact                    = $amo->contact;
         $contact['name']            = $name;
@@ -160,6 +160,7 @@ if (isset($_POST['name']) && $_POST['name'] === '') {
         $contact->addCustomField(78451, [[$site]]);
         $contact->addCustomField(53923, [[$email, 'PRIV']]);
         $contact->addCustomField(89745, [[$messages]]);
+		$contact->addCustomField(370537, [[$form_name, 'FORM_NAME']]);
 
         $contact->apiAdd();
     } catch (\AmoCRM\Exception $e) {
