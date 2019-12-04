@@ -938,9 +938,13 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                             <div class="row">
                                 <div class="col-sm-12 col-md-12">
                                     <div id="tm_builder_outer_content" class="tm_builder_outer_content" style="text-align: center; padding: 0px;">
-                                        <a class="tm_pb_button hover-green" id="trigger-fill" href="https://docs.google.com/forms/d/e/1FAIpQLSdC5EtZkU86l1V2pIsEAXUigf6ZH_98BTB823rmgW7d0M_lmQ/viewform" target="_blank">Заполнить
-                                            бриф</a><br class="br-mob"><br class="br-mob"><br class="br-mob"><br class="br-mob">
-                                        <a class="tm_pb_button hover-green" id="trigger-get" onclick="ym(45994323, 'reachGoal', 'poluchit'); return true;">Получить расчет</a>
+                                        <p>
+                                            <a class="tm_pb_button hover-green" id="trigger-fill" href="https://docs.google.com/forms/d/e/1FAIpQLSdC5EtZkU86l1V2pIsEAXUigf6ZH_98BTB823rmgW7d0M_lmQ/viewform" target="_blank" style="display:inline-block;margin:0;">Заполнить
+                                            бриф</a>
+                                        </p>
+                                        <p>
+                                            <a class="tm_pb_button hover-green" id="trigger-get" onclick="ym(45994323, 'reachGoal', 'poluchit'); return true;" style="display:inline-block;margin:0;">Получить расчет</a>
+                                        </p>
                                     </div>
                                 </div>
                             </div>
@@ -953,7 +957,7 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
 
         <section id="box"
                  class="four2"
-                 style="display:none;color:#fff; background-color: #000000e6;background-image: url('<?= SITE_TEMPLATE_PATH . '/assests/bgg.png' ?>);background-repeat: no-repeat;background-size: cover;">
+                 style="display:none;color:#fff; background-color: #000000e6;background-image: url('<?= SITE_TEMPLATE_PATH . '/assests/bgg.png' ?>);background-repeat: no-repeat;background-size: cover; padding-bottom: 40px;">
             <div class="container">
                 <div class="row tm_pb_row tm_pb_row_1">
                     <div class="tm_pb_column tm_pb_column_1_2 tm_pb_column_1 col-xs-12 col-sm-6 col-md-6 col-lg-6 col-xl-6">
