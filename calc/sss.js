@@ -390,7 +390,14 @@ $(document).ready(function(){
             $("#result_itogo6").html(number_format(itogo_all.toFixed(), 2, ',', ' '));
 			   		document.getElementById("foocalc").value+="\nИтого: "+number_format(itogo_all.toFixed(), 2, ',', ' ');
 
-			$("#box").fadeIn(); return false;
+			$("#box").fadeIn();
+
+            window.scrollTo({
+                top: $('#box')[0].offsetTop,
+                behavior: 'smooth'
+            });
+
+			return false;
 	});
 	
 });
