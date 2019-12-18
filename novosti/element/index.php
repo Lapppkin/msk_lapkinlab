@@ -1,6 +1,8 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Title");
+$APPLICATION->SetPageProperty("description", "Статья о новом алгоритме от Яндекс");
+$APPLICATION->SetPageProperty("title", "Обновление алгоритма Яндекса для подбора рекомендованных запросов");
+$APPLICATION->SetTitle("Яндекс обновил алгоритм подбора рекомендованных запросов");
 ?>
 <?$APPLICATION->IncludeComponent(
 	"bitrix:news.detail", 

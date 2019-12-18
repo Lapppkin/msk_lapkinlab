@@ -1,53 +1,55 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"Продвижение", 
-		"/", 
-		Array(), 
-		Array("active"=>"current-menu-item"), 
-		"" 
+		"Продвижение",
+		"/",
+		Array(),
+		Array(
+		    "active" => "current-menu-item"
+        ),
+		""
 	),
 	Array(
-		"Контекстная реклама", 
-		"/kontekstnaya-reklama/", 
-		Array(), 
-		Array(), 
-		"" 
+		"Контекстная реклама",
+		"/kontekstnaya-reklama/",
+		Array(),
+		Array(),
+		""
 	),
 	Array(
-		"Разработка сайтов", 
-		"/kalkulyator-stoimosti-sajtov/", 
-		Array(), 
-		Array(), 
-		"" 
+		"Разработка сайтов",
+		"/kalkulyator-stoimosti-sajtov/",
+		Array(),
+		Array(),
+		""
 	),
 	Array(
-		"Телеграм", 
-		"/chat-bot/", 
-		Array(), 
-		Array(), 
-		"" 
+		"Телеграм",
+		"/chat-bot/",
+		Array(),
+		Array(),
+		""
 	),
 	Array(
-		"amoCRM", 
-		"/amocrm/", 
-		Array(), 
-		Array(), 
-		"" 
+		"amoCRM",
+		"/amocrm/",
+		Array(),
+		Array(),
+		""
 	),
 	Array(
-		"Блог", 
-		"/novosti/", 
-		Array(), 
-		Array(), 
-		"" 
+		"Блог",
+		"/novosti/",
+		Array(),
+		Array(),
+		""
 	),
 	Array(
-		"Контакты", 
-		"/contacts/", 
-		Array(), 
-		Array(), 
-		"" 
+		"Контакты",
+		"/contacts/",
+		Array(),
+		Array(),
+		""
 	)
 );
 ?>

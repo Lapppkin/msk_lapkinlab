@@ -968,7 +968,7 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
                         </div>
                     </div>
                     <script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.6/jquery.fancybox.min.js"></script>
-                    <script src="/bitrix/templates/LapkinLab_krd/js/video-fancy.js"></script>
+                    <?/*<script src="/bitrix/templates/LapkinLab_krd/js/video-fancy.js"></script>*/?>
                 </div></div></section>
 
         <section class="two sro">

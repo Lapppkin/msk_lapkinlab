@@ -183,7 +183,7 @@ IncludeTemplateLangFile(__FILE__);
 </div>
 
 <? if ($isPromoPage) { ?>
-    <link rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/css.css">
+    <?/*<link rel="stylesheet" type="text/css" media="screen" href="/modul/ionRangeSlider/css/css.css">*/?>
     <header>
         <div class="top_panel">
             <div class="container_v2">

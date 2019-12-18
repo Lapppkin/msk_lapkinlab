@@ -211,7 +211,7 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                     </div>
                     <div class="col-sm-12 col-md-4 blo">
                         <div class="tit">
-                            Ремаркетинг YouYube
+                            Ремаркетинг YouTube
                         </div>
                         <div class="tet">
                             от 4 000 руб.
@@ -581,36 +581,36 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                         <div class="fdfdf">
                             <ul>
                                 <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/minus.png' ?>"> Аудит сайта\лэндинга</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Настройка рекламных кампаний в Яндекс Директ</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание поисковых рекламных кампаний в Яндекс.Директ</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание рекламных кампаний в РСЯ</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание Графических рекламных кампаний в РСЯ</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание Ретаргетинговых рекламных кампаний в Яндекс.Директ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Настройка рекламных кампаний в Яндекс Директ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание поисковых рекламных кампаний в Яндекс.Директ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание рекламных кампаний в РСЯ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание Графических рекламных кампаний в РСЯ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание Ретаргетинговых рекламных кампаний в Яндекс.Директ</li>
                                 <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/minus.png' ?>"> Создание кампаний Google Adwords – поисковое размещение</li>
                                 <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/minus.png' ?>"> Создание кампаний Google Adwords для КМС</li>
                                 <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/minus.png' ?>"> Графические рекламные кампании в КМС</li>
                                 <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/minus.png' ?>"> Создание ремаркетинговых кампаний Google Adwords</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Установка Яндекс.Метрики</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Установка Яндекс.Метрики</li>
                                 <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/minus.png' ?>"> Установка Google Analytics + Google Tag Manager</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Настройка базовых целей в Я.Метрике</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Настройка базовых целей в Я.Метрике</li>
                                 <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/minus.png' ?>"> Настройка чата с автоматическими приветствиями</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Запуск первой кампании 3-5 дней</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Ведение (при необходимости) <br><b>10 000
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Запуск первой кампании 3-5 дней</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Ведение (при необходимости) <br><b>10 000
                                         руб/месяц</b></li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Корректировка файла стоп-слов (минусация) на основе данных Яндекс.Метрики</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Переработка текстов объявлений с целью повышения CTR</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Управление ставками в зависимости от сезона/необходимости в трафике с той или иной РК
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Корректировка файла стоп-слов (минусация) на основе данных Яндекс.Метрики</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Переработка текстов объявлений с целью повышения CTR</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Управление ставками в зависимости от сезона/необходимости в трафике с той или иной РК
                                 </li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Настройка корректировок РК, по данным Яндекс.Метрики/Google Analytics, с целью
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Настройка корректировок РК, по данным Яндекс.Метрики/Google Analytics, с целью
                                     увеличение качества привлекаемой аудитории
                                 </li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Контроль доступности Вашего сайта</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Настройка/корректировка целей в Яндекс.Метрики/Google Analytics, при необходимости</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Отключение/доработка неэффективных объявлений</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Разработка рекомендаций по повышению качества посадочных страниц</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Контроль доступности Вашего сайта</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Настройка/корректировка целей в Яндекс.Метрики/Google Analytics, при необходимости</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Отключение/доработка неэффективных объявлений</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Разработка рекомендаций по повышению качества посадочных страниц</li>
                                 <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/minus.png' ?>"> Подключение колл-трекинга</li>
                                 <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/minus.png' ?>"> Подключение и настройка сквозной аналитики Roistat</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Итоговый отчет</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Итоговый отчет</li>
                             </ul>
                         </div>
                         <div class="tet2">
@@ -629,37 +629,37 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                         </div>
                         <div class="fdfdf">
                             <ul>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Аудит сайта\лэндинга</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Настройка рекламных кампаний в Яндекс Директ</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание поисковых рекламных кампаний в Яндекс.Директ</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание рекламных кампаний в РСЯ</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание Графических рекламных кампаний в РСЯ</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание Ретаргетинговых рекламных кампаний в Яндекс.Директ</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание кампаний Google Adwords – поисковое размещение</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание кампаний Google Adwords для КМС</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Графические рекламные кампании в КМС</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание ремаркетинговых кампаний Google Adwords</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Установка Яндекс.Метрики</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Установка Google Analytics + Google Tag Manager</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Настройка всех необходимых целей в Я.Метрике\Google Analytics</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Настройка чата с автоматическими приветствиями</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Запуск первой кампании 5-7 дней</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Ведение (при необходимости) <br><b>14 000
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Аудит сайта\лэндинга</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Настройка рекламных кампаний в Яндекс Директ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание поисковых рекламных кампаний в Яндекс.Директ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание рекламных кампаний в РСЯ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание Графических рекламных кампаний в РСЯ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание Ретаргетинговых рекламных кампаний в Яндекс.Директ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание кампаний Google Adwords – поисковое размещение</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание кампаний Google Adwords для КМС</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Графические рекламные кампании в КМС</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание ремаркетинговых кампаний Google Adwords</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Установка Яндекс.Метрики</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Установка Google Analytics + Google Tag Manager</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Настройка всех необходимых целей в Я.Метрике\Google Analytics</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Настройка чата с автоматическими приветствиями</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Запуск первой кампании 5-7 дней</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Ведение (при необходимости) <br><b>14 000
                                         руб/месяц</b></li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Корректировка файла стоп-слов (минусация) на основе данных Яндекс.Метрики</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Переработка текстов объявлений с целью повышения CTR</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Управление ставками в зависимости от сезона/необходимости в трафике с той или иной РК
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Корректировка файла стоп-слов (минусация) на основе данных Яндекс.Метрики</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Переработка текстов объявлений с целью повышения CTR</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Управление ставками в зависимости от сезона/необходимости в трафике с той или иной РК
                                 </li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Настройка корректировок РК, по данным Яндекс.Метрики/Google Analytics, с целью
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Настройка корректировок РК, по данным Яндекс.Метрики/Google Analytics, с целью
                                     увеличение качества привлекаемой аудитории
                                 </li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Контроль доступности Вашего сайта</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Настройка/корректировка целей в Яндекс.Метрики/Google Analytics, при необходимости</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Отключение/доработка неэффективных объявлений</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Разработка рекомендаций по повышению качества посадочных страниц</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Контроль доступности Вашего сайта</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Настройка/корректировка целей в Яндекс.Метрики/Google Analytics, при необходимости</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Отключение/доработка неэффективных объявлений</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Разработка рекомендаций по повышению качества посадочных страниц</li>
                                 <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/minus.png' ?>"> Подключение колл-трекинга</li>
                                 <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/minus.png' ?>"> Подключение и настройка сквозной аналитики Roistat</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Итоговый отчет</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Итоговый отчет</li>
                             </ul>
                         </div>
                         <div class="tet2">
@@ -678,37 +678,37 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
                         </div>
                         <div class="fdfdf">
                             <ul>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Аудит сайта\лэндинга</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Настройка рекламных кампаний в Яндекс Директ</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание поисковых рекламных кампаний в Яндекс.Директ</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание рекламных кампаний в РСЯ</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание Графических рекламных кампаний в РСЯ</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание Ретаргетинговых рекламных кампаний в Яндекс.Директ</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание кампаний Google Adwords – поисковое размещение</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание кампаний Google Adwords для КМС</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Графические рекламные кампании в КМС</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Создание ремаркетинговых кампаний Google Adwords</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Установка Яндекс.Метрики</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Установка Google Analytics + Google Tag Manager</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Настройка всех необходимых целей в Я.Метрике\Google Analytics</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Настройка чата с автоматическими приветствиями</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Запуск первой кампании 7-9 дней</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Ведение (при необходимости) <br><b>17 000
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Аудит сайта\лэндинга</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Настройка рекламных кампаний в Яндекс Директ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание поисковых рекламных кампаний в Яндекс.Директ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание рекламных кампаний в РСЯ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание Графических рекламных кампаний в РСЯ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание Ретаргетинговых рекламных кампаний в Яндекс.Директ</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание кампаний Google Adwords – поисковое размещение</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание кампаний Google Adwords для КМС</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Графические рекламные кампании в КМС</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Создание ремаркетинговых кампаний Google Adwords</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Установка Яндекс.Метрики</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Установка Google Analytics + Google Tag Manager</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Настройка всех необходимых целей в Я.Метрике\Google Analytics</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Настройка чата с автоматическими приветствиями</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Запуск первой кампании 7-9 дней</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Ведение (при необходимости) <br><b>17 000
                                         руб/месяц</b></li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Корректировка файла стоп-слов (минусация) на основе данных Яндекс.Метрики</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Переработка текстов объявлений с целью повышения CTR</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Управление ставками в зависимости от сезона/необходимости в трафике с той или иной РК
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Корректировка файла стоп-слов (минусация) на основе данных Яндекс.Метрики</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Переработка текстов объявлений с целью повышения CTR</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Управление ставками в зависимости от сезона/необходимости в трафике с той или иной РК
                                 </li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Настройка корректировок РК, по данным Яндекс.Метрики/Google Analytics, с целью
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Настройка корректировок РК, по данным Яндекс.Метрики/Google Analytics, с целью
                                     увеличение качества привлекаемой аудитории
                                 </li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Контроль доступности Вашего сайта</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Настройка/корректировка целей в Яндекс.Метрики/Google Analytics, при необходимости</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Отключение/доработка неэффективных объявлений</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Разработка рекомендаций по повышению качества посадочных страниц</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Подключение колл-трекинга</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Подключение и настройка сквозной аналитики Roistat</li>
-                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_копия_5.png' ?>"> Итоговый отчет</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Контроль доступности Вашего сайта</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Настройка/корректировка целей в Яндекс.Метрики/Google Analytics, при необходимости</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Отключение/доработка неэффективных объявлений</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Разработка рекомендаций по повышению качества посадочных страниц</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Подключение колл-трекинга</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Подключение и настройка сквозной аналитики Roistat</li>
+                                <li><img src="<?= SITE_TEMPLATE_PATH . '/assests/kisspng-check-mark_5.png' ?>"> Итоговый отчет</li>
                             </ul>
                         </div>
                         <div class="tet2">

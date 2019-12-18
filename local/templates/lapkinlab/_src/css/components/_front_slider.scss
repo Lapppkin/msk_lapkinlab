@@ -1,0 +1,198 @@
+// Slider
+
+.slider {
+  background-color: $app-color--black;
+  color: $app-color--white;
+  padding-top: $app-navigation-height;
+  padding-bottom: $app-navigation-height * 1.5;
+  position: relative;
+  margin-bottom: $app-navigation-height * 1.5;
+  @media (max-width: map_get($grid-breakpoints, md)) {
+    padding-top: $app-navigation-height / 2;
+    padding-bottom: $app-navigation-height;
+  }
+  @media (max-width: map_get($grid-breakpoints, sm)) {
+    padding-top: $app-navigation-height / 2;
+    padding-bottom: $app-navigation-height / 1.5;
+    margin-bottom: 0;
+  }
+  h2 {
+    color: $app-color--white;
+    @include head_font;
+    font-size: 40px;
+    margin-bottom: $app-padding--base;
+    @media (max-width: map_get($grid-breakpoints, lg)) {
+      font-size: 36px;
+    }
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+      font-size: 30px;
+    }
+  }
+  &-image {
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    filter: contrast(1.2) brightness(1.1);
+    &:after {
+      content: "";
+      display: block;
+      background-color: rgba($app-color--primary, 0.8);
+      width: 100%;
+      height: 100%;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+    }
+  }
+
+  // Slider Navigation
+  &--navigation {
+    position: absolute;
+    bottom: -$app-navigation-height;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 1;
+    .slide-nav {
+      @include shadow-sm;
+      cursor: pointer;
+      width: 240px;
+      height: 120px;
+      margin: 0 13px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px 40px;
+      text-align: center;
+      font-size: $app-fontsize--medium;
+      @include head_font;
+      border: 4px solid $app-color--white;
+      background-color: $app-color--white;
+      color: $app-color--primary;
+      transition: all 0.3s ease-in-out;
+      user-select: none;
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        width: 160px;
+        height: 90px;
+        font-size: $app-fontsize--base;
+        margin: 0 8px;
+        padding: $app-padding--small;
+      }
+      @media (max-width: map_get($grid-breakpoints, sm)) {
+        display: none;
+      }
+      &.active {
+        background-color: $app-color--active !important;
+        color: $app-color--white;
+        @include shadow;
+      }
+      &:hover {
+        background-color: $app-color--active-hover;
+        color: $app-color--white;
+      }
+    }
+  }
+
+  // Slider Item OwlCarousel Wrapper
+  .owl-item {
+    height: 100%;
+    .slide {
+      visibility: hidden;
+      opacity: 0;
+      transition: all 0.6s ease-in-out;
+    }
+    &.active {
+      .slide {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+  }
+
+  // Slider Item
+  .slide {
+    height: 100%;
+    &-image {}
+    &-title {
+      margin-top: $app-padding--base;
+      flex-basis: 100%;
+      @media (max-width: map_get($grid-breakpoints, sm)) {
+        margin-top: 0;
+      }
+    }
+    &-list {
+      flex-basis: 100%;
+      ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        li {
+          width: 100%;
+          display: inline-flex;
+          align-items: center;
+          margin: 0 0 $app-padding--small;
+          padding: 0;
+          font-size: $app-fontsize--medium;
+          i {
+            margin-right: 10px;
+            min-width: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  // Slider Form
+  &-front-form {
+    width: 100%;
+    border: 1px solid $app-color--active;
+    @include border-radius;
+    padding: $app-padding--base;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      margin-top: $app-padding--base;
+    }
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+      padding-left: $app-padding--small;
+      padding-right: $app-padding--small;
+    }
+    &--title {
+      @include head_font;
+      font-size: 26px;
+      text-align: center;
+      margin-bottom: $app-padding--base;
+    }
+    &--fields {
+      .form-field {
+        input {
+          width: 100%;
+        }
+      }
+    }
+    &--actions {
+      margin-bottom: 10px;
+      button[type="submit"] {
+        width: 100%;
+      }
+    }
+    &--privacy {
+      font-size: $app-fontsize--small;
+      text-align: center;
+      p {
+        margin: 0;
+      }
+    }
+  }
+
+}

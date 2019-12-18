@@ -116,7 +116,7 @@ $APPLICATION->SetTitle("Раскрутка Телеграм канала: зак
 			</div>
 		</div>
 		<div class="third__item">
- <img src="/image/Online Support.png" class="third__item-img">
+ <img src="/image/online-support.png" class="third__item-img">
 			<div class="third__item-title">
 				 Консультируем
 			</div>
@@ -258,37 +258,5 @@ $APPLICATION->SetTitle("Раскрутка Телеграм канала: зак
 </div>
  </section> <section class="channel_news">
 <div class="container_v2">
-	<div class="page-title">
-		 Свежие новости из нашего канала
-	</div>
-	<div class="post_tel">
-		<div class="post_tel_post">
-			 <iframe id="telegram-post-rutelegram_lab-121" src="https://t.me/rutelegram_lab/121?embed=1" width="100%" height="" frameborder="0" scrolling="no" style="border: none; overflow: hidden; min-width: 320px; height: 373px;"></iframe><script async="" src="https://telegram.org/js/telegram-widget.js?4" data-telegram-post="rutelegram_lab/121" data-width="100%"></script>
-		</div>
-		<div class="post_tel_post">
-			 <iframe id="telegram-post-rutelegram_lab-119" src="https://t.me/rutelegram_lab/119?embed=1" width="100%" height="" frameborder="0" scrolling="no" style="border: none; overflow: hidden; min-width: 320px; height: 485px;"></iframe><script async="" src="https://telegram.org/js/telegram-widget.js?4" data-telegram-post="rutelegram_lab/119" data-width="100%"></script>
-		</div>
-		<div class="post_tel_post">
-			 <iframe id="telegram-post-rutelegram_lab-117" src="https://t.me/rutelegram_lab/117?embed=1" width="100%" height="" frameborder="0" scrolling="no" style="border: none; overflow: hidden; min-width: 320px; height: 250px;"></iframe><script async="" src="https://telegram.org/js/telegram-widget.js?4" data-telegram-post="rutelegram_lab/117" data-width="100%"></script>
-		</div>
-		<div class="post_tel_post">
-			 <iframe id="telegram-post-rutelegram_lab-115" src="https://t.me/rutelegram_lab/115?embed=1" width="100%" height="" frameborder="0" scrolling="no" style="border: none; overflow: hidden; min-width: 320px; height: 503px;"></iframe><script async="" src="https://telegram.org/js/telegram-widget.js?4" data-telegram-post="rutelegram_lab/115" data-width="100%"></script>
-		</div>
-		<div class="post_tel_post">
-			 <iframe id="telegram-post-rutelegram_lab-111" src="https://t.me/rutelegram_lab/111?embed=1" width="100%" height="" frameborder="0" scrolling="no" style="border: none; overflow: hidden; min-width: 320px; height: 250px;"></iframe><script async="" src="https://telegram.org/js/telegram-widget.js?4" data-telegram-post="rutelegram_lab/111" data-width="100%"></script>
-		</div>
-		<div class="post_tel_post">
-			 <iframe id="telegram-post-rutelegram_lab-109" src="https://t.me/rutelegram_lab/109?embed=1" width="100%" height="" frameborder="0" scrolling="no" style="border: none; overflow: hidden; min-width: 320px; height: 403px;"></iframe><script async="" src="https://telegram.org/js/telegram-widget.js?4" data-telegram-post="rutelegram_lab/109" data-width="100%"></script>
-		</div>
-		<div class="post_tel_post">
-			 <iframe id="telegram-post-rutelegram_lab-103" src="https://t.me/rutelegram_lab/103?embed=1" width="100%" height="" frameborder="0" scrolling="no" style="border: none; overflow: hidden; min-width: 320px; height: 283px;"></iframe><script async="" src="https://telegram.org/js/telegram-widget.js?4" data-telegram-post="rutelegram_lab/103" data-width="100%"></script>
-		</div>
-		<div class="post_tel_post">
-			 <iframe id="telegram-post-rutelegram_lab-97" src="https://t.me/rutelegram_lab/97?embed=1" width="100%" height="" frameborder="0" scrolling="no" style="border: none; overflow: hidden; min-width: 320px; height: 503px;"></iframe><script async="" src="https://telegram.org/js/telegram-widget.js?4" data-telegram-post="rutelegram_lab/97" data-width="100%"></script>
-		</div>
-	</div>
-	<div class="channel_btn">
-		 <iframe src="https://tgwidget.com/widget/btn/?id=5ab4ce7d83ba8891338b4567" frameborder="0" scrolling="no" horizontalscrolling="no" verticalscrolling="no" width="250px" height="50px" async=""></iframe>
-	</div>
-</div>
+
  </section> </main><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

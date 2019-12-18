@@ -1,64 +1,41 @@
 <?php
 
-//\AddEventHandler("main", "OnEndBufferContent", "deleteKernelJs"); //Убрать js
-\AddEventHandler("main", "OnEndBufferContent", "deleteKernelCss"); //Убрать css
-\AddEventHandler("main", "OnEndBufferContent", "ChangeMyContent"); //Сжать html
 
-\AddEventHandler('main', 'OnEpilog', '_Check404Error', 1);
+use Bitrix\Main\EventManager;
+use LapkinLab\Core;
 
-function deleteKernelJs(&$content) {
-    global $USER, $APPLICATION;
-    if((is_object($USER) && $USER->IsAuthorized()) || strpos($APPLICATION->GetCurDir(), "/bitrix/")!==false) return;
-    if($APPLICATION->GetProperty("save_kernel") == "Y") return;
-    $arPatternsToRemove = Array(
-        '/<script.+?src=".+?kernel_main\/kernel_main\.js\?\d+"><\/script\>/',
-        '/<script.+?src=".+?bitrix\/js\/main\/core\/core[^"]+"><\/script\>/',
-        '/<script.+?>BX\.(setCSSList|setJSList)\(\[.+?\]\).*?<\/script>/',
-        '/<script.+?>if\(\!window\.BX\)window\.BX.+?<\/script>/',
-        '/<script[^>]+?>\(window\.BX\|\|top\.BX\)\.message[^<]+<\/script>/',
-    );
-    $content = preg_replace($arPatternsToRemove, "", $content);
-    $content = preg_replace("/\n{2,}/", "\n\n", $content);
+
+define('ROOT', $_SERVER['DOCUMENT_ROOT']);
+define('ERROR_500', '500 Internal Server Error');
+define('INCLUDE_DIR', ROOT . '/local/php_interface/include/');
+
+### FUNCTION WRAPPERS ###
+
+// Глобальные обертки для необходимых функций
+
+function dump($value, $public = false) {
+    Helper::dump($value, $public);
 }
 
-function deleteKernelCss(&$content) {
-    global $USER, $APPLICATION;
-    if((is_object($USER) && $USER->IsAuthorized()) || strpos($APPLICATION->GetCurDir(), "/bitrix/")!==false) return;
-    if($APPLICATION->GetProperty("save_kernel") == "Y") return;
-    $arPatternsToRemove = Array(
-        '/<link.+?href=".+?kernel_main\/kernel_main\.css\?\d+"[^>]+>/',
-        '/<link.+?href=".+?bitrix\/js\/main\/core\/css\/core[^"]+"[^>]+>/',
-        '/<link.+?href=".+?bitrix\/templates\/[\w\d_-]+\/styles.css[^"]+"[^>]+>/',
-        '/<link.+?href=".+?bitrix\/templates\/[\w\d_-]+\/template_styles.css[^"]+"[^>]+>/',
-    );
-    $content = preg_replace($arPatternsToRemove, "", $content);
-    $content = preg_replace("/\n{2,}/", "\n\n", $content);
+function dd($value, $public = false) {
+    Helper::dd($value, $public);
 }
 
-//Сжатие HTML
-function ChangeMyContent(&$content) {
-    global $USER, $APPLICATION;
-    if((is_object($USER) && $USER->IsAuthorized()) || strpos($APPLICATION->GetCurDir(), "/bitrix/")!==false) return;
-    if($APPLICATION->GetProperty("save_kernel") == "Y") return;
-    $search = array(
-        '/\>[^\S ]+/s',
-        '/[^\S ]+\</s',
-        '/(\s)+/s'
-    );
-    $replace = array(
-        '>',
-        '<',
-        '\\1'
-    );
-    $content = preg_replace($search, $replace, $content);
+function renderIcon(string $name, string $class = '') {
+    return Helper::renderIcon($name, $class);
 }
 
-function _Check404Error(){
-    if ((defined('ERROR_404') && ERROR_404 == 'Y') || CHTTP::GetLastStatus() == "404 Not Found") {
-        GLOBAL $APPLICATION;
-        $APPLICATION->RestartBuffer();
-        require $_SERVER['DOCUMENT_ROOT'].SITE_TEMPLATE_PATH.'/header.php';
-        require $_SERVER['DOCUMENT_ROOT'].'/404.php';
-        require $_SERVER['DOCUMENT_ROOT'].SITE_TEMPLATE_PATH.'/footer.php';
-    }
-}
+### EVENT HANDLERS ###
+
+//EventManager::getInstance()->addEventHandlerCompatible('main', 'OnEndBufferContent', array(Core::class, 'deleteKernelCss')); // Убрать css
+//EventManager::getInstance()->addEventHandlerCompatible('main', 'onEndBufferContent', array(Core::class, 'deleteKernelJs')); // Убрать js
+//EventManager::getInstance()->addEventHandlerCompatible('main', 'OnEndBufferContent', array(Core::class, 'minifyHtml')); // Сжать html
+
+EventManager::getInstance()->addEventHandlerCompatible(
+    'main',
+    'OnEpilog',
+    array(
+        Core::class, 'Check404Error'
+    ),
+    1
+);

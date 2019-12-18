@@ -1,0 +1,29 @@
+{
+    "name": "lapkinlab/msklapkinlab",
+    "license": "proprietary",
+    "description": "msk.lapkinlab.ru",
+    "type": "project",
+    "require": {
+        "ext-mbstring": "*",
+        "ext-json": "*",
+        "dotzero/amocrm": "^0.3.29"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-master"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "LapkinLab\\": "php_interface/include/"
+        }
+    },
+    "authors": [
+        {
+            "name": "deadie",
+            "email": "deadie@yandex.ru",
+            "homepage": "https://vk.com/deadie",
+            "role": "Developer"
+        }
+    ]
+}

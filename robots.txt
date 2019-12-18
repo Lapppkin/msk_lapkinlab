@@ -66,6 +66,7 @@ Allow: /novosti/?PAGEN_1=*
 Allow: /search/map.php
 Allow: /bitrix/templates/LapkinLab_krd/css/
 Allow: /bitrix/templates/LapkinLab_krd/js/
+Allow: /*utm*
 
 User-Agent: Yandex
 Disallow: /kalkulyator-stoimosti-sajtov/1/
@@ -135,6 +136,7 @@ Allow: /novosti/?PAGEN_1=*
 Allow: /search/map.php
 Allow: /bitrix/templates/LapkinLab_krd/css/
 Allow: /bitrix/templates/LapkinLab_krd/js/
+Allow: /*utm*
 
 User-Agent: Googlebot
 Disallow: /kalkulyator-stoimosti-sajtov/1/
@@ -205,4 +207,7 @@ Allow: /novosti/?PAGEN_1=*
 Allow: /search/map.php
 Allow: /bitrix/templates/LapkinLab_krd/css/
 Allow: /bitrix/templates/LapkinLab_krd/js/
+Allow: /*utm*
+
 Sitemap: https://msk.lapkinlab.ru/sitemap.xml
+Host: https://msk.lapkinlab.ru

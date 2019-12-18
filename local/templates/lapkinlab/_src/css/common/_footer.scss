@@ -1,0 +1,222 @@
+// Footer
+
+$map-height: 450px;
+
+.footer {
+  background-color: $app-color--primary;
+  color: $app-color--white;
+  a {
+    color: $app-color--white;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      color: $app-color--active-hover;
+      text-decoration: underline;
+    }
+  }
+
+  // Footer Map
+  &--map {
+    position: relative;
+    &:hover {
+      .footer--map--wrapper {
+        height: $map-height;
+      }
+      .footer--map--title {
+        visibility: hidden;
+        opacity: 0;
+      }
+    }
+    &--wrapper {
+      height: $app-navigation-height;
+      transition: height 0.6s ease-in-out;
+      width: 100%;
+      border: 0;
+    }
+    &--title {
+      font-size: $app-fontsize--h2;
+      background-color: rgba($app-color--active-darken, 0.6);
+      padding: 0 15px;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      cursor: pointer;
+      height: $app-navigation-height;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      visibility: visible;
+      opacity: 1;
+      transition: all 0.6s ease-in-out;
+      z-index: 1;
+      i {
+        margin-right: 10px;
+      }
+    }
+  }
+
+  // Footer Navigation
+  &--nav {
+    background-color: $app-color--primary;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+    &-wrapper {
+      padding-top: 50px;
+      padding-bottom: 40px;
+      @media (max-width: map_get($grid-breakpoints, sm)) {
+        padding-top: 20px;
+        padding-bottom: 10px;
+      }
+    }
+
+    &-top {
+      flex-basis: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      &--menu {
+        flex-basis: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        @media (max-width: map_get($grid-breakpoints, md)) {
+          flex-basis: 100%;
+          margin-bottom: 30px;
+        }
+        .footer--menu-item {
+          flex-basis: 50%;
+          &--title {
+            font-size: $app-fontsize--large;
+            @include head_font;
+            margin-bottom: 15px;
+          }
+          &--list {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+            li {
+              width: 100%;
+              padding: 0 20px 0 0;
+              margin: 0;
+              display: flex;
+              &.active {}
+              a {
+                display: inline-flex;
+                padding: 5px 0;
+                &.active,
+                &:hover,
+                &:focus {
+                  color: $app-color--active-hover;
+                  text-decoration: underline;
+                }
+                &:active {
+                  color: $app-color--active;
+                }
+              }
+            }
+          }
+        }
+      }
+
+      // Footer contacts
+      &--contacts {
+        flex-basis: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        @media (max-width: map_get($grid-breakpoints, md)) {
+          flex-basis: 100%;
+        }
+        &--phone,
+        &--email {
+          flex-basis: 50%;
+          @include head_font;
+          font-size: $app-fontsize--large;
+          padding-right: 15px;
+          margin-bottom: 15px;
+          @media (max-width: map_get($grid-breakpoints, lg)) {
+            flex-basis: 100%;
+          }
+          @media (max-width: map_get($grid-breakpoints, md)) {
+            flex-basis: 50%;
+          }
+          @media (max-width: map_get($grid-breakpoints, sm)) {
+            flex-basis: 100%;
+          }
+          i {
+            margin-right: 8px;
+          }
+          a {
+            display: inline-flex;
+            align-items: center;
+            &[href^="tel:"] {
+              white-space: nowrap;
+              &:hover {
+                text-decoration: none;
+              }
+            }
+            &:last-child {
+              @include text_font;
+              font-size: $app-fontsize--base;
+              color: $app-color--active;
+            }
+          }
+        }
+        &--address {
+          flex-basis: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          @include head_font;
+          font-size: $app-fontsize--large;
+          p {
+            flex-basis: 100%;
+          }
+          i {
+            margin-right: 8px;
+          }
+          span {
+            @include text_font;
+            font-size: $app-fontsize--base;
+          }
+        }
+      }
+    }
+
+    &-bottom {
+      margin-top: 50px;
+      display: flex;
+      flex-wrap: wrap;
+      flex-basis: 100%;
+      justify-content: space-between;
+      align-items: flex-start;
+      &--copyrights {
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+          flex-basis: 100%;
+        }
+        a {
+          text-decoration: underline;
+          &.privacy-policy {
+            color: $app-color--active;
+          }
+        }
+      }
+      &--partners {
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+          flex-basis: 100%;
+        }
+        a {
+          margin-left: 5px;
+          margin-right: 5px;
+          img {
+            @include border-radius;
+            max-height: $app-navigation-height;
+            max-width: 100px;
+          }
+        }
+      }
+    }
+
+  }
+
+}

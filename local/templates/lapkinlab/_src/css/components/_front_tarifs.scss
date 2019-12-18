@@ -1,0 +1,196 @@
+// Tarifs
+
+.section {
+  &--tarif {
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large;
+    color: $app-color--white;
+    background-color: $app-color--primary;
+    background-image: url("../images/background.png");
+    background-size: cover;
+    background-position: center;
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
+    h2,h3 {
+      color: $app-color--white;
+      @include head_font;
+    }
+
+    &--wrapper {
+      overflow-x: auto;
+      .tarifs-wrap {
+        min-width: map_get($grid-breakpoints, lg);
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+
+    &--title {
+      font-size: $app-fontsize--h1;
+      margin-bottom: $app-padding--medium;
+      flex-basis: 100%;
+      width: 100%;
+    }
+
+    .tarifs--title {
+      display: flex;
+      margin-bottom: $app-padding--small;
+      h3 {
+        text-transform: uppercase;
+        font-size: $app-fontsize--h2;
+        margin-right: $app-padding--base;
+      }
+      p {}
+    }
+    .tarifs--targets {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      margin-bottom: $app-padding--small;
+      > div {
+        opacity: 0.6;
+        flex-basis: 33.333%;
+        padding-right: $app-padding--base;
+        font-size: $app-padding--small;
+      }
+    }
+
+    &--labels {
+      flex-basis: 100%;
+      width: 100%;
+      .tarif {
+        &-label {
+          flex-basis: 100%;
+          display: flex;
+          align-items: center;
+          min-height: 50px;
+          padding: 10px 0;
+          border-bottom: 1px solid rgba($app-color--border, 0.3);
+          &:nth-child(1) {
+            height: 90px;
+            @include head_font;
+            color: rgba($app-color--white, 0.5);
+            align-items: flex-end;
+          }
+          &:nth-child(n+18) {
+            display: none;
+          }
+          &.ext {
+            cursor: pointer;
+            color: rgba($app-color--white, 0.5);
+            padding-left: $app-padding--base;
+            border-bottom: 0;
+            &:hover {
+              color: $app-color--white;
+            }
+          }
+        }
+      }
+    }
+
+    &--type {
+      .tarif {
+        &-title {
+          height: 90px;
+          display: flex;
+          flex-wrap: wrap;
+          align-content: flex-end;
+          align-items: flex-end;
+          justify-content: center;
+          border-bottom: 1px solid rgba($app-color--border, 0.3);
+          h3 {
+            text-align: center;
+            flex-basis: 100%;
+          }
+          p {
+            text-align: center;
+            flex-basis: 100%;
+            opacity: 0.5;
+            font-size: $app-fontsize--small;
+            margin-bottom: 10px;
+          }
+        }
+        &-status {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          min-height: 50px;
+          padding: 10px 0;
+          border-bottom: 1px solid rgba($app-color--border, 0.3);
+          &:nth-child(n+18) {
+            display: none;
+          }
+          &.ext {
+            cursor: pointer;
+            border-bottom: 0;
+            &:hover {
+              i {
+                opacity: 1;
+              }
+            }
+            i {
+              opacity: 0.5;
+              transform: scale(0.75) rotate(90deg);
+            }
+          }
+        }
+        &-price {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          position: relative;
+          padding-bottom: $app-padding--base + 10px;
+          text-align: center;
+          &:hover {
+            button {
+              display: block;
+            }
+          }
+          span.price {
+            font-size: $app-fontsize--h3;
+            @include head_font;
+            margin-top: $app-padding--small;
+            margin-bottom: $app-padding--small;
+          }
+          button {
+            display: none;
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+          }
+        }
+      }
+
+      &-standard {
+        .tarif-title {
+          p {
+            opacity: 1;
+            color: $app-color--active;
+          }
+        }
+        .tarif-price {
+          color: $app-color--active;
+          span.price {
+            font-size: $app-fontsize--h2;
+          }
+        }
+      }
+      &-minimal {
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+          //display: none;
+        }
+      }
+      &-extended {
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+          //display: none;
+        }
+      }
+
+    }
+
+  }
+
+}

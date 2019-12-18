@@ -1,6 +1,5 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetPageProperty("keywords", "раскрутка в социальных сетях, продвижение в соцсетях москва");
 $APPLICATION->SetPageProperty("title", "SMM продвижение в Москве: СММ раскрутка в социальных сетях Инстаграм, Вконтакте, Фейсбук");
 $APPLICATION->SetPageProperty("description", "Продвижение сайтов в социальных сетях от агентства LapkinLab &#9997;SMM раскрутка в Instagram, Вконтакте, Facebook &#9997;Настройка таргетированной рекламы");
 $APPLICATION->SetTitle("SMM продвижение в Москве: СММ раскрутка в социальных сетях Инстаграм, Вконтакте, Фейсбук");

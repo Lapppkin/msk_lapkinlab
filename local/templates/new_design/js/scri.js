@@ -1,5 +1,12 @@
 
 $(document).ready(function(){
+	
+	$(document).on('click', '.more-work', function (e) {
+		e.preventDefault();
+		$('ul.ul-main-composition').slideDown();
+		$('.more-work, .arrow-down-block').slideUp();
+	});
+	
     $('.view_question_btn .img, .ask_item .txt .span').on('click',function(){
         $(this).parent().parent().find('.img').toggleClass('active');
         $(this).parent().parent().find('.question_dn').toggle();

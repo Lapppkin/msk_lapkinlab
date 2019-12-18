@@ -1,14 +1,6 @@
 <?php
-$arUrlRewrite=array (
-  14 => 
-  array (
-    'CONDITION' => '#^/portfolio/work/([A-Za-z0-9\\-\\_]*)/#',
-    'RULE' => 'SECTION_CODE=$1',
-    'ID' => '',
-    'PATH' => '/portfolio/work/index.php',
-    'SORT' => 100,
-  ),
-  15 => 
+$arUrlRewrite = array (
+  10 =>
   array (
     'CONDITION' => '#^/novosti/([0-9a-zA-Z_-]+)?(.+)#',
     'RULE' => 'ELEMENT_CODE=$1',
@@ -16,7 +8,7 @@ $arUrlRewrite=array (
     'PATH' => '/novosti/element/index.php',
     'SORT' => 100,
   ),
-  16 => 
+  20 =>
   array (
     'CONDITION' => '#^/novosti/#',
     'RULE' => '',

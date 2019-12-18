@@ -1,0 +1,79 @@
+// SEO
+
+.section {
+  &--seo {
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large - $app-padding--base;
+    background-color: $app-color--background;
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
+
+    &--wrapper {}
+    &--title {
+      font-size: $app-fontsize--h1;
+      margin-bottom: $app-padding--medium;
+    }
+    &--items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+    }
+
+    &--item {
+      flex-basis: 360px;
+      background-color: $app-color--white;
+      padding: 40px;
+      margin-left: 15px;
+      margin-right: 15px;
+      margin-bottom: 30px;
+      @include border-radius;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-self: stretch;
+      @media (max-width: map_get($grid-breakpoints, xl)) {
+        flex-basis: 265px;
+      }
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        flex-basis: 310px;
+      }
+      @media (max-width: map_get($grid-breakpoints, md)) {
+        flex-basis: 80%;
+      }
+      @media (max-width: map_get($grid-breakpoints, sm)) {
+        flex-basis: 100%;
+      }
+      &:hover {
+        @include shadow-sm;
+      }
+      &-icon {
+        flex-basis: 100%;
+        margin-bottom: 25px;
+        display: flex;
+        justify-content: center;
+      }
+      &-text {
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: baseline;
+      }
+      &-name {
+        flex-basis: 100%;
+        text-align: center;
+        @include head_font;
+        font-size: $app-fontsize--medium;
+        margin-bottom: 20px;
+      }
+      &-desc {
+        flex-basis: 100%;
+        text-align: center;
+      }
+    }
+
+  }
+}

@@ -1,0 +1,88 @@
+// Love
+
+.section {
+  &--love {
+    border-top: 1px solid $app-color--border;
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large;
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
+
+    &--wrapper {
+    }
+
+    &--title {
+      font-size: $app-fontsize--h1;
+      margin-bottom: $app-padding--medium;
+    }
+
+    &--description {
+      h3 {
+        @include head_font;
+      }
+      p {
+        margin-bottom: $app-padding--base;
+      }
+    }
+
+    &--abilities {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      &-bitrix,
+      &-top40 {
+        flex-basis: 42.5%;
+        margin-bottom: $app-padding--small;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: baseline;
+        justify-content: center;
+        padding-left: $app-padding--small;
+        padding-right: $app-padding--small;
+        span.top40 {
+          position: absolute;
+          top: 35px;
+          left: 50%;
+          transform: translateX(-50%);
+          font-size: 42px;
+          @include head_font;
+        }
+        span.text {
+          flex-basis: 100%;
+          margin-top: 10px;
+          text-align: center;
+        }
+      }
+      &-hello {
+        flex-basis: 100%;
+        padding: $app-padding--small $app-padding--base;
+        @include border-radius;
+        border: 1px solid $app-color--active;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+          flex-wrap: wrap;
+          justify-content: center;
+          padding: $app-padding--small;
+        }
+        span {
+          @include head_font;
+          font-size: 18px;
+          margin-right: $app-padding--small;
+          @media (max-width: map_get($grid-breakpoints, sm)) {
+            flex-basis: 100%;
+            text-align: center;
+            margin-bottom: 15px;
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+  }
+}

@@ -1,6 +1,0 @@
-<?
-$sSectionName = "testmenu";
-$arDirProperties = Array(
-
-);
-?>

@@ -1,0 +1,121 @@
+// Business Find
+
+.section {
+  &--bf {
+    padding-top: $app-padding--medium;
+    padding-bottom: $app-padding--large;
+    @media (max-width: map_get($grid-breakpoints, lg)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
+
+    &--wrapper {}
+    &--col {
+      &:first-child {
+        .section--bf--item {
+          justify-content: flex-end;
+          @media (max-width: map_get($grid-breakpoints, lg)) {
+            justify-content: flex-start;
+          }
+          &:nth-child(2) {
+            margin-right: 30px;
+          }
+          &-icon {
+            order: 2;
+            margin-right: 0;
+            margin-left: 40px;
+            @media (max-width: map_get($grid-breakpoints, lg)) {
+              order: 1;
+              margin-left: 0;
+              margin-right: 40px;
+            }
+          }
+          &-text {
+            order: 1;
+            @media (max-width: map_get($grid-breakpoints, lg)) {
+              order: 2;
+            }
+          }
+          &-name {
+            text-align: right;
+            @media (max-width: map_get($grid-breakpoints, lg)) {
+              text-align: left;
+            }
+          }
+          &-desc {
+            text-align: right;
+            @media (max-width: map_get($grid-breakpoints, lg)) {
+              text-align: left;
+            }
+          }
+        }
+      }
+      &:last-child {}
+    }
+
+    &--title {
+      font-size: $app-fontsize--h1;
+      margin-bottom: $app-padding--large;
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        margin-bottom: $app-padding--medium;
+      }
+    }
+
+    &--target {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      .lapicon {
+        transition: transform 0.3s linear;
+      }
+      &:hover {
+        .lapicon {
+          transform: scale(1.25);
+        }
+      }
+    }
+
+    &--items {}
+    &--item {
+      display: flex;
+      margin-bottom: $app-padding--medium;
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        margin-bottom: $app-padding--base;
+        padding-right: $app-padding--base;
+        padding-left: $app-padding--base;
+      }
+      &:hover {
+        .section--bf--item-name {
+          color: $app-color--active;
+        }
+      }
+      &:nth-child(2) {
+        margin-left: 30px;
+        @media (max-width: map_get($grid-breakpoints, lg)) {
+          margin-left: 0;
+        }
+      }
+      &:last-child {
+        margin-bottom: 0;
+        @media (max-width: map_get($grid-breakpoints, lg)) {
+          margin-bottom: $app-padding--base;
+        }
+      }
+      &-icon {
+        flex-basis: 64px;
+        margin-right: 40px;
+      }
+      &-text {}
+      &-name {
+        font-size: $app-fontsize--medium;
+        @include head_font;
+        margin-bottom: 5px;
+      }
+      &-desc {
+        color: $app-color--secondary;
+      }
+    }
+
+  }
+}

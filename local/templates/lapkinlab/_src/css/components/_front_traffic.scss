@@ -1,0 +1,107 @@
+// Traffic
+
+.section {
+  &--traffic {
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large;
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
+
+    &--wrapper {}
+
+    &--title {
+      font-size: $app-fontsize--h1;
+      margin-bottom: $app-padding--base;
+    }
+
+    &--content {
+
+      p.legend {
+        span {
+          &.visitors,
+          &.orders {
+            height: 1em;
+            border-radius: 2px;
+            width: 40px;
+            display: inline-flex;
+            background-color: $app-color--primary;
+            position: relative;
+            top: 3px;
+            margin-right: 10px;
+          }
+          &.orders {
+            background-color: $app-color--active;
+          }
+        }
+      }
+
+    }
+
+    &--items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: $app-padding--base;
+    }
+    &--item {
+      flex-basis: 188px;
+      align-content: flex-end;
+      border-right: 1px solid $app-color--border;
+      margin-bottom: $app-padding--base;
+      &:last-child {
+        border-right: 0;
+      }
+      @media (max-width: map_get($grid-breakpoints, xl)) {
+        flex-basis: 45%;
+      }
+      &-months {
+        padding-left: $app-padding--base;
+        padding-right: $app-padding--base;
+        margin-bottom: $app-padding--small;
+        font-size: $app-fontsize--small;
+        color: $app-color--secondary;
+        text-align: right;
+        @media (max-width: map_get($grid-breakpoints, xl)) {
+          padding-left: $app-padding--small;
+          padding-right: $app-padding--small;
+        }
+      }
+      &-icon {
+        padding-left: $app-padding--base;
+        padding-right: $app-padding--base;
+        min-height: 300px;
+        padding-bottom: $app-padding--small;
+        border-bottom: 1px solid $app-color--primary;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        @media (max-width: map_get($grid-breakpoints, xl)) {
+          padding-left: $app-padding--small;
+          padding-right: $app-padding--small;
+        }
+      }
+      &-name {
+        padding: $app-padding--small $app-padding--base;
+        @include head_font;
+        font-size: $app-fontsize--medium;
+        text-align: center;
+        @media (max-width: map_get($grid-breakpoints, xl)) {
+          padding-left: $app-padding--small;
+          padding-right: $app-padding--small;
+        }
+      }
+      &-desc {
+        padding-left: $app-padding--base;
+        padding-right: $app-padding--base;
+        text-align: center;
+        @media (max-width: map_get($grid-breakpoints, xl)) {
+          padding-left: $app-padding--small;
+          padding-right: $app-padding--small;
+        }
+      }
+    }
+
+  }
+}

@@ -2012,8 +2012,7 @@ $APPLICATION->SetTitle("О продукте - amoCRM");
                                     <span class="id_partner">ВАШ ID ПАРТНЁРА AMOSTART: 25652845</span>
                                 </div>
                                 <div class="content-block__inner">
-                                    <script src="//www.amocrm.ru/bitrix/components/qsoft/partners.private.faq/templates/.default/script.js?1555498428"
-                                            type="text/javascript"></script>
+                                    <?/*<script src="//www.amocrm.ru/bitrix/components/qsoft/partners.private.faq/templates/.default/script.js?1555498428"></script>*/?>
                                     <div class="content-block__text aboutcrm">
                                         <h1>Про продукт</h1>
                                     </div>

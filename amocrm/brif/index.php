@@ -1,5 +1,6 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetPageProperty("title", "Опросный лист на внедрение amoCRM");
 $APPLICATION->SetTitle("Заполните Бриф");
 ?>
 <h1 style="display:none;">Бриф на внедрение amoCRM</h1>

@@ -51,6 +51,7 @@ $APPLICATION->SetTitle("Контакты маркетингового агент
 							 5 мин от метро "Автозаводская"<br>
  <b style="font-size: 22px; "><a class="roistat-phone" href="tel:88003010019" style="padding:10px 0px;">8 (800) 301-00-19</a></b><br>
 							 Письмо директору: <a href="mailto:ya@lapkinlab.ru">ya@lapkinlab.ru</a><br>
+                                                         Письмо Аккаунт-Менеджеру: <a href="mailto:dsenatorova@lapkinlab.ru">dsenatorova@lapkinlab.ru</a><br>
 							 Письмо по вакансиям: <a href="mailto:hr@lapkinlab.ru">hr@lapkinlab.ru</a><br>
 							 Прочие письма: <a href="mailto:mail@lapkinlab.ru">mail@lapkinlab.ru</a><br>
  <br>
