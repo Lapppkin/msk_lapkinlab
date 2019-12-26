@@ -10,6 +10,10 @@ define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('ERROR_500', '500 Internal Server Error');
 define('INCLUDE_DIR', ROOT . '/local/php_interface/include/');
 
+define('SITE_CONFIG', Configuration::getInstance()->get('site'));
+
+require_once $_SERVER['DOCUMENT_ROOT'] . '/local/vendor/autoload.php';
+
 ### FUNCTION WRAPPERS ###
 
 // Глобальные обертки для необходимых функций
