@@ -74,7 +74,7 @@ var path = {
         svgTemplate: sourcesPath + 'css/extra/_sprite_template.scss',
         html: sourcesPath + '*.pug',
         images: [
-            sourcesPath + 'images/[^sprites]**/*.[^svg|mustache]*',
+            sourcesPath + 'images/**/*.[^svg|mustache]*',
             sourcesPath + 'images/sprite.png',
         ]
     },
