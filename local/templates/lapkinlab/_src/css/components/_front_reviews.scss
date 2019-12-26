@@ -1,0 +1,96 @@
+// Reviews
+
+.section {
+  &--reviews {
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large;
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
+
+    &--title {
+      font-size: $app-fontsize--h1;
+      margin-bottom: $app-padding--medium;
+    }
+    &--items {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    &--item {
+      flex-basis: 225px;
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 $app-padding--medium $app-padding--base;
+      &-video,
+      &-icon,
+      &-title,
+      &-desc {
+        flex-basis: 100%;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+      }
+      &-video {
+        position: relative;
+        width: 225px;
+        height: 225px;
+        border-radius: 50%;
+        border-bottom: none;
+        box-shadow: none;
+        text-decoration: none;
+        outline: 0;
+        overflow: hidden;
+        &:hover {
+          &:before,
+          &:after {
+            opacity: 1;
+          }
+        }
+        &:before {
+          content: "";
+          position: absolute;
+          top: 0;
+          left: 0;
+          opacity: 0;
+          width: 100%;
+          height: 100%;
+          border-radius: 50%;
+          background-color: rgba($app-color--active-dark, 0.5);
+          transition: opacity .3s;
+        }
+        &:after {
+          content: "";
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          opacity: 0;
+          width: 60px;
+          height: 60px;
+          border-color: transparent transparent transparent $app-color--white;
+          border-style: solid;
+          border-width: 30px 0 30px 50px;
+          transform: translate(-40%,-50%);
+          transition: opacity .3s;
+        }
+      }
+      &-title {
+        margin-top: $app-padding--small;
+        margin-bottom: $app-padding--small;
+        @include head_font;
+        font-size: $app-fontsize--h3;
+        padding-left: $app-padding--small;
+        padding-right: $app-padding--small;
+      }
+      &-desc {
+        color: $app-color--secondary;
+        padding-left: $app-padding--small;
+        padding-right: $app-padding--small;
+      }
+
+    }
+
+  }
+}

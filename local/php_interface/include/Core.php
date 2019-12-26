@@ -82,4 +82,39 @@ class Core
             require $_SERVER['DOCUMENT_ROOT'] . SITE_TEMPLATE_PATH . '/footer.php';
         }
     }
+
+    /**
+     * Vary brief document on uri.
+     *
+     * @return mixed
+     */
+    public static function getBriefLink () {
+        $uri = \rtrim(\parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
+        $briefTypeLinkMap = [
+            'seo'     => 'https://docs.google.com/forms/d/e/1FAIpQLSf-7bjpKRs7o52pYjR4kdHpt50zTMYsfkUFwDpieJT-0OCj7g/viewform',
+            'dev'     => 'https://docs.google.com/forms/d/e/1FAIpQLSfJdbhwnd0miOtpYpRLAql5bCsU4b5_VSk8R8lKEkRpvLMkdQ/viewform',
+            'context' => 'https://docs.google.com/forms/d/e/1FAIpQLSdC5EtZkU86l1V2pIsEAXUigf6ZH_98BTB823rmgW7d0M_lmQ/viewform',
+            'smm'     => 'https://docs.google.com/forms/d/e/1FAIpQLScUUOxtYtc1F1xWTCjo4HpIY4TlQ8CEnfHkhET_K0teL5xCig/viewform',
+            'amo'     => 'https://docs.google.com/forms/d/e/1FAIpQLSfTqL6tOA92Y3SRrYWDoJ7wWNHEr-DFMXv6YWUgaY6DhBRmkw/viewform',
+        ];
+        $briefPageTypeMap = [
+            '/' => 'seo',
+            '/seo' => 'seo',
+            '/kalkulyator-stoimosti-sajtov' => 'dev',
+            '/chat-bot' => 'dev',
+            '/kontekstnaya-reklama' => 'context',
+            '/amocrm' => 'amo',
+            '/amocrm/o-produkte' => 'amo',
+            '/amocrm/brif' => 'amo',
+            '/amocrm/checklist'  => 'amo',
+        ];
+        $brief = $briefTypeLinkMap['seo'];
+        foreach ($briefPageTypeMap as $path => $type) {
+            if ($uri === \rtrim($path, '/')) {
+                $brief = $briefTypeLinkMap[$type];
+                break;
+            }
+        }
+        return $brief;
+    }
 }

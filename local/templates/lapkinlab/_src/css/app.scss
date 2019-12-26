@@ -31,6 +31,7 @@
 @import "common/_header.scss";
 @import "common/_footer.scss";
 @import "common/_mobile_menu.scss";
+@import "common/_common.scss";
 
 // common sections
 
@@ -44,6 +45,10 @@
 @import "components/_front_traffic.scss";
 @import "components/_front_love.scss";
 @import "components/_front_tarifs.scss";
+@import "components/_front_reviews.scss";
+@import "components/_front_complex.scss";
+@import "components/_front_cases.scss";
+@import "components/_article.scss";
 @import "components/_contact_form.scss";
 
 // pages

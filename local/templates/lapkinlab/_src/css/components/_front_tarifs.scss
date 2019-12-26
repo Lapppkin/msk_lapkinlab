@@ -6,7 +6,7 @@
     padding-bottom: $app-padding--large;
     color: $app-color--white;
     background-color: $app-color--primary;
-    background-image: url("../images/background.png");
+    background-image: url("images/background.png");
     background-size: cover;
     background-position: center;
     @media (max-width: map_get($grid-breakpoints, sm)) {

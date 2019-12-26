@@ -1,0 +1,151 @@
+// Cases
+
+.section {
+  &--cases {
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large;
+    color: $app-color--white;
+    background-color: $app-color--primary;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
+
+    h2, h3 {
+      color: $app-color--white;
+      @include head_font;
+    }
+
+    &--wrapper {
+      overflow-x: auto;
+
+      .tarifs-wrap {
+        min-width: map_get($grid-breakpoints, lg);
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+
+    &--title {
+      font-size: $app-fontsize--h1;
+      margin-bottom: $app-padding--medium;
+      flex-basis: 100%;
+      width: 100%;
+    }
+
+    &--order {
+      margin-top: $app-padding--base;
+    }
+
+    &--content {
+      display: flex;
+      flex-wrap: wrap;
+
+      .nav {
+        flex-basis: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        .nav-item {
+          flex-grow: 1;
+          flex-basis: 33.333%;
+        }
+        .nav-link {
+          @include border-radius;
+          margin-bottom: $app-padding--small;
+          color: $app-color--white;
+          text-decoration: none;
+          padding-top: $app-padding--small;
+          padding-bottom: $app-padding--small;
+          border: 1px solid rgba($app-color--white, 0.3);
+          @include head_font;
+          font-size: $app-fontsize--h3;
+          margin-right: $app-padding--small /2;
+          margin-left: $app-padding--small /2;
+          text-align: center;
+          &:last-child {
+            margin-bottom: 0;
+          }
+          &:hover {
+            border-color: $app-color--white;
+          }
+          &.active {
+            color: $app-color--active;
+            background-color: transparent;
+            border-color: $app-color--active;
+            position: relative;
+          }
+        }
+      }
+
+      .tab-content {
+        flex-basis: 100%;
+        display: flex;
+        .tab-pane {
+          color: $app-color--white;
+          @include border-radius;
+          overflow: hidden;
+          padding: $app-padding--small /2;
+          &--wrapper {
+            display: flex;
+            flex-wrap: wrap;
+            h3 {
+              flex-basis: 100%;
+              margin-bottom: $app-padding--small;
+              font-size: $app-fontsize--h1;
+            }
+          }
+          &.active {}
+
+          &--task,
+          &--result {
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            align-content: flex-start;
+            .result--label,
+            .task--label {
+              @include head_font;
+              font-size: $app-fontsize--medium;
+              flex-basis: 100%;
+              color: $app-color--active;
+              margin-bottom: $app-padding--small;
+            }
+            .result--content,
+            .task--content {
+              flex-basis: 100%;
+            }
+          }
+          &--task {
+            flex-basis: 40%;
+            padding-right: $app-padding--base;
+          }
+          &--result {
+            flex-basis: 60%;
+          }
+
+          &--images {
+            flex-basis: 100%;
+            display: flex;
+            justify-content: space-between;
+            margin-top: $app-padding--base;
+            margin-bottom: $app-padding--base;
+            img:first-child {
+              margin-right: 15px;
+            }
+            img:last-child {}
+          }
+          &--desc {
+            flex-basis: 100%;
+          }
+
+        }
+      }
+
+    }
+
+  }
+}

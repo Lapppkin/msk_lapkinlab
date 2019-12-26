@@ -36,6 +36,11 @@ body span.bx-context-toolbar a {
   overflow: hidden;
 }
 
+#panel {
+  width: 100%;
+  flex-basis: 100%;
+}
+
 // Helpers
 
 .unselectable {

@@ -1,0 +1,128 @@
+// Complex
+
+.section {
+  &--complex {
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large;
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
+
+    h2, h3 {
+      @include head_font;
+    }
+
+    &--wrapper {
+      overflow-x: auto;
+
+      .tarifs-wrap {
+        min-width: map_get($grid-breakpoints, lg);
+        display: flex;
+        flex-wrap: wrap;
+      }
+    }
+
+    &--title {
+      font-size: $app-fontsize--h1;
+      margin-bottom: $app-padding--medium;
+      flex-basis: 100%;
+      width: 100%;
+    }
+
+    &--content {
+
+      .nav {
+        .nav-link {
+          @include border-radius;
+          margin-bottom: $app-padding--small;
+          color: $app-color--primary;
+          text-decoration: none;
+          padding-top: $app-padding--small;
+          padding-bottom: $app-padding--small;
+          border: 1px solid $app-color--primary;
+          &:last-child {
+            margin-bottom: 0;
+          }
+          &.active {
+            color: $app-color--white;
+            background-color: $app-color--active;
+            border-color: $app-color--active;
+            position: relative;
+            &:after {
+              content: "";
+              top: calc(50% - 10px);
+              right: -21px;
+              border: 10px solid transparent;
+              border-left: 10px solid $app-color--active;
+              width: 20px;
+              height: 20px;
+              display: block;
+              position: absolute;
+            }
+            h3 {
+              color: $app-color--white;
+            }
+          }
+          h3 {
+            color: $app-color--primary;
+          }
+          p:last-child {
+            margin-bottom: 0;
+          }
+        }
+      }
+
+      .tab-content {
+        display: flex;
+        height: 100%;
+        .tab-pane {
+          position: absolute;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          background-position: center;
+          background-size: cover;
+          background-repeat: no-repeat;
+          padding: $app-padding--base;
+          display: flex;
+          flex-wrap: wrap;
+          align-items: flex-end;
+          align-content: flex-end;
+          @include border-radius;
+          overflow: hidden;
+          &:after {
+            content: "";
+            position: absolute;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(to top, $app-color--primary, transparent);
+          }
+          &.active {}
+          h3, p {
+            flex-basis: 100%;
+            color: $app-color--white;
+            position: relative;
+            z-index: 1;
+          }
+          h3 {
+            font-size: $app-fontsize--h1;
+          }
+          p {
+            font-size: $app-fontsize--medium;
+            &:last-child {
+              margin-bottom: 0;
+            }
+          }
+        }
+      }
+
+    }
+
+  }
+}

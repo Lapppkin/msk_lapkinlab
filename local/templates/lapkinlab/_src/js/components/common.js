@@ -1,22 +1,18 @@
 /**
  * Common scripts.
  *
- * @type {{init(): void, min: boolean, scrollToTop: Common.scrollToTop, modalsContainer: null}}
+ * @type {{appendModal(*=, *): void, setPhoneMask(): void, init(): void, min: boolean, ajaxUrl: string, scrollToTop(): void, clearModalsContainer(): void, setEmailMask(): void, isJsonString(*=): boolean, prepareAjaxOptions(): {type: string, url: string}, modalsContainer: string}}
  */
 let Common = {
 
     min: false,
+    modalsContainer: '#ajax-modals-container',
+    ajaxUrl: '/ajax/', // '/local/php_interface/ajax.php';
 
     /**
      * Init.
      */
     init() {
-
-        $(document).ready(function () {
-
-            Common.setPhoneMask();
-
-        });
 
         // Прокрутка страницы по хешу
         $(document).on('click', 'a[href^="#top"]', (e) => {
@@ -48,9 +44,41 @@ let Common = {
                 }
             });
 
+        // Открытие модалки
+        $(document).on('click', '.js-open-modal', (e) => {
+            let modalId = $(e.currentTarget).data('modal');
+            let options = this.prepareAjaxOptions();
+            options.data = {
+                action: $(e.currentTarget).data('action'),
+                modalId: modalId,
+            };
+            $.ajax(options)
+                .done((response) => {
+                    if (!Common.isJsonString(response)) {
+                        Common.appendModal(response, modalId);
+                    } else {
+                        console.error(response);
+                    }
+                })
+                .fail(error => console.error(error));
+        });
+
+        // Отправка формы
+        $(document).on('click', '.js-send-form', (e) => {
+
+
+
+        });
+
         // Раскрытие тарифов
         $(document).on('click', '.js-tarif-ext', () => {
             $('.js-tarif-ext').slideUp().nextAll().slideDown().css('display', 'flex');
+        });
+
+        // Обработчик после загрузки страницы
+        $(document).ready(function () {
+            Common.setEmailMask();
+            Common.setPhoneMask();
         });
 
         // Обработчик при прокрутке страницы
@@ -58,7 +86,9 @@ let Common = {
             Common.scrollToTop();
         });
 
+        // Обработчик после завершения ajax
         $(document).ajaxComplete(() => {
+            Common.setEmailMask();
             Common.setPhoneMask();
         });
 
@@ -83,22 +113,64 @@ let Common = {
      * Append content to modals container.
      *
      * @param content
+     * @param modalId
      */
-    appendModal(content) {
-        $('#ajax-modals-container').append(content);
+    appendModal(content, modalId) {
+        $(this.modalsContainer).append(content);
+        $('#' + modalId + '-modal').modal().on('hidden.bs.modal', () => {
+            $('#' + modalId + '-modal').remove();
+        });
     },
 
     /**
-     * Set phone masks.
+     * Clear modals container.
+     */
+    clearModalsContainer() {
+        $(this.modalsContainer).empty();
+    },
+
+    /**
+     * @return {boolean}
+     */
+    isJsonString(str) {
+        try {
+            JSON.parse(str);
+        } catch (e) {
+            return false;
+        }
+        return true;
+    },
+
+    /**
+     * Set phone mask.
      */
     setPhoneMask() {
         require('inputmask/dist/jquery.inputmask.bundle');
-        let phoneMask = {
+        $('input[name="PHONE"], input[name="phone"]').inputmask({
             mask: '+7 999 999-99-99',
             placeholder: '_',
+        });
+    },
+
+    /**
+     * Set email mask.
+     */
+    setEmailMask() {
+        require('inputmask/dist/jquery.inputmask.bundle');
+        new Inputmask('email').mask($('input[name="email"]'));
+    },
+
+    /**
+     * Prepare Ajax options.
+     *
+     * @returns {{type: string, url: string}}
+     */
+    prepareAjaxOptions() {
+        return {
+            url: Common.ajaxUrl,
+            type: 'post'
         };
-        $('input[name="PHONE"]').inputmask(phoneMask);
-    }
+    },
 
 };
 

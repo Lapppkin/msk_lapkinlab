@@ -1,1 +1,0 @@
-<span><i class="icon-phone"></i> </span>с 10:00 до 19:00 по MSK

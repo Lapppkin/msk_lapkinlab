@@ -41,6 +41,13 @@
         border-bottom: 0;
       }
     }
+    &.active {
+      > a {
+        color: $app-color--white;
+        background-color: $app-color--active;
+        border-bottom-color: $app-color--active;
+      }
+    }
     a {
       flex-basis: 100%;
       min-height: $app-navigation-height;
@@ -77,6 +84,7 @@
     right: 0;
     left: 0;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     width: 100%;
     border-top: 1px solid $app-color--border;
@@ -179,7 +187,9 @@
         padding-bottom: 15px;
         display: none;
       }
-      button {
+      a {
+        color: $app-color--white;
+        text-decoration: none !important;
         @media (max-width: map_get($grid-breakpoints, xl)) {
           width: 100%;
         }

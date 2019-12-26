@@ -155,17 +155,19 @@
   }
 
   // Slider Form
-  &-front-form {
-    width: 100%;
-    border: 1px solid $app-color--active;
-    @include border-radius;
-    padding: $app-padding--base;
-    @media (max-width: map_get($grid-breakpoints, md)) {
-      margin-top: $app-padding--base;
-    }
-    @media (max-width: map_get($grid-breakpoints, sm)) {
-      padding-left: $app-padding--small;
-      padding-right: $app-padding--small;
+  .contact-form {
+    &--form {
+      width: 100%;
+      border: 1px solid $app-color--active;
+      @include border-radius;
+      padding: $app-padding--base;
+      @media (max-width: map_get($grid-breakpoints, md)) {
+        margin-top: $app-padding--base;
+      }
+      @media (max-width: map_get($grid-breakpoints, sm)) {
+        padding-left: $app-padding--small;
+        padding-right: $app-padding--small;
+      }
     }
     &--title {
       @include head_font;
@@ -175,13 +177,19 @@
     }
     &--fields {
       .form-field {
+        flex-basis: 100%;
+        margin: 0 0 $app-padding--small;
         input {
           width: 100%;
         }
       }
     }
     &--actions {
-      margin-bottom: 10px;
+      flex-basis: 100%;
+      margin-top: $app-padding--small;
+      .form-action {
+        width: 100%;
+      }
       button[type="submit"] {
         width: 100%;
       }

@@ -34,19 +34,17 @@
     align-items: center;
     align-content: center;
   }
-  .phone {
-    @include head_font;
+  .about {
     display: inline-flex;
-    height: $app-navigation-height;
     align-items: center;
-    margin: 0 $app-padding--small;
-    a {
-      text-decoration: none;
-      color: $app-color--primary;
-    }
-    i {
-      margin-right: 5px;
-    }
+    margin: 0;
+    font-size: $app-fontsize--small;
+    position: absolute;
+    height: $app-navigation-height;
+    line-height: 1.05;
+    top: 0;
+    left: $app-navigation-height + 5px;
+    right: $app-navigation-height + 10px;
   }
   &--wrapper {
     border-top: 1px solid $app-color--border;
@@ -104,7 +102,9 @@
   }
 
   &--buttons {
-    button {
+    a {
+      color: $app-color--white;
+      text-decoration: none;
       width: 100%;
       flex-basis: 100%;
       i {

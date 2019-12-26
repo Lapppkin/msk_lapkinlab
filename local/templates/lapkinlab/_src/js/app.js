@@ -1,6 +1,6 @@
 import { svgLocalStorage } from './components/svg_localstorage';
 
-svgLocalStorage.init(1, '/app/images/symbol/sprite.svg', 'svg-container');
+svgLocalStorage.init(1, '/local/templates/lapkinlab/images/symbol/sprite.svg', 'svg-container');
 
 require('jquery');
 global.jQuery = global.$ = require('jquery');
@@ -9,7 +9,7 @@ global.jQuery = global.$ = require('jquery');
 require('bootstrap');
 
 require('owl.carousel');
-//require('@fancyapps/fancybox');
+require('@fancyapps/fancybox');
 //require('ion-rangeslider');
 //require('malihu-custom-scrollbar-plugin');
 

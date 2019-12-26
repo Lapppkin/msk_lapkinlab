@@ -1,10 +1,10 @@
-<section class="four">
+<!--seo калькулятор-->
+<section class="section--calculator">
     <div class="container">
         <div class="row">
-            <div class="col-md-12">
-                <p class="title_wh">Выберите свою стратегию продвижения</p>
-            </div>
-            <div class="col-md-12">
+            <h2 class="section--calculator--title col-12 text-center">Выберите свою стратегию продвижения</h2>
+
+            <div class="section--calculator--wrapper col-12">
                 <div class="container_v2">
                     <div id="cccallk">
                         <div style="text-align: center;">
