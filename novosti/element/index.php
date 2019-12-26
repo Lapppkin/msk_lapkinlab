@@ -5,8 +5,8 @@ $APPLICATION->SetPageProperty("title", "Обновление алгоритма 
 $APPLICATION->SetTitle("Яндекс обновил алгоритм подбора рекомендованных запросов");
 ?>
 <?$APPLICATION->IncludeComponent(
-	"bitrix:news.detail", 
-	"official1", 
+	"bitrix:news.detail",
+	"official1",
 	array(
 		"DISPLAY_DATE" => "Y",
 		"DISPLAY_NAME" => "Y",
