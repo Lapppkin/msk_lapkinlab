@@ -2,6 +2,7 @@
 
 
 use Bitrix\Main\EventManager;
+use Bitrix\Main\Config\Configuration;
 use LapkinLab\Core;
 use LapkinLab\Helper;
 
@@ -44,7 +45,7 @@ EventManager::getInstance()->addEventHandlerCompatible(
     'main',
     'OnEpilog',
     array(
-        Core::class, 'Check404Error'
+        Core::class, 'сheck404Error'
     ),
     1
 );

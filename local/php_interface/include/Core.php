@@ -73,8 +73,8 @@ class Core
     /**
      * Check 404 Error.
      */
-    public static function Check404Error () {
-        if ((defined('ERROR_404') && ERROR_404 == 'Y') || CHTTP::GetLastStatus() == '404 Not Found') {
+    public static function сheck404Error () {
+        if ((defined('ERROR_404') && ERROR_404 == 'Y') || \CHTTP::GetLastStatus() == '404 Not Found') {
             GLOBAL $APPLICATION;
             $APPLICATION->RestartBuffer();
             require $_SERVER['DOCUMENT_ROOT'] . SITE_TEMPLATE_PATH . '/header.php';
