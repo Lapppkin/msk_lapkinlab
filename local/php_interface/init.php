@@ -3,6 +3,7 @@
 
 use Bitrix\Main\EventManager;
 use LapkinLab\Core;
+use LapkinLab\Helper;
 
 
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
@@ -23,6 +24,10 @@ function dd($value, $public = false) {
 
 function renderIcon(string $name, string $class = '') {
     return Helper::renderIcon($name, $class);
+}
+
+function renderSprite(string $name, string $class = '') {
+    return Helper::renderSprite($name, $class);
 }
 
 ### EVENT HANDLERS ###

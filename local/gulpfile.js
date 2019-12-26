@@ -70,7 +70,7 @@ var path = {
         cssSprites: sourcesPath + 'css/base',
         spriteSvg: sourcesPath + 'images/icons/*.svg',
         spriteCss: appPath + 'images/symbol/sprite.scss',
-        sprite: sourcesPath + 'images/sprites/*.png',
+        sprite: sourcesPath + 'sprites/*.png',
         svgTemplate: sourcesPath + 'css/extra/_sprite_template.scss',
         html: sourcesPath + '*.pug',
         images: [
@@ -94,7 +94,7 @@ var path = {
             sourcesPath + '*.pug'
         ],
         spriteSvg: sourcesPath + 'images/icons/*.svg',
-        sprite: sourcesPath + 'images/sprites/*.png',
+        sprite: sourcesPath + 'sprites/*.png',
         html: [
             sourcesPath + '*.pug',
             sourcesPath + '_inc/*.pug',
@@ -224,7 +224,7 @@ function spriteBuild() {
         gulp.src(path.src.sprite).
             pipe(spritesmith({
                 imgName: 'sprite.png',
-                imgPath: '../images/sprite.png',
+                imgPath: 'images/sprite.png',
                 cssName: '_sprites_png.scss',
                 cssFormat: 'scss',
                     algorithm: 'binary-tree',
@@ -261,13 +261,13 @@ function watch() {
 gulp.task('watch', watch);
 
 // build task
-gulp.task('build', gulp.series(
+gulp.task('build', gulp.parallel(
+    gulp.series('sprite:build', 'images:build'),
     'sprite:build',
     'spriteSvg:build',
     'css:build',
     'js:build',
     //'html:build',
-    'images:build'
 ));
 
 // default task

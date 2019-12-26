@@ -58,7 +58,6 @@ class Helper
         die();
     }
 
-
     /**
      * Обрезка строки (мультибайтовая).
      *
@@ -121,7 +120,7 @@ class Helper
      *
      * @return string
      */
-    public static function setBodyClass(CMain $APPLICATION) {
+    public static function setBodyClass(CMain $APPLICATION): string {
         if (
             $APPLICATION->GetCurPage(false) === '/'
             || $APPLICATION->GetCurPage(false) === '/'
@@ -207,6 +206,18 @@ class Helper
         return (self::checkIE())
             ? "<i class=\"lapicon lapicon-{$name} {$class}\"></i>"
             : "<svg class=\"lapkin-icon lapkin-icon-{$name} {$class}\"><use xlink:href=\"#{$name}\"></use></svg>";
+    }
+
+    /**
+     * Рендер спрайта.
+     *
+     * @param string $name
+     * @param string $class
+     *
+     * @return string
+     */
+    public static function renderSprite(string $name, string $class = '') {
+        return "<i class=\"lapicon lapicon-{$name} {$class}\"></i>";
     }
 
     /**
