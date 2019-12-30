@@ -5,6 +5,7 @@ namespace LapkinLab;
 
 use Bitrix\Main\Application;
 use Respect\Validation\Validator as v;
+use LapkinLab\CyrillicUrlValidationRule as vCyrUrl;
 
 /**
  * Class Form
@@ -64,8 +65,8 @@ class Form
         $this->name = $this->request->get('name');
         $this->phone = $this->request->get('phone');
         $this->email = $this->request->get('email');
-        $this->message = $this->request->get('message');
         $this->site = $this->request->get('site');
+        $this->message = $this->request->get('message');
 
         $client  = @$_SERVER['HTTP_CLIENT_IP'];
         $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
@@ -205,7 +206,7 @@ BODY;
             $this->required($errors);
 
             // Валидация полей
-            if (!empty($this->name) && !v::noWhitespace()->length(1, 60)->validate($this->name)) {
+            if (!empty($this->name) && !v::length(1, 60)->validate($this->name)) {
                 $errors['name'][] = self::VALIDATE_ERRORS['format']['default'];
             }
             if (!empty($this->email) && !v::noWhitespace()->email()->validate($this->email)) {
@@ -214,10 +215,15 @@ BODY;
             if (!empty($this->phone) && !v::noWhitespace()->phone()->validate($this->phone)) {
                 $errors['phone'][] = self::VALIDATE_ERRORS['format']['phone'];
             }
-            if (!empty($this->site) && (!v::noWhitespace()->domain()->validate($this->site) && !v::noWhitespace()->url()->validate($this->site))) {
+            if (!empty($this->site) && (
+                    !v::noWhitespace()->domain()->validate($this->site)
+                    && !v::noWhitespace()->url()->validate($this->site)
+                    && !(new vCyrUrl())->validate($this->site)
+                )
+            ) {
                 $errors['site'][] = self::VALIDATE_ERRORS['format']['site'];
             }
-            if (!empty($this->message) && !v::noWhitespace()->length(1, 1000)->validate($this->message)) {
+            if (!empty($this->message) && !v::length(1, 1000)->validate($this->message)) {
                 $errors['message'][] = self::VALIDATE_ERRORS['format']['default'];
             }
 
