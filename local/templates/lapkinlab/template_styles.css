@@ -4070,8 +4070,42 @@ output {
     color: #a9a8a8;
 }
 
+.form-error {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    width: 100%;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #fff;
+    font-size: 12px;
+    margin: 15px 0 0;
+    padding: 3px 5px;
+    background-color: #d72e4c;
+    border-radius: 0.25rem;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
 .form-field {
     margin-bottom: 15px;
+    position: relative;
+}
+
+.form-field-error {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    color: #fff;
+    font-size: 10px;
+    margin: 0;
+    padding: 0 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #d72e4c;
+    border-radius: 0.25rem;
 }
 
 .form-field label {
@@ -5025,12 +5059,12 @@ body.mobile-menu-open {
 }
 
 .modal.show .modal-dialog {
-    margin-top: 61px;
+    margin-top: 62px;
     opacity: 1;
 }
 
 .modal-backdrop {
-    background-color: #fff;
+    background-color: #38384f;
 }
 
 .modal-backdrop.show {
@@ -5071,10 +5105,16 @@ body.mobile-menu-open {
     color: #38384f;
     background-color: transparent;
     opacity: 0.3;
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
 }
 
 .modal button.close:hover {
     opacity: 1;
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" /></filter></svg>#filter');
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
 }
 
 .modal-content {
@@ -5103,7 +5143,7 @@ body.mobile-menu-open {
 .modal-content .contact-form--fields .form-field {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
-    margin: 0 0 25px;
+    margin: 0 0 20px;
 }
 
 .modal-content .contact-form--actions {
@@ -13790,6 +13830,13 @@ Build date: 2018-12-11 23:23:51
   .footer--nav-top--contacts--email {
         -ms-flex-preferred-size: 50%;
         flex-basis: 50%;
+    }
+
+    .modal button.close {
+        opacity: 1;
+        filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" /></filter></svg>#filter');
+        -webkit-filter: grayscale(0);
+        filter: grayscale(0);
     }
 
     .slider {

@@ -1,4 +1,4 @@
-let frontSlider = {
+let FrontSlider = {
 
     instance: {},
 
@@ -46,4 +46,4 @@ let frontSlider = {
 
 };
 
-export { frontSlider };
+export { FrontSlider };

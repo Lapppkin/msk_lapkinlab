@@ -13,46 +13,22 @@ use Bitrix\Main\Application;
  */
 class Ajax
 {
-    protected $request;
-    protected $viewsPath;
+    use Lapkin;
 
-    // запрет создания и копирования статического объекта класса
+    protected $request;
+    protected $views_dir;
+
+    /**
+     * Ajax constructor.
+     *
+     * @throws \Bitrix\Main\SystemException
+     */
     public function __construct() {
         $application = Application::getInstance();
         $context = $application->getContext();
         $this->request = $context->getRequest();
 
-        $this->viewsPath = $_SERVER['DOCUMENT_ROOT'] . '/include/views/';
-    }
-    //private function __clone() {}
-
-    /**
-     * Коды ошибок.
-     *
-     * @var array Error Responses.
-     */
-    public static $errors = array(
-        200 => '200 OK',
-        304 => '304 Not Modified',
-        400 => '400 Bad Request',
-        404 => '404 Not Found',
-        405 => '405 Method Not Allowed',
-        500 => '500 Internal Server Error',
-        503 => '503 Service Unavailable',
-    );
-
-    /**
-     * Установка названия метода (инициализация).
-     *
-     * @param $function_name
-     *
-     * @return array
-     */
-    protected static function initResponse(string $function_name): array
-    {
-        return array(
-            'method' => $function_name,
-        );
+        $this->views_dir = ROOT . VIEWS_PATH;
     }
 
     /**
@@ -67,7 +43,7 @@ class Ajax
     protected function view($name, $params = array(), $print = true)
     {
         // Проброс экземпляра приложения во view
-        $filePath = $this->viewsPath . $name . '.php';
+        $filePath = $this->views_dir . $name . '.php';
         $output = null;
         if (file_exists($filePath)) {
             extract($params);         // Извлекаем переменные в локальный неймспейс
@@ -77,7 +53,7 @@ class Ajax
         } else {
             $result = [];
             $result['views'] = $name;
-            return self::setErrors($result, 404);
+            return self::setResponse($result, 404);
         }
         if ($print) {
             print $output;
@@ -87,42 +63,12 @@ class Ajax
     }
 
     /**
-     * Установка параметров ошибки.
-     *
-     * @param $result
-     * @param $error
-     * @return mixed
-     */
-    protected static function setErrors(&$result, $error)
-    {
-        $result['error'] = array(
-            'code' => $error,
-            'message' => self::$errors[$error]
-        );
-        return $result;
-    }
-
-    /**
-     * Возврат ошибок.
-     *
-     * @param $error
-     * @return mixed
-     */
-    public static function errorsOnly($error)
-    {
-        $result['error'] = array(
-            'code' => $error,
-            'message' => self::$errors[$error]
-        );
-        return $result;
-    }
-
-    /**
      * Открытие модального окна.
      *
      * @param $params
      *
      * @return false|string|null
+     * @throws \Bitrix\Main\SystemException
      */
     public static function openModal($params)
     {
@@ -131,9 +77,32 @@ class Ajax
         return $ajax->view('modals/' . $params['modalId'], array('id' => $params['modalId']));
     }
 
+    /**
+     * Отправка формы.
+     *
+     * @param $params
+     *
+     * @return mixed
+     * @throws \Bitrix\Main\SystemException
+     */
     public static function sendForm($params)
     {
-        $result = self::initResponse(__FUNCTION__);
+        $response = self::initResponse(__FUNCTION__);
+
+        $form = new Form();
+        $errors = $form->validate();
+        if (!empty($errors)) {
+            $response['errors'] = $errors;
+            return self::setResponse($response, 200);
+        }
+
+        $to = array(
+            SITE_CONFIG['send_to']
+        );
+        $form->createIBlockElement();
+        $mail = $form->sendEmail($to);
+        $amo = $form->createAmoLead();
+        return self::setResponse($response, $mail ? 200 : 500);
     }
 
 }

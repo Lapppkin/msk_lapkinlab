@@ -1,5 +1,6 @@
 import { Common } from './components/common';
-import { frontSlider } from './components/front_slider';
+import { Ajax } from './components/ajax';
+import { FrontSlider } from './components/front_slider';
 
 /**
  * Init application.
@@ -7,7 +8,8 @@ import { frontSlider } from './components/front_slider';
 function Init () {
 
     Common.init();
-    frontSlider.init();
+    Ajax.init();
+    FrontSlider.init();
 
 }
 

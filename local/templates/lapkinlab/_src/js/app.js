@@ -1,6 +1,6 @@
-import { svgLocalStorage } from './components/svg_localstorage';
+import { SvgLocalStorage } from './components/svg_localstorage';
 
-svgLocalStorage.init(1, '/local/templates/lapkinlab/images/symbol/sprite.svg', 'svg-container');
+SvgLocalStorage.init(1, '/local/templates/lapkinlab/images/symbol/sprite.svg', 'svg-container');
 
 require('jquery');
 global.jQuery = global.$ = require('jquery');

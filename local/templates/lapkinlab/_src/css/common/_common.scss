@@ -8,12 +8,12 @@
   align-items: center;
   &.show {
     .modal-dialog {
-      margin-top: $app-navigation-height +1;
+      margin-top: $app-navigation-height +2;
       opacity: 1;
     }
   }
   &-backdrop {
-    background-color: $app-color--white;
+    background-color: $app-color--primary;
     &.show {
       opacity: 0.6;
     }
@@ -44,8 +44,14 @@
     color: $app-color--primary;
     background-color: transparent;
     opacity: 0.3;
+    filter: grayscale(1);
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      opacity: 1;
+      filter: grayscale(0);
+    }
     &:hover {
       opacity: 1;
+      filter: grayscale(0);
     }
   }
 
@@ -70,7 +76,7 @@
         flex-wrap: wrap;
         .form-field {
           flex-basis: 100%;
-          margin: 0 0 $app-padding--small+10;
+          margin: 0 0 $app-padding--small+5;
         }
       }
       &--privacy {}

@@ -76,8 +76,33 @@ output {
   color: $app-color--secondary;
 }
 
+.form-error {
+  flex-basis: 100%;
+  width: 100%;
+  display: inline-flex;
+  color: $app-color--white;
+  font-size: $app-fontsize--smaller;
+  margin: 15px 0 0;
+  padding: 3px 5px;
+  background-color: $app-color--active-dark;
+  @include border-radius;
+  justify-content: center;
+}
 .form-field {
   margin-bottom: 15px;
+  position: relative;
+  &-error {
+    display: inline-flex;
+    color: $app-color--white;
+    font-size: $app-fontsize--smaller - 2;
+    margin: 0;
+    padding: 0 5px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: $app-color--active-dark;
+    @include border-radius;
+  }
   label {
     display: none;
   }

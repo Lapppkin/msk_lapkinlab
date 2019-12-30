@@ -9,9 +9,11 @@ use LapkinLab\Helper;
 
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('ERROR_500', '500 Internal Server Error');
-define('INCLUDE_DIR', ROOT . '/local/php_interface/include/');
+define('INCLUDE_DIR', ROOT . '/include/');
+define('VIEWS_PATH', '/include/views/');
 
 define('SITE_CONFIG', Configuration::getInstance()->get('site'));
+define('AMO_CONFIG', Configuration::getInstance()->get('amo'));
 
 require_once $_SERVER['DOCUMENT_ROOT'] . '/local/vendor/autoload.php';
 

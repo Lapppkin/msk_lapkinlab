@@ -3,7 +3,7 @@
  *
  * @type {{init(*=, *, *=): (boolean|undefined)}}
  */
-let svgLocalStorage = {
+let SvgLocalStorage = {
 
     init(revision, spriteFile, svgContainerId) {
 
@@ -55,4 +55,4 @@ let svgLocalStorage = {
 
 };
 
-export { svgLocalStorage };
+export { SvgLocalStorage };

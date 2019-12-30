@@ -21,11 +21,12 @@ $field_params = array(
 <form class="contact-form--form" id="<?= $id ?>-form">
     <?= bitrix_sessid_post() ?>
     <input type="hidden" name="id" value="<?= $id ?>">
+    <input type="hidden" name="required" value="<?= base64_encode(implode(',', $required)) ?>">
     <?php if ($wrapper): ?><div class="contact-form--wrapper"><?php endif; ?>
         <h2 class="contact-form--title text-center"><?= $title ?></h2>
         <div class="contact-form--fields">
             <?php foreach ($fields as $field): ?>
-                <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/fields/' . $field . '.php', $field_params) ?>
+                <?php $APPLICATION->IncludeFile(VIEWS_PATH . 'fields/' . $field . '.php', $field_params) ?>
             <?php endforeach; ?>
         </div>
         <div class="contact-form--privacy">
@@ -33,7 +34,7 @@ $field_params = array(
         </div>
         <div class="contact-form--actions">
             <div class="form-action">
-                <button class="button" type="submit"><?= $submit_button ?></button>
+                <button class="button js-send-form" type="submit"><?= $submit_button ?></button>
             </div>
         </div>
     <?php if ($wrapper): ?></div><?php endif; ?>

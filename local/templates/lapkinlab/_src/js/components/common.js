@@ -6,8 +6,6 @@
 let Common = {
 
     min: false,
-    modalsContainer: '#ajax-modals-container',
-    ajaxUrl: '/ajax/', // '/local/php_interface/ajax.php';
 
     /**
      * Init.
@@ -44,40 +42,14 @@ let Common = {
                 }
             });
 
-        // Открытие модалки
-        $(document).on('click', '.js-open-modal', (e) => {
-            let modalId = $(e.currentTarget).data('modal');
-            let options = this.prepareAjaxOptions();
-            options.data = {
-                action: $(e.currentTarget).data('action'),
-                modalId: modalId,
-            };
-            $.ajax(options)
-                .done((response) => {
-                    if (!Common.isJsonString(response)) {
-                        Common.appendModal(response, modalId);
-                    } else {
-                        console.error(response);
-                    }
-                })
-                .fail(error => console.error(error));
-        });
-
-        // Отправка формы
-        $(document).on('click', '.js-send-form', (e) => {
-
-
-
-        });
-
         // Раскрытие тарифов
         $(document).on('click', '.js-tarif-ext', () => {
             $('.js-tarif-ext').slideUp().nextAll().slideDown().css('display', 'flex');
         });
 
         // Обработчик после загрузки страницы
-        $(document).ready(function () {
-            Common.setEmailMask();
+        $(document).ready(() => {
+            //Common.setEmailMask();
             Common.setPhoneMask();
         });
 
@@ -88,7 +60,7 @@ let Common = {
 
         // Обработчик после завершения ajax
         $(document).ajaxComplete(() => {
-            Common.setEmailMask();
+            //Common.setEmailMask();
             Common.setPhoneMask();
         });
 
@@ -110,26 +82,6 @@ let Common = {
     },
 
     /**
-     * Append content to modals container.
-     *
-     * @param content
-     * @param modalId
-     */
-    appendModal(content, modalId) {
-        $(this.modalsContainer).append(content);
-        $('#' + modalId + '-modal').modal().on('hidden.bs.modal', () => {
-            $('#' + modalId + '-modal').remove();
-        });
-    },
-
-    /**
-     * Clear modals container.
-     */
-    clearModalsContainer() {
-        $(this.modalsContainer).empty();
-    },
-
-    /**
      * @return {boolean}
      */
     isJsonString(str) {
@@ -147,7 +99,7 @@ let Common = {
     setPhoneMask() {
         require('inputmask/dist/jquery.inputmask.bundle');
         $('input[name="PHONE"], input[name="phone"]').inputmask({
-            mask: '+7 999 999-99-99',
+            mask: '+7(999)999-9999',
             placeholder: '_',
         });
     },
@@ -158,19 +110,7 @@ let Common = {
     setEmailMask() {
         require('inputmask/dist/jquery.inputmask.bundle');
         new Inputmask('email').mask($('input[name="email"]'));
-    },
-
-    /**
-     * Prepare Ajax options.
-     *
-     * @returns {{type: string, url: string}}
-     */
-    prepareAjaxOptions() {
-        return {
-            url: Common.ajaxUrl,
-            type: 'post'
-        };
-    },
+    }
 
 };
 

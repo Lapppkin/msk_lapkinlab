@@ -42,9 +42,9 @@ $asset = Asset::getInstance();
     <!--opengraph-->
     <meta property="og:title" content="<?php $APPLICATION->ShowTitle() ?>">
     <meta property="og:description" content="<?php $APPLICATION->ShowProperty('description') ?>">
-    <meta property="og:image" content="https://<?= SITE_SERVER_NAME . SITE_TEMPLATE_PATH ?>/images/logo.png">
+    <meta property="og:image" content="https://<?= $_SERVER['HTTP_HOST'] . SITE_TEMPLATE_PATH ?>/images/logo.png">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://<?= SITE_SERVER_NAME . $APPLICATION->GetCurUri() ?>">
+    <meta property="og:url" content="https://<?= $_SERVER['HTTP_HOST'] . $APPLICATION->GetCurUri() ?>">
 
     <?php $scripts = array(
         '/js/vendor.app.min.js',
@@ -65,7 +65,7 @@ $asset = Asset::getInstance();
     <div class="hidden" hidden itemscope itemtype="http://schema.org/Organization">
         <meta itemprop="name" content="<?= SITE_CONFIG['name'] ?>">
         <meta itemprop="description" content="<?= SITE_CONFIG['description'] ?>">
-        <a itemprop="url" href="https://<?= SITE_SERVER_NAME ?>"></a>
+        <a itemprop="url" href="https://<?= $_SERVER['HTTP_HOST'] ?>"></a>
         <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
             <meta itemprop="postalCode" content="">
             <meta itemprop="addressCountry" content="Russia">
@@ -102,4 +102,4 @@ $asset = Asset::getInstance();
         <?php endif; ?>
 
         <!--main-->
-        <main role="main">
+        <main id="main-content">

@@ -1,3 +1,8 @@
+<?php
+
+use LapkinLab\Core;
+
+?>
 <!--мы любим свое дело-->
 <section class="section--love">
     <div class="container">
@@ -17,7 +22,7 @@
                     <?= renderSprite('olive') ?><span class="top40">40</span><span class="text">Входим в TOP40 seo студий</span>
                 </div>
                 <div class="section--love--abilities-hello"><span>Познакомимся?</span>
-                    <button class="button" type="button">Заполнить бриф</button>
+                    <a class="btn" href="<?= Core::getBriefLink() ?>" target="_blank">Заполнить бриф</a>
                 </div>
             </div>
         </div>
