@@ -3,7 +3,7 @@ import { Common } from './common';
 /**
  * Ajax Handlers.
  *
- * @type {{appendModal(*=, *): void, init(): void, ajaxUrl: string, clearModalsContainer(): void, prepareAjaxOptions(): {type: string, url: string}, modalsContainer: string}}
+ * @type {{appendModal(*=, *): void, init(): void, ajaxUrl: string, clearModalsContainer(): void, clearErrors(): void, prepareAjaxOptions(): {type: string, url: string}, modalsContainer: string, setErrors(*, *): void}}
  */
 let Ajax = {
 
@@ -23,6 +23,8 @@ let Ajax = {
                 action: $(e.currentTarget).data('action'),
                 modalId: modalId,
             };
+            let tarif = $(e.currentTarget).data('tarif');
+            if (tarif !== undefined) options.data.tarif = tarif;
             $.ajax(options)
                 .done((response) => {
                     if (!Common.isJsonString(response)) {

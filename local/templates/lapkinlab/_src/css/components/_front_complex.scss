@@ -15,6 +15,9 @@
 
     &--wrapper {
       overflow-x: auto;
+      @media (max-width: map_get($grid-breakpoints, md)) {
+        overflow: initial;
+      }
 
       .tarifs-wrap {
         min-width: map_get($grid-breakpoints, lg);
@@ -31,7 +34,6 @@
     }
 
     &--content {
-
       .nav {
         .nav-link {
           @include border-radius;
@@ -59,6 +61,9 @@
               height: 20px;
               display: block;
               position: absolute;
+              @media (max-width: map_get($grid-breakpoints, md)) {
+                display: none;
+              }
             }
             h3 {
               color: $app-color--white;
@@ -76,6 +81,11 @@
       .tab-content {
         display: flex;
         height: 100%;
+        @media (max-width: map_get($grid-breakpoints, md)) {
+          min-height: 400px;
+          margin-top: 15px;
+          position: relative;
+        }
         .tab-pane {
           position: absolute;
           top: 0;
@@ -112,9 +122,15 @@
           }
           h3 {
             font-size: $app-fontsize--h1;
+            @media (max-width: map_get($grid-breakpoints, md)) {
+              font-size: $app-fontsize--h3;
+            }
           }
           p {
             font-size: $app-fontsize--medium;
+            @media (max-width: map_get($grid-breakpoints, md)) {
+              font-size: $app-fontsize--base;
+            }
             &:last-child {
               margin-bottom: 0;
             }

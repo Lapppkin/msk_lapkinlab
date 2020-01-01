@@ -7,7 +7,7 @@
 
                 <div class="row">
 
-                    <div class="col-xl-3 offset-xl-1 col-lg-4 offset-lg-0 col-xs-12">
+                    <div class="col-xl-3 offset-xl-1 col-lg-4 offset-lg-0 col-md-5 col-sm-12 col-xs-12">
                         <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
                             <a class="nav-link active" id="v-pills-analyze-tab" data-toggle="pill" href="#v-pills-analyze" role="tab" aria-controls="v-pills-analyze" aria-selected="true">
                                 <h3>Анализ конкурентов</h3>
@@ -28,7 +28,7 @@
                         </div>
                     </div>
 
-                    <div class="col-xl-7 col-xs-12">
+                    <div class="col-xl-7 col-lg-8 col-md-7 col-sm-12 col-xs-12">
                         <div class="tab-content" id="v-pills-tabContent">
                             <div class="tab-pane fade show active" id="v-pills-analyze" role="tabpanel" aria-labelledby="v-pills-analyze-tab" style="background-image: url(<?= SITE_TEMPLATE_PATH ?>/images/complex/analyze.jpg)">
                                 <h3>Анализ конкурентов</h3>

@@ -196,11 +196,11 @@
         @media (max-width: map_get($grid-breakpoints, lg)) {
           padding-left: 15px;
           padding-right: 15px;
+          font-size: $app-fontsize--base;
         }
         @media (max-width: map_get($grid-breakpoints, md)) {
           padding-left: 15px;
           padding-right: 15px;
-          font-size: $app-fontsize--base;
         }
         i {
           margin-right: 8px;

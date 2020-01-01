@@ -56,12 +56,12 @@ use LapkinLab\Helper;
                                 <div class="footer--nav-top--contacts">
                                     <div class="footer--nav-top--contacts--phone">
                                         <a href="tel:<?= Helper::parsePhone(SITE_CONFIG['phone'], 'full') ?>">
-                                            <?= renderSprite('call-white') ?><?= Helper::parsePhone(SITE_CONFIG['phone'], 'formatted') ?></a><br><a href="#">Заказать звонок</a>
+                                            <?= renderSprite('call-white') ?><?= Helper::parsePhone(SITE_CONFIG['phone'], 'formatted') ?></a><br><a href="#" class="js-open-modal" data-action="openModal" data-modal="callback">Заказать звонок</a>
                                     </div>
                                     <div class="footer--nav-top--contacts--email">
                                         <a href="mailto:<?= SITE_CONFIG['email'] ?>"><?= SITE_CONFIG['email'] ?></a>
                                         <br>
-                                        <a href="#win1">Быстро отвечаем</a>
+                                        <a href="#" class="js-open-modal" data-action="openModal" data-modal="audit">Быстро отвечаем</a>
                                     </div>
                                     <div class="footer--nav-top--contacts--address">
                                         <p>
@@ -103,10 +103,10 @@ use LapkinLab\Helper;
         <!--scroll to top-->
         <div class="hidden-xs" id="scroll-to-top"><a href="#top" title="наверх" rel="nofollow">↑</a></div>
 
-        <!--modals container-->
-        <div id="ajax-modals-container"></div>
-
     </div><!--/#top-->
+
+    <!--modals container-->
+    <div id="ajax-modals-container"></div>
 
     <?php if (!$USER->IsAdmin()): ?>
         <?php $APPLICATION->IncludeFile('/include/seo.php') ?>

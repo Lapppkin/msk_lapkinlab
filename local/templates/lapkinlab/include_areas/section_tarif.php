@@ -94,7 +94,7 @@
                     <div class="tarif-status"><?= renderSprite('enable') ?></div>
                     <div class="tarif-status"><?= renderSprite('enable') ?></div>
                     <div class="tarif-price"><span class="price">от 30&nbsp;000&nbsp;руб.</span>
-                        <button class="btn-sm">Выбрать</button>
+                        <button class="btn-sm js-open-modal" data-action="openModal" data-modal="tarifs" data-tarif="standard">Выбрать</button>
                     </div>
                 </div>
                 <div class="section--tarif--type section--tarif--type-minimal col-2">
@@ -138,7 +138,7 @@
                     <div class="tarif-status"><?= renderSprite('disable') ?></div>
                     <div class="tarif-status"><?= renderSprite('disable') ?></div>
                     <div class="tarif-price"><span class="price">от 15&nbsp;000 руб.</span>
-                        <button class="btn-sm">Выбрать</button>
+                        <button class="btn-sm js-open-modal" data-action="openModal" data-modal="tarifs" data-tarif="minimal">Выбрать</button>
                     </div>
                 </div>
                 <div class="section--tarif--type section--tarif--type-extended col-2">
@@ -182,7 +182,7 @@
                     <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
                     <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
                     <div class="tarif-price"><span class="price">от 45&nbsp;000 руб.</span>
-                        <button class="btn-sm">Выбрать</button>
+                        <button class="btn-sm js-open-modal" data-action="openModal" data-modal="tarifs" data-tarif="extended">Выбрать</button>
                     </div>
                 </div>
             </div>

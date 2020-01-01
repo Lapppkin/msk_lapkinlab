@@ -9,11 +9,18 @@
  * @var $fields
  * @var $required
  * @var $wrapper
+ * @var $tarif
  */
 
 $field_params = array(
     'id' => $id,
     'required' => $required,
+);
+
+$tarif_names = array(
+    'standard' => 'Стандартный',
+    'minimal' => 'Минимальный',
+    'extended' => 'Расширенный',
 );
 
 ?>
@@ -22,8 +29,14 @@ $field_params = array(
     <?= bitrix_sessid_post() ?>
     <input type="hidden" name="id" value="<?= $id ?>">
     <input type="hidden" name="required" value="<?= base64_encode(implode(',', $required)) ?>">
+    <?php if ($tarif): ?>
+    <input type="hidden" name="tarif" value="<?= $tarif ?>">
+    <?php endif; ?>
     <?php if ($wrapper): ?><div class="contact-form--wrapper"><?php endif; ?>
         <h2 class="contact-form--title text-center"><?= $title ?></h2>
+        <?php if ($tarif): ?>
+        <p class="text-center">Тариф: <?= $tarif_names[$tarif] ?></p>
+        <?php endif; ?>
         <div class="contact-form--fields">
             <?php foreach ($fields as $field): ?>
                 <?php $APPLICATION->IncludeFile(VIEWS_PATH . 'fields/' . $field . '.php', $field_params) ?>

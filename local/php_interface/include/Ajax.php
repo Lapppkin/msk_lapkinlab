@@ -74,7 +74,7 @@ class Ajax
     {
         //$result = self::initResponse(__FUNCTION__);
         $ajax = new self();
-        return $ajax->view('modals/' . $params['modalId'], array('id' => $params['modalId']));
+        return $ajax->view('modals/' . $params['modalId'], array('id' => $params['modalId'], 'tarif' => $params['tarif']));
     }
 
     /**

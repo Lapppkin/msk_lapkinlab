@@ -49,9 +49,16 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        @media (max-width: map_get($grid-breakpoints, md)) {
+          padding: 0 $app-padding--small /2;
+        }
         .nav-item {
           flex-grow: 1;
           flex-basis: 33.333%;
+          @media (max-width: map_get($grid-breakpoints, md)) {
+            flex-basis: 100%;
+            margin-bottom: 10px;
+          }
         }
         .nav-link {
           @include border-radius;
@@ -62,7 +69,7 @@
           padding-bottom: $app-padding--small;
           border: 1px solid rgba($app-color--white, 0.3);
           @include head_font;
-          font-size: $app-fontsize--h3;
+          font-size: $app-fontsize--base;
           margin-right: $app-padding--small /2;
           margin-left: $app-padding--small /2;
           text-align: center;
@@ -89,6 +96,9 @@
           @include border-radius;
           overflow: hidden;
           padding: $app-padding--small /2;
+          @media (max-width: map_get($grid-breakpoints, md)) {
+            padding: $app-padding--small;
+          }
           &--wrapper {
             display: flex;
             flex-wrap: wrap;
@@ -122,9 +132,15 @@
           &--task {
             flex-basis: 40%;
             padding-right: $app-padding--base;
+            @media (max-width: map_get($grid-breakpoints, sm)) {
+              flex-basis: 100%;
+            }
           }
           &--result {
             flex-basis: 60%;
+            @media (max-width: map_get($grid-breakpoints, sm)) {
+              flex-basis: 100%;
+            }
           }
 
           &--images {
@@ -133,10 +149,24 @@
             justify-content: space-between;
             margin-top: $app-padding--base;
             margin-bottom: $app-padding--base;
-            img:first-child {
-              margin-right: 15px;
+            @media (max-width: map_get($grid-breakpoints, md)) {
+              flex-wrap: wrap;
             }
-            img:last-child {}
+            img {
+              &:first-child {
+                margin-right: 15px;
+                max-width: 60%;
+                @media (max-width: map_get($grid-breakpoints, md)) {
+                  max-width: 100%;
+                  margin-right: 0;
+                }
+              }
+              &:last-child {}
+              @media (max-width: map_get($grid-breakpoints, md)) {
+                flex-basis: 100%;
+                margin-bottom: 10px;
+              }
+            }
           }
           &--desc {
             flex-basis: 100%;

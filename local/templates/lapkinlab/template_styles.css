@@ -4034,7 +4034,15 @@ input {
 textarea:focus,
 select:focus,
 input:focus {
-    border-color: #fa3a5e;
+    border-color: #38384f;
+}
+
+textarea:invalid,
+select:invalid,
+input:invalid {
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 textarea[type="search"],
@@ -4098,14 +4106,20 @@ output {
     display: -ms-inline-flexbox;
     display: inline-flex;
     color: #fff;
-    font-size: 10px;
+    font-size: 11px;
     margin: 0;
     padding: 0 5px;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 2px;
+    right: 2px;
     background-color: #d72e4c;
     border-radius: 0.25rem;
+}
+
+.form-field-error ~ input,
+.form-field-error ~ select,
+.form-field-error ~ textarea {
+    border-color: #d72e4c;
 }
 
 .form-field label {
@@ -6005,6 +6019,10 @@ body.mobile-menu-open {
     font-size: 24px;
 }
 
+.section--tarif--type-standard .tarif-status {
+    color: #fa3a5e;
+}
+
 .section--reviews {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -6344,7 +6362,7 @@ body.mobile-menu-open {
     font-family: "Montserrat", serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 20px;
+    font-size: 16px;
     margin-right: 7.5px;
     margin-left: 7.5px;
     text-align: center;
@@ -6457,6 +6475,7 @@ body.mobile-menu-open {
 
 .section--cases--content .tab-content .tab-pane--images img:first-child {
     margin-right: 15px;
+    max-width: 60%;
 }
 
 .section--cases--content .tab-content .tab-pane--desc {
@@ -6543,6 +6562,7 @@ body.mobile-menu-open {
     object-position: center;
     max-width: 100%;
     height: auto;
+    width: 100%;
 }
 
 .section--article--item-title {
@@ -13680,6 +13700,7 @@ Build date: 2018-12-11 23:23:51
     .header--top-buttons a {
         padding-left: 15px;
         padding-right: 15px;
+        font-size: 16px;
     }
 
     .header--nav-logo {
@@ -13767,6 +13788,11 @@ Build date: 2018-12-11 23:23:51
         -ms-flex-preferred-size: 310px;
         flex-basis: 310px;
     }
+
+    .section--article--item {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
 }
 
 @media (max-width: 1023.98px) {
@@ -13786,7 +13812,6 @@ Build date: 2018-12-11 23:23:51
     .header--top-buttons a {
         padding-left: 15px;
         padding-right: 15px;
-        font-size: 16px;
     }
 
     .header--nav-logo {
@@ -13851,6 +13876,63 @@ Build date: 2018-12-11 23:23:51
     .section--seo--item {
         -ms-flex-preferred-size: 80%;
         flex-basis: 80%;
+    }
+
+    .section--tarif--type .tarif-price button {
+        display: block;
+    }
+
+    .section--complex--wrapper {
+        overflow: visible;
+        overflow: initial;
+    }
+
+    .section--complex--content .nav .nav-link.active:after {
+        display: none;
+    }
+
+    .section--complex--content .tab-content {
+        min-height: 400px;
+        margin-top: 15px;
+        position: relative;
+    }
+
+    .section--complex--content .tab-content .tab-pane h3 {
+        font-size: 20px;
+    }
+
+    .section--complex--content .tab-content .tab-pane p {
+        font-size: 16px;
+    }
+
+    .section--cases--content .nav {
+        padding: 0 7.5px;
+    }
+
+    .section--cases--content .nav .nav-item {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin-bottom: 10px;
+    }
+
+    .section--cases--content .tab-content .tab-pane {
+        padding: 15px;
+    }
+
+    .section--cases--content .tab-content .tab-pane--images {
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    }
+
+    .section--cases--content .tab-content .tab-pane--images img:first-child {
+        max-width: 100%;
+        margin-right: 0;
+    }
+
+    .section--cases--content .tab-content .tab-pane--images img {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin-bottom: 10px;
     }
 
     .contact-form--fields .form-field {
@@ -14058,6 +14140,16 @@ Build date: 2018-12-11 23:23:51
     .section--cases {
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+
+    .section--cases--content .tab-content .tab-pane--task {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+
+    .section--cases--content .tab-content .tab-pane--result {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
     }
 
     .section--article {

@@ -18,8 +18,9 @@ $params = array(
     'required' => array(
         'name',
         'phone',
+        'site',
     ),
-    'submit_button' => 'Заказать',
+    'submit_button' => 'Заказать аудит',
     'wrapper' => true,
 ); ?>
 <div class="modal" tabindex="-1" role="dialog" id="<?= $id ?>-modal">

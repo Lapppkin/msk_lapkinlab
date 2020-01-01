@@ -26,6 +26,7 @@ class Form
     protected $phone;
     protected $email;
     protected $message;
+    protected $tarif;
 
     protected $required; // данные о required полях
 
@@ -67,6 +68,7 @@ class Form
         $this->email = $this->request->get('email');
         $this->site = $this->request->get('site');
         $this->message = $this->request->get('message');
+        $this->tarif = $this->request->get('tarif');
 
         $client  = @$_SERVER['HTTP_CLIENT_IP'];
         $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
@@ -104,7 +106,8 @@ class Form
                 8  => $this->message,
                 9  => $this->ip,
                 10 => $this->url,
-                11 => $this->form_id,
+                11 => $this->tarif,
+                12 => $this->form_id,
             ),
         );
         return $element->Add($elementFields);
@@ -145,6 +148,7 @@ HEADERS;
         <p>Телефон: {$this->phone}</p>
         <p>Сайт: {$this->site}</p>
         <p>Сообщение: {$this->message}</p>
+        <p>Тариф: {$this->tarif}</p>
         <br>
         <p>Страница отправки: {$this->url}</p>
         <p>IP отправки: {$this->ip}</p>

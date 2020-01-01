@@ -25,13 +25,13 @@
                     <div class="section--traffic--item-months">4 - 6 месяцев</div>
                     <div class="section--traffic--item-icon"><?= renderSprite('st3') ?></div>
                     <div class="section--traffic--item-name">3 этап</div>
-                    <div class="section--traffic--item-desc">Выход в ТОП 10. <br> Рост трафика, первые обращения клиентов, заявки и продажи с сайта</div>
+                    <div class="section--traffic--item-desc">Выход в ТОП-10. <br> Рост трафика, первые обращения клиентов, заявки и продажи с сайта</div>
                 </div>
                 <div class="section--traffic--item">
                     <div class="section--traffic--item-months">6 - 12 месяцев</div>
                     <div class="section--traffic--item-icon"><?= renderSprite('st4') ?></div>
                     <div class="section--traffic--item-name">4 этап</div>
-                    <div class="section--traffic--item-desc">Выход сайта в ТОП 10 по всему списку запросов. <br> Рост продаж, узнаваемость бренда и завоевание рынка</div>
+                    <div class="section--traffic--item-desc">Выход сайта в ТОП-10 по всему списку запросов. <br> Рост продаж, узнаваемость бренда и завоевание рынка</div>
                 </div>
             </div>
         </div>

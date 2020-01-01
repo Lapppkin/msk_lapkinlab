@@ -160,6 +160,9 @@
             bottom: 0;
             left: 50%;
             transform: translateX(-50%);
+            @media (max-width: map_get($grid-breakpoints, md)) {
+              display: block;
+            }
           }
         }
       }
@@ -176,6 +179,9 @@
           span.price {
             font-size: $app-fontsize--h2;
           }
+        }
+        .tarif-status {
+          color: $app-color--active;
         }
       }
       &-minimal {

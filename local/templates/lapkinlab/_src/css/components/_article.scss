@@ -49,6 +49,9 @@
       background-color: $app-color--white;
       @include border-radius;
       overflow: hidden;
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        flex-basis: 100%;
+      }
       &-image {
         flex-basis: 100%;
         a {
@@ -61,6 +64,7 @@
             object-position: center;
             max-width: 100%;
             height: auto;
+            width: 100%;
           }
         }
       }

@@ -14,7 +14,6 @@ label {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 5px;
-  //font-weight: bold;
 }
 
 // inputs
@@ -28,7 +27,12 @@ input {
   padding-left: 25px;
   padding-right: 25px;
   &:focus {
-    border-color: $app-color--active;
+    border-color: $app-color--primary;
+  }
+  &:invalid {
+    //border-color: $app-color--active-dark;
+    outline: none;
+    box-shadow: none;
   }
 
   &[type="search"] {
@@ -94,14 +98,19 @@ output {
   &-error {
     display: inline-flex;
     color: $app-color--white;
-    font-size: $app-fontsize--smaller - 2;
+    font-size: $app-fontsize--smaller - 1;
     margin: 0;
     padding: 0 5px;
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 2px;
+    right: 2px;
     background-color: $app-color--active-dark;
     @include border-radius;
+    ~ input,
+    ~ select,
+    ~ textarea {
+      border-color: $app-color--active-dark;
+    }
   }
   label {
     display: none;
