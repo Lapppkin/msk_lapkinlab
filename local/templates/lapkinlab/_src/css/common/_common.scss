@@ -1,4 +1,4 @@
-// Common
+// Breadcrumb
 
 .breadcrumb {
   background: transparent;
@@ -6,6 +6,20 @@
   font-size: $app-fontsize--small;
   &--wrapper {
     background-color: $app-color--background;
+  }
+}
+
+// Tables
+
+.table {
+  thead {
+    tr {
+      td {
+        background-color: $app-color--active;
+        color: $app-color--white;
+        font-size: $app-fontsize--medium;
+      }
+    }
   }
 }
 

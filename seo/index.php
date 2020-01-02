@@ -1,436 +1,161 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("keywords", "заказать аудит сайта, seo аудит цена");
 $APPLICATION->SetPageProperty("title", "SEO-аудит сайта | Заказать поисковый аудит сайта в Москве");
 $APPLICATION->SetPageProperty("description", "Профессиональный SEO аудит сайта - цены от 10 000 рублей &#8730; срок от 2 рабочий дней &#8730;. Заказать проведение комплексного поискового СЕО аудита веб-сайта для продвижения в Москве и всей России");
-$APPLICATION->SetTitle("Title");
-?>
-    <section class="two">
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<div class="breadcrumbs">
-				<div class="container_v2">
-					<div class="breadcrumbs__items">
-						<div class="breadcrumbs__content">
-							<div class="breadcrumbs__wrap">
-								<div class="breadcrumbs__item">
- <a href="/" class="breadcrumbs__item-link is-home" rel="home" title="Главная">Главная</a>
-								</div>
-								<div class="breadcrumbs__item">
-									<div class="breadcrumbs__item-sep">
-										 |
-									</div>
-								</div>
-								<div class="breadcrumbs__item">
- <span class="breadcrumbs__item-target">Seo аудит</span>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
- </section> <section class="tenfour">
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<h1 class="title">SEO-аудит сайта</h1>
-		</div>
-		<div class="col-md-6 fpfppf">
-			<p class="ffffe">
-				 Для обеспечения тщательного анализа сайта в рамках определения технических и поисковых ошибок принято проводить SEO-аудит. Эта процедура повышает качество ресурса, обеспечивает удобство пользователей и способствует положительному восприятию со стороны поисковых систем.
-			</p>
-			<p class="ffffe">
-				 Наша компания предлагает выполнить SEO-аудит по лучшим ценам в Москве. Эта услуга позволит определить:
-			</p>
-			<ul class="ffffe">
-				<li><b>•</b> готовность ресурса к продвижению;</li>
-				<li><b>•</b> препятствия, которые мешают более успешному ранжированию;</li>
-				<li><b>•</b> причины, по которым пользователи отказываются покупать товары на сайте.</li>
-			</ul>
-			<p class="ffffe">
-				 Подобный анализ позволяет определить основные проблемы ресурса и проверить его с учетом требований поисковых систем. На основании данных анализа наши клиенты получают квалифицированную консультацию специалистов.
-			</p>
-		</div>
-		<div class="col-md-6">
-			<div>
- <img alt="seo-audit" src="<?= SITE_TEMPLATE_PATH ?>/assests/seo-audit.png" style="width: 100%;">
-			</div>
-		</div>
-		<div class="col-md-12 fpfppf">
-			<h2>Задачи аудита </h2>
-			<ul class="ffffe">
-				<li><b>•</b> исправление найденных ошибок и технических недочетов для повышения конверсии;</li>
-				<li><b>•</b>получение заключения эксперта относительно качества продвижения ресурса. </li>
-			</ul>
-			<h2>Основные этапы</h2>
-			<h3>Анализ рынка и конкурентов</h3>
-			<p class="ffffe">
-				Наши специалисты тщательно изучают нишу, в которой работает заказчик. Мы также выполняем оценку конкурентов, анализируем данные метрик и определяем потенциал конкретного ресурса. 
-			</p>
-			<h3>Технический аудит</h3>
-			<p class="ffffe">
-				На этом этапе выполняется проверка качества работы сайта: скорости загрузки страниц и корректности их индексации. Наши специалисты определяют некачественные и дублированные страницы, а также выполняют проверку кода на валидность. На основании выполненной проверки мы предоставляем рекомендации относительно оптимальных способов устранения найденных проблем.
-			</p>
-			<h3>Коммерческий аудит</h3>
-			<p class="ffffe">
-				SEO-аудит также предусматривает проверку коммерческих факторов, которые могут повлиять на ранжирование сайта в поисковиках. В ходе коммерческого аудита наши специалисты оценивают удобства навигации и размещения основных блоков сайта. Полученные данные дополнительно сравниваются с показателями конкурентов.
-			</p>
-			<h3>Проверка контента</h3>
-			<p class="ffffe">
-				 На этом этапе выполняется оптимизация контента под семантическое ядро и проверка его уникальности. Также проводится анализ мета-тегов и заголовков.  
-			</p>
-			<h3>Анализ внешней оптимизации</h3>
-			<p class="ffffe">
-				Одним из важнейших этапов считается оценка внешней оптимизации, предусматривающая анализ ссылок и проверку правильности анкор-листа. Полученные данные позволят спрогнозировать вероятность наложения санкций со стороны поисковых систем. 
-			</p>
-			<h3>Разработка стратегии продвижения</h3>
-			<p class="ffffe">
-				 Полученная информация позволит сформировать список рекомендаций, соблюдение которых позволит улучшить ранжирование в поисковиках.
-			</p>
-			<p class="ffffe">
-				 Услуги расширенного аудита предусматривают:
-			</p>
-			<ul class="ffffe">
-				<li><b>•</b> анализ данных метрик;</li>
-				<li><b>•</b> оценку контента;</li>
-				<li><b>•</b> проверку структуры сайта.</li>
-			</ul>
-			<h2>Зачем необходим SEO-аудит</h2>
-			<ul class="ffffe">
-				<li><b>•</b> отсутствие роста позиций ресурса в поисковой выдаче;</li>
-				<li><b>•</b> проблемы с индексацией;</li>
-				<li><b>•</b> резкое проседание рейтинга в поисковых системах;</li>
-				<li><b>•</b> проблемы с внешними ссылками;</li>
-				<li><b>•</b> желание выполнить проверку качества работы оптимизатора;</li>
-				<li><b>•</b> выявление причин отсутствия продаж, несмотря на высокий рейтинг ресурса.</li>
-			</ul>
-			<p class="ffffe">
-				 Стоимость услуг нашей компании позволяет воспользоваться ими даже владельцам небольших молодых сайтов. 
-			</p>
-		</div>
-		<div class="col-md-12 fpfppf">
-			<h2>Стоимость SEO аудита</h2>
-		</div>
- <section class="one ses">
-		<div class="container">
-			<div class="row">
-				<div class="col-sm-12 col-md-4 blo eeeeeeq frst-blo">
-					<div class="tit">
-						 Комплексный аудит<br>
-						 сайта
-					</div>
-					<div class="fdfdf">
-						<ul>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Технический аудит</li>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Анализ внутренней оптимизации</li>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Анализ внешней оптимизации</li>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Анализ поведенческих факторов</li>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Внешние факторы</li>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Рекомендации</li>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Отчет</li>
-							<li style="opacity: 0;"><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Перенос сайта на другой хостинг</li>
-							<li style="opacity: 0;"><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Быстрое время реакции на обращение</li>
-						</ul>
-					</div>
-					<div class="tet2">
-						 от 15 000 &#8381;
-					</div>
-					<div class="col-md-12 botnew">
- <a class="tm_pb_button" href="#win1">Заказать аудит</a>
-					</div>
-				</div>
-				<div class="col-sm-12 col-md-4 blo eeeeeeq active">
-					<div class="tit">
-						 Часы поддержки/обслуживания сайта клиента
-					</div>
-					<div class="fdfdf">
-						<ul>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Техподдержка 24/7</li>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Обеспечение стабильной работы сайта</li>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Экстренное восстановление работы сайта</li>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Корректировки на сайте</li>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Оперативное устранение ошибок</li>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Диагностика и лечение вирусов</li>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Перенос сайта на другой хостинг</li>
-							<li><img src="<?= SITE_TEMPLATE_PATH ?>/assests/kisspng-check-mark_5.png"> Быстрое время реакции на обращение</li>
-						</ul>
-					</div>
-					<div class="tet2">
-						 10 000 &#8381; / за 10 часов
-					</div>
-					<div class="col-md-12 botnew">
- <a class="tm_pb_button" href="#win1">Заказать 10 часов</a>
-					</div>
-				</div>
-			</div>
-		</div>
- </section>
-		<div class="col-md-12 fpfppf">
-			<p class="ffffe">
-				Клиенты компании «LapkinLAb» могут рассчитывать на достижение следующих результатов:
-			</p>
-			<table style="margin: 0 auto;">
-			<tbody>
-			<tr class="tr-top">
-				<td width="298">
-					<p style="text-align: center; padding-top: 7px;">
- <strong>Услуга</strong>
-					</p>
-				</td>
-				<td width="298">
-					<p style="text-align: center; padding-top: 7px;">
- <strong>Результат</strong>
-					</p>
-				</td>
-			</tr>
-			<tr class="frst-tr">
-				<td width="298">
-					<p>
- <strong>Внутренняя оптимизация сайта</strong>
-					</p>
-				</td>
-				<td width="298">
-					<p>
-						 Приведение ресурса в соответствие с требованиями поисковых систем
-					</p>
-				</td>
-			</tr>
-			<tr>
-				<td width="298">
-					<p>
- <strong>Работа с ключами и мета-тегами</strong>
-					</p>
-				</td>
-				<td width="298">
-					<p>
-						 Предоставление подробных рекомендаций
-					</p>
-				</td>
-			</tr>
-			<tr>
-				<td width="298">
-					<p>
- <strong>Перелинковка</strong>
-					</p>
-				</td>
-				<td width="298">
-					<p>
-						 Исправление допущенных ранее ошибок
-					</p>
-				</td>
-			</tr>
-			<tr>
-				<td width="298">
-					<p>
- <strong>Создание графического и текстового наполнения</strong>
-					</p>
-				</td>
-				<td width="298">
-					<p>
-						 Подготовка или оптимизация текстов и графических элементов для продвижения
-					</p>
-				</td>
-			</tr>
-			<tr>
-				<td width="298">
-					<p>
- <strong>Анализ внутренних показателей</strong>
-					</p>
-				</td>
-				<td width="298">
-					<p>
-						 Выявление несоответствий требованиям поисковиков, проверка кода, индексации, обнаружение «битых» ссылок
-					</p>
-				</td>
-			</tr>
-			<tr>
-				<td width="298">
-					<p>
- <strong>Анализ юзабилити сайта и ресурсов конкурентов</strong>
-					</p>
-				</td>
-				<td width="298">
-					<p>
-						 Предоставление рекомендаций по применению новых функций
-					</p>
-				</td>
-			</tr>
-			<tr>
-				<td width="298">
-					<p>
- <strong>Анализ ссылок</strong>
-					</p>
-				</td>
-				<td width="298">
-					<p>
-						 Формирование отчета о качестве и эффективности исходящих и внешних ссылок
-					</p>
-				</td>
-			</tr>
-			</tbody>
-			</table>
-			<h2>Где заказать SEO-аудит в Москве?</h2>
-			<p class="ffffe">
-				 «LapkinLAb» - это компания, которая оказывает профессиональные услуги комплексного SEO-аудита в Москве. Наши клиенты могут рассчитывать на заметное увеличение посещаемости сайта и, соответственно, рост продаж. Услуги компании «LapkinLAb» позволят вам оптимизировать бюджет и обеспечить бесперебойную и, главное, эффективную работу своего сайта. 
-			</p>
-		</div>
-	</div>
-</div>
- </section> <section class="tenthre">
-<div class="container">
-	<div class="row">
-		<div class="col-md-12">
-			<p class="title">
-				 Остались вопросы? Напишите нам!
-			</p>
-		</div>
-		<div class="col-md-12 fomrbut">
-			<form action="/mail_post.php" method="post">
-                <input type="hidden" name="formname" value="SEO-аудит">
-				<div class="col-md-4">
- <input type="text" name="your-name" placeholder="Ваше имя" required="">
-				</div>
-				<div class="col-md-4">
- <input type="text" name="your-phone" placeholder="Телефон" required="">
-				</div>
-				<div class="col-md-4">
- <input type="text" name="your-email" placeholder="Почта" required="">
-				</div>
-				<p style="display:none;">
- <input type="text" name="name" value="">
-				</p>
-				<div class="col-md-12" style="padding: 20px 15px;">
- <textarea cols="30" rows="10" name="your-message" placeholder="Напишите ваш вопрос для наших специалистов" required=""></textarea>
-				</div>
-				<div class="col-md-12" style="text-align: left;">
-					 Нажимая на кнопку Отправить заявку, я даю согласие на обработку персональных данных
-				</div>
-				<div class="col-md-12" style="text-align: center;">
- <input type="submit" class="tm_pb_button" name="" value="Отправить заявку" style="max-width: 255px;">
-				</div>
-			</form>
-		</div>
-	</div>
-</div>
- </section> <section class="map hid">
-<iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aa7a3c79287b1fc621074ecc2abfb7f6a5097df06d86a534b35155044ad14f33a&amp;source=constructor" width="100%" height="450" frameborder="0"></iframe>
-<div class="overl">
-</div>
-<div class="container">
-	<div class="row">
-		<div class="col-md-5 col-xl-4">
-			<div class="text">
-				<p class="title_wh_left">
-					 Контакты LapkinLab
-				</p>
-				<p class="vvv">
- <br>
-					 Москва, Ленинская Слобода, д. 26<br>
-					 5 мин от метро "Автозаводская"<br>
- <b style="font-size: 22px; "><a class="roistat-phone" href="tel:88003010019" style="padding:10px 0px;">8 (800) 301-00-19</a></b><br>
-					 Письмо директору: <a href="mailto:ya@lapkinlab.ru">ya@lapkinlab.ru</a><br>
-					 Письмо по вакансиям: <a href="mailto:hr@lapkinlab.ru">hr@lapkinlab.ru</a><br>
-					 Прочие письма: <a href="mailto:mail@lapkinlab.ru">mail@lapkinlab.ru</a><br>
- <br>
-					 Мы в социальных сетях:<br>
- <a href="https://tele.click/lapkinlab" target="_blank" rel="noreferrer noopener"><i class="icon icon-telegram"></i></a> <a href="https://tele.click/lapkinlab_test_bot" target="_blank" rel="noreferrer noopener"><i class="icon icon-telegram"></i></a> <a href="https://www.instagram.com/lapkin___lab/" target="_blank" rel="noreferrer noopener"><i class="icon icon-instagram"></i></a> <a href="https://vk.com/lapkinlab" target="_blank" rel="noreferrer noopener"><i class="icon icon-vkontakte"></i></a> <a href="https://www.facebook.com/lapppkin" target="_blank" rel="noreferrer noopener"><i class="icon icon-facebook-squared"></i></a>
-				</p>
-			</div>
-			<div class="ddddxczzz">
-			</div>
-		</div>
-	</div>
-</div>
- </section>
-<style>
-.fpfppf h3 {
-    color: #000000;
-    font-family: "Proxima Nova Lt";
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 0.16px;
-}
-.fpfppf h3:before{
-    content: '';
-    display: inline-block;
-    width: 30px;
-    height: 30px;
-    background: url("/local/templates/new_design/assests/kisspng-check-mark.png");
-    background-repeat: no-repeat;
-    background-size: auto;
-    background-position-y: bottom;
-    background-position-x: left;
-}
-.fpfppf ul, .fpfppf li{
-    list-style: none;
-}
-.fpfppf li b{
-  color: #fa3a5e;
-  font-size: 20px;
-}
-.tenfour{
- padding-top: 0;
-}
-.ses .blo{
-    margin: 0 auto;
-}
-.ses .blo:last-child{
-   margin: 0 auto;
-    margin-left: 10px;
-}
-.ses .frst-blo{
-   margin-right: 10px;
-}
-table{
-border: 1px solid #fa3a5e;
-margin-top: 30px !important;
-margin-bottom: 10px !important;
-}
-tr{
-border-bottom: 1px solid #fa3a5e
-}
-tr p{
-margin: 0 auto;
-}
-td,th{
-padding: 5px 15px 5px 15px;
-}
-.tr-top{
-background-color: #fa3a5e;
-margin-bottom: 10px;
-}
-.tr-top p{
-color: #fff;
-}
-.frst-tr td{
-padding-top: 15px;
-}
-.tenthre{
-padding-top: 0;
-}
-.breadcrumbs{
-  width: 100%;
-}
-.two {
-    padding: 30px 0px;
-}
-.breadcrumbs__content{
-  display: inline;
-}
-.breadcrumbs__item{
-  display: inline-block;
-  padding: 0px 5px;
-  font-family: "Proxima Nova Lt";
-  font-size: 16px;
-  font-weight: bold;
-  letter-spacing: 0.16px;
-}
+$APPLICATION->SetTitle("SEO-аудит сайта");
 
-.breadcrumbs__item a{
-color: #fa3a5e;
-}
-</style><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
+?>
+
+<section class="page page-seo">
+    <div class="container">
+	    <div class="row">
+			<h1 class="col-12"><?= $APPLICATION->GetTitle() ?></h1>
+
+    		<div class="col-md-6">
+    			<p>Для обеспечения тщательного анализа сайта в рамках определения технических и поисковых ошибок принято проводить SEO-аудит. Эта процедура повышает качество ресурса, обеспечивает удобство пользователей и способствует положительному восприятию со стороны поисковых систем.</p>
+			    <p>Наша компания предлагает выполнить SEO-аудит по лучшим ценам в Москве. Эта услуга позволит определить:</p>
+			    <ul>
+				    <li>готовность ресурса к продвижению;</li>
+				    <li>препятствия, которые мешают более успешному ранжированию;</li>
+				    <li>причины, по которым пользователи отказываются покупать товары на сайте.</li>
+			    </ul>
+			    <p>Подобный анализ позволяет определить основные проблемы ресурса и проверить его с учетом требований поисковых систем. На основании данных анализа наши клиенты получают квалифицированную консультацию специалистов.</p>
+		    </div>
+
+            <div class="col-md-6">
+                <img src="seo-audit.png" class="img-fluid" alt="seo-audit">
+		    </div>
+
+            <div class="col-12">
+			    <h2>Задачи аудита </h2>
+			    <ul>
+				    <li>исправление найденных ошибок и технических недочетов для повышения конверсии;</li>
+				    <li>получение заключения эксперта относительно качества продвижения ресурса. </li>
+			    </ul>
+
+                <h2>Основные этапы</h2>
+			    <h3><?= renderSprite('check-mark') ?> Анализ рынка и конкурентов</h3>
+			    <p>Наши специалисты тщательно изучают нишу, в которой работает заказчик. Мы также выполняем оценку конкурентов, анализируем данные метрик и определяем потенциал конкретного ресурса.</p>
+			    <h3><?= renderSprite('check-mark') ?> Технический аудит</h3>
+                <p>На этом этапе выполняется проверка качества работы сайта: скорости загрузки страниц и корректности их индексации. Наши специалисты определяют некачественные и дублированные страницы, а также выполняют проверку кода на валидность. На основании выполненной проверки мы предоставляем рекомендации относительно оптимальных способов устранения найденных проблем.</p>
+			    <h3><?= renderSprite('check-mark') ?> Коммерческий аудит</h3>
+                <p>SEO-аудит также предусматривает проверку коммерческих факторов, которые могут повлиять на ранжирование сайта в поисковиках. В ходе коммерческого аудита наши специалисты оценивают удобства навигации и размещения основных блоков сайта. Полученные данные дополнительно сравниваются с показателями конкурентов.</p>
+			    <h3><?= renderSprite('check-mark') ?> Проверка контента</h3>
+                <p>На этом этапе выполняется оптимизация контента под семантическое ядро и проверка его уникальности. Также проводится анализ мета-тегов и заголовков.</p>
+			    <h3><?= renderSprite('check-mark') ?> Анализ внешней оптимизации</h3>
+			    <p>Одним из важнейших этапов считается оценка внешней оптимизации, предусматривающая анализ ссылок и проверку правильности анкор-листа. Полученные данные позволят спрогнозировать вероятность наложения санкций со стороны поисковых систем.</p>
+			    <h3><?= renderSprite('check-mark') ?> Разработка стратегии продвижения</h3>
+			    <p>Полученная информация позволит сформировать список рекомендаций, соблюдение которых позволит улучшить ранжирование в поисковиках.</p>
+			    <p>Услуги расширенного аудита предусматривают:</p>
+                <ul>
+				    <li>анализ данных метрик;</li>
+				    <li>оценку контента;</li>
+				    <li>проверку структуры сайта.</li>
+			    </ul>
+
+                <h2>Зачем необходим SEO-аудит</h2>
+			    <ul>
+                    <li>отсутствие роста позиций ресурса в поисковой выдаче;</li>
+                    <li>проблемы с индексацией;</li>
+                    <li>резкое проседание рейтинга в поисковых системах;</li>
+                    <li>проблемы с внешними ссылками;</li>
+                    <li>желание выполнить проверку качества работы оптимизатора;</li>
+                    <li>выявление причин отсутствия продаж, несмотря на высокий рейтинг ресурса.</li>
+			    </ul>
+			    <p>Стоимость услуг нашей компании позволяет воспользоваться ими даже владельцам небольших молодых сайтов.</p>
+
+    			<h2>Стоимость SEO аудита</h2>
+            </div>
+
+			<div class="col-md-4 offset-md-2 col-sm-12 offset-sm-0">
+                <div class="seo-price-item">
+                    <h3 class="text-center">Комплексный аудит сайта</h3>
+                    <ul>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Технический аудит</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Анализ внутренней оптимизации</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Анализ внешней оптимизации</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Анализ поведенческих факторов</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Внешние факторы</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Рекомендации</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Отчет</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Перенос сайта на другой хостинг</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Быстрое время реакции на обращение</li>
+                    </ul>
+                    <p class="price text-center">от 15 000 &#8381;</p>
+                    <p class="text-center">
+                        <button class="btn js-open-modal">Заказать аудит</button>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-12">
+                <div class="seo-price-item active">
+                    <h3 class="text-center">Часы поддержки/обслуживания сайта клиента</h3>
+                    <ul>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Техподдержка 24/7</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Обеспечение стабильной работы сайта</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Экстренное восстановление работы сайта</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Корректировки на сайте</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Оперативное устранение ошибок</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Диагностика и лечение вирусов</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Перенос сайта на другой хостинг</li>
+                        <li><?= renderSprite('check-mark') ?>&nbsp; Быстрое время реакции на обращение</li>
+                    </ul>
+                    <p class="price text-center">10 000 &#8381; / за 10 часов</p>
+                    <p class="text-center">
+                        <button class="btn js-open-modal">Заказать 10 часов</button>
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-md-10 offset-md-1 col-sm-12 offset-sm-0">
+			    <p class="text-center">Клиенты компании «LapkinLAb» могут рассчитывать на достижение следующих результатов:</p>
+                <table class="table table-bordered table-striped">
+                    <thead>
+                        <tr>
+                            <td>Услуга</td>
+                            <td>Результат</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Внутренняя оптимизация сайта</td>
+                            <td>Приведение ресурса в соответствие с требованиями поисковых систем</td>
+                        </tr>
+                        <tr>
+                            <td>Работа с ключами и мета-тегами</td>
+                            <td>Предоставление подробных рекомендаций</td>
+                        </tr>
+                        <tr>
+                            <td>Перелинковка</td>
+                            <td>Исправление допущенных ранее ошибок</td>
+                        </tr>
+                        <tr>
+                            <td>Создание графического и текстового наполнения</td>
+                            <td>Подготовка или оптимизация текстов и графических элементов для продвижения</td>
+                        </tr>
+                        <tr>
+                            <td>Анализ внутренних показателей</td>
+                            <td>Выявление несоответствий требованиям поисковиков, проверка кода, индексации, обнаружение «битых» ссылок</td>
+                        </tr>
+                        <tr>
+                            <td>Анализ юзабилити сайта и ресурсов конкурентов</td>
+                            <td>Предоставление рекомендаций по применению новых функций</td>
+                        </tr>
+                        <tr>
+                            <td>Анализ ссылок</td>
+                            <td>Формирование отчета о качестве и эффективности исходящих и внешних ссылок</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <h2>Где заказать SEO-аудит в Москве?</h2>
+                <p>«LapkinLAb» - это компания, которая оказывает профессиональные услуги комплексного SEO-аудита в Москве. Наши клиенты могут рассчитывать на заметное увеличение посещаемости сайта и, соответственно, рост продаж. Услуги компании «LapkinLAb» позволят вам оптимизировать бюджет и обеспечить бесперебойную и, главное, эффективную работу своего сайта.</p>
+            </div>
+
+		</div>
+	</div>
+</section>
+
+<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>

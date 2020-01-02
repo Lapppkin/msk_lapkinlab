@@ -3,7 +3,7 @@
 use LapkinLab\Helper;
 
 ?>
-        </main>
+        </main><!--/main-->
 
         <?php if ($APPLICATION->GetCurDir() === '/'): ?>
             <?php //$APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/calculator.php', array(), array('SHOW_BORDER' => true)) ?>
@@ -22,7 +22,7 @@ use LapkinLab\Helper;
                     LapkinLab на карте
                 </div>
                 <div class="footer--map--wrapper">
-                    <script async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac6d4f483f8fbaf970c92434e432b8e8ec5c4538ec998e13dc167818cf13dbafd&amp;amp;width=100%25&amp;amp;height=450&amp;amp;lang=ru_RU&amp;amp;scroll=true"></script>
+                    <?php $APPLICATION->IncludeFile('/include/yandex_map.php') ?>
                 </div>
             </div>
             <?php endif; ?>
@@ -57,11 +57,13 @@ use LapkinLab\Helper;
                                 </div>
                                 <div class="footer--nav-top--contacts">
                                     <div class="footer--nav-top--contacts--phone">
-                                        <a href="tel:<?= Helper::parsePhone(SITE_CONFIG['phone'], 'full') ?>">
-                                            <?= renderSprite('call-white') ?><?= Helper::parsePhone(SITE_CONFIG['phone'], 'formatted') ?></a><br><a href="#" class="js-open-modal" data-action="openModal" data-modal="callback">Заказать звонок</a>
+                                        <a href="tel:<?= Helper::parsePhone(SITE_CONFIG['phone'], 'full') ?>" class="roistat_phone">
+                                            <?= renderSprite('call-white') ?><?= Helper::parsePhone(SITE_CONFIG['phone'], 'formatted') ?></a>
+                                        <br>
+                                        <a href="#" class="js-open-modal" data-action="openModal" data-modal="callback">Заказать звонок</a>
                                     </div>
                                     <div class="footer--nav-top--contacts--email">
-                                        <a href="mailto:<?= SITE_CONFIG['email'] ?>"><?= SITE_CONFIG['email'] ?></a>
+                                        <?= Helper::renderEmail(SITE_CONFIG['email']) ?>
                                         <br>
                                         <a href="#" class="js-open-modal" data-action="openModal" data-modal="audit">Быстро отвечаем</a>
                                     </div>
@@ -99,8 +101,7 @@ use LapkinLab\Helper;
                 </div>
             </div>
 
-        </footer>
-        <!--/footer-->
+        </footer><!--/footer-->
 
         <!--scroll to top-->
         <div class="hidden-xs" id="scroll-to-top"><a href="#top" title="наверх" rel="nofollow">↑</a></div>
