@@ -79,12 +79,12 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                         <li><?= renderSprite('check-mark') ?>&nbsp; Внешние факторы</li>
                         <li><?= renderSprite('check-mark') ?>&nbsp; Рекомендации</li>
                         <li><?= renderSprite('check-mark') ?>&nbsp; Отчет</li>
-                        <li><?= renderSprite('check-mark') ?>&nbsp; Перенос сайта на другой хостинг</li>
-                        <li><?= renderSprite('check-mark') ?>&nbsp; Быстрое время реакции на обращение</li>
+                        <li class="disabled"><?= renderSprite('check-mark') ?>&nbsp; Перенос сайта на другой хостинг</li>
+                        <li class="disabled"><?= renderSprite('check-mark') ?>&nbsp; Быстрое время реакции на обращение</li>
                     </ul>
                     <p class="price text-center">от 15 000 &#8381;</p>
                     <p class="text-center">
-                        <button class="btn js-open-modal">Заказать аудит</button>
+                        <button class="btn js-open-modal" data-action="openModal" data-modal="audit">Заказать аудит</button>
                     </p>
                 </div>
             </div>
@@ -104,7 +104,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                     </ul>
                     <p class="price text-center">10 000 &#8381; / за 10 часов</p>
                     <p class="text-center">
-                        <button class="btn js-open-modal">Заказать 10 часов</button>
+                        <button class="btn js-open-modal" data-action="openModal" data-modal="audit">Заказать 10 часов</button>
                     </p>
                 </div>
             </div>
