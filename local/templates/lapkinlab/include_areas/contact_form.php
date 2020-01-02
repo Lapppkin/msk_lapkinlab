@@ -17,7 +17,7 @@ $field_params = array(
     'required' => $required,
 );
 
-$tarif_names = array(
+$tarif_name = array(
     'standard' => 'Стандартный',
     'minimal' => 'Минимальный',
     'extended' => 'Расширенный',
@@ -32,10 +32,11 @@ $tarif_names = array(
     <?php if ($tarif): ?>
     <input type="hidden" name="tarif" value="<?= $tarif ?>">
     <?php endif; ?>
+    <input type="hidden" name="url" value="https://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
     <?php if ($wrapper): ?><div class="contact-form--wrapper"><?php endif; ?>
         <h2 class="contact-form--title text-center"><?= $title ?></h2>
         <?php if ($tarif): ?>
-        <p class="text-center">Тариф: <?= $tarif_names[$tarif] ?></p>
+        <p class="text-center">Тариф: <?= $tarif_name[$tarif] ?></p>
         <?php endif; ?>
         <div class="contact-form--fields">
             <?php foreach ($fields as $field): ?>

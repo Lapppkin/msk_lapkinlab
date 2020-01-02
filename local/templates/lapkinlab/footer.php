@@ -5,14 +5,16 @@ use LapkinLab\Helper;
 ?>
         </main>
 
-        <?php if ($APPLICATION->GetCurDir() == '/'): ?>
-            <?php //$APPLICATION->IncludeFile('/include/calculator.php', array(), array('SHOW_BORDER' => true)) ?>
+        <?php if ($APPLICATION->GetCurDir() === '/'): ?>
+            <?php //$APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/calculator.php', array(), array('SHOW_BORDER' => true)) ?>
+        <?php else: ?>
+            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_form.php', array(), array('SHOW_BORDER' => true)) ?>
         <?php endif; ?>
 
         <!--footer-->
         <footer id="footer" class="footer">
 
-            <?php if ($APPLICATION->GetCurDir() == '/'): ?>
+            <?php if ($APPLICATION->GetCurDir() !== '/contacts/'): ?>
             <!--footer map-->
             <div class="footer--map">
                 <div class="footer--map--title">

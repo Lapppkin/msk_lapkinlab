@@ -86,7 +86,7 @@ $asset = Asset::getInstance();
             <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/header_navigation.php', array(), array('SHOW_BORDER' => true)) ?>
         </header><!--/header-->
 
-        <?php if ($APPLICATION->GetCurDir() == '/'): ?>
+        <?php if ($APPLICATION->GetCurDir() === '/'): ?>
             <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/front_slider.php', array(), array('SHOW_BORDER' => true)) ?>
             <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_bf.php', array(), array('SHOW_BORDER' => true)) ?>
             <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_seo.php', array(), array('SHOW_BORDER' => true)) ?>
@@ -103,3 +103,17 @@ $asset = Asset::getInstance();
 
         <!--main-->
         <main id="main-content">
+
+            <?php if ($APPLICATION->GetCurDir() !== '/'): ?>
+                <?php
+                $APPLICATION->AddChainItem('Главная', '/');
+                $APPLICATION->IncludeComponent("bitrix:breadcrumb",
+                    "lapkinlab",
+                    array(
+                        "START_FROM" => "1",
+                        "PATH" => "/seo/",
+                        "SITE_ID" => SITE_ID
+                    )
+                ); ?>
+            <?php endif; ?>
+
