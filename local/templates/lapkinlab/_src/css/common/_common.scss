@@ -1,5 +1,14 @@
 // Common
 
+.breadcrumb {
+  background: transparent;
+  margin-bottom: 0;
+  font-size: $app-fontsize--small;
+  &--wrapper {
+    background-color: $app-color--background;
+  }
+}
+
 // Modals
 
 .modal {
