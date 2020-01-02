@@ -226,6 +226,18 @@ class Helper
     }
 
     /**
+     * Рендер email.
+     *
+     * @param string $email
+     * @param string $class
+     *
+     * @return string
+     */
+    public static function renderEmail(string $email = SITE_CONFIG['email_other'], string $class = '') {
+        return "<a href=\"mailto:{$email}\" {$class}>$email</a>";
+    }
+
+    /**
      * Ресайз изображений.
      *
      * @param $image
