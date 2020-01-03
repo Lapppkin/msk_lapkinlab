@@ -19,7 +19,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 		    </div>
 
 		    <div class="col-md-5 col-sm-12">
-                <h1>Контакты LapkinLab </h1>
+                <h1>Контакты LapkinLab</h1>
                 <p><?= SITE_CONFIG['address'] ?><br><?= SITE_CONFIG['metro'] ?></p>
                 <p>Телефон: <?= Helper::parsePhone(SITE_CONFIG['phone'], 'link', 'roistat_phone') ?></p>
                 <p>
