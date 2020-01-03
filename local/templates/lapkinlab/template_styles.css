@@ -5353,6 +5353,159 @@ body.contacts .page-contacts {
     padding-bottom: 60px;
 }
 
+.page-blog {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
+.blog--list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.blog--list--item {
+    -ms-flex-preferred-size: calc(33.333% - 30px);
+    flex-basis: calc(33.333% - 30px);
+    margin-bottom: 30px;
+    margin-right: 30px;
+}
+
+.blog--list--item-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.blog--list--item-thumbnail {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    height: 300px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin: 0;
+    border-radius: 0.25rem;
+    border: 1px solid #efeded;
+}
+
+.blog--list--item-thumbnail a {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.blog--list--item-thumbnail img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: center;
+    object-position: center;
+    width: 100%;
+}
+
+.blog--list--item-title {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    font-size: 20px;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+
+.blog--list--item-date {
+    font-size: 14px;
+    color: #a9a8a8;
+    margin-right: 30px;
+}
+
+.blog--list--item-info {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    text-align: right;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.pagination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+.pagination .nav-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+}
+
+.pagination .nav-links .page-numbers {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding: 3px 10px;
+    margin: 0 5px;
+    border-radius: 0.25rem;
+    background-color: #fa3a5e;
+    border: 1px solid #fa3a5e;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.pagination .nav-links .page-numbers.current {
+    background-color: transparent;
+    border-color: #efeded;
+}
+
+.pagination .nav-links .page-numbers.current:hover {
+    background-color: transparent;
+}
+
+.pagination .nav-links .page-numbers.dots {
+    background-color: transparent;
+}
+
+.pagination .nav-links .page-numbers.dots:hover {
+    color: #fff;
+}
+
+.pagination .nav-links .page-numbers:hover {
+    background-color: #fb5372;
+}
+
 .slider {
     background-color: #333;
     color: #fff;
@@ -13895,6 +14048,11 @@ Build date: 2018-12-11 23:23:51
         flex-basis: 100%;
     }
 
+    .blog--list--item {
+        -ms-flex-preferred-size: calc(50% - 30px);
+        flex-basis: calc(50% - 30px);
+    }
+
     .slider h2 {
         font-size: 36px;
     }
@@ -14234,6 +14392,21 @@ Build date: 2018-12-11 23:23:51
     .footer--nav-bottom--partners {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+    }
+
+    .blog--list--item {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin-right: 0;
+    }
+
+    .blog--list--item-thumbnail {
+        height: 220px;
+    }
+
+    .blog--list--item-thumbnail img {
+        -o-object-position: top center;
+        object-position: top center;
     }
 
     .slider {

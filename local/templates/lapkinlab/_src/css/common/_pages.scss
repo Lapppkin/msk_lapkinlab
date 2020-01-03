@@ -107,3 +107,82 @@ body.contacts {
   padding-top: $app-padding--base;
   padding-bottom: $app-padding--medium;
 }
+
+// Blog
+
+.page-blog {
+  padding-top: $app-padding--base;
+  padding-bottom: $app-padding--medium;
+}
+
+.blog {
+  &--list {
+    display: flex;
+    flex-wrap: wrap;
+
+    &--item {
+      flex-basis: calc(33.333% - 30px);
+      margin-bottom: $app-padding--base;
+      margin-right: 30px;
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        flex-basis: calc(50% - 30px);
+      }
+      @media (max-width: map_get($grid-breakpoints, sm)) {
+        flex-basis: 100%;
+        margin-right: 0;
+      }
+      &-content {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        height: 100%;
+      }
+      &-thumbnail {
+        flex-basis: 100%;
+        height: 300px;
+        overflow: hidden;
+        display: flex;
+        margin: 0;
+        @include border-radius;
+        border: 1px solid $app-color--border;
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+          height: 220px;
+        }
+        a {
+          flex-basis: 100%;
+          width: 100%;
+          display: flex;
+        }
+        img {
+          object-fit: cover;
+          object-position: center;
+          width: 100%;
+          @media (max-width: map_get($grid-breakpoints, sm)) {
+            object-position: top center;
+          }
+        }
+      }
+      &-title {
+        flex-basis: 100%;
+        font-size: $app-fontsize--h3;
+        margin-top: $app-padding--small !important;
+        margin-bottom: $app-padding--small !important;
+      }
+      &-date {
+        font-size: $app-fontsize--small;
+        color: $app-color--secondary;
+        margin-right: $app-padding--base;
+      }
+      &-info {
+        flex-basis: 100%;
+        text-align: right;
+        align-self: flex-end;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+    }
+
+  }
+
+}
