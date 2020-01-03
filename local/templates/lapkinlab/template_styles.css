@@ -5348,6 +5348,11 @@ body.contacts .page-contacts {
     display: none;
 }
 
+.page-privacy {
+    padding-top: 30px;
+    padding-bottom: 60px;
+}
+
 .slider {
     background-color: #333;
     color: #fff;
