@@ -12,6 +12,8 @@
  * @var $tarif
  */
 
+use Bitrix\Main\Security\Random;
+
 $field_params = array(
     'id' => $id,
     'required' => $required,
@@ -23,9 +25,10 @@ $tarif_name = array(
     'extended' => 'Расширенный',
 );
 
+$form_id = $id . '-form-' . Random::getString(32);
 ?>
-<!--<?= $id ?> form-->
-<form class="contact-form--form" id="<?= $id ?>-form">
+<!--<?= $form_id ?>-->
+<form class="contact-form--form" id="<?= $form_id ?>">
     <?= bitrix_sessid_post() ?>
     <input type="hidden" name="id" value="<?= $id ?>">
     <input type="hidden" name="required" value="<?= base64_encode(implode(',', $required)) ?>">
