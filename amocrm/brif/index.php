@@ -2,6 +2,9 @@
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("title", "Опросный лист на внедрение amoCRM");
 $APPLICATION->SetTitle("Заполните Бриф");
+
+$APPLICATION->AddChainItem('amoCRM', '/amocrm/');
+$APPLICATION->AddChainItem('Бриф на внедрение amoCRM', $APPLICATION->GetCurDir());
 ?>
 <h1 style="display:none;">Бриф на внедрение amoCRM</h1>
 <div style="margin: 0 auto; width: 100%; text-align: center;">
