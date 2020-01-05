@@ -7,7 +7,6 @@ use LapkinLab\Helper;
 
         <?php if ($APPLICATION->GetCurDir() === '/'): ?>
             <?php //$APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/calculator.php', array(), array('SHOW_BORDER' => true)) ?>
-        <?php else: ?>
             <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_form.php', array(), array('SHOW_BORDER' => true)) ?>
         <?php endif; ?>
 
@@ -39,7 +38,7 @@ use LapkinLab\Helper;
                                         <ul class="footer--menu-item--list">
                                             <li><a href="/seo/">Seo продвижение</a></li>
                                             <li><a href="/kalkulyator-stoimosti-sajtov/">Создание сайтов</a></li>
-                                            <li><a href="/kontekstnaya-reklama/">Контекстная реклама</a></li>
+                                            <li><a href="/ppc/">Контекстная реклама</a></li>
                                             <li><a href="/smm/">SMM продвижение</a></li>
                                             <li><a href="/chat-bot/">Чат боты</a></li>
                                         </ul>

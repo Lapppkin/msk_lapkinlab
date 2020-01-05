@@ -100,9 +100,9 @@ class Core
         $briefPageTypeMap = [
             '/' => 'seo',
             '/seo' => 'seo',
-            '/kalkulyator-stoimosti-sajtov' => 'dev',
+            '/sites' => 'dev',
             '/chat-bot' => 'dev',
-            '/kontekstnaya-reklama' => 'context',
+            '/ppc' => 'context',
             '/amocrm' => 'amo',
             '/amocrm/o-produkte' => 'amo',
             '/amocrm/brif' => 'amo',

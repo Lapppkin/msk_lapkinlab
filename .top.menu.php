@@ -11,14 +11,14 @@ $aMenuLinks = Array(
 	),
 	Array(
 		"Контекстная реклама",
-		"/kontekstnaya-reklama/",
+		"/ppc/",
 		Array(),
 		Array(),
 		""
 	),
 	Array(
 		"Разработка сайтов",
-		"/kalkulyator-stoimosti-sajtov/",
+		"/sites/",
 		Array(),
 		Array(),
 		""

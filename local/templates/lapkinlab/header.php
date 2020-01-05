@@ -98,7 +98,6 @@ $asset = Asset::getInstance();
             <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_gifts.php', array(), array('SHOW_BORDER' => true)) ?>
             <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_reviews.php', array(), array('SHOW_BORDER' => true)) ?>
             <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_article.php', array(), array('SHOW_BORDER' => true)) ?>
-            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_form.php', array(), array('SHOW_BORDER' => true)) ?>
         <?php endif; ?>
 
         <!--main-->
