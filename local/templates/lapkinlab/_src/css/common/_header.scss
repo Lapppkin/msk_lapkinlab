@@ -223,8 +223,8 @@
   // Header Navigation
   &--nav {
     margin-top: $app-navigation-height;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     flex-basis: 100%;
     display: flex;
     flex-wrap: wrap;
@@ -237,9 +237,6 @@
     }
     &-wrapper {
       display: flex;
-      @media (max-width: map_get($grid-breakpoints, md)) {
-
-      }
       @media (max-width: map_get($grid-breakpoints, sm)) {
         flex-wrap: wrap;
         margin-top: 10px;
