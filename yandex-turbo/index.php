@@ -1,11 +1,12 @@
-<?
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetTitle("Title");
-?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");?>
-<?$APPLICATION->IncludeComponent(
+<?php require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+$APPLICATION->SetTitle("Yandex Turbo");
+
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/prolog_before.php");
+
+$APPLICATION->IncludeComponent(
 	"bitrix:rss.out",
 	"",
-	Array(
+	array(
 		"CACHE_FILTER" => "N",
 		"CACHE_GROUPS" => "Y",
 		"CACHE_NOTES" => "",
@@ -27,5 +28,6 @@ $APPLICATION->SetTitle("Title");
 		"SORT_ORDER2" => "ASC",
 		"YANDEX" => "Y"
 	)
-);?>
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/epilog_after.php");?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+);
+
+require($_SERVER["DOCUMENT_ROOT"]."/bitrix/modules/main/include/epilog_after.php");?><?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");
