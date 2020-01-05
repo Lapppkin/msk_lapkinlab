@@ -8,7 +8,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 
 <link rel="stylesheet" href="/amocrm/o-produkte/styles.css">
 
-<section class="integration">
+<section class="page page-amo integration">
     <div class="container">
         <div class="row">
 
@@ -75,7 +75,6 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                                                     профессионал ушел к конкурентам (вместе с клиентской базой компании), и ты
                                                     разорен. Таких историй много и среди довольно крупных компаний, когда уходили целые команды – и
                                                     компания, имевшая большой оборот, оставалась ни с чем. </p>
-                                                <!--<img src="//www.amocrm.ru/partners/private/content_files/blog_images/blogpic2.png" border="0">-->
                                                 <p>Постепенно стали появляться современные технологии, привнесшие с собой абсолютно новые инструменты
                                                     работы с клиентами. Теперь для успеха продаж важно знать все о
                                                     покупателе: как его зовут и сколько ему лет, где он живет, имеет ли семью, что любит покупать, где и
@@ -111,7 +110,6 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                                                     поезд – старая медленная электричка, а второй – современный
                                                     высококомфортный поезд-экспресс, доезжающий до конечного пункта в два раза быстрее. Конечно, при
                                                     условии грамотного думающего машиниста. </p>
-                                                <!--<img src="//www.amocrm.ru/partners/private/content_files/blog_images/blogpic3.png" border="0">-->
                                                 <div class="h1">Как выбрать CRM-систему</div>
 
                                                 <p>Для каких задач нужна CRM? Пожалуй, это самый главный вопрос при выборе системы. Именно на него
@@ -214,7 +212,6 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                                                         Управление возможностями, календарное планирование и средства работы с контактами позволяют
                                                         эффективно использовать рабочее время.
                                                     </li>
-                                                    <!--<img src="//www.amocrm.ru/partners/private/content_files/blog_images/blogpic4.png" border="0">-->
                                                     <p><b>При дальнейшей работе с клиентами: </b></p>
 
                                                     <li><i>Снижение издержек на службу поддержки </i>
@@ -1883,50 +1880,39 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                                                         <div class="faq_left_column">
 
                                                             <h2>Разработчикам</h2>
-
                                                             <section>
                                                                 <article>
-
-                                                                    <p class="faq_question"><a target="_blank"
-                                                                                               href="https://www.amocrm.ru/developers/content/api/webhooks/"
-                                                                                               class="direct-link">Webhooks</a></p>
-                                                                </article>
-                                                            </section>
-
-                                                            <section>
-                                                                <article>
-
-                                                                    <p class="faq_question"><a target="_blank"
-                                                                                               href="https://www.amocrm.ru/developers/content/api/widgets/"
-                                                                                               class="direct-link">Виджеты</a></p>
-
+                                                                    <p class="faq_question">
+                                                                        <a target="_blank" href="https://www.amocrm.ru/developers/content/api/webhooks/" class="direct-link">Webhooks</a>
+                                                                    </p>
                                                                 </article>
                                                             </section>
                                                             <section>
                                                                 <article>
-
-                                                                    <p class="faq_question"><a target="_blank"
-                                                                                               href="https://www.amocrm.ru/developers/content/api/auth/"
-                                                                                               class="direct-link">API</a></p>
-
+                                                                    <p class="faq_question">
+                                                                        <a target="_blank" href="https://www.amocrm.ru/developers/content/api/widgets/" class="direct-link">Виджеты</a>
+                                                                    </p>
                                                                 </article>
                                                             </section>
                                                             <section>
                                                                 <article>
-
-                                                                    <p class="faq_question"><a target="_blank"
-                                                                                               href="https://www.amocrm.ru/developers/console/"
-                                                                                               class="direct-link">Консоль</a></p>
-
+                                                                    <p class="faq_question">
+                                                                        <a target="_blank" href="https://www.amocrm.ru/developers/content/api/auth/" class="direct-link">API</a>
+                                                                    </p>
                                                                 </article>
                                                             </section>
                                                             <section>
                                                                 <article>
-
-                                                                    <p class="faq_question"><a target="_blank"
-                                                                                               href="https://www.amocrm.ru/developers/content/telephony/integration/"
-                                                                                               class="direct-link">Примеры</a></p>
-
+                                                                    <p class="faq_question">
+                                                                        <a target="_blank" href="https://www.amocrm.ru/developers/console/" class="direct-link">Консоль</a>
+                                                                    </p>
+                                                                </article>
+                                                            </section>
+                                                            <section>
+                                                                <article>
+                                                                    <p class="faq_question">
+                                                                        <a target="_blank" href="https://www.amocrm.ru/developers/content/telephony/integration/" class="direct-link">Примеры</a>
+                                                                    </p>
                                                                 </article>
                                                             </section>
 
@@ -1935,8 +1921,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                                                     </div>
                                                 </div>
 
-                                                <a href="https://www.youtube.com/watch?v=oMq-_iF-D9o" data-rel="media" class="last-release" target="_blank">Смотреть последний
-                                                    релиз</a>
+                                                <a href="https://www.youtube.com/watch?v=oMq-_iF-D9o" data-rel="media" class="last-release" target="_blank">Смотреть последний релиз</a>
 
                                             </div>
 
