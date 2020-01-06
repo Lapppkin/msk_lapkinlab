@@ -1,12 +1,9 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("description", "Статья о новом алгоритме от Яндекс");
-$APPLICATION->SetPageProperty("title", "Обновление алгоритма Яндекса для подбора рекомендованных запросов");
-$APPLICATION->SetTitle("Яндекс обновил алгоритм подбора рекомендованных запросов");
-?>
-<?$APPLICATION->IncludeComponent(
+
+$APPLICATION->IncludeComponent(
 	"bitrix:news.detail",
-	"official1",
+	"blog",
 	array(
 		"DISPLAY_DATE" => "Y",
 		"DISPLAY_NAME" => "Y",
@@ -35,7 +32,7 @@ $APPLICATION->SetTitle("Яндекс обновил алгоритм подбо�
 			1 => "DESCRIPTION",
 			2 => "",
 		),
-		"IBLOCK_URL" => "/novosti/",
+		"IBLOCK_URL" => "/blog/",
 		"DETAIL_URL" => "",
 		"SET_TITLE" => "Y",
 		"SET_CANONICAL_URL" => "Y",
@@ -49,7 +46,7 @@ $APPLICATION->SetTitle("Яндекс обновил алгоритм подбо�
 		"SET_LAST_MODIFIED" => "Y",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 		"ADD_SECTIONS_CHAIN" => "Y",
-		"ADD_ELEMENT_CHAIN" => "N",
+		"ADD_ELEMENT_CHAIN" => "Y",
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"USE_PERMISSIONS" => "N",
 		"GROUP_PERMISSIONS" => array(

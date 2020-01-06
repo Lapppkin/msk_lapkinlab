@@ -53,7 +53,7 @@ Disallow: /*?
 Disallow: /feed
 Disallow: /team
 Disallow: /privacy-policy/
-Disallow: /novosti/element/
+Disallow: /blog/element/
 Disallow: /testmenu/
 Disallow: */index_old.php
 Disallow: /voronka.php
