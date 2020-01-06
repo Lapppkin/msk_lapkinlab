@@ -117,3 +117,18 @@
 
   }
 }
+
+// Pages
+
+.page {
+  h1 {
+    font-size: $app-fontsize--big;
+    @include head_font;
+    margin-bottom: $app-padding--base;
+  }
+  h2,
+  h3 {
+    margin-top: $app-padding--base;
+    margin-bottom: $app-padding--small;
+  }
+}

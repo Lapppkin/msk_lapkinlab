@@ -1,11 +1,11 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Создание корпоративного сайта: стоимость разработки корпоративного сайта компании");
-$APPLICATION->SetPageProperty("description", "Рассчитать стоимость создания корпоративного сайта для компании от агентства LapkinLab &#9997;Разработка корпоративного сайта под ключ &#9997;Цены в Москве");
-$APPLICATION->SetTitle("Создание корпоративного сайта: стоимость разработки корпоративного сайта компании");
+$APPLICATION->SetPageProperty("title", "Создание интернет магазина: цена разработки интернет-магазина в Москве");
+$APPLICATION->SetPageProperty("description", "Рассчитать стоимость создания интернет-магазина от компании LapkinLab &#9997;Разработка сайта с нуля &#9997;Цены на создание интернет-магазина под ключ в Москве");
+$APPLICATION->SetTitle("Создание интернет магазина: цена разработки интернет-магазина в Москве");
 ?>
 
- <META HTTP-EQUIV="REFRESH" CONTENT="1; URL=https://msk.lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-korporativnogo-sajta">
+ <META HTTP-EQUIV="REFRESH" CONTENT="1; URL=https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-stoimosti-internet-magazina">
 
     <main>
         <div class="breadcrumbs">
@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("Создание корпоративного сайта
                                 </div>
                             </div>
                             <div class="breadcrumbs__item">
-								<a href="/kalkulyator-stoimosti-sajtov/" class="breadcrumbs__item-link"
+								<a href="/sites/" class="breadcrumbs__item-link"
                                     rel="tag" title="Калькулятор стоимости сайтов">Калькулятор стоимости сайтов</a>
                             </div>
                             <div class="breadcrumbs__item">
@@ -32,7 +32,7 @@ $APPLICATION->SetTitle("Создание корпоративного сайта
                                 </div>
                             </div>
                             <div class="breadcrumbs__item">
-                                <span class="breadcrumbs__item-target">Расчет стоимости создания корпоративного сайта</span>
+                                <span class="breadcrumbs__item-target">Расчет стоимости создания сайта интернет-магазина</span>
                             </div>
                         </div>
                     </div>
@@ -42,19 +42,19 @@ $APPLICATION->SetTitle("Создание корпоративного сайта
         </div>
         <section class="calculator_block">
             <div class="container_v2">
-                <h1>Расчет стоимости корпоративного сайта</h1>
+                <h1>Расчет стоимости создания сайта интернет-магазина</h1>
                 <div class="calculator">
-                    
+
                         	<form action="/mail_post.php" method="post" class="wpcf7-form">
-                                <input type="hidden" name="formname" value="Расчет корпоративного сайта">
+                                <input type="hidden" name="formname" value="Расчет интернет-магазина">
 							<div style="display: none;">
 							<input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
 							</div>
-                        <input type="hidden" name="your-email" value="Расчет стоимости создания корпоративного сайта">
+                        <input type="hidden" name="your-email" value="Расчет стоимости создания сайта интернет-магазина">
                         <p></p>
                         <div class="total-up">
                             <div class="site-price">Стоимость от <p></p>
-                                <div class="price-number">45 000</div>
+                                <div class="price-number">60 000</div>
                                 <p> <sup>*</sup> руб</p>
                             </div>
                         </div>
@@ -256,7 +256,7 @@ $APPLICATION->SetTitle("Создание корпоративного сайта
                                 <p></p></div>
                         <div class="total-bottom">
                             <div class="site-price">Стоимость от<p></p>
-                                <div class="price-number">45 000</div>
+                                <div class="price-number">60 000</div>
                                 <p> <sup>*</sup> руб</p>
                             </div>
                             <p>
@@ -266,14 +266,14 @@ $APPLICATION->SetTitle("Создание корпоративного сайта
                         </div>
                         <div class="calc-order">
                             <div>Пожалуйста, заполните форму для заказа. Все поля являются обязательными.</div>
-                            <p><input type="text" name="youe-name" required="required" placeholder="Имя *"> <input type="tel"
+                            <p><input type="text" name="your-name" required="required" placeholder="Имя *"> <input type="tel"
                                     name="your-phone" required="required" placeholder="Телефон *"></p>
                             <div class="calc-price-item">
-                                <label for="privacy" class="label_check"> <input name="privacy" id="privacy" type="checkbox"
-                                        required="required" value="0">
+                                <label for="privacy" class="label_check1"> <input name="privacy" id="privacy" type="checkbox"
+                                         required="required" value="0">
 	<p style="display:none;"><input type="text" name="name" value=""></p>
                                     <span>Я принимаю
-                                        <!--noindex--><a class="hover_line" href="/privacy-policy/" target="_blank" rel="nofollow">условия передачи
+                                        <!--noindex--><a class="hover_line" href="/privacy-policy/" target="_blank">условия передачи
                                             информации</a><!--/noindex-->
                                     </span>
                                 </label>

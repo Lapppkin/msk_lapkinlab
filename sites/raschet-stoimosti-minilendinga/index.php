@@ -1,11 +1,11 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Создание бизнес-сайта: стоимость разработки бизнес-сайта в Москве");
-$APPLICATION->SetPageProperty("description", "Рассчитать стоимость создания бизнес-сайта от компании LapkinLab &#9997;Разработка сайта с нуля &#9997;Цены на создание бизнес-сайта под ключ в Москве");
-$APPLICATION->SetTitle("Создание бизнес-сайта: стоимость разработки бизнес-сайта в Москве");
+$APPLICATION->SetPageProperty("title", "Расчет создания мини-лендинга: стоимость разработки от LapkinLab");
+$APPLICATION->SetPageProperty("description", "Рассчитать стоимость создания мини-лендинга от компании LapkinLab &#9997;Разработка landing page под ключ &#9997;Цены готового лендинга в Москве");
+$APPLICATION->SetTitle("Расчет создания мини-лендинга: стоимость разработки от LapkinLab");
 ?>
 
- <META HTTP-EQUIV="REFRESH" CONTENT="1; URL=https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-biznes-sajta">
+ <META HTTP-EQUIV="REFRESH" CONTENT="1; URL=https://msk.lapkinlab.ru/sites/raschet-stoimosti-minilendinga">
 
     <main>
         <div class="breadcrumbs">
@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимос
                                 </div>
                             </div>
                             <div class="breadcrumbs__item">
-								<a href="/kalkulyator-stoimosti-sajtov/" class="breadcrumbs__item-link"
+								<a href="/sites/" class="breadcrumbs__item-link"
                                     rel="tag" title="Калькулятор стоимости сайтов">Калькулятор стоимости сайтов</a>
                             </div>
                             <div class="breadcrumbs__item">
@@ -32,7 +32,7 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимос
                                 </div>
                             </div>
                             <div class="breadcrumbs__item">
-                                <span class="breadcrumbs__item-target">Расчет стоимости создания бизнес-сайта</span>
+                                <span class="breadcrumbs__item-target">Расчет стоимости создания мини-лендинга</span>
                             </div>
                         </div>
                     </div>
@@ -42,11 +42,11 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимос
         </div>
         <section class="calculator_block">
             <div class="container_v2">
-                <h1>Расчет стоимости создания бизнес-сайта</h1>
+                <h1>Расчет стоимости создания мини-лендинга</h1>
                 <div class="calculator">
-                    
+
                         	<form action="/mail_post.php" method="post" class="wpcf7-form">
-                                <input type="hidden" name="formname" value="Расчет бизнес-сайта">
+                                <input type="hidden" name="formname" value="Расчет стоимости минилендинга">
 							<div style="display: none;">
 							<input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
 							</div>
@@ -54,7 +54,7 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимос
                         <p></p>
                         <div class="total-up">
                             <div class="site-price">Стоимость от <p></p>
-                                <div class="price-number">40 000</div>
+                                <div class="price-number">10 000</div>
                                 <p> <sup>*</sup> руб</p>
                             </div>
                         </div>
@@ -86,6 +86,11 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимос
                                                  <input id="checkd4" checked="true" disabled="true" type="checkbox" name="d4" value="0"><span>Адаптивная верстка</span><br>
                                               </label>
                                            </div>
+                                <div class="calc-price-item">
+                                              <label for="checkd4" class="label_check disabled chked c_on"><br>
+                                                 <input id="checkd4" checked="true" disabled="true" type="checkbox" name="d4" value="0"><span>Установка онлайн чата</span><br>
+                                              </label>
+                                           </div>
                                 <p></p></div>
                                 <p>
                                             <input type="hidden" name="1" value="40000">
@@ -95,26 +100,6 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимос
                                 <div class="calc-price-item">
                                               <label for="check7" class="label_check"><br>
                                                 <input id="check7" type="checkbox" name="6" value="3000"><span style="background-position: -5px -5px;">Логотип</span><span class="calc-price-plus">+3000</span><br>
-                                              </label>
-                                            </div>
-                                <div class="calc-price-item">
-                                              <label for="check8" class="label_check chked c_on"><br>
-                                                <input id="check8" type="checkbox" name="7" value="9000"><span style="background-position: -5px -5px;">Фирменный стиль</span><span class="calc-price-plus">+9000</span><br>
-                                              </label>
-                                            </div>
-                                <div class="calc-price-item">
-                                              <label for="check9" class="label_check"><br>
-                                                <input id="check9" type="checkbox" name="8" value="15000"><span style="background-position: -5px -5px;">Индивидуальный дизайн</span><span class="calc-price-plus">+15000</span><br>
-                                              </label>
-                                            </div>
-                                <div class="calc-price-item">
-                                              <label for="check10" class="label_check"><br>
-                                                <input id="check10" type="checkbox" name="9" value="5000"><span style="background-position: -5px -5px;">Инфографика</span><span class="calc-price-plus">+5000</span><br>
-                                              </label>
-                                            </div>
-                                <div class="calc-price-item">
-                                              <label for="check11" class="label_check"><br>
-                                                <input id="check11" type="checkbox" name="10" value="25000"><span style="background-position: -5px -5px;">Адаптивный дизайн</span><span class="calc-price-plus">+25000</span><br>
                                               </label>
                                             </div>
                                 <p></p></div>
@@ -130,26 +115,6 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимос
                                                 <input id="check14" type="checkbox" name="13" value="5000"><span style="background-position: -5px -5px;">Анимация</span><span class="calc-price-plus">+5000</span><br>
                                               </label>
                                             </div>
-                                <div class="calc-price-item">
-                                              <label for="check15" class="label_check"><br>
-                                                <input id="check15" type="checkbox" name="14" value="2500"><span style="background-position: -5px -5px;">Интерактивность, эффекты параллакса</span><span class="calc-price-plus">+2500</span><br>
-                                              </label>
-                                            </div>
-                                <div class="calc-price-item">
-                                              <label for="check16" class="label_check"><br>
-                                                <input id="check16" type="checkbox" name="15" value="2000"><span style="background-position: -5px -5px;">Геопривязка</span><span class="calc-price-plus">+2000</span><br>
-                                              </label>
-                                            </div>
-                                <div class="calc-price-item">
-                                              <label for="check17" class="label_check"><br>
-                                                <input id="check17" type="checkbox" name="16" value="3500"><span style="background-position: -5px -5px;">Локализация (перевод на другой язык)</span><span class="calc-price-plus">+3500</span><br>
-                                              </label>
-                                            </div>
-                                <div class="calc-price-item">
-                                              <label for="check18" class="label_check"><br>
-                                                <input id="check18" type="checkbox" name="17" value="15000"><span style="background-position: -5px -5px;">Сложная структура</span><span class="calc-price-plus">+15000</span><br>
-                                              </label>
-                                            </div>
                                 <p></p></div>
                                 <div class="calc-price-block">
                                 <div class="calc-title">Функционал (модули)</div>
@@ -161,16 +126,6 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимос
                                 <div class="calc-price-item">
                                               <label for="check20" class="label_check"><br>
                                                 <input id="check20" type="checkbox" name="19" value="2000"><span style="background-position: -5px -5px;">Настройка почты</span><span class="calc-price-plus">+2000</span><br>
-                                              </label>
-                                            </div>
-                                <div class="calc-price-item">
-                                              <label for="check24" class="label_check"><br>
-                                                <input id="check24" type="checkbox" name="23" value="2000"><span style="background-position: -5px -5px;">Установка онлайн чата</span><span class="calc-price-plus">+2000</span><br>
-                                              </label>
-                                            </div>
-                                <div class="calc-price-item">
-                                              <label for="check29" class="label_check"><br>
-                                                <input id="check29" type="checkbox" name="28" value="5000"><span style="background-position: -5px -5px;">Добавление блоков</span><span class="calc-price-plus">+5000</span><br>
                                               </label>
                                             </div>
                                 <div class="calc-price-item">
@@ -256,7 +211,7 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимос
                                 <p></p></div>
                         <div class="total-bottom">
                             <div class="site-price">Стоимость от<p></p>
-                                <div class="price-number">40 000</div>
+                                <div class="price-number">10 000</div>
                                 <p> <sup>*</sup> руб</p>
                             </div>
                             <p>
@@ -269,7 +224,7 @@ $APPLICATION->SetTitle("Создание бизнес-сайта: стоимос
                             <p><input type="text" name="your-name" required="required" placeholder="Имя *"> <input type="tel"
                                     name="your-phone" required="required" placeholder="Телефон *"></p>
                             <div class="calc-price-item">
-                                <label for="privacy" class="label_check"> <input name="privacy" id="privacy" type="checkbox"
+                                <label for="privacy" class="label_check1"> <input name="privacy" id="privacy" type="checkbox"
                                          required="required" value="0">
 	<p style="display:none;"><input type="text" name="name" value=""></p>
                                     <span>Я принимаю

@@ -25,6 +25,8 @@ let Ajax = {
             };
             let tarif = $(e.currentTarget).data('tarif');
             if (tarif !== undefined) options.data.tarif = tarif;
+            let site_type = $(e.currentTarget).data('site-type');
+            if (site_type !== undefined) options.data.siteType = site_type;
             $.ajax(options)
                 .done((response) => {
                     if (!Common.isJsonString(response)) {

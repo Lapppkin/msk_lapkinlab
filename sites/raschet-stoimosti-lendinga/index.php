@@ -5,7 +5,7 @@ $APPLICATION->SetPageProperty("description", "Рассчитать стоимо�
 $APPLICATION->SetTitle("Создание сайта-лендинга: стоимость разработки landing page");
 ?>
 
- <META HTTP-EQUIV="REFRESH" CONTENT="1; URL=https://msk.lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-stoimosti-lendinga">
+ <META HTTP-EQUIV="REFRESH" CONTENT="1; URL=https://msk.lapkinlab.ru/sites/raschet-stoimosti-lendinga">
 
     <main>
         <div class="breadcrumbs">
@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("Создание сайта-лендинга: стоим
                                 </div>
                             </div>
                             <div class="breadcrumbs__item">
-								<a href="/kalkulyator-stoimosti-sajtov/" class="breadcrumbs__item-link"
+								<a href="/sites/" class="breadcrumbs__item-link"
                                     rel="tag" title="Калькулятор стоимости сайтов">Калькулятор стоимости сайтов</a>
                             </div>
                             <div class="breadcrumbs__item">

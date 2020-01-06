@@ -1,11 +1,11 @@
 <?
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Создание интернет магазина: цена разработки интернет-магазина в Москве");
-$APPLICATION->SetPageProperty("description", "Рассчитать стоимость создания интернет-магазина от компании LapkinLab &#9997;Разработка сайта с нуля &#9997;Цены на создание интернет-магазина под ключ в Москве");
-$APPLICATION->SetTitle("Создание интернет магазина: цена разработки интернет-магазина в Москве");
+$APPLICATION->SetPageProperty("title", "Создание бизнес-сайта: стоимость разработки бизнес-сайта в Москве");
+$APPLICATION->SetPageProperty("description", "Рассчитать стоимость создания бизнес-сайта от компании LapkinLab &#9997;Разработка сайта с нуля &#9997;Цены на создание бизнес-сайта под ключ в Москве");
+$APPLICATION->SetTitle("Создание бизнес-сайта: стоимость разработки бизнес-сайта в Москве");
 ?>
 
- <META HTTP-EQUIV="REFRESH" CONTENT="1; URL=https://lapkinlab.ru/kalkulyator-stoimosti-sajtov/raschet-stoimosti-internet-magazina">
+ <META HTTP-EQUIV="REFRESH" CONTENT="1; URL=https://lapkinlab.ru/sites/raschet-biznes-sajta">
 
     <main>
         <div class="breadcrumbs">
@@ -23,7 +23,7 @@ $APPLICATION->SetTitle("Создание интернет магазина: це
                                 </div>
                             </div>
                             <div class="breadcrumbs__item">
-								<a href="/kalkulyator-stoimosti-sajtov/" class="breadcrumbs__item-link"
+								<a href="/sites/" class="breadcrumbs__item-link"
                                     rel="tag" title="Калькулятор стоимости сайтов">Калькулятор стоимости сайтов</a>
                             </div>
                             <div class="breadcrumbs__item">
@@ -32,7 +32,7 @@ $APPLICATION->SetTitle("Создание интернет магазина: це
                                 </div>
                             </div>
                             <div class="breadcrumbs__item">
-                                <span class="breadcrumbs__item-target">Расчет стоимости создания сайта интернет-магазина</span>
+                                <span class="breadcrumbs__item-target">Расчет стоимости создания бизнес-сайта</span>
                             </div>
                         </div>
                     </div>
@@ -42,11 +42,11 @@ $APPLICATION->SetTitle("Создание интернет магазина: це
         </div>
         <section class="calculator_block">
             <div class="container_v2">
-                <h1>Расчет стоимости создания сайта интернет-магазина</h1>
+                <h1>Расчет стоимости создания бизнес-сайта</h1>
                 <div class="calculator">
-                    
+
                         	<form action="/mail_post.php" method="post" class="wpcf7-form">
-                                <input type="hidden" name="formname" value="Расчет интернет-магазина">
+                                <input type="hidden" name="formname" value="Расчет бизнес-сайта">
 							<div style="display: none;">
 							<input type="hidden" name="url" value="http://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
 							</div>
@@ -54,7 +54,7 @@ $APPLICATION->SetTitle("Создание интернет магазина: це
                         <p></p>
                         <div class="total-up">
                             <div class="site-price">Стоимость от <p></p>
-                                <div class="price-number">60 000</div>
+                                <div class="price-number">40 000</div>
                                 <p> <sup>*</sup> руб</p>
                             </div>
                         </div>
@@ -256,7 +256,7 @@ $APPLICATION->SetTitle("Создание интернет магазина: це
                                 <p></p></div>
                         <div class="total-bottom">
                             <div class="site-price">Стоимость от<p></p>
-                                <div class="price-number">60 000</div>
+                                <div class="price-number">40 000</div>
                                 <p> <sup>*</sup> руб</p>
                             </div>
                             <p>
@@ -269,11 +269,11 @@ $APPLICATION->SetTitle("Создание интернет магазина: це
                             <p><input type="text" name="your-name" required="required" placeholder="Имя *"> <input type="tel"
                                     name="your-phone" required="required" placeholder="Телефон *"></p>
                             <div class="calc-price-item">
-                                <label for="privacy" class="label_check1"> <input name="privacy" id="privacy" type="checkbox"
+                                <label for="privacy" class="label_check"> <input name="privacy" id="privacy" type="checkbox"
                                          required="required" value="0">
 	<p style="display:none;"><input type="text" name="name" value=""></p>
                                     <span>Я принимаю
-                                        <!--noindex--><a class="hover_line" href="/privacy-policy/" target="_blank">условия передачи
+                                        <!--noindex--><a class="hover_line" href="/privacy-policy/" target="_blank" rel="nofollow">условия передачи
                                             информации</a><!--/noindex-->
                                     </span>
                                 </label>

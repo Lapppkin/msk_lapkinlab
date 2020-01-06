@@ -27,6 +27,7 @@ class Form
     protected $email;
     protected $message;
     protected $tarif;
+    protected $site_type;
 
     protected $required; // данные о required полях
 
@@ -69,6 +70,7 @@ class Form
         $this->site = $this->request->get('site');
         $this->message = $this->request->get('message');
         $this->tarif = $this->request->get('tarif');
+        $this->site_type = $this->request->get('site_type');
 
         $client  = @$_SERVER['HTTP_CLIENT_IP'];
         $forward = @$_SERVER['HTTP_X_FORWARDED_FOR'];
@@ -106,7 +108,7 @@ class Form
                 8  => $this->message,
                 9  => $this->ip,
                 10 => $this->url,
-                11 => $this->tarif,
+                11 => $this->tarif . $this->site_type,
                 12 => $this->form_id,
             ),
         );
@@ -149,6 +151,7 @@ HEADERS;
         <p>Сайт: {$this->site}</p>
         <p>Сообщение: {$this->message}</p>
         <p>Тариф: {$this->tarif}</p>
+        <p>Тип сайта: {$this->site_type}</p>
         <br>
         <p>Страница отправки: {$this->url}</p>
         <p>IP отправки: {$this->ip}</p>

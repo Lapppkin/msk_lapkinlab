@@ -24,6 +24,16 @@ h3 {
   font-weight: normal;
 }
 
+h4 {
+  font-size: $app-fontsize--medium;
+  font-weight: normal;
+}
+
+.big { font-size: $app-fontsize--big; }
+.h1 { font-size: $app-fontsize--h1; }
+.h2 { font-size: $app-fontsize--h2; }
+.h3 { font-size: $app-fontsize--h3; }
+
 // Links
 
 a,
