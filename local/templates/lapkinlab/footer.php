@@ -5,7 +5,7 @@ use LapkinLab\Helper;
 ?>
         </main><!--/main-->
 
-        <?php if ($APPLICATION->GetCurDir() === '/'): ?>
+        <?php if ($APPLICATION->GetCurDir() === '/' || $APPLICATION->GetCurDir() === '/contacts/'): ?>
             <?php //$APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/calculator.php', array(), array('SHOW_BORDER' => true)) ?>
             <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_form.php', array(), array('SHOW_BORDER' => true)) ?>
         <?php endif; ?>
@@ -37,7 +37,7 @@ use LapkinLab\Helper;
                                         <div class="footer--menu-item--title">Услуги</div>
                                         <ul class="footer--menu-item--list">
                                             <li><a href="/seo/">Seo продвижение</a></li>
-                                            <li><a href="/kalkulyator-stoimosti-sajtov/">Создание сайтов</a></li>
+                                            <li><a href="/sites/">Создание сайтов</a></li>
                                             <li><a href="/ppc/">Контекстная реклама</a></li>
                                             <li><a href="/smm/">SMM продвижение</a></li>
                                             <li><a href="/chat-bot/">Чат боты</a></li>
@@ -47,9 +47,9 @@ use LapkinLab\Helper;
                                         <div class="footer--menu-item--title">Компания</div>
                                         <ul class="footer--menu-item--list">
                                             <li><a href="#">О нас</a></li>
-                                            <li><a href="/novosti/">Статьи</a></li>
+                                            <li><a href="/blog/">Статьи</a></li>
                                             <li><a href="/telegram/">Телеграм</a></li>
-                                            <li><a href="/kalkulyator-stoimosti-sajtov/#portfolio">Портфолио</a></li>
+                                            <li><a href="/sites/#portfolio">Портфолио</a></li>
                                             <li><a href="/chat-bot/">Отзывы</a></li>
                                         </ul>
                                     </div>
