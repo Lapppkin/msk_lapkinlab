@@ -9,13 +9,20 @@ $aMenuLinks = Array(
         ),
 		""
 	),
-	Array(
-		"Контекстная реклама",
-		"/ppc/",
-		Array(),
-		Array(),
-		""
-	),
+    Array(
+        "Контекстная реклама",
+        "/ppc/",
+        Array(),
+        Array(),
+        ""
+    ),
+    Array(
+        "SMM",
+        "/smm/",
+        Array(),
+        Array(),
+        ""
+    ),
 	Array(
 		"Разработка сайтов",
 		"/sites/",
