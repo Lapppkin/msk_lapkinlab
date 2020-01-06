@@ -56,9 +56,9 @@
                     "PAGER_SHOW_ALL" => "N",
                     "PAGER_SHOW_ALWAYS" => "N",
                     "PAGER_TEMPLATE" => ".default",
-                    "PAGER_TITLE" => "Новости",
+                    "PAGER_TITLE" => "Блог",
                     "PREVIEW_TRUNCATE_LEN" => "",
-                    "SEF_FOLDER" => "/novosti/",
+                    "SEF_FOLDER" => "/blog/",
                     "SEF_MODE" => "Y",
                     "SEF_URL_TEMPLATES" => array(
                         "news" => "",
@@ -86,7 +86,7 @@
             );?>
 
             <div class="section--article--more col-12">
-                <a class="btn" href="/novosti/">Смотреть все статьи</a>
+                <a class="btn" href="/blog/">Смотреть все статьи</a>
             </div>
 
         </div>
