@@ -1,5 +1,4 @@
 User-Agent: *
-Disallow: /kalkulyator-stoimosti-sajtov/1/
 Disallow: /webstat1/webstat.php
 Disallow: /bitrix/
 Disallow: /upload/
@@ -59,17 +58,12 @@ Disallow: */index_old.php
 Disallow: /voronka.php
 Disallow: */1/
 Disallow: /calc/
-Disallow: /rekr/
-Disallow: /novosti/iz-chego-skladyvaetsya-stoimost-seo-prodvizheniya.php
 Disallow: /prezentacija/
 Allow: /novosti/?PAGEN_1=*
 Allow: /search/map.php
-Allow: /bitrix/templates/LapkinLab_krd/css/
-Allow: /bitrix/templates/LapkinLab_krd/js/
 Allow: /*utm*
 
 User-Agent: Yandex
-Disallow: /kalkulyator-stoimosti-sajtov/1/
 Disallow: /webstat1/webstat.php
 Disallow: /bitrix/
 Disallow: /upload/
@@ -139,7 +133,6 @@ Allow: /bitrix/templates/LapkinLab_krd/js/
 Allow: /*utm*
 
 User-Agent: Googlebot
-Disallow: /kalkulyator-stoimosti-sajtov/1/
 Disallow: /webstat1/webstat.php
 Disallow: /bitrix/
 Disallow: /upload/
