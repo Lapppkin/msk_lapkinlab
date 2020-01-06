@@ -1,369 +1,211 @@
-<?
+<?php
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetPageProperty("title", "SMM продвижение в Москве: СММ раскрутка в социальных сетях Инстаграм, Вконтакте, Фейсбук");
 $APPLICATION->SetPageProperty("description", "Продвижение сайтов в социальных сетях от агентства LapkinLab &#9997;SMM раскрутка в Instagram, Вконтакте, Facebook &#9997;Настройка таргетированной рекламы");
 $APPLICATION->SetTitle("SMM продвижение в Москве: СММ раскрутка в социальных сетях Инстаграм, Вконтакте, Фейсбук");
+
+$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 ?>
-    <main>
-    <div class="breadcrumbs">
-        <div class="container_v2">
-            <div class="breadcrumbs__items">
-                <div class="breadcrumbs__content">
-                    <div class="breadcrumbs__wrap">
-                        <div class="breadcrumbs__item">
-                            <a href="/" class="breadcrumbs__item-link is-home" rel="home" title="Главная">Главная</a>
-                        </div>
-                        <div class="breadcrumbs__item">
-                            <div class="breadcrumbs__item-sep">
-                                |
-                            </div>
-                        </div>
-                        <div class="breadcrumbs__item">
-                            <span class="breadcrumbs__item-target">SMM</span>
+
+<div class="page page-smm">
+
+    <section class="smm-preview">
+        <div class="container">
+            <div class="row">
+                <h1 class="col-12 text-center">SMM (Продвижение сайтов в социальных сетях)</h1>
+                <div class="smm-preview--item col-md-6">
+                    <div class="smm-preview--wrapper">
+                        <h2 class="text-center">Что Вы получите:</h2>
+                        <ul class="text-center">
+                            <li><?= renderSprite('check-mark') ?> Профессиональный анализ и исправление ошибок на вашем аккаунте</li>
+                            <li><?= renderSprite('check-mark') ?> Настройку всех необходимых бизнес-инструментов</li>
+                            <li><?= renderSprite('check-mark') ?> Качественное сопровождение ваших площадок в социальных сетях</li>
+                            <li><?= renderSprite('check-mark') ?> Повышение качества контента и как результат увеличение продаж</li>
+                            <li><?= renderSprite('check-mark') ?> Настройку всех видов рекламы (таргет, контекст, и т.д.)</li>
+                            <li><?= renderSprite('check-mark') ?> Надежного долгосрочного партнера, которому можно доверить ведение бизнеса в соцсетях</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="smm-preview--item col-md-6">
+                    <div class="smm-preview--wrapper">
+                        <h3 class="text-center">Мы проанализируем твой аккаунт, выявим недочеты и обсудим дальнейшее продвижение за 99 рублей вместо обычной цены <del>2499 руб</del></h3>
+                        <div class="smm-preview--form">
+                            <?php
+                            $params = array(
+                                'id' => 'smm',
+                                'fields' => array(
+                                    'name',
+                                    'phone',
+                                    'email',
+                                ),
+                                'required' => array(
+                                    'name',
+                                    'phone',
+                                ),
+                                'submit_button' => 'Оставить заявку на анализ аккаунта за 99 рублей',
+                                'wrapper' => false,
+                            );
+                            $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/contact_form.php', $params);
+                            ?>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="clear">
+        </div>
+    </section>
+
+    <section class="smm-header">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <h2>SMM и Таргетированная реклама в социальных сетях</h2>
+                    <p>Мы предлагаем комплексное продвижение в социальных сетях</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="smm-sales">
+        <div class="container">
+            <div class="row">
+                <div class="smm-sales--image col-lg-6 col-md-4 col-sm-12"></div>
+                <div class="smm-sales--content col-lg-6 col-md-8 col-sm-12">
+                    <h2 class="h1">Продавать через соцсети – легко!</h2>
+                    <h3 class="h2">Просто выйдите на улицу и оглянитесь.</h3>
+                    <p>Пока вы используете стандартные средства продвижения, мимо вашего бизнеса проходят тысячи людей, погруженных в экраны своих смартфонов. Это доказывает — продажи через интернет из прихоти давно стали необходимостью.</p>
+                    <p>Ваша главная задача сейчас — это найти своих клиентов в соцсетях, превратить их в постоянных покупателей, а в дальнейшем и в адвокатов вашего бренда. Для этого необходимо только выбрать нужный способ связи.</p>
+                    <h3 class="h2">Москва, у вас SMM-проблемы? Тогда вам повезло найти наш сайт!</h3>
+                    <h4 class="h3">Круглосуточная поддержка вашего бизнеса в самых популярных социальных сетях.</h4>
+                    <ul>
+                        <li><?= renderSprite('check-mark') ?> ЭКСПЕРТНОСТЬ – Мы эксперты в области SMM с многолетним опытом;</li>
+                        <li><?= renderSprite('check-mark') ?> АКТУАЛЬНОСТЬ – Мы постоянно обучаемся и развиваемся;</li>
+                        <li><?= renderSprite('check-mark') ?> НАДЕЖНОСТЬ – Мы гарантируем безопасность каждой сделки;</li>
+                        <li><?= renderSprite('check-mark') ?> ЛОЯЛЬНОСТЬ – Мы оберегаем и уважаем каждого клиента. </li>
+                    </ul>
+                    <h3 class="h2">Что такое SMM и зачем это нужно вашему бизнесу?</h3>
+                    <p>SMM-продвижение — это способ пообщаться со своей аудиторией напрямую, построить сильный бренд и увеличить продажи посредством социальных сетей. Социальные сети прочно вошли в жизнь миллионов людей, именно поэтому Social Media Marketing на сегодняшний день является наиболее перспективным методом продвижения.</p>
+                    <h4 class="h3">SMM продвижение решает сразу несколько проблем: </h4>
+                    <ul>
+                        <li><?= renderSprite('check-mark') ?> Вы формируете выгодный ИМИДЖ компании, рассказывая о ней в публикациях и изучая отклик клиентов.</li>
+                        <li><?= renderSprite('check-mark') ?> Потенциальный Клиент узнаёт о ПОЛЬЗЕ продукта или услуги лично от вас, изучая качественный уникальный контент. Это первый шаг к совершению продажи.</li>
+                        <li><?= renderSprite('check-mark') ?> Вы можете оказывать ВЛИЯНИЕ на ваших подписчиков, формируя спрос на те или иные товары и услуги, создавать вирусный контент и, таким образом, охватывать ещё бОльшую аудиторию.</li>
+                        <li><?= renderSprite('check-mark') ?> Не имеет значение B2B или B2C — в любом случае о вас узнает ЦЕЛЕВАЯ АУДИТОРИЯ.</li>
+                    </ul>
+                    <h3 class="h2">Решение:</h3>
+                    <p>
+                        <button class="btn js-open-modal" data-action="openModal" data-modal="audit">Заказать аудит сайта</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="smm-services">
+        <div class="container">
+            <div class="row">
+
+                <div class="smm-services--item col-md-4">
+                    <div class="smm-services--item-wrapper">
+                        <div class="smm-services--item--title">Базовый SMM<br>16 000 ₽</div>
+                        <div class="smm-services--item--description">Комплексное обслуживание аккаунта в выбранной соцсети, которое включает в себя:</div>
+                        <div class="smm-services--item--action">
+                            <ul>
+                                <li><?= renderSprite('check-mark') ?> Оформление профиля</li>
+                                <li><?= renderSprite('check-mark') ?> Настройка бизнес профиля</li>
+                                <li><?= renderSprite('check-mark') ?> Постинг (4-5 постов в неделю)</li>
+                                <li><?= renderSprite('check-mark') ?> Копирайт</li>
+                                <li><?= renderSprite('check-mark') ?> Интерактивы с подписчиками (обсуждения, конкурсы)</li>
+                                <li><?= renderSprite('check-mark') ?> Настройка таргетинга 1 раз в месяц</li>
+                                <li><?= renderSprite('check-mark') ?> Предоставление отчетов</li>
+                                <li class="disabled"><?= renderSprite('check-mark') ?> Модерация, общение с подписчиками</li>
+                                <li class="disabled"><?= renderSprite('check-mark') ?> Разработка рекламных кампаний, акций</li>
+                                <li class="disabled"><?= renderSprite('check-mark') ?> Создание креативов, вирусный контент</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="smm-services--item col-md-4">
+                    <div class="smm-services--item-wrapper">
+                        <div class="smm-services--item--title">Оптимальный SMM<br>30 000 ₽</div>
+                        <div class="smm-services--item--description">Полное обслуживание выбранных 3 аккаунтов (обслуживание 3 основных соцсетей клиента):</div>
+                        <div class="smm-services--item--action">
+                            <ul>
+                                <li><?= renderSprite('check-mark') ?> Оформление профиля</li>
+                                <li><?= renderSprite('check-mark') ?> Настройка бизнес профиля</li>
+                                <li><?= renderSprite('check-mark') ?> Постинг (7-12 постов в неделю)</li>
+                                <li><?= renderSprite('check-mark') ?> Копирайт</li>
+                                <li><?= renderSprite('check-mark') ?> Интерактивы с подписчиками (обсуждения, конкурсы)</li>
+                                <li><?= renderSprite('check-mark') ?> Настройка таргетинга 2 раза в месяц</li>
+                                <li><?= renderSprite('check-mark') ?> Предоставление отчетов</li>
+                                <li><?= renderSprite('check-mark') ?> Модерация, общение с подписчиками</li>
+                                <li><?= renderSprite('check-mark') ?> Разработка рекламных кампаний, акций</li>
+                                <li><?= renderSprite('check-mark') ?> Создание креативов, вирусный контент</li>
+                                <li class="disabled"><?= renderSprite('check-mark') ?> Круглосуточная модерация, общение с подписчиками, ответы на вопросы, разрешение конфликтов</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="smm-services--item col-md-4">
+                    <div class="smm-services--item-wrapper">
+                        <div class="smm-services--item--title">Расширенный SMM<br>50 000 ₽</div>
+                        <div class="smm-services--item--description">Полное обслуживание аккаунта All Inclusive (включает в себя обслуживание всех соцсетей клиента):</div>
+                        <div class="smm-services--item--action">
+                            <ul>
+                                <li><?= renderSprite('check-mark') ?> Оформление профиля</li>
+                                <li><?= renderSprite('check-mark') ?> Настройка бизнес профиля</li>
+                                <li><?= renderSprite('check-mark') ?> Постинг (индивидуально)</li>
+                                <li><?= renderSprite('check-mark') ?> Копирайт</li>
+                                <li><?= renderSprite('check-mark') ?> Интерактивы с подписчиками (обсуждения, конкурсы)</li>
+                                <li><?= renderSprite('check-mark') ?> Настройка таргетинга по запросу</li>
+                                <li><?= renderSprite('check-mark') ?> Предоставление отчетов</li>
+                                <li><?= renderSprite('check-mark') ?> Круглосуточная модерация, общение с подписчиками, ответы на вопросы, разрешение конфликтов</li>
+                                <li><?= renderSprite('check-mark') ?> Разработка рекламных кампаний, акций</li>
+                                <li><?= renderSprite('check-mark') ?> Создание креативов, вирусный контент</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="smm-services--item col-md-5 offset-md-1 col-sm-12 offset-sm-0">
+                    <div class="smm-services--item-wrapper">
+                        <div class="smm-services--item--title">Услуга «Таргетинг»<br>5 000 ₽</div>
+                        <div class="smm-services--item--action">
+                            <ul>
+                                <li><?= renderSprite('check-mark') ?> Настройка таргетированной рекламы ВК, Фэйсбук, Инстаграм</li>
+                                <li><?= renderSprite('check-mark') ?> Все материалы (фото, видео, текст) предоставляет Клиент + бюджет на рекламу</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="smm-services--item col-md-5 col-sm-12">
+                    <div class="smm-services--item-wrapper">
+                        <div class="smm-services--item--title">Услуга «Анализ Аккаунта»<br>2 499 ₽</div>
+                        <div class="smm-services--item--action">
+                            <ul>
+                                <li><?= renderSprite('check-mark') ?> Анализ аккаунта, выявление сильных и слабых сторон, советы по продвижению, идеи для активностей</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-    <section class="smm_preview">
-        <div class="container_v2">
-            <div class="smm_preview_list">
-                <div class="smm_preview_item smm_preview_item_left">
-                    <p class="smm-h4">
-                        Что Вы получите:
-                    </p>
-                    <ul class="sBlockUL">
-                        <li>Профессиональный анализ и исправление ошибок на вашем аккаунте</li>
-                        <li>Настройку всех необходимых бизнес-инструментов</li>
-                        <li>Качественное сопровождение ваших площадок в социальных сетях</li>
-                        <li>Повышение качества контента и как результат увеличение продаж</li>
-                        <li>Настройку всех видов рекламы (таргет, контекст, и т.д)</li>
-                        <li>Надежного долгосрочного партнера, которому можно доверить ведение бизнеса в соцсетях</li>
-                    </ul>
-                </div>
-                <div class="smm_preview_item smm_preview_item_right">
-                    <p>
-                        Мы проанализируем твой аккаунт, выявим недочеты и обсудим дальнейшее продвижение за 99 рублей вместо обычной цены
-                        <del>2499 руб</del>
-                    </p>
-                    <form action="/mail_post.php" method="post" class="wpcf7-form">
-                        <div style="display: none;">
-                            <input type="hidden" name="url" value="http://<?= $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] ?>">
-                        </div>
-                        <p>
-                            <input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text" required="" placeholder="Ваше имя">
-                        </p>
-                        <p>
-                        </p>
-                        <input type="tel"
-                               name="your-phone"
-                               value=""
-                               size="40"
-                               class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-required wpcf7-validates-as-tel"
-                               required=""
-                               aria-invalid="false"
-                               placeholder="Ваш номер телефона *">
-                        <p>
-                        </p>
-                        <p>
-                            <input type="email"
-                                   name="your-email"
-                                   value=""
-                                   size="40"
-                                   class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email"
-                                   required=""
-                                   aria-invalid="false"
-                                   placeholder="Ваша электронная почта *">
-                        </p>
-                        <p style="display:none;">
-                            <input type="text" name="name" value="">
-                        </p>
-                        <p>
-                            <input type="checkbox"
-                                   id="acceptance-check"
-                                   name="acceptance-check"
-                                   value="1"
-                                   class="wpcf7-form-control wpcf7-acceptance"
-                                   required=""
-                                   aria-invalid="false"> <label for="acceptance-check">Я принимаю <!--noindex--><a href="/privacy-policy/" target="_blank" rel="nofollow">условия передачи информации</a><!--/noindex--> </label>
-                            <input type="submit" value="Оставить заявку на анализ аккаунта за 99 рублей" class="wpcf7-form-control wpcf7-submit"><span class="ajax-loader"> </span>
-                        </p>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-    <section class="seo_header">
-        <div class="container_v2">
-            <div class="seo_header_title">
-                <h1 style="background: none">SMM и Таргетированная реклама в социальных сетях</h1>
-                <p class="smm-h5" style="color: #fff; margin: 7px 0 7px;">
-                    Мы предлагаем комплексное продвижение в социальных сетях
-                </p>
-            </div>
-        </div>
-    </section>
-    <section class="seo_content smm_content">
-        <div class="container_v2">
-            <div class="offset_line">
-                <hr>
-            </div>
-            <div class="seo_content_item">
-                <div>
-                    <img alt="Продвижение в соцсетях(SMM)" src="/image/SMM.jpg">
-                </div>
-                <div class="seo_content_item_text">
-                    <h2 style="font-size: 42px;margin: 15px 0 37px;">ПРОДАВАТЬ ЧЕРЕЗ СОЦСЕТИ – ЛЕГКО!</h2>
-                    <p class="smm-h4">
-                        Просто выйдите на улицу и оглянитесь.
-                    </p>
-                    <p>
-                        Пока вы используете стандартные средства продвижения, мимо вашего бизнеса проходят тысячи людей, погруженных в экраны своих смартфонов. Это доказывает —
-                        продажи через интернет из прихоти давно стали необходимостью. Ваша главная задача сейчас — это найти своих клиентов в соцсетях, превратить их в постоянных
-                        покупателей, а в дальнейшем и в адвокатов вашего бренда. Для этого необходимо только выбрать нужный способ связи.
-                    </p>
-                    <p class="smm-h4">
-                        Москва, у вас SMM-проблемы? Тогда вам повезло найти наш сайт!
-                    </p>
-                    <p class="smm-h5">
-                        Круглосуточная поддержка вашего бизнеса в самых популярных социальных сетях.
-                    </p>
-                    <ul class="sBlockUL">
-                        <li>
-                            ЭКСПЕРТНОСТЬ – Мы эксперты в области SMM с многолетним опытом;
-                        </li>
-                        <li>
-                            АКТУАЛЬНОСТЬ – Мы постоянно обучаемся и развиваемся;
-                        </li>
-                        <li>
-                            НАДЕЖНОСТЬ – Мы гарантируем безопасность каждой сделки;
-                        </li>
-                        <li>
-                            ЛОЯЛЬНОСТЬ – Мы оберегаем и уважаем каждого клиента.
-                        </li>
-                    </ul>
-                    <p class="smm-h4">
-                        Что такое SMM и зачем это нужно вашему бизнесу?
-                    </p>
-                    <p>
-                        SMM-продвижение — это способ пообщаться со своей аудиторией напрямую, построить сильный бренд и увеличить продажи посредством социальных сетей. Социальные
-                        сети прочно вошли в жизнь миллионов людей, именно поэтому Social Media Marketing на сегодняшний день является наиболее перспективным методом продвижения.
-                    </p>
-                    <p class="smm-h5">
-                        SMM продвижение решает сразу несколько проблем:
-                    </p>
-                    <ul class="sBlockUL">
-                        <li>Вы формируете выгодный ИМИДЖ компании, рассказывая о ней в публикациях и изучая отклик клиентов.</li>
-                        <li>Потенциальный Клиент узнаёт о ПОЛЬЗЕ продукта или услуги лично от вас, изучая качественный уникальный контент. Это первый шаг к совершению продажи.</li>
-                        <li>Вы можете оказывать ВЛИЯНИЕ на ваших подписчиков, формируя спрос на те или иные товары и услуги, создавать вирусный контент и, таким образом, охватывать
-                            ещё бОльшую аудиторию.
-                        </li>
-                        <li>Не имеет значение B2B или B2C — в любом случае о вас узнает ЦЕЛЕВАЯ АУДИТОРИЯ.</li>
-                    </ul>
-                    <div class="audit_order">
-                        <a class="fancybox " href="#win1"> <img src="/image/knopka.png" alt=""> </a>
-                    </div>
-                </div>
-            </div>
-            <div class="offset_line">
-                <hr>
-            </div>
-        </div>
-    </section>
-    <section class="smm_price">
-        <div class="container_v2">
-            <div class="price_audit">
-                <div class="price_audit_item">
-                    <div class="price_audit_item_top">
-                        <h2 style="font-size: 30px;margin: 15px 0 37px;color: #fff;" class="price_audit_title">Базовый SMM</h2>
-                        <div>
-                            <span class="tm_pb_sum">16&nbsp;000 &#8381; </span>
-                        </div>
-                    </div>
-                    <div class="price_audit_item_bottom">
-                        <div class="price_audit">
-                            <p>
-                                Комплексное обслуживание аккаунта в выбранной соцсети, которое включает в себя:
-                            </p>
-                            <ul class="sBlockUL">
-                                <li>Оформление профиля</li>
-                                <li>Настройка бизнес профиля</li>
-                                <li>Постинг (4-5 постов в неделю)</li>
-                                <li>Копирайт</li>
-                                <li>Интерактивы с подписчиками (обсуждения, конкурсы)</li>
-                                <li>Настройка таргетинга 1 раз в месяц</li>
-                                <li>Предоставление отчетов</li>
-                                <li class="none">Модерация, общение с подписчиками</li>
-                                <li class="none">Разработка рекламных кампаний, акций</li>
-                                <li class="none">Создание креативов, вирусный контент</li>
-                            </ul>
-                        </div>
-                        <p>
-                            <a class="btn" href="#win1">Заказать</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="price_audit_item">
-                    <div class="price_audit_item_top">
-                        <h2 style="font-size: 30px;margin: 15px 0 37px;color: #fff;" class="price_audit_title">Оптимальный SMM</h2>
-                        <div>
-                            <span class="tm_pb_sum">30 000 &#8381;</span>
-                        </div>
-                    </div>
-                    <div class="price_audit_item_bottom">
-                        <div class="price_audit">
-                            <p>
-                                Полное обслуживание выбранных 3 аккаунтов (обслуживание 3 основных соцсетей Клиента)
-                            </p>
-                            <ul class="sBlockUL">
-                                <li>Оформление профиля</li>
-                                <li>Настройка бизнес профиля</li>
-                                <li>Постинг (7-12 постов в неделю)</li>
-                                <li>Копирайт</li>
-                                <li>Интерактивы с подписчиками (обсуждения, конкурсы)</li>
-                                <li>Настройка таргетинга 2 раза в месяц</li>
-                                <li>Предоставление отчетов</li>
-                                <li>Модерация, общение с подписчиками</li>
-                                <li>Разработка рекламных кампаний, акций</li>
-                                <li>Создание креативов, вирусный контент</li>
-                                <li class="none">Круглосуточная модерация, общение с подписчиками, ответы на вопросы, разрешение конфликтов</li>
-                            </ul>
-                        </div>
-                        <p>
-                            <a class="btn" href="#win1">Заказать</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="price_audit_item">
-                    <div class="price_audit_item_top">
-                        <p style="font-size: 30px;margin: 15px 0 37px;color: #fff;line-height: 1.25;" class="price_audit_title">
-                            Расширенный SMM
-                        </p>
-                        <div>
-                            <span class="tm_pb_sum">50 000 &#8381;</span>
-                        </div>
-                    </div>
-                    <div class="price_audit_item_bottom">
-                        <div class="price_audit">
-                            <p>
-                                Полное обслуживание аккаунта All Inclusive (включает в себя обслуживание всех соцсетей Клиента)
-                            </p>
-                            <ul class="sBlockUL">
-                                <li>Оформление</li>
-                                <li>Настройка бизнес профиля</li>
-                                <li>Постинг (индивидуально)</li>
-                                <li>Копирайт</li>
-                                <li>Интерактивы с подписчиками (обсуждения, конкурсы)</li>
-                                <li>Настройка таргетинга по запросу</li>
-                                <li>Предоставление отчетов</li>
-                                <li>Круглосуточная модерация, общение с подписчиками, ответы на вопросы, разрешение конфликтов</li>
-                                <li>Разработка рекламных кампаний, акций</li>
-                                <li>Создание креативов, вирусный контент</li>
-                            </ul>
-                        </div>
-                        <p>
-                            <a class="btn" href="#win1">Заказать</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="offset_line">
-                <hr>
-            </div>
-        </div>
-    </section>
-    <section class="smm_price_service">
-        <div class="container_v2">
-            <div class="price_audit">
-                <div class="price_audit_item">
-                    <div class="price_audit_item_top">
-                        <h3 class="price_audit_title">Услуга «Таргетинг» </h3>
-                        <div>
-                            <span class="tm_pb_sum">5 000 &#8381;</span>
-                        </div>
-                    </div>
-                    <div class="price_audit_item_bottom">
-                        <div class="price_audit">
-                            <ul class="sBlockUL">
-                                <li>Настройка таргетированной рекламы ВК, Фэйсбук, Инстаграм</li>
-                                <li>Все материалы (фото, видео, текст) предоставляет Клиент + бюджет на рекламу</li>
-                            </ul>
-                        </div>
-                        <p>
-                            <a class="btn" href="#win1">Заказать</a>
-                        </p>
-                    </div>
-                </div>
-                <div class="price_audit_item">
-                    <div class="price_audit_item_top">
-                        <h3 class="price_audit_title">Услуга «Анализ Аккаунта»</h3>
-                        <div>
-                            <span class="tm_pb_sum">2 499 &#8381;</span>
-                        </div>
-                    </div>
-                    <div class="price_audit_item_bottom">
-                        <div class="price_audit">
-                            <ul class="sBlockUL">
-                                <li>Анализ аккаунта, выявление сильных и слабых сторон, советы по продвижению, идеи для активностей</li>
-                            </ul>
-                        </div>
-                        <p>
-                            <a class="btn" href="#win1">Заказать</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="offset_line">
-                <hr>
-            </div>
-        </div>
-    </section>
-    <section class="promo_block">
-        <div class="container_v2">
-            <div class="promo_description">
-                <p class="smm-h3">
-                    Наймите нас, чтобы улучшить Ваш бизнес и сделать его успешным!
-                </p>
-                <p class="smm-h5" style="color: #fff; margin: 15px 0 15px 0;">
-                    Расскажите подробнее о своем проекте.
-                </p>
-                <p>
-                    <a class="tm_pb_promo_button tm_pb_button fancybox" href="#win1">Запросить коммерческое предложение</a>
-                </p>
-            </div>
-        </div>
-    </section> </main>
-    <style>
-        .smm-h3 {
-            font-style:     normal;
-            font-size:      42px;
-            line-height:    1.179;
-            font-family:    'Didact Gothic', sans-serif;
-            letter-spacing: 0px;
-            text-align:     inherit;
-        }
 
-        .smm-h4 {
-            font-size:      30px;
-            margin:         15px 0 18px;
-            font-style:     normal;
-            line-height:    1.28;
-            font-family:    'Didact Gothic', sans-serif;
-            letter-spacing: 0px;
-            text-align:     inherit;
-            color:          #3a3a50;
-        }
+    <section class="smm-promo">
+        <div class="container">
+            <div class="row">
+                <div class="smm-promo--content col-12 text-center">
+                    <h2 class="big text-center">Наймите нас, чтобы улучшить Ваш бизнес<br>и сделать его успешным!</h2>
+                    <p class="h2 text-center"><br>Расскажите подробнее о своем проекте.</p>
+                    <p class="text-center">
+                        <br>
+                        <button class="btn js-open-modal" data-action="openModal" data-modal="audit">Запросить коммерческое предложение</button>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        .smm-h5 {
-            font-style:     normal;
-            font-size:      24px;
-            line-height:    1.58;
-            font-family:    'Didact Gothic', sans-serif;
-            letter-spacing: 0px;
-            text-align:     inherit;
-            color:          #3a3a50;
-        }
-    </style><? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
+</div>
+
+<?php require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
