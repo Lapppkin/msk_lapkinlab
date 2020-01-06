@@ -263,7 +263,7 @@ gulp.task('watch', watch);
 // build task
 gulp.task('build', gulp.parallel(
     gulp.series('sprite:build', 'images:build'),
-    'sprite:build',
+    //'sprite:build',
     'spriteSvg:build',
     'css:build',
     'js:build',
@@ -271,4 +271,4 @@ gulp.task('build', gulp.parallel(
 ));
 
 // default task
-gulp.task('default', gulp.parallel('build', 'watch'));
+gulp.task('default', gulp.series('build', 'watch'));
