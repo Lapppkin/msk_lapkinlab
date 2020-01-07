@@ -84,7 +84,7 @@
 
             </div>
             <div class="section--cases--order col-12 text-center">
-                <a class="btn js-open-modal" href="#" data-action="openModal" data-modal="audit" onclick="ymReachGoal('zakaz')">Заказать услугу</a>
+                <a class="btn js-open-modal" href="#" data-action="openModal" data-modal="audit">Заказать услугу</a>
             </div>
         </div>
     </div>

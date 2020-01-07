@@ -13,13 +13,13 @@ use LapkinLab\Core;
     <div class="mobile-menu--wrapper">
         <div class="mobile-menu--buttons">
             <div class="header--top-buttons--callback">
-                <a class="btn btn-noradius js-open-modal" href="#" data-action="openModal" data-modal="callback" onclick="ymReachGoal('zvonok')">
+                <a class="btn btn-noradius js-open-modal" href="#" data-action="openModal" data-modal="callback">
                     <?= renderSprite('call-white') ?>
                     Заказать звонок
                 </a>
             </div>
             <div class="header--top-buttons--audit">
-                <a class="btn btn-noradius btn-dark js-open-modal" href="#" data-action="openModal" data-modal="audit" onclick="ymReachGoal('audit')">Заказать аудит</a>
+                <a class="btn btn-noradius btn-dark js-open-modal" href="#" data-action="openModal" data-modal="audit">Заказать аудит</a>
             </div>
             <div class="header--top-buttons--brief">
                 <a class="btn btn-noradius btn-darken" href="<?= Core::getBriefLink() ?>" target="_blank">Заполнить бриф</a>
