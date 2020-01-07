@@ -46,12 +46,10 @@
 
       .nav {
         flex-basis: 100%;
+        max-width: 100%;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
-        @media (max-width: map_get($grid-breakpoints, md)) {
-          padding: 0 $app-padding--small /2;
-        }
         .nav-item {
           flex-grow: 1;
           flex-basis: 33.333%;
@@ -90,6 +88,7 @@
 
       .tab-content {
         flex-basis: 100%;
+        max-width: 100%;
         display: flex;
         .tab-pane {
           color: $app-color--white;
@@ -123,6 +122,9 @@
               flex-basis: 100%;
               color: $app-color--active;
               margin-bottom: $app-padding--small;
+              @media (max-width: map_get($grid-breakpoints, md)) {
+                margin-top: $app-padding--small;
+              }
             }
             .result--content,
             .task--content {
@@ -149,6 +151,7 @@
             justify-content: space-between;
             margin-top: $app-padding--base;
             margin-bottom: $app-padding--base;
+            max-width: 100%;
             @media (max-width: map_get($grid-breakpoints, md)) {
               flex-wrap: wrap;
             }
