@@ -32,7 +32,6 @@
 @import "common/_footer.scss";
 @import "common/_mobile_menu.scss";
 @import "common/_common.scss";
-@import "common/_pages.scss";
 @import "common/_pagination.scss";
 
 // common sections
@@ -52,6 +51,17 @@
 @import "components/_front_cases.scss";
 @import "components/_article.scss";
 @import "components/_contact_form.scss";
+
+// pages
+
+@import "pages/_privacy.scss";
+@import "pages/_amocrm.scss";
+@import "pages/_blog.scss";
+@import "pages/_contacts.scss";
+@import "pages/_smm.scss";
+@import "pages/_seo.scss";
+@import "pages/_sites.scss";
+@import "pages/_ppc.scss";
 
 // vendor
 

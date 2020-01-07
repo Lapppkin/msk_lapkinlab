@@ -1,0 +1,66 @@
+// SEO
+.page-seo {
+  padding-top: $app-padding--medium;
+  padding-bottom: $app-padding--large;
+  h1,
+  h2 {
+    text-align: center;
+  }
+
+  .table {
+    tbody {
+      tr {
+        td:first-child {
+          @include head_font;
+          font-size: $app-fontsize--small;
+        }
+      }
+    }
+  }
+
+  .seo-price-item {
+    border: 1px solid $app-color--primary;
+    margin-top: $app-padding--small;
+    margin-bottom: $app-padding--base;
+    @include border-radius;
+    &.active {
+      border-color: $app-color--active;
+      h3 {
+        color: $app-color--white;
+        background-color: $app-color--active;
+      }
+    }
+    h3 {
+      color: $app-color--white;
+      background-color: $app-color--primary;
+      @include head_font;
+      margin: 0;
+      padding: $app-padding--base;
+    }
+    p {
+      margin-bottom: $app-padding--base;
+      &.price {
+        @include head_font;
+        font-size: $app-fontsize--h3;
+      }
+    }
+    ul {
+      padding: $app-padding--small $app-padding--base;
+      list-style: none;
+      li {
+        display: flex;
+        align-items: center;
+        padding: 10px 0;
+        border-bottom: 1px solid $app-color--border;
+        i {
+          min-width: 20px;
+          margin-right: $app-padding--small;
+        }
+        &.disabled {
+          display: none;
+        }
+      }
+    }
+  }
+
+}

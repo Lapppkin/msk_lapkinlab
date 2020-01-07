@@ -1,0 +1,144 @@
+// SMM
+.page-smm {
+  padding-top: $app-padding--medium;
+  padding-bottom: 0;
+  ul {
+    padding: $app-padding--small $app-padding--base;
+    list-style: none;
+    li {
+      display: flex;
+      align-items: center;
+      padding: 10px 0;
+      i {
+        margin-right: 10px;
+      }
+      &.disabled {
+        display: none;
+      }
+    }
+  }
+
+  .smm-preview {
+    padding-bottom: $app-padding--large;
+    h2,
+    h3 {
+      margin-top: 0;
+      color: $app-color--active;
+    }
+    ul {
+      padding: 0;
+      margin: 0;
+      li {
+        padding-bottom: 8px;
+      }
+    }
+    &--wrapper {
+      border: 1px solid $app-color--border;
+      @include border-radius;
+      padding: $app-padding--base;
+      &:hover {
+        @include shadow;
+      }
+    }
+    &--item {
+      padding-top: $app-padding--base;
+    }
+  }
+
+  .smm-header {
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large;
+    background-image: url("images/smm/bg_pic6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: $app-color--primary;
+    h2 {
+      color: $app-color--white;
+      font-size: $app-fontsize--big + 10px;
+    }
+    p {
+      color: $app-color--white;
+      font-size: $app-fontsize--medium;
+    }
+  }
+
+  .smm-sales {
+    padding-top: $app-padding--medium;
+    padding-bottom: $app-padding--medium;
+    &--image {
+      background-image: url("images/smm/smm.jpg");
+      background-position: top center;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    &--content {
+      ul {
+        padding: 0;
+        margin: 0;
+        li {
+          padding-bottom: 8px;
+          i {
+            min-width: 20px;
+          }
+        }
+      }
+    }
+  }
+
+  .smm-services {
+    border-top: 1px solid $app-color--border;
+    border-bottom: 1px solid $app-color--border;
+    padding-top: $app-padding--medium;
+    padding-bottom: $app-padding--medium;
+    &--item {
+      margin-bottom: $app-padding--base;
+      &-wrapper {
+        @include border-radius;
+        overflow: hidden;
+        height: 100%;
+        background-color: $app-color--primary;
+      }
+      &--title {
+        color: $app-color--white;
+        background-color: $app-color--active;
+        text-align: center;
+        font-size: $app-fontsize--h2;
+        padding: $app-padding--base;
+        line-height: 2;
+      }
+      &--description {
+        color: $app-color--white;
+        background-color: $app-color--primary;
+        text-align: center;
+        padding: $app-padding--base $app-padding--base 0;
+      }
+      &--action {
+        color: $app-color--white;
+        background-color: $app-color--primary;
+        padding: $app-padding--base;
+        ul {
+          padding: 0;
+          margin: 0;
+          li {
+            padding-bottom: 8px;
+            i {
+              min-width: 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .smm-promo {
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large;
+    background-color: $app-color--background;
+    h2 {
+      margin-top: 0;
+      color: $app-color--primary;
+    }
+  }
+
+}

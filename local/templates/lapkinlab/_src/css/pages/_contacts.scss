@@ -1,0 +1,23 @@
+// Contacts
+body.contacts {
+  .breadcrumb--wrapper,
+  .page-contacts {
+    background-color: $app-color--primary;
+    color: $app-color--white;
+  }
+}
+
+.page-contacts {
+  padding-top: $app-padding--medium;
+  padding-bottom: $app-padding--large;
+  h1 {
+    color: $app-color--white;
+  }
+  p {
+    color: $app-color--white;
+    a[href^="tel:"] {
+      font-size: $app-fontsize--h2;
+      @include head_font;
+    }
+  }
+}
