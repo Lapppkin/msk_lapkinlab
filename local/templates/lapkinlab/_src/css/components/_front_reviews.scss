@@ -11,7 +11,7 @@
 
     &--title {
       font-size: $app-fontsize--h1;
-      margin-bottom: $app-padding--medium;
+      margin-bottom: $app-padding--medium !important;
     }
     &--items {
       display: flex;
