@@ -17,6 +17,9 @@
     padding-bottom: $app-padding--medium;
     p {
       margin-right: $app-padding--base;
+      img {
+        max-width: 100%;
+      }
     }
   }
 
@@ -44,9 +47,15 @@
       align-items: center;
       flex-wrap: wrap;
       @include border-radius;
+      @media (max-width: map_get($grid-breakpoints, xl)) {
+        padding-left: $app-padding--small;
+        padding-right: $app-padding--small;
+      }
       @media (max-width: map_get($grid-breakpoints, lg)) {
         flex-basis: calc(33.333% - 30px);
         max-width: calc(33.333% - 30px);
+        padding-left: $app-padding--small;
+        padding-right: $app-padding--small;
       }
       @media (max-width: map_get($grid-breakpoints, md)) {
         flex-basis: calc(50% - 40px);
@@ -54,6 +63,7 @@
       }
       @media (max-width: map_get($grid-breakpoints, sm)) {
         flex-basis: 100%;
+        max-width: 100%;
       }
       &--icon {
         flex-basis: 100%;
@@ -194,6 +204,212 @@
       }
       &--body {
         width: 100%;
+      }
+    }
+  }
+
+  .ppc-how {
+    padding-top: $app-padding--medium;
+    padding-bottom: $app-padding--medium;
+    color: $app-color--white;
+    background-color: $app-color--primary;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
+    &--title {
+      margin-bottom: $app-padding--medium;
+      color: $app-color--white;
+    }
+    &--items {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &--item {
+      flex-basis: 100%;
+      margin-bottom: $app-padding--base;
+      display: flex;
+      &:last-child {
+        .ppc-how--item--wrapper:after {
+          display: none;
+        }
+      }
+      &:nth-child(even) {
+        justify-content: flex-end;
+        @media (max-width: map_get($grid-breakpoints, md)) {
+          justify-content: flex-start;
+        }
+        .ppc-how--item--wrapper {
+          padding-left: 80px;
+          padding-right: initial;
+          @media (max-width: map_get($grid-breakpoints, md)) {
+            padding-right: 80px;
+            padding-left: initial;
+          }
+          &:after {
+            left: 30px;
+            right: initial;
+            @media (max-width: map_get($grid-breakpoints, md)) {
+              left: initial;
+              right: 30px;
+            }
+          }
+        }
+        .ppc-how--item--title,
+        .ppc-how--item--description {
+          text-align: left;
+          @media (max-width: map_get($grid-breakpoints, md)) {
+            text-align: right;
+          }
+        }
+        .ppc-how--item--counter {
+          right: initial;
+          left: 10px;
+          @media (max-width: map_get($grid-breakpoints, md)) {
+            right: 10px;
+            left: initial;
+          }
+        }
+      }
+      &--wrapper {
+        flex-basis: calc(50% + 30px);
+        position: relative;
+        padding-right: 80px;
+        @media (max-width: map_get($grid-breakpoints, md)) {
+          flex-basis: 100%;
+        }
+        &:after {
+          content: "";
+          display: block;
+          position: absolute;
+          width: 1px;
+          height: 100%;
+          background-color: $app-color--active;
+          top: 40px;
+          right: 30px;
+        }
+      }
+      &--counter {
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: $app-color--white;
+        background-color: $app-color--active;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        right: 10px;
+        top: 0;
+        @include head_font;
+        font-size: $app-fontsize--h3;
+      }
+      &--title {
+        text-align: right;
+        @include head_font;
+        font-size: $app-fontsize--medium;
+        margin-bottom: 7px;
+      }
+      &--description {
+        text-align: right;
+        opacity: 0.6;
+      }
+    }
+  }
+
+  .ppc-benefit {
+    padding-top: $app-padding--medium;
+    padding-bottom: $app-padding--medium;
+    &--title {
+      margin-bottom: $app-padding--medium;
+    }
+    &--hole {
+      &--wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: $app-color--primary;
+        background-image: url("images/hole.png");
+        background-position: center;
+        background-size: 150%;
+        background-repeat: no-repeat;
+        @media (max-width: map_get($grid-breakpoints, md)) {
+          background-color: $app-color--white;
+          background-image: none;
+        }
+        .hole {
+          &-row {
+            flex-basis: 100%;
+            display: flex;
+            justify-content: space-between;
+            @media (max-width: map_get($grid-breakpoints, md)) {
+              flex-wrap: wrap;
+            }
+          }
+          &-col {
+            border: 1px solid $app-color--active;
+            &-left,
+            &-right {
+              padding: $app-padding--base;
+              color: $app-color--white;
+              font-size: $app-fontsize--medium;
+              flex-basis: 35%;
+              border-right: 0;
+              border-left: 0;
+              display: flex;
+              align-items: center;
+              justify-content: left;
+              @media (max-width: map_get($grid-breakpoints, md)) {
+                justify-content: center;
+                flex-basis: 100%;
+                color: $app-color--primary;
+              }
+            }
+            &-right {
+              text-align: right;
+              justify-content: right;
+            }
+            &-center {
+              flex-basis: 15%;
+              text-align: center;
+              padding: $app-padding--base $app-padding--small;
+              border-left: 0;
+              border-right: 0;
+              @media (max-width: map_get($grid-breakpoints, md)) {
+                flex-basis: 100%;
+                background-color: $app-color--background;
+              }
+              span {
+                @include head_font;
+                color: $app-color--active;
+              }
+            }
+          }
+        }
+      }
+    }
+    &--work {
+      margin-top: $app-padding--base;
+      @include head_font;
+      font-size: $app-fontsize--h2;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      span {
+        width: 100%;
+        color: $app-color--active;
+        @include border-radius;
+        border: 1px solid $app-color--primary;
+        padding: $app-padding--medium $app-padding--base;
+        text-align: center;
+        @media (max-width: map_get($grid-breakpoints, md)) {
+          padding: $app-padding--base;
+        }
+        &:hover {
+          color: $app-color--white;
+          background-color: $app-color--active;
+          border-color: $app-color--active;
+        }
       }
     }
   }

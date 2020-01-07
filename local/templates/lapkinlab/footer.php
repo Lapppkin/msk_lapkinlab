@@ -5,7 +5,10 @@ use LapkinLab\Helper;
 ?>
         </main><!--/main-->
 
-        <?php if ($APPLICATION->GetCurDir() === '/' || $APPLICATION->GetCurDir() === '/contacts/'): ?>
+        <?php if ($APPLICATION->GetCurDir() === '/'
+                  || $APPLICATION->GetCurDir() === '/contacts/'
+                  || $APPLICATION->GetCurDir() === '/ppc/'
+        ): ?>
             <?php //$APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/calculator.php', array(), array('SHOW_BORDER' => true)) ?>
             <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_form.php', array(), array('SHOW_BORDER' => true)) ?>
         <?php endif; ?>
