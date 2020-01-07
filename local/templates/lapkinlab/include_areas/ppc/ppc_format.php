@@ -40,7 +40,7 @@ $section = array(
     <div class="container">
         <div class="row">
             <h2 class="ppc-<?= $section['name'] ?>--title text-center h1 col-12"><?= $section['title'] ?></h2>
-            <div class="ppc-<?= $section['name'] ?>--items col-md-10 offset-md-1 col-sm-12 offset-sm-0">
+            <div class="ppc-<?= $section['name'] ?>--items col-lg-10 offset-lg-1 col-md-12 offset-md-0">
                 <div class="row">
 
                     <?php foreach ($section['items'] as $key => $item): ?>

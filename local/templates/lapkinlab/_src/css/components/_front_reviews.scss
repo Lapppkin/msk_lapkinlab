@@ -4,7 +4,7 @@
   &--reviews {
     padding-top: $app-padding--large;
     padding-bottom: $app-padding--large;
-    @media (max-width: map_get($grid-breakpoints, sm)) {
+    @media (max-width: map_get($grid-breakpoints, md)) {
       padding-top: $app-padding--medium;
       padding-bottom: $app-padding--medium;
     }

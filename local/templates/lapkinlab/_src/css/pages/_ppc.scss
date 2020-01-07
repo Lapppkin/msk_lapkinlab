@@ -15,6 +15,9 @@
   .ppc-main {
     padding-top: 0;
     padding-bottom: $app-padding--medium;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-top: $app-padding--medium;
+    }
     p {
       margin-right: $app-padding--base;
       img {
@@ -28,7 +31,12 @@
     padding-top: $app-padding--large;
     padding-bottom: $app-padding--large;
     background-color: $app-color--background;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
     &--title {
+      margin-top: 0;
       margin-bottom: $app-padding--base;
     }
     &--wrapper {
@@ -92,6 +100,10 @@
     padding-top: $app-padding--medium;
     padding-bottom: $app-padding--medium;
     border-bottom: 1px solid $app-color--border;
+    &--title {
+      margin-top: 0;
+      margin-bottom: $app-padding--medium;
+    }
     &--item {
       border: 1px solid $app-color--primary;
       margin-top: $app-padding--small;
@@ -148,6 +160,7 @@
     padding-bottom: $app-padding--medium;
     background-color: $app-color--background;
     &--title {
+      margin-top: 0;
       margin-bottom: $app-padding--medium;
     }
     ul {
@@ -163,6 +176,9 @@
         margin: 0;
         display: flex;
         align-items: center;
+        @media (max-width: map_get($grid-breakpoints, md)) {
+          flex-basis: 100%;
+        }
         i {
           min-width: 44px;
           margin-right: $app-padding--small;
@@ -176,9 +192,14 @@
   }
 
   .ppc-format {
-    padding-top: $app-padding--medium;
+    padding-top: $app-padding--large;
     padding-bottom: $app-padding--large;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
     &--title {
+      margin-top: 0;
       margin-bottom: $app-padding--medium;
     }
     &--items {}
@@ -217,6 +238,7 @@
     background-size: cover;
     background-position: center;
     &--title {
+      margin-top: 0;
       margin-bottom: $app-padding--medium;
       color: $app-color--white;
     }
@@ -321,6 +343,7 @@
     padding-top: $app-padding--medium;
     padding-bottom: $app-padding--medium;
     &--title {
+      margin-top: 0;
       margin-bottom: $app-padding--medium;
     }
     &--hole {

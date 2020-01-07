@@ -65,11 +65,11 @@ $map-height: 450px;
     position: relative;
     z-index: 1;
     &-wrapper {
-      padding-top: 50px;
-      padding-bottom: 40px;
-      @media (max-width: map_get($grid-breakpoints, sm)) {
-        padding-top: 20px;
-        padding-bottom: 10px;
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+      @media (max-width: map_get($grid-breakpoints, md)) {
+        padding-top: $app-padding--base;
+        padding-bottom: $app-padding--base;
       }
     }
 

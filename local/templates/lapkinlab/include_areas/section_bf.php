@@ -34,7 +34,7 @@
                     </div>
                     <div class="section--bf--col col-lg-4 col-md-6">
                         <div class="section--bf--item">
-                            <div class="section--bf--item-icon"><?= renderSprite('chart') ?></div>
+                            <div class="section--bf--item-icon"><?= renderSprite('bar-chart') ?></div>
                             <div class="section--bf--item-text">
                                 <div class="section--bf--item-name">Увеличим посещаемость и продажи</div>
                                 <div class="section--bf--item-desc">Приведем целевых посетителей уже на 3-ий месяц</div>

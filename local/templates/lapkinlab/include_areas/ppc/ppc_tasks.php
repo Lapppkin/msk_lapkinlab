@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row">
             <h2 class="h1 text-center ppc-tasks--title col-12">Решаем основные задачи бизнеса</h2>
-            <div class="ppc-tasks--content col-md-10 offset-md-1 col-sm-12 offset-sm-0">
+            <div class="ppc-tasks--content col-lg-10 offset-lg-1 col-md-12 offset-md-0">
                 <ul>
                     <li><?= renderSprite('star') ?> <span><strong>Рост продаж.</strong> Привлекаем в ваш бизнес «теплую» аудиторию.</span></li>
                     <li><?= renderSprite('star') ?> <span><strong>Рост узнаваемости бренда.</strong></span></li>

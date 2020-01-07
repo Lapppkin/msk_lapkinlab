@@ -19,7 +19,7 @@
   }
 
   .smm-preview {
-    padding-bottom: $app-padding--large;
+    padding-bottom: $app-padding--medium;
     h2,
     h3 {
       margin-top: 0;
@@ -64,9 +64,16 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-color: $app-color--primary;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
     h2 {
       color: $app-color--white;
       font-size: $app-fontsize--big + 10px;
+      @media (max-width: map_get($grid-breakpoints, md)) {
+        font-size: $app-fontsize--h1;
+      }
     }
     p {
       color: $app-color--white;
@@ -77,6 +84,9 @@
   .smm-sales {
     padding-top: $app-padding--medium;
     padding-bottom: $app-padding--medium;
+    &--title {
+      margin-top: 0;
+    }
     &--image {
       background-image: url("images/smm/smm.jpg");
       background-position: top center;
@@ -146,6 +156,10 @@
     padding-top: $app-padding--large;
     padding-bottom: $app-padding--large;
     background-color: $app-color--background;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
     h2 {
       margin-top: 0;
       color: $app-color--primary;

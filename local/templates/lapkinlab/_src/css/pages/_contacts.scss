@@ -10,8 +10,15 @@ body.contacts {
 .page-contacts {
   padding-top: $app-padding--medium;
   padding-bottom: $app-padding--large;
+  @media (max-width: map_get($grid-breakpoints, md)) {
+    padding-top: $app-padding--base;
+    padding-bottom: $app-padding--medium;
+  }
   h1 {
     color: $app-color--white;
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+      margin-top: $app-padding--base;
+    }
   }
   p {
     color: $app-color--white;

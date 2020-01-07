@@ -2,6 +2,9 @@
 .page-blog {
   padding-top: $app-padding--medium;
   padding-bottom: $app-padding--large;
+  @media (max-width: map_get($grid-breakpoints, md)) {
+    padding-bottom: $app-padding--medium;
+  }
 }
 
 .blog {

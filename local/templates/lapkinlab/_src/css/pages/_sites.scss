@@ -11,8 +11,10 @@
   }
 
   .sites-price {
-    margin-bottom: $app-padding--medium;
+    padding-top: $app-padding--medium;
+    padding-bottom: $app-padding--medium;
     &--title {
+      margin-top: 0;
       margin-bottom: $app-padding--medium;
     }
     &--item {
@@ -68,7 +70,12 @@
     padding-top: $app-padding--large;
     padding-bottom: $app-padding--large;
     background-color: $app-color--background;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
     &--title {
+      margin-top: 0;
       margin-bottom: $app-padding--base;
     }
     &--wrapper {
@@ -137,6 +144,10 @@
     border-bottom: 1px solid $app-color--border;
     padding-top: $app-padding--large;
     padding-bottom: $app-padding--large;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
     ul {
       padding: 0;
       margin: 0;
@@ -181,6 +192,10 @@
     background-image: url("images/background.png");
     background-size: cover;
     background-position: center;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
     &--title {
       color: $app-color--white;
       margin-top: 0;
