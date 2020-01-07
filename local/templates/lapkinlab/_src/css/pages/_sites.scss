@@ -86,10 +86,16 @@
       justify-content: center;
       align-items: center;
       @include border-radius;
+      @media (max-width: map_get($grid-breakpoints, xl)) {
+        padding-left: $app-padding--small;
+        padding-right: $app-padding--small;
+      }
       @media (max-width: map_get($grid-breakpoints, lg)) {
         flex-wrap: wrap;
         flex-basis: calc(33.333% - 30px);
         max-width: calc(33.333% - 30px);
+        padding-left: $app-padding--small;
+        padding-right: $app-padding--small;
       }
       @media (max-width: map_get($grid-breakpoints, md)) {
         flex-basis: calc(50% - 40px);
@@ -97,6 +103,7 @@
       }
       @media (max-width: map_get($grid-breakpoints, sm)) {
         flex-basis: 100%;
+        max-width: 100%;
       }
       &--icon {
         flex-basis: 85px;
