@@ -4,8 +4,13 @@
   background: transparent;
   margin-bottom: 0;
   font-size: $app-fontsize--small;
+  display: inline-block;
+  &-item {
+    display: inline-block;
+  }
   &--wrapper {
     background-color: $app-color--background;
+    width: 100%;
   }
 }
 
@@ -131,4 +136,8 @@
     margin-top: $app-padding--base;
     margin-bottom: $app-padding--small;
   }
+}
+
+i.lapicon-check-mark {
+  min-width: 20px;
 }
