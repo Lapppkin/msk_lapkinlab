@@ -80,4 +80,13 @@ $APPLICATION->IncludeComponent(
 	),
 	false
 );?>
+
+<div class="actions container mt-5 mb-5">
+    <div class="row">
+        <div class="col-12">
+            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/our_actions.php', array(), array('SHOW_BORDER' => true)) ?>
+        </div>
+    </div>
+</div>
+
 <?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
