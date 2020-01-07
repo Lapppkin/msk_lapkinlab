@@ -28,7 +28,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                 </div>
                 <div class="smm-preview--item col-md-6">
                     <div class="smm-preview--wrapper">
-                        <h3 class="text-center">Мы проанализируем твой аккаунт, выявим недочеты и обсудим дальнейшее продвижение за 99 рублей вместо обычной цены <del>2499 руб</del></h3>
+                        <h3 class="text-center">Мы проанализируем твой аккаунт, выявим недочеты<br> и обсудим дальнейшее продвижение<br> за <b>99 рублей</b> вместо обычной цены <del>2499 руб</del></h3>
                         <div class="smm-preview--form">
                             <?php
                             $params = array(
@@ -42,7 +42,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                                     'name',
                                     'phone',
                                 ),
-                                'submit_button' => 'Оставить заявку на анализ аккаунта за 99 рублей',
+                                'submit_button' => 'Оставить заявку',
                                 'wrapper' => false,
                             );
                             $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/contact_form.php', $params);
@@ -104,7 +104,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
         <div class="container">
             <div class="row">
 
-                <div class="smm-services--item col-md-4">
+                <div class="smm-services--item col-lg-4 col-md-6">
                     <div class="smm-services--item-wrapper">
                         <div class="smm-services--item--title">Базовый SMM<br>16 000 ₽</div>
                         <div class="smm-services--item--description">Комплексное обслуживание аккаунта в выбранной соцсети, которое включает в себя:</div>
@@ -124,7 +124,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                         </div>
                     </div>
                 </div>
-                <div class="smm-services--item col-md-4">
+                <div class="smm-services--item col-lg-4 col-md-6">
                     <div class="smm-services--item-wrapper">
                         <div class="smm-services--item--title">Оптимальный SMM<br>30 000 ₽</div>
                         <div class="smm-services--item--description">Полное обслуживание выбранных 3 аккаунтов (обслуживание 3 основных соцсетей клиента):</div>
@@ -145,7 +145,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                         </div>
                     </div>
                 </div>
-                <div class="smm-services--item col-md-4">
+                <div class="smm-services--item col-lg-4 col-md-12">
                     <div class="smm-services--item-wrapper">
                         <div class="smm-services--item--title">Расширенный SMM<br>50 000 ₽</div>
                         <div class="smm-services--item--description">Полное обслуживание аккаунта All Inclusive (включает в себя обслуживание всех соцсетей клиента):</div>
@@ -165,7 +165,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                         </div>
                     </div>
                 </div>
-                <div class="smm-services--item col-md-5 offset-md-1 col-sm-12 offset-sm-0">
+                <div class="smm-services--item col-lg-5 offset-lg-1 col-md-12 offset-md-0 col-sm-12 offset-sm-0">
                     <div class="smm-services--item-wrapper">
                         <div class="smm-services--item--title">Услуга «Таргетинг»<br>5 000 ₽</div>
                         <div class="smm-services--item--action">
@@ -176,7 +176,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                         </div>
                     </div>
                 </div>
-                <div class="smm-services--item col-md-5 col-sm-12">
+                <div class="smm-services--item col-lg-5 col-md-12 col-sm-12">
                     <div class="smm-services--item-wrapper">
                         <div class="smm-services--item--title">Услуга «Анализ Аккаунта»<br>2 499 ₽</div>
                         <div class="smm-services--item--action">
