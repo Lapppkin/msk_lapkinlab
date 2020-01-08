@@ -5382,7 +5382,7 @@ i.lapicon-check-mark {
     background-color: #333;
     color: #fff;
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 90px;
     position: relative;
     margin-bottom: 60px;
 }
@@ -5579,11 +5579,20 @@ i.lapicon-check-mark {
     min-width: 20px;
 }
 
+.slider--form {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
 .slider .contact-form--form,
 .page-sites .sites-slider .contact-form--form,
 .page-ppc .ppc-slider .contact-form--form,
 .page-chat-bot .chat-bot-slider .contact-form--form {
-    width: 100%;
+    width: 80%;
     border: 1px solid #fa3a5e;
     border-radius: 0.25rem;
     padding: 30px;
@@ -15656,6 +15665,13 @@ Build date: 2018-12-11 23:23:51
         -ms-flex-pack: start;
         justify-content: flex-start;
     }
+
+    .slider .contact-form--form,
+  .page-sites .sites-slider .contact-form--form,
+  .page-ppc .ppc-slider .contact-form--form,
+  .page-chat-bot .chat-bot-slider .contact-form--form {
+        width: 100%;
+    }
 }
 
 @media (max-width: 1629.98px) {
@@ -16499,6 +16515,7 @@ Build date: 2018-12-11 23:23:51
   .page-ppc .ppc-slider,
   .page-chat-bot .chat-bot-slider {
         margin-bottom: 0;
+        padding-bottom: 60px;
     }
 
     .slider h2,

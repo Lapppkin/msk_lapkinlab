@@ -3,7 +3,7 @@
     <div class="container">
         <div class="section--seo--wrapper row">
             <h2 class="section--seo--title col-12 text-center">Подарки и скидки для наших клиентов</h2>
-            <div class="section--seo--items col-xl-10 offset-xl-1 col-lg-12 offset-lg-0">
+            <div class="section--seo--items col-12">
                 <div class="section--seo--item">
                     <div class="section--seo--item-icon"><?= renderSprite('test') ?></div>
                     <div class="section--seo--item-text">

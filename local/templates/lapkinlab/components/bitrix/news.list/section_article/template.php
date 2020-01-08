@@ -16,7 +16,7 @@ if(!defined("B_PROLOG_INCLUDED") || B_PROLOG_INCLUDED!==true)die();
 /** @var CBitrixComponent $component */
 $this->setFrameMode(true);
 ?>
-<div class="section--article--items col-xl-10 offset-xl-1 col-lg-12 offset-lg-0">
+<div class="section--article--items col-xl-12 offset-xl-0 col-lg-12 offset-lg-0">
 
 <?foreach($arResult["ITEMS"] as $arItem):?>
 	<?

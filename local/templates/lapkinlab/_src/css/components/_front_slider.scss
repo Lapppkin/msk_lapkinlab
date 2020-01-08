@@ -4,11 +4,12 @@
   background-color: $app-color--black;
   color: $app-color--white;
   padding-top: $app-padding--medium;
-  padding-bottom: $app-padding--medium;
+  padding-bottom: $app-padding--large;
   position: relative;
   margin-bottom: $app-padding--medium;
   @media (max-width: map_get($grid-breakpoints, sm)) {
     margin-bottom: 0;
+    padding-bottom: $app-padding--medium;
   }
   h2 {
     color: $app-color--white;
@@ -150,12 +151,20 @@
   }
 
   // Slider Form
+  &--form {
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .contact-form {
     &--form {
-      width: 100%;
+      width: 80%;
       border: 1px solid $app-color--active;
       @include border-radius;
       padding: $app-padding--base;
+      @media (max-width: map_get($grid-breakpoints, xxl)) {
+        width: 100%;
+      }
       @media (max-width: map_get($grid-breakpoints, md)) {
         margin-top: $app-padding--base;
       }
