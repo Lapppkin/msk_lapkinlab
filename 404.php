@@ -13,14 +13,20 @@ $asset->addCss('/local/templates/LapkinLab_krd/css/main.css');
 ?>
 <main id="main" class="site-main" role="main">
     <section class="error-404 not-found">
-        <header class="page-header">
-            <h3 class="page-title">Ошибка 404.</h3>
-        </header>
-        <div class="page-content" style="text-align:center;">
-            <h3>Такой страницы не существует.</h3>
-            <p>
-                <a class="btn" href="/">Перейти на главную страницу</a>
-            </p>
+        <div class="container">
+            <div class="row">
+                <header class="page-header text-center col-12">
+                    <h3 class="h1 page-title">Ошибка 404.</h3>
+                </header>
+                <div class="page-content text-center col-12">
+                    <h3>Такой страницы не существует.</h3>
+                    <p>
+                        <br>
+                        <a class="btn" href="/">Перейти на главную страницу</a>
+                    </p>
+                </div>
+
+            </div>
         </div>
     </section>
 </main>
