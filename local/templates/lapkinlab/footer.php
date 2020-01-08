@@ -75,7 +75,6 @@ use LapkinLab\Helper;
                                         </p>
                                         <p class="social"><span>Мы в соцсетях:</span></p>
                                         <p>
-                                            <a href="<?= SITE_CONFIG['social_telegram'] ?>" rel="nofollow" target="_blank" title="Telegram"><?= renderSprite('icon-circle-telegram') ?></a>
                                             <a href="<?= SITE_CONFIG['social_telegram_bot'] ?>" rel="nofollow" target="_blank" title="Telegram Bot"><?= renderSprite('icon-circle-telegram') ?></a>
                                             <a href="<?= SITE_CONFIG['social_instagram'] ?>" rel="nofollow" target="_blank" title="Instagram"><?= renderSprite('icon-circle-instagram') ?></a>
                                             <a href="<?= SITE_CONFIG['social_vk'] ?>" rel="nofollow" target="_blank" title="Вконтакте"><?= renderSprite('icon-circle-vk') ?></a>

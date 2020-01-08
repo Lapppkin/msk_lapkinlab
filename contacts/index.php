@@ -30,7 +30,6 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                 </p>
                 <p>Мы в социальных сетях:</p>
                 <p>
-                    <a href="<?= SITE_CONFIG['social_telegram'] ?>" rel="nofollow" target="_blank" title="Telegram"><?= renderSprite('icon-circle-telegram') ?></a>&nbsp;
                     <a href="<?= SITE_CONFIG['social_telegram_bot'] ?>" rel="nofollow" target="_blank" title="Telegram Bot"><?= renderSprite('icon-circle-telegram') ?></a>&nbsp;
                     <a href="<?= SITE_CONFIG['social_instagram'] ?>" rel="nofollow" target="_blank" title="Instagram"><?= renderSprite('icon-circle-instagram') ?></a>&nbsp;
                     <a href="<?= SITE_CONFIG['social_vk'] ?>" rel="nofollow" target="_blank" title="Вконтакте"><?= renderSprite('icon-circle-vk') ?></a>&nbsp;
