@@ -250,7 +250,7 @@ class Helper
      *
      * @return mixed|string
      */
-    public static function resizeProductImage($image, $noimage = true, int $width = 300, int $height = 300, $method = BX_RESIZE_IMAGE_EXACT, int $quality = 95 , $filters = true) {
+    public static function resizeImage($image, $noimage = true, int $width = 300, int $height = 300, $method = BX_RESIZE_IMAGE_EXACT, int $quality = 95 , $filters = true) {
         global $config;
         $arFilters = ($filters) ? array(array('name' => 'sharpen', 'precision' => 10)) : false;
         return ($image) ?? $image['SRC'] ? CFile::ResizeImageGet($image['ID'], ['width' => $width, 'height' => $height], $method, true, $arFilters, false, $quality) : (($noimage) ? array('src' => SITE_TEMPLATE_PATH . '/images/noimage_preview.jpg', 'alt' => $config->site()->site_name, 'noimage' => true) : false);
