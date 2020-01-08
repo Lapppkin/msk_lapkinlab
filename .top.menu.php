@@ -31,7 +31,7 @@ $aMenuLinks = Array(
 		""
 	),
 	Array(
-		"Телеграм",
+		"Разработка чат-ботов",
 		"/chat-bot/",
 		Array(),
 		Array(),

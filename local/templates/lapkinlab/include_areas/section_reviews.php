@@ -1,5 +1,5 @@
 <!--отзывы-->
-<section class="section--reviews">
+<section class="section--reviews" id="reviews">
     <div class="container">
         <div class="row">
             <h2 class="section--reviews--title col-12 text-center">Отзывы о нашей работе</h2>

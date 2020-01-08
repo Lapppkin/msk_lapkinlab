@@ -3,17 +3,11 @@
 .slider {
   background-color: $app-color--black;
   color: $app-color--white;
-  padding-top: $app-navigation-height;
-  padding-bottom: $app-navigation-height * 1.5;
+  padding-top: $app-padding--medium;
+  padding-bottom: $app-padding--medium;
   position: relative;
-  margin-bottom: $app-navigation-height * 1.5;
-  @media (max-width: map_get($grid-breakpoints, md)) {
-    padding-top: $app-navigation-height / 2;
-    padding-bottom: $app-navigation-height;
-  }
+  margin-bottom: $app-padding--medium;
   @media (max-width: map_get($grid-breakpoints, sm)) {
-    padding-top: $app-navigation-height / 2;
-    padding-bottom: $app-navigation-height / 1.5;
     margin-bottom: 0;
   }
   h2 {
@@ -26,6 +20,7 @@
     }
     @media (max-width: map_get($grid-breakpoints, sm)) {
       font-size: 30px;
+      margin-top: 0;
     }
   }
   &-image {

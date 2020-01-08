@@ -1,4 +1,5 @@
 // Blog
+
 .page-blog {
   padding-top: $app-padding--medium;
   padding-bottom: $app-padding--large;
@@ -8,6 +9,9 @@
 }
 
 .blog {
+
+  // Blog list
+
   &--list {
     display: flex;
     flex-wrap: wrap;
@@ -59,6 +63,12 @@
         font-size: $app-fontsize--h3;
         margin-top: $app-padding--small !important;
         margin-bottom: $app-padding--small !important;
+        a {
+          color: $app-color--primary;
+          &:hover {
+            color: $app-color--active-hover;
+          }
+        }
       }
       &-date {
         font-size: $app-fontsize--small;
@@ -76,6 +86,8 @@
     }
 
   }
+
+  // Blog detail
 
   &-detail {
     padding-top: $app-padding--medium;

@@ -1,4 +1,5 @@
 // Sites
+
 .page-sites {
   .sites-slider {
     @extend .slider;
@@ -9,6 +10,8 @@
       margin-top: 0;
     }
   }
+
+  // Sites price
 
   .sites-price {
     padding-top: $app-padding--medium;
@@ -63,6 +66,8 @@
   .section--reviews--title {
     margin-bottom: $app-padding--medium;
   }
+
+  // Sites CMS, reasons, include
 
   .sites-cms,
   .sites-reasons,
@@ -138,6 +143,8 @@
     }
   }
 
+  // Sites analytics, opacity
+
   .sites-analytics,
   .sites-opacity {
     border-top: 1px solid $app-color--border;
@@ -184,6 +191,8 @@
   .sites-analytics--image {
     background-image: url("images/analytics.png");
   }
+
+  // Sites steps
 
   .sites-steps {
     padding-top: $app-padding--large;
@@ -240,6 +249,8 @@
       }
     }
   }
+
+  // Sites main
 
   .sites-main {
     padding-top: $app-padding--medium;

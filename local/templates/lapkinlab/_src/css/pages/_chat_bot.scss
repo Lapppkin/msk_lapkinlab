@@ -1,0 +1,510 @@
+// PPC
+.page-chat-bot {
+  .chat-bot-slider {
+    @extend .slider;
+    margin-bottom: 0;
+    &-image {
+      @extend .slider-image;
+    }
+    .contact-form--title {
+      margin-top: 0;
+    }
+  }
+}
+
+.chat-bot {
+
+  // Chat bot platform
+
+  &-platform {
+    border-top: 1px solid $app-color--border;
+    padding-top: $app-padding--medium;
+    padding-bottom: $app-padding--large;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-bottom: $app-padding--medium;
+    }
+    &--title {
+      font-size: $app-fontsize--h1;
+      margin-top: 0;
+      margin-bottom: $app-padding--medium !important;
+      @media (max-width: map_get($grid-breakpoints, sm)) {
+        margin-bottom: $app-padding--base;
+      }
+    }
+    &--description {
+      h3 {
+        @include head_font;
+      }
+    }
+    &--exp {
+      display: flex;
+      .exp {
+        flex-basis: auto;
+        padding-right: $app-padding--base;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: flex-start;
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+          padding-right: $app-padding--small;
+        }
+        span {
+          flex-basis: 100%;
+          font-size: $app-fontsize--h2;
+          @include head_font;
+          color: $app-color--active;
+        }
+      }
+    }
+    &--abilities {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      @media (max-width: map_get($grid-breakpoints, md)) {
+        margin-top: $app-padding--base;
+      }
+      &-item {
+        flex-basis: 33.333%;
+        margin-bottom: $app-padding--small;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        align-content: baseline;
+        justify-content: center;
+        padding-left: $app-padding--small;
+        padding-right: $app-padding--small;
+        span.text {
+          flex-basis: 100%;
+          margin-top: 10px;
+          text-align: center;
+        }
+      }
+      &-hello {
+        flex-basis: 100%;
+        padding: $app-padding--small $app-padding--base;
+        @include border-radius;
+        border: 1px solid $app-color--active;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        @media (max-width: map_get($grid-breakpoints, md)) {
+          flex-wrap: wrap;
+          justify-content: center;
+          padding: $app-padding--small;
+          margin-top: $app-padding--base;
+        }
+        span {
+          @include head_font;
+          font-size: 18px;
+          margin-right: $app-padding--small;
+          @media (max-width: map_get($grid-breakpoints, md)) {
+            flex-basis: 100%;
+            text-align: center;
+            margin-bottom: 15px;
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+
+  // Chat bot for
+
+  &-for {
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large;
+    background-color: $app-color--background;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
+    &--title {
+      margin-top: 0;
+      margin-bottom: $app-padding--medium;
+    }
+    &--wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &--item {
+      border: 1px solid $app-color--border;
+      flex-basis: calc(33.333% - 30px);
+      max-width: calc(33.333% - 30px);
+      margin: $app-padding--small;
+      background-color: $app-color--white;
+      padding: $app-padding--base;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include border-radius;
+      @media (max-width: map_get($grid-breakpoints, xl)) {
+        padding-left: $app-padding--small;
+        padding-right: $app-padding--small;
+      }
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        flex-wrap: wrap;
+
+        padding-left: $app-padding--small;
+        padding-right: $app-padding--small;
+      }
+      @media (max-width: map_get($grid-breakpoints, md)) {
+        flex-basis: calc(50% - 40px);
+        max-width: calc(50% - 40px);
+      }
+      @media (max-width: map_get($grid-breakpoints, sm)) {
+        flex-basis: 100%;
+        max-width: 100%;
+      }
+      &--icon {
+        flex-basis: 85px;
+        margin-right: $app-padding--base;
+        display: flex;
+        justify-content: center;
+        @media (max-width: map_get($grid-breakpoints, lg)) {
+          margin-right: 0;
+          flex-basis: 100%;
+        }
+      }
+      &--title {
+        font-size: $app-fontsize--medium;
+        flex-grow: 1;
+        @include head_font;
+        @media (max-width: map_get($grid-breakpoints, lg)) {
+          flex-basis: 100%;
+          margin-top: $app-padding--small;
+          text-align: center;
+        }
+      }
+    }
+    &--description {
+      margin-top: $app-padding--base;
+    }
+  }
+
+  // Chat bot steps
+
+  &-steps {
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
+    &--title {
+      margin-top: 0 !important;
+      margin-bottom: $app-padding--medium !important;
+    }
+    &--items {
+      .step {
+        padding-left: 70px;
+        position: relative;
+        margin-bottom: $app-padding--base;
+        &-counter {
+          border: 1px solid $app-color--active;
+          width: 40px;
+          height: 40px;
+          position: absolute;
+          top: 5px;
+          left: 0;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: $app-fontsize--h2;
+          border-radius: 50%;
+          @include head_font;
+          color: $app-color--active;
+        }
+        &-title {
+          font-size: $app-fontsize--h2;
+          @include head_font;
+          margin-bottom: 5px;
+        }
+        &-result,
+        &-client {
+          padding-bottom: 10px;
+          b {
+            @include head_font;
+          }
+        }
+      }
+    }
+    &--images {
+      position: relative;
+      @media (max-width: map_get($grid-breakpoints, md)) {
+        display: none;
+      }
+      img {
+        position: absolute;
+        max-width: 60%;
+        max-height: 500px;
+        border: 1px solid $app-color--border;
+        &:first-child {
+          top: 0;
+          left: 0;
+        }
+        &:last-child {
+          top: $app-padding--largest;
+          left: $app-padding--largest;
+          @media (max-width: map_get($grid-breakpoints, lg)) {
+            top: $app-padding--large;
+            left: $app-padding--large;
+          }
+        }
+      }
+    }
+  }
+
+  // Chat bot sample
+
+  &-sample {
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large;
+    background-color: $app-color--primary;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
+    &--title {
+      color: $app-color--white;
+      margin-top: 0 !important;
+      margin-bottom: $app-padding--medium !important;
+    }
+    &--body {
+      color: $app-color--white;
+      h3 {
+        color: $app-color--white;
+        @include head_font;
+        font-size: $app-fontsize--h2;
+      }
+      a {
+        font-size: $app-fontsize--medium;
+      }
+      ul {
+        list-style: none;
+        margin: $app-padding--base 0;
+        border-bottom: 1px solid $app-color--active;
+        padding: 0 0 $app-padding--base;
+        display: flex;
+        flex-wrap: wrap;
+        li {
+          margin: 10px;
+          padding: 0;
+          font-size: $app-fontsize--medium;
+          display: flex;
+          align-items: center;
+          flex-basis: 100%;
+          i {
+            min-width: 44px;
+            margin-right: $app-padding--small;
+          }
+        }
+      }
+    }
+  }
+
+  // Chat bot prices
+
+  &-prices {
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
+    &--title {
+      margin-top: 0 !important;
+      margin-bottom: $app-padding--medium !important;
+    }
+    &--item {
+      margin-bottom: $app-padding--base;
+      &--wrapper {
+        padding: $app-padding--base;
+        height: 100%;
+        border: 1px solid $app-color--active;
+        @include border-radius;
+      }
+      &--title {
+        width: 100%;
+        @include head_font;
+        font-size: $app-fontsize--h3;
+        color: $app-color--active;
+      }
+      &--price {
+        width: 100%;
+        font-size: $app-fontsize--medium;
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+      &--body {
+        width: 100%;
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          li {
+            margin: 0;
+            padding: 0;
+            i {
+              min-width: 20px;
+              margin-right: 10px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // Chat bot benefit, abilities, guarantee
+
+  &-abilities,
+  &-benefit,
+  &-guarantee {
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large;
+    background-color: $app-color--background;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
+    &--title {
+      margin-top: 0;
+      margin-bottom: $app-padding--base;
+    }
+    &--wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    &--item {
+      border: 1px solid $app-color--border;
+      flex-basis: calc(33.333% - 30px);
+      max-width: calc(33.333% - 30px);
+      margin: $app-padding--small;
+      background-color: $app-color--white;
+      padding: $app-padding--base;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      @include border-radius;
+      @media (max-width: map_get($grid-breakpoints, xl)) {
+        padding-left: $app-padding--small;
+        padding-right: $app-padding--small;
+      }
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        flex-wrap: wrap;
+        flex-basis: calc(50% - 30px);
+        max-width: calc(50% - 30px);
+        padding-left: $app-padding--small;
+        padding-right: $app-padding--small;
+      }
+      @media (max-width: map_get($grid-breakpoints, sm)) {
+        flex-basis: 100%;
+        max-width: 100%;
+      }
+      &--icon {
+        flex-basis: 85px;
+        margin-right: $app-padding--base;
+        display: flex;
+        justify-content: center;
+        @media (max-width: map_get($grid-breakpoints, lg)) {
+          margin-right: 0;
+          flex-basis: 100%;
+        }
+      }
+      &--body {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      &--title {
+        font-size: $app-fontsize--medium;
+        flex-grow: 1;
+        @include head_font;
+        margin-bottom: 10px;
+        @media (max-width: map_get($grid-breakpoints, lg)) {
+          flex-basis: 100%;
+          margin-top: $app-padding--small;
+          text-align: center;
+        }
+      }
+    }
+    &--description {
+      margin-top: $app-padding--base;
+    }
+  }
+
+  &-benefit,
+  &-abilities {
+    background-color: $app-color--white;
+    .chat-bot-abilities--item {
+      flex-wrap: wrap;
+      border: 1px solid $app-color--active;
+      &--icon {
+        flex-basis: 100%;
+        margin-right: 0;
+        margin-bottom: $app-padding--small;
+        display: flex;
+        justify-content: center;
+      }
+      &--title {
+        text-align: center;
+        flex-basis: 100%;
+        margin-bottom: 10px;
+      }
+      &--description {
+        text-align: center;
+        flex-basis: 100%;
+      }
+    }
+  }
+
+  // Chat bot FAQ
+
+  &-faq {
+    padding-top: $app-padding--large;
+    padding-bottom: $app-padding--large;
+    background-color: $app-color--background;
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      padding-top: $app-padding--medium;
+      padding-bottom: $app-padding--medium;
+    }
+    &--title {
+      margin-top: 0;
+      margin-bottom: $app-padding--medium;
+    }
+    &--item {
+      padding: $app-padding--small 0;
+      border-bottom: 1px solid $app-color--border;
+      &:first-child {
+        border-top: 1px solid $app-color--border;
+      }
+      &--header {
+        button {
+          width: 100%;
+          background-color: transparent !important;
+          outline: none;
+          text-decoration: none;
+          margin-top: $app-padding--small;
+          margin-bottom: $app-padding--small;
+          &.active,
+          &.focus,
+          &:hover {
+            background-color: transparent;
+          }
+          &:hover {
+            text-decoration: none;
+            color: $app-color--active-hover;
+          }
+        }
+      }
+      &--body {
+        text-align: center;
+      }
+    }
+  }
+
+}

@@ -8,6 +8,7 @@ use LapkinLab\Helper;
         <?php if ($APPLICATION->GetCurDir() === '/'
                   || $APPLICATION->GetCurDir() === '/contacts/'
                   || $APPLICATION->GetCurDir() === '/ppc/'
+                  || $APPLICATION->GetCurDir() === '/chat-bot/'
         ): ?>
             <?php //$APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/calculator.php', array(), array('SHOW_BORDER' => true)) ?>
             <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_form.php', array(), array('SHOW_BORDER' => true)) ?>
@@ -51,9 +52,8 @@ use LapkinLab\Helper;
                                         <ul class="footer--menu-item--list">
                                             <li><a href="#">О нас</a></li>
                                             <li><a href="/blog/">Статьи</a></li>
-                                            <li><a href="/telegram/">Телеграм</a></li>
                                             <li><a href="/sites/#portfolio">Портфолио</a></li>
-                                            <li><a href="/chat-bot/">Отзывы</a></li>
+                                            <li><a href="/#reviews">Отзывы</a></li>
                                         </ul>
                                     </div>
                                 </div>
@@ -113,7 +113,7 @@ use LapkinLab\Helper;
     <!--modals container-->
     <div id="ajax-modals-container"></div>
 
-    <?php if (!$USER->IsAdmin()): ?>
+    <?php if (!$USER): ?>
         <?php $APPLICATION->IncludeFile('/include/seo.php') ?>
         <?php $APPLICATION->IncludeFile('/include/ym_reachgoal.php') ?>
     <?php endif; ?>

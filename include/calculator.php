@@ -299,7 +299,7 @@
                         </div>
                     </div>
                     <div class="link">
-                        <a class="post" href="/novosti/iz-chego-skladyvaetsya-stoimost-seo-prodvizheniya.html">Читать статью: <span>из чего складывается стоимость SEO</span></a>
+                        <a class="post" href="/blog/iz-chego-skladyvaetsya-stoimost-seo-prodvizheniya.html">Читать статью: <span>из чего складывается стоимость SEO</span></a>
                     </div>
                 </div>
             </div>

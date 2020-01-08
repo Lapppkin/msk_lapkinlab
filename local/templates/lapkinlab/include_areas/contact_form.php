@@ -63,7 +63,7 @@ $form_id = $id . '-form-' . Random::getString(32);
             <?php endforeach; ?>
         </div>
         <div class="contact-form--privacy">
-            <p>Нажимая на кнопку «<?= $submit_button ?>», я даю согласие на <a href="/privacy-policy/" rel="nofollow" target="_blank">обработку персональных данных</a></p>
+            <p>Нажимая на кнопку «<?= $submit_button ?>», я&nbsp;даю согласие на <a href="/privacy-policy/" rel="nofollow" target="_blank">обработку персональных данных</a></p>
         </div>
         <div class="contact-form--actions">
             <div class="form-action">

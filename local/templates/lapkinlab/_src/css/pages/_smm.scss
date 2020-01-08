@@ -1,4 +1,5 @@
 // SMM
+
 .page-smm {
   padding-top: $app-padding--medium;
   padding-bottom: 0;
@@ -17,6 +18,8 @@
       }
     }
   }
+
+  // SMM preview
 
   .smm-preview {
     padding-bottom: $app-padding--medium;
@@ -56,6 +59,8 @@
     }
   }
 
+  // SMM header
+
   .smm-header {
     padding-top: $app-padding--large;
     padding-bottom: $app-padding--large;
@@ -80,6 +85,8 @@
       font-size: $app-fontsize--medium;
     }
   }
+
+  // SMM sales
 
   .smm-sales {
     padding-top: $app-padding--medium;
@@ -106,6 +113,8 @@
       }
     }
   }
+
+  // SMM services
 
   .smm-services {
     border-top: 1px solid $app-color--border;
@@ -151,6 +160,8 @@
       }
     }
   }
+
+  // SMM promo
 
   .smm-promo {
     padding-top: $app-padding--large;
