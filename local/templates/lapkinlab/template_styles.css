@@ -6081,7 +6081,7 @@ i.lapicon-check-mark {
 }
 
 .section--tarif--wrapper .tarifs-wrap {
-    min-width: 1024px;
+    min-width: 979px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -15672,6 +15672,15 @@ Build date: 2018-12-11 23:23:51
   .page-chat-bot .chat-bot-slider .contact-form--form {
         width: 100%;
     }
+
+    .page-smm .smm-preview--form .form-field {
+        width: 100%;
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
 }
 
 @media (max-width: 1629.98px) {
@@ -15912,6 +15921,10 @@ Build date: 2018-12-11 23:23:51
         flex-basis: 310px;
     }
 
+    .section--tarif--type .tarif-title h3 {
+        font-size: 16px;
+    }
+
     .section--article--item {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
@@ -15920,15 +15933,6 @@ Build date: 2018-12-11 23:23:51
     .blog--list--item {
         -ms-flex-preferred-size: calc(50% - 30px);
         flex-basis: calc(50% - 30px);
-    }
-
-    .page-smm .smm-preview--form .form-field {
-        width: 100%;
-        -ms-flex-preferred-size: 100%;
-        flex-basis: 100%;
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 15px;
     }
 
     .page-sites .sites-cms--item,
@@ -16305,6 +16309,10 @@ Build date: 2018-12-11 23:23:51
         flex-wrap: wrap;
     }
 
+    .page-ppc .ppc-benefit--hole--wrapper .hole-col {
+        border: 0;
+    }
+
     .page-ppc .ppc-benefit--hole--wrapper .hole-col-left,
   .page-ppc .ppc-benefit--hole--wrapper .hole-col-right {
         -webkit-box-pack: center;
@@ -16312,13 +16320,31 @@ Build date: 2018-12-11 23:23:51
         justify-content: center;
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-        color: #38384f;
+        padding: 15px 30px;
+    }
+
+    .page-ppc .ppc-benefit--hole--wrapper .hole-col-left {
+        color: #fff;
+        background-color: #38384f;
+    }
+
+    .page-ppc .ppc-benefit--hole--wrapper .hole-col-right {
+        max-height: 30px;
+        padding: 0;
     }
 
     .page-ppc .ppc-benefit--hole--wrapper .hole-col-center {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
-        background-color: #f9f9f9;
+        background-color: #38384f;
+        color: #fff;
+        padding: 15px;
+        font-size: 20px;
+    }
+
+    .page-ppc .ppc-benefit--hole--wrapper .hole-col-center.old {
+        color: #a9a8a8;
+        font-size: 16px;
     }
 
     .page-ppc .ppc-benefit--work span {

@@ -389,6 +389,9 @@
           }
           &-col {
             border: 1px solid $app-color--active;
+            @media (max-width: map_get($grid-breakpoints, md)) {
+              border: 0;
+            }
             &-left,
             &-right {
               padding: $app-padding--base;
@@ -403,12 +406,22 @@
               @media (max-width: map_get($grid-breakpoints, md)) {
                 justify-content: center;
                 flex-basis: 100%;
-                color: $app-color--primary;
+                padding: $app-padding--small $app-padding--base;
+              }
+            }
+            &-left {
+              @media (max-width: map_get($grid-breakpoints, md)) {
+                color: $app-color--white;
+                background-color: $app-color--primary;
               }
             }
             &-right {
               text-align: right;
               justify-content: right;
+              @media (max-width: map_get($grid-breakpoints, md)) {
+                max-height: $app-padding--base;
+                padding: 0;
+              }
             }
             &-center {
               flex-basis: 15%;
@@ -418,7 +431,16 @@
               border-right: 0;
               @media (max-width: map_get($grid-breakpoints, md)) {
                 flex-basis: 100%;
-                background-color: $app-color--background;
+                background-color: $app-color--primary;
+                color: $app-color--white;
+                padding: $app-padding--small;
+                font-size: $app-fontsize--medium;
+              }
+              &.old {
+                @media (max-width: map_get($grid-breakpoints, md)) {
+                  color: $app-color--secondary;
+                  font-size: $app-fontsize--base;
+                }
               }
               span {
                 @include head_font;

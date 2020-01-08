@@ -45,7 +45,7 @@
     }
     &--form {
       .form-field {
-        @media (max-width: map_get($grid-breakpoints, lg)) {
+        @media (max-width: map_get($grid-breakpoints, xxl)) {
           width: 100%;
           flex-basis: 100%;
           margin-left: 0;

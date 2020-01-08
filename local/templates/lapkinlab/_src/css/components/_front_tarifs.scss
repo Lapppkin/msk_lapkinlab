@@ -21,7 +21,7 @@
     &--wrapper {
       overflow-x: auto;
       .tarifs-wrap {
-        min-width: map_get($grid-breakpoints, lg);
+        min-width: map_get($grid-breakpoints, lg) - 45px;
         display: flex;
         flex-wrap: wrap;
       }
@@ -103,6 +103,9 @@
           h3 {
             text-align: center;
             flex-basis: 100%;
+            @media (max-width: map_get($grid-breakpoints, lg)) {
+              font-size: $app-fontsize--base;
+            }
           }
           p {
             text-align: center;
