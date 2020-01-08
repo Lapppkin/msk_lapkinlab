@@ -63,7 +63,7 @@
                     "SEF_URL_TEMPLATES" => array(
                         "news" => "",
                         "section" => "",
-                        "detail"=>"#ELEMENT_CODE#.html"
+                        "detail"=>"#ELEMENT_CODE#"
                     ),
                     "SET_LAST_MODIFIED" => "N",
                     "SET_STATUS_404" => "N",
