@@ -68,8 +68,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
     <section class="smm-sales">
         <div class="container">
             <div class="row">
-                <div class="smm-sales--image col-lg-6 col-md-4 col-sm-12"></div>
-                <div class="smm-sales--content col-lg-6 col-md-8 col-sm-12">
+                <div class="smm-sales--content col-lg-7 col-md-8 col-sm-12">
                     <h2 class="h1 smm-sales--title">Продавать через соцсети – легко!</h2>
                     <h3 class="h2">Просто выйдите на улицу и оглянитесь.</h3>
                     <p>Пока вы используете стандартные средства продвижения, мимо вашего бизнеса проходят тысячи людей, погруженных в экраны своих смартфонов. Это доказывает — продажи через интернет из прихоти давно стали необходимостью.</p>
@@ -96,6 +95,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                         <button class="btn js-open-modal" data-action="openModal" data-modal="audit">Заказать аудит сайта</button>
                     </p>
                 </div>
+                <div class="smm-sales--image col-lg-5 col-md-4 col-sm-12"></div>
             </div>
         </div>
     </section>

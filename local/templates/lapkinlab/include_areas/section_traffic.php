@@ -6,7 +6,7 @@
             <div class="section--traffic--content col-12">
                 <p class="text-center">Увеличение продаж — это результат работ по комплексному SEO-продвижению Вашего сайта в поисковых системах.</p>
                 <p class="text-center legend">Условные обозначения:</p>
-                <p class="text-center legend"><span class="visitors"></span> Посетители <br> <span class="orders"></span> Заявки</p>
+                <p class="text-center legend"><span class="orders"></span> Заявки &nbsp;&nbsp;&nbsp; <span class="visitors"></span> Посетители</p>
             </div>
             <div class="section--traffic--items col-12">
                 <div class="section--traffic--item">

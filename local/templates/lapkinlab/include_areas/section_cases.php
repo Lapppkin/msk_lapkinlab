@@ -5,7 +5,7 @@
             <div class="col-12">
                 <div class="section--cases--wrapper row">
                     <h2 class="section--cases--title col-12 text-center">Наши кейсы</h2>
-                    <div class="section--cases--content col-xl-10 offset-xl-1 col-lg-12 offset-lg-0">
+                    <div class="section--cases--content col-xl-8 offset-xl-2 col-lg-12 offset-lg-0">
 
                         <div class="row">
 

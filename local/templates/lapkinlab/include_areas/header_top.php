@@ -15,7 +15,8 @@ use LapkinLab\Helper;
         <div class="row">
             <div class="header--top-wrapper col-12">
                 <div class="header--top-location">
-                    <div class="header--top-location--current"><?= renderSprite('location') ?><span class="label">Ваш город:</span> <span class="city">Москва</span>
+                    <div class="header--top-location--current">
+                        <?= renderSprite('location') ?><span class="label">Ваш город:</span> <span class="city">Москва</span>
                         <div class="header--top-location--select">
                             <ul>
                                 <li class="active"><a class="active" href="/">Москва</a></li>
@@ -46,4 +47,5 @@ use LapkinLab\Helper;
             </div>
         </div>
     </div>
+
 </div>
