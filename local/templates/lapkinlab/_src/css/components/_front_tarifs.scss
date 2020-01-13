@@ -18,15 +18,6 @@
       @include head_font;
     }
 
-    &--wrapper {
-      overflow-x: auto;
-      .tarifs-wrap {
-        min-width: map_get($grid-breakpoints, lg) - 45px;
-        display: flex;
-        flex-wrap: wrap;
-      }
-    }
-
     &--title {
       font-size: $app-fontsize--h1;
       margin-bottom: $app-padding--medium;
@@ -36,13 +27,20 @@
 
     .tarifs--title {
       display: flex;
+      flex-wrap: wrap;
       margin-bottom: $app-padding--small;
       h3 {
         text-transform: uppercase;
         font-size: $app-fontsize--h2;
         margin-right: $app-padding--base;
+        @media (max-width: map_get($grid-breakpoints, md)) {
+          margin-right: 0;
+          font-size: $app-fontsize--h3;
+        }
       }
-      p {}
+      p {
+        flex-basis: 100%;
+      }
     }
     .tarifs--targets {
       width: 100%;
@@ -54,13 +52,69 @@
         flex-basis: 33.333%;
         padding-right: $app-padding--base;
         font-size: $app-padding--small;
+        display: flex;
+        align-items: center;
+        i {
+          min-width: 20px;
+          margin-right: 10px;
+        }
+        @media (max-width: map_get($grid-breakpoints, md)) {
+          flex-basis: 100%;
+          padding-right: 0;
+          margin-bottom: 10px;
+        }
+      }
+    }
+
+    &--navigation,
+    &--prices {
+      flex-basis: 100%;
+      width: 100%;
+      display: flex;
+      overflow: hidden;
+    }
+
+    &--navigation {
+      padding: 0;
+      margin-top: 10px;
+      flex-basis: 60%;
+      width: 60%;
+      margin-left: auto;
+      display: flex;
+      justify-content: center;
+      @media (max-width: map_get($grid-breakpoints, xl)) {
+        flex-basis: 40%;
+        width: 40%;
+      }
+      .owl-dot {
+        display: block;
+        width: 12px;
+        height: 12px;
+        background-color: $app-color--white;
+        border-radius: 50%;
+        padding: 0;
+        margin: 8px;
+        outline: none;
+        &.active {
+          background-color: $app-color--active;
+        }
       }
     }
 
     &--labels {
-      flex-basis: 100%;
-      width: 100%;
+      flex-basis: 40%;
+      min-width: 40%;
+      @media (max-width: map_get($grid-breakpoints, xl)) {
+        flex-basis: 60%;
+        min-width: 60%;
+      }
       .tarif {
+        &-title {
+          height: 95px;
+          border-bottom: 1px solid rgba($app-color--border, 0.3);
+          display: flex;
+          align-items: center;
+        }
         &-label {
           flex-basis: 100%;
           display: flex;
@@ -68,6 +122,11 @@
           min-height: 50px;
           padding: 10px 0;
           border-bottom: 1px solid rgba($app-color--border, 0.3);
+          line-height: 1;
+          max-height: 50px;
+          @media (max-width: map_get($grid-breakpoints, md)) {
+            font-size: 0.8em;
+          }
           &:nth-child(1) {
             height: 90px;
             @include head_font;
@@ -90,10 +149,21 @@
       }
     }
 
+    &--types {
+      flex-basis: 60%;
+      display: flex;
+      &--wrapper {
+        width: 100%;
+      }
+      @media (max-width: map_get($grid-breakpoints, xl)) {
+        flex-basis: 40%;
+      }
+    }
+
     &--type {
       .tarif {
         &-title {
-          height: 90px;
+          height: 95px;
           display: flex;
           flex-wrap: wrap;
           align-content: flex-end;
@@ -156,6 +226,9 @@
             @include head_font;
             margin-top: $app-padding--small;
             margin-bottom: $app-padding--small;
+            @media (max-width: map_get($grid-breakpoints, md)) {
+              font-size: $app-fontsize--base;
+            }
           }
           button {
             display: none;
@@ -163,7 +236,7 @@
             bottom: 0;
             left: 50%;
             transform: translateX(-50%);
-            @media (max-width: map_get($grid-breakpoints, md)) {
+            @media (max-width: map_get($grid-breakpoints, xl)) {
               display: block;
             }
           }
