@@ -16,13 +16,13 @@ $aMenuLinks = Array(
         Array(),
         ""
     ),
-    Array(
-        "SMM",
-        "/smm/",
-        Array(),
-        Array(),
-        ""
-    ),
+    //Array(
+    //    "SMM",
+    //    "/smm/",
+    //    Array(),
+    //    Array(),
+    //    ""
+    //),
 	Array(
 		"Разработка сайтов",
 		"/sites/",
@@ -31,7 +31,7 @@ $aMenuLinks = Array(
 		""
 	),
 	Array(
-		"Разработка чат-ботов",
+		"Чат-боты",
 		"/chat-bot/",
 		Array(),
 		Array(),
