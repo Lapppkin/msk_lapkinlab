@@ -182,7 +182,7 @@
       @media (max-width: map_get($grid-breakpoints, xl)) {
         flex-basis: 100%;
       }
-      @media (max-width: map_get($grid-breakpoints, sm)) {
+      @media (max-width: map_get($grid-breakpoints, md)) {
         flex-wrap: wrap;
         padding-bottom: 15px;
         display: none;
@@ -232,13 +232,15 @@
     @media (max-width: map_get($grid-breakpoints, xl)) {
       margin-top: $app-navigation-height * 2;
     }
-    @media (max-width: map_get($grid-breakpoints, sm)) {
+    @media (max-width: map_get($grid-breakpoints, md)) {
       margin-top: $app-navigation-height;
     }
     &-wrapper {
       display: flex;
-      @media (max-width: map_get($grid-breakpoints, sm)) {
+      @media (max-width: map_get($grid-breakpoints, md)) {
         flex-wrap: wrap;
+      }
+      @media (max-width: map_get($grid-breakpoints, sm)) {
         margin-top: 10px;
       }
     }
@@ -259,7 +261,7 @@
       }
       a {
         position: relative;
-        @media (max-width: map_get($grid-breakpoints, sm)) {
+        @media (max-width: map_get($grid-breakpoints, md)) {
           margin-right: auto;
           margin-left: auto;
         }
@@ -298,7 +300,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      @media (max-width: map_get($grid-breakpoints, sm)) {
+      @media (max-width: map_get($grid-breakpoints, md)) {
         display: none;
       }
       // Header Menu First Level
@@ -314,7 +316,7 @@
         @media (max-width: map_get($grid-breakpoints, xxl)) {
           justify-content: flex-start;
         }
-        @media (max-width: map_get($grid-breakpoints, sm)) {
+        @media (max-width: map_get($grid-breakpoints, xl)) {
           justify-content: center;
         }
         li {
@@ -353,8 +355,10 @@
               padding-right: 0;
               padding-left: 30px;
             }
-            @media (max-width: map_get($grid-breakpoints, md)) {
+            @media (max-width: map_get($grid-breakpoints, xl)) {
               line-height: 1.6;
+              padding-right: 30px;
+              padding-left: 30px;
             }
             @media (max-width: map_get($grid-breakpoints, sm)) {
               line-height: 1.8;
@@ -384,7 +388,7 @@
       display: none;
       margin-left: $app-padding--base;
       cursor: pointer;
-      @media (max-width: map_get($grid-breakpoints, sm)) {
+      @media (max-width: map_get($grid-breakpoints, md)) {
         display: flex;
       }
     }
