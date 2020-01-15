@@ -129,11 +129,14 @@ class Helper
             $APPLICATION->GetCurPage(false) === '/catalog/'
             || $APPLICATION->GetCurPage(false) === '/' . LANGUAGE_ID . '/catalog/'
         ) return 'catalog_index';
-        elseif (CSite::InDir('/amo/')) return 'amo';
+        elseif (CSite::InDir('/amocrm/')) return 'amocrm';
         elseif (CSite::InDir('/blog/')) return 'blog';
         elseif (CSite::InDir('/catalog/')) return 'catalog';
         elseif (CSite::InDir('/contacts/')) return 'contacts';
         elseif (CSite::InDir('/seo/')) return 'seo';
+        elseif (CSite::InDir('/ppc/')) return 'ppc';
+        elseif (CSite::InDir('/sites/')) return 'sites';
+        elseif (CSite::InDir('/chat-bot/')) return 'chat-bot';
         elseif (CSite::InDir('/telegram/')) return 'telegram';
         return 'inner';
     }
