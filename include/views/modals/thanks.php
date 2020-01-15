@@ -11,7 +11,7 @@ $params = array(
     'title' => 'Спасибо за ваше обращение!',
     'description' => 'Мы свяжемся с вами в ближайшее время по оставленным контактным данным.'
 ); ?>
-    <div class="modal" tabindex="-1" role="dialog" id="<?= $id ?>-modal">
+    <div class="modal modal-<?= $id ?>" tabindex="-1" role="dialog" id="<?= $id ?>-modal">
         <div class="modal-dialog" role="document">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><?= renderSprite('close') ?></button>
             <div class="modal-content">

@@ -1,3 +1,6 @@
+/**
+ * @type {{init(): void, instance: {}, options: {dotsContainer: string, nav: boolean, dots: boolean, loop: boolean, responsive: {'0': {items: number}, '1280': {dots: boolean, items: number}}, dotsEach: boolean, items: number, autoplay: boolean}}}
+ */
 let TarifSlider = {
 
     instance: {},

@@ -112,9 +112,9 @@ use LapkinLab\Helper;
     <!--modals container-->
     <div id="ajax-modals-container"></div>
 
-    <?php if (!$USER): ?>
+    <?php if (!$USER->IsAdmin()): ?>
+        <?php $APPLICATION->IncludeFile('/include/yandex_metrika.php') ?>
         <?php $APPLICATION->IncludeFile('/include/seo.php') ?>
-        <?php $APPLICATION->IncludeFile('/include/ym_reachgoal.php') ?>
     <?php endif; ?>
 
 </body>

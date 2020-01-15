@@ -17,6 +17,7 @@ let Ajax = {
         // Открытие модалки
         $(document).on('click', '.js-open-modal', (e) => {
             e.preventDefault();
+            let metrikaTarget = $(e.currentTarget).data('metrika-target');
             let modalId = $(e.currentTarget).data('modal');
             let options = this.prepareAjaxOptions();
             options.data = {
@@ -31,6 +32,7 @@ let Ajax = {
                 .done((response) => {
                     if (!Common.isJsonString(response)) {
                         Ajax.appendModal(response, modalId);
+                        ymReachGoal(metrikaTarget); // цель Яндекс.Метрики
                     } else {
                         console.error(response);
                     }
@@ -66,6 +68,7 @@ let Ajax = {
                             .done((response) => {
                                 if (!Common.isJsonString(response)) {
                                     Ajax.appendModal(response, 'thanks');
+                                    ymReachGoal(form.find('.js-send-form').data('metrika-target')); // цель Яндекс.Метрики
                                 } else {
                                     console.error(response);
                                 }

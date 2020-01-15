@@ -7861,6 +7861,7 @@ body.contacts .page-contacts {
     margin-top: 15px;
     margin-bottom: 30px;
     border-radius: 0.25rem;
+    height: 100%;
 }
 
 .page-ppc .ppc-price--item.active {

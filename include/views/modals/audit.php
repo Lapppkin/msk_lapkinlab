@@ -23,7 +23,7 @@ $params = array(
     'submit_button' => 'Заказать аудит',
     'wrapper' => true,
 ); ?>
-<div class="modal" tabindex="-1" role="dialog" id="<?= $id ?>-modal">
+<div class="modal modal-<?= $id ?>" tabindex="-1" role="dialog" id="<?= $id ?>-modal">
     <div class="modal-dialog" role="document">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><?= renderSprite('close') ?></button>
         <div class="modal-content">

@@ -119,6 +119,7 @@
       margin-top: $app-padding--small;
       margin-bottom: $app-padding--base;
       @include border-radius;
+      height: 100%;
       &.active {
         border-color: $app-color--active;
         h3 {

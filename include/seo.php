@@ -1,20 +1,3 @@
-<!-- Yandex.Metrika counter -->
-<script>
-    (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-    (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
-    ym(45994323, "init", {
-        clickmap:true,
-        trackLinks:true,
-        trackHash:true,
-        accurateTrackBounce:true,
-        webvisor:true,
-        ecommerce:"dataLayer"
-    });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/45994323" style="position:absolute; left:-9999px;" alt=""></div></noscript>
-<!-- /Yandex.Metrika counter -->
-
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-71801643-15"></script>
 <script>
@@ -24,6 +7,7 @@
     gtag('config', 'UA-71801643-15');
 </script>
 
+<!-- Roistat -->
 <script>
     (function(w, d, s, h, id) {
         w.roistatProjectId = id; w.roistatHost = h;
@@ -33,12 +17,16 @@
     })(window, document, 'script', 'cloud.roistat.com', 'e15a222f8520098c4edb39b3c778f3d0');
 </script>
 
-<!--<script>-->
-<!--        (function(w,d,u){-->
-<!--                var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);-->
-<!--                var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);-->
-<!--        })(window,document,'https://cdn.bitrix24.ru/b8927137/crm/site_button/loader_2_dt8ie7.js');-->
-<!--</script>-->
+<?php/*
+<!-- Bitrix 24 -->
+<script>
+    (function(w,d,u){
+        var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+        var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+    })(window,document,'https://cdn.bitrix24.ru/b8927137/crm/site_button/loader_2_dt8ie7.js');
+</script>
+*/?>
+
 <script async src="//cdn.callbackhunter.com/cbh.js?hunter_code=d2a52b897791ef4220f5e04952280447" charset="UTF-8"></script>
 
 <!-- Facebook Pixel Code -->
