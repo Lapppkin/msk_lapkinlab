@@ -112,10 +112,8 @@ use LapkinLab\Helper;
     <!--modals container-->
     <div id="ajax-modals-container"></div>
 
-    <?php if (!$USER->IsAdmin()): ?>
-        <?php $APPLICATION->IncludeFile('/include/yandex_metrika.php') ?>
-        <?php $APPLICATION->IncludeFile('/include/seo.php') ?>
-    <?php endif; ?>
+    <?php $APPLICATION->IncludeFile('/include/yandex_metrika.php') ?>
+    <?php $APPLICATION->IncludeFile('/include/seo.php') ?>
 
 </body>
 </html>
