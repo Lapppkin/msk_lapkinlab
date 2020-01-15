@@ -7,6 +7,7 @@
   padding-bottom: $app-padding--large;
   position: relative;
   margin-bottom: $app-padding--medium;
+  max-height: 650px;
   @media (max-width: map_get($grid-breakpoints, sm)) {
     margin-bottom: 0;
     padding-bottom: $app-padding--medium;

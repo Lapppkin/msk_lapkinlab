@@ -5378,6 +5378,7 @@ i.lapicon-check-mark {
     padding-bottom: 90px;
     position: relative;
     margin-bottom: 60px;
+    max-height: 650px;
 }
 
 .slider h2,
@@ -7962,7 +7963,7 @@ body.contacts .page-contacts {
 }
 
 .page-ppc .ppc-tasks ul li i {
-    min-width: 44px;
+    min-width: 32px;
     margin-right: 15px;
 }
 
