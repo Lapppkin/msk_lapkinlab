@@ -35,13 +35,13 @@ body img:hover,
 }
 
 ::-moz-selection {
-    color: #fff;
-    background-color: #d72e4c;
+    color: #2a2c2b;
+    background-color: #3afad6;
 }
 
 ::selection {
-    color: #fff;
-    background-color: #d72e4c;
+    color: #2a2c2b;
+    background-color: #3afad6;
 }
 
 img,
