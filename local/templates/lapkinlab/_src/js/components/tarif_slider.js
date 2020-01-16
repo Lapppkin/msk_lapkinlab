@@ -16,9 +16,11 @@ let TarifSlider = {
             0: {
                 items: 1
             },
-            1280: {
+            1261: {
                 items: 3,
                 dots: false,
+                loop: false,
+                autoplay: false,
             }
         }
     },
