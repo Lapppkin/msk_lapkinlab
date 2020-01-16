@@ -2,12 +2,14 @@
 /**
  * @var $id
  * @var $required
+ * @var $hidden
  */
 ?>
 <div class="form-field form-field-text">
     <label for="<?= $id ?>-form-site"></label>
     <input id="<?= $id ?>-form-site" type="text" name="site"
-        placeholder="Сайт<?= (in_array('site', $required, true)) ? ' *' : '' ?>"
-        <?= (in_array('site', $required, true)) ? 'required' : '' ?>
+        placeholder="Сайт<?= $required ? ' *' : '' ?>"
+        <?= $required ? 'required' : '' ?>
+        <?= $hidden ? 'hidden' : '' ?>
     >
 </div>

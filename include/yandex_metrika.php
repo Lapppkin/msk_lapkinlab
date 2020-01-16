@@ -49,7 +49,7 @@
                 name: 'brif'
             },
             bottom_form: {
-                el: '.section--contact-form .js-send-form',
+                el: '.section--lapkin-form .js-send-form',
                 name: 'otpravka'
             }
         },
@@ -69,7 +69,7 @@
                 name: 'zakazrekl'
             },
             bottom_form: {
-                el: '.section--contact-form .js-send-form',
+                el: '.section--lapkin-form .js-send-form',
                 name: 'otpravkakont'
             }
         },

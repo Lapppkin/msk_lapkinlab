@@ -161,6 +161,11 @@
     }
 
     &--type {
+      &:hover {
+        .tarif-price button {
+          display: block;
+        }
+      }
       .tarif {
         &-title {
           height: 95px;
@@ -216,11 +221,6 @@
           position: relative;
           padding-bottom: $app-padding--base + 10px;
           text-align: center;
-          &:hover {
-            button {
-              display: block;
-            }
-          }
           span.price {
             font-size: $app-fontsize--h3;
             @include head_font;

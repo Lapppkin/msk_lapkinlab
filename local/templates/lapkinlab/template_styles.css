@@ -5247,12 +5247,12 @@ body.mobile-menu-open {
     padding: 30px;
 }
 
-.modal-content .contact-form--title {
+.modal-content .lapkin-form--title {
     margin-top: 15px;
     margin-bottom: 30px;
 }
 
-.modal-content .contact-form--fields {
+.modal-content .lapkin-form--fields {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -5260,19 +5260,19 @@ body.mobile-menu-open {
     flex-wrap: wrap;
 }
 
-.modal-content .contact-form--fields .form-field {
+.modal-content .lapkin-form--fields .form-field {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     margin: 0 0 20px;
 }
 
-.modal-content .contact-form--actions {
+.modal-content .lapkin-form--actions {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
 
-.modal-content .contact-form--actions .form-action {
+.modal-content .lapkin-form--actions .form-action {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     margin-left: 0;
@@ -5366,6 +5366,67 @@ i.lapicon-check-mark {
 
 .pagination .nav-links .page-numbers:hover {
     background-color: #fb5372;
+}
+
+.lapkin-form {
+    border-top: 1px solid #efeded;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background-color: #f9f9f9;
+}
+
+.lapkin-form--title {
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+
+.lapkin-form--fields {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.lapkin-form--fields .form-field {
+    -ms-flex-preferred-size: calc(33% - 28px);
+    flex-basis: calc(33% - 28px);
+    margin: 0 15px 30px;
+}
+
+.lapkin-form--fields .form-field input {
+    width: 100%;
+}
+
+.lapkin-form--fields .form-field-textarea {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    margin: 0 15px 30px;
+}
+
+.lapkin-form--fields .form-field-textarea textarea {
+    width: 100%;
+    max-height: 250px;
+    min-height: 60px;
+    resize: vertical;
+}
+
+.lapkin-form--actions {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.lapkin-form--actions button {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.lapkin-form--privacy {
+    text-align: center;
 }
 
 .slider,
@@ -5582,20 +5643,20 @@ i.lapicon-check-mark {
     justify-content: flex-end;
 }
 
-.slider .contact-form--form,
-.page-sites .sites-slider .contact-form--form,
-.page-ppc .ppc-slider .contact-form--form,
-.page-chat-bot .chat-bot-slider .contact-form--form {
+.slider .lapkin-form--form,
+.page-sites .sites-slider .lapkin-form--form,
+.page-ppc .ppc-slider .lapkin-form--form,
+.page-chat-bot .chat-bot-slider .lapkin-form--form {
     width: 80%;
     border: 1px solid #fa3a5e;
     border-radius: 0.25rem;
     padding: 30px;
 }
 
-.slider .contact-form--title,
-.page-sites .sites-slider .contact-form--title,
-.page-ppc .ppc-slider .contact-form--title,
-.page-chat-bot .chat-bot-slider .contact-form--title {
+.slider .lapkin-form--title,
+.page-sites .sites-slider .lapkin-form--title,
+.page-ppc .ppc-slider .lapkin-form--title,
+.page-chat-bot .chat-bot-slider .lapkin-form--title {
     font-family: "Montserrat", serif;
     font-weight: 600;
     font-style: normal;
@@ -5604,57 +5665,57 @@ i.lapicon-check-mark {
     margin-bottom: 30px;
 }
 
-.slider .contact-form--fields .form-field,
-.page-sites .sites-slider .contact-form--fields .form-field,
-.page-ppc .ppc-slider .contact-form--fields .form-field,
-.page-chat-bot .chat-bot-slider .contact-form--fields .form-field {
+.slider .lapkin-form--fields .form-field,
+.page-sites .sites-slider .lapkin-form--fields .form-field,
+.page-ppc .ppc-slider .lapkin-form--fields .form-field,
+.page-chat-bot .chat-bot-slider .lapkin-form--fields .form-field {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     margin: 0 0 15px;
 }
 
-.slider .contact-form--fields .form-field input,
-.page-sites .sites-slider .contact-form--fields .form-field input,
-.page-ppc .ppc-slider .contact-form--fields .form-field input,
-.page-chat-bot .chat-bot-slider .contact-form--fields .form-field input {
+.slider .lapkin-form--fields .form-field input,
+.page-sites .sites-slider .lapkin-form--fields .form-field input,
+.page-ppc .ppc-slider .lapkin-form--fields .form-field input,
+.page-chat-bot .chat-bot-slider .lapkin-form--fields .form-field input {
     width: 100%;
 }
 
-.slider .contact-form--actions,
-.page-sites .sites-slider .contact-form--actions,
-.page-ppc .ppc-slider .contact-form--actions,
-.page-chat-bot .chat-bot-slider .contact-form--actions {
+.slider .lapkin-form--actions,
+.page-sites .sites-slider .lapkin-form--actions,
+.page-ppc .ppc-slider .lapkin-form--actions,
+.page-chat-bot .chat-bot-slider .lapkin-form--actions {
     -ms-flex-preferred-size: 100%;
     flex-basis: 100%;
     margin-top: 15px;
 }
 
-.slider .contact-form--actions .form-action,
-.page-sites .sites-slider .contact-form--actions .form-action,
-.page-ppc .ppc-slider .contact-form--actions .form-action,
-.page-chat-bot .chat-bot-slider .contact-form--actions .form-action {
+.slider .lapkin-form--actions .form-action,
+.page-sites .sites-slider .lapkin-form--actions .form-action,
+.page-ppc .ppc-slider .lapkin-form--actions .form-action,
+.page-chat-bot .chat-bot-slider .lapkin-form--actions .form-action {
     width: 100%;
 }
 
-.slider .contact-form--actions button[type="submit"],
-.page-sites .sites-slider .contact-form--actions button[type="submit"],
-.page-ppc .ppc-slider .contact-form--actions button[type="submit"],
-.page-chat-bot .chat-bot-slider .contact-form--actions button[type="submit"] {
+.slider .lapkin-form--actions button[type="submit"],
+.page-sites .sites-slider .lapkin-form--actions button[type="submit"],
+.page-ppc .ppc-slider .lapkin-form--actions button[type="submit"],
+.page-chat-bot .chat-bot-slider .lapkin-form--actions button[type="submit"] {
     width: 100%;
 }
 
-.slider .contact-form--privacy,
-.page-sites .sites-slider .contact-form--privacy,
-.page-ppc .ppc-slider .contact-form--privacy,
-.page-chat-bot .chat-bot-slider .contact-form--privacy {
+.slider .lapkin-form--privacy,
+.page-sites .sites-slider .lapkin-form--privacy,
+.page-ppc .ppc-slider .lapkin-form--privacy,
+.page-chat-bot .chat-bot-slider .lapkin-form--privacy {
     font-size: 14px;
     text-align: center;
 }
 
-.slider .contact-form--privacy p,
-.page-sites .sites-slider .contact-form--privacy p,
-.page-ppc .ppc-slider .contact-form--privacy p,
-.page-chat-bot .chat-bot-slider .contact-form--privacy p {
+.slider .lapkin-form--privacy p,
+.page-sites .sites-slider .lapkin-form--privacy p,
+.page-ppc .ppc-slider .lapkin-form--privacy p,
+.page-chat-bot .chat-bot-slider .lapkin-form--privacy p {
     margin: 0;
 }
 
@@ -6239,6 +6300,10 @@ i.lapicon-check-mark {
     width: 100%;
 }
 
+.section--tarif--type:hover .tarif-price button {
+    display: block;
+}
+
 .section--tarif--type .tarif-title {
     height: 95px;
     display: -webkit-box;
@@ -6318,10 +6383,6 @@ i.lapicon-check-mark {
     position: relative;
     padding-bottom: 40px;
     text-align: center;
-}
-
-.section--tarif--type .tarif-price:hover button {
-    display: block;
 }
 
 .section--tarif--type .tarif-price span.price {
@@ -6946,65 +7007,316 @@ i.lapicon-check-mark {
     margin-left: auto;
 }
 
-.contact-form {
+.calculator-form {
     border-top: 1px solid #efeded;
-    padding-top: 90px;
+    padding-top: 60px;
     padding-bottom: 90px;
-    background-color: #f9f9f9;
+    color: #fff;
+    background-color: #38384f;
+    background-image: url("images/background.png");
+    background-size: cover;
+    background-position: center;
 }
 
-.contact-form--title {
+.calculator-form--title {
+    color: #fff;
     font-size: 30px;
     margin-bottom: 60px;
+    width: 100%;
 }
 
-.contact-form--fields {
+.calculator-form--info {
+    width: 100%;
+    margin-bottom: 30px;
+    color: #fff;
+}
+
+.calculator-form--info h3 {
+    color: #fa3a5e;
+}
+
+.calculator-form--info h3:first-child {
+    margin-top: 0;
+}
+
+.calculator-form--info ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    color: #fff;
 }
 
-.contact-form--fields .form-field {
-    -ms-flex-preferred-size: calc(33% - 28px);
-    flex-basis: calc(33% - 28px);
-    margin: 0 15px 30px;
+.calculator-form--info ul li {
+    margin: 5px 15px;
+    padding: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #fff;
 }
 
-.contact-form--fields .form-field input {
+.calculator-form--info ul li i {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.calculator-form--fields {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.calculator-form--fields .form-field {
+    -ms-flex-preferred-size: calc(33.333% - 20px);
+    flex-basis: calc(33.333% - 20px);
+    margin: 0 15px 15px 0;
+}
+
+.calculator-form--fields .form-field-text {
+    margin-top: 30px;
+}
+
+.calculator-form--fields .form-field input {
     width: 100%;
 }
 
-.contact-form--fields .form-field-textarea {
-    -ms-flex-preferred-size: 100%;
-    flex-basis: 100%;
-    margin: 0 15px 30px;
+.calculator-form--fields .form-field-textarea {
+    -ms-flex-preferred-size: calc(100% - 30px);
+    flex-basis: calc(100% - 30px);
+    margin: 0 0 15px;
 }
 
-.contact-form--fields .form-field-textarea textarea {
+.calculator-form--fields .form-field-textarea textarea {
     width: 100%;
     max-height: 250px;
     min-height: 60px;
     resize: vertical;
 }
 
-.contact-form--actions {
+.calculator-form--fields .form-field-select--calculator {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-preferred-size: calc(33.333% - 20px);
+    flex-basis: calc(33.333% - 20px);
+    padding: 10px 15px 15px;
+    border: 1px solid #a9a8a8;
+    border-radius: 0.25rem;
+    margin: 0 15px 15px 0;
+}
+
+.calculator-form--fields .form-field-select--calculator.active {
+    border-color: #fa3a5e;
+    background-color: #fff;
+}
+
+.calculator-form--fields .form-field-select--calculator.active .form-field-select--label {
+    color: #fa3a5e;
+}
+
+.calculator-form--fields .form-field-select--calculator:hover {
+    border-color: #fb5372;
+    background-color: #fff;
+}
+
+.calculator-form--fields .form-field-select--calculator:hover .form-field-select--label {
+    color: #fa3a5e;
+}
+
+.calculator-form--fields .form-field-select--label {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    font-size: 16px;
+    margin: 0 10px 10px;
+    color: #fa3a5e;
+}
+
+.calculator-form--fields .form-field-select--wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    width: 100%;
+}
+
+.calculator-form--fields .form-field-select--wrapper select {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    width: 100%;
+}
+
+.calculator-form--fields .form-field-radio--calculator {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-preferred-size: calc(33.333% - 30px);
+    flex-basis: calc(33.333% - 30px);
+    padding: 10px 15px 15px;
+    border: 1px solid #a9a8a8;
+    border-radius: 0.25rem;
+    margin: 0 15px 15px 0;
+}
+
+.calculator-form--fields .form-field-radio--calculator.active {
+    border-color: #fa3a5e;
+    background-color: #fff;
+}
+
+.calculator-form--fields .form-field-radio--calculator.active .form-field-radio--label {
+    color: #fa3a5e;
+}
+
+.calculator-form--fields .form-field-radio--calculator:hover {
+    border-color: #fb5372;
+    background-color: #fff;
+}
+
+.calculator-form--fields .form-field-radio--calculator:hover .form-field-radio--label {
+    color: #fa3a5e;
+}
+
+.calculator-form--fields .form-field-radio--label {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    font-size: 16px;
+    margin: 0 10px 10px;
+    color: #fa3a5e;
+}
+
+.calculator-form--fields .form-field-radio--items {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.calculator-form--fields .form-field-radio label {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 7px 10px;
+    margin: 0 3px;
+    height: 100%;
+    border-radius: 0.25rem;
+}
+
+.calculator-form--fields .form-field-radio label.reset {
+    background-color: transparent;
+}
+
+.calculator-form--fields .form-field-radio label.reset:hover {
+    background-color: transparent;
+}
+
+.calculator-form--fields .form-field-radio label.active {
+    cursor: pointer;
+    background-color: #fa3a5e;
+    color: #fff;
+}
+
+.calculator-form--fields .form-field-radio label.active:hover span {
+    color: #fff;
+}
+
+.calculator-form--fields .form-field-radio label.active span {
+    color: #fff;
+}
+
+.calculator-form--fields .form-field-radio label:hover {
+    cursor: pointer;
+    color: #38384f;
+}
+
+.calculator-form--fields .form-field-radio label:hover span {
+    color: #38384f;
+}
+
+.calculator-form--fields .form-field-radio label input {
+    display: none;
+}
+
+.calculator-form--fields .form-field-radio label input:checked {
+    color: #fff;
+    background-color: #fa3a5e;
+}
+
+.calculator-form--fields .form-field-radio label i.unspecified {
+    opacity: 0.6;
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" /></filter></svg>#filter');
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+    -webkit-transform: scale(0.6);
+    transform: scale(0.6);
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.calculator-form--fields .form-field-radio label i.unspecified:hover {
+    opacity: 1;
+    filter: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg"><filter id="filter"><feColorMatrix type="matrix" color-interpolation-filters="sRGB" values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0" /></filter></svg>#filter');
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+.calculator-form--fields .form-field-radio label span {
+    color: #c2c2c2;
+    font-size: 33px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-style: normal;
+    text-transform: uppercase;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    line-height: 1;
+}
+
+.calculator-form--fields .form-field-radio label span.complicate {
+    max-width: 115px;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.calculator-form--privacy,
+.calculator-form--actions {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     justify-content: center;
-}
-
-.contact-form--actions button {
-    padding-left: 30px;
-    padding-right: 30px;
-}
-
-.contact-form--privacy {
-    text-align: center;
 }
 
 .page-privacy {
@@ -7438,7 +7750,7 @@ body.contacts .page-contacts {
     display: none;
 }
 
-.page-sites .sites-slider .contact-form--title {
+.page-sites .sites-slider .lapkin-form--title {
     margin-top: 0;
 }
 
@@ -7745,7 +8057,7 @@ body.contacts .page-contacts {
     padding-bottom: 60px;
 }
 
-.page-ppc .ppc-slider .contact-form--title {
+.page-ppc .ppc-slider .lapkin-form--title {
     margin-top: 0;
 }
 
@@ -7760,6 +8072,10 @@ body.contacts .page-contacts {
 
 .page-ppc .ppc-main p img {
     max-width: 100%;
+}
+
+.page-ppc .ppc-main--title {
+    margin-top: 60px;
 }
 
 .page-ppc .ppc-solutions,
@@ -8256,7 +8572,7 @@ body.contacts .page-contacts {
     margin-bottom: 0;
 }
 
-.page-chat-bot .chat-bot-slider .contact-form--title {
+.page-chat-bot .chat-bot-slider .lapkin-form--title {
     margin-top: 0;
 }
 
@@ -15732,11 +16048,27 @@ Build date: 2018-12-11 23:23:51
         justify-content: flex-start;
     }
 
-    .slider .contact-form--form,
-  .page-sites .sites-slider .contact-form--form,
-  .page-ppc .ppc-slider .contact-form--form,
-  .page-chat-bot .chat-bot-slider .contact-form--form {
+    .slider .lapkin-form--form,
+  .page-sites .sites-slider .lapkin-form--form,
+  .page-ppc .ppc-slider .lapkin-form--form,
+  .page-chat-bot .chat-bot-slider .lapkin-form--form {
         width: 100%;
+    }
+
+    .calculator-form--fields .form-field {
+        -ms-flex-preferred-size: calc(50% - 15px);
+        flex-basis: calc(50% - 15px);
+    }
+
+    .calculator-form--fields .form-field-text {
+        -ms-flex-preferred-size: calc(33.333% - 15px);
+        flex-basis: calc(33.333% - 15px);
+    }
+
+    .calculator-form--fields .form-field-select--calculator {
+        -ms-flex-preferred-size: calc(100% - 15px);
+        flex-basis: calc(100% - 15px);
+        margin-right: 0;
     }
 
     .page-smm .smm-preview--form .form-field {
@@ -15822,6 +16154,14 @@ Build date: 2018-12-11 23:23:51
         line-height: 1.6;
         padding-right: 30px;
         padding-left: 30px;
+    }
+
+    .slider,
+  .page-sites .sites-slider,
+  .page-ppc .ppc-slider,
+  .page-chat-bot .chat-bot-slider {
+        max-height: none;
+        max-height: initial;
     }
 
     .section--seo--item {
@@ -16029,6 +16369,11 @@ Build date: 2018-12-11 23:23:51
         flex-basis: 100%;
     }
 
+    .calculator-form--fields .form-field-text {
+        -ms-flex-preferred-size: calc(100% - 15px);
+        flex-basis: calc(100% - 15px);
+    }
+
     .blog--list--item {
         -ms-flex-preferred-size: calc(50% - 30px);
         flex-basis: calc(50% - 30px);
@@ -16228,10 +16573,20 @@ Build date: 2018-12-11 23:23:51
         filter: grayscale(0);
     }
 
-    .slider .contact-form--form,
-  .page-sites .sites-slider .contact-form--form,
-  .page-ppc .ppc-slider .contact-form--form,
-  .page-chat-bot .chat-bot-slider .contact-form--form {
+    .lapkin-form {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+
+    .lapkin-form--fields .form-field {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+
+    .slider .lapkin-form--form,
+  .page-sites .sites-slider .lapkin-form--form,
+  .page-ppc .ppc-slider .lapkin-form--form,
+  .page-chat-bot .chat-bot-slider .lapkin-form--form {
         margin-top: 30px;
     }
 
@@ -16321,14 +16676,15 @@ Build date: 2018-12-11 23:23:51
         margin-bottom: 10px;
     }
 
-    .contact-form {
+    .calculator-form {
         padding-top: 60px;
         padding-bottom: 60px;
     }
 
-    .contact-form--fields .form-field {
+    .calculator-form--fields .form-field {
         -ms-flex-preferred-size: 100%;
         flex-basis: 100%;
+        margin-right: 0;
     }
 
     .page-blog {
@@ -16671,10 +17027,10 @@ Build date: 2018-12-11 23:23:51
         margin-top: 0;
     }
 
-    .slider .contact-form--form,
-  .page-sites .sites-slider .contact-form--form,
-  .page-ppc .ppc-slider .contact-form--form,
-  .page-chat-bot .chat-bot-slider .contact-form--form {
+    .slider .lapkin-form--form,
+  .page-sites .sites-slider .lapkin-form--form,
+  .page-ppc .ppc-slider .lapkin-form--form,
+  .page-chat-bot .chat-bot-slider .lapkin-form--form {
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -16744,6 +17100,36 @@ Build date: 2018-12-11 23:23:51
     .section--article {
         padding-top: 60px;
         padding-bottom: 60px;
+    }
+
+    .calculator-form--fields .form-field-text {
+        margin-top: 0;
+    }
+
+    .calculator-form--fields .form-field-radio--calculator {
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-bottom: 10px;
+    }
+
+    .calculator-form--fields .form-field-radio label {
+        padding: 3px 7px;
+        margin: 0;
+    }
+
+    .calculator-form--fields .form-field-radio label.reset {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .calculator-form--fields .form-field-radio label span {
+        font-size: 27px;
+    }
+
+    .calculator-form--fields .form-field-radio label span.complicate {
+        font-size: 10px;
+        line-height: 1.2;
+        max-width: 90px;
     }
 
     .blog--list--item {

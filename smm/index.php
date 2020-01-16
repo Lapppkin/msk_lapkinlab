@@ -45,7 +45,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
                                 'submit_button' => 'Оставить заявку',
                                 'wrapper' => false,
                             );
-                            $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/contact_form.php', $params);
+                            $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/lapkin_form.php', $params);
                             ?>
                         </div>
                     </div>

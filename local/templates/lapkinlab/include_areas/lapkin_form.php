@@ -15,11 +15,6 @@
 
 use Bitrix\Main\Security\Random;
 
-$field_params = array(
-    'id' => $id,
-    'required' => $required,
-);
-
 $tarif_name = array(
     'standard' => 'Стандартный',
     'minimal' => 'Минимальный',
@@ -38,7 +33,7 @@ $site_types = array(
 $form_id = $id . '-form-' . Random::getString(32);
 ?>
 <!--<?= $form_id ?>-->
-<form class="contact-form--form" id="<?= $form_id ?>">
+<form class="lapkin-form--form" id="<?= $form_id ?>">
     <?= bitrix_sessid_post() ?>
     <input type="hidden" name="id" value="<?= $id ?>">
     <input type="hidden" name="required" value="<?= base64_encode(implode(',', $required)) ?>">
@@ -48,24 +43,29 @@ $form_id = $id . '-form-' . Random::getString(32);
     <?php if ($site_type): ?>
         <input type="hidden" name="site_type" value="<?= $site_type ?>">
     <?php endif; ?>
-    <input type="hidden" name="url" value="https://<?=$_SERVER['SERVER_NAME'].$_SERVER['REQUEST_URI']?>">
-    <?php if ($wrapper): ?><div class="contact-form--wrapper"><?php endif; ?>
-        <h2 class="contact-form--title text-center"><?= $title ?></h2>
+    <input type="hidden" name="url" value="https://<?= $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI'] ?>">
+    <?php if ($wrapper): ?><div class="lapkin-form--wrapper"><?php endif; ?>
+        <h2 class="lapkin-form--title text-center"><?= $title ?></h2>
         <?php if ($tarif): ?>
         <p class="text-center">Тариф: <?= $tarif_name[$tarif] ?></p>
         <?php endif; ?>
         <?php if ($site_type): ?>
             <p class="text-center">Тип сайта: <?= $site_types[$site_type] ?></p>
         <?php endif; ?>
-        <div class="contact-form--fields">
+        <div class="lapkin-form--fields">
             <?php foreach ($fields as $field): ?>
-                <?php $APPLICATION->IncludeFile(VIEWS_PATH . 'fields/' . $field . '.php', $field_params) ?>
+                <?php
+                $field_params = array(
+                    'id' => $id,
+                    'required' => in_array($field, $required, true),
+                );
+                $APPLICATION->IncludeFile(VIEWS_PATH . 'fields/' . $field . '.php', $field_params); ?>
             <?php endforeach; ?>
         </div>
-        <div class="contact-form--privacy">
+        <div class="lapkin-form--privacy">
             <p>Нажимая на кнопку «<?= $submit_button ?>», я&nbsp;даю согласие на  <!--noindex--><a href="/privacy-policy/" rel="nofollow" target="_blank">обработку персональных данных</a><!--/noindex--></p>
         </div>
-        <div class="contact-form--actions">
+        <div class="lapkin-form--actions">
             <div class="form-action">
                 <button class="button js-send-form" type="submit"><?= $submit_button ?></button>
             </div>

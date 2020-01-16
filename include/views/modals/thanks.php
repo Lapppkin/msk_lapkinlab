@@ -15,7 +15,7 @@ $params = array(
         <div class="modal-dialog" role="document">
             <button type="button" class="close" data-dismiss="modal" aria-label="Close"><?= renderSprite('close') ?></button>
             <div class="modal-content">
-                <h2 class="contact-form--title text-center"><?= $params['title'] ?></h2>
+                <h2 class="lapkin-form--title text-center"><?= $params['title'] ?></h2>
                 <p class="text-center"><?= $params['description'] ?></p>
             </div>
         </div>

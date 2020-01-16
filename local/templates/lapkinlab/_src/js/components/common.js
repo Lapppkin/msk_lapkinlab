@@ -47,6 +47,49 @@ let Common = {
             $('.js-tarif-ext').slideUp().nextAll().slideDown().css('display', 'flex');
         });
 
+        // Обработчики формы калькулятора
+        $(document).on('click', '.form-field-radio--calculator .form-field-radio--items label.selectable', (e) => {
+            $(e.currentTarget).closest('.form-field-radio--items').find('label').removeClass('active');
+            $(e.currentTarget).addClass('active').closest('.form-field-radio--calculator').addClass('active');
+        });
+        $(document).on('click', '.form-field-radio--calculator .form-field-radio--items label.reset', (e) => {
+            $(e.currentTarget).closest('.form-field-radio--items').find('label').removeClass('active');
+            $(e.currentTarget).removeClass('active').closest('.form-field-radio--calculator').removeClass('active').find('input').each(function () {
+                $(this).prop('checked', false).removeAttr('checked');
+                $(this)[0].checked = false;
+            });
+        });
+        $(document).on('change input', '.form-field-select--calculator select', (e) => {
+            $(e.currentTarget).addClass('active').closest('.form-field-select--calculator').addClass('active');
+        });
+
+        // Преобразование полей калькулятора в сообщение
+        $(document).on('click', '.calculator-form--form .js-send-form', (e) => {
+            let form = $($(e.currentTarget)[0].form);
+            let message = '';
+
+            // Selects
+            let selects = form.find('select.active');
+            selects.each(function () {
+                if (this.selectedIndex !== 0) {
+                    message += `${$(this).data('label')}: ${this.options[this.selectedIndex].text}\r\n\r\n`;
+                }
+            });
+            // Radios
+            let radios = form.find('input[type="radio"]:checked');
+            let values = {
+                yes: 'Да',
+                no: 'Нет',
+                complicate: 'Затрудняюсь ответить'
+            };
+            radios.each(function () {
+                message += `${$(this).data('label')}: ${values[this.value]}\r\n`;
+                console.log(message);
+            });
+
+            form.find('.form-field-textarea[hidden] textarea').val(message);
+        });
+
         // Обработчик после загрузки страницы
         $(document).ready(() => {
             //Common.setEmailMask();

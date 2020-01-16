@@ -17,6 +17,7 @@ $params = array(
         'name',
         'phone',
     ),
+    'hidden' => array(),
     'submit_button' => 'Перезвоните мне',
     'wrapper' => true,
 ); ?>
@@ -24,7 +25,7 @@ $params = array(
     <div class="modal-dialog" role="document">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><?= renderSprite('close') ?></button>
         <div class="modal-content">
-            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/contact_form.php', $params) ?>
+            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/lapkin_form.php', $params) ?>
         </div>
     </div>
 </div>

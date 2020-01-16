@@ -11,7 +11,7 @@
       @extend .slider-image;
     }
 
-    .contact-form--title {
+    .lapkin-form--title {
       margin-top: 0;
     }
   }
@@ -29,6 +29,9 @@
       img {
         max-width: 100%;
       }
+    }
+    &--title {
+      margin-top: $app-padding--medium;
     }
   }
 

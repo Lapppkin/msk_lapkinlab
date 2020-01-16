@@ -1,0 +1,290 @@
+// Calculator form
+
+.calculator-form {
+  border-top: 1px solid $app-color--border;
+  padding-top: $app-padding--medium;
+  padding-bottom: $app-padding--large;
+  color: $app-color--white;
+  background-color: $app-color--primary;
+  background-image: url("images/background.png");
+  background-size: cover;
+  background-position: center;
+  @media (max-width: map_get($grid-breakpoints, md)) {
+    padding-top: $app-padding--medium;
+    padding-bottom: $app-padding--medium;
+  }
+
+  &--title {
+    color: $app-color--white;
+    font-size: $app-fontsize--h1;
+    margin-bottom: $app-padding--medium;
+    width: 100%;
+  }
+
+  &--info {
+    width: 100%;
+    margin-bottom: $app-padding--base;
+    color: $app-color--white;
+    h3 {
+      color: $app-color--active;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      color: $app-color--white;
+      li {
+        margin: 5px 15px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        color: $app-color--white;
+        i {
+          width: 20px;
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+
+  &--fields {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: $app-padding--base;
+    .form-field {
+      flex-basis: calc(33.333% - 20px);
+      margin: 0 $app-padding--small $app-padding--small 0;
+      @media (max-width: map_get($grid-breakpoints, xxl)) {
+        flex-basis: calc(50% - 15px);
+      }
+      @media (max-width: map_get($grid-breakpoints, md)) {
+        flex-basis: 100%;
+        margin-right: 0;
+      }
+      &-text {
+        margin-top: $app-padding--base;
+        @media (max-width: map_get($grid-breakpoints, xxl)) {
+          flex-basis: calc(33.333% - 15px);
+        }
+        @media (max-width: map_get($grid-breakpoints, lg)) {
+          flex-basis: calc(100% - 15px);
+        }
+        @media (max-width: map_get($grid-breakpoints, sm)) {
+          margin-top: 0;
+        }
+      }
+      input {
+        width: 100%;
+      }
+
+      // Textarea
+
+      &-textarea {
+        flex-basis: calc(100% - 30px);
+        margin: 0 0 $app-padding--small;
+        textarea {
+          width: 100%;
+          max-height: 250px;
+          min-height: $app-navigation-height;
+          resize: vertical;
+        }
+      }
+
+      // Select
+
+      &-select {
+        &--calculator {
+          display: inline-flex;
+          flex-wrap: wrap;
+          flex-basis: calc(33.333% - 20px);
+          padding: 10px $app-padding--small $app-padding--small;
+          border: 1px solid $app-color--secondary;
+          @include border-radius;
+          margin: 0 $app-padding--small $app-padding--small 0;
+          @media (max-width: map_get($grid-breakpoints, xxl)) {
+            flex-basis: calc(100% - 15px);
+            margin-right: 0;
+          }
+          &.active {
+            border-color: $app-color--active;
+            background-color: $app-color--white;
+            .form-field-select--label {
+              color: $app-color--active;
+            }
+          }
+          &:hover {
+            border-color: $app-color--active-hover;
+            background-color: $app-color--white;
+            .form-field-select--label {
+              color: $app-color--active;
+            }
+          }
+        }
+        &--label {
+          flex-basis: 100%;
+          font-size: $app-fontsize--base;
+          margin: 0 10px 10px;
+          color: $app-color--active;
+        }
+        &--wrapper {
+          display: flex;
+          flex-basis: 100%;
+          width: 100%;
+          select {
+            flex-basis: 100%;
+            width: 100%;
+          }
+        }
+      }
+
+      // Radio
+
+      &-radio {
+        &--calculator {
+          display: inline-flex;
+          flex-wrap: wrap;
+          flex-basis: calc(33.333% - 30px);
+          padding: 10px $app-padding--small $app-padding--small;
+          border: 1px solid $app-color--secondary;
+          @include border-radius;
+          margin: 0 $app-padding--small $app-padding--small 0;
+          @media (max-width: map_get($grid-breakpoints, sm)) {
+            padding-left: 7px;
+            padding-right: 7px;
+            padding-bottom: 10px;
+          }
+          &.active {
+            border-color: $app-color--active;
+            background-color: $app-color--white;
+            .form-field-radio--label {
+              color: $app-color--active;
+            }
+          }
+          &:hover {
+            border-color: $app-color--active-hover;
+            background-color: $app-color--white;
+            .form-field-radio--label {
+              color: $app-color--active;
+            }
+          }
+        }
+        &--label {
+          flex-basis: 100%;
+          font-size: $app-fontsize--base;
+          margin: 0 10px 10px;
+          color: $app-color--active;
+        }
+        &--items {
+          flex-basis: 100%;
+          display: flex;
+          flex-wrap: nowrap;
+          align-items: center;
+        }
+        label {
+          display: inline-flex;
+          align-items: center;
+          padding: 7px 10px;
+          margin: 0 3px;
+          height: 100%;
+          @include border-radius;
+          @media (max-width: map_get($grid-breakpoints, sm)) {
+            padding: 3px 7px;
+            margin: 0;
+          }
+          &.reset {
+            background-color: transparent;
+            @media (max-width: map_get($grid-breakpoints, sm)) {
+              padding-left: 0;
+              padding-right: 0;
+            }
+            &:hover {
+              background-color: transparent;
+            }
+          }
+          &.active {
+            cursor: pointer;
+            background-color: $app-color--active;
+            color: $app-color--white;
+            &:hover {
+              span {
+                color: $app-color--white;
+              }
+            }
+            span {
+              color: $app-color--white;
+            }
+          }
+          &:hover {
+            cursor: pointer;
+            color: $app-color--primary;
+            span {
+              color: $app-color--primary;
+            }
+          }
+          input {
+            display: none;
+            &:checked {
+              color: $app-color--white;
+              background-color: $app-color--active;
+            }
+          }
+          i {
+            &.unspecified {
+              opacity: 0.6;
+              filter: grayscale(1);
+              transform: scale(0.6);
+              transition: all 0.2s ease-in-out;
+              &:hover {
+                opacity: 1;
+                filter: grayscale(0);
+                transform: scale(1);
+              }
+            }
+          }
+          span {
+            color: lighten($app-color--secondary, 10%);
+            font-size: $app-fontsize--h1 + 3px;
+            @include head_font;
+            text-transform: uppercase;
+            user-select: none;
+            line-height: 1;
+            @media (max-width: map_get($grid-breakpoints, sm)) {
+              font-size: $app-fontsize--h2 + 3px;
+            }
+            &.yes,
+            &.no {
+            }
+            &.complicate {
+              max-width: 115px;
+              font-size: $app-fontsize--small;
+              line-height: 1;
+              @media (max-width: map_get($grid-breakpoints, sm)) {
+                font-size: $app-fontsize--smaller - 2px;
+                line-height: 1.2;
+                max-width: 90px;
+              }
+            }
+          }
+        }
+      }
+
+    }
+  }
+
+  &--privacy,
+  &--actions {
+    display: flex;
+    justify-content: center;
+  }
+
+  &--actions {
+
+  }
+}

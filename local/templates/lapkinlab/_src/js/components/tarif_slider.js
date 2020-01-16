@@ -6,7 +6,7 @@ let TarifSlider = {
     instance: {},
     options: {
         items: 3,
-        loop: false,
+        loop: true,
         nav: false,
         dots: true,
         dotsContainer: '.section--tarif--navigation',

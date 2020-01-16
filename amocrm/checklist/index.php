@@ -284,7 +284,7 @@ $APPLICATION->AddChainItem('Бриф на внедрение amoCRM', $APPLICATI
     </div>
 </section>
 <style>
-    .contact-form--title {
+    .lapkin-form--title {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
