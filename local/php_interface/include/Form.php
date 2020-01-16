@@ -171,7 +171,7 @@ BODY;
             $amo = new \AmoCRM\Client(AMO_CONFIG['subdomain'], AMO_CONFIG['login'], AMO_CONFIG['api_key']);
 
             $lead = $amo->lead;
-            $lead['name'] = 'Заказ звонка с сайта «msk.lapkinlab.ru»';
+            $lead['name'] = 'Заявка с сайта Msk.LapkinLab.ru';
             $lead['responsible_user_id'] = 3369325;
 
             $id = $lead->apiAdd();
@@ -183,7 +183,7 @@ BODY;
             $contact->addCustomField(53921, $this->phone, 'WORK');
             $contact->addCustomField(78451, [[$this->site]]);
             $contact->addCustomField(53923, [[$this->email, 'PRIV']]);
-            $contact->addCustomField(89745, [[$this->message]]);
+            $contact->addCustomField(373323, [[$this->message]]); // 89745 // старый id
             $contact->addCustomField(370537, [[$this->form_id, 'FORM_NAME']]);
 
             $contact->apiAdd();
