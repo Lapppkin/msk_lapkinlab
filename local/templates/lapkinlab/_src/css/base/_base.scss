@@ -64,7 +64,8 @@ body span.bx-context-toolbar a {
 // Scroll to top
 
 #scroll-to-top {
-  background-color: $app-color--active;
+  background-color: $app-color--success;
+  color: $app-color--black;
   width: 48px;
   height: 48px;
   display: block;
@@ -83,9 +84,12 @@ body span.bx-context-toolbar a {
   &:hover {
     background-color: $app-color--active-hover;
     opacity: 1;
+    a {
+      color: $app-color--white;
+    }
   }
   a {
-    color: $app-color--white;
+    color: $app-color--black;
     text-decoration: none;
     display: flex;
     justify-content: center;

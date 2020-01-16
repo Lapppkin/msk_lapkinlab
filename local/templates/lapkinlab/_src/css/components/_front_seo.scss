@@ -34,6 +34,7 @@
       flex-wrap: wrap;
       justify-content: center;
       align-self: stretch;
+      align-content: flex-start;
       @media (max-width: map_get($grid-breakpoints, xl)) {
         flex-basis: 265px;
       }

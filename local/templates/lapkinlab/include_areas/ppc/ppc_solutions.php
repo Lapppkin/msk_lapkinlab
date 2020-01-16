@@ -8,7 +8,7 @@ $section = array(
             'title' => 'Для одностраничных сайтов',
         ),
         1 => array(
-            'icon' => 'business-website',
+            'icon' => 'business',
             'title' => 'Для корпоративных сайтов',
         ),
         2 => array(

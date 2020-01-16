@@ -63,9 +63,9 @@
       padding: $app-padding--base;
       display: flex;
       justify-content: center;
-      align-items: center;
       flex-wrap: wrap;
       @include border-radius;
+      align-content: flex-start;
       @media (max-width: map_get($grid-breakpoints, xl)) {
         padding-left: $app-padding--small;
         padding-right: $app-padding--small;
@@ -123,6 +123,8 @@
       margin-bottom: $app-padding--base;
       @include border-radius;
       height: 100%;
+      display: flex;
+      flex-wrap: wrap;
       &.active {
         border-color: $app-color--active;
         h3 {
@@ -136,8 +138,10 @@
         @include head_font;
         margin: 0;
         padding: $app-padding--base;
+        flex-basis: 100%;
       }
       p {
+        flex-basis: 100%;
         padding: 0 $app-padding--base;
         margin-bottom: $app-padding--base;
         &.descr {
@@ -147,9 +151,14 @@
         &.price {
           @include head_font;
           font-size: $app-fontsize--h3;
+          align-self: flex-end;
+        }
+        &.action {
+          align-self: flex-end;
         }
       }
       ul {
+        flex-basis: 100%;
         padding: $app-padding--small $app-padding--base;
         list-style: none;
         li {

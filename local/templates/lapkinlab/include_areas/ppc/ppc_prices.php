@@ -37,7 +37,7 @@
                         <li><?= renderSprite('check-mark') ?> Итоговый отчет</li>
                     </ul>
                     <p class="price text-center">15&nbsp;000 &#8381;</p>
-                    <p class="text-center">
+                    <p class="action text-center">
                         <button class="btn js-open-modal" data-action="openModal" data-modal="ppc">Заказать рекламу</button>
                     </p>
                 </div>
@@ -77,7 +77,7 @@
                         <li><?= renderSprite('check-mark') ?> Итоговый отчет</li>
                     </ul>
                     <p class="price text-center">30&nbsp;000 &#8381;</p>
-                    <p class="text-center">
+                    <p class="action text-center">
                         <button class="btn js-open-modal" data-action="openModal" data-modal="ppc">Заказать рекламу</button>
                     </p>
                 </div>
@@ -117,7 +117,7 @@
                         <li><?= renderSprite('check-mark') ?> Итоговый отчет</li>
                     </ul>
                     <p class="price text-center">45&nbsp;000 &#8381;</p>
-                    <p class="text-center">
+                    <p class="action text-center">
                         <button class="btn js-open-modal" data-action="openModal" data-modal="ppc">Заказать рекламу</button>
                     </p>
                 </div>
