@@ -56,6 +56,7 @@ $asset = Asset::getInstance();
     <?php $APPLICATION->ShowCSS() ?>
     <?php $APPLICATION->ShowHeadStrings() ?>
     <?php $APPLICATION->ShowHeadScripts() ?>
+    <?php $asset->addString('<link rel="canonical" href="https://' . $_SERVER['HTTP_HOST'] . $APPLICATION->GetCurPage(false) . '">'); ?>
 </head>
 <body class="<?= Helper::setBodyClass($APPLICATION) ?>">
 
