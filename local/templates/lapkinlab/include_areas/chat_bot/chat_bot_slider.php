@@ -23,7 +23,7 @@ $slides = array(
                 <?php foreach ($slides as $key => $slide): ?>
                     <div class="slide slide-<?= $key ?>">
                         <div class="slide-title">
-                            <h2><?= $slide['title'] ?></h2>
+                            <h1><?= $slide['title'] ?></h1>
                         </div>
                         <div class="slide-list">
                             <ul>
