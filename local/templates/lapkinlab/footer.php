@@ -86,7 +86,7 @@ use LapkinLab\Helper;
                             <div class="footer--nav-bottom">
                                 <div class="footer--nav-bottom--copyrights">
                                     <p>© <?= Helper::autoCopyright(SITE_CONFIG['since']) ?> Все права защищены. <a href="/">LapkinLab</a></p>
-                                    <p><a class="privacy-policy" href="/privacy-policy/">Политика в отношении обработки персональных данных</a></p>
+                                    <p><?= Helper::getPrivacyLink() ?></p>
                                 </div>
                                 <div class="footer--nav-bottom--partners">
                                     <p>

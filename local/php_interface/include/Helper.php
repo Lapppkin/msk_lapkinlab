@@ -259,6 +259,7 @@ class Helper
         return ($image) ?? $image['SRC'] ? CFile::ResizeImageGet($image['ID'], ['width' => $width, 'height' => $height], $method, true, $arFilters, false, $quality) : (($noimage) ? array('src' => SITE_TEMPLATE_PATH . '/images/noimage_preview.jpg', 'alt' => $config->site()->site_name, 'noimage' => true) : false);
     }
 
+
     /**
      * Check Internet Explorer 8 (IE8) and below user browser.
      *
@@ -270,6 +271,7 @@ class Helper
             || strpos(@$_SERVER['HTTP_USER_AGENT'], 'Trident')
         );
     }
+
 
     /**
      * Parse social link url.
@@ -308,6 +310,7 @@ class Helper
         return http_build_query(array_merge($_GET, $queries));
     }
 
+
     /**
      * Check link for external.
      *
@@ -318,6 +321,7 @@ class Helper
         preg_match('#^(http|https):\/\/msk.lapkinlab\.ru#', $link, $matches);
         return (!empty($matches) || strpos($link, '/') === 0) ? '' : 'target="_blank"';
     }
+
 
     /**
      * Parse, check and return matched Youtube link.
@@ -331,6 +335,19 @@ class Helper
             'link' => $matches[0],
             'id' => $matches[1],
         );
+    }
+
+    /**
+     * Get privacy policy link.
+     *
+     * @param string $link
+     * @param string $text
+     *
+     * @return string
+     */
+    public static function getPrivacyLink(string $link = '/privacy-policy/', string $text = 'Политика в отношении обработки персональных данных')
+    {
+        return '<!--noindex--><a class="privacy-policy" href="' . $link . '" rel="nofollow">' . $text . '</a><!--/noindex-->';
     }
 
 }
