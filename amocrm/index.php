@@ -11,6 +11,7 @@ $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 <!-- Document CSS -->
 <link rel="stylesheet" href="/amocrm/css/style.css">
 
+<h1 class="hidden" hidden>Внедрение и настройка amoCRM</h1>
 <!--  Слайдер  -->
 <section class="amocrm-top">
     <div class="amocrm-top__slider slider-top" id="top-slider">

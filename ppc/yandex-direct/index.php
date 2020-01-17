@@ -1,7 +1,7 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Контекстная реклама в Яндекс Директ - Как попасть в топ за 3 дня");
-$APPLICATION->SetPageProperty("description", "Маркетинговое агентство LapkinLab предлагает заказать настройку и ведение контекстной рекламы в Москве и других городах &#9997;Эффективный рекламный бюджет &#9997;Плата за результат");
+$APPLICATION->SetPageProperty("title", "Контекстная реклама в Яндекс.Директ - Как попасть в топ за 3 дня");
+$APPLICATION->SetPageProperty("description", "Маркетинговое агентство LapkinLab предлагает заказать настройку и ведение контекстной рекламы в Яндекс.Директ ✍️Эффективный рекламный бюджет ✍️Плата за результат");
 $APPLICATION->SetTitle("Контекстная реклама в Яндекс.Директ");
 
 $APPLICATION->AddChainItem('Контекстная реклама', '/ppc/');
