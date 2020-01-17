@@ -14,6 +14,7 @@
  */
 
 use Bitrix\Main\Security\Random;
+use LapkinLab\Helper;
 
 $tarif_name = array(
     'standard' => 'Стандартный',
@@ -63,7 +64,7 @@ $form_id = $id . '-form-' . Random::getString(32);
             <?php endforeach; ?>
         </div>
         <div class="lapkin-form--privacy">
-            <p>Нажимая на кнопку «<?= $submit_button ?>», я&nbsp;даю согласие на  <!--noindex--><a href="/privacy-policy/" rel="nofollow" target="_blank">обработку персональных данных</a><!--/noindex--></p>
+            <p>Нажимая на кнопку «<?= $submit_button ?>», я&nbsp;даю согласие на <?= Helper::getPrivacyLink('/privacy-policy/', 'обработку персональных данных') ?></p>
         </div>
         <div class="lapkin-form--actions">
             <div class="form-action">
