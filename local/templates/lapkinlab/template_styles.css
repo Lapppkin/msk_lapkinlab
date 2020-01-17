@@ -4359,6 +4359,12 @@ a.btn {
     margin-bottom: 30px;
 }
 
+#main-content .actions {
+    background-color: #f9f9f9;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
 body.index main {
     padding-top: 90px;
     padding-bottom: 90px;
@@ -7341,6 +7347,11 @@ i.lapicon-check-mark {
 .page-amo {
     padding-top: 60px;
     padding-bottom: 90px;
+}
+
+body.amocrm {
+    font-family: "Didact Gothic", sans-serif;
+    font-weight: 400;
 }
 
 .page-blog {

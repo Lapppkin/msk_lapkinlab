@@ -6,5 +6,5 @@
 }
 
 body.amocrm {
-  font-family: initial !important;
+  @include text_font;
 }

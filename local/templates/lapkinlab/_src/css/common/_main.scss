@@ -21,6 +21,14 @@
   }
 }
 
+#main-content {
+  .actions {
+    background-color: $app-color--background;
+    padding-top: $app-padding--medium;
+    padding-bottom: $app-padding--medium;
+  }
+}
+
 body.index {
   main {
     padding-top: $app-padding--large;
