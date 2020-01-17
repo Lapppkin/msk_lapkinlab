@@ -122,7 +122,7 @@ class Form
      *
      * @return bool|void
      */
-    public function sendEmail($to = array())
+    public function sendEmail($to = array(SITE_CONFIG['email']))
     {
         if (count($to) === 0) return;
 
@@ -144,22 +144,23 @@ HEADERS;
     <body>
         <p>Заявка с сайта «msk.lapkinlab.ru»</p>
         <p>Форма: {$this->form_id}</p>
-        <br>
-        <p>Имя: {$this->name}</p>
-        <p>Почта: {$this->email}</p>
-        <p>Телефон: {$this->phone}</p>
-        <p>Сайт: {$this->site}</p>
-        <p>Сообщение: {$this->message}</p>
-        <p>Тариф: {$this->tarif}</p>
-        <p>Тип сайта: {$this->site_type}</p>
-        <br>
-        <p>Страница отправки: {$this->url}</p>
-        <p>IP отправки: {$this->ip}</p>
-        <p>Заявка от {$this->datetime} ({$this->name})</p>
+        <p>Имя: {$this->name}<br>
+            Почта: {$this->email}<br>
+            Телефон: {$this->phone}<br>
+            Сайт: {$this->site}<br>
+            Сообщение: {$this->message}<br>
+        </p>
+        <p>Тариф: {$this->tarif}<br>
+            Тип сайта: {$this->site_type}
+        </p>
+        <p>Страница отправки: {$this->url}<br>
+            IP отправки: {$this->ip}<br>
+            Заявка от {$this->datetime} ({$this->name})
+        </p>
     </body>
 </html>
 BODY;
-        return mail($to, $subject, $message, $headers);
+        return bxmail($to, $subject, $message, $headers);
     }
 
     /**

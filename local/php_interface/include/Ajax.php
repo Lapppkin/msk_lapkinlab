@@ -96,9 +96,8 @@ class Ajax
             return self::setResponse($response, 200);
         }
 
-        $to = array(
-            SITE_CONFIG['send_to']
-        );
+        $to = array_merge(array(SITE_CONFIG['email']), SITE_CONFIG['send_to']);
+
         $form->createIBlockElement();
         $mail = $form->sendEmail($to);
         $amo = $form->createAmoLead();
