@@ -54,3 +54,20 @@
         });
     });
 </script>
+
+<!-- Marquiz script start -->
+<script src="//script.marquiz.ru/v1.js"></script>
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        Marquiz.init({
+            id: '5dfb57fa6ae42400447a6bc6',
+            autoOpen: false,
+            autoOpenFreq: 'always',
+            openOnExit: true
+        });
+    });
+</script>
+<!-- Marquiz script end -->
+
+<div class="marquiz-pops marquiz-pops_position_bottom-left marquiz-pops_rounded marquiz-pops_shadowed marquiz-pops_blicked marquiz-pops_position" ><a class="marquiz-pops__body" href="#popup:marquiz_5ca62b76c65e5c004473ab22" data-marquiz-pop-text-color="#32324a" data-marquiz-pop-background-color="#3afad5" data-marquiz-pop-svg-color="#32324a" data-marquiz-pop-close-color="#fff" data-marquiz-pop-color-pulse="rgba(58, 250, 213, 0.4)" data-marquiz-pop-color-pulse-alpha="rgba(58, 250, 213, 0)" data-marquiz-pop-bonuses="0" data-marquiz-pop-delay="10s" data-marquiz-pop="true"><span class="marquiz-pops__icon"></span><span class="marquiz-pops__content"><span class="marquiz-pops__content-title">Узнать стоимость</span><span class="marquiz-pops__content-text">&laquo;SEO продвижения&raquo;</span></span><span class="marquiz-pops__bonus">Ваша скидка: 5 000 ₽</span></a></div>
+
