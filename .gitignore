@@ -16,12 +16,6 @@ Thumbs.db
 !/bitrix/components/
 !/bitrix/php_interface/
 
-# игнорируем все модули
-/bitrix/modules/*
-# исключаем из игнора необходимые для нас модули
-!/bitrix/modules/highloadblock/
-!/bitrix/modules/iblock/
-
 # в php_interface игнорим файлы, связанные с БД
 /bitrix/php_interface/dbconn.php
 /bitrix/php_interface/after_connect_d7.php
