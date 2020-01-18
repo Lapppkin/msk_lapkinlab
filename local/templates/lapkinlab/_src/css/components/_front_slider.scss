@@ -15,6 +15,7 @@
     margin-bottom: 0;
     padding-bottom: $app-padding--medium;
   }
+  h1,
   h2 {
     color: $app-color--white;
     @include head_font;

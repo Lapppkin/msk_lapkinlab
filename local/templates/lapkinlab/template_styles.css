@@ -5460,6 +5460,10 @@ i.lapicon-check-mark {
     max-height: 650px;
 }
 
+.slider h1,
+.page-sites .sites-slider h1,
+.page-ppc .ppc-slider h1,
+.page-chat-bot .chat-bot-slider h1,
 .slider h2,
 .page-sites .sites-slider h2,
 .page-ppc .ppc-slider h2,
@@ -16331,7 +16335,11 @@ Build date: 2018-12-11 23:23:51
         flex-basis: 100%;
     }
 
-    .slider h2,
+    .slider h1,
+  .page-sites .sites-slider h1,
+  .page-ppc .ppc-slider h1,
+  .page-chat-bot .chat-bot-slider h1,
+  .slider h2,
   .page-sites .sites-slider h2,
   .page-ppc .ppc-slider h2,
   .page-chat-bot .chat-bot-slider h2 {
@@ -17050,7 +17058,11 @@ Build date: 2018-12-11 23:23:51
         padding-bottom: 60px;
     }
 
-    .slider h2,
+    .slider h1,
+  .page-sites .sites-slider h1,
+  .page-ppc .ppc-slider h1,
+  .page-chat-bot .chat-bot-slider h1,
+  .slider h2,
   .page-sites .sites-slider h2,
   .page-ppc .ppc-slider h2,
   .page-chat-bot .chat-bot-slider h2 {
