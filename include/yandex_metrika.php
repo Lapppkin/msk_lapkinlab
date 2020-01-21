@@ -79,6 +79,10 @@
                 el: '.slider .js-send-form',
                 name: 'razrabotka'
             },
+            calculator: {
+                el: '.calculator-form--form .js-send-form',
+                name: 'razrash'
+            },
         },
         chat_bot: {},
         amocrm: {},
