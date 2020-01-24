@@ -16,6 +16,14 @@ class Core
     private function __clone() {}
 
     /**
+     * Breadcrumb set title.
+     */
+    public static function breadcrumbSetTitle() {
+        global $APPLICATION;
+        $APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
+    }
+
+    /**
      * @param $content
      */
     public static function deleteKernelJs (&$content) {

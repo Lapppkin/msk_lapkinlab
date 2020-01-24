@@ -6,7 +6,6 @@ $APPLICATION->SetPageProperty("description", "Список работ при с�
 $APPLICATION->SetTitle("Чек-лист внедрения amoCRM");
 
 $APPLICATION->AddChainItem('amoCRM', '/amocrm/');
-$APPLICATION->AddChainItem('Бриф на внедрение amoCRM', $APPLICATION->GetCurDir());
 ?>
 <link rel="stylesheet" href="css/amo_style.css">
 

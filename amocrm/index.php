@@ -5,7 +5,6 @@ use Bitrix\Main\Page\Asset;
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("amoCRM");
 
-$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 ?>
 
 <!-- Document CSS -->

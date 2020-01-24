@@ -2,8 +2,6 @@
 $APPLICATION->SetPageProperty("title", "Разработка чат-ботов в Москве: цена разработки");
 $APPLICATION->SetPageProperty("description", "Доступная стоимость разработки чат-ботов для бизнеса в Москве в LabkinLab. Звоните!");
 $APPLICATION->SetTitle("Разработка и внедрение чат-ботов - LapkinLAb");
-
-$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 ?>
 <div class="page page-chat-bot">
 

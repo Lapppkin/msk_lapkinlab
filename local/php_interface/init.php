@@ -39,15 +39,10 @@ function renderSprite(string $name, string $class = '') {
 
 ### EVENT HANDLERS ###
 
+EventManager::getInstance()->addEventHandlerCompatible('main', 'OnEpilog', array(Core::class, 'breadcrumbSetTitle'));
+EventManager::getInstance()->addEventHandlerCompatible('main', 'OnEpilog', array(Core::class, 'сheck404Error'), 1);
+
 EventManager::getInstance()->addEventHandlerCompatible('main', 'OnEndBufferContent', array(Core::class, 'deleteKernelCss')); // Убрать css
 EventManager::getInstance()->addEventHandlerCompatible('main', 'OnEndBufferContent', array(Core::class, 'minifyHtml')); // Сжать html
 //EventManager::getInstance()->addEventHandlerCompatible('main', 'onEndBufferContent', array(Core::class, 'deleteKernelJs')); // Убрать js
 
-EventManager::getInstance()->addEventHandlerCompatible(
-    'main',
-    'OnEpilog',
-    array(
-        Core::class, 'сheck404Error'
-    ),
-    1
-);

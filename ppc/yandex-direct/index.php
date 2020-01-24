@@ -5,7 +5,6 @@ $APPLICATION->SetPageProperty("description", "Маркетинговое аге�
 $APPLICATION->SetTitle("Контекстная реклама в Яндекс.Директ");
 
 $APPLICATION->AddChainItem('Контекстная реклама', '/ppc/');
-$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 ?>
 <div class="page page-ppc page-ppc-yandex-direct">
 

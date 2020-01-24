@@ -3,7 +3,6 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetTitle("О продукте - amoCRM");
 
 $APPLICATION->AddChainItem('amoCRM', '/amocrm/');
-$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 ?>
 
 <link rel="stylesheet" href="/amocrm/o-produkte/styles.css">

@@ -3,8 +3,6 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetPageProperty("title", "SMM продвижение в Москве: СММ раскрутка в социальных сетях Инстаграм, Вконтакте, Фейсбук");
 $APPLICATION->SetPageProperty("description", "Продвижение сайтов в социальных сетях от агентства LapkinLab &#9997;SMM раскрутка в Instagram, Вконтакте, Facebook &#9997;Настройка таргетированной рекламы");
 $APPLICATION->SetTitle("SMM продвижение в Москве: СММ раскрутка в социальных сетях Инстаграм, Вконтакте, Фейсбук");
-
-$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 ?>
 
 <div class="page page-smm">

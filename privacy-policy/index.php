@@ -2,8 +2,6 @@
 $APPLICATION->SetPageProperty('title', 'Политика конфиденциальности');
 $APPLICATION->SetPageProperty('description', 'Политика конфиденциальности');
 $APPLICATION->SetTitle('Политика конфиденциальности');
-
-$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 ?>
 
 <section class="page page-privacy">

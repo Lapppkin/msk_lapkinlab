@@ -3,8 +3,6 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("title", "SEO-аудит сайта | Заказать поисковый аудит сайта в Москве");
 $APPLICATION->SetPageProperty("description", "Профессиональный SEO аудит сайта - цены от 10 000 рублей &#8730; срок от 2 рабочий дней &#8730;. Заказать проведение комплексного поискового СЕО аудита веб-сайта для продвижения в Москве и всей России");
 $APPLICATION->SetTitle("SEO-аудит сайта");
-
-$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 ?>
 
 <section class="page page-seo">

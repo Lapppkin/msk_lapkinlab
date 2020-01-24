@@ -3,8 +3,6 @@ require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetPageProperty("title", "Заказать настройку контекстной рекламы под ключ в Москве: стоимость настройки и ведения рекламы");
 $APPLICATION->SetPageProperty("description", "Маркетинговое агентство LapkinLab предлагает заказать настройку и ведение контекстной рекламы в Москве и других городах &#9997;Эффективный рекламный бюджет &#9997;Плата за результат");
 $APPLICATION->SetTitle("Заказать контекстную рекламу в агентстве: стоимость настройки и ведения рекламы в Москве");
-
-$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 ?>
 <div class="page page-ppc">
 

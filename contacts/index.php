@@ -6,8 +6,6 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("title", "Контакты маркетингового агентства LapkinLAb в Москве");
 $APPLICATION->SetPageProperty("description", "Маркетинговое агентство LapkinLAb располагается по адресу: г. Москва, 2-й Котляковский пер., д. 18 &#9742; 8(800) 301-00-19 &#9993; mail@lapkinlab.ru");
 $APPLICATION->SetTitle("Контакты маркетингового агентства LapkinLAb в Москве");
-
-$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 ?>
 
 <section class="page page-contacts">

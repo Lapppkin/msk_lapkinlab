@@ -46,7 +46,7 @@ $APPLICATION->IncludeComponent(
 		"SET_LAST_MODIFIED" => "Y",
 		"INCLUDE_IBLOCK_INTO_CHAIN" => "Y",
 		"ADD_SECTIONS_CHAIN" => "Y",
-		"ADD_ELEMENT_CHAIN" => "Y",
+		"ADD_ELEMENT_CHAIN" => "N",
 		"ACTIVE_DATE_FORMAT" => "d.m.Y",
 		"USE_PERMISSIONS" => "N",
 		"GROUP_PERMISSIONS" => array(

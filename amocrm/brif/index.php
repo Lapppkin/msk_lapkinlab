@@ -4,7 +4,6 @@ $APPLICATION->SetPageProperty("title", "Опросный лист на внед�
 $APPLICATION->SetTitle("Заполните Бриф");
 
 $APPLICATION->AddChainItem('amoCRM', '/amocrm/');
-$APPLICATION->AddChainItem('Бриф на внедрение amoCRM', $APPLICATION->GetCurDir());
 ?>
 <section class="page page-amo">
     <div class="container">

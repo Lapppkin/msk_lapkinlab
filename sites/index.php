@@ -3,14 +3,13 @@ require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
 $APPLICATION->SetPageProperty("title", "Разработка и создание сайтов под ключ: цены в Москве, калькулятор стоимости");
 $APPLICATION->SetPageProperty("description", "Рассчитать стоимость создания сайтов от компании LapkinLab &#9997;Разработка интернет-магазинов, лендингов, корпоративных сайтов под ключ &#9997;Цены в Москве");
 $APPLICATION->SetTitle("Разработка и создание сайтов под ключ: цены в Москве, калькулятор стоимости");
-
-$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 ?>
 
 <div class="page page-sites">
     <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/sites/sites_slider.php', array(), array('SHOW_BORDER' => true)) ?>
     <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/sites/sites_prices.php', array(), array('SHOW_BORDER' => true)) ?>
     <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/sites/sites_include.php', array(), array('SHOW_BORDER' => true)) ?>
+    <?php //$APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_portfolio.php', array(), array('SHOW_BORDER' => true)) ?>
     <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/sites/sites_opacity.php', array(), array('SHOW_BORDER' => true)) ?>
     <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/sites/sites_cms.php', array(), array('SHOW_BORDER' => true)) ?>
     <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/sites/sites_analytics.php', array(), array('SHOW_BORDER' => true)) ?>

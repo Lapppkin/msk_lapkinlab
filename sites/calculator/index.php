@@ -5,7 +5,6 @@ $APPLICATION->SetPageProperty("description", "Сколько стоит разр
 $APPLICATION->SetTitle("Калькулятор стоимости сайта");
 
 $APPLICATION->AddChainItem('Разработка сайтов', '/sites/');
-$APPLICATION->AddChainItem($APPLICATION->GetTitle(), $APPLICATION->GetCurDir());
 ?>
 
 <div class="page page-sites">
