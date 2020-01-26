@@ -9,7 +9,7 @@ $APPLICATION->SetTitle("Разработка и создание сайтов п
     <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/sites/sites_slider.php', array(), array('SHOW_BORDER' => true)) ?>
     <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/sites/sites_prices.php', array(), array('SHOW_BORDER' => true)) ?>
     <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/sites/sites_include.php', array(), array('SHOW_BORDER' => true)) ?>
-    <?php //$APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_portfolio.php', array(), array('SHOW_BORDER' => true)) ?>
+    <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_portfolio.php', array(), array('SHOW_BORDER' => true)) ?>
     <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/sites/sites_opacity.php', array(), array('SHOW_BORDER' => true)) ?>
     <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/sites/sites_cms.php', array(), array('SHOW_BORDER' => true)) ?>
     <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/sites/sites_analytics.php', array(), array('SHOW_BORDER' => true)) ?>
