@@ -7,6 +7,9 @@
   display: inline-block;
   &-item {
     display: inline;
+    a {
+      display: inline-block;
+    }
   }
   &--wrapper {
     background-color: $app-color--background;
@@ -141,6 +144,10 @@
 .error-404 {
   padding-top: $app-padding--large;
   padding-bottom: $app-padding--large;
+  .page-title {
+    font-size: 80px;
+    @include head_font;
+  }
 }
 
 i.lapicon-check-mark {
