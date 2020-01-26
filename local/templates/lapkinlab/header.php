@@ -105,15 +105,17 @@ $asset = Asset::getInstance();
         <main id="main-content">
 
             <?php if ($APPLICATION->GetCurDir() !== '/'): ?>
+                <?php if (!(defined('ERROR_404') && ERROR_404 === 'Y')): ?>
                 <?php
-                $APPLICATION->AddChainItem('Главная', '/');
-                $APPLICATION->IncludeComponent("bitrix:breadcrumb",
-                    "lapkinlab",
-                    array(
-                        "START_FROM" => "1",
-                        "PATH" => "/seo/",
-                        "SITE_ID" => SITE_ID
-                    )
-                ); ?>
+                    $APPLICATION->AddChainItem('Главная', '/');
+                    $APPLICATION->IncludeComponent("bitrix:breadcrumb",
+                        "lapkinlab",
+                        array(
+                            "START_FROM" => "1",
+                            "PATH" => "/seo/",
+                            "SITE_ID" => SITE_ID
+                        )
+                    ); ?>
+                <?php endif; ?>
             <?php endif; ?>
 
