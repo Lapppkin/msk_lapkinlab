@@ -1,7 +1,6 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
-$APPLICATION->SetPageProperty("description", "Заказать SEO продвижение сайтов в Москве. Цены на раскрутку и поисковую оптимизацию в Яндексе и Google. Быстрый топ 3, топ-10.");
-$APPLICATION->SetPageProperty("title", "Продвижение сайтов в Москве - SEO (СЕО) раскрутка в ТОП 10 Яндекс и Google (Гугл)");
+$APPLICATION->SetPageProperty("title", "Заказать продвижение сайтов в Москве - SEO (СЕО) раскрутка в ТОП 10 Яндекс и Google (Гугл)");
 $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сайта под поисковые системы: цена продвижения");
 ?>
