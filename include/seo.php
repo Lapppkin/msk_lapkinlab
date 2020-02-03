@@ -7,16 +7,6 @@
     gtag('config', 'UA-71801643-15');
 </script>
 
-<!-- Roistat -->
-<script>
-    (function(w, d, s, h, id) {
-        w.roistatProjectId = id; w.roistatHost = h;
-        var p = d.location.protocol == "https:" ? "https://" : "http://";
-        var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init";
-        var js = d.createElement(s); js.charset="UTF-8"; js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
-    })(window, document, 'script', 'cloud.roistat.com', 'e15a222f8520098c4edb39b3c778f3d0');
-</script>
-
 <?php/*
 <!-- Bitrix 24 -->
 <script>
@@ -26,8 +16,6 @@
     })(window,document,'https://cdn.bitrix24.ru/b8927137/crm/site_button/loader_2_dt8ie7.js');
 </script>
 */?>
-
-<script async src="//cdn.callbackhunter.com/cbh.js?hunter_code=d2a52b897791ef4220f5e04952280447" charset="UTF-8"></script>
 
 <!-- Facebook Pixel Code -->
 <script>
@@ -55,19 +43,41 @@
     });
 </script>
 
-<!-- Marquiz script start -->
-<script src="//script.marquiz.ru/v1.js"></script>
+<!-- Roistat -->
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    (function(w, d, s, h, id) {
+        w.roistatProjectId = id; w.roistatHost = h;
+        var p = d.location.protocol == "https:" ? "https://" : "http://";
+        var u = /^.*roistat_visit=[^;]+(.*)?$/.test(d.cookie) ? "/dist/module.js" : "/api/site/1.0/"+id+"/init";
+        var js = d.createElement(s); js.charset="UTF-8"; js.async = 1; js.src = p+h+u; var js2 = d.getElementsByTagName(s)[0]; js2.parentNode.insertBefore(js, js2);
+    })(window, document, 'script', 'cloud.roistat.com', 'e15a222f8520098c4edb39b3c778f3d0');
+</script>
+
+<!-- Marquiz script start -->
+
+<script>
+    function loadMarquiz() {
+        var marquizScript = document.createElement('script');
+        marquizScript.src = '//script.marquiz.ru/v1.js';
+        document.body.appendChild(marquizScript);
+    }
+    function initMarquiz() {
+        var marquizDiv = document.createElement('div');
+        marquizDiv.classList.add('marquiz-pops', 'marquiz-pops_position_bottom-left', 'marquiz-pops_rounded', 'marquiz-pops_shadowed', 'marquiz-pops_blicked', 'marquiz-pops_position');
+        marquizDiv.innerHTML = '<a class="marquiz-pops__body" href="#popup:marquiz_5ca62b76c65e5c004473ab22" data-marquiz-pop-text-color="#32324a" data-marquiz-pop-background-color="#3afad5" data-marquiz-pop-svg-color="#32324a" data-marquiz-pop-close-color="#fff" data-marquiz-pop-color-pulse="rgba(58, 250, 213, 0.4)" data-marquiz-pop-color-pulse-alpha="rgba(58, 250, 213, 0)" data-marquiz-pop-bonuses="0" data-marquiz-pop-delay="10s" data-marquiz-pop="true"><span class="marquiz-pops__icon"></span><span class="marquiz-pops__content"><span class="marquiz-pops__content-title">Узнать стоимость</span><span class="marquiz-pops__content-text">&laquo;SEO продвижения&raquo;</span></span><span class="marquiz-pops__bonus">Ваша скидка: 5 000 ₽</span></a>';
+        document.body.append(marquizDiv);
         Marquiz.init({
             id: '5dfb57fa6ae42400447a6bc6',
             autoOpen: false,
             autoOpenFreq: 'always',
             openOnExit: true
         });
-    });
+    }
+    window.onload = function () {
+        setTimeout(loadMarquiz, 5000);
+        setTimeout(initMarquiz, 6000);
+    };
 </script>
 <!-- Marquiz script end -->
 
-<div class="marquiz-pops marquiz-pops_position_bottom-left marquiz-pops_rounded marquiz-pops_shadowed marquiz-pops_blicked marquiz-pops_position" ><a class="marquiz-pops__body" href="#popup:marquiz_5ca62b76c65e5c004473ab22" data-marquiz-pop-text-color="#32324a" data-marquiz-pop-background-color="#3afad5" data-marquiz-pop-svg-color="#32324a" data-marquiz-pop-close-color="#fff" data-marquiz-pop-color-pulse="rgba(58, 250, 213, 0.4)" data-marquiz-pop-color-pulse-alpha="rgba(58, 250, 213, 0)" data-marquiz-pop-bonuses="0" data-marquiz-pop-delay="10s" data-marquiz-pop="true"><span class="marquiz-pops__icon"></span><span class="marquiz-pops__content"><span class="marquiz-pops__content-title">Узнать стоимость</span><span class="marquiz-pops__content-text">&laquo;SEO продвижения&raquo;</span></span><span class="marquiz-pops__bonus">Ваша скидка: 5 000 ₽</span></a></div>
-
+<script async src="//cdn.callbackhunter.com/cbh.js?hunter_code=d2a52b897791ef4220f5e04952280447" charset="UTF-8"></script>
