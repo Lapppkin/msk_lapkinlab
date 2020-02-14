@@ -5,12 +5,13 @@ use Bitrix\Main\EventManager;
 use Bitrix\Main\Config\Configuration;
 use LapkinLab\Core;
 use LapkinLab\Helper;
+use LapkinLab\View;
 
 
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('ERROR_500', '500 Internal Server Error');
 define('INCLUDE_DIR', ROOT . '/include/');
-define('VIEWS_PATH', '/include/views/');
+define('VIEWS_DIR', '/include/views/');
 
 define('SITE_CONFIG', Configuration::getInstance()->get('site'));
 define('AMO_CONFIG', Configuration::getInstance()->get('amo'));
@@ -35,6 +36,10 @@ function renderIcon(string $name, string $class = '') {
 
 function renderSprite(string $name, string $class = '') {
     return Helper::renderSprite($name, $class);
+}
+
+function view($name, $params = array(), $print = true) {
+    return (new View(VIEWS_DIR))->render($name, $params, $print);
 }
 
 ### EVENT HANDLERS ###

@@ -4,7 +4,7 @@
 namespace LapkinLab;
 
 
-trait Lapkin
+trait Response
 {
 
     /**

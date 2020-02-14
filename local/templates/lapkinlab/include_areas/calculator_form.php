@@ -46,7 +46,7 @@ $form_id = $id . '-form-' . Random::getString(32);
                         'required' => in_array($field_id, $required, true),
                         'hidden' => in_array($field_id, $hidden, true),
                     );
-                    $APPLICATION->IncludeFile(VIEWS_PATH . 'fields/' . $field_id . '.php', $field_params);
+                    $APPLICATION->IncludeFile(VIEWS_DIR . 'fields/' . $field_id . '.php', $field_params);
                 } else {
                     $field_params = array(
                         'id' => $id,
@@ -58,7 +58,7 @@ $form_id = $id . '-form-' . Random::getString(32);
                     if ($field['type'] === 'select' && !empty($field['options'])) {
                         $field_params['options'] = $field['options'];
                     }
-                    $APPLICATION->IncludeFile(VIEWS_PATH . 'fields/calculator_' . $field['type'] . '.php', $field_params);
+                    $APPLICATION->IncludeFile(VIEWS_DIR . 'fields/calculator_' . $field['type'] . '.php', $field_params);
                 } ?>
             <?php endforeach; ?>
         </div>

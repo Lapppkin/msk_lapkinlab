@@ -13,7 +13,7 @@ use Bitrix\Main\Application;
  */
 class Ajax
 {
-    use Lapkin;
+    use Response;
 
     protected $request;
     protected $views_dir;
@@ -28,7 +28,7 @@ class Ajax
         $context = $application->getContext();
         $this->request = $context->getRequest();
 
-        $this->views_dir = ROOT . VIEWS_PATH;
+        $this->views_dir = ROOT . VIEWS_DIR;
     }
 
     /**
@@ -73,8 +73,7 @@ class Ajax
     public static function openModal($params)
     {
         //$result = self::initResponse(__FUNCTION__);
-        $ajax = new self();
-        return $ajax->view('modals/' . $params['modalId'], array('id' => $params['modalId'], 'tarif' => $params['tarif'], 'site_type' => $params['siteType']));
+        return view('modals/' . $params['modalId'], array('id' => $params['modalId'], 'tarif' => $params['tarif'], 'site_type' => $params['siteType']));
     }
 
     /**

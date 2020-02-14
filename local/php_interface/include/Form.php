@@ -14,7 +14,7 @@ use LapkinLab\CyrillicUrlValidationRule as vCyrUrl;
  */
 class Form
 {
-    use Lapkin;
+    use Response;
 
     private const IBLOCK = 2;
 
@@ -59,7 +59,7 @@ class Form
         $context = $application->getContext();
 
         $this->request = $context->getRequest();
-        $this->views_dir = ROOT . VIEWS_PATH;
+        $this->views_dir = ROOT . VIEWS_DIR;
 
         $this->required = explode(',', base64_decode($this->request->get('required')));
 
