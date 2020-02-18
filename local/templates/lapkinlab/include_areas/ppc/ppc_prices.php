@@ -10,7 +10,7 @@
                     <ul>
                         <li><?= renderSprite('minus') ?> Аудит сайта\лендинга</li>
                         <li><?= renderSprite('check-mark') ?> Настройка рекламных кампаний в Яндекс.Директ</li>
-                        <li><?= renderSprite('check-mark') ?>nbsp; Создание поисковых рекламных кампаний в Яндекс.Директ</li>
+                        <li><?= renderSprite('check-mark') ?> Создание поисковых рекламных кампаний в Яндекс.Директ</li>
                         <li><?= renderSprite('check-mark') ?> Создание рекламных кампаний в РСЯ</li>
                         <li><?= renderSprite('check-mark') ?> Создание Графических рекламных кампаний в РСЯ</li>
                         <li><?= renderSprite('check-mark') ?> Создание Ретаргетинговых рекламных кампаний в Яндекс.Директ</li>
