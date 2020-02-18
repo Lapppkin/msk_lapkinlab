@@ -15,20 +15,20 @@ class View
     use Response;
 
     protected $request;
-    protected $views_dir;
+    protected $dir;
 
     /**
      * Ajax constructor.
      *
-     * @param $views_dir
+     * @param $dir
      *
      * @throws \Bitrix\Main\SystemException
      */
-    public function __construct($views_dir) {
+    public function __construct($dir) {
         $application = Application::getInstance();
         $context = $application->getContext();
         $this->request = $context->getRequest();
-        $this->views_dir = ROOT . $views_dir;
+        $this->dir = ROOT . $dir;
     }
 
     /**
@@ -43,7 +43,7 @@ class View
     public function render($name, $params = array(), $print = true)
     {
         // Проброс экземпляра приложения во view
-        $filePath = $this->views_dir . $name . '.php';
+        $filePath = $this->dir . $name . '.php';
         $output = null;
         if (file_exists($filePath)) {
             extract($params, EXTR_OVERWRITE); // Извлекаем переменные в локальный неймспейс

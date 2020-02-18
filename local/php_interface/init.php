@@ -10,8 +10,7 @@ use LapkinLab\View;
 
 define('ROOT', $_SERVER['DOCUMENT_ROOT']);
 define('ERROR_500', '500 Internal Server Error');
-define('INCLUDE_DIR', ROOT . '/include/');
-define('VIEWS_DIR', '/include/views/');
+define('VIEWS_DIR', '/local/php_interface/views/');
 
 define('SITE_CONFIG', Configuration::getInstance()->get('site'));
 define('AMO_CONFIG', Configuration::getInstance()->get('amo'));
