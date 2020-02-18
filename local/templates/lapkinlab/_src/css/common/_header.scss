@@ -102,6 +102,25 @@
       }
     }
 
+    &-logo {
+      display: none;
+      @media (max-width: $grid-breakpoints--xxl) {
+        display: flex;
+        margin-right: $app-padding--base;
+      }
+      @media (max-width: map_get($grid-breakpoints, md)) {
+        margin-right: $app-padding--small;
+      }
+      a {
+        img {
+          max-height: 55px;
+          @media (max-width: map_get($grid-breakpoints, md)) {
+            max-width: 130px;
+          }
+        }
+      }
+    }
+
     // Header Location
     &-location {
       @media (max-width: map_get($grid-breakpoints, xl)) {
@@ -119,7 +138,7 @@
           margin-right: 8px;
         }
         span.label {
-          @media (max-width: map_get($grid-breakpoints, sm)) {
+          @media (max-width: $grid-breakpoints--xxl) {
             display: none;
           }
         }
@@ -190,6 +209,10 @@
       a {
         color: $app-color--white;
         text-decoration: none !important;
+        @media (max-width: $grid-breakpoints--xxl) {
+          padding-right: 15px;
+          padding-left: 15px;
+        }
         @media (max-width: map_get($grid-breakpoints, xl)) {
           width: 100%;
         }
@@ -232,6 +255,10 @@
     @media (max-width: map_get($grid-breakpoints, xl)) {
       margin-top: $app-navigation-height * 2;
     }
+    @media (max-width: map_get($grid-breakpoints, lg)) {
+      padding-top: 0;
+      padding-bottom: 0;
+    }
     @media (max-width: map_get($grid-breakpoints, md)) {
       margin-top: $app-navigation-height;
     }
@@ -251,6 +278,9 @@
       display: flex;
       align-items: center;
       margin-right: 60px;
+      @media (max-width: $grid-breakpoints--xxl) {
+        display: none;
+      }
       @media (max-width: map_get($grid-breakpoints, lg)) {
         flex-basis: 300px;
         margin-right: 20px;
@@ -300,7 +330,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      @media (max-width: map_get($grid-breakpoints, md)) {
+      @media (max-width: map_get($grid-breakpoints, lg)) {
         display: none;
       }
       // Header Menu First Level
@@ -313,10 +343,7 @@
         padding: 0;
         list-style: none;
         flex-wrap: wrap;
-        @media (max-width: map_get($grid-breakpoints, xxl)) {
-          justify-content: flex-start;
-        }
-        @media (max-width: map_get($grid-breakpoints, xl)) {
+        @media (max-width: $grid-breakpoints--xxl) {
           justify-content: center;
         }
         li {
@@ -350,18 +377,13 @@
             height: 100%;
             color: $app-color--black;
             line-height: 2.5;
-            @media (max-width: map_get($grid-breakpoints, lg)) {
-              line-height: 2;
-              padding-right: 0;
-              padding-left: 30px;
-            }
             @media (max-width: map_get($grid-breakpoints, xl)) {
-              line-height: 1.6;
-              padding-right: 30px;
-              padding-left: 30px;
+              line-height: 2;
+              padding-right: 20px;
+              padding-left: 20px;
             }
-            @media (max-width: map_get($grid-breakpoints, sm)) {
-              line-height: 1.8;
+            @media (max-width: map_get($grid-breakpoints, lg)) {
+              line-height: 1.6;
               padding-right: 15px;
               padding-left: 15px;
             }
@@ -388,7 +410,7 @@
       display: none;
       margin-left: $app-padding--base;
       cursor: pointer;
-      @media (max-width: map_get($grid-breakpoints, md)) {
+      @media (max-width: map_get($grid-breakpoints, lg)) {
         display: flex;
       }
     }

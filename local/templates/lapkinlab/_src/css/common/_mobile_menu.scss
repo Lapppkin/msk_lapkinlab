@@ -18,7 +18,7 @@
   &.active {
     right: 0;
   }
-  @media (min-width: map_get($grid-breakpoints, md)) {
+  @media (min-width: map_get($grid-breakpoints, lg)) {
     display: none;
   }
   .close {

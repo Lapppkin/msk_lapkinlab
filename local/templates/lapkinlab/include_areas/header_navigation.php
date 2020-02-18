@@ -3,7 +3,9 @@
     <div class="container">
         <div class="row">
             <div class="header--nav-wrapper col-12">
-                <div class="header--nav-logo"><a href="/"><img src="<?= SITE_TEMPLATE_PATH ?>/images/logo.png" alt="LapkinLab"><span class="about">профессиональное поисковое продвижение, создание сайтов и реклама</span></a></div>
+                <div class="header--nav-logo">
+                    <a href="/"><img src="<?= SITE_TEMPLATE_PATH ?>/images/logo.png" alt="LapkinLab"><span class="about">профессиональное поисковое продвижение, создание сайтов и реклама</span></a>
+                </div>
                 <div class="header--nav-menu">
                     <!--main menu-->
                     <? $APPLICATION->IncludeComponent(

@@ -14,6 +14,9 @@ use LapkinLab\Helper;
     <div class="container">
         <div class="row">
             <div class="header--top-wrapper col-12">
+                <div class="header--top-logo">
+                    <a href="/"><img src="<?= SITE_TEMPLATE_PATH ?>/images/logo.png" alt="LapkinLab"></a>
+                </div>
                 <div class="header--top-location">
                     <div class="header--top-location--current">
                         <?= renderSprite('location') ?><span class="label">Ваш город:</span> <span class="city">Москва</span>
