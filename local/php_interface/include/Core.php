@@ -99,27 +99,23 @@ class Core
     public static function getBriefLink () {
         $uri = \rtrim(\parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH), '/');
         $briefTypeLinkMap = [
-            'seo'     => 'https://docs.google.com/forms/d/e/1FAIpQLSf-7bjpKRs7o52pYjR4kdHpt50zTMYsfkUFwDpieJT-0OCj7g/viewform',
-            'dev'     => 'https://docs.google.com/forms/d/e/1FAIpQLSfJdbhwnd0miOtpYpRLAql5bCsU4b5_VSk8R8lKEkRpvLMkdQ/viewform',
-            'context' => 'https://docs.google.com/forms/d/e/1FAIpQLSdC5EtZkU86l1V2pIsEAXUigf6ZH_98BTB823rmgW7d0M_lmQ/viewform',
-            'smm'     => 'https://docs.google.com/forms/d/e/1FAIpQLScUUOxtYtc1F1xWTCjo4HpIY4TlQ8CEnfHkhET_K0teL5xCig/viewform',
-            'amo'     => 'https://docs.google.com/forms/d/e/1FAIpQLSfTqL6tOA92Y3SRrYWDoJ7wWNHEr-DFMXv6YWUgaY6DhBRmkw/viewform',
+            'seo'     => '1FAIpQLSf-7bjpKRs7o52pYjR4kdHpt50zTMYsfkUFwDpieJT-0OCj7g',
+            'dev'     => '1FAIpQLSfJdbhwnd0miOtpYpRLAql5bCsU4b5_VSk8R8lKEkRpvLMkdQ',
+            'context' => '1FAIpQLSdC5EtZkU86l1V2pIsEAXUigf6ZH_98BTB823rmgW7d0M_lmQ',
+            'smm'     => '1FAIpQLScUUOxtYtc1F1xWTCjo4HpIY4TlQ8CEnfHkhET_K0teL5xCig',
+            'amo'     => '1FAIpQLSfTqL6tOA92Y3SRrYWDoJ7wWNHEr-DFMXv6YWUgaY6DhBRmkw',
         ];
         $briefPageTypeMap = [
-            '/' => 'seo',
             '/seo' => 'seo',
             '/sites' => 'dev',
             '/chat-bot' => 'dev',
             '/ppc' => 'context',
             '/amocrm' => 'amo',
-            '/amocrm/o-produkte' => 'amo',
-            '/amocrm/brif' => 'amo',
-            '/amocrm/checklist'  => 'amo',
         ];
-        $brief = $briefTypeLinkMap['seo'];
+        $brief = 'https://docs.google.com/forms/d/e/' . $briefTypeLinkMap['seo'] . '/viewform';
         foreach ($briefPageTypeMap as $path => $type) {
-            if ($uri === \rtrim($path, '/')) {
-                $brief = $briefTypeLinkMap[$type];
+            if (strpos($path, $uri) === 0) {
+                $brief = 'https://docs.google.com/forms/d/e/' . $briefTypeLinkMap[$type] . '/viewform';
                 break;
             }
         }
