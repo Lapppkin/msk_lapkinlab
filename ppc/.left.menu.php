@@ -1,17 +1,18 @@
-<?php
-$aMenuLinks = array(
-    array(
-        'Контекстная реклама в Яндекс.Директ',
-        '/ppc/yandex-direct/',
-        array(),
-        array(),
-        ''
-    ),
-    array(
-        'Комплексное продвижение сайта',
-        '/ppc/complex/',
-        array(),
-        array(),
-        ''
-    ),
+<?
+$aMenuLinks = Array(
+	Array(
+		"Контекстная реклама в Яндекс.Директ", 
+		"/ppc/yandex-direct/", 
+		Array(), 
+		Array(), 
+		"" 
+	),
+	Array(
+		"Контекстная реклама в Google AdWords", 
+		"/ppc/google-adwords/", 
+		Array(), 
+		Array(), 
+		"" 
+	)
 );
+?>

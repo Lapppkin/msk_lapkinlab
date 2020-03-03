@@ -1,0 +1,466 @@
+.page-ppc--adwords {
+  .ppc-slider-image:after {
+    display: none;
+  }
+
+  .ppc-slider {
+    @media (max-width: map_get($grid-breakpoints, lg)) {
+      margin-bottom: 0;
+    }
+
+    .lapkin-form--form {
+      margin-top: 0 !important;
+    }
+    .lapkin-form--title {
+      font-size: 25px;
+
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        text-align: left !important;
+      }
+    }
+    .lapkin-form--actions button {
+      font-size: 17px;
+    }
+  }
+
+  .slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .slide-title {
+      flex: none;
+      margin: 0;
+
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        margin-top: 30px;
+      }
+    }
+
+    .slide-title__text {
+      font-weight: 600;
+      font-size: 24px;
+      color: #ffffff;
+
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        margin-bottom: 30px;
+        max-width: 500px;
+      }
+    }
+  }
+}
+
+.adwords__title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.3;
+  text-align: center;
+  color: #3a3a50;
+  margin-bottom: 32px;
+
+  @media (max-width: map_get($grid-breakpoints, lg)) {
+    font-size: 28px;
+  }
+}
+
+.adwords-section {
+  &__image {
+    img {
+      max-width: 100%;
+      margin: 0 auto;
+      display: block;
+    }
+  }
+
+  &__text {
+    font-size: 18px;
+    color: #3a3a50;
+    line-height: 1.5;
+
+    @media (max-width: map_get($grid-breakpoints, lg)) {
+      font-size: 16px;
+    }
+
+    &--bold {
+      color: #3a3a50;
+      font-weight: bold;
+      line-height: 1.3;
+      font-size: 24px;
+
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        font-size: 20px;
+      }
+    }
+  }
+
+  &--two {
+    .adwords-section__text {
+      max-width: 350px;
+
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+
+.marketing-variant {
+  margin: 60px 0 50px;
+
+  @media (max-width: map_get($grid-breakpoints, lg)) {
+    margin-bottom: 30px;
+  }
+
+  &__text {
+    color: #3a3a50;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto 30px;
+    line-height: 1.5;
+
+    @media (max-width: map_get($grid-breakpoints, lg)) {
+      font-size: 16px;
+    }
+  }
+
+  &__list {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: -5px;
+    margin-right: -5px;
+  }
+
+  &-item {
+    width: calc(100% / 3 - 10px);
+    margin: 0 5px 50px;
+
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+      width: calc(100% - 10px);
+      margin-bottom: 30px;
+    }
+
+    &__image {
+      img {
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+
+    &__title {
+      color: #3a3a50;
+      font-size: 26px;
+      line-height: 1;
+      text-align: center;
+      font-weight: bold;
+
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        font-size: 20px;
+      }
+
+      @media (max-width: map_get($grid-breakpoints, md)) {
+        font-size: 18px;
+      }
+
+      @media (max-width: map_get($grid-breakpoints, sm)) {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+.adwords-info-section {
+  margin-top: 90px;
+
+  .container {
+    max-width: 1100px;
+  }
+
+  .adwords__title {
+    margin-bottom: 40px;
+
+    @media (max-width: map_get($grid-breakpoints, lg)) {
+      margin-bottom: 0;
+    }
+
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+      margin-bottom: 10px;
+    }
+  }
+
+  &__content {
+    .button {
+      height: 52px;
+      font-weight: 600;
+      font-size: 18px;
+
+      @media (max-width: map_get($grid-breakpoints, sm)) {
+        width: 100%;
+      }
+    }
+  }
+
+  &__image {
+    img {
+      max-width: 100%;
+      margin-right: 80px;
+      display: block;
+
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        margin: 0 auto 25px;
+      }
+    }
+  }
+
+  &__text {
+    font-size: 16px;
+    color: #3a3a50;
+    max-width: 480px;
+    line-height: 1.5;
+    margin: 0 auto;
+
+    p {
+      margin-bottom: 25px;
+      line-height: 1.5;
+
+      &:last-child {
+        margin-bottom: 0;
+      }
+    }
+  }
+
+  &--gray {
+    background: #eff3f9;
+    padding: 90px 0 80px;
+
+    @media (max-width: map_get($grid-breakpoints, lg)) {
+      padding: 60px 0;
+    }
+
+    .adwords-info-section__image {
+      margin-right: 0;
+    }
+  }
+
+  &--google {
+    margin: 20px 0 90px;
+
+    @media (max-width: map_get($grid-breakpoints, lg)) {
+      margin: 60px 0;
+    }
+  }
+
+  &--price {
+    margin-bottom: 150px;
+
+    @media (max-width: map_get($grid-breakpoints, lg)) {
+      margin-bottom: 60px;
+      margin-top: 60px;
+    }
+
+    .adwords__title {
+      margin-bottom: 50px;
+
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  &--guarantee {
+    margin-bottom: 100px;
+
+    @media (max-width: map_get($grid-breakpoints, lg)) {
+      margin-bottom: 60px;
+      margin-top: 70px;
+    }
+
+    @media (max-width: map_get($grid-breakpoints, sm)) {
+      margin-top: 60px;
+    }
+
+    .adwords__title {
+      margin-bottom: 50px;
+
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        margin-bottom: 25px;
+      }
+    }
+
+    .adwords-info-section__text {
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        order: 4;
+      }
+    }
+
+    .adwords-info-section__image img {
+      margin-left: 20px;
+      @media (max-width: map_get($grid-breakpoints, lg)) {
+        margin-left: auto;
+      }
+    }
+  }
+}
+
+.adwords-how-works {
+  margin: 100px 0 60px;
+
+  @media (max-width: map_get($grid-breakpoints, lg)) {
+    margin: 60px 0 20px;
+  }
+
+  &__list {
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  &-item {
+    width: calc(100% / 3 - 20px);
+    margin: 0 10px 0;
+
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      width: calc(100% - 20px);
+      margin-bottom: 55px;
+
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+
+    &__image {
+      img {
+        max-width: 100%;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+
+    &__text {
+      max-width: 360px;
+      font-weight: bold;
+      margin: 0 auto;
+      font-size: 18px;
+      padding-top: 20px;
+      color: #3a3a50;
+    }
+  }
+}
+
+.adwords-stage-work {
+  padding: 100px 0 70px;
+  margin-bottom: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  @media (max-width: map_get($grid-breakpoints, lg)) {
+    padding: 60px 0 30px;
+    margin-bottom: 60px;
+  }
+
+  .adwords__title {
+    color: #ffffff;
+    margin-bottom: 40px;
+  }
+
+  &__list {
+    display: flex;
+    margin: 0 -80px;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+    @media (max-width: map_get($grid-breakpoints, xl)) {
+      margin: 0 -40px;
+    }
+
+    @media (max-width: map_get($grid-breakpoints, lg)) {
+      margin: 0 -10px;
+    }
+
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      margin: 0;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: flex-start;
+    width: calc(100% / 3 - 160px);
+    margin: 0 80px 30px;
+
+    @media (max-width: map_get($grid-breakpoints, xl)) {
+      width: calc(100% / 3 - 80px);
+      margin: 0 40px 30px;
+    }
+
+    @media (max-width: map_get($grid-breakpoints, lg)) {
+      width: calc(100% / 3 - 20px);
+      margin: 0 10px 30px;
+    }
+
+    @media (max-width: map_get($grid-breakpoints, md)) {
+      width: 100%;
+      margin: 0 0 30px;
+      align-items: center;
+
+      order: 3;
+
+      &--fist {
+        order: 1;
+      }
+
+      &--two {
+        order: 2;
+      }
+    }
+  }
+
+  &__number {
+    color: #ffffff;
+    width: 30px;
+    height: 30px;
+    min-width: 30px;
+    background: #fe3861;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 18px;
+    line-height: 1;
+  }
+
+  &__text {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 14px;
+  }
+}
+
+.adwords-how-works,
+.marketing-variant,
+.adwords-section--google {
+  max-width: 1180px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.adwords-section--google .adwords-section__wrapper,
+.adwords-section--two .adwords-section__wrapper {
+  align-items: center;
+}
+
+.adwords-info-section--gray .container {
+  max-width: 1180px;
+}
+
+.adwords-section--two .container {
+  max-width: 1100px;
+}
