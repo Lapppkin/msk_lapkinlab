@@ -7,6 +7,13 @@ $aMenuLinks = array(
         array(),
         ''
     ),
+    array(
+        'Разработка интернет-магазина',
+        '/sites/online-store/',
+        array(),
+        array(),
+        ''
+    ),
 //	array(
 //		'Портфолио',
 //		'/sites/portfolio/',
