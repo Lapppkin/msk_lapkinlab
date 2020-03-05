@@ -12,14 +12,14 @@
       margin-top: 0 !important;
     }
     .lapkin-form--title {
-      font-size: 25px;
+      font-size: $app-fontsize--h2;
 
       @media (max-width: map_get($grid-breakpoints, lg)) {
         text-align: left !important;
       }
     }
     .lapkin-form--actions button {
-      font-size: 17px;
+      font-size: $app-fontsize--base;
     }
   }
 
@@ -51,15 +51,15 @@
 }
 
 .adwords__title {
-  font-weight: bold;
-  font-size: 36px;
+  font-size: $app-fontsize--big;
   line-height: 1.3;
   text-align: center;
-  color: #3a3a50;
-  margin-bottom: 32px;
+  color: $app-color--primary;
+  margin-bottom: $app-padding--base;
+  @include head_font;
 
   @media (max-width: map_get($grid-breakpoints, lg)) {
-    font-size: 28px;
+    font-size: $app-fontsize--h2;
   }
 }
 
@@ -73,22 +73,21 @@
   }
 
   &__text {
-    font-size: 18px;
-    color: #3a3a50;
+    font-size: $app-fontsize--medium;
+    color: $app-color--primary;
     line-height: 1.5;
 
     @media (max-width: map_get($grid-breakpoints, lg)) {
-      font-size: 16px;
+      font-size: $app-fontsize--base;
     }
 
     &--bold {
-      color: #3a3a50;
-      font-weight: bold;
+      color: $app-color--primary;
       line-height: 1.3;
-      font-size: 24px;
+      font-size: $app-fontsize--h2;
 
       @media (max-width: map_get($grid-breakpoints, lg)) {
-        font-size: 20px;
+        font-size: $app-fontsize--h3;
       }
     }
   }
@@ -106,21 +105,21 @@
 }
 
 .marketing-variant {
-  margin: 60px 0 50px;
+  margin: $app-padding--medium 0;
 
   @media (max-width: map_get($grid-breakpoints, lg)) {
-    margin-bottom: 30px;
+    margin-bottom: $app-padding--base;
   }
 
   &__text {
-    color: #3a3a50;
-    font-size: 18px;
+    color: $app-color--primary;
+    font-size: $app-fontsize--medium;
     max-width: 700px;
-    margin: 0 auto 30px;
+    margin: 0 auto $app-padding--base;
     line-height: 1.5;
 
     @media (max-width: map_get($grid-breakpoints, lg)) {
-      font-size: 16px;
+      font-size: $app-fontsize--base;
     }
   }
 
@@ -139,7 +138,7 @@
 
     @media (max-width: map_get($grid-breakpoints, sm)) {
       width: calc(100% - 10px);
-      margin-bottom: 30px;
+      margin-bottom: $app-padding--base;
     }
 
     &__image {
@@ -151,22 +150,22 @@
     }
 
     &__title {
-      color: #3a3a50;
+      color: $app-color--primary;
       font-size: 26px;
       line-height: 1;
       text-align: center;
-      font-weight: bold;
+      @include head_font;
 
       @media (max-width: map_get($grid-breakpoints, lg)) {
-        font-size: 20px;
+        font-size: $app-fontsize--h3;
       }
 
       @media (max-width: map_get($grid-breakpoints, md)) {
-        font-size: 18px;
+        font-size: $app-fontsize--medium;
       }
 
       @media (max-width: map_get($grid-breakpoints, sm)) {
-        font-size: 24px;
+        font-size: $app-fontsize--h2;
       }
     }
   }
@@ -176,7 +175,7 @@
   margin-top: 90px;
 
   .container {
-    max-width: 1100px;
+    max-width: map_get($container-max-widths, xl);
   }
 
   .adwords__title {
@@ -193,9 +192,9 @@
 
   &__content {
     .button {
-      height: 52px;
-      font-weight: 600;
-      font-size: 18px;
+      height: $app-button-height;
+      @include head_font;
+      font-size: $app-fontsize--medium;
 
       @media (max-width: map_get($grid-breakpoints, sm)) {
         width: 100%;
@@ -216,11 +215,16 @@
   }
 
   &__text {
-    font-size: 16px;
-    color: #3a3a50;
+    font-size: $app-fontsize--medium;
+    color: $app-color--primary;
     max-width: 480px;
     line-height: 1.5;
     margin: 0 auto;
+
+    strong {
+      @include text_font;
+      font-size: $app-fontsize--medium;
+    }
 
     p {
       margin-bottom: 25px;
@@ -233,7 +237,7 @@
   }
 
   &--gray {
-    background: #eff3f9;
+    background: $app-color--background;
     padding: 90px 0 80px;
 
     @media (max-width: map_get($grid-breakpoints, lg)) {
@@ -257,15 +261,15 @@
     margin-bottom: 150px;
 
     @media (max-width: map_get($grid-breakpoints, lg)) {
-      margin-bottom: 60px;
-      margin-top: 60px;
+      margin-bottom: $app-padding--medium;
+      margin-top: $app-padding--medium;
     }
 
     .adwords__title {
-      margin-bottom: 50px;
+      margin-bottom: $app-padding--medium;
 
       @media (max-width: map_get($grid-breakpoints, lg)) {
-        margin-bottom: 20px;
+        margin-bottom: $app-padding--base;
       }
     }
   }
@@ -274,19 +278,19 @@
     margin-bottom: 100px;
 
     @media (max-width: map_get($grid-breakpoints, lg)) {
-      margin-bottom: 60px;
-      margin-top: 70px;
+      margin-bottom: $app-padding--medium;
+      margin-top: $app-padding--medium;
     }
 
     @media (max-width: map_get($grid-breakpoints, sm)) {
-      margin-top: 60px;
+      margin-top: $app-padding--medium;
     }
 
     .adwords__title {
-      margin-bottom: 50px;
+      margin-bottom: $app-padding--medium;
 
       @media (max-width: map_get($grid-breakpoints, lg)) {
-        margin-bottom: 25px;
+        margin-bottom: $app-padding--base;
       }
     }
 
@@ -306,10 +310,10 @@
 }
 
 .adwords-how-works {
-  margin: 100px 0 60px;
+  margin: 100px 0 $app-padding--medium;
 
   @media (max-width: map_get($grid-breakpoints, lg)) {
-    margin: 60px 0 20px;
+    margin: $app-padding--medium 0 20px;
   }
 
   &__list {
@@ -326,7 +330,7 @@
 
     @media (max-width: map_get($grid-breakpoints, md)) {
       width: calc(100% - 20px);
-      margin-bottom: 55px;
+      margin-bottom: $app-padding--medium;
 
       &:last-of-type {
         margin-bottom: 0;
@@ -343,29 +347,28 @@
 
     &__text {
       max-width: 360px;
-      font-weight: bold;
       margin: 0 auto;
-      font-size: 18px;
-      padding-top: 20px;
-      color: #3a3a50;
+      font-size: $app-fontsize--medium;
+      padding-top: $app-padding--base;
+      color: $app-color--primary;
     }
   }
 }
 
 .adwords-stage-work {
-  padding: 100px 0 70px;
+  padding: 100px 0 $app-padding--medium;
   margin-bottom: 100px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 
   @media (max-width: map_get($grid-breakpoints, lg)) {
-    padding: 60px 0 30px;
-    margin-bottom: 60px;
+    padding: $app-padding--medium 0 $app-padding--base;
+    margin-bottom: $app-padding--medium;
   }
 
   .adwords__title {
-    color: #ffffff;
+    color: $app-color--white;
     margin-bottom: 40px;
   }
 
@@ -401,14 +404,13 @@
 
     @media (max-width: map_get($grid-breakpoints, lg)) {
       width: calc(100% / 3 - 20px);
-      margin: 0 10px 30px;
+      margin: 0 10px $app-padding--base;
     }
 
     @media (max-width: map_get($grid-breakpoints, md)) {
       width: 100%;
-      margin: 0 0 30px;
+      margin: 0 0 $app-padding--base;
       align-items: center;
-
       order: 3;
 
       &--fist {
@@ -422,32 +424,31 @@
   }
 
   &__number {
-    color: #ffffff;
+    color: $app-color--white;
     width: 30px;
     height: 30px;
     min-width: 30px;
-    background: #fe3861;
+    background-color: $app-color--active;
     border-radius: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-weight: bold;
-    font-size: 14px;
+    @include head_font;
     margin-right: 18px;
     line-height: 1;
   }
 
   &__text {
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 14px;
+    color: $app-color--white;
+    @include text_font;
+    font-size: $app-fontsize--medium;
   }
 }
 
 .adwords-how-works,
 .marketing-variant,
 .adwords-section--google {
-  max-width: 1180px;
+  max-width: map_get($grid-breakpoints, xl);
   margin-left: auto;
   margin-right: auto;
 }
@@ -458,9 +459,9 @@
 }
 
 .adwords-info-section--gray .container {
-  max-width: 1180px;
+  max-width: map_get($grid-breakpoints, xl);
 }
 
 .adwords-section--two .container {
-  max-width: 1100px;
+  max-width: map_get($container-max-widths, xl);
 }

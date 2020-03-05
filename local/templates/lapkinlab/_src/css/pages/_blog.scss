@@ -114,7 +114,12 @@
       margin-top: $app-padding--small;
       margin-bottom: $app-padding--small;
     }
-    &--body {}
+    &--body {
+      img {
+        max-width: 100% !important;
+        height: auto;
+      }
+    }
     &--next {
       margin-top: $app-padding--base;
     }
