@@ -9,10 +9,10 @@
              margin-top: 0 !important
 
         .lapkin-form--title
-            font-size: 25px
+            font-size: $app-fontsize--large
 
         .lapkin-form--actions button
-            font-size: 17px
+            font-size: $app-fontsize--medium
 
     .slide
         display: flex
@@ -24,35 +24,35 @@
             margin: 0
 
             &__text
-                font-weight: 600
-                font-size: 24px
-                color: #ffffff
+                @include head_font
+                font-size: $app-fontsize--large
+                color: $app-color--white
                 max-width: 420px
 
-    @media (max-width: 1024px)
+    @media (max-width: map_get($grid-breakpoints, lg))
 
         .lapkin-form--title
             text-align: left !important
 
         .slide .slide-title__text
             max-width: 500px
-            margin-bottom: 30px
+            margin-bottom: $app-padding--base
 
-    @media (max-width: 480px)
+    @media (max-width:  map_get($grid-breakpoints, sm))
         .slide .slide-title br
             display: none
 
 
 
 .title-base
-    font-weight: bold
-    font-size: 36px
+    @include head_font
+    font-size: $app-fontsize--big
     line-height: 1.3
     text-align: center
-    color: #3a3a50
+    color: $app-color--primary
 
-    @media (max-width: 1024px)
-        font-size: 28px
+    @media (max-width: map_get($grid-breakpoints, xl))
+        font-size: $app-fontsize--h1
 
 
 
@@ -60,12 +60,12 @@
     margin: 80px 0
 
     .title-base
-        margin-bottom: 30px
+        margin-bottom: $app-padding--base
 
     .container
 
-        @media (min-width: 1260px)
-            max-width: 1170px
+        @media (min-width: map_get($grid-breakpoints, xl))
+            max-width: map_get($container-max-widths, xl)
 
         .row
             align-items: center
@@ -74,7 +74,7 @@
 
         p
             margin-bottom: 1.5rem
-            color: #3A3A50
+            color: $app-color--primary
             font-size: 18px
             line-height: 1.6
 
@@ -83,9 +83,9 @@
 
         .button
             margin-top: 15px
-            height: 52px
-            font-weight: 600
-            font-size: 18px
+            height: $app-button-height
+            @include head_font
+            font-size: $app-fontsize--medium
 
     &__image
 
@@ -108,58 +108,58 @@
     &--price-development
         margin: 0
         padding: 100px 0
-        background: #EFF3F9
+        background: $app-color--border
 
         .title-base
-            margin-bottom: 50px
+            margin-bottom: $app-padding--medium
 
         .container
-            @media (min-width: 1260px)
-                max-width: 1100px
+            @media (min-width:  map_get($container-max-widths, xl))
+                max-width: map_get($container-max-widths, xl)
 
-    @media (max-width: 1260px)
+    @media (max-width: map_get($grid-breakpoints, xl))
 
         &--consult img
-            margin-right: 30px
+            margin-right: $app-padding--base
 
-    @media (max-width: 1024px)
-        margin: 60px 0
+    @media (max-width: map_get($grid-breakpoints, lg))
+        margin: $app-padding--medium 0
 
         .title-base
-            margin-bottom: 15px
+            margin-bottom: $app-padding--small
 
         &__text
             order: 4
 
             p
-                font-size: 16px
+                font-size: $app-fontsize--base
                 margin-bottom: 1.4rem
 
             .button
-                margin: 30px auto 0
+                margin: $app-padding--base auto 0
                 display: block
 
         &__image img
             display: block
-            margin: 0 auto 30px
+            margin: 0 auto $app-padding--base
 
         &--row-mt
-            margin-top: 50px
+            margin-top: $app-padding--medium
 
         &--price-development
             padding: 60px 0 70px
             margin: 0
 
             .title-base
-                margin-bottom: 25px
+                margin-bottom: $app-padding--base
 
-    @media (max-width: 576px)
+    @media (max-width: map_get($grid-breakpoints, sm))
 
         &__text .button
             width: 100%
-            min-height: 52px
+            min-height: $app-button-height
             height: auto
-            padding: 15px 10px
+            padding: $app-padding--small 10px
 
 
 
@@ -167,32 +167,32 @@
     margin: 100px 0 60px
 
     &__header
-        margin-bottom: 30px
+        margin-bottom: $app-padding--base
 
     &__description
-        font-size: 18px
+        font-size: $app-fontsize--medium
         text-align: center
-        color: #3A3A50
+        color: $app-color--primary
         padding-top: 10px
         margin: 0 auto
 
     .container
-        @media (min-width: 1260px)
-            max-width: 1180px
+        @media (min-width:  map_get($container-max-widths, xl))
+            max-width: map_get($container-max-widths, xl)
 
-    @media (max-width: 1024px)
+    @media (max-width: map_get($grid-breakpoints, lg))
         margin: 60px 0 40px
 
         &__description
-            padding: 20px 0 15px
+            padding: 20px 0 $app-padding--small
 
-    @media (max-width: 768px)
-        margin-bottom: 30px
+    @media (max-width: map_get($grid-breakpoints, lg))
+        margin-bottom: $app-padding--base
 
 
 
 .info-section-list-item
-    margin-bottom: 40px
+    margin-bottom: $app-padding--medium
 
     &__image
         height: 220px
@@ -204,29 +204,28 @@
             max-height: 220px
 
     &__content
-        padding-top: 18px
+        padding-top: $app-padding--small
 
     &__title
-        font-size: 26px
+        font-size: $app-fontsize--large
         line-height: 1
-        color: #3A3A50
-        font-weight: bold
+        color: $app-color--primary
+        @include head_font
         margin-bottom: 20px
 
     &__description
-        font-size: 16px
-        line-height: 29px
-        color: #3A3A50
+        font-size: $app-fontsize--base
+        color: $app-color--primary
         line-height: 1.6
 
-    @media (max-width: 768px)
-        margin-bottom: 50px
+    @media (max-width: map_get($grid-breakpoints, lg))
+        margin-bottom: $app-padding--medium
 
         &__image
             height: auto
 
         &__content
-            padding-top: 25px
+            padding-top: $app-padding--base
 
         &__title
             text-align: center

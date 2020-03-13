@@ -9652,6 +9652,182 @@ body.contacts .page-contacts {
     max-width: 1224px;
 }
 
+.page--online-store .ppc-slider-image:after {
+    display: none;
+}
+
+.page--online-store .ppc-slider .lapkin-form--form {
+    margin-top: 0 !important;
+}
+
+.page--online-store .ppc-slider .lapkin-form--title {
+    font-size: 24px;
+}
+
+.page--online-store .ppc-slider .lapkin-form--actions button {
+    font-size: 20px;
+}
+
+.page--online-store .slide {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.page--online-store .slide .slide-title {
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    flex: none;
+    margin: 0;
+}
+
+.page--online-store .slide .slide-title__text {
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+    color: #fff;
+    max-width: 420px;
+}
+
+.title-base {
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 36px;
+    line-height: 1.3;
+    text-align: center;
+    color: #38384f;
+}
+
+.info-section {
+    margin: 80px 0;
+}
+
+.info-section .title-base {
+    margin-bottom: 30px;
+}
+
+.info-section .container .row,
+.info-section .container-wide .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.info-section__text p {
+    margin-bottom: 24px;
+    margin-bottom: 1.5rem;
+    color: #38384f;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.info-section__text p:last-child {
+    margin-bottom: 0;
+}
+
+.info-section__text .button {
+    margin-top: 15px;
+    height: 60px;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 20px;
+}
+
+.info-section__image img {
+    max-width: 100%;
+}
+
+.info-section--consult .info-section__image {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.info-section--consult img {
+    margin-right: 70px;
+}
+
+.info-section--row-mt {
+    margin-top: -50px;
+}
+
+.info-section--price-development {
+    margin: 0;
+    padding: 100px 0;
+    background: #efeded;
+}
+
+.info-section--price-development .title-base {
+    margin-bottom: 60px;
+}
+
+.info-section-list {
+    margin: 100px 0 60px;
+}
+
+.info-section-list__header {
+    margin-bottom: 30px;
+}
+
+.info-section-list__description {
+    font-size: 20px;
+    text-align: center;
+    color: #38384f;
+    padding-top: 10px;
+    margin: 0 auto;
+}
+
+.info-section-list-item {
+    margin-bottom: 60px;
+}
+
+.info-section-list-item__image {
+    height: 220px;
+}
+
+.info-section-list-item__image img {
+    max-width: 100%;
+    margin: 0 auto;
+    display: block;
+    max-height: 220px;
+}
+
+.info-section-list-item__content {
+    padding-top: 15px;
+}
+
+.info-section-list-item__title {
+    font-size: 24px;
+    line-height: 1;
+    color: #38384f;
+    font-family: "Montserrat", serif;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 20px;
+}
+
+.info-section-list-item__description {
+    font-size: 16px;
+    color: #38384f;
+    line-height: 1.6;
+}
+
 /**
  * Owl Carousel v2.3.4
  * Copyright 2013-2018 David Deutsch
@@ -14592,6 +14768,18 @@ Build date: 2018-12-11 23:23:51
     }
 }
 
+@media (min-width: 1224px) {
+    .info-section--price-development .container,
+  .info-section--price-development .container-wide {
+        max-width: 1224px;
+    }
+
+    .info-section-list .container,
+  .info-section-list .container-wide {
+        max-width: 1224px;
+    }
+}
+
 @media (min-width: 1260px) {
     .container,
   .container-wide {
@@ -15576,6 +15764,11 @@ Build date: 2018-12-11 23:23:51
 
     .text-xl-center {
         text-align: center !important;
+    }
+
+    .info-section .container,
+  .info-section .container-wide {
+        max-width: 1224px;
     }
 }
 
@@ -16784,6 +16977,14 @@ Build date: 2018-12-11 23:23:51
         width: calc(33.33333% - 80px);
         margin: 0 40px 30px;
     }
+
+    .title-base {
+        font-size: 30px;
+    }
+
+    .info-section--consult img {
+        margin-right: 30px;
+    }
 }
 
 @media (max-width: 1259.98px) {
@@ -17146,6 +17347,85 @@ Build date: 2018-12-11 23:23:51
     .adwords-stage-work__item {
         width: calc(33.33333% - 20px);
         margin: 0 10px 30px;
+    }
+
+    .page--online-store .lapkin-form--title {
+        text-align: left !important;
+    }
+
+    .page--online-store .slide .slide-title__text {
+        max-width: 500px;
+        margin-bottom: 30px;
+    }
+
+    .info-section {
+        margin: 60px 0;
+    }
+
+    .info-section .title-base {
+        margin-bottom: 15px;
+    }
+
+    .info-section__text {
+        -webkit-box-ordinal-group: 5;
+        -ms-flex-order: 4;
+        order: 4;
+    }
+
+    .info-section__text p {
+        font-size: 16px;
+        margin-bottom: 1.4rem;
+    }
+
+    .info-section__text .button {
+        margin: 30px auto 0;
+        display: block;
+    }
+
+    .info-section__image img {
+        display: block;
+        margin: 0 auto 30px;
+    }
+
+    .info-section--row-mt {
+        margin-top: 60px;
+    }
+
+    .info-section--price-development {
+        padding: 60px 0 70px;
+        margin: 0;
+    }
+
+    .info-section--price-development .title-base {
+        margin-bottom: 30px;
+    }
+
+    .info-section-list {
+        margin: 60px 0 40px;
+    }
+
+    .info-section-list__description {
+        padding: 20px 0 15px;
+    }
+
+    .info-section-list {
+        margin-bottom: 30px;
+    }
+
+    .info-section-list-item {
+        margin-bottom: 60px;
+    }
+
+    .info-section-list-item__image {
+        height: auto;
+    }
+
+    .info-section-list-item__content {
+        padding-top: 30px;
+    }
+
+    .info-section-list-item__title {
+        text-align: center;
     }
 }
 
@@ -17921,6 +18201,17 @@ Build date: 2018-12-11 23:23:51
 
     .adwords-info-section--guarantee {
         margin-top: 60px;
+    }
+
+    .page--online-store .slide .slide-title br {
+        display: none;
+    }
+
+    .info-section__text .button {
+        width: 100%;
+        min-height: 60px;
+        height: auto;
+        padding: 15px 10px;
     }
 }
 
