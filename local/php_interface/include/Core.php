@@ -104,11 +104,12 @@ class Core
             'context' => '1FAIpQLSdC5EtZkU86l1V2pIsEAXUigf6ZH_98BTB823rmgW7d0M_lmQ',
             'smm'     => '1FAIpQLScUUOxtYtc1F1xWTCjo4HpIY4TlQ8CEnfHkhET_K0teL5xCig',
             'amo'     => '1FAIpQLSfTqL6tOA92Y3SRrYWDoJ7wWNHEr-DFMXv6YWUgaY6DhBRmkw',
+            'chat-bot'  => '1FAIpQLSdYn1u8idc3vZrStvYBpFtDPSWsTaVZnCQOz7GTy2oNq5i0jA',
         ];
         $briefPageTypeMap = [
             '/seo' => 'seo',
             '/sites' => 'dev',
-            '/chat-bot' => 'dev',
+            '/chat-bot' => 'chat-bot',
             '/ppc' => 'context',
             '/amocrm' => 'amo',
         ];
