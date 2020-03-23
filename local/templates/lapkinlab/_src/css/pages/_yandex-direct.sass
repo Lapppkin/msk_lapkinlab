@@ -1,0 +1,227 @@
+.page--yandex-direct
+
+    .ppc-slider-image:after
+        display: none
+
+    .ppc-slider
+
+        .lapkin-form--form
+             margin-top: 0 !important
+
+        .lapkin-form--title
+            font-size: $app-fontsize--large
+
+        .lapkin-form--actions button
+            font-size: $app-fontsize--medium
+
+    .slide
+        display: flex
+        flex-direction: column
+        justify-content: center
+
+        .slide-title
+            flex: none
+            margin: 0
+
+            &__text
+                @include head_font
+                font-size: $app-fontsize--large
+                color: $app-color--white
+                max-width: 420px
+
+    .info-section
+
+        .row
+            align-items: center
+
+        .title-base
+            margin-bottom: 50px
+
+    @media (max-width: 1024px)
+
+        .lapkin-form--title
+            text-align: left !important
+
+        .slide .slide-title__text
+            max-width: 500px
+            margin-bottom: $app-padding--base
+
+    @media (max-width: 576px)
+
+        .slide .slide-title br
+            display: none
+
+
+
+.yandex-advantage
+    margin-bottom: 30px
+
+    &:last-child
+        margin-bottom: 0
+
+    &__title
+        display: flex
+        align-items: center
+        margin-bottom: 10px
+
+        &-value
+            font-size: 26px
+            color: #3A3A50
+            font-family: "Montserrat"
+            font-weight: 600
+
+    &__icon
+        background: #BACAD5
+        width: 30px
+        height: 30px
+        display: flex
+        align-items: center
+        justify-content: center
+        margin-right: 20px
+        min-width: 30px
+        border-radius: 50%
+
+        img
+            margin: 0
+
+    &__content
+        padding-left: 50px
+        font-size: 16px
+        color: #3A3A50
+
+    @media (max-width: 992px)
+        margin-bottom: 45px
+
+        &__title-value
+            font-size: 24px
+
+    @media (max-width: 480px)
+
+        &__title
+            flex-direction: column
+
+            &-value
+                text-align: center
+
+        &__icon
+            margin-right: 0
+            margin-bottom: 10px
+
+        &__content
+            padding-left: 0
+            text-align: center
+
+
+
+.info-section-list--yandex-gray
+    background: #F4F7FB
+    padding: 100px 0 40px
+
+    .info-section-list__header
+        margin-bottom: 50px
+
+    .info-section-list-item
+
+        &__image
+            height: 170px
+
+        &__content
+            padding-top: 30px
+
+        &__title
+            color: #3A3A50
+            text-align: center
+            font-size: 20px
+            max-width: 400px
+            margin: 0 auto
+
+    @media (max-width: 1024px)
+
+        .info-section-list-item__image
+            height: auto
+
+    @media (max-width: 480px)
+        padding: 60px 0 20px
+
+
+
+.ol-custom
+    list-style-type: none
+    counter-reset: num
+
+    li
+        position: relative
+        color: #3A3A50
+        font-size: 20px
+        font-family: "Montserrat"
+        font-weight: 600
+        margin-bottom: 40px
+
+        &:last-child
+            margin-bottom: 0
+
+        &:before
+            position: absolute
+            content: counter(num)
+            counter-increment: num
+            left: -50px
+            display: block
+            width: 30px
+            height: 30px
+            background: #BACAD5
+            color: #FFFFFF
+            font-size: 14px
+            font-family: "Montserrat"
+            font-weight: 600
+            border-radius: 50%
+            display: flex
+            align-items: center
+            justify-content: center
+            top: calc(50% - 15px)
+
+    @media (max-width: 768px)
+
+        li
+            font-size: 18px
+
+            &:before
+                left: -35px
+                width: 25px
+                height: 25px
+                font-size: 12px
+                top: 0
+
+
+
+.yandex-price
+    width: 162px
+    height: 162px
+    border-radius: 50%
+    margin: auto
+    background: #fff
+    display: flex
+    align-items: center
+    justify-content: center
+
+    &__value
+        font-size: 50px
+        color: #FE3861
+        white-space: nowrap
+        font-family: 'Verdana'
+
+
+
+.info-section-list--yandex-price
+
+    .info-section-list__header
+        margin-bottom: 25px
+
+    .info-section-list-item
+
+        &__title
+            max-width: 330px
+            margin-left: auto
+            margin-right: auto
+
+        &__content
+            padding-top: 20px
