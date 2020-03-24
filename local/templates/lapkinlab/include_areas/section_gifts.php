@@ -8,7 +8,7 @@
                     <div class="section--seo--item-icon"><?= renderSprite('test') ?></div>
                     <div class="section--seo--item-text">
                         <div class="section--seo--item-name">Скидка 15% за комплекс</div>
-                        <div class="section--seo--item-desc">При заказе SEO и контекстной рекламы одновременно - делаем скидку 15% на весь срок сотрудничества</div>
+                        <div class="section--seo--item-desc">При заказе SEO и контекстной рекламы одновременно - делаем скидку 15%</div>
                     </div>
                 </div>
                 <div class="section--seo--item">
