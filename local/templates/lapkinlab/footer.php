@@ -114,6 +114,6 @@ use LapkinLab\Helper;
 
     <?php $APPLICATION->IncludeFile('/include/yandex_metrika.php') ?>
     <?php $APPLICATION->IncludeFile('/include/seo.php') ?>
-
+    <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/anti-crisis-offer.php', array(), array('SHOW_BORDER' => true)) ?>
 </body>
 </html>
