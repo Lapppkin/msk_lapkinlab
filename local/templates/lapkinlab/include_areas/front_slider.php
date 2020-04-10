@@ -7,13 +7,14 @@ $slides = array(
         'list' => array(
             'Оптимизируем сайт для поисковых роботов',
             'Делаем его удобным для клиентов',
+            'Пишем и размещаем полезный и уникальный контент',
+            'Оставляем ваших конкурентов позади',
             'Приводим целевых пользователей из поисковых систем',
             'Продажи растут уже в первые месяцы после начала работ',
-            'Оставляем ваших конкурентов позади',
         ),
     ),
     2 => array(
-        'title' => 'Подходим комплексно к оптимизации вашего сайта:',
+        'title' => 'Подходим комплексно к оптимизации вашего сайта',
         'nav' => 'Комплексный подход',
         'list' => array(
             'Выявим вашу аудиторию',
@@ -25,13 +26,16 @@ $slides = array(
         )
     ),
     3 => array(
-        'title' => 'Клиентский сервис:',
-        'nav' => 'Клиентский сервис',
+        'type' => 'remote-client',
+        'title' => 'Удаленный клиентский сервис от LapkinLab',
+        'nav' => 'Удаленный сервис',
         'list' => array(
-            '«Дедлайн» - для нас не просто слово',
-            'Постоянная связь с клиентом на всех этапах продвижения',
-            'Наш менеджер всегда готов ответить на любые вопросы по вашему сайту',
-            'Регулярная отчетность - мы знаем как важно видеть наглядный результат!',
+            'Не теряйте время на поездки и встречи ',
+            'Не знаете, что делать? Личный удаленный менеджер проконсультирует вас в любом городе и в удобное для вас время',
+            'Мы не тратим ваши деньги на аренду своих помещений',
+            'Контролируйте процессы и получайте быстрые ответы от команды профессионалов со всей России',
+            'Мы не отвлекаемся, не болеем и работаем эффективнее офисного сотрудника',
+            'Только индивидуальные стратегии, никаких шаблонов - Делаем время деньгами!',
         )
     ),
     4 => array(
@@ -42,9 +46,8 @@ $slides = array(
             'Увеличение посещаемости ресурса после 2 месяца',
             'Уже через 4 месяца вы заметите рост продаж',
             'Стабильный рост видимости и позиций сайта',
-            'Прозрачная отчетность',
             'Конфиденциальность клиентской информации',
-            '«Белые» методы продвижения',
+            'Белые методы продвижения',
         )
     ),
 );
@@ -52,39 +55,57 @@ $slides = array(
 ?>
 <!--slider-->
 <div class="slider">
-    <div class="slider-image" style="background-image:url(<?= SITE_TEMPLATE_PATH ?>/images/slides/1.jpg)"></div>
+    <div class="slider-image" style="background-image:url(<?= SITE_TEMPLATE_PATH ?>/images/home/slide-1.jpg)"></div>
     <div class="container">
         <div class="slider--wrapper row">
-
-            <div class="slider--slides col-xl-6 offset-xl-1 col-lg-7 offset-lg-0 col-md-12 offset-md-0">
+            <div class="slider--slides col-xl-6 offset-xl-1 col-lg-8 offset-lg-0 col-md-12 offset-md-0">
                 <?php foreach ($slides as $key => $slide): ?>
-                <div class="slide slide-<?= $key ?>">
-                    <div class="slide-image" data-img="<?= SITE_TEMPLATE_PATH ?>/images/slides/<?= $key ?>.jpg"></div>
-                    <div class="slide-title">
-                        <h2><?= $slide['title'] ?></h2>
+                    <div class="slide slide-<?= $key ?> <?= $slide['type'] ?>">
+                        <div class="slide-image"
+                             data-img="<?= SITE_TEMPLATE_PATH ?>/images/home/slide-<?= $key ?>.jpg"></div>
+                        <div class="slide-title">
+                            <h2><?= $slide['title'] ?></h2>
+                        </div>
+                        <div class="slide-list">
+                            <ul>
+                                <?php foreach ($slide['list'] as $item): ?>
+                                    <li>
+                                        <?= $item ?>
+                                    </li>
+                                <?php endforeach; ?>
+                            </ul>
+                        </div>
+                        <div class="slide-action">
+                            <? if ($slide['type'] == 'remote-client') { ?>
+                                <div class="title-base">
+                                    Расскажите о своих желаниях заполнив бриф, а дальше будем действовать мы!
+                                </div>
+                                <noindex>
+                                    <a class="btn"
+                                       ref="nofollow"
+                                       href="<?= LapkinLab\Core::getBriefLink() ?>"
+                                       target="_blank">
+                                        Заполнить бриф
+                                    </a>
+                                </noindex>
+                            <? } else { ?>
+                                <div class="title-base">
+                                    Выявим проблемы с <br> оптимизацией сайта
+                                </div>
+                                <button class="button js-open-modal" data-action="openModal" data-modal="identify_problems">
+                                    Проверить сайт
+                                </button>
+                            <? } ?>
+                        </div>
                     </div>
-                    <div class="slide-list">
-                        <ul>
-                            <?php foreach ($slide['list'] as $item): ?>
-                            <li>
-                                <?= renderSprite('check-mark') ?>
-                                <?= $item ?>
-                            </li>
-                            <?php endforeach; ?>
-                        </ul>
-                    </div>
-                </div>
                 <?php endforeach; ?>
             </div>
-
-            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/front_slider_form.php', array(), array('SHOW_BORDER' => true)) ?>
 
             <div class="slider--navigation col-12">
                 <?php foreach ($slides as $key => $slide): ?>
-                <div class="slide-nav" data-slide="<?= $key ?>"><?= $slide['nav'] ?></div>
+                    <div class="slide-nav" data-slide="<?= $key ?>"><?= $slide['nav'] ?></div>
                 <?php endforeach; ?>
             </div>
-
         </div>
     </div>
 </div>

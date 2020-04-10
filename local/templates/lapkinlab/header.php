@@ -57,6 +57,22 @@ $asset = Asset::getInstance();
     <?php $APPLICATION->ShowHeadStrings() ?>
     <?php $APPLICATION->ShowHeadScripts() ?>
     <?php $asset->addString('<link rel="canonical" href="https://' . $_SERVER['HTTP_HOST'] . $APPLICATION->GetCurPage(false) . '">'); ?>
+    <link rel="stylesheet" href="https://<?= $_SERVER['HTTP_HOST'] . SITE_TEMPLATE_PATH ?>/home.css">
+    <style>
+        @media (max-width: 800px) {
+            .marquiz-pops__body {
+                order: 3
+            }
+            .marquiz-pops__close,
+            .marquiz-pops__close-wrapper {
+                width: 45px !important;
+            }
+
+            .marquiz-pops__icon {
+                margin-left: 5px !important;
+            }
+        }
+    </style>
 </head>
 <body class="<?= Helper::setBodyClass($APPLICATION) ?>">
 
@@ -86,20 +102,6 @@ $asset = Asset::getInstance();
             <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/header_top.php', array(), array('SHOW_BORDER' => true)) ?>
             <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/header_navigation.php', array(), array('SHOW_BORDER' => true)) ?>
         </header><!--/header-->
-
-        <?php if ($APPLICATION->GetCurDir() === '/'): ?>
-            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/front_slider.php', array(), array('SHOW_BORDER' => true)) ?>
-            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_bf.php', array(), array('SHOW_BORDER' => true)) ?>
-            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_seo.php', array(), array('SHOW_BORDER' => true)) ?>
-            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_traffic.php', array(), array('SHOW_BORDER' => true)) ?>
-            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_tarif.php', array(), array('SHOW_BORDER' => true)) ?>
-            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_complex.php', array(), array('SHOW_BORDER' => true)) ?>
-            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_cases.php', array(), array('SHOW_BORDER' => true)) ?>
-            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_love.php', array(), array('SHOW_BORDER' => true)) ?>
-            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_gifts.php', array(), array('SHOW_BORDER' => true)) ?>
-            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_reviews.php', array(), array('SHOW_BORDER' => true)) ?>
-            <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_article.php', array(), array('SHOW_BORDER' => true)) ?>
-        <?php endif; ?>
 
         <!--main-->
         <main id="main-content">

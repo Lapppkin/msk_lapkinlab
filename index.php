@@ -1,241 +1,651 @@
 <?php
-require($_SERVER["DOCUMENT_ROOT"]."/bitrix/header.php");
+require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
 $APPLICATION->SetPageProperty("title", "Заказать продвижение сайтов в Москве - SEO (СЕО) раскрутка в ТОП 10 Яндекс и Google (Гугл)");
 $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сайта под поисковые системы: цена продвижения");
-?>
 
-<div class="container">
-    <div class="row">
-        <!--содержимое-->
-        <h1 class="main--title col-12 text-center">SEO-продвижение сайтов в Москве</h1>
-        <div class="main--content col-xl-10 offset-xl-1 col-lg-12 offset-lg-0">
-            <p>Любой сайт с интересным контентом может оказаться невостребованным ввиду отсутствия поискового продвижения. Эта процедура предусматривает привлечение целевой аудитории из поисковиков посредством оптимизации сайта.</p>
-            <p>Чем выше позиции сайта в поисковой выдаче, тем на большее количество интернет-посетителей может рассчитывать его владелец. За счет этого формируется репутация бренда и лояльность клиентов. Сегодня оптимизации сайта вполне достаточно для того, что привлечь требуемое количество клиентов, не прибегая к рекламным оффлайн-кампаниям.</p>
-            <h2 class="text-center">Преимущества SEO-продвижения</h2>
-            <p>SEO-раскрутка позволяет существенно увеличить трафик сайта на долгосрочной основе. Среди других преимуществ SEO-продвижения стоит отметить:</p>
-            <ul>
-                <li>Возможность привлечения новых посетителей по цене, которая в 4 раза меньше стоимости контекстной рекламы.</li>
-                <li>Прозрачность ценообразования. Стоимость продвижения четко фиксируется в клиентском соглашении. А вот стоимость контекстной рекламы зависит от конкурентной среды.</li>
-                <li>Широкий обхват аудитории. Пользователи находят интересующую информацию на сайте благодаря ключевым словам, составляющим семантическое ядро.</li>
-            </ul>
-            <p>SEO-раскрутка сайта способна обеспечить плавное увеличение конверсии и наращивание прибыли благодаря попаданию в топ поисковой выдачи. А необходимый результат гарантирует комплексный подход, предусматривающий использование контекстной рекламы и поисковой оптимизации.</p>
-            <h2 class="text-center">Цена СЕО-продвижения в Москве</h2>
-            <p>В стоимость продвижения входит формирование ссылочной массы, а также оплата работы специальных сервисов, программистов, СЕО-оптимизаторов и копирайтеров.</p>
-            <p>Окончательная стоимость определяется на основании выполненного аудита сайта и выбранной стратегии. Для расчета конечной цены, нам нужно знать какой именно результат вас интересует и в какие сроки вы планируете его получить.</p>
-            <p>На стоимость раскрутки влияет:</p>
-            <ul>
-                <li>структура ресурса;</li>
-                <li>сложности, возникающие в процессе подготовки;</li>
-                <li>конкурентная среда;</li>
-                <li>цели заказчика;</li>
-                <li>регион продвижения.</li>
-            </ul>
-            <h2 class="text-center">Почему оптимизацию стоит заказать в LapkinLab</h2>
-            <ul>
-                <li>Комплексный подход. Наши специалисты используют все возможные инструменты, которые позволят продвинуть в топ конкретный ресурс.</li>
-                <li>Безопасность. Мы используем исключительно санкционированные способы оптимизации. Наши клиенты могут не переживать о возможном бане от поисковиков.</li>
-                <li>Эффективность. Мы применяем эффективные стратегии, которые уже давали необходимый результат в конкретной тематике.</li>
-                <li>Доступность. Мы гарантируем прозрачное ценообразование без скрытых платежей. Вы платите только за те услуги, которые реально помогут вашему сайту попасть в топ.</li>
-                <li>Профессиональная поддержка. Все клиенты нашей компании могут рассчитывать на постоянную поддержку специалистов: с этапа согласования целей и до оценки полученного результата.</li>
-            </ul>
-            <p>Если вам интересны наши предложения, <a href="tel:88003010019">звоните нам прямо сейчас</a>. Мы всегда открыты к сотрудничеству!</p>
+$asset = Bitrix\Main\Page\Asset::getInstance();
+$asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
+?>
+<link rel="stylesheet" href="https://<?= $_SERVER['HTTP_HOST'] . SITE_TEMPLATE_PATH ?>/home.css">
+
+<?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/front_slider.php', array(), array('SHOW_BORDER' => true)) ?>
+
+<?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_bf.php', array(), array('SHOW_BORDER' => true)) ?>
+
+<div class="info-section-list info-section-list--suitable-seo">
+    <div class="container">
+        <div class="info-section-list__header row">
+            <div class="col-12">
+                <div class="title-base">
+                    Кому подходит SEO
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row info-section-list__items">
+            <div class="col-lg-4 col-md-6">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/suitable-seo-1.png">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Интернет-магазинам
+                        </div>
+                        <div class="info-section-list-item__description">
+                            Приводим целевой трафик, делаем из посетителя покупателя
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/suitable-seo-2.png">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Бизнес сайтам
+                        </div>
+                        <div class="info-section-list-item__description">
+                            Увеличиваем узнаваемость бренда, привлекаем новых клиентов
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/suitable-seo-3.png">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Для сферы услуг
+                        </div>
+                        <div class="info-section-list-item__description">
+                            Превращаем сайт в инструмент конверсии, наращиваем поток заявок
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
 
-<?/*
-<section class="six">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p class="title">Разрабатываем индивидуальный план продвижения для<br> каждого клиента</p>
-            </div>
+<?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_traffic.php', array(), array('SHOW_BORDER' => true)) ?>
 
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-md-3 tabs" data-id="1">
-                        1-ый месяц
-                    </div>
-                    <div class="col-md-3 tabs active_t" data-id="2">
-                        2-ой месяц
-                    </div>
-                    <div class="col-md-3 tabs" data-id="3">
-                        6-ой месяц
-                    </div>
-                    <div class="col-md-3 tabs" data-id="4">
-                        12-ый месяц
-                    </div>
+<div class="info-section-list info-section-list--seo-moskow">
+    <div class="container">
+        <div class="info-section-list__header row">
+            <div class="col-12">
+                <div class="title-base">
+                    Цена СЕО-продвижения в Москве
                 </div>
-                <div class="row">
-                    <div class="col-md-12 tabk active_tan" id="ff1">
-                        <ul class="nummmm">
-                            <li>Аналитические работы по оценке тематики и сайтов конкурентов</li>
-                            <li>Составление широкого семантического ядра проекта</li>
-                            <li>Оценка и доработки структуры сайта</li>
-                            <li>Оценка юзабилити сайта и рекомендации по его улучшению</li>
-                            <li>Разработка стратегии линк-билдинга</li>
-                            <li>Работы по оптимизации контента, создание новых посадочных страниц при необходимости</li>
-                            <li>Создание и реализация схемы внутренней перелинковки</li>
-                            <li>Аналитика динамики позиций и трафика сайта, создание плана продвижения на следующий месяц</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12 tabk active_ta" id="ff2">
-                        <ul class="nummmm">
-                            <li>Продолжение работ по контентной оптимизации сайта. Подготовка очередной партии текстов. Их согласование с заказчиком и внесение на сайт.</li>
-                            <li>Продолжение работ по работе с посадочными страницами и их оптимизацией (теги, мета-теги).</li>
-                            <li>Рекомендации по созданию новых страниц со статьями.</li>
-                            <li>Продолжение работ по внешней оптимизации сайта согласно утвержденной стратегии.</li>
-                            <li>Анализ данных систем веб-аналитики.</li>
-                            <li>Разработка общих рекомендаций по развитию сайта. Их согласование с заказчиком и внедрение на сайт.</li>
-                            <li>Разработка общих рекомендаций по коммерческим факторам сайта. Их согласование с заказчиком и внедрение на сайт.</li>
-                            <li>Проведение тестирования юзабилити сайта.</li>
-                            <li>Определение проблемных зон юзабилити сайта.</li>
-                            <li>Разработка и реализация рекомендаций по улучшению юзабилити сайта. Их согласование с заказчиком и внедрение на сайт.</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12 tabk active_tan" id="ff3">
-                        <ul class="nummmm">
-                            <li>Промежуточный технический аудит</li>
-                            <li>Промежуточная проверка уникальности контента </li>
-                            <li>Конкурентный анализ и выработка рекомендаций по развитию сайта</li>
-                            <li>Расширение семантического ядра (при необходимости)</li>
-                            <li>Создание дополнительных входных страниц (при необходимости)</li>
-                            <li>Продолжение работ по наращиванию ссылочной массы</li>
-                            <li>Проверка сайта на фильтры и санкции со стороны поисковых систем</li>
-                            <li>Работы по контентной оптимизации сайта</li>
-                            <li>Оценка структуры сайта, доработки в случае необходимости</li>
-                            <li>Анализ достигнутых результатов, постановка целей на следующий квартал</li>
-                        </ul>
-                    </div>
-                    <div class="col-md-12 tabk active_tan" id="ff4">
-                        <ul class="nummmm">
-                            <li>Анализ достигнутых за год результатов</li>
-                            <li>Корректировка стратегии продвижения (при необходимости)</li>
-                            <li>Актуализация семантического ядра</li>
-                            <li>Анализ конкурентной среды</li>
-                            <li>Разработка рекомендаций по доработке</li>
-                            <li>Тестирование юзабилити и поиск «слабых» мест сайта</li>
-                            <li>Промежуточный технический аудит сайта</li>
-                            <li>Создание новых посадочных страниц (при необходимости)</li>
-                            <li>Продолжение работ по контентной оптимизации сайта.</li>
-                            <li>Анализ динамики трафика и позиций ресурса в поисковой выдаче</li>
-                        </ul>
-                    </div>
+            </div>
+            <div class="col-12">
+                <div class="info-section-list__description">
+                    <p>
+                        В стоимость продвижения входит оплата работы специальных сервисов, программистов,
+                        СЕО-оптимизаторов
+                        и копирайтеров, а так же, при необходимости, формирование естественной ссылочной массы.
+                    </p>
+                    <p>
+                        Окончательная стоимость определяется на основании выполненного аудита сайта и выбранной
+                        стратегии.
+                        Для расчета конечной цены, нам нужно знать какой именно результат вас интересует и в какие сроки
+                        вы
+                        планируете его получить.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
-</section>
-
-<section class="seven">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <p class="title_wh">Наши кейсы</p>
+        <div class="row info-section-list__sub-title">
+            <div class="col-12">
+                <div class="title-base">
+                    На стоимость раскрутки влияет:
+                </div>
             </div>
-            <div class="col-md-12">
-                <div class="row">
-                    <div class="col-sm-12 col-xs-12 col-md-4 Ktabs Kactive_t" data-id="1" id="Kta1">
-                        Фабрика штор на ткацкой
+        </div>
+        <div class="row info-section-list__items">
+            <div class="col-xl-2 col-md-4 col-sm-2">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/promotion-price-1.svg">
                     </div>
-                    <div class="col-sm-12 col-xs-12 col-md-4 Ktabs" data-id="2" id="Kta2">
-                        Медицинская компания
-                    </div>
-                    <div class="col-sm-12 col-xs-12 col-md-4 Ktabs" data-id="3" id="Kta3">
-                        Кредитный брокер
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Структура ресурса
+                        </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-12 Ktabk Kactive_ta" id="Kff1">
-                        <p class="ttt">Интернет-магазин по продаже  штор, карнизов и сопутствующих товаров</p>
-                        <div class="col-md-4 cccd" style="padding:0px; margin:0px;">
-                            <p class="ccc">Задача</p>
-                            Организация полного цикла продаж через интернет. Поставлена цель по ежемесячному объему продаж
-                        </div>
-                        <div class="col-md-8 cccd" style="padding:0px; margin:0px;">
-                            <p class="ccc">Результат</p>
-                            Цели достигнуты в полном объеме. Сайт постоянно обновляется. За счет контекстной рекламы достигнута посещаемость 20 000 уникальных посетителей в месяц. Более 85% фраз в ТОП10.
-                        </div>
-                        <div style="width: 100%; height: 20px; clear: both"></div>
-                        <div class="col-md-8 imgkeq">
-                            <img src="/local/templates/new_design/assests/shatura4.png">
-                        </div>
-                        <div class="col-md-4 imgkeq">
-                            <img src="/local/templates/new_design/assests/shatura5.png">
-                        </div>
+            </div>
 
-                        <div style="width: 100%; height: 20px; clear: both"></div>
-                        <p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
-
-                        <div class="col-md-6 navlef navar" data-id="3"> <img src="/local/templates/new_design/assests/left.png">Предыдущий кейс </div>
-                        <div class="col-md-6 navrig navar" data-id="2"> Следующий кейс<img src="/local/templates/new_design/assests/right.png"> </div>
-
-                        <div class="col-md-12" style="text-align: center; margin: 0 auto;">
-                            <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'zakaz'); return true;">Заказать услугу</a>
+            <div class="col-xl-2 col-md-4 col-sm-2">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/promotion-price-2.svg">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Цели заказчика
                         </div>
                     </div>
-                    <div class="col-md-12 Ktabk Kactive_tan" id="Kff2">
-                        <p class="ttt">Срок: Март 2017 - Декабрь 2018</p>
-                        <div class="col-md-4 cccd" style="padding:0px; margin:0px; margin-right: 10px; width: calc(33.33% - 10px)">
-                            <p class="ccc">Задача</p>
-                            Продвинуть сайт с нуля, добиться получения от 100 заявок на оформление медицинских книжек в месяц
-                        </div>
-                        <div class="col-md-8 cccd" style="padding:0px; margin:0px;">
-                            <p class="ccc">Результат</p>
-                            98% фраз находятся в ТОП-10, в среднем 6-7 тыс. уникальных посетителей в месяц, 215 заявок через форму обратной связи, около 700 обращений по телефону
-                        </div>
-                        <div style="width: 100%; height: 20px; clear: both"></div>
-                        <div class="col-md-8 imgkeq">
-                            <img src="/local/templates/new_design/assests/013/m1.jpg" style="height: 280px;">
-                        </div>
-                        <div class="col-md-4 imgkeq">
-                            <img src="/local/templates/new_design/assests/013/m2.jpg">
-                        </div>
+                </div>
+            </div>
 
-                        <div style="width: 100%; height: 20px; clear: both"></div>
-                        <p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
-
-                        <div class="col-md-6 navlef navar" data-id="1"> <img src="/local/templates/new_design/assests/left.png">Предыдущий кейс </div>
-                        <div class="col-md-6 navrig navar" data-id="3"> Следующий кейс<img src="/local/templates/new_design/assests/right.png"> </div>
-
-                        <div class="col-md-12" style="text-align: center; margin: 0 auto;">
-                            <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'zakaz'); return true;">Заказать услугу</a>
+            <div class="col-xl-2 col-md-4 col-sm-2">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/promotion-price-3.svg">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Конкурентная среда
                         </div>
                     </div>
-                    <div class="col-md-12 Ktabk Kactive_tan" id="Kff3">
-                        <p class="ttt">Срок: Сентябрь 2018 - Декабрь 2018</p>
-                        <div class="col-md-4 cccd" style="padding:0px; margin:0px; margin-right: 10px; width: calc(33.33% - 10px)">
-                            <p class="ccc">Задача</p>
-                            Продвинуть сайт с нуля до топовых позиций по региону
-                        </div>
-                        <div class="col-md-8 cccd" style="padding:0px; margin:0px;">
-                            <p class="ccc">Результат</p>
-                            Посещаемость сайта выросла до 150 уникальных посетителей в месяц, более 50% фраз в ТОП10.
-                        </div>
-                        <div style="width: 100%; height: 20px; clear: both"></div>
-                        <div class="col-md-8 imgkeq">
-                            <img src="/local/templates/new_design/assests/013/t1.jpg" style="height: 280px;">
-                        </div>
-                        <div class="col-md-4 imgkeq">
-                            <img src="/local/templates/new_design/assests/013/t2.jpg">
-                        </div>
+                </div>
+            </div>
 
-                        <div style="width: 100%; height: 20px; clear: both"></div>
-                        <p class="cccd">Продвижение в поисковых системах Яндекс и Google</p>
+            <div class="col-xl-2 col-md-4 col-sm-2">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/promotion-price-4.svg">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Регион продвижения
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-                        <div class="col-md-6 navlef navar" data-id="2"> <img src="/local/templates/new_design/assests/left.png">Предыдущий кейс </div>
-                        <div class="col-md-6 navrig navar" data-id="1"> Следующий кейс<img src="/local/templates/new_design/assests/right.png"> </div>
-
-                        <div class="col-md-12" style="text-align: center; margin: 0 auto;">
-                            <a class="tm_pb_button" href="#win1" onclick="ym(45994323, 'reachGoal', 'zakaz'); return true;">Заказать услугу</a>
+            <div class="col-xl-2 col-md-4 col-sm-2">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/promotion-price-5.svg">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Сложности в подготовке
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-</section>
-*/?>
+</div>
 
-<?require($_SERVER["DOCUMENT_ROOT"]."/bitrix/footer.php");?>
+<?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_tarif.php', array(), array('SHOW_BORDER' => true)) ?>
+
+
+<?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_complex_tariff.php', array(), array('SHOW_BORDER' => true)) ?>
+
+<div class="info-section-list info-section-list--integrated-approach">
+    <div class="container">
+        <div class="info-section-list__header row">
+            <div class="col-12">
+                <div class="title-base">
+                    Используем комплексный подход
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/integrated-approach-1.png">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Анализ конкурентов
+                        </div>
+                        <div class="info-section-list-item__description">
+                            Изучение тематики, анализ конкурентов и методов их продвижения
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/integrated-approach-2.png">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Разработка стратегии
+                        </div>
+                        <div class="info-section-list-item__description">
+                            Создание эффективной SEO-стратегии, ведущей к достижению ТОПа
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/integrated-approach-3.png">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Оптимизация сайта
+                        </div>
+                        <div class="info-section-list-item__description">
+                            Проведение работ по внешней и внутренней оптимизации сайта
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/integrated-approach-4.png">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Прозрачная отчетность
+                        </div>
+                        <div class="info-section-list-item__description">
+                            Отчетность о результатах проведения работ и обо всех рабочих процессах по проекту
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_cases_new.php', array(), array('SHOW_BORDER' => true)) ?>
+
+
+<div class="info-section-list info-section-list--his-business">
+    <div class="container">
+        <div class="info-section-list__header row">
+            <div class="col-12">
+                <div class="title-base">
+                    Мы любим свое дело
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="his-business-text">
+                    <div class="title-base">
+                        Фиксированные цены
+                    </div>
+                    <p>
+                        Все цены указаны на сайте – не надо ждать обсчета. Цена не меняется от конкуренции, количества
+                        ключевых слов и т.п. Кроме того, в каждый пакет уже заложена скидка до 56% – потому что «оптом
+                        дешевле».
+                    </p>
+                    <div class="title-base">
+                        Без мук выбора
+                    </div>
+                    <p>
+                        Вам не придется выбирать «продвижение по трафику, позициям или за лид». Работаем по западной
+                        модели ценообразования – оплата за конкретные работы. Результаты получаются одинаковые, а
+                        бешеные накрутки за гарантию отсутствуют.
+                    </p>
+                    <div class="title-base">
+                        Работаем удаленно
+                    </div>
+                    <ul>
+                        <li>
+                            Мы не тратим ваши деньги на аренду своих помещений
+                        </li>
+                        <li>
+                            Мы воплощаем ваши стратегии и упаковываем ваши проекты в любом городе, в любом часовом поясе
+                            и в удобное для вас время
+                        </li>
+                        <li>
+                            Мы не отвлекаемся, не болеем и работаем эффективнее офисного сотрудника
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="his-business-merits">
+                    <div class="his-business-merits__list">
+                        <div class="his-business-merit">
+                            <div class="his-business-merit__icon">
+                                <i class="lapicon lapicon-bitrix-full "></i>
+                            </div>
+                            <span>
+                                Сертифицированный партнер 1C-Битрикс
+                            </span>
+                        </div>
+                        <div class="his-business-merit">
+                            <div class="his-business-merit__icon">
+                                <i class="lapicon lapicon-olive "></i>
+                                <span class="his-business-merit__value">40</span>
+                            </div>
+                            <span>
+                                Входим в TOP40 seo студий
+                            </span>
+                        </div>
+                    </div>
+                    <div class="title-base">
+                        Познакомимся?
+                    </div>
+                    <a class="btn"
+                       href="<?= LapkinLab\Core::getBriefLink() ?>"
+                       target="_blank">Заполнить бриф</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="info-section-list info-section-list--client-gift">
+    <div class="container">
+        <div class="info-section-list__header row">
+            <div class="col-12">
+                <div class="title-base">
+                    Подарки и скидки для наших клиентов
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-4 col-lg-6">
+                <div class="client-gift">
+                    <div class="client-gift__value">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/client-gift-1.svg">
+                    </div>
+                    <div class="client-gift__content">
+                        <div class="client-gift__title">
+                            Скидка 15% за комплекс
+                        </div>
+                        <div class="client-gift__description">
+                            При заказе SEO и контекстной рекламы одновременно - делаем скидку 15%
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6">
+                <div class="client-gift">
+                    <div class="client-gift__value">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/client-gift-2.svg">
+                    </div>
+                    <div class="client-gift__content">
+                        <div class="client-gift__title">
+                            До 20% за доверие
+                        </div>
+                        <div class="client-gift__description">
+                            Если вы оплачиваете сразу 3, 6 или 12 месяцев работ, мы дарим вам скидку 10, 15 или 20%
+                            соответственно
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xl-4 col-lg-6">
+                <div class="client-gift">
+                    <div class="client-gift__value">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/client-gift-3.svg">
+                    </div>
+                    <div class="client-gift__content">
+                        <div class="client-gift__title">
+                            5 000 руб. за скорость
+                        </div>
+                        <div class="client-gift__description">
+                            При подписании договора в течении недели после презентации коммерческого предложения даем
+                            скидку 5 000 рублей
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_reviews.php', array(), array('SHOW_BORDER' => true)) ?>
+
+<?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_article.php', array(), array('SHOW_BORDER' => true)) ?>
+
+<div class="info-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="title-base">
+                    SEO-продвижение сайтов в Москве
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="info-section__image col-lg-6 col-md-12">
+                <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/seo-text.png">
+            </div>
+            <div class="info-section__text col-lg-6 col-md-12">
+                <p>
+                    Любой сайт с интересным контентом может оказаться невостребованным ввиду отсутствия поискового
+                    продвижения. Эта процедура предусматривает привлечение целевой аудитории из поисковиков посредством
+                    оптимизации сайта.
+                </p>
+                <p>
+                    Чем выше позиции сайта в поисковой выдаче, тем на большее количество интернет-посетителей может
+                    рассчитывать его владелец. За счет этого формируется репутация бренда и лояльность клиентов. Сегодня
+                    оптимизации сайта вполне достаточно для того, что привлечь требуемое количество клиентов, не
+                    прибегая к
+                    рекламным оффлайн-кампаниям.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="info-section-list info-section-list--home-seo">
+    <div class="container">
+        <div class="info-section-list__header row">
+            <div class="col-12">
+                <div class="title-base">
+                    Преимущества SEO-продвижения
+                </div>
+            </div>
+            <div class="col-12">
+                <div class="info-section-list__description">
+                    SEO-раскрутка позволяет существенно увеличить трафик сайта на долгосрочной основе. Среди других
+                    преимуществ SEO-продвижения стоит отметить:
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-3 col-md-6">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/advantages-seo-1.svg">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Низкая стоимость
+                        </div>
+                        <div class="info-section-list-item__description">
+                            Возможность привлечения новых посетителей по цене, которая в 4 раза меньше стоимости
+                            контекстной рекламы.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/advantages-seo-2.svg">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Прозрачность ценообразования
+                        </div>
+                        <div class="info-section-list-item__description">
+                            Стоимость продвижения четко фиксируется в клиентском соглашении. А вот стоимость контекстной
+                            рекламы зависит от конкурентной среды.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/advantages-seo-3.svg">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Широкий обхват аудитории
+                        </div>
+                        <div class="info-section-list-item__description">
+                            Пользователи находят интересующую информацию на сайте благодаря ключевым словам,
+                            составляющим семантическое ядро.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xl-3 col-md-6">
+                <div class="info-section-list-item">
+                    <div class="info-section-list-item__image">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/advantages-seo-4.svg">
+                    </div>
+                    <div class="info-section-list-item__content">
+                        <div class="info-section-list-item__title">
+                            Работа на удаленной основе
+                        </div>
+                        <div class="info-section-list-item__description">
+                            Контролируйте процессы и получайте быстрые ответы от команды профессионалов со всей России
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="col-12">
+            <div class="info-section-list__description info-section-list__description--bottom">
+                SEO-раскрутка сайта способна обеспечить плавное увеличение конверсии и наращивание прибыли благодаря
+                попаданию в топ поисковой выдачи. А необходимый результат гарантирует комплексный подход,
+                предусматривающий использование контекстной рекламы и поисковой оптимизации.
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="info-section info-section--seo-optimization">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="title-base">
+                    Почему оптимизацию и seo продвижение <br> стоит заказать в Lapkinlab
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="info-section__image col-lg-6 col-md-12">
+                <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/seo-optimization-full.png">
+                <div class="title-base">
+                    Если вам интересны наши предложения, мы всегда открыты к сотрудничеству!
+                </div>
+                <button class="button js-open-modal" data-action="openModal" data-modal="identify_problems">
+                    Заказать оптимизацию
+                </button>
+            </div>
+            <div class="info-section__text col-lg-6 col-md-12">
+                <div class="seo-optimizations">
+                    <div class="seo-optimization">
+                        <div class="seo-optimization__img">
+                            <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/seo-optimization-1.svg">
+                        </div>
+                        <div class="seo-optimization__content">
+                            <div class="seo-optimization__title">
+                                Комплексный подход
+                            </div>
+                            <div class="seo-optimization__text">
+                                Наши специалисты используют все возможные инструменты, которые позволят продвинуть в топ
+                                конкретный ресурс.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="seo-optimization">
+                        <div class="seo-optimization__img">
+                            <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/seo-optimization-2.svg">
+                        </div>
+                        <div class="seo-optimization__content">
+                            <div class="seo-optimization__title">
+                                Безопасность
+                            </div>
+                            <div class="seo-optimization__text">
+                                Мы используем исключительно санкционированные способы оптимизации. Наши клиенты могут не
+                                переживать о возможном бане от поисковиков.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="seo-optimization">
+                        <div class="seo-optimization__img">
+                            <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/seo-optimization-3.svg">
+                        </div>
+                        <div class="seo-optimization__content">
+                            <div class="seo-optimization__title">
+                                Доступность
+                            </div>
+                            <div class="seo-optimization__text">
+                                Мы гарантируем прозрачное ценообразование без скрытых платежей. Вы платите только за те
+                                услуги, которые реально помогут вашему сайту попасть в топ.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="seo-optimization">
+                        <div class="seo-optimization__img">
+                            <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/seo-optimization-4.svg">
+                        </div>
+                        <div class="seo-optimization__content">
+                            <div class="seo-optimization__title">
+                                Эффективность
+                            </div>
+                            <div class="seo-optimization__text">
+                                Мы применяем эффективные стратегии, которые уже давали необходимый результат в
+                                конкретной
+                                тематике.
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="seo-optimization">
+                        <div class="seo-optimization__img">
+                            <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/seo-optimization-5.svg">
+                        </div>
+                        <div class="seo-optimization__content">
+                            <div class="seo-optimization__title">
+                                Профессиональная поддержка
+                            </div>
+                            <div class="seo-optimization__text">
+                                Все клиенты нашей компании могут рассчитывать на постоянную поддержку специалистов: с
+                                этапа
+                                согласования целей и до оценки полученного результата.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<? require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

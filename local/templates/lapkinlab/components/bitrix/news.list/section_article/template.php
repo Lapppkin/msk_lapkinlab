@@ -41,10 +41,13 @@ $this->setFrameMode(true);
         </div>
         <?endif;?>
         <div class="section--article--item-info">
-            <?if($arParams["DISPLAY_DATE"]!="N" && $arItem["TIMESTAMP_X"]):?>
-            <div class="section--article--item-info--date"><?=$arItem["TIMESTAMP_X"]?></div>
+            <?if($arParams["DISPLAY_DATE"]!="N" && $arItem["TIMESTAMP_X"]):
+                $stmp = MakeTimeStamp($arItem["TIMESTAMP_X"], "DD.MM.YYYY HH:MI:SS");
+                $renderDate = date("d.m.Y ", $stmp);
+                ?>
+            <div class="section--article--item-info--date"><?=$renderDate?></div>
             <?endif;?>
-            <div class="section--article--item-info--type">Статьи</div>
+            <a href="<?=$arItem["DETAIL_PAGE_URL"]?>" class="section--article--item-info--type">подробнее</a>
         </div>
     </article>
 <?endforeach;?>

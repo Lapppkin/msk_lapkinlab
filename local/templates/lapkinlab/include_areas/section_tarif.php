@@ -16,7 +16,7 @@
             </div>
             <div class="section--tarif--prices">
                 <div class="section--tarif--labels">
-                    <div class="tarif-title">Основной состав работ</div>
+                    <div class="tarif-title">Наименование услуг</div>
                     <div class="tarif-label">SEO-аудит</div>
                     <div class="tarif-label">Составление семантического ядра</div>
                     <div class="tarif-label">Составление плана работ по развитию сайта</div>
@@ -32,7 +32,6 @@
                     <div class="tarif-label">Базовые рекомендации по оптимизации сайта</div>
                     <div class="tarif-label">Написание текстов для продвигаемых страниц</div>
                     <div class="tarif-label">Базовая отчётность</div>
-                    <div class="tarif-label ext js-tarif-ext">еще 19 видов работ...</div>
                     <div class="tarif-label">Расширенное ТЗ на поисковую оптимизацию сайта</div>
                     <div class="tarif-label">Расширенная ежемесячная отчётность</div>
                     <div class="tarif-label">Настройка систем аналитики Яндекс.Метрика и Google Analytics</div>
@@ -55,51 +54,7 @@
                 </div>
                 <div class="section--tarif--types">
                     <div class="section--tarif--types-wrapper">
-                        <div class="section--tarif--type section--tarif--type-minimal">
-                            <div class="tarif-title">
-                                <h3>Минимальный</h3>
-                                <p>Для новых сайтов и стартапов</p>
-                            </div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status ext js-tarif-ext"><?= renderSprite('right-arrow') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
-                            <div class="tarif-price"><span class="price">от 15&nbsp;000 руб.</span>
-                                <button class="btn-sm js-open-modal" data-action="openModal" data-modal="tarifs" data-tarif="minimal">Выбрать</button>
-                            </div>
-                        </div>
-                        <div class="section--tarif--type section--tarif--type-standard">
+                        <div class="section--tarif--type section--tarif--type--not-bg section--tarif--type-standard">
                             <div class="tarif-title">
                                 <h3>Стандартный</h3>
                                 <p>Лучшее предложение</p>
@@ -119,7 +74,6 @@
                             <div class="tarif-status"><?= renderSprite('enable') ?></div>
                             <div class="tarif-status"><?= renderSprite('enable') ?></div>
                             <div class="tarif-status"><?= renderSprite('enable') ?></div>
-                            <div class="tarif-status ext js-tarif-ext"><?= renderSprite('right-arrow') ?></div>
                             <div class="tarif-status"><?= renderSprite('enable') ?></div>
                             <div class="tarif-status"><?= renderSprite('enable') ?></div>
                             <div class="tarif-status"><?= renderSprite('enable') ?></div>
@@ -143,6 +97,49 @@
                                 <button class="btn-sm js-open-modal" data-action="openModal" data-modal="tarifs" data-tarif="standard">Выбрать</button>
                             </div>
                         </div>
+                        <div class="section--tarif--type section--tarif--type-minimal">
+                            <div class="tarif-title">
+                                <h3>Минимальный</h3>
+                                <p>Для новых сайтов и стартапов</p>
+                            </div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-status"><?= renderSprite('disable') ?></div>
+                            <div class="tarif-price"><span class="price">от 15&nbsp;000 руб.</span>
+                                <button class="btn-sm js-open-modal" data-action="openModal" data-modal="tarifs" data-tarif="minimal">Выбрать</button>
+                            </div>
+                        </div>
                         <div class="section--tarif--type section--tarif--type-extended">
                     <div class="tarif-title">
                         <h3>Расширенный</h3>
@@ -163,7 +160,6 @@
                     <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
                     <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
                     <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
-                    <div class="tarif-status ext js-tarif-ext"><?= renderSprite('right-arrow') ?></div>
                     <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
                     <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
                     <div class="tarif-status"><?= renderSprite('enable-white') ?></div>
