@@ -125,3 +125,9 @@ var stocksModal = {
 }
 
 stocksModal.init()
+
+
+if ($(window).width() > 992) {
+  $('.js-tilt-block').tilt()
+}
+

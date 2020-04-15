@@ -49,6 +49,7 @@ $asset = Asset::getInstance();
     <?php $scripts = array(
         '/js/vendor.app.min.js',
         '/js/app.min.js',
+        '/js/tilt.jquery.min.js',
     );
     foreach ($scripts as $script) {
         $asset->addJs(SITE_TEMPLATE_PATH . $script);

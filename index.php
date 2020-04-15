@@ -29,7 +29,7 @@ $asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
             <div class="col-lg-4 col-md-6">
                 <div class="info-section-list-item">
                     <div class="info-section-list-item__image">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/suitable-seo-1.png">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/suitable-seo-1.png" class="js-tilt-block">
                     </div>
                     <div class="info-section-list-item__content">
                         <div class="info-section-list-item__title">
@@ -45,7 +45,7 @@ $asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
             <div class="col-lg-4 col-md-6">
                 <div class="info-section-list-item">
                     <div class="info-section-list-item__image">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/suitable-seo-2.png">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/suitable-seo-2.png" class="js-tilt-block">
                     </div>
                     <div class="info-section-list-item__content">
                         <div class="info-section-list-item__title">
@@ -61,7 +61,7 @@ $asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
             <div class="col-lg-4 col-md-6">
                 <div class="info-section-list-item">
                     <div class="info-section-list-item__image">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/suitable-seo-3.png">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/suitable-seo-3.png" class="js-tilt-block">
                     </div>
                     <div class="info-section-list-item__content">
                         <div class="info-section-list-item__title">
@@ -202,7 +202,7 @@ $asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
             <div class="col-md-6">
                 <div class="info-section-list-item">
                     <div class="info-section-list-item__image">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/integrated-approach-1.png">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/integrated-approach-1.png" class="js-tilt-block">
                     </div>
                     <div class="info-section-list-item__content">
                         <div class="info-section-list-item__title">
@@ -217,7 +217,7 @@ $asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
             <div class="col-md-6">
                 <div class="info-section-list-item">
                     <div class="info-section-list-item__image">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/integrated-approach-2.png">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/integrated-approach-2.png" class="js-tilt-block">
                     </div>
                     <div class="info-section-list-item__content">
                         <div class="info-section-list-item__title">
@@ -232,7 +232,7 @@ $asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
             <div class="col-md-6">
                 <div class="info-section-list-item">
                     <div class="info-section-list-item__image">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/integrated-approach-3.png">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/integrated-approach-3.png" class="js-tilt-block">
                     </div>
                     <div class="info-section-list-item__content">
                         <div class="info-section-list-item__title">
@@ -247,7 +247,7 @@ $asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
             <div class="col-md-6">
                 <div class="info-section-list-item">
                     <div class="info-section-list-item__image">
-                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/integrated-approach-4.png">
+                        <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/integrated-approach-4.png" class="js-tilt-block">
                     </div>
                     <div class="info-section-list-item__content">
                         <div class="info-section-list-item__title">
@@ -560,7 +560,7 @@ $asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
     <div class="container">
         <div class="row">
             <div class="info-section__image col-lg-6 col-md-12">
-                <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/seo-optimization-full.png">
+                <img src="<?= SITE_TEMPLATE_PATH ?>/images/home/seo-optimization-full.png" class="js-tilt-block">
                 <div class="title-base">
                     Если вам интересны наши предложения, мы всегда открыты к сотрудничеству!
                 </div>
