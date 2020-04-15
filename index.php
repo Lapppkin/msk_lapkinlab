@@ -1,6 +1,7 @@
 <?php
 require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/header.php");
-$APPLICATION->SetPageProperty("title", "Заказать продвижение сайтов в Москве - SEO (СЕО) раскрутка в ТОП 10 Яндекс и Google (Гугл)");
+$APPLICATION->SetPageProperty("Description", "Заказать SEO продвижение сайтов в Москве. Цены на раскрутку и поисковую оптимизацию в Яндексе и Google. Быстрый топ 3, топ-10");
+$APPLICATION->SetPageProperty("title", "Заказать продвижение сайтов в Москве - SEO раскрутка в ТОП 10 Яндекс и Google");
 $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сайта под поисковые системы: цена продвижения");
 
@@ -419,7 +420,9 @@ $asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
         <div class="row">
             <div class="col-12">
                 <div class="title-base">
-                    SEO-продвижение сайтов в Москве
+                    <h1 class="seo-title">
+                        SEO-продвижение сайтов в Москве
+                    </h1>
                 </div>
             </div>
         </div>
