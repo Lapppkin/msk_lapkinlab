@@ -1,0 +1,14 @@
+
+
+@mixin font_face_ttf($file_name,$font_name:$file_name,$path:$font_path,$weight:normal,$style:normal)
+	@font-face
+		font-family: quote($font_name)
+		src:  url($path + $file-name + ".ttf") format("truetype")
+		font-weight: $weight
+		font-style: $style
+		font-display: fallback
+
+
++font_face_ttf("ProximaNovaRegular", "Proxima Nova", "./fonts/ProximaNovaRegular/", 400)
++font_face_ttf("ProximaNovaSemibold", "Proxima Nova", "./fonts/ProximaNovaSemibold/", 600)
++font_face_ttf("ProximaNovaBold", "Proxima Nova", "./fonts/ProximaNovaBold/", 700)

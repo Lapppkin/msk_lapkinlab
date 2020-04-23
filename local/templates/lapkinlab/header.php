@@ -28,8 +28,8 @@ $asset = Asset::getInstance();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!--styles-->
-    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&amp;display=swap&amp;subset=cyrillic-ext" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:600&amp;display=swap&amp;subset=cyrillic-ext" rel="stylesheet">
+<!--    <link href="https://fonts.googleapis.com/css?family=Didact+Gothic&amp;display=swap&amp;subset=cyrillic-ext" rel="stylesheet">-->
+<!--    <link href="https://fonts.googleapis.com/css?family=Montserrat:600&amp;display=swap&amp;subset=cyrillic-ext" rel="stylesheet">-->
     <!--favicons-->
     <link rel="apple-touch-icon" sizes="120x120" href="<?= SITE_TEMPLATE_PATH ?>/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="96x96" href="<?= SITE_TEMPLATE_PATH ?>/images/favicons/favicon-96x96.png">
@@ -58,7 +58,6 @@ $asset = Asset::getInstance();
     <?php $APPLICATION->ShowHeadStrings() ?>
     <?php $APPLICATION->ShowHeadScripts() ?>
     <?php $asset->addString('<link rel="canonical" href="https://' . $_SERVER['HTTP_HOST'] . $APPLICATION->GetCurPage(false) . '">'); ?>
-    <link rel="stylesheet" href="https://<?= $_SERVER['HTTP_HOST'] . SITE_TEMPLATE_PATH ?>/home.css">
     <style>
         @media (max-width: 800px) {
             .marquiz-pops__body {

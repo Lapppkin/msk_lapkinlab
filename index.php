@@ -8,7 +8,6 @@ $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по М�
 $asset = Bitrix\Main\Page\Asset::getInstance();
 $asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
 ?>
-<link rel="stylesheet" href="https://<?= $_SERVER['HTTP_HOST'] . SITE_TEMPLATE_PATH ?>/home.css">
 
 <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/front_slider.php', array(), array('SHOW_BORDER' => true)) ?>
 
