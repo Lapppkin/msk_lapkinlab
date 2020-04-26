@@ -6,7 +6,7 @@ $APPLICATION->SetTitle("Заказать разработку телеграмм
 $asset = Bitrix\Main\Page\Asset::getInstance();
 $asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
 $paramsForm = array(
-    'id' => 'google-adwords',
+    'id' => 'chat-bot-telegram',
     'title' => 'Подобрать оптимальное решение для вашего бизнеса ',
     'fields' => array(
         'name',
