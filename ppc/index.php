@@ -4,8 +4,8 @@ $APPLICATION->SetPageProperty("title", "Заказать настройку ко
 $APPLICATION->SetPageProperty("description", "Маркетинговое агентство LapkinLab предлагает заказать настройку и ведение контекстной рекламы в Москве и других городах &#9997;Эффективный рекламный бюджет &#9997;Плата за результат");
 $APPLICATION->SetTitle("Заказать контекстную рекламу в агентстве: стоимость настройки и ведения рекламы в Москве");
 ?>
-    <div class="page page-ppc">
-<?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_slider.php', array(), array('SHOW_BORDER' => true)) ?>
+<div class="page page-ppc">
+    <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_slider.php', array(), array('SHOW_BORDER' => true)) ?>
     <section class="ppc-main">
         <div class="container">
             <div class="row">
@@ -42,6 +42,24 @@ $APPLICATION->SetTitle("Заказать контекстную рекламу �
             </div>
         </div>
     </section>
-<?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_why.php', array(), array('SHOW_BORDER' => true)) ?><?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_format.php', array(), array('SHOW_BORDER' => true)) ?><?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_how.php', array(), array('SHOW_BORDER' => true)) ?><?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_benefit.php', array(), array('SHOW_BORDER' => true)) ?><?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_tasks.php', array(), array('SHOW_BORDER' => true)) ?><?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_prices.php', array(), array('SHOW_BORDER' => true)) ?><?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_reviews.php', array(), array('SHOW_BORDER' => true)) ?><?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_solutions.php', array(), array('SHOW_BORDER' => true)) ?><?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_cases.php', array(), array('SHOW_BORDER' => true)) ?>
-    </div>
-    <br><?php require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>
+    <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_why.php', array(), array('SHOW_BORDER' => true)) ?>
+
+    <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_format.php', array(), array('SHOW_BORDER' => true)) ?>
+
+    <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_how.php', array(), array('SHOW_BORDER' => true)) ?>
+
+    <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_benefit.php', array(), array('SHOW_BORDER' => true)) ?>
+
+    <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_tasks.php', array(), array('SHOW_BORDER' => true)) ?>
+
+    <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_prices.php', array(), array('SHOW_BORDER' => true)) ?>
+
+    <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_calculator.php', array(), array('SHOW_BORDER' => true)) ?>
+
+    <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_reviews.php', array(), array('SHOW_BORDER' => true)) ?>
+
+    <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_solutions.php', array(), array('SHOW_BORDER' => true)) ?>
+
+    <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/ppc/ppc_cases.php', array(), array('SHOW_BORDER' => true)) ?>
+</div>
+<br><?php require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

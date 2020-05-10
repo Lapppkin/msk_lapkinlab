@@ -1,0 +1,410 @@
+.page-ppc .ppc-price
+	border-bottom: none
+
+.four
+	margin-top: 60px
+	padding: 90px 0px 60px
+	background-color: #000000e6
+	background-image: url('/local/templates/lapkinlab/images/bgg.png')
+	background-repeat: no-repeat
+	background-size: cover
+
+	@media (max-width: 768px)
+		padding: 60px 0
+		margin-top: 40px
+
+		.col-sm-12.col-md-6
+			margin-bottom: 20px
+
+.h2
+	font-size: 16px
+	font-weight: 600
+
+	@media (max-width: 992px)
+		margin-top: 10px
+
+.h3
+	font-size: 24px
+	font-weight: 700
+	letter-spacing: 0.24px
+	margin-bottom: 20px
+
+	@media (max-width: 992px)
+		font-size: 19px
+
+h2.title
+	padding-bottom: 60px
+	font-size: 36px
+	line-height: 36px
+	text-align: center
+	font-weight: 700
+	color: #000
+	background: 0 0
+	margin-top: 75px
+
+	@media (max-width: 992px)
+		font-size: 30px
+
+
+#tm_builder_outer_content
+	padding-top: 70px
+	text-align: center
+
+	p
+		margin-bottom: 15px
+
+	@media (max-width: 768px)
+		padding-top: 20px
+
+#but_calc
+	text-decoration: none
+	font-weight: bold
+	text-align: center
+	position: fixed
+	left: 15px
+	bottom: 20px
+	background: #fa3a5e
+	color: #fff
+	border-radius: 15px
+	padding: 10px
+	z-index: 9990
+
+	span
+		display: none
+		-moz-transition: all 1s linear
+		-o-transition: all 1s linear
+		-webkit-transition: all 1s linear
+
+	&:hover span
+		display: block !important
+
+@media (max-width: 360px)
+
+	#but_calc
+		width: 200px
+		align-items: center
+		display: flex
+
+
+.footer_top_wrapper
+	flex-wrap: wrap
+
+.sus
+	-ms-user-select: none
+	-moz-user-select: none
+	-khtml-user-select: none
+	-webkit-user-select: none
+
+
+@media (max-width: 992px)
+
+	.four
+		display: block
+
+@media (max-width: 768px)
+
+	ul
+		width: 100%
+		margin: 0 auto
+
+	label
+		width: 100%
+
+	.mt-zero
+		margin-top: 25px
+
+@media (max-width: 580px)
+	.br-mob
+		display: block
+
+	#trigger-fill
+		margin-right: 0
+
+.calc-line
+	width: 100%
+	height: 2px
+	background-color: rgba(255, 255, 255, 0.1)
+	margin: 40px 0
+
+	@media (max-width: 768px)
+		margin: 10px 0 35px
+
+.br-mob
+	display: none
+
+.radio, .checkbox
+	border: none
+	outline: none
+
+#trigger-fill
+	background: transparent
+	border: 1px solid #fa3a5e
+	border-radius: 5px
+	color: #ffffff
+	font-size: 20px
+	font-weight: bold
+	letter-spacing: 0.22px
+	margin-bottom: 15px
+	margin-right: 15px
+	padding: 15px 30px
+	text-decoration: none
+	cursor: pointer
+
+#trigger-get
+	background: #fa3a5e
+	border: 1px solid #fa3a5e
+	border-radius: 5px
+	color: #ffffff
+	font-size: 20px
+	font-weight: bold
+	letter-spacing: 0.22px
+	margin-bottom: 15px
+	padding: 15px 30px
+	text-decoration: none
+	cursor: pointer
+
+.radio
+	vertical-align: top
+	width: 17px
+	height: 17px
+	margin: 0 5px 0 0
+	border: none
+	outline: none
+
+.sus
+	color: #fff
+
+	ul
+		width: 100%
+		padding-left: 0
+		margin-bottom: 10px
+
+	label
+		font-weight: 400
+		width: 100%
+		background-color: rgba(255, 255, 255, 0.1)
+		padding: 5px
+		padding-right: 30px !important
+		border: 1px solid rgba(255, 255, 255, 0.1)
+		transition: all 0.2s
+		font-size: 14px
+
+		&:hover
+			border: 1px solid #fa3a5e
+
+.radio
+	+ label
+		cursor: pointer
+
+	&:not(checked)
+		position: absolute
+		z-index: -1
+		opacity: 0
+		margin: 10px 0 0 7px
+		border: none !important
+		outline: none !important
+
+		+ label
+			position: relative
+			padding: 5px
+			padding: 10px
+
+			&:before
+				content: ''
+				position: absolute
+				right: 0
+				width: 25px
+				height: 50%
+				top: 10px
+				background: url('/local/templates/lapkinlab/images/kisspng-check-mark2.png')
+				background-repeat: no-repeat
+				background-size: auto
+				background-position-y: bottom
+				background-position-x: left
+				filter: grayscale(100%)
+
+			&:after
+				content: ''
+				position: absolute
+				top: 10px
+				right: 0
+				width: 25px
+				height: 50%
+				background: url('/local/templates/lapkinlab/images/kisspng-check-mark2.png')
+				background-repeat: no-repeat
+				background-size: auto
+				background-position-y: bottom
+				background-position-x: left
+				opacity: 0
+				transition: .2s
+
+	&:checked
+
+		+ label
+
+			&:after
+				opacity: 1
+
+			border: 1px solid #fa3a5e
+
+		border: none !important
+		outline: none !important
+
+
+
+.checkbox:checked
+
+	+ label
+		border: 1px solid #fa3a5e
+
+	border: none !important
+	outline: none !important
+
+
+
+.radio:focus + label:before
+	box-shadow: 0 0 0 0px rgba(255, 255, 0, 0.7)
+
+
+
+.checkbox
+	vertical-align: top
+	width: 17px
+	height: 17px
+	margin: 0 5px 0 0
+	border: none !important
+	outline: none !important
+
+	+ label
+		cursor: pointer
+
+	&:not(checked)
+		position: absolute
+		z-index: -1
+		opacity: 0
+		margin: 10px 0 0 7px
+		border: none !important
+		outline: none !important
+
+		+ label
+			position: relative
+			padding: 10px
+
+
+.checkbox
+
+	&:not(checked) + label
+
+		&:before
+			content: ''
+			position: absolute
+			right: 0
+			width: 25px
+			height: 50%
+			background: url('/local/templates/lapkinlab/images/kisspng-check-mark2.png')
+			background-repeat: no-repeat
+			background-size: auto
+			top: 10px
+			background-position-y: bottom
+			background-position-x: left
+			filter: grayscale(100%)
+
+		&:after
+			content: ''
+			position: absolute
+			right: 0
+			width: 25px
+			height: 50%
+			top: 10px
+			background: url('/local/templates/lapkinlab/images/kisspng-check-mark2.png')
+			background-repeat: no-repeat
+			background-size: auto
+			background-position-y: bottom
+			background-position-x: left
+			opacity: 0
+			transition: .2s
+
+	&:checked + label:after
+		opacity: 1
+
+	&:focus + label:before
+		box-shadow: 0 0 0 0px rgba(255, 255, 0, 0.7)
+
+
+
+.ppc-calculator-result
+	padding: 60px 0px
+	background-color: #000000e6
+	background-image: url('/local/templates/lapkinlab/images/bgg.png')
+	background-repeat: no-repeat
+	background-size: cover
+	color: #fff
+
+	&__wrapper
+		max-width: 1100px
+		margin: 0 auto
+
+	&__form
+		max-width: 400px
+		text-align: left
+
+	.lapkin-form--title
+		color: #fff
+		margin-bottom: 20px
+		font-size: 24px
+
+	.lapkin-form--fields .form-field
+		flex-basis: 100%
+		margin-bottom: 20px
+		margin: 0 0 20px
+
+	.lapkin-form--privacy
+		text-align: left
+		margin-bottom: 20px
+
+		p
+			font-size: 16px
+
+	.lapkin-form--actions
+		justify-content: flex-start
+
+	p
+		font-size: 20px
+		margin: 10px 0 10px 0
+
+	span
+		font-weight:bold
+		font-size: 20px
+		display: inline-block
+
+	#h1_itogo,
+	#h2_itogo
+		margin-bottom: 30px !important
+
+	#h1_itogo:empty,
+	#h2_itogo:empty
+		display: none
+
+	@media (max-width: 768px)
+		padding-top: 40px
+
+		&__form
+			max-width: 100%
+			margin-top: 50px
+
+		.col-sm-12.col-md-6
+			&:first-child
+				order: 3
+
+	@media (max-width: 480px)
+
+		.form-action
+			width: 100%
+
+			.button
+				width: 100%
+
+
+.ppc-calculator-selects
+	max-width: 1300px
+	margin: 0 auto
