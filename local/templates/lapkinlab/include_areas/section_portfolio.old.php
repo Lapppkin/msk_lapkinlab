@@ -1,18 +1,12 @@
-<div class="info-section info-section--sites-portfolio">
+<!--портфолио-->
+<section class="section--portfolio">
     <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="title-base">
-                    Наши работы
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="container">
-        <div class="col-12">
-            <? $APPLICATION->IncludeComponent(
+        <div class="section--portfolio--wrapper row">
+            <h2 class="section--portfolio--title col-12 text-center">Наши работы</h2>
+
+            <?$APPLICATION->IncludeComponent(
                 "bitrix:news.list",
-                "section-portfolio-redesign",
+                "section_portfolio",
                 array(
                     "ADD_ELEMENT_CHAIN" => "N",
                     "ADD_SECTIONS_CHAIN" => "N",
@@ -33,7 +27,7 @@
                     "DETAIL_ACTIVE_DATE_FORMAT" => "d.m.Y",
                     "DETAIL_DISPLAY_BOTTOM_PAGER" => "Y",
                     "DETAIL_DISPLAY_TOP_PAGER" => "N",
-                    "DETAIL_FIELD_CODE" => array(0 => "", 1 => "",),
+                    "DETAIL_FIELD_CODE" => array(0=>"",1=>"",),
                     "DETAIL_PAGER_SHOW_ALL" => "Y",
                     "DETAIL_PAGER_TEMPLATE" => "",
                     "DETAIL_PAGER_TITLE" => "Страница",
@@ -55,7 +49,7 @@
                     "IBLOCK_TYPE" => "content",
                     "INCLUDE_IBLOCK_INTO_CHAIN" => "N",
                     "LIST_ACTIVE_DATE_FORMAT" => "d.m.Y",
-                    "LIST_FIELD_CODE" => array(0 => "", 1 => "",),
+                    "LIST_FIELD_CODE" => array(0=>"",1=>"",),
                     "LIST_PROPERTY_CODE" => array(
                         0 => "LINK",
                         1 => "IMAGES",
@@ -85,7 +79,7 @@
                     "SEF_URL_TEMPLATES" => array(
                         "news" => "",
                         "section" => "",
-                        "detail" => "#ELEMENT_ID#-#ELEMENT_CODE#"
+                        "detail"=>"#ELEMENT_ID#-#ELEMENT_CODE#"
                     ),
                     "SET_LAST_MODIFIED" => "N",
                     "SET_STATUS_404" => "N",
@@ -105,7 +99,14 @@
                     "USE_SEARCH" => "N",
                     "USE_SHARE" => "N"
                 )
-            ); ?>
+            );?>
+
+            <?/*
+            <div class="section--portfolio--more col-12">
+                <a class="btn" href="/sites/portfolio/">Смотреть все работы</a>
+            </div>
+            */?>
+
         </div>
     </div>
-</div>
+</section>
