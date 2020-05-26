@@ -3,8 +3,6 @@ $APPLICATION->SetPageProperty("title", "Заказать разработку т
 $APPLICATION->SetPageProperty("description", "Увеличим продажи и лояльность Вашего бизнеса путём обработки клиентов через телеграм бота. Предоставляем полную статистику и сопровождение.");
 $APPLICATION->SetTitle("Заказать разработку телеграмм бота");
 
-$asset = Bitrix\Main\Page\Asset::getInstance();
-$asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
 $paramsForm = array(
     'id' => 'chat-bot-telegram',
     'title' => 'Подобрать оптимальное решение для вашего бизнеса ',

@@ -373,7 +373,6 @@ $paramsForm = array(
         </div>
     </div>
 
-
     <div class="info-section info-section--sites-included-development">
         <div class="container">
             <div class="row">
@@ -926,6 +925,8 @@ $paramsForm = array(
             </div>
         </div>
     </div>
+
+    <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_form.php', array(), array('SHOW_BORDER' => true)) ?>
 </div>
 
 <?php require($_SERVER["DOCUMENT_ROOT"] . "/bitrix/footer.php"); ?>

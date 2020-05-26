@@ -14,6 +14,13 @@ $aMenuLinks = array(
         array(),
         ''
     ),
+    array(
+        'Разработка сайтов на Битрикс',
+        '/sites/bitrix/',
+        array(),
+        array(),
+        ''
+    ),
 //	array(
 //		'Портфолио',
 //		'/sites/portfolio/',
