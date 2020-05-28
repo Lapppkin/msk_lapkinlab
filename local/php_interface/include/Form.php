@@ -198,6 +198,48 @@ BODY;
         }
     }
 
+    public function generateLeadBitrix24()
+    {
+        define('CRM_HOST', 'lapkinlab.bitrix24.ru');
+        define('CRM_PORT', '443');
+        define('CRM_PATH', '/crm/configs/import/lead.php');
+
+        define('CRM_LOGIN', 'vkorkin@lapkinlab.ru');
+        define('CRM_PASSWORD', '7Ol0hans%H1b');
+
+        $postData = [
+            'TITLE' => "Форма: {$this->form_id}",
+            'PHONE_MOBILE' => $this->phone,
+            'EMAIL_HOME' => $this->email,
+            'NAME' => $this->name,
+            'SOURCE_ID' => 'WEB',
+            'UF_CRM_1589095170671' => $this->site,
+            'COMMENTS' => $this->message,
+        ];
+
+        if (defined('CRM_AUTH')) {
+            $postData['AUTH'] = CRM_AUTH;
+        } else {
+            $postData['LOGIN'] = CRM_LOGIN;
+            $postData['PASSWORD'] = CRM_PASSWORD;
+        }
+
+        if ($fp = fsockopen("ssl://" . CRM_HOST, CRM_PORT, $errno, $errstr, 30)) {
+            $strPostData = '';
+            foreach ($postData as $key => $value)
+                $strPostData .= ($strPostData == '' ? '' : '&') . $key . '=' . urlencode($value);
+
+            $str = "POST " . CRM_PATH . " HTTP/1.0\r\n";
+            $str .= "Host: " . CRM_HOST . "\r\n";
+            $str .= "Content-Type: application/x-www-form-urlencoded\r\n";
+            $str .= "Content-Length: " . strlen($strPostData) . "\r\n";
+            $str .= "Connection: close\r\n\r\n";
+            $str .= $strPostData;
+
+            fwrite($fp, $str);
+        }
+    }
+
     /**
      * Валидация полей.
      *

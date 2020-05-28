@@ -100,6 +100,7 @@ class Ajax
         $form->createIBlockElement();
         $mail = $form->sendEmail($to);
         $amo = $form->createAmoLead();
+        $bitrix24 = $form->generateLeadBitrix24();
         return self::setResponse($response, $mail ? 200 : 500);
     }
 
