@@ -1,25 +1,18 @@
 <?
 $aMenuLinks = Array(
 	Array(
-		"О продукте",
-		"/amocrm/o-produkte/",
-		Array(),
-		Array(), 
-		"" 
-	),
-	Array(
-		"Бриф",
-		"/amocrm/brif/",
+		"amoCRM",
+		"/amocrm/",
 		Array(),
 		Array(),
 		""
 	),
-	Array(
-		"Чек-лист внедрения amoCRM",
-		"/amocrm/checklist/",
-		Array(),
-		Array(),
-		""
-	)
+    Array(
+        "Битрикс24",
+        "/bitrix24/",
+        Array(),
+        Array(),
+        ""
+    )
 );
 ?>

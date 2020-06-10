@@ -38,10 +38,12 @@ $aMenuLinks = Array(
 		""
 	),
 	Array(
-		"amoCRM",
+		"Внедрение CRM",
 		"/amocrm/",
 		Array(),
-		Array(),
+		Array(
+            'HIDE_PARENT_LINK' => 'Y'
+        ),
 		""
 	),
 	Array(
