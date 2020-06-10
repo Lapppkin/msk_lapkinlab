@@ -20,6 +20,7 @@ $paramsForm = array(
     'wrapper' => true,
 );
 ?>
+<link href="<?= SITE_TEMPLATE_PATH ?>/dev.css" rel="stylesheet" media="all"/>
 <div class="page page-ppc page--bitrix24">
     <div class="ppc-slider">
         <div class="ppc-slider-image"
@@ -1077,6 +1078,65 @@ $paramsForm = array(
                         специалистов LapkinLab достаточно для реализации даже неординарных идей! Поэтому оставляйте
                         заявки на нашем сайте или прямо сейчас звоните по указанным номерам телефона!
                     </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="info-section info-section--bitrix24-certificates">
+        <div class="container">
+            <div class="info-section-list__header row">
+                <div class="col-12">
+                    <div class="title-base">
+                        <h3 class="seo-title">Наши компетенции в Битрикс 24:</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row info-section-list__items">
+                <div class="col-md-6 col-sm-12">
+                    <div class="certificate-item">
+                        <div class="certificate-item__image">
+                            <img src="<?= SITE_TEMPLATE_PATH ?>/images/bitrix24/certificates/1.png" alt="Сертификат - Сквозная Аналитика Битрикс24">
+                        </div>
+                        <div class="info-section-list-item__title">
+                            Сквозная Аналитика Битрикс24
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="certificate-item">
+                        <div class="certificate-item__image">
+                            <img src="<?= SITE_TEMPLATE_PATH ?>/images/bitrix24/certificates/2.png" alt="Сертификат «Курс для партнеров Битрикс24 - продажи и внедрение»">
+                        </div>
+                        <div class="info-section-list-item__title">
+                            Курс для партнеров Битрикс24 - продажи и внедрение
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="certificate-item">
+                        <div class="certificate-item__image">
+                            <img src="<?= SITE_TEMPLATE_PATH ?>/images/bitrix24/certificates/3.png" alt="Сертификат «Курс менеджеров по продажам Битрикс24»">
+                        </div>
+                        <div class="info-section-list-item__title">
+                            Курс менеджеров по продажам Битрикс24
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="certificate-item">
+                        <div class="certificate-item__image">
+                            <img src="<?= SITE_TEMPLATE_PATH ?>/images/bitrix24/certificates/4.png" alt="Сертификат - CRM-Маркетинг в Битрикс24">
+                        </div>
+                        <div class="info-section-list-item__title">
+                            CRM-Маркетинг в Битрикс24
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
