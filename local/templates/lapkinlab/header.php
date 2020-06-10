@@ -72,7 +72,26 @@ $asset = Asset::getInstance();
                 margin-left: 5px !important;
             }
         }
+        @media (min-width: 1024px) {
+            #scroll-to-top {
+                right: 46px;
+                bottom: 120px;
+            }
+        }
+        @media (max-width: 500px) {
+            .bubbly-button,
+            #scroll-to-top,
+            .konverbotwidget {
+                display: none !important;
+            }
+        }
     </style>
+    <script>
+        (function(w,d,u){
+            var s=d.createElement('script');s.async=true;s.src=u+'?'+(Date.now()/60000|0);
+            var h=d.getElementsByTagName('script')[0];h.parentNode.insertBefore(s,h);
+        })(window,document,'https://cdn-ru.bitrix24.ru/b13928230/crm/tag/call.tracker.js');
+    </script>
 </head>
 <body class="<?= Helper::setBodyClass($APPLICATION) ?>">
 

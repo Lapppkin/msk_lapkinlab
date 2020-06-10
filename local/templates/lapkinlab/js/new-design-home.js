@@ -54,10 +54,6 @@ var stocksModal = {
   eventHandler: function () {
     var self = this
 
-    setTimeout(function () {
-      self.openActionModal(1)
-    }, 10000)
-
     setInterval(function () {
       self.animateButton()
     }, 3000);

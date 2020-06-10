@@ -4,11 +4,7 @@ $APPLICATION->SetPageProperty("Description", "Заказать SEO продви�
 $APPLICATION->SetPageProperty("title", "Заказать продвижение сайтов в Москве - SEO раскрутка в ТОП 10 Яндекс и Google");
 $APPLICATION->SetPageProperty("NOT_SHOW_NAV_CHAIN", "Y");
 $APPLICATION->SetTitle("SEO-продвижение сайта в ТОП по Москве, СЕО-раскрутка сайта под поисковые системы: цена продвижения");
-
-$asset = Bitrix\Main\Page\Asset::getInstance();
-$asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
 ?>
-
 <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/front_slider.php', array(), array('SHOW_BORDER' => true)) ?>
 
 <?php $APPLICATION->IncludeFile(SITE_TEMPLATE_PATH . '/include_areas/section_bf.php', array(), array('SHOW_BORDER' => true)) ?>
@@ -337,9 +333,12 @@ $asset->addJs(SITE_TEMPLATE_PATH . '/js/new-design-home.js');
                     <div class="title-base">
                         Познакомимся?
                     </div>
+                    <noindex>
                     <a class="btn"
+                       rel="nofollow"
                        href="<?= LapkinLab\Core::getBriefLink() ?>"
                        target="_blank">Заполнить бриф</a>
+                    </noindex>
                 </div>
             </div>
         </div>

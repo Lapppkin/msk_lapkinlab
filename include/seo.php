@@ -30,9 +30,6 @@
     fbq('init', '754412144956224');
     fbq('track', 'PageView');
 </script>
-<noscript>
-    <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=754412144956224&ev=PageView&noscript=1">
-</noscript>
 <!-- End Facebook Pixel Code -->
 
 <script>
@@ -54,7 +51,7 @@
 </script>
 
 <!-- Marquiz script start -->
-
+<?/*?>
 <script>
     function loadMarquiz() {
         var marquizScript = document.createElement('script');
@@ -79,5 +76,6 @@
     };
 </script>
 <!-- Marquiz script end -->
-
-<script async src="//cdn.callbackhunter.com/cbh.js?hunter_code=d2a52b897791ef4220f5e04952280447" charset="UTF-8"></script>
+<?*/?>
+<?php /*<script async src="//cdn.callbackhunter.com/cbh.js?hunter_code=d2a52b897791ef4220f5e04952280447" charset="UTF-8"></script>*/ ?>
+<script async src="https://app.konverbot.com/konverbot/konverbot-v3.js"></script>
